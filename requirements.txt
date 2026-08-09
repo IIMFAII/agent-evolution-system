@@ -1,0 +1,13 @@
+# --- Dépendances runtime (volontairement légères : tout est gratuit) ---
+# Bornes basses = fonctionnalités requises ; bornes hautes = majeures non testées.
+# Les bornes sont larges pour rester installable sur toutes les versions de
+# Python supportées (3.10 → 3.14) : un pin strict casse la CI dès qu'une roue
+# binaire manque pour l'interpréteur du runner.
+groq>=0.11,<1.0            # Client officiel de l'API Groq (offre gratuite, llama-3.1-8b-instant)
+feedparser>=6.0.11,<7.0    # Parsing de flux RSS/Atom publics
+requests>=2.32,<3.0        # HTTP (vérification robots.txt, webhooks sortants)
+pydantic>=2.11,<3.0        # Validation/typage strict de la configuration
+python-dotenv>=1.0,<2.0    # Chargement du .env en local (jamais de clé en dur)
+
+# --- Dépendances de test ---
+pytest>=8.3,<9.0

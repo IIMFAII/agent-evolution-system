@@ -1,0 +1,98 @@
+name: Cycle d'évolution des agents
+
+# Exécution autonome toutes les 2 heures (UTC) + déclenchement manuel possible.
+# ⚠️ GitHub désactive automatiquement les workflows planifiés d'un dépôt public
+#    resté sans activité pendant 60 jours ; les commits produits par ce job
+#    suffisent normalement à le maintenir actif.
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Exécuter sans publier (diagnostic)"
+        type: boolean
+        default: false
+
+# Un seul cycle à la fois : évite deux push concurrents sur la base SQLite.
+concurrency:
+  group: agent-evolution
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # nécessaire pour recommiter la base et les contenus
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15   # garde-fou : jamais de job qui traîne (minutes gratuites)
+
+    steps:
+      - name: Récupération du dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Tests de non-régression (hors-ligne)
+        run: python -m pytest tests/ -q
+
+      - name: Exécution du cycle d'évolution
+        env:
+          # Aucune clé en dur : tout vient des GitHub Secrets.
+          # Si le secret est absent, le système bascule en mode dégradé.
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL || 'llama-3.1-8b-instant' }}
+          RSS_FEEDS: ${{ vars.RSS_FEEDS }}
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+          AFFILIATE_BASE_URL: ${{ vars.AFFILIATE_BASE_URL }}
+          PUBLISH_WEBHOOK_URL: ${{ secrets.PUBLISH_WEBHOOK_URL }}
+          POPULATION_SIZE: ${{ vars.POPULATION_SIZE || '5' }}
+          MAX_ITEMS_PER_RUN: ${{ vars.MAX_ITEMS_PER_RUN || '12' }}
+          LOG_LEVEL: INFO
+        run: |
+          python main.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit et push des résultats
+        # `always()` : même si le cycle a échoué, l'état déjà écrit en base est
+        # conservé pour permettre le diagnostic au cycle suivant.
+        if: always()
+        run: |
+          git config user.name  "agent-evolution-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/evolution.db docs/ 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement à publier sur ce cycle."
+            exit 0
+          fi
+
+          git commit -m "chore(agents): cycle d'évolution $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          # Rebase avant push : un cycle concurrent ou un commit manuel ne doit
+          # pas faire échouer le job. Une seule tentative, jamais de boucle.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Résumé du cycle
+        if: always()
+        run: |
+          if [ -f docs/status.json ]; then
+            echo '### Résultat du cycle' >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat docs/status.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Aucun statut produit sur ce cycle.' >> "$GITHUB_STEP_SUMMARY"
+          fi
