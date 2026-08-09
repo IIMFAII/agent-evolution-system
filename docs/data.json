@@ -1,0 +1,387 @@
+{
+ "generated_at": "2026-08-09T15:45:40+00:00",
+ "cycle": {
+  "run_id": 4,
+  "generation_evaluated": 3,
+  "next_generation": 4,
+  "items_ingested": 2,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
+  "publication": {
+   "published": true,
+   "title": "Veille prospectif : undermines, supersonic, democracy en 2 signaux à suivre",
+   "agent": "Prospectif",
+   "fitness": 0.857,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-09-veille-prospectif-undermines-supersonic-democracy-en-2-signa.md"
+  }
+ },
+ "population": {
+  "population": 5,
+  "generation": 3,
+  "best_fitness": 0.857,
+  "best_agent": "Prospectif",
+  "best_agent_id": "743a3fb4a7034790",
+  "avg_fitness": 0.8445,
+  "diversity": 1.0
+ },
+ "agents": [
+  {
+   "agent_id": "743a3fb4a7034790",
+   "fitness": 0.857,
+   "readability": 1.0,
+   "keyword_score": 0.385,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif",
+   "tone": "prospectif",
+   "origin": "elite",
+   "temperature": 0.7,
+   "mutation_rate": 0.3
+  },
+  {
+   "agent_id": "7a7fcaf6ccf74a06",
+   "fitness": 0.8479,
+   "readability": 1.0,
+   "keyword_score": 0.3393,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-3.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6124999999999999,
+   "mutation_rate": 0.27
+  },
+  {
+   "agent_id": "3769c14583f14dea",
+   "fitness": 0.845,
+   "readability": 1.0,
+   "keyword_score": 0.325,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-3.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.5249999999999999,
+   "mutation_rate": 0.27
+  },
+  {
+   "agent_id": "f1e5c43321fd427b",
+   "fitness": 0.8364,
+   "readability": 1.0,
+   "keyword_score": 0.2821,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-3.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6124999999999999,
+   "mutation_rate": 0.27
+  },
+  {
+   "agent_id": "81af4861bdf74a3a",
+   "fitness": 0.8364,
+   "readability": 1.0,
+   "keyword_score": 0.2821,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-3.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.6971081449555172,
+   "mutation_rate": 0.27
+  }
+ ],
+ "generations": [
+  {
+   "generation": 1,
+   "population": 5,
+   "avg_fitness": 0.8440200000000001,
+   "best_fitness": 0.8564,
+   "worst_fitness": 0.8255
+  },
+  {
+   "generation": 2,
+   "population": 5,
+   "avg_fitness": 0.8886800000000001,
+   "best_fitness": 0.902,
+   "worst_fitness": 0.88
+  },
+  {
+   "generation": 3,
+   "population": 5,
+   "avg_fitness": 0.84454,
+   "best_fitness": 0.857,
+   "worst_fitness": 0.8364
+  }
+ ],
+ "runs": [
+  {
+   "id": 4,
+   "started_at": "2026-08-09T15:45:35+00:00",
+   "finished_at": "2026-08-09T15:45:40+00:00",
+   "generation": 3,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé)"
+  },
+  {
+   "id": 3,
+   "started_at": "2026-08-09T15:28:33+00:00",
+   "finished_at": "2026-08-09T15:28:39+00:00",
+   "generation": 2,
+   "status": "success",
+   "items_ingested": 1,
+   "notes": "llm indisponible (mode dégradé)"
+  },
+  {
+   "id": 2,
+   "started_at": "2026-08-09T15:09:12+00:00",
+   "finished_at": "2026-08-09T15:09:17+00:00",
+   "generation": 2,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
+   "id": 1,
+   "started_at": "2026-08-09T15:06:31+00:00",
+   "finished_at": "2026-08-09T15:06:41+00:00",
+   "generation": 0,
+   "status": "success",
+   "items_ingested": 12,
+   "notes": "llm indisponible (mode dégradé)"
+  }
+ ],
+ "publications": [
+  {
+   "title": "Veille prospectif : undermines, supersonic, democracy en 2 signaux à suivre",
+   "slug": "2026-08-09-veille-prospectif-undermines-supersonic-democracy-en-2-signa",
+   "fitness": 0.857,
+   "generation": 3,
+   "created_at": "2026-08-09T15:45:40+00:00",
+   "agent_name": "Prospectif",
+   "tone": "prospectif"
+  },
+  {
+   "title": "Veille prospectif : anthropic, revenue, openai en 1 signaux à suivre",
+   "slug": "2026-08-09-veille-prospectif-anthropic-revenue-openai-en-1-signaux-a-su",
+   "fitness": 0.902,
+   "generation": 2,
+   "created_at": "2026-08-09T15:28:39+00:00",
+   "agent_name": "Prospectif",
+   "tone": "prospectif"
+  },
+  {
+   "title": "Veille prospectif : intelligence, max-severity, exploitation en 12 signaux à suivre",
+   "slug": "2026-08-09-veille-prospectif-intelligence-max-severity-exploitation-en",
+   "fitness": 0.8564,
+   "generation": 1,
+   "created_at": "2026-08-09T15:06:41+00:00",
+   "agent_name": "Prospectif",
+   "tone": "prospectif"
+  }
+ ],
+ "sources": {
+  "https://hnrss.org/frontpage": "ok",
+  "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
+  "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
+ },
+ "monetization": {
+  "verdict": "Aucun canal ne produira d'euro tant que le site n'a pas d'audience mesurée. La priorité n'est pas d'ouvrir un compte : c'est d'obtenir des lecteurs, puis de les compter.",
+  "audience": null,
+  "fully_automated": true,
+  "publications": 3,
+  "opportunities": [
+   {
+    "id": "dons",
+    "name": "Dons et soutien récurrent",
+    "summary": "Une page de soutien (GitHub Sponsors, Liberapay, Ko-fi…). Le donateur soutient le projet, pas un produit : aucune promesse commerciale n'est faite, donc aucune CGU n'encadre l'origine du contenu.",
+    "score": 0.5513,
+    "status": "à préparer",
+    "blocked_reason": null,
+    "rationale": "Ouvrable dès maintenant, mais ne produira rien avant ~200 visiteurs/mois (audience actuelle : non mesurée).",
+    "angle": null,
+    "ai_policy": "compatible",
+    "ai_policy_label": "Compatible contenu automatisé",
+    "audience_floor": 200,
+    "days_to_first_euro": 7,
+    "human_steps": [
+     "Créer le compte de collecte à votre nom (KYC : pièce d'identité, RIB).",
+     "Renseigner vos informations fiscales sur la plateforme."
+    ],
+    "automatable": [
+     "Publier et maintenir la page de soutien sur le site.",
+     "Afficher le total collecté dans le tableau de bord (via l'API de la plateforme)."
+    ],
+    "legal_notes": [
+     "Les dons perçus régulièrement en contrepartie d'une activité sont des revenus imposables : ils doivent être déclarés.",
+     "Indiquer clairement que le contenu est automatisé, comme le fait déjà le site."
+    ],
+    "policy_source": null
+   },
+   {
+    "id": "licence_donnees",
+    "name": "Licence du jeu de données",
+    "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
+    "score": 0.413,
+    "status": "à préparer",
+    "blocked_reason": null,
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 3 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "angle": null,
+    "ai_policy": "compatible",
+    "ai_policy_label": "Compatible contenu automatisé",
+    "audience_floor": 0,
+    "days_to_first_euro": 60,
+    "human_steps": [
+     "Créer un compte d'encaissement professionnel (KYC + statut d'entreprise).",
+     "Rédiger et publier des conditions de licence.",
+     "Démarcher les premiers clients : aucun automatisme ne remplace cette étape."
+    ],
+    "automatable": [
+     "Produire l'export structuré à chaque cycle (déjà en place : data.json).",
+     "Versionner et horodater le corpus pour en garantir la traçabilité."
+    ],
+    "legal_notes": [
+     "Ne redistribuer que ce que vous produisez : les métadonnées et vos synthèses, jamais le texte intégral des sources.",
+     "Le droit sui generis des bases de données protège l'investissement, à condition que la base soit substantielle."
+    ],
+    "policy_source": null
+   },
+   {
+    "id": "affiliation_directe",
+    "name": "Affiliation en direct auprès d'éditeurs",
+    "summary": "Programmes gérés directement par un éditeur (outils, SaaS, hébergeurs) plutôt que par une place de marché généraliste. Les conditions varient fortement : certains acceptent un contenu assisté par IA s'il est divulgué, d'autres l'interdisent.",
+    "score": 0.3313,
+    "status": "à préparer",
+    "blocked_reason": null,
+    "rationale": "Ouvrable dès maintenant, mais ne produira rien avant ~1000 visiteurs/mois (audience actuelle : non mesurée).",
+    "angle": null,
+    "ai_policy": "restreint",
+    "ai_policy_label": "À vérifier au cas par cas",
+    "audience_floor": 1000,
+    "days_to_first_euro": 45,
+    "human_steps": [
+     "Candidater au programme et faire valider le site (revue humaine fréquente).",
+     "Lire la clause « contenu généré par IA » des CGU AVANT d'insérer un lien.",
+     "Fournir identité et coordonnées bancaires (KYC)."
+    ],
+    "automatable": [
+     "Injecter le tag d'affiliation et sa divulgation (déjà en place).",
+     "Suivre les commissions via l'API du programme."
+    ],
+    "legal_notes": [
+     "La divulgation du lien affilié est obligatoire et doit être visible avant le lien, pas seulement en pied de page.",
+     "Un lien affilié inséré en violation des CGU expose à la fermeture du compte et à la perte des commissions déjà acquises."
+    ],
+    "policy_source": null
+   },
+   {
+    "id": "sponsoring",
+    "name": "Sponsoring d'une rubrique ou d'une newsletter",
+    "summary": "Un annonceur paie pour un emplacement identifié. Le revenu ne dépend pas d'un achat, seulement de l'exposition — mais il exige une audience mesurable et vérifiable par l'annonceur.",
+    "score": 0.235,
+    "status": "à préparer",
+    "blocked_reason": null,
+    "rationale": "Ouvrable dès maintenant, mais ne produira rien avant ~3000 visiteurs/mois (audience actuelle : non mesurée).",
+    "angle": null,
+    "ai_policy": "restreint",
+    "ai_policy_label": "À vérifier au cas par cas",
+    "audience_floor": 3000,
+    "days_to_first_euro": 90,
+    "human_steps": [
+     "Constituer un dossier d'audience vérifiable (statistiques publiques).",
+     "Négocier et contractualiser avec l'annonceur.",
+     "Facturer : cela suppose un statut d'entreprise."
+    ],
+    "automatable": [
+     "Insérer l'emplacement sponsorisé et son marquage à chaque publication.",
+     "Produire les statistiques d'affichage remises à l'annonceur."
+    ],
+    "legal_notes": [
+     "Tout contenu sponsorisé doit être identifié comme tel de manière explicite : l'absence de marquage est une pratique commerciale trompeuse.",
+     "Informer l'annonceur que le contenu est automatisé : le lui cacher vicierait le consentement contractuel."
+    ],
+    "policy_source": null
+   },
+   {
+    "id": "micro_taches",
+    "name": "Micro-tâches rémunérées (annotation, cartographie de données)",
+    "summary": "Les plateformes de travail à la tâche paient l'annotation, la catégorisation et la cartographie de données. Le canal paraît taillé pour des agents — c'est exactement l'inverse : ces plateformes vendent du jugement HUMAIN, et n'existent que parce qu'une machine ne l'a pas fait.",
+    "score": 0.0,
+    "status": "bloqué",
+    "blocked_reason": "Ces plateformes rémunèrent explicitement un travail humain : les faire exécuter par un agent revient à se faire payer pour un travail dont on déclare faussement l'origine. Le canal reste fermé même si le site publiait un jour du contenu écrit par un humain.",
+    "rationale": "Ces plateformes rémunèrent explicitement un travail humain : les faire exécuter par un agent revient à se faire payer pour un travail dont on déclare faussement l'origine. Le canal reste fermé même si le site publiait un jour du contenu écrit par un humain.",
+    "angle": null,
+    "ai_policy": "incompatible",
+    "ai_policy_label": "Interdit par les CGU",
+    "audience_floor": 0,
+    "days_to_first_euro": 14,
+    "human_steps": [
+     "Aucun : ce canal ne peut pas être automatisé sans fraude envers le donneur d'ordre, qui paie pour un travail humain."
+    ],
+    "automatable": [],
+    "legal_notes": [
+     "La politique d'usage d'Amazon Mechanical Turk interdit explicitement « d'utiliser des bots, des scripts ou d'autres méthodes automatisées pour compléter des HITs ».",
+     "Amazon a fermé Mechanical Turk aux nouveaux clients le 30 juillet 2026, après avoir constaté que 33 à 46 % des travailleurs recouraient à l'IA, ce qui a ruiné la valeur du service.",
+     "Les plateformes équivalentes (annotation, transcription, panels d'étude) posent la même exigence d'exécution humaine : automatiser revient à se faire payer pour un travail qu'on déclare faussement humain.",
+     "La voie légale pour monétiser de la donnée traitée par machine est de VENDRE le jeu de données produit, pas de se faire passer pour un travailleur humain — voir « Licence du jeu de données »."
+    ],
+    "policy_source": "https://www.mturk.com/acceptable-use-policy"
+   },
+   {
+    "id": "affiliation_generaliste",
+    "name": "Affiliation généraliste (places de marché)",
+    "summary": "Les grandes places de marché d'affiliation. Le canal le plus évident est ici le plus risqué : il est fermé à un site entièrement automatisé.",
+    "score": 0.0,
+    "status": "bloqué",
+    "blocked_reason": "Les CGU de ce canal exigent une valeur ajoutée humaine. Le site publie actuellement du contenu entièrement automatisé : l'ouvrir exposerait à la fermeture du compte.",
+    "rationale": "Les CGU de ce canal exigent une valeur ajoutée humaine. Le site publie actuellement du contenu entièrement automatisé : l'ouvrir exposerait à la fermeture du compte.",
+    "angle": null,
+    "ai_policy": "incompatible",
+    "ai_policy_label": "Interdit par les CGU",
+    "audience_floor": 1000,
+    "days_to_first_euro": 30,
+    "human_steps": [
+     "Ce canal exige une rédaction humaine à valeur ajoutée — il ne peut pas être ouvert en l'état pour ce site."
+    ],
+    "automatable": [],
+    "legal_notes": [
+     "Le contrat Amazon Partenaires interdit l'usage des liens de suivi « en lien avec l'IA générative » (clause de mars 2024), et sa politique d'avril 2026 exige un commentaire, une analyse ou une transformation apportant une valeur ajoutée humaine.",
+     "Les pages de comparaison générées sans intervention humaine sont explicitement hors politique ; la sanction est la fermeture du compte et la perte des commissions non versées."
+    ],
+    "policy_source": "https://affiliate-program.amazon.com/help/operating/policies"
+   }
+  ],
+  "fiscal_notes": [
+   "Percevoir des revenus commerciaux de façon régulière impose un statut : la micro-entreprise est la voie usuelle pour démarrer.",
+   "Seuils micro-entreprise 2026 : 83 600 € pour les prestations de services, 203 100 € pour les activités de vente.",
+   "La déclaration de chiffre d'affaires à l'URSSAF est obligatoire à chaque échéance, y compris lorsque le chiffre d'affaires est nul.",
+   "Les commissions d'affiliation et les dons liés à l'activité sont imposables et doivent figurer sur la déclaration de revenus."
+  ],
+  "revenue": {
+   "total_eur": 0.0,
+   "entries": 0,
+   "sources": []
+  }
+ },
+ "weights": {
+  "compliance": 0.3,
+  "readability": 0.2,
+  "keyword_score": 0.2,
+  "ctr_score": 0.2,
+  "originality": 0.1
+ },
+ "signal_labels": {
+  "compliance": "Conformité",
+  "readability": "Lisibilité",
+  "keyword_score": "Pertinence",
+  "ctr_score": "Potentiel CTR",
+  "originality": "Originalité"
+ }
+}
