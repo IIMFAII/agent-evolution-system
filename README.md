@@ -20,6 +20,7 @@ meilleurs ADN se reproduisent, mutent, et forment la génération suivante.
 - [Déploiement sur GitHub](#déploiement-sur-github)
 - [Configuration](#configuration)
 - [Fonction de fitness](#fonction-de-fitness)
+- [Monétisation](#monétisation--ce-qui-est-automatisable-et-ce-qui-ne-lest-pas)
 - [Comportement en mode dégradé](#comportement-en-mode-dégradé)
 - [Tests](#tests)
 - [Limites connues](#limites-connues)
@@ -114,11 +115,12 @@ agent-evolution-system/
 │   ├── ingestor.py        # RSS légal : robots.txt, rate limit, anti-PII
 │   ├── llm.py             # client Groq + disjoncteur fail-safe
 │   ├── evaluator.py       # fonction de fitness (5 signaux + verrou légal)
+│   ├── monetization.py    # pistes de revenu légales + verrous CGU
 │   ├── publisher.py       # assemblage conforme → Markdown + HTML
 │   └── agents/
 │       ├── agent.py           # ADN, production de contenu, repli hors-ligne
 │       └── genetic_engine.py  # élitisme, tournoi, croisement, mutation
-├── tests/test_pipeline.py # 36 tests, 100 % hors-ligne
+├── tests/test_pipeline.py # 42 tests, 100 % hors-ligne
 ├── main.py                # un cycle complet
 ├── data/evolution.db      # créée automatiquement
 └── docs/                  # site publié (GitHub Pages)
@@ -141,7 +143,7 @@ pip install -r requirements.txt
 
 cp .env.example .env      # puis renseignez GROQ_API_KEY (facultatif)
 
-python -m pytest tests/ -q   # 36 tests, aucun appel réseau
+python -m pytest tests/ -q   # 42 tests, aucun appel réseau
 python main.py               # un cycle complet
 ```
 
@@ -263,7 +265,7 @@ historique) et une ligne dans la table `runs`.
 python -m pytest tests/ -q
 ```
 
-36 tests, exécution en moins d'une seconde, **aucun appel réseau** : le LLM est
+42 tests, exécution en moins d'une seconde, **aucun appel réseau** : le LLM est
 remplacé par un double et l'ingestion est simulée. La CI reste ainsi gratuite
 et déterministe. Ils couvrent la boucle de bout en bout, les garanties légales
 (mentions obligatoires, RGPD, anti-clickbait, détection de recopie,
@@ -271,6 +273,66 @@ et déterministe. Ils couvrent la boucle de bout en bout, les garanties légales
 aucun item).
 
 ---
+
+## Monétisation : ce qui est automatisable, et ce qui ne l'est pas
+
+Le module [`src/monetization.py`](src/monetization.py) cherche seul des pistes de
+revenu **légales** à chaque cycle, les classe, et **bloque par le code** celles
+dont les CGU sont incompatibles avec un contenu entièrement généré. Le résultat
+est visible sur le tableau de bord.
+
+### La limite est un fait, pas un choix de conception
+
+**Un agent ne peut pas encaisser d'argent.** Tout canal d'encaissement impose un
+KYC : identité vérifiée, justificatifs, données fiscales, acceptation de CGU par
+une personne. Un job cron ne peut pas ouvrir ces comptes — il ne peut
+qu'utiliser les identifiants d'un compte déjà ouvert par un humain.
+
+Corollaire souvent ignoré : une fois le compte ouvert, **le versement est déjà
+automatique**. Les réseaux paient seuls sur le RIB enregistré, à leur échéance.
+La partie « collecte et envoie » ne demande aucun code — elle demande un compte.
+
+### Canaux bloqués par le code
+
+| Canal | Pourquoi il est fermé |
+|---|---|
+| **Micro-tâches rémunérées** (annotation, cartographie de données) | Ces plateformes rémunèrent explicitement un travail **humain**. La politique d'usage d'Amazon Mechanical Turk interdit « d'utiliser des bots, des scripts ou d'autres méthodes automatisées pour compléter des HITs ». Amazon a par ailleurs fermé MTurk aux nouveaux clients le 30 juillet 2026, après avoir constaté que 33 à 46 % des travailleurs recouraient à l'IA. Automatiser ce canal, c'est se faire payer pour un travail dont on déclare faussement l'origine. Blocage **inconditionnel**. |
+| **Affiliation généraliste** (places de marché) | Le contrat Amazon Partenaires interdit l'usage des liens de suivi « en lien avec l'IA générative » (clause de mars 2024), et sa politique d'avril 2026 exige un commentaire ou une analyse à valeur ajoutée humaine. Sanction : fermeture du compte et perte des commissions non versées. Blocage **levé** si `FULLY_AUTOMATED_CONTENT=false`, c'est-à-dire si un humain relit réellement les contenus. |
+
+### Canaux ouverts, par ordre d'accessibilité
+
+Dons et soutien récurrent · Licence du jeu de données · Affiliation en direct
+auprès d'éditeurs · Sponsoring. Chacun expose ses seuils (audience, volume de
+corpus), ses étapes humaines irréductibles, ce que le pipeline prend en charge,
+et ses contraintes légales.
+
+### Le verdict actuel du système
+
+> Aucun canal ne produira d'euro tant que le site n'a pas d'audience mesurée.
+> La priorité n'est pas d'ouvrir un compte : c'est d'obtenir des lecteurs, puis
+> de les compter.
+
+C'est volontaire : le score d'opportunité pondère l'audience à 40 %. Un
+classement qui l'ignorerait mentirait sur la faisabilité.
+
+### Revenus constatés
+
+La table `revenue` n'est alimentée que par un connecteur rattaché à un compte
+réel. **Le système n'invente jamais un montant** : une table vide affiche
+sincèrement 0,00 €.
+
+### Obligations dès le premier euro
+
+- Des revenus commerciaux réguliers imposent un statut ; la micro-entreprise est
+  la voie usuelle pour démarrer.
+- Seuils micro-entreprise 2026 : **83 600 €** en prestations de services,
+  **203 100 €** en activités de vente.
+- La déclaration de chiffre d'affaires à l'URSSAF est obligatoire à chaque
+  échéance, **y compris à zéro euro**.
+
+> Ce module n'est pas un conseil juridique ou fiscal. Les CGU de chaque
+> programme et les obligations déclaratives engagent la personne qui ouvre le
+> compte.
 
 ## Limites connues
 

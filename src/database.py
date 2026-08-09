@@ -96,6 +96,32 @@ CREATE TABLE IF NOT EXISTS ingested_items (
     ingested_at   TEXT NOT NULL
 );
 
+-- Plan de monétisation réévalué à chaque cycle. Ne contient que des
+-- évaluations de mécanismes : aucune donnée bancaire, aucun identifiant.
+CREATE TABLE IF NOT EXISTS opportunities (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_id        INTEGER NOT NULL,
+    mechanism_id  TEXT NOT NULL,
+    name          TEXT NOT NULL,
+    score         REAL NOT NULL DEFAULT 0.0,
+    status        TEXT NOT NULL,
+    rationale     TEXT,
+    angle         TEXT,
+    created_at    TEXT NOT NULL,
+    FOREIGN KEY (run_id) REFERENCES runs(id)
+);
+
+-- Revenus effectivement constatés. Renseignée uniquement par un connecteur
+-- rattaché à un compte ouvert par l'humain : le pipeline n'invente jamais
+-- un montant, et une table vide signifie sincèrement zéro euro.
+CREATE TABLE IF NOT EXISTS revenue (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    observed_at   TEXT NOT NULL,
+    source        TEXT NOT NULL,
+    amount_eur    REAL NOT NULL,
+    note          TEXT
+);
+
 CREATE INDEX IF NOT EXISTS idx_scores_generation ON scores(generation);
 CREATE INDEX IF NOT EXISTS idx_agents_generation ON agents(generation);
 CREATE INDEX IF NOT EXISTS idx_contents_run ON contents(run_id);
@@ -424,6 +450,53 @@ class Database:
                 (limit,),
             ).fetchall()
         return [dict(r) for r in rows]
+
+    def save_opportunities(self, run_id: int, opportunities: List[Dict[str, Any]]) -> None:
+        """Historise le plan de monétisation du cycle."""
+        if not opportunities:
+            return
+        with self._connect() as conn:
+            conn.executemany(
+                """INSERT INTO opportunities
+                       (run_id, mechanism_id, name, score, status, rationale, angle, created_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                [
+                    (
+                        run_id,
+                        o.get("id", ""),
+                        o.get("name", ""),
+                        float(o.get("score", 0.0)),
+                        o.get("status", ""),
+                        (o.get("rationale") or "")[:1000],
+                        (o.get("angle") or "")[:400] or None,
+                        _utcnow(),
+                    )
+                    for o in opportunities
+                ],
+            )
+
+    def revenue_total(self) -> Dict[str, Any]:
+        """Total des revenus constatés. Zéro tant qu'aucun connecteur n'alimente la table.
+
+        Ne devine rien et n'extrapole rien : seul un montant effectivement
+        observé sur un compte réel entre ici.
+        """
+        with self._connect() as conn:
+            row = conn.execute(
+                "SELECT COALESCE(SUM(amount_eur), 0) AS total, COUNT(*) AS n FROM revenue"
+            ).fetchone()
+            sources = [
+                dict(r)
+                for r in conn.execute(
+                    """SELECT source, SUM(amount_eur) AS total, MAX(observed_at) AS last_seen
+                         FROM revenue GROUP BY source ORDER BY total DESC"""
+                ).fetchall()
+            ]
+        return {
+            "total_eur": round(float(row["total"]), 2),
+            "entries": int(row["n"]),
+            "sources": sources,
+        }
 
     def generation_stats(self, limit: int = 60) -> List[Dict[str, Any]]:
         """Série temporelle de la fitness par génération, du plus ancien au récent.

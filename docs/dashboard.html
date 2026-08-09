@@ -262,6 +262,36 @@ td a:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; bo
 .tag { display: inline-flex; align-items: center; gap: .3rem; font-size: .72rem; color: var(--ink-2); }
 .tag svg { flex: none; }
 
+/* --- Monétisation -------------------------------------------------------- */
+.verdict {
+  display: flex; align-items: flex-start; gap: .55rem;
+  padding: .7rem .85rem; margin-bottom: 1rem;
+  background: color-mix(in srgb, var(--warning) 10%, var(--surface-1));
+  border: 1px solid color-mix(in srgb, var(--warning) 30%, transparent);
+  border-radius: 10px; font-size: .84rem; color: var(--ink-1);
+}
+.verdict .dot { margin-top: .45rem; }
+.opps { display: grid; gap: .4rem; }
+.opp { border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; }
+.opp > summary {
+  display: flex; align-items: center; gap: 1rem; cursor: pointer;
+  padding: .6rem .8rem; list-style: none; font-size: .86rem;
+}
+.opp > summary::-webkit-details-marker { display: none; }
+.opp > summary:hover { background: color-mix(in srgb, var(--ink-1) 4%, transparent); }
+.opp > summary:focus-visible { outline: 2px solid var(--series-1); outline-offset: -2px; }
+.opp-t { display: inline-flex; align-items: center; gap: .5rem; min-width: 0; }
+.opp-n { font-weight: 560; color: var(--ink-1); }
+.opp-s { margin-left: auto; font-size: .74rem; color: var(--ink-3); white-space: nowrap; }
+.opp-blocked .opp-n { color: var(--ink-2); text-decoration: line-through; text-decoration-thickness: 1px; }
+.opp-b { padding: 0 .8rem .8rem 2rem; font-size: .82rem; color: var(--ink-2); }
+.opp-b p { margin: .1rem 0 .6rem; }
+.opp-b ul { margin: .2rem 0 .8rem; padding-left: 1.1rem; }
+.opp-b li { margin: .25rem 0; }
+.opp-h { font-size: .74rem; color: var(--ink-3); margin-top: .5rem; }
+.opp-r { color: var(--ink-3); }
+.opp-b a { color: var(--series-1); }
+
 .hidden { display: none !important; }
 .empty { padding: 2.5rem 1rem; text-align: center; color: var(--ink-3); font-size: .88rem; }
 .note { font-size: .76rem; color: var(--ink-3); margin-top: .9rem; }
@@ -866,6 +896,80 @@ footer a { color: var(--ink-2); }
           })
         ));
       }
+      app.appendChild(c);
+    }
+
+    /* --- 6 bis. monétisation --- */
+    if (d.monetization && (d.monetization.opportunities || []).length) {
+      const m = d.monetization;
+      const c = el("div", { class: "card" });
+      const head = el("div", { class: "card-head" });
+      const b = el("div");
+      b.appendChild(el("h2", {}, "Pistes de monétisation"));
+      b.appendChild(el("p", {}, "Canaux légaux évalués à chaque cycle. Un canal dont les CGU interdisent le contenu automatisé est bloqué par le code, jamais recommandé."));
+      head.appendChild(b);
+      head.appendChild(el("div", { class: "spacer" }));
+      const rev = m.revenue || {};
+      const pill = el("span", { class: "pill" });
+      pill.appendChild(el("span", { class: "dot " + (rev.total_eur > 0 ? "dot-good" : "dot-idle") }));
+      pill.appendChild(el("span", {}, `Revenus constatés : ${(rev.total_eur || 0).toFixed(2)} €`));
+      head.appendChild(pill);
+      c.appendChild(head);
+
+      if (m.verdict) {
+        const v = el("div", { class: "verdict" });
+        v.appendChild(el("span", { class: "dot dot-warning" }));
+        v.appendChild(el("span", {}, m.verdict));
+        c.appendChild(v);
+      }
+
+      const STATUS_CLS = { "recommandé": "dot-good", "à préparer": "dot-warning", "bloqué": "dot-critical" };
+      const list = el("div", { class: "opps" });
+      (m.opportunities || []).forEach((o) => {
+        const item = el("details", { class: "opp" + (o.status === "bloqué" ? " opp-blocked" : "") });
+        const sum = el("summary");
+        const t = el("span", { class: "opp-t" });
+        t.appendChild(el("span", { class: "dot " + (STATUS_CLS[o.status] || "dot-idle") }));
+        t.appendChild(el("span", { class: "opp-n" }, o.name));
+        sum.appendChild(t);
+        sum.appendChild(el("span", { class: "opp-s" }, o.status));
+        item.appendChild(sum);
+
+        const body = el("div", { class: "opp-b" });
+        body.appendChild(el("p", {}, o.summary));
+        body.appendChild(el("p", { class: "opp-r" }, o.rationale));
+        if (o.angle) body.appendChild(el("p", { class: "opp-r" }, "Angle proposé : " + o.angle));
+
+        const mk = (title, arr) => {
+          if (!arr || !arr.length) return;
+          body.appendChild(el("div", { class: "opp-h" }, title));
+          const ul = el("ul");
+          arr.forEach((x) => ul.appendChild(el("li", {}, x)));
+          body.appendChild(ul);
+        };
+        mk("Ce que seul un humain peut faire", o.human_steps);
+        mk("Ce que le pipeline prend en charge", o.automatable);
+        mk("Contraintes légales", o.legal_notes);
+        if (o.policy_source) {
+          const p = el("p", { class: "opp-r" });
+          const a = el("a", { href: o.policy_source, rel: "noopener", target: "_blank" }, "Politique de référence");
+          p.appendChild(a);
+          body.appendChild(p);
+        }
+        item.appendChild(body);
+        list.appendChild(item);
+      });
+      c.appendChild(list);
+
+      if ((m.fiscal_notes || []).length) {
+        const f = el("details", { class: "opp" });
+        f.appendChild(el("summary")).appendChild(el("span", { class: "opp-n" }, "Obligations dès le premier euro perçu"));
+        const ul = el("ul", { class: "opp-b" });
+        m.fiscal_notes.forEach((n) => ul.appendChild(el("li", {}, n)));
+        f.appendChild(ul);
+        c.appendChild(f);
+      }
+      c.appendChild(el("div", { class: "note" }, "Ce plan n'est pas un conseil juridique ou fiscal. Les CGU de chaque programme et les obligations déclaratives engagent la personne qui ouvre le compte."));
       app.appendChild(c);
     }
 

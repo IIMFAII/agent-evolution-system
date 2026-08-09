@@ -34,6 +34,7 @@ from src.evaluator import (  # noqa: E402
     readability_score,
 )
 from src.ingestor import Ingestor, PII_FIELDS, clean_text  # noqa: E402
+from src.monetization import MECHANISMS, Strategist, build_state  # noqa: E402
 from src.publisher import Publisher, markdown_to_html  # noqa: E402
 
 
@@ -420,7 +421,79 @@ def test_rate_limit_response_aborts_feed(monkeypatch):
 
 
 # ---------------------------------------------------------------------------
-# 6. Pipeline de bout en bout
+# 6. Monétisation — les verrous CGU sont dans le code
+# ---------------------------------------------------------------------------
+
+
+def test_micro_tasks_always_blocked():
+    """Faire exécuter des micro-tâches rémunérées par un agent est une fraude.
+
+    Le blocage doit tenir même si le site publiait du contenu écrit par un
+    humain : c'est le canal qui est fermé, pas ce site-ci.
+    """
+    strategist = Strategist(llm=None)
+    for automated in (True, False):
+        state = build_state(publications=50, generations=10, themes=["cloud"],
+                            monthly_audience=100000, fully_automated=automated)
+        opp = next(o for o in strategist.evaluate(state) if o.mechanism.id == "micro_taches")
+        assert opp.status == "bloqué"
+        assert opp.score == 0.0
+        assert "humain" in (opp.blocked_reason or "").lower()
+
+
+def test_generalist_affiliation_blocked_while_fully_automated():
+    """Les CGU d'affiliation généraliste exigent une valeur ajoutée humaine."""
+    strategist = Strategist(llm=None)
+    auto = build_state(0, 1, ["cloud"], monthly_audience=50000, fully_automated=True)
+    blocked = next(o for o in strategist.evaluate(auto) if o.mechanism.id == "affiliation_generaliste")
+    assert blocked.status == "bloqué"
+
+    # Une relecture humaine rouvre ce canal — et seulement celui-là.
+    human = build_state(0, 1, ["cloud"], monthly_audience=50000, fully_automated=False)
+    reopened = next(o for o in strategist.evaluate(human) if o.mechanism.id == "affiliation_generaliste")
+    assert reopened.status != "bloqué"
+
+
+def test_no_channel_recommended_without_audience():
+    """Sans audience mesurée, aucun canal ne peut être présenté comme actionnable."""
+    strategist = Strategist(llm=None)
+    state = build_state(publications=2, generations=2, themes=["cloud"], monthly_audience=None)
+    opportunities = strategist.evaluate(state)
+
+    assert all(o.status != "recommandé" for o in opportunities)
+    verdict = Strategist.verdict(opportunities, state)
+    assert "audience" in verdict.lower()
+
+
+def test_blocked_channels_rank_last():
+    strategist = Strategist(llm=None)
+    state = build_state(10, 5, ["cloud"], monthly_audience=5000)
+    statuses = [o.status for o in strategist.evaluate(state)]
+    assert statuses.index("bloqué") > 0, "un canal bloqué ne doit jamais être en tête"
+    assert statuses[-1] == "bloqué"
+
+
+def test_llm_angle_rejected_when_unethical():
+    """Un angle proposant une pratique trompeuse est refusé, pas publié."""
+    strategist = Strategist(llm=FakeLLM(response="Acheter des clics pour gonfler l'audience rapidement."))
+    state = build_state(10, 5, ["cloud"], monthly_audience=5000)
+    mech = next(m for m in MECHANISMS if m.id == "dons")
+    assert strategist._angle(mech, state) is None
+
+
+def test_revenue_is_zero_until_a_real_account_reports():
+    """La table des revenus est vide : le système ne doit jamais inventer un montant."""
+    import tempfile
+
+    database = Database(Path(tempfile.mkdtemp()) / "rev.db")
+    total = database.revenue_total()
+    assert total["total_eur"] == 0.0
+    assert total["entries"] == 0
+    assert total["sources"] == []
+
+
+# ---------------------------------------------------------------------------
+# 7. Pipeline de bout en bout
 # ---------------------------------------------------------------------------
 
 

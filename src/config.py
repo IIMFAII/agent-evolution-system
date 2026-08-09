@@ -132,6 +132,15 @@ class Settings(BaseModel):
     affiliate_tag: str = ""
     affiliate_base_url: str = ""
 
+    # --- Monétisation ------------------------------------------------------
+    #: Audience mensuelle réelle. `None` = non mesurée. L'analyse la traite
+    #: comme nulle : on ne monétise pas ce qu'on ne sait pas compter.
+    monthly_audience: Optional[int] = None
+    #: False dès qu'un humain relit les contenus avant publication. Ce drapeau
+    #: ouvre les canaux dont les CGU exigent une valeur ajoutée humaine — ne le
+    #: passer à False que si la relecture a réellement lieu.
+    fully_automated_content: bool = True
+
     # --- Publication -------------------------------------------------------
     publish_dir: str = "docs"
     publish_webhook_url: str = ""
@@ -200,6 +209,11 @@ def load_settings() -> Settings:
             min_delay_between_requests=_env_float("MIN_DELAY_BETWEEN_REQUESTS", 2.0),
             affiliate_tag=_env_str("AFFILIATE_TAG"),
             affiliate_base_url=_env_str("AFFILIATE_BASE_URL"),
+            monthly_audience=(
+                _env_int("MONTHLY_AUDIENCE", 0) if _env_str("MONTHLY_AUDIENCE") else None
+            ),
+            fully_automated_content=_env_str("FULLY_AUTOMATED_CONTENT", "true").lower()
+            not in ("false", "0", "no"),
             publish_dir=_env_str("PUBLISH_DIR", "docs"),
             publish_webhook_url=_env_str("PUBLISH_WEBHOOK_URL"),
             db_path=_env_str("DB_PATH", "data/evolution.db"),

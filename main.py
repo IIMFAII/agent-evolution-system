@@ -24,12 +24,13 @@ import traceback
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
-from src.agents.agent import Agent, slugify
+from src.agents.agent import Agent, extract_themes, slugify
 from src.agents.genetic_engine import GeneticEngine
 from src.config import settings, setup_logging
 from src.database import Database
 from src.evaluator import WEIGHTS, Evaluator
 from src.ingestor import Ingestor
+from src.monetization import FISCAL_NOTES, Strategist, build_state
 from src.llm import get_llm_client
 from src.publisher import Publisher
 
@@ -41,8 +42,6 @@ PUBLISH_THRESHOLD = 0.45
 
 def _dominant_theme(items: List[Dict[str, Any]]) -> str:
     """Thème dominant du cycle (sert de contexte au bloc d'affiliation)."""
-    from src.agents.agent import extract_themes
-
     themes = extract_themes(items, top_n=2)
     return " ".join(themes) if themes else "veille technologique"
 
@@ -53,6 +52,7 @@ def _dashboard_payload(
     sources: Dict[str, str],
     agents: Optional[List[Dict[str, Any]]] = None,
     population: Optional[Dict[str, Any]] = None,
+    monetization: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Assemble la source de données unique du tableau de bord (`docs/data.json`).
 
@@ -68,6 +68,7 @@ def _dashboard_payload(
         "runs": db.recent_runs(limit=40),
         "publications": db.recent_contents(limit=20),
         "sources": sources,
+        "monetization": monetization or {},
         "weights": WEIGHTS,
         "signal_labels": {
             "compliance": "Conformité",
@@ -77,6 +78,43 @@ def _dashboard_payload(
             "originality": "Originalité",
         },
     }
+
+
+def _monetization_block(
+    db: Database,
+    generation: int,
+    themes: Optional[List[str]] = None,
+    llm: Any = None,
+) -> Dict[str, Any]:
+    """Évalue les canaux de revenu légaux. Ne dépend pas de l'ingestion.
+
+    Appelé même sur un cycle sans nouvel item : sinon le plan disparaîtrait du
+    tableau de bord dès qu'un cycle ne publie rien, alors qu'il reste valable.
+    Jamais bloquant — une analyse en échec renvoie un bloc vide.
+    """
+    try:
+        strategist = Strategist(llm=llm)
+        state = build_state(
+            publications=len(db.recent_contents(limit=500)),
+            generations=generation,
+            themes=themes or [],
+            monthly_audience=settings.monthly_audience,
+            fully_automated=settings.fully_automated_content,
+        )
+        # Évalué une seule fois : `evaluate` peut consommer du quota LLM.
+        evaluated = strategist.evaluate(state)
+        return {
+            "verdict": Strategist.verdict(evaluated, state),
+            "audience": state.monthly_audience,
+            "fully_automated": state.fully_automated,
+            "publications": state.publications,
+            "opportunities": [o.to_dict() for o in evaluated],
+            "fiscal_notes": FISCAL_NOTES,
+            "revenue": db.revenue_total(),
+        }
+    except Exception as exc:  # pragma: no cover - jamais bloquant
+        logger.error("Analyse de monétisation en échec (%s) — cycle poursuivi.", exc)
+        return {}
 
 
 def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
@@ -122,6 +160,7 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
                         "publication": {"published": False, "reason": "aucun item nouveau"},
                     },
                     sources=sources,
+                    monetization=_monetization_block(db, generation),
                 )
             )
         return 0
@@ -239,6 +278,15 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
         }
         logger.info("Publié : %s (fitness %.3f)", paths["markdown"], best["score"]["fitness"])
 
+    # --- 6 bis. Recherche de pistes de monétisation légales ----------------
+    # Rule-based : un LLM peut proposer un angle, jamais décider qu'un canal
+    # est légal. Le verrou CGU vit dans le code, comme la charte des rédacteurs.
+    monetization = _monetization_block(
+        db, current_generation, themes=extract_themes(items, top_n=8), llm=llm
+    )
+    if monetization.get("opportunities"):
+        db.save_opportunities(run_id, monetization["opportunities"])
+
     # --- 7. Évolution ------------------------------------------------------
     summary = GeneticEngine.summarize(population)
     # La meilleure fitness du cycle précédent dit au moteur s'il progresse ou
@@ -280,6 +328,7 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
                 sources=sources,
                 agents=db.scores_for_run(run_id),
                 population=summary,
+                monetization=monetization,
             )
         )
         publisher.write_status(
