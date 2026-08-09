@@ -454,15 +454,42 @@ def test_generalist_affiliation_blocked_while_fully_automated():
     assert reopened.status != "bloqué"
 
 
-def test_no_channel_recommended_without_audience():
-    """Sans audience mesurée, aucun canal ne peut être présenté comme actionnable."""
+def test_audience_dependent_channels_need_audience():
+    """Sans audience, aucun canal qui en dépend ne peut être dit actionnable.
+
+    Les canaux qui n'en dépendent pas (compétitions, licence de données) restent
+    légitimement ouverts : les exclure aussi serait un mensonge par excès de
+    prudence.
+    """
     strategist = Strategist(llm=None)
     state = build_state(publications=2, generations=2, themes=["cloud"], monthly_audience=None)
     opportunities = strategist.evaluate(state)
 
-    assert all(o.status != "recommandé" for o in opportunities)
+    for o in opportunities:
+        if o.mechanism.audience_floor > 0:
+            assert o.status != "recommandé", f"{o.mechanism.id} ne peut pas être recommandé sans lecteurs"
+
     verdict = Strategist.verdict(opportunities, state)
     assert "audience" in verdict.lower()
+
+
+def test_paid_surveys_always_blocked():
+    """Un panel rémunère une opinion humaine : l'automatiser est une fraude."""
+    strategist = Strategist(llm=None)
+    for automated in (True, False):
+        state = build_state(50, 10, ["cloud"], monthly_audience=100000, fully_automated=automated)
+        opp = next(o for o in strategist.evaluate(state) if o.mechanism.id == "questionnaires_remuneres")
+        assert opp.status == "bloqué"
+        assert opp.score == 0.0
+
+
+def test_competitions_are_open_to_agents():
+    """Le seul canal où la sortie machine EST le produit attendu reste ouvert."""
+    strategist = Strategist(llm=None)
+    state = build_state(publications=0, generations=1, themes=[], monthly_audience=None)
+    opp = next(o for o in strategist.evaluate(state) if o.mechanism.id == "competitions_ml")
+    assert opp.status == "recommandé"
+    assert opp.mechanism.automatable, "le pipeline doit pouvoir y contribuer réellement"
 
 
 def test_blocked_channels_rank_last():

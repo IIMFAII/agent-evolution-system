@@ -54,6 +54,15 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL || 'llama-3.1-8b-instant' }}
           RSS_FEEDS: ${{ vars.RSS_FEEDS }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          MIN_HOURS_BETWEEN_PUBLICATIONS: ${{ vars.MIN_HOURS_BETWEEN_PUBLICATIONS || '12' }}
+          MONTHLY_AUDIENCE: ${{ vars.MONTHLY_AUDIENCE }}
+          FULLY_AUTOMATED_CONTENT: ${{ vars.FULLY_AUTOMATED_CONTENT || 'true' }}
+          # Le « code » qui relie un compte réel : tant qu'il est absent,
+          # aucun lien monétisé n'est publié et les revenus restent à 0.
+          PAYOUT_PROVIDER: ${{ vars.PAYOUT_PROVIDER }}
+          PAYOUT_CREDENTIAL: ${{ secrets.PAYOUT_CREDENTIAL }}
+          SUPPORT_URL: ${{ vars.SUPPORT_URL }}
           AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
           AFFILIATE_BASE_URL: ${{ vars.AFFILIATE_BASE_URL }}
           PUBLISH_WEBHOOK_URL: ${{ secrets.PUBLISH_WEBHOOK_URL }}

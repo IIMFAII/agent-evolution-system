@@ -206,6 +206,68 @@ MECHANISMS: List[Mechanism] = [
         ],
     ),
     Mechanism(
+        id="competitions_ml",
+        name="Compétitions et primes à la performance",
+        summary=(
+            "Concours de science des données et défis algorithmiques : le livrable "
+            "EST une sortie de machine, et c'est attendu. C'est le seul canal où un "
+            "agent produit lui-même la valeur rémunérée, sans tromper personne."
+        ),
+        ai_policy=COMPATIBLE,
+        audience_floor=0,
+        setup_effort=0.5,
+        days_to_first_euro=45,
+        human_steps=[
+            "Créer le compte et vérifier son identité pour recevoir un prix (KYC).",
+            "Vérifier les règles d'éligibilité : certaines primes excluent des pays "
+            "ou imposent de publier la solution.",
+        ],
+        automatable=[
+            "Concevoir, entraîner et soumettre les solutions.",
+            "Itérer sur le score du classement à chaque cycle.",
+        ],
+        legal_notes=[
+            "Respecter le règlement de chaque épreuve : un seul compte par personne, "
+            "pas de collusion entre comptes.",
+            "Un gain de concours est un revenu imposable et doit être déclaré.",
+            "Le revenu est binaire et incertain : on gagne un prix ou rien, contrairement "
+            "à un canal récurrent.",
+        ],
+    ),
+    Mechanism(
+        id="questionnaires_remuneres",
+        name="Questionnaires et panels rémunérés",
+        summary=(
+            "Panels d'études de marché et enquêtes rémunérées. Comme les micro-tâches, "
+            "ce que le commanditaire achète est l'opinion d'un être humain identifié — "
+            "pas une réponse produite par une machine."
+        ),
+        ai_policy=INCOMPATIBLE,
+        audience_floor=0,
+        setup_effort=0.2,
+        days_to_first_euro=10,
+        human_steps=[
+            "Aucun : le canal ne peut pas être automatisé sans fraude envers "
+            "l'institut et son client.",
+        ],
+        automatable=[],
+        legal_notes=[
+            "Ces panels exigent un compte par personne physique, vérifié, et des "
+            "réponses sincères. Leurs CGU interdisent les robots.",
+            "Ils déploient des contre-mesures : questions de contrôle, mesure du "
+            "temps de réponse, empreinte d'appareil, cohérence des réponses.",
+            "Remplir un questionnaire par agent corrompt la donnée vendue au client "
+            "final : c'est une fraude au préjudice de l'institut, pas une astuce.",
+            "Les gains sont de toute façon dérisoires au regard du risque : quelques "
+            "euros de l'heure, contre la fermeture du compte et la perte du solde.",
+        ],
+        blocking_note=(
+            "Un panel rémunère une opinion humaine identifiée. La faire produire par "
+            "un agent revient à vendre une donnée falsifiée à l'institut et à son "
+            "client. Le canal reste fermé quelles que soient les circonstances."
+        ),
+    ),
+    Mechanism(
         id="micro_taches",
         name="Micro-tâches rémunérées (annotation, cartographie de données)",
         summary=(
@@ -274,6 +336,18 @@ MECHANISMS: List[Mechanism] = [
     ),
 ]
 
+
+#: La règle qui tranche tous les cas d'un coup, sans avoir à énumérer les
+#: plateformes une par une. Elle explique pourquoi micro-tâches, questionnaires,
+#: panels de test, achats mystère ou primes de parrainage sont tous fermés, et
+#: pourquoi vendre une donnée, un logiciel ou une performance ne l'est pas.
+GOVERNING_RULE = (
+    "Tout revenu qui rémunère le fait d'être un humain — une opinion, une "
+    "attention, une identité vérifiée — est fermé à un agent : l'automatiser "
+    "falsifie précisément ce qui est acheté. Tout revenu qui rémunère un "
+    "résultat — une donnée, un logiciel, une performance, une audience — reste "
+    "ouvert, car personne n'y achète l'identité du producteur."
+)
 
 #: Obligations qui s'appliquent dès qu'un revenu est effectivement perçu.
 FISCAL_NOTES: List[str] = [
@@ -540,6 +614,7 @@ __all__ = [
     "Mechanism",
     "MECHANISMS",
     "FISCAL_NOTES",
+    "GOVERNING_RULE",
     "build_state",
     "COMPATIBLE",
     "RESTREINT",

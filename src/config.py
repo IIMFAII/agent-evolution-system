@@ -144,6 +144,28 @@ class Settings(BaseModel):
     # --- Publication -------------------------------------------------------
     publish_dir: str = "docs"
     publish_webhook_url: str = ""
+    #: URL canonique du site. Indispensable au sitemap, au flux RSS et aux
+    #: balises canoniques : sans elle, rien n'est correctement indexable.
+    site_url: str = ""
+    site_title: str = "Veille automatisée"
+
+    #: Délai minimal entre deux publications, en heures. Le pipeline tourne
+    #: toutes les 2 h, mais publier 12 pages/jour sans relecture correspond au
+    #: profil visé par les politiques anti-« contenu à l'échelle » des moteurs.
+    #: Un cycle qui n'a pas le droit de publier continue d'évoluer et d'ingérer.
+    min_hours_between_publications: float = Field(default=12.0, ge=0.0, le=168.0)
+
+    #: Quand True, les contenus retenus vont dans `docs/relecture/` au lieu
+    #: d'être publiés : rien ne part en ligne sans validation humaine.
+    require_human_review: bool = False
+
+    # --- Encaissement ------------------------------------------------------
+    #: Identifiant du canal d'encaissement ouvert par l'humain, et son secret.
+    #: Tant que ces deux champs sont vides, aucun lien monétisé n'est publié.
+    payout_provider: str = ""
+    payout_credential: Optional[str] = Field(default=None, repr=False)
+    #: URL publique de la page de soutien, si elle existe.
+    support_url: str = ""
 
     # --- Divers ------------------------------------------------------------
     db_path: str = "data/evolution.db"
@@ -174,6 +196,21 @@ class Settings(BaseModel):
     def affiliation_enabled(self) -> bool:
         """L'affiliation reste désactivée tant qu'aucun tag n'est configuré."""
         return bool(self.affiliate_tag and self.affiliate_base_url)
+
+    @property
+    def payout_linked(self) -> bool:
+        """True quand un canal d'encaissement réel a été rattaché par l'humain.
+
+        C'est l'unique interrupteur entre « rien ne rapporte » et « les liens
+        monétisés sont publiés ». Aucun code ne peut le mettre à True tout seul :
+        il exige un secret fourni par le titulaire du compte.
+        """
+        return bool(self.payout_provider and self.payout_credential)
+
+    @property
+    def monetized(self) -> bool:
+        """True si au moins un canal réel peut effectivement rapporter."""
+        return self.payout_linked or self.affiliation_enabled or bool(self.support_url)
 
     @property
     def db_file(self) -> Path:
@@ -216,6 +253,14 @@ def load_settings() -> Settings:
             not in ("false", "0", "no"),
             publish_dir=_env_str("PUBLISH_DIR", "docs"),
             publish_webhook_url=_env_str("PUBLISH_WEBHOOK_URL"),
+            site_url=_env_str("SITE_URL").rstrip("/"),
+            site_title=_env_str("SITE_TITLE", "Veille automatisée"),
+            min_hours_between_publications=_env_float("MIN_HOURS_BETWEEN_PUBLICATIONS", 12.0),
+            require_human_review=_env_str("REQUIRE_HUMAN_REVIEW", "false").lower()
+            in ("true", "1", "yes"),
+            payout_provider=_env_str("PAYOUT_PROVIDER"),
+            payout_credential=_env_str("PAYOUT_CREDENTIAL") or None,
+            support_url=_env_str("SUPPORT_URL"),
             db_path=_env_str("DB_PATH", "data/evolution.db"),
             log_level=_env_str("LOG_LEVEL", "INFO").upper(),
         )

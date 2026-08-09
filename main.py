@@ -30,7 +30,7 @@ from src.config import settings, setup_logging
 from src.database import Database
 from src.evaluator import WEIGHTS, Evaluator
 from src.ingestor import Ingestor
-from src.monetization import FISCAL_NOTES, Strategist, build_state
+from src.monetization import FISCAL_NOTES, GOVERNING_RULE, Strategist, build_state
 from src.llm import get_llm_client
 from src.publisher import Publisher
 
@@ -109,12 +109,44 @@ def _monetization_block(
             "fully_automated": state.fully_automated,
             "publications": state.publications,
             "opportunities": [o.to_dict() for o in evaluated],
+            "governing_rule": GOVERNING_RULE,
             "fiscal_notes": FISCAL_NOTES,
             "revenue": db.revenue_total(),
         }
     except Exception as exc:  # pragma: no cover - jamais bloquant
         logger.error("Analyse de monétisation en échec (%s) — cycle poursuivi.", exc)
         return {}
+
+
+def _publication_allowed(db: Database) -> tuple[bool, str]:
+    """Le cadençage protège le site des politiques anti-« contenu à l'échelle ».
+
+    Le pipeline tourne toutes les 2 h, mais publier 12 pages/jour sans aucune
+    relecture correspond exactement au profil que les moteurs sanctionnent
+    (démotion, voire désindexation, avec 3 à 6 mois de récupération). Un cycle
+    qui n'a pas le droit de publier continue d'ingérer, d'évaluer et d'évoluer :
+    seule l'écriture publique est retenue.
+    """
+    if settings.min_hours_between_publications <= 0:
+        return True, ""
+    last = db.recent_contents(limit=1)
+    if not last:
+        return True, ""
+    raw = str(last[0].get("created_at") or "")
+    try:
+        when = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=timezone.utc)
+    except ValueError:
+        return True, ""  # horodatage illisible : on ne bloque pas la publication
+
+    elapsed = (datetime.now(timezone.utc) - when).total_seconds() / 3600
+    if elapsed >= settings.min_hours_between_publications:
+        return True, ""
+    return False, (
+        f"cadençage : dernière publication il y a {elapsed:.1f} h, "
+        f"minimum {settings.min_hours_between_publications:.0f} h"
+    )
 
 
 def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
@@ -236,6 +268,7 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
         if r["score"].get("compliant") and r["score"]["fitness"] >= PUBLISH_THRESHOLD
     ]
     best = max(eligible, key=lambda r: r["score"]["fitness"]) if eligible else None
+    may_publish, throttle_reason = _publication_allowed(db)
 
     if best is None:
         reason = (
@@ -249,11 +282,25 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
     elif dry_run:
         logger.info("[dry-run] Contenu retenu : « %s » (non écrit sur disque).", best["draft"]["title"])
         published_info = {"published": False, "reason": "dry-run", "title": best["draft"]["title"]}
+    elif not may_publish:
+        # Le contenu est prêt et conforme : seule sa mise en ligne est différée.
+        logger.info("Publication différée — %s.", throttle_reason)
+        published_info = {
+            "published": False,
+            "reason": throttle_reason,
+            "title": best["draft"]["title"],
+        }
+        notes.append(throttle_reason)
     else:
         agent = best["agent"]
         slug = slugify(best["draft"]["title"])
         paths = publisher.publish(best["draft"]["title"], best["document"], slug=slug)
         publisher.build_index()
+        # Sans ces trois fichiers, le site n'est pas découvrable : aucun trafic,
+        # donc aucun revenu possible, quel que soit le canal ouvert.
+        publisher.build_sitemap()
+        publisher.build_robots()
+        publisher.build_feed(db.recent_contents(limit=30))
         db.save_content(
             run_id=run_id,
             agent_id=agent.id,

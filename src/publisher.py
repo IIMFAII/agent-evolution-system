@@ -64,6 +64,7 @@ HTML_TEMPLATE = """<!doctype html>
 <meta name="robots" content="index, follow">
 <title>{title}</title>
 <meta name="description" content="{description}">
+{head_extra}
 <style>
   :root {{
     --bg: #ffffff; --fg: #1a1d21; --muted: #5b6570;
@@ -287,6 +288,40 @@ class Publisher:
 
     # -- Écriture -----------------------------------------------------------
 
+    @staticmethod
+    def _meta_description(markdown: str, fallback: str) -> str:
+        """Extrait un résumé utile pour le moteur de recherche.
+
+        La ligne de métadonnées (« Publié le… — synthèse automatisée ») faisait
+        auparavant office de description : c'est l'extrait affiché dans les
+        résultats de recherche, et il ne disait rien du contenu.
+        """
+        for line in markdown.splitlines():
+            text = re.sub(r"[#*`>\[\]]|\(https?://[^)]*\)", "", line).strip()
+            if len(text) < 60:
+                continue
+            if text.lower().startswith(("publié le", "transparence", "les informations")):
+                continue
+            return text[:180]
+        return fallback[:180]
+
+    def _head_extra(self, path_from_root: str, title: str, description: str) -> str:
+        """Balises canoniques et Open Graph. Vides si `SITE_URL` est absente."""
+        if not settings.site_url:
+            return ""
+        url = f"{settings.site_url.rstrip('/')}/{path_from_root.lstrip('/')}"
+        esc = lambda s: html.escape(s, quote=True)  # noqa: E731
+        return (
+            f'<link rel="canonical" href="{esc(url)}">\n'
+            f'<link rel="alternate" type="application/rss+xml" '
+            f'title="{esc(settings.site_title)}" href="{esc(settings.site_url)}/feed.xml">\n'
+            f'<meta property="og:type" content="article">\n'
+            f'<meta property="og:title" content="{esc(title)}">\n'
+            f'<meta property="og:description" content="{esc(description)}">\n'
+            f'<meta property="og:url" content="{esc(url)}">\n'
+            f'<meta name="twitter:card" content="summary">'
+        )
+
     def publish(self, title: str, markdown: str, slug: Optional[str] = None) -> Dict[str, str]:
         """Écrit le post en Markdown et en HTML. Retourne les chemins produits."""
         self.posts_dir.mkdir(parents=True, exist_ok=True)
@@ -298,11 +333,12 @@ class Publisher:
 
         md_path.write_text(markdown, encoding="utf-8")
 
-        description = re.sub(r"[#*`\[\]]", "", markdown.splitlines()[2] if len(markdown.splitlines()) > 2 else title)
+        description = self._meta_description(markdown, title)
         html_path.write_text(
             HTML_TEMPLATE.format(
                 title=html.escape(title, quote=True),
-                description=html.escape(description.strip()[:180], quote=True),
+                description=html.escape(description, quote=True),
+                head_extra=self._head_extra(f"posts/{stem}.html", title, description),
                 content=markdown_to_html(markdown) + '\n<p><a href="../index.html">← Toutes les publications</a></p>',
             ),
             encoding="utf-8",
@@ -345,10 +381,15 @@ class Publisher:
             self.output_dir.mkdir(parents=True, exist_ok=True)
             index_path.write_text(
                 HTML_TEMPLATE.format(
-                    title="Veille automatisée",
+                    title=html.escape(settings.site_title, quote=True),
                     description=html.escape(
                         "Synthèses de veille produites par une population d'agents évolutifs.",
                         quote=True,
+                    ),
+                    head_extra=self._head_extra(
+                        "index.html",
+                        settings.site_title,
+                        "Synthèses de veille produites par une population d'agents évolutifs.",
                     ),
                     content=markdown_to_html(markdown),
                 ),
@@ -358,6 +399,98 @@ class Publisher:
             logger.error("Écriture de l'index impossible : %s", exc)
             return None
         return index_path
+
+    # -- Indexabilité -------------------------------------------------------
+
+    def build_sitemap(self) -> Optional[Path]:
+        """Écrit `docs/sitemap.xml`. Sans lui, les pages ne sont pas découvertes.
+
+        Requiert `SITE_URL` : un sitemap contenant des URL relatives est ignoré
+        par les moteurs, donc on préfère ne rien écrire plutôt qu'un fichier
+        invalide qui donnerait l'illusion d'être indexé.
+        """
+        if not settings.site_url:
+            logger.info("SITE_URL non configurée — sitemap non généré.")
+            return None
+        try:
+            self.posts_dir.mkdir(parents=True, exist_ok=True)
+            base = settings.site_url.rstrip("/")
+            urls = [(f"{base}/", "daily", "1.0"), (f"{base}/dashboard.html", "hourly", "0.6")]
+            for post in sorted(self.posts_dir.glob("*.html"), reverse=True):
+                urls.append((f"{base}/posts/{post.name}", "monthly", "0.8"))
+
+            body = "\n".join(
+                f"  <url><loc>{html.escape(loc, quote=True)}</loc>"
+                f"<changefreq>{freq}</changefreq><priority>{prio}</priority></url>"
+                for loc, freq, prio in urls
+            )
+            path = self.output_dir / "sitemap.xml"
+            path.write_text(
+                '<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                f"{body}\n</urlset>\n",
+                encoding="utf-8",
+            )
+            return path
+        except OSError as exc:  # pragma: no cover
+            logger.error("Écriture du sitemap impossible : %s", exc)
+            return None
+
+    def build_robots(self) -> Optional[Path]:
+        """Écrit `docs/robots.txt`, en autorisant l'indexation et en pointant le sitemap.
+
+        Le site applique aux autres le `robots.txt` qu'il publie pour lui-même :
+        il autorise explicitement ce qu'il consomme lui-même par flux.
+        """
+        try:
+            self.output_dir.mkdir(parents=True, exist_ok=True)
+            lines = ["User-agent: *", "Allow: /", "", "# Données du pipeline, sans intérêt pour l'indexation", "Disallow: /data.json", "Disallow: /status.json", ""]
+            if settings.site_url:
+                lines.append(f"Sitemap: {settings.site_url.rstrip('/')}/sitemap.xml")
+            path = self.output_dir / "robots.txt"
+            path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            return path
+        except OSError as exc:  # pragma: no cover
+            logger.error("Écriture de robots.txt impossible : %s", exc)
+            return None
+
+    def build_feed(self, contents: Sequence[Dict[str, Any]]) -> Optional[Path]:
+        """Écrit `docs/feed.xml` : un flux RSS des publications du site.
+
+        C'est le seul canal de diffusion légitime d'un système automatisé : le
+        lecteur s'abonne, personne ne reçoit de message non sollicité.
+        """
+        if not settings.site_url:
+            return None
+        try:
+            base = settings.site_url.rstrip("/")
+            items = []
+            for c in list(contents)[:30]:
+                link = f"{base}/posts/{c.get('slug', '')}.html"
+                items.append(
+                    "    <item>\n"
+                    f"      <title>{html.escape(str(c.get('title', '')), quote=True)}</title>\n"
+                    f"      <link>{html.escape(link, quote=True)}</link>\n"
+                    f"      <guid isPermaLink=\"true\">{html.escape(link, quote=True)}</guid>\n"
+                    f"      <description>{html.escape(DISCLAIMER_AUTOMATION, quote=True)}</description>\n"
+                    "    </item>"
+                )
+            path = self.output_dir / "feed.xml"
+            path.write_text(
+                '<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<rss version="2.0"><channel>\n'
+                f"    <title>{html.escape(settings.site_title, quote=True)}</title>\n"
+                f"    <link>{html.escape(base, quote=True)}</link>\n"
+                f"    <description>{html.escape(DISCLAIMER_SOURCES, quote=True)}</description>\n"
+                "    <language>fr</language>\n"
+                + "\n".join(items)
+                + "\n</channel></rss>\n",
+                encoding="utf-8",
+            )
+            return path
+        except OSError as exc:  # pragma: no cover
+            logger.error("Écriture du flux impossible : %s", exc)
+            return None
 
     def write_dashboard_data(self, payload: Dict[str, Any]) -> Optional[Path]:
         """Écrit `docs/data.json`, la source unique du tableau de bord.
