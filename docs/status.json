@@ -1,25 +1,31 @@
 {
-  "run_id": 10,
-  "generation_evaluated": 7,
-  "next_generation": 8,
+  "run_id": 11,
+  "generation_evaluated": 8,
+  "next_generation": 9,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 7,
-    "best_fitness": 0.8436,
-    "best_agent": "Prospectif-4.3",
-    "best_agent_id": "de6c38a4fa314249",
-    "avg_fitness": 0.8322,
+    "generation": 8,
+    "best_fitness": 0.8629,
+    "best_agent": "Concis-8.3",
+    "best_agent_id": "2c34a351e4c64d4a",
+    "avg_fitness": 0.8451,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.7 h, minimum 12 h",
-    "title": "Veille prospectif : ultra-lightweight, zero-dependency, 40-something en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
+    "title": "Veille concis : operational, vapourware, combustion en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 8,
+      "population": 5,
+      "avg_fitness": 0.8451000000000001,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 7,
       "population": 5,
