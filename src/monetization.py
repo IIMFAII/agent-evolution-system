@@ -206,6 +206,41 @@ MECHANISMS: List[Mechanism] = [
         ],
     ),
     Mechanism(
+        id="outil_sur_place_de_marche",
+        name="Outil vendu sur une place de marché de développeurs",
+        summary=(
+            "Publier un petit outil de collecte ou de traitement de données sur une "
+            "place de marché qui fournit ELLE-MÊME les acheteurs et la facturation "
+            "(abonnement ou paiement à l'exécution). C'est le seul canal qui lève "
+            "le vrai blocage : on n'a pas à se construire une audience, la place de "
+            "marché en a déjà une qui cherche des outils."
+        ),
+        ai_policy=COMPATIBLE,
+        audience_floor=0,
+        setup_effort=0.45,
+        days_to_first_euro=30,
+        human_steps=[
+            "Créer le compte éditeur et vérifier l'identité pour être payé (KYC).",
+            "Choisir le sujet de l'outil : c'est un arbitrage produit, pas technique.",
+        ],
+        automatable=[
+            "Concevoir, écrire, tester et documenter l'outil.",
+            "Le maintenir : corriger les régressions, suivre les évolutions des sources.",
+            "Itérer sur la fiche produit à partir des retours d'usage.",
+        ],
+        legal_notes=[
+            "On vend un résultat, pas une identité : aucune clause sur l'origine "
+            "humaine du travail ne s'applique.",
+            "Un outil de collecte doit respecter robots.txt, les limites de requêtes "
+            "et les CGU des sources — sous peine de retrait de la place de marché.",
+            "La place de marché prélève une commission et reverse le solde sur le "
+            "compte vérifié, automatiquement.",
+            "Revenu réel mais modeste et incertain : la majorité des fiches ne "
+            "rapportent rien. Le facteur décisif est l'utilité de l'outil, pas sa "
+            "qualité technique.",
+        ],
+    ),
+    Mechanism(
         id="competitions_ml",
         name="Compétitions et primes à la performance",
         summary=(
@@ -215,8 +250,8 @@ MECHANISMS: List[Mechanism] = [
         ),
         ai_policy=COMPATIBLE,
         audience_floor=0,
-        setup_effort=0.5,
-        days_to_first_euro=45,
+        setup_effort=0.9,
+        days_to_first_euro=120,
         human_steps=[
             "Créer le compte et vérifier son identité pour recevoir un prix (KYC).",
             "Vérifier les règles d'éligibilité : certaines primes excluent des pays "
@@ -232,6 +267,10 @@ MECHANISMS: List[Mechanism] = [
             "Un gain de concours est un revenu imposable et doit être déclaré.",
             "Le revenu est binaire et incertain : on gagne un prix ou rien, contrairement "
             "à un canal récurrent.",
+            "Autorisé n'est pas faisable : un runner d'intégration continue sans GPU, "
+            "plafonné à quelques minutes, ne rivalise pas avec des équipes expertes. "
+            "Ce canal reste ouvert mais son espérance de gain est proche de zéro "
+            "avec l'infrastructure gratuite actuelle.",
         ],
     ),
     Mechanism(
