@@ -570,7 +570,45 @@ def test_full_cycle_with_llm(monkeypatch, tmp_path, items):
 def test_cycle_without_items_exits_cleanly(monkeypatch, tmp_path):
     exit_code = _run_pipeline(monkeypatch, tmp_path, [], FakeLLM())
     assert exit_code == 0, "un cycle sans matière doit se terminer proprement"
-    assert not (tmp_path / "docs" / "posts").exists()
+    assert not list((tmp_path / "docs" / "posts").glob("*.md")), "rien ne doit être publié"
+
+
+def test_indexability_files_exist_even_without_publication(monkeypatch, tmp_path):
+    """Sitemap, robots et flux ne dépendent pas d'une publication.
+
+    Les rattacher à la branche « publie » revenait à ne jamais les écrire dès
+    que le cadençage ou l'absence de nouveauté différait la publication — et
+    sans eux, le site n'est pas découvrable.
+    """
+    monkeypatch.setattr(settings, "site_url", "https://exemple.test/veille")
+    exit_code = _run_pipeline(monkeypatch, tmp_path, [], FakeLLM())
+    assert exit_code == 0
+
+    docs = tmp_path / "docs"
+    assert (docs / "robots.txt").exists()
+    assert (docs / "sitemap.xml").exists()
+    assert (docs / "feed.xml").exists()
+    assert "Sitemap: https://exemple.test/veille/sitemap.xml" in (docs / "robots.txt").read_text(encoding="utf-8")
+
+
+def test_publication_throttled_by_cadence(monkeypatch, tmp_path, items):
+    """Le cadençage diffère la mise en ligne sans interrompre l'évolution."""
+    import main as main_module
+
+    assert _run_pipeline(monkeypatch, tmp_path, items, FakeLLM()) == 0
+    published_first = len(list((tmp_path / "docs" / "posts").glob("*.md")))
+    assert published_first == 1
+
+    # Nouveaux items, mais publication trop récente au regard du cadençage.
+    fresh = [dict(i, fingerprint=i["fingerprint"] + "-b", link=i["link"] + "?b") for i in items]
+    monkeypatch.setattr(settings, "min_hours_between_publications", 12.0)
+    assert _run_pipeline(monkeypatch, tmp_path, fresh, FakeLLM()) == 0
+
+    assert len(list((tmp_path / "docs" / "posts").glob("*.md"))) == published_first, (
+        "aucune seconde publication ne doit passer le cadençage"
+    )
+    database = Database(tmp_path / "evolution.db")
+    assert database.current_generation() == 3, "l'évolution doit continuer malgré tout"
 
 
 def test_cycle_survives_llm_outage(monkeypatch, tmp_path, items):

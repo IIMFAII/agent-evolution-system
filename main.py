@@ -179,9 +179,16 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
         logger.info("Aucun nouvel item exploitable — cycle interrompu proprement.")
         db.finish_run(run_id, status="no_data", items_ingested=0, notes="; ".join(notes))
         if not dry_run:
+            # Un cycle sans nouveauté doit quand même entretenir le site :
+            # les fichiers d'indexation ne dépendent pas d'une publication, et
+            # les rattacher à celle-ci revenait à ne jamais les écrire.
+            idle_publisher = Publisher()
+            idle_publisher.build_sitemap()
+            idle_publisher.build_robots()
+            idle_publisher.build_feed(db.recent_contents(limit=30))
             # Le tableau de bord est rafraîchi même sans publication, sinon il
             # laisserait croire que le système est à l'arrêt.
-            Publisher().write_dashboard_data(
+            idle_publisher.write_dashboard_data(
                 _dashboard_payload(
                     db,
                     cycle={
