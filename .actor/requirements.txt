@@ -1,0 +1,5 @@
+# Dépendance unique. L'audit lui-même n'utilise que la bibliothèque standard :
+# `content_audit` ne dépend que de `textkit`, qui n'importe rien de tiers.
+# Vérifiable : python -c "import ast; ..." (voir README, section Produit dérivé).
+# Conséquence : build rapide, peu de modes de panne, coût d'exécution minime.
+apify>=2.0,<3.0

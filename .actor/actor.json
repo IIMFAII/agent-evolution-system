@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "agent-evolution-system",
+  "title": "Audit de conformité de contenu",
+  "description": "Détecte le risque « contenu à l'échelle » sur un corpus : similarité inter-documents, uniformité des plans, recopie littérale, transparence IA, données personnelles, lisibilité française.",
+  "version": "0.0",
+  "dockerfile": "./Dockerfile",
+  "input": "./input_schema.json"
+}

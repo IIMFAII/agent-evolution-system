@@ -1,0 +1,30 @@
+{
+  "title": "Audit de conformité de contenu",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "documents": {
+      "title": "Documents à auditer",
+      "type": "array",
+      "description": "Le corpus. Chaque entrée : { \"title\": \"...\", \"text\": \"...\" }. La valeur ajoutée porte sur le lot : fournissez plusieurs documents pour détecter la répétition inter-documents.",
+      "editor": "json",
+      "prefill": [
+        {
+          "title": "Pourquoi les caches distribués coûtent plus cher qu'annoncé",
+          "text": "La facture d'un cache distribué se joue rarement sur le prix affiché de la mémoire. Elle se joue sur le trafic entre zones de disponibilité, que les grilles tarifaires mentionnent en note de bas de page. Rédaction assistée par intelligence artificielle."
+        },
+        {
+          "title": "Le chiffrement post-quantique arrive par la petite porte",
+          "text": "Les bibliothèques cryptographiques intègrent les algorithmes résistants au calcul quantique bien avant que les entreprises ne s'en préoccupent. Le basculement se fera par mise à jour transitive. Contenu généré avec assistance automatisée."
+        }
+      ]
+    },
+    "sources": {
+      "title": "Textes sources (facultatif)",
+      "type": "array",
+      "description": "Textes d'origine servant à détecter la recopie littérale. Sans eux, le score de recopie n'est pas calculé plutôt que d'être inventé.",
+      "editor": "stringList"
+    }
+  },
+  "required": ["documents"]
+}

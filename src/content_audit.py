@@ -37,15 +37,18 @@ import logging
 import re
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-from src.evaluator import (
+from src.textkit import (
     CLICKBAIT_RE,
     EMAIL_RE,
     OVERPROMISE_RE,
     PHONE_RE,
+    count_words,
     ctr_heuristic,
+    jaccard as _jaccard,
+    ngrams as _shingles,
     readability_score,
+    tokenize,
 )
-from src.agents.agent import tokenize
 
 logger = logging.getLogger(__name__)
 
@@ -61,13 +64,6 @@ logger = logging.getLogger(__name__)
 #: un texte de longueur parfaitement normale — un faux positif, c'est-à-dire
 #: le défaut qui décrédibilise le plus vite un outil d'audit payant.
 THIN_CONTENT_WORDS = 150
-
-_WORD_COUNT_RE = re.compile(r"[^\W\d_]+", re.UNICODE)
-
-
-def count_words(text: str) -> int:
-    """Nombre de mots bruts, mots-outils compris."""
-    return len(_WORD_COUNT_RE.findall(text or ""))
 
 #: Part de 5-grammes partagés au-delà de laquelle deux documents sont jugés
 #: bâtis sur le même gabarit. Calibré pour ne pas déclencher sur un simple
@@ -92,18 +88,6 @@ RISK_LABELS = {
     "élevé": "Profil proche de ce que les moteurs sanctionnent.",
     "critique": "Publication déconseillée en l'état.",
 }
-
-
-def _shingles(tokens: Sequence[str], n: int) -> set:
-    """Ensemble des n-grammes d'une suite de jetons."""
-    return {tuple(tokens[i : i + n]) for i in range(len(tokens) - n + 1)}
-
-
-def _jaccard(a: set, b: set) -> float:
-    """Similarité de Jaccard, 0 si l'un des ensembles est vide."""
-    if not a or not b:
-        return 0.0
-    return len(a & b) / len(a | b)
 
 
 def _heading_skeleton(text: str) -> Tuple[str, ...]:

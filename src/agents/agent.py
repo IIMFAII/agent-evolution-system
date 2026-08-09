@@ -25,6 +25,7 @@ from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Sequence
 
 from src.config import settings
+from src.textkit import extract_themes as _extract_themes, tokenize
 
 # ---------------------------------------------------------------------------
 # Charte légale non mutable — injectée dans CHAQUE appel au modèle.
@@ -350,45 +351,9 @@ class Agent:
 # Utilitaires partagés
 # ---------------------------------------------------------------------------
 
-#: Mots-outils français/anglais exclus de l'extraction thématique.
-STOPWORDS = {
-    "le", "la", "les", "un", "une", "des", "du", "de", "et", "en", "au", "aux",
-    "pour", "par", "sur", "avec", "dans", "que", "qui", "est", "sont", "son",
-    "ses", "ce", "cette", "ces", "plus", "moins", "tout", "tous", "leur", "il",
-    "elle", "on", "nous", "vous", "ils", "elles", "ne", "pas", "the", "a", "an",
-    "of", "to", "in", "for", "on", "with", "and", "or", "is", "are", "as", "at",
-    "by", "from", "it", "its", "this", "that", "be", "has", "have", "new",
-}
-
-_WORD_RE = re.compile(r"[a-zà-öø-ÿ0-9][a-zà-öø-ÿ0-9'-]{2,}", re.IGNORECASE)
-
-
-def tokenize(text: str) -> List[str]:
-    """Découpe un texte en mots significatifs (minuscules, sans mots-outils)."""
-    return [
-        w.lower()
-        for w in _WORD_RE.findall(text or "")
-        if w.lower() not in STOPWORDS and len(w) > 2
-    ]
-
-
 def extract_themes(items: Sequence[Dict[str, Any]], top_n: int = 6) -> List[str]:
-    """Mots-clés dominants d'un lot d'items (analyse des titres).
-
-    Le classement combine **récurrence** et **spécificité** : un mot présent
-    dans plusieurs titres l'emporte, et à fréquence égale on préfère les termes
-    longs, plus porteurs de sens que les mots courts et génériques. Sans cette
-    pondération, un lot d'actualités hétérogènes remonterait les trois premiers
-    mots du premier titre venu.
-    """
-    from collections import Counter
-
-    counter: Counter = Counter()
-    for item in items:
-        counter.update(w for w in tokenize(item.get("title", "")) if len(w) >= 4)
-
-    ranked = sorted(counter.items(), key=lambda kv: (kv[1], len(kv[0])), reverse=True)
-    return [word for word, _ in ranked[:top_n]]
+    """Mots-clés dominants d'un lot d'items (analyse des titres)."""
+    return _extract_themes([item.get("title", "") for item in items], top_n=top_n)
 
 
 def create_seed_population(size: int, rng: Optional[random.Random] = None) -> List[Agent]:

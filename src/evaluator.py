@@ -21,8 +21,17 @@ import logging
 import re
 from typing import Any, Dict, List, Optional, Sequence
 
-from src.agents.agent import tokenize
 from src.config import COMPLIANCE_MARKERS, settings
+from src.textkit import (  # primitives partagées avec le produit d'audit
+    CLICKBAIT_RE,
+    EMAIL_RE,
+    OVERPROMISE_RE,
+    PHONE_RE,
+    count_syllables_fr,
+    ctr_heuristic,
+    readability_score,
+    tokenize,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -39,80 +48,6 @@ WEIGHTS = {
 
 #: Plafond de fitness appliqué à un contenu non conforme (verrou légal).
 NON_COMPLIANT_CAP = 0.10
-
-# --- Détecteurs de non-conformité -----------------------------------------
-
-#: Données personnelles (RGPD) — leur présence invalide le contenu.
-EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]{2,}")
-PHONE_RE = re.compile(r"(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}")
-
-#: Accroches trompeuses interdites (publicité mensongère / clickbait abusif).
-CLICKBAIT_RE = re.compile(
-    r"\b("
-    r"incroyable|choquant|hallucinant|vous\s+n['e]\s*allez\s+pas\s+y\s+croire"
-    r"|astuce\s+secrète|le\s+secret\s+que|100\s*%\s+garanti|argent\s+facile"
-    r"|miracle|révolutionnaire|jamais\s+vu|urgent\s*!|dernière\s+chance"
-    r"|gagnez\s+de\s+l'argent|sans\s+effort"
-    r")\b",
-    re.IGNORECASE,
-)
-
-#: Promesses non vérifiables (publicité mensongère).
-OVERPROMISE_RE = re.compile(
-    r"\b(garanti|assuré à 100|infaillible|sans risque|résultats? garantis?)\b",
-    re.IGNORECASE,
-)
-
-_SENTENCE_SPLIT_RE = re.compile(r"[.!?…]+")
-_VOWEL_GROUP_RE = re.compile(r"[aeiouyàâäéèêëîïôöùûüœ]+", re.IGNORECASE)
-
-
-# ---------------------------------------------------------------------------
-# Signaux élémentaires
-# ---------------------------------------------------------------------------
-
-
-def count_syllables_fr(word: str) -> int:
-    """Compte approximatif de syllabes en français (groupes de voyelles).
-
-    Le « e » muet final n'est pas compté, sauf s'il constitue la seule syllabe.
-    """
-    word = word.lower().strip()
-    if not word:
-        return 0
-    groups = _VOWEL_GROUP_RE.findall(word)
-    count = len(groups)
-    if word.endswith("e") and count > 1:
-        count -= 1
-    return max(1, count)
-
-
-def readability_score(text: str) -> float:
-    """Lisibilité normalisée [0,1] via l'indice de Kandel & Moles (Flesch FR).
-
-        207 − 1.015 · (mots/phrases) − 73.6 · (syllabes/mots)
-
-    L'échelle brute (0 = très difficile, 100 = très facile) est ensuite recentrée
-    sur la bande 40–80, qui correspond à un article de veille bien calibré : trop
-    simple est aussi pénalisant que trop absconé.
-    """
-    words = re.findall(r"[\wà-öø-ÿ'-]+", text or "")
-    sentences = [s for s in _SENTENCE_SPLIT_RE.split(text or "") if s.strip()]
-    if len(words) < 20 or not sentences:
-        return 0.0
-
-    words_per_sentence = len(words) / len(sentences)
-    syllables_per_word = sum(count_syllables_fr(w) for w in words) / len(words)
-    raw = 207 - 1.015 * words_per_sentence - 73.6 * syllables_per_word
-    raw = max(0.0, min(100.0, raw))
-
-    # Bande optimale 40–80 → 1.0 ; décroissance linéaire de part et d'autre.
-    if 40 <= raw <= 80:
-        return 1.0
-    if raw < 40:
-        return max(0.0, raw / 40)
-    return max(0.0, 1.0 - (raw - 80) / 20)
-
 
 def keyword_score(
     text: str, agent_keywords: Sequence[str], source_items: Sequence[Dict[str, Any]]
@@ -157,46 +92,6 @@ def keyword_score(
         density = most_common[0][1] / len(tokens)
         if density > 0.04:
             score *= max(0.3, 1.0 - (density - 0.04) * 10)
-
-    return max(0.0, min(1.0, score))
-
-
-def ctr_heuristic(title: str) -> float:
-    """Estimation heuristique du potentiel de clic d'un titre (sans réseau).
-
-    Critères : longueur utile (45–75 caractères), présence d'un repère chiffré,
-    richesse lexicale, absence de capitales criardes et de ponctuation excessive.
-    Tout marqueur de clickbait est **pénalisé**, jamais récompensé : l'objectif
-    est un titre attractif *et* honnête.
-    """
-    title = (title or "").strip()
-    if not title:
-        return 0.0
-
-    score = 0.5
-    length = len(title)
-    if 45 <= length <= 75:
-        score += 0.20
-    elif 30 <= length < 45 or 75 < length <= 95:
-        score += 0.08
-    else:
-        score -= 0.15
-
-    if re.search(r"\d", title):  # un repère chiffré ancre la promesse
-        score += 0.10
-
-    informative_words = [w for w in tokenize(title) if len(w) > 4]
-    if len(informative_words) >= 4:
-        score += 0.10
-
-    if CLICKBAIT_RE.search(title):
-        score -= 0.45
-    if OVERPROMISE_RE.search(title):
-        score -= 0.25
-    if title.isupper() or sum(1 for c in title if c.isupper()) > len(title) * 0.4:
-        score -= 0.20
-    if title.count("!") + title.count("?") > 1:
-        score -= 0.15
 
     return max(0.0, min(1.0, score))
 
