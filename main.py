@@ -296,11 +296,6 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
         slug = slugify(best["draft"]["title"])
         paths = publisher.publish(best["draft"]["title"], best["document"], slug=slug)
         publisher.build_index()
-        # Sans ces trois fichiers, le site n'est pas découvrable : aucun trafic,
-        # donc aucun revenu possible, quel que soit le canal ouvert.
-        publisher.build_sitemap()
-        publisher.build_robots()
-        publisher.build_feed(db.recent_contents(limit=30))
         db.save_content(
             run_id=run_id,
             agent_id=agent.id,
@@ -333,6 +328,15 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
     )
     if monetization.get("opportunities"):
         db.save_opportunities(run_id, monetization["opportunities"])
+
+    # Fichiers d'indexation : régénérés à CHAQUE cycle, y compris quand le
+    # cadençage diffère la publication. Les rattacher à la branche « publie »
+    # revenait à ne jamais les écrire tant que le cadençage était actif — et
+    # sans eux, le site n'est pas découvrable, donc aucun revenu n'est possible.
+    if not dry_run:
+        publisher.build_sitemap()
+        publisher.build_robots()
+        publisher.build_feed(db.recent_contents(limit=30))
 
     # --- 7. Évolution ------------------------------------------------------
     summary = GeneticEngine.summarize(population)
