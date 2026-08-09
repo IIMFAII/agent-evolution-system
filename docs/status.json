@@ -1,25 +1,31 @@
 {
-  "run_id": 7,
-  "generation_evaluated": 4,
-  "next_generation": 5,
-  "items_ingested": 1,
+  "run_id": 8,
+  "generation_evaluated": 5,
+  "next_generation": 6,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 4,
-    "best_fitness": 0.8863,
+    "generation": 5,
+    "best_fitness": 0.8335,
     "best_agent": "Prospectif-4.3",
-    "best_agent_id": "f2af03efbc8e464f",
-    "avg_fitness": 0.8773,
+    "best_agent_id": "fce17ca0a6b647af",
+    "avg_fitness": 0.8261,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 0.3 h, minimum 12 h",
-    "title": "Veille prospectif : alzheimer's, drivers, rarely en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 0.7 h, minimum 12 h",
+    "title": "Veille prospectif : open-source, workstation, somewhere en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 5,
+      "population": 5,
+      "avg_fitness": 0.82606,
+      "best_fitness": 0.8335
+    },
     {
       "generation": 4,
       "population": 5,

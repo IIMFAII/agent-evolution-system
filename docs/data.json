@@ -1,98 +1,98 @@
 {
- "generated_at": "2026-08-09T16:03:14+00:00",
+ "generated_at": "2026-08-09T16:28:01+00:00",
  "cycle": {
-  "run_id": 7,
-  "generation_evaluated": 4,
-  "next_generation": 5,
-  "items_ingested": 1,
+  "run_id": 8,
+  "generation_evaluated": 5,
+  "next_generation": 6,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 0.3 h, minimum 12 h",
-   "title": "Veille prospectif : alzheimer's, drivers, rarely en 1 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 0.7 h, minimum 12 h",
+   "title": "Veille prospectif : open-source, workstation, somewhere en 3 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 4,
-  "best_fitness": 0.8863,
+  "generation": 5,
+  "best_fitness": 0.8335,
   "best_agent": "Prospectif-4.3",
-  "best_agent_id": "f2af03efbc8e464f",
-  "avg_fitness": 0.8773,
+  "best_agent_id": "fce17ca0a6b647af",
+  "avg_fitness": 0.8261,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "f2af03efbc8e464f",
-   "fitness": 0.8863,
+   "agent_id": "fce17ca0a6b647af",
+   "fitness": 0.8335,
    "readability": 1.0,
-   "keyword_score": 0.5314,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3874,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Prospectif-4.3",
    "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.5687499999999999,
-   "mutation_rate": 0.32
-  },
-  {
-   "agent_id": "65999124a6b84075",
-   "fitness": 0.884,
-   "readability": 1.0,
-   "keyword_score": 0.52,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif",
-   "tone": "prospectif",
    "origin": "elite",
-   "temperature": 0.7,
-   "mutation_rate": 0.3
-  },
-  {
-   "agent_id": "dbd2e355062a45b4",
-   "fitness": 0.872,
-   "readability": 1.0,
-   "keyword_score": 0.46,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-4.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.65625,
-   "mutation_rate": 0.335
-  },
-  {
-   "agent_id": "ea4486bef25f49e9",
-   "fitness": 0.872,
-   "readability": 1.0,
-   "keyword_score": 0.46,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-4.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.7824642805308348,
-   "mutation_rate": 0.335
-  },
-  {
-   "agent_id": "b12e3391e92b488f",
-   "fitness": 0.872,
-   "readability": 1.0,
-   "keyword_score": 0.46,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-4.5",
-   "tone": "critique",
-   "origin": "crossover",
    "temperature": 0.5687499999999999,
    "mutation_rate": 0.32
+  },
+  {
+   "agent_id": "c28179c339524442",
+   "fitness": 0.8292,
+   "readability": 1.0,
+   "keyword_score": 0.366,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-5.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6343749999999999,
+   "mutation_rate": 0.28
+  },
+  {
+   "agent_id": "c83c7f1e5e2949cf",
+   "fitness": 0.8292,
+   "readability": 1.0,
+   "keyword_score": 0.366,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-5.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.7412321402654174,
+   "mutation_rate": 0.2875
+  },
+  {
+   "agent_id": "089bf2254a5749eb",
+   "fitness": 0.8292,
+   "readability": 1.0,
+   "keyword_score": 0.366,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-5.5",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6346268598730087,
+   "mutation_rate": 0.28
+  },
+  {
+   "agent_id": "ac5903da613142e7",
+   "fitness": 0.8092,
+   "readability": 1.0,
+   "keyword_score": 0.266,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-5.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6281900934289224,
+   "mutation_rate": 0.2975
   }
  ],
  "generations": [
@@ -123,9 +123,25 @@
    "avg_fitness": 0.87726,
    "best_fitness": 0.8863,
    "worst_fitness": 0.872
+  },
+  {
+   "generation": 5,
+   "population": 5,
+   "avg_fitness": 0.82606,
+   "best_fitness": 0.8335,
+   "worst_fitness": 0.8092
   }
  ],
  "runs": [
+  {
+   "id": 8,
+   "started_at": "2026-08-09T16:27:55+00:00",
+   "finished_at": "2026-08-09T16:28:01+00:00",
+   "generation": 5,
+   "status": "success",
+   "items_ingested": 3,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 0.7 h, minimum 12 h"
+  },
   {
    "id": 7,
    "started_at": "2026-08-09T16:03:09+00:00",
@@ -225,24 +241,54 @@
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
  "monetization": {
-  "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Compétitions et primes à la performance.",
+  "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
   "publications": 3,
   "opportunities": [
    {
-    "id": "competitions_ml",
-    "name": "Compétitions et primes à la performance",
-    "summary": "Concours de science des données et défis algorithmiques : le livrable EST une sortie de machine, et c'est attendu. C'est le seul canal où un agent produit lui-même la valeur rémunérée, sans tromper personne.",
-    "score": 0.8438,
+    "id": "outil_sur_place_de_marche",
+    "name": "Outil vendu sur une place de marché de développeurs",
+    "summary": "Publier un petit outil de collecte ou de traitement de données sur une place de marché qui fournit ELLE-MÊME les acheteurs et la facturation (abonnement ou paiement à l'exécution). C'est le seul canal qui lève le vrai blocage : on n'a pas à se construire une audience, la place de marché en a déjà une qui cherche des outils.",
+    "score": 0.8725,
     "status": "recommandé",
     "blocked_reason": null,
-    "rationale": "Seuil d'audience atteint et CGU compatibles. Premier revenu réaliste sous ~45 jours.",
+    "rationale": "Seuil d'audience atteint et CGU compatibles. Premier revenu réaliste sous ~30 jours.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
     "audience_floor": 0,
-    "days_to_first_euro": 45,
+    "days_to_first_euro": 30,
+    "human_steps": [
+     "Créer le compte éditeur et vérifier l'identité pour être payé (KYC).",
+     "Choisir le sujet de l'outil : c'est un arbitrage produit, pas technique."
+    ],
+    "automatable": [
+     "Concevoir, écrire, tester et documenter l'outil.",
+     "Le maintenir : corriger les régressions, suivre les évolutions des sources.",
+     "Itérer sur la fiche produit à partir des retours d'usage."
+    ],
+    "legal_notes": [
+     "On vend un résultat, pas une identité : aucune clause sur l'origine humaine du travail ne s'applique.",
+     "Un outil de collecte doit respecter robots.txt, les limites de requêtes et les CGU des sources — sous peine de retrait de la place de marché.",
+     "La place de marché prélève une commission et reverse le solde sur le compte vérifié, automatiquement.",
+     "Revenu réel mais modeste et incertain : la majorité des fiches ne rapportent rien. Le facteur décisif est l'utilité de l'outil, pas sa qualité technique."
+    ],
+    "policy_source": null
+   },
+   {
+    "id": "competitions_ml",
+    "name": "Compétitions et primes à la performance",
+    "summary": "Concours de science des données et défis algorithmiques : le livrable EST une sortie de machine, et c'est attendu. C'est le seul canal où un agent produit lui-même la valeur rémunérée, sans tromper personne.",
+    "score": 0.67,
+    "status": "recommandé",
+    "blocked_reason": null,
+    "rationale": "Seuil d'audience atteint et CGU compatibles. Premier revenu réaliste sous ~120 jours.",
+    "angle": null,
+    "ai_policy": "compatible",
+    "ai_policy_label": "Compatible contenu automatisé",
+    "audience_floor": 0,
+    "days_to_first_euro": 120,
     "human_steps": [
      "Créer le compte et vérifier son identité pour recevoir un prix (KYC).",
      "Vérifier les règles d'éligibilité : certaines primes excluent des pays ou imposent de publier la solution."
@@ -254,7 +300,8 @@
     "legal_notes": [
      "Respecter le règlement de chaque épreuve : un seul compte par personne, pas de collusion entre comptes.",
      "Un gain de concours est un revenu imposable et doit être déclaré.",
-     "Le revenu est binaire et incertain : on gagne un prix ou rien, contrairement à un canal récurrent."
+     "Le revenu est binaire et incertain : on gagne un prix ou rien, contrairement à un canal récurrent.",
+     "Autorisé n'est pas faisable : un runner d'intégration continue sans GPU, plafonné à quelques minutes, ne rivalise pas avec des équipes expertes. Ce canal reste ouvert mais son espérance de gain est proche de zéro avec l'infrastructure gratuite actuelle."
     ],
     "policy_source": null
    },
