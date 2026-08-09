@@ -1,0 +1,4 @@
+# Base SQLite : binaire, jamais fusionnable ligne à ligne.
+# En cas de divergence, la version de la CI fait foi (elle est la seule à
+# exécuter les cycles de référence) : résoudre avec `git checkout --ours`.
+data/evolution.db binary -merge -diff
