@@ -354,3 +354,57 @@ sincèrement 0,00 €.
   publics et destinés à la syndication ; cela ne présume pas de ceux que vous
   ajouterez, ni de vos obligations éditoriales locales en tant qu'éditeur du
   site publié.
+
+---
+
+## Produit dérivé : audit de conformité de contenu
+
+Le module [`src/content_audit.py`](src/content_audit.py) et la commande
+[`audit.py`](audit.py) forment un outil autonome, extrait de ce système et
+destiné à être vendu sur une place de marché de développeurs.
+
+### Le problème qu'il traite
+
+Depuis mars 2026, les moteurs sanctionnent le « contenu à l'échelle » : de
+nombreuses pages produites sans supervision éditoriale. Les outils de lisibilité
+existants notent un texte **isolé** et manquent le signal qui compte, qui est
+**inter-documents** : cinquante articles individuellement corrects mais coulés
+dans le même moule constituent exactement le motif visé.
+
+### Ce qu'il mesure
+
+Par document : lisibilité française (Kandel & Moles), recopie littérale depuis
+les sources, mention de transparence, accroches trompeuses, données personnelles,
+contenu mince. Par corpus : **similarité inter-documents** (5-grammes),
+**uniformité structurelle** des plans, et un niveau de risque assorti de
+recommandations actionnables.
+
+### Utilisation
+
+```bash
+python audit.py --dir docs/posts --format text     # lisible
+python audit.py --dir docs/posts                   # JSON
+echo '{"documents":[{"title":"T","text":"..."}]}' | python audit.py
+python audit.py --dir docs/posts --fail-on-risk    # code 2 si risque élevé
+```
+
+Contrat volontairement minimal — JSON entrant, JSON sortant — parce que c'est ce
+que toutes les places de marché savent envelopper. **Aucun réseau, aucune clé
+d'API, aucun coût variable** : l'exécution est déterministe, donc facturable
+à l'appel sans marge d'erreur.
+
+### Il s'applique à lui-même
+
+Passé sur les publications de ce dépôt, il rend un verdict **élevé** : 100 % des
+documents partagent des séquences de cinq mots au-delà du seuil de gabarit. Le
+mode dégradé produit bien des textes sur moule — l'outil le mesure au lieu de le
+supposer.
+
+### Calibrage
+
+Deux contrôles verrouillent le comportement : un corpus sur gabarit doit
+ressortir en risque élevé, **et un corpus varié doit ressortir en risque faible**.
+Le second est le plus important : un détecteur qui alerte toujours n'a aucune
+valeur marchande. C'est lui qui a révélé un faux positif — le seuil de contenu
+mince s'appliquait aux jetons filtrés, déclarant « mince » un article de
+300 mots.

@@ -13,6 +13,7 @@ Couverture :
 
 from __future__ import annotations
 
+import json
 import random
 import sys
 from pathlib import Path
@@ -25,6 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.agents.agent import Agent, create_seed_population, slugify  # noqa: E402
 from src.agents.genetic_engine import GeneticEngine  # noqa: E402
 from src.config import COMPLIANCE_MARKERS, settings  # noqa: E402
+from src.content_audit import audit_corpus, audit_document  # noqa: E402
 from src.database import Database  # noqa: E402
 from src.evaluator import (  # noqa: E402
     Evaluator,
@@ -520,7 +522,195 @@ def test_revenue_is_zero_until_a_real_account_reports():
 
 
 # ---------------------------------------------------------------------------
-# 7. Pipeline de bout en bout
+# 7. Audit de conformité — le produit vendable
+# ---------------------------------------------------------------------------
+
+
+def _templated_corpus(n=6):
+    """Corpus bâti sur un moule : mêmes phrases, seuls les sujets changent."""
+    sujets = ["cloud", "sécurité", "réseau", "stockage", "conteneur", "supervision"]
+    return [
+        {
+            "title": f"Veille : {sujets[i]} en 5 signaux à suivre",
+            "text": (
+                f"# Veille : {sujets[i]} en 5 signaux à suivre\n\n"
+                "## Ce qu'il faut retenir\n\n"
+                f"- Le sujet {sujets[i]} progresse cette semaine selon les sources publiques.\n"
+                f"- Les équipes techniques doivent surveiller {sujets[i]} de près désormais.\n\n"
+                "## Analyse\n\n"
+                f"Sur ce cycle de veille, les signaux autour de {sujets[i]} convergent vers "
+                "une même dynamique de fond. Cette sélection est issue de flux publics et "
+                "n'a pas vocation à être exhaustive. Le lecteur consultera les sources.\n\n"
+                "## Ce que cela change concrètement\n\n"
+                "- Consultez les sources listées ci-dessous pour le détail factuel.\n"
+                "- Recoupez toujours une information avant d'en tirer une décision.\n\n"
+                "Transparence : ce contenu est rédigé à l'aide d'outils automatisés.\n"
+            ),
+        }
+        for i in range(n)
+    ]
+
+
+def _varied_corpus():
+    """Corpus réellement varié : sujets, plans et formulations distincts."""
+    return [
+        {
+            "title": "Pourquoi les caches distribués coûtent plus cher qu'annoncé",
+            "text": (
+                "# Pourquoi les caches distribués coûtent plus cher qu'annoncé\n\n"
+                "La facture d'un cache distribué se joue rarement sur le prix affiché de la "
+                "mémoire. Elle se joue sur le trafic entre zones de disponibilité, que les "
+                "grilles tarifaires mentionnent en note de bas de page. Une équipe qui migre "
+                "sans mesurer ce poste découvre l'écart au premier relevé mensuel.\n\n"
+                "Trois postes reviennent systématiquement : la réplication entre zones, la "
+                "sortie vers l'extérieur, et le surdimensionnement défensif que provoque "
+                "l'absence de métrique fine. Aucun n'apparaît dans un comparatif classique.\n\n"
+                "Le cas le plus fréquent concerne la réplication synchrone activée par "
+                "défaut. Elle protège d'une panne de zone, mais double le volume échangé "
+                "entre machines, et ce volume est facturé au gigaoctet dans la plupart des "
+                "grilles. Une équipe qui la conserve sans l'avoir choisie paie une "
+                "assurance dont elle ignore la prime.\n\n"
+                "Le second poste tient au dimensionnement. Faute de métrique par clé, les "
+                "équipes provisionnent large et ne redescendent jamais. La mémoire réservée "
+                "reste facturée qu'elle serve ou non, et l'écart entre capacité allouée et "
+                "capacité utile atteint couramment un facteur deux sur les déploiements "
+                "que nous avons observés.\n\n"
+                "La conclusion pratique tient en une phrase : instrumentez avant de migrer. "
+                "Un mois de mesure sur l'existant coûte moins cher qu'un trimestre de "
+                "facturation surprise, et donne les chiffres nécessaires à la négociation.\n\n"
+                "Rédaction assistée par intelligence artificielle.\n"
+            ),
+        },
+        {
+            "title": "Le chiffrement post-quantique arrive par la petite porte",
+            "text": (
+                "## Un calendrier qui s'accélère\n\n"
+                "Les bibliothèques cryptographiques intègrent les algorithmes résistants au "
+                "calcul quantique bien avant que les entreprises ne s'en préoccupent. Le "
+                "basculement se fera donc par mise à jour transitive, sans décision explicite.\n\n"
+                "### Ce que cela implique\n\n"
+                "Les équipes qui épinglent leurs dépendances retarderont ce basculement sans "
+                "le savoir. Celles qui suivent les versions mineures l'absorberont sans effort. "
+                "La bonne pratique consiste à inventorier les usages avant l'échéance.\n\n"
+                "Concrètement, une bibliothèque de chiffrement met à jour ses primitives, un "
+                "gestionnaire de paquets propage la version, et une application reconstruite "
+                "six mois plus tard négocie soudain des suites différentes. Personne n'a "
+                "arbitré, et pourtant la posture cryptographique a changé.\n\n"
+                "Ce mécanisme a un précédent : c'est ainsi que les suites obsolètes ont "
+                "disparu du parc, par attrition plutôt que par décision. L'ennui est que "
+                "l'attrition ne prévient pas, et qu'un équipement ancien resté sur une "
+                "version figée devient incompatible sans qu'aucun journal ne le signale.\n\n"
+                "L'inventaire reste donc le seul travail à faire dès maintenant : savoir "
+                "quels composants négocient quoi, et lesquels sont épinglés. Ce recensement "
+                "ne demande pas d'expertise cryptographique, seulement de la rigueur.\n\n"
+                "Contenu généré avec assistance automatisée.\n"
+            ),
+        },
+        {
+            "title": "Retour d'expérience : quatre ans avec une base orientée colonnes",
+            "text": (
+                "# Retour d'expérience : quatre ans avec une base orientée colonnes\n\n"
+                "Nous avions choisi ce moteur pour ses performances analytiques. Quatre ans "
+                "plus tard, le bilan est contrasté et mérite d'être détaillé sans complaisance.\n\n"
+                "Les requêtes agrégées ont effectivement gagné un ordre de grandeur. En "
+                "revanche, chaque écriture unitaire nous a coûté en complexité applicative. "
+                "Le compromis était documenté, mais son ampleur réelle ne l'était pas.\n\n"
+                "Le premier surcoût fut l'ingestion. Écrire ligne à ligne dans un moteur "
+                "conçu pour les lectures massives revient à lutter contre son architecture. "
+                "Nous avons ajouté une file d'attente et un tampon, donc deux composants à "
+                "exploiter et à surveiller, absents du projet initial.\n\n"
+                "Le second fut humain. Les développeurs habitués aux transactions ont mis "
+                "des mois à intégrer qu'une écriture n'est pas immédiatement visible. Les "
+                "incidents de cette période venaient presque tous de cette attente déçue, "
+                "jamais du moteur lui-même.\n\n"
+                "Referions-nous le même choix ? Oui, mais en provisionnant explicitement le "
+                "coût d'accompagnement, et en écrivant noir sur blanc quelles opérations "
+                "restent hors périmètre. C'est ce document qui nous a manqué.\n\n"
+                "Ce texte a été produit à l'aide d'outils automatisés.\n"
+            ),
+        },
+    ]
+
+
+def test_audit_flags_templated_corpus():
+    """Un corpus coulé dans le même moule doit être signalé comme risqué."""
+    result = audit_corpus(_templated_corpus())
+    assert result["risk"] in ("élevé", "critique")
+    assert result["corpus"]["template_ratio"] >= 0.5
+    assert any("Diversifier" in r for r in result["recommendations"])
+
+
+def test_audit_does_not_cry_wolf_on_varied_corpus():
+    """Contrôle négatif : un détecteur qui alerte toujours ne vaut rien."""
+    result = audit_corpus(_varied_corpus())
+    assert result["risk"] == "faible", result["risk_reason"]
+    assert result["corpus"]["template_ratio"] == 0.0
+
+
+def test_audit_detects_verbatim_copy():
+    source = (
+        "Le nouveau contrôleur de carte mère expose une interface d'administration "
+        "accessible sans authentification préalable sur le réseau local interne."
+    )
+    result = audit_document(
+        text=source + " " + source,
+        title="Un titre parfaitement neutre au sujet des serveurs",
+        sources=[source],
+    )
+    assert result["verbatim_overlap"] == 1.0
+    assert any("recopie littérale" in i for i in result["issues"])
+
+
+def test_audit_detects_missing_disclosure_and_pii():
+    result = audit_document(
+        text="Un texte de longueur raisonnable. " * 20 + " Contact : jean.dupont@exemple.test",
+        title="Titre neutre et informatif sur un sujet technique donné",
+    )
+    assert result["disclosure_present"] is False
+    assert "adresse e-mail" in result["personal_data"]
+    assert result["publishable"] is False
+
+
+def test_audit_flags_thin_content():
+    result = audit_document(text="Trois mots seulement.", title="Titre")
+    assert result["thin_content"] is True
+
+
+def test_audit_cli_deduplicates_formats(tmp_path):
+    """Le même contenu en .md et .html ne doit être audité qu'une fois."""
+    import audit as audit_cli
+
+    posts = tmp_path / "posts"
+    posts.mkdir()
+    for i, doc in enumerate(_varied_corpus()):
+        (posts / f"a{i}.md").write_text(doc["text"], encoding="utf-8")
+        (posts / f"a{i}.html").write_text(f"<h1>{doc['title']}</h1><p>{doc['text']}</p>", encoding="utf-8")
+
+    loaded = audit_cli._load_from_dir(posts)
+    assert len(loaded) == 3, "un seul format par contenu doit être retenu"
+    assert all(d["path"].endswith(".md") for d in loaded), "le Markdown doit primer"
+
+
+def test_audit_cli_exit_code_signals_risk(tmp_path, capsys):
+    """Le code de sortie permet de bloquer une CI avant publication."""
+    import audit as audit_cli
+
+    posts = tmp_path / "posts"
+    posts.mkdir()
+    for i, doc in enumerate(_templated_corpus()):
+        (posts / f"t{i}.md").write_text(doc["text"], encoding="utf-8")
+
+    assert audit_cli.main(["--dir", str(posts), "--fail-on-risk"]) == 2
+    capsys.readouterr()  # vide le tampon avant la seconde exécution
+
+    assert audit_cli.main(["--dir", str(posts)]) == 0, "sans --fail-on-risk, l'audit informe sans bloquer"
+    payload = json.loads(capsys.readouterr().out)
+    assert payload["risk"] in ("élevé", "critique")
+    assert payload["documents"] == 6
+
+
+# ---------------------------------------------------------------------------
+# 8. Pipeline de bout en bout
 # ---------------------------------------------------------------------------
 
 
