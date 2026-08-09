@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Données du pipeline, sans intérêt pour l'indexation
+Disallow: /data.json
+Disallow: /status.json
+
+Sitemap: https://iimfaii.github.io/agent-evolution-system/sitemap.xml
