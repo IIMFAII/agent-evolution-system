@@ -1,25 +1,31 @@
 {
-  "run_id": 9,
-  "generation_evaluated": 6,
-  "next_generation": 7,
+  "run_id": 10,
+  "generation_evaluated": 7,
+  "next_generation": 8,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 6,
-    "best_fitness": 0.8479,
+    "generation": 7,
+    "best_fitness": 0.8436,
     "best_agent": "Prospectif-4.3",
-    "best_agent_id": "f7c4d84370cd476e",
-    "avg_fitness": 0.839,
+    "best_agent_id": "de6c38a4fa314249",
+    "avg_fitness": 0.8322,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.8 h, minimum 12 h",
-    "title": "Veille prospectif : solar-charging, openchamber, development en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.7 h, minimum 12 h",
+    "title": "Veille prospectif : ultra-lightweight, zero-dependency, 40-something en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 7,
+      "population": 5,
+      "avg_fitness": 0.83216,
+      "best_fitness": 0.8436
+    },
     {
       "generation": 6,
       "population": 5,
