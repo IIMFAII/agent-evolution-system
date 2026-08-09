@@ -1,102 +1,17 @@
 {
- "generated_at": "2026-08-09T15:45:40+00:00",
+ "generated_at": "2026-08-09T15:58:52+00:00",
  "cycle": {
-  "run_id": 4,
-  "generation_evaluated": 3,
-  "next_generation": 4,
-  "items_ingested": 2,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 5,
+  "generation_evaluated": 4,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
-   "published": true,
-   "title": "Veille prospectif : undermines, supersonic, democracy en 2 signaux à suivre",
-   "agent": "Prospectif",
-   "fitness": 0.857,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-09-veille-prospectif-undermines-supersonic-democracy-en-2-signa.md"
+   "published": false,
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 3,
-  "best_fitness": 0.857,
-  "best_agent": "Prospectif",
-  "best_agent_id": "743a3fb4a7034790",
-  "avg_fitness": 0.8445,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "743a3fb4a7034790",
-   "fitness": 0.857,
-   "readability": 1.0,
-   "keyword_score": 0.385,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif",
-   "tone": "prospectif",
-   "origin": "elite",
-   "temperature": 0.7,
-   "mutation_rate": 0.3
-  },
-  {
-   "agent_id": "7a7fcaf6ccf74a06",
-   "fitness": 0.8479,
-   "readability": 1.0,
-   "keyword_score": 0.3393,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-3.3",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.6124999999999999,
-   "mutation_rate": 0.27
-  },
-  {
-   "agent_id": "3769c14583f14dea",
-   "fitness": 0.845,
-   "readability": 1.0,
-   "keyword_score": 0.325,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-3.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.5249999999999999,
-   "mutation_rate": 0.27
-  },
-  {
-   "agent_id": "f1e5c43321fd427b",
-   "fitness": 0.8364,
-   "readability": 1.0,
-   "keyword_score": 0.2821,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-3.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.6124999999999999,
-   "mutation_rate": 0.27
-  },
-  {
-   "agent_id": "81af4861bdf74a3a",
-   "fitness": 0.8364,
-   "readability": 1.0,
-   "keyword_score": 0.2821,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-3.5",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.6971081449555172,
-   "mutation_rate": 0.27
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 1,
@@ -121,6 +36,15 @@
   }
  ],
  "runs": [
+  {
+   "id": 5,
+   "started_at": "2026-08-09T15:58:47+00:00",
+   "finished_at": "2026-08-09T15:58:52+00:00",
+   "generation": 4,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
   {
    "id": 4,
    "started_at": "2026-08-09T15:45:35+00:00",
@@ -193,11 +117,39 @@
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
  "monetization": {
-  "verdict": "Aucun canal ne produira d'euro tant que le site n'a pas d'audience mesurée. La priorité n'est pas d'ouvrir un compte : c'est d'obtenir des lecteurs, puis de les compter.",
+  "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
   "publications": 3,
   "opportunities": [
+   {
+    "id": "competitions_ml",
+    "name": "Compétitions et primes à la performance",
+    "summary": "Concours de science des données et défis algorithmiques : le livrable EST une sortie de machine, et c'est attendu. C'est le seul canal où un agent produit lui-même la valeur rémunérée, sans tromper personne.",
+    "score": 0.8438,
+    "status": "recommandé",
+    "blocked_reason": null,
+    "rationale": "Seuil d'audience atteint et CGU compatibles. Premier revenu réaliste sous ~45 jours.",
+    "angle": null,
+    "ai_policy": "compatible",
+    "ai_policy_label": "Compatible contenu automatisé",
+    "audience_floor": 0,
+    "days_to_first_euro": 45,
+    "human_steps": [
+     "Créer le compte et vérifier son identité pour recevoir un prix (KYC).",
+     "Vérifier les règles d'éligibilité : certaines primes excluent des pays ou imposent de publier la solution."
+    ],
+    "automatable": [
+     "Concevoir, entraîner et soumettre les solutions.",
+     "Itérer sur le score du classement à chaque cycle."
+    ],
+    "legal_notes": [
+     "Respecter le règlement de chaque épreuve : un seul compte par personne, pas de collusion entre comptes.",
+     "Un gain de concours est un revenu imposable et doit être déclaré.",
+     "Le revenu est binaire et incertain : on gagne un prix ou rien, contrairement à un canal récurrent."
+    ],
+    "policy_source": null
+   },
    {
     "id": "dons",
     "name": "Dons et soutien récurrent",
@@ -310,6 +262,31 @@
     "policy_source": null
    },
    {
+    "id": "questionnaires_remuneres",
+    "name": "Questionnaires et panels rémunérés",
+    "summary": "Panels d'études de marché et enquêtes rémunérées. Comme les micro-tâches, ce que le commanditaire achète est l'opinion d'un être humain identifié — pas une réponse produite par une machine.",
+    "score": 0.0,
+    "status": "bloqué",
+    "blocked_reason": "Un panel rémunère une opinion humaine identifiée. La faire produire par un agent revient à vendre une donnée falsifiée à l'institut et à son client. Le canal reste fermé quelles que soient les circonstances.",
+    "rationale": "Un panel rémunère une opinion humaine identifiée. La faire produire par un agent revient à vendre une donnée falsifiée à l'institut et à son client. Le canal reste fermé quelles que soient les circonstances.",
+    "angle": null,
+    "ai_policy": "incompatible",
+    "ai_policy_label": "Interdit par les CGU",
+    "audience_floor": 0,
+    "days_to_first_euro": 10,
+    "human_steps": [
+     "Aucun : le canal ne peut pas être automatisé sans fraude envers l'institut et son client."
+    ],
+    "automatable": [],
+    "legal_notes": [
+     "Ces panels exigent un compte par personne physique, vérifié, et des réponses sincères. Leurs CGU interdisent les robots.",
+     "Ils déploient des contre-mesures : questions de contrôle, mesure du temps de réponse, empreinte d'appareil, cohérence des réponses.",
+     "Remplir un questionnaire par agent corrompt la donnée vendue au client final : c'est une fraude au préjudice de l'institut, pas une astuce.",
+     "Les gains sont de toute façon dérisoires au regard du risque : quelques euros de l'heure, contre la fermeture du compte et la perte du solde."
+    ],
+    "policy_source": null
+   },
+   {
     "id": "micro_taches",
     "name": "Micro-tâches rémunérées (annotation, cartographie de données)",
     "summary": "Les plateformes de travail à la tâche paient l'annotation, la catégorisation et la cartographie de données. Le canal paraît taillé pour des agents — c'est exactement l'inverse : ces plateformes vendent du jugement HUMAIN, et n'existent que parce qu'une machine ne l'a pas fait.",
@@ -358,6 +335,7 @@
     "policy_source": "https://affiliate-program.amazon.com/help/operating/policies"
    }
   ],
+  "governing_rule": "Tout revenu qui rémunère le fait d'être un humain — une opinion, une attention, une identité vérifiée — est fermé à un agent : l'automatiser falsifie précisément ce qui est acheté. Tout revenu qui rémunère un résultat — une donnée, un logiciel, une performance, une audience — reste ouvert, car personne n'y achète l'identité du producteur.",
   "fiscal_notes": [
    "Percevoir des revenus commerciaux de façon régulière impose un statut : la micro-entreprise est la voie usuelle pour démarrer.",
    "Seuils micro-entreprise 2026 : 83 600 € pour les prestations de services, 203 100 € pour les activités de vente.",
