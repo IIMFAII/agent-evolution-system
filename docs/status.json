@@ -1,27 +1,33 @@
 {
-  "run_id": 1,
-  "generation_evaluated": 1,
-  "next_generation": 2,
-  "items_ingested": 12,
+  "run_id": 3,
+  "generation_evaluated": 2,
+  "next_generation": 3,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 1,
-    "best_fitness": 0.8564,
+    "generation": 2,
+    "best_fitness": 0.902,
     "best_agent": "Prospectif",
-    "best_agent_id": "be68c3958b864059",
-    "avg_fitness": 0.844,
+    "best_agent_id": "c33568f59d8e47d9",
+    "avg_fitness": 0.8887,
     "diversity": 1.0
   },
   "publication": {
     "published": true,
-    "title": "Veille prospectif : intelligence, max-severity, exploitation en 12 signaux à suivre",
+    "title": "Veille prospectif : anthropic, revenue, openai en 1 signaux à suivre",
     "agent": "Prospectif",
-    "fitness": 0.8564,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-09-veille-prospectif-intelligence-max-severity-exploitation-en.md"
+    "fitness": 0.902,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-09-veille-prospectif-anthropic-revenue-openai-en-1-signaux-a-su.md"
   },
   "history": [
+    {
+      "generation": 2,
+      "population": 5,
+      "avg_fitness": 0.8886800000000001,
+      "best_fitness": 0.902
+    },
     {
       "generation": 1,
       "population": 5,
