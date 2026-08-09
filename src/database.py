@@ -379,3 +379,69 @@ class Database:
                 "SELECT * FROM agents ORDER BY fitness DESC, generation DESC LIMIT 1"
             ).fetchone()
         return dict(row) if row else None
+
+    # -- Export pour le tableau de bord -------------------------------------
+
+    def scores_for_run(self, run_id: int) -> List[Dict[str, Any]]:
+        """Détail des cinq signaux par agent pour un cycle donné."""
+        with self._connect() as conn:
+            rows = conn.execute(
+                """SELECT s.agent_id, s.fitness, s.readability, s.keyword_score,
+                          s.ctr_score, s.compliance, s.originality,
+                          a.name, a.tone, a.origin, a.temperature, a.mutation_rate
+                     FROM scores s
+                     JOIN agents a ON a.id = s.agent_id
+                    WHERE s.run_id = ?
+                    ORDER BY s.fitness DESC""",
+                (run_id,),
+            ).fetchall()
+        return [dict(r) for r in rows]
+
+    def recent_runs(self, limit: int = 40) -> List[Dict[str, Any]]:
+        """Derniers cycles exécutés, du plus récent au plus ancien."""
+        with self._connect() as conn:
+            rows = conn.execute(
+                """SELECT id, started_at, finished_at, generation, status,
+                          items_ingested, notes
+                     FROM runs
+                    ORDER BY id DESC
+                    LIMIT ?""",
+                (limit,),
+            ).fetchall()
+        return [dict(r) for r in rows]
+
+    def recent_contents(self, limit: int = 20) -> List[Dict[str, Any]]:
+        """Dernières publications, avec l'agent qui les a produites."""
+        with self._connect() as conn:
+            rows = conn.execute(
+                """SELECT c.title, c.slug, c.fitness, c.generation, c.created_at,
+                          a.name AS agent_name, a.tone
+                     FROM contents c
+                     LEFT JOIN agents a ON a.id = c.agent_id
+                    WHERE c.published = 1
+                    ORDER BY c.id DESC
+                    LIMIT ?""",
+                (limit,),
+            ).fetchall()
+        return [dict(r) for r in rows]
+
+    def generation_stats(self, limit: int = 60) -> List[Dict[str, Any]]:
+        """Série temporelle de la fitness par génération, du plus ancien au récent.
+
+        Ordre chronologique croissant : c'est ce qu'attend un graphe de tendance,
+        et l'inverser côté client serait une source d'erreur silencieuse.
+        """
+        with self._connect() as conn:
+            rows = conn.execute(
+                """SELECT generation,
+                          COUNT(*)     AS population,
+                          AVG(fitness) AS avg_fitness,
+                          MAX(fitness) AS best_fitness,
+                          MIN(fitness) AS worst_fitness
+                     FROM scores
+                    GROUP BY generation
+                    ORDER BY generation DESC
+                    LIMIT ?""",
+                (limit,),
+            ).fetchall()
+        return [dict(r) for r in reversed(rows)]

@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Tableau de bord — évolution des agents</title>
+<meta name="description" content="Suivi en temps réel de la population d'agents évolutifs : fitness par génération, signaux d'évaluation, cycles et publications.">
+<style>
+/* ===========================================================================
+   Palette — issue de la référence data-viz, validée pour les deux modes.
+   Catégoriel : blue (slot 1) / orange (slot 2) — CVD ΔE 24.7 clair, 26.8 sombre.
+   Rampe ordinale 4 paliers pour la heatmap — écarts de clarté ≥ 0.06 validés.
+   =========================================================================== */
+:root {
+  color-scheme: light;
+  --surface-1:  #fcfcfb;   /* surface des cartes / des graphes */
+  --plane:      #f9f9f7;   /* plan de la page */
+  --ink-1:      #0b0b0b;
+  --ink-2:      #52514e;
+  --ink-3:      #898781;
+  --grid:       #e1e0d9;
+  --axis:       #c3c2b7;
+  --hairline:   rgba(11,11,11,.10);
+
+  --series-1:   #2a78d6;   /* meilleure fitness */
+  --series-2:   #eb6834;   /* fitness moyenne   */
+
+  --ramp-1:     #86b6ef;   /* rampe séquentielle : faible → élevé */
+  --ramp-2:     #3987e5;
+  --ramp-3:     #1c5cab;
+  --ramp-4:     #0d366b;
+  --ramp-1-ink: #0b0b0b;   /* encre lisible sur chaque palier */
+  --ramp-2-ink: #ffffff;
+  --ramp-3-ink: #ffffff;
+  --ramp-4-ink: #ffffff;
+
+  --good:       #0ca30c;
+  --warning:    #fab219;
+  --serious:    #ec835a;
+  --critical:   #d03b3b;
+  --delta-up:   #006300;
+
+  --radius: 14px;
+  --pad: clamp(1rem, .6rem + 1.4vw, 1.6rem);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --plane:     #0d0d0d;
+    --ink-1:     #ffffff;
+    --ink-2:     #c3c2b7;
+    --ink-3:     #898781;
+    --grid:      #2c2c2a;
+    --axis:      #383835;
+    --hairline:  rgba(255,255,255,.10);
+    --series-1:  #3987e5;
+    --series-2:  #d95926;
+    /* Rampe sombre : le palier le plus clair porte la valeur haute, pour que
+       les scores élevés ressortent au lieu de se fondre dans la surface. */
+    --ramp-1:    #184f95;
+    --ramp-2:    #2a78d6;
+    --ramp-3:    #6da7ec;
+    --ramp-4:    #b7d3f6;
+    --ramp-1-ink: #ffffff;
+    --ramp-2-ink: #ffffff;
+    --ramp-3-ink: #0b0b0b;
+    --ramp-4-ink: #0b0b0b;
+    --delta-up:  #0ca30c;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-1: #1a1a19;
+  --plane:     #0d0d0d;
+  --ink-1:     #ffffff;
+  --ink-2:     #c3c2b7;
+  --ink-3:     #898781;
+  --grid:      #2c2c2a;
+  --axis:      #383835;
+  --hairline:  rgba(255,255,255,.10);
+  --series-1:  #3987e5;
+  --series-2:  #d95926;
+  --ramp-1:    #184f95;
+  --ramp-2:    #2a78d6;
+  --ramp-3:    #6da7ec;
+  --ramp-4:    #b7d3f6;
+  --ramp-1-ink: #ffffff;
+  --ramp-2-ink: #ffffff;
+  --ramp-3-ink: #0b0b0b;
+  --ramp-4-ink: #0b0b0b;
+  --delta-up:  #0ca30c;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--plane);
+  color: var(--ink-1);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- En-tête ------------------------------------------------------------- */
+header {
+  position: sticky; top: 0; z-index: 20;
+  background: color-mix(in srgb, var(--plane) 82%, transparent);
+  backdrop-filter: saturate(1.6) blur(14px);
+  border-bottom: 1px solid var(--hairline);
+}
+.head-in {
+  max-width: 1240px; margin: 0 auto;
+  padding: .9rem var(--pad);
+  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+}
+.brand { display: flex; align-items: baseline; gap: .6rem; margin-right: auto; min-width: 0; }
+.brand h1 {
+  font-size: clamp(1rem, .9rem + .4vw, 1.15rem);
+  font-weight: 620; letter-spacing: -.01em; margin: 0; white-space: nowrap;
+}
+.brand span { color: var(--ink-3); font-size: .82rem; white-space: nowrap; }
+.head-actions { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+
+.pill {
+  display: inline-flex; align-items: center; gap: .45rem;
+  padding: .3rem .65rem; border-radius: 999px;
+  border: 1px solid var(--hairline); background: var(--surface-1);
+  font-size: .78rem; color: var(--ink-2); white-space: nowrap;
+}
+.dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.dot-good { background: var(--good); }
+.dot-warning { background: var(--warning); }
+.dot-critical { background: var(--critical); }
+.dot-idle { background: var(--ink-3); }
+
+.btn {
+  font: inherit; font-size: .8rem; color: var(--ink-2);
+  background: var(--surface-1); border: 1px solid var(--hairline);
+  padding: .34rem .7rem; border-radius: 8px; cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover { background: color-mix(in srgb, var(--ink-1) 6%, var(--surface-1)); color: var(--ink-1); }
+.btn:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
+a.btn { text-decoration: none; }
+
+/* --- Grille -------------------------------------------------------------- */
+main { max-width: 1240px; margin: 0 auto; padding: var(--pad) var(--pad) 4rem; }
+
+.toolbar {
+  display: flex; align-items: center; gap: .75rem; flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+.toolbar .lbl { font-size: .78rem; color: var(--ink-3); }
+.seg {
+  display: inline-flex; background: var(--surface-1);
+  border: 1px solid var(--hairline); border-radius: 10px; padding: 2px;
+}
+.seg button {
+  font: inherit; font-size: .78rem; color: var(--ink-2);
+  background: none; border: 0; padding: .3rem .7rem; border-radius: 8px; cursor: pointer;
+  transition: background .15s ease, color .15s ease;
+}
+.seg button[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--series-1) 14%, var(--surface-1));
+  color: var(--ink-1); font-weight: 560;
+}
+.seg button:focus-visible { outline: 2px solid var(--series-1); outline-offset: 1px; }
+
+/* `align-items: start` : chaque carte se dimensionne à son contenu. Sans lui,
+   une carte courte (un état vide) est étirée à la hauteur de sa voisine et
+   donne l'impression d'un bloc cassé. */
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: clamp(.8rem, .5rem + .8vw, 1.1rem); align-items: start; }
+.card {
+  grid-column: span 12;
+  background: var(--surface-1);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: var(--pad);
+  container-type: inline-size;
+  min-width: 0;
+}
+.span-4 { grid-column: span 4; }
+.span-5 { grid-column: span 5; }
+.span-6 { grid-column: span 6; }
+.span-7 { grid-column: span 7; }
+.span-8 { grid-column: span 8; }
+@media (max-width: 960px) { .span-4, .span-5, .span-6, .span-7, .span-8 { grid-column: span 12; } }
+
+.card-head { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.1rem; }
+.card-head h2 {
+  margin: 0; font-size: .95rem; font-weight: 600; letter-spacing: -.005em;
+}
+.card-head p { margin: .2rem 0 0; font-size: .8rem; color: var(--ink-3); max-width: 52ch; }
+.card-head .spacer { margin-left: auto; }
+
+/* --- Chiffre héros & tuiles --------------------------------------------- */
+.hero-val {
+  font-size: clamp(3rem, 2rem + 4.4vw, 4.4rem);
+  font-weight: 640; letter-spacing: -.035em; line-height: .95;
+  margin: .1rem 0 .35rem;
+}
+.hero-sub { font-size: .82rem; color: var(--ink-3); }
+.delta { display: inline-flex; align-items: center; gap: .3rem; font-size: .84rem; font-weight: 560; }
+.delta-up { color: var(--delta-up); }
+.delta-down { color: var(--critical); }
+.delta-flat { color: var(--ink-3); }
+
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .9rem; }
+.tile { min-width: 0; }
+.tile .k { font-size: .76rem; color: var(--ink-3); margin-bottom: .28rem; }
+.tile .v { font-size: 1.5rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.1; }
+.tile .m { font-size: .74rem; color: var(--ink-3); margin-top: .12rem; }
+
+/* --- Légendes ------------------------------------------------------------ */
+.legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; font-size: .78rem; color: var(--ink-2); }
+.legend .it { display: inline-flex; align-items: center; gap: .4rem; }
+.key-line { width: 16px; height: 2px; border-radius: 1px; flex: none; }
+.key-rect { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+.scale { display: inline-flex; align-items: center; gap: .35rem; font-size: .76rem; color: var(--ink-3); }
+.scale i { width: 22px; height: 10px; border-radius: 2px; display: block; }
+
+/* --- Graphes ------------------------------------------------------------- */
+.plot { position: relative; width: 100%; }
+.plot svg { display: block; width: 100%; height: auto; overflow: visible; }
+.tt {
+  position: absolute; pointer-events: none; z-index: 5;
+  background: var(--surface-1); border: 1px solid var(--hairline);
+  border-radius: 10px; padding: .55rem .7rem; min-width: 140px;
+  box-shadow: 0 8px 26px -8px rgba(0,0,0,.32);
+  font-size: .8rem; opacity: 0; transform: translateY(3px);
+  transition: opacity .12s ease, transform .12s ease;
+}
+.tt[data-on="1"] { opacity: 1; transform: translateY(0); }
+.tt .tt-h { font-size: .74rem; color: var(--ink-3); margin-bottom: .35rem; }
+.tt .tt-r { display: flex; align-items: center; gap: .45rem; margin-top: .22rem; }
+.tt .tt-v { font-weight: 620; color: var(--ink-1); font-variant-numeric: tabular-nums; }
+.tt .tt-n { color: var(--ink-2); font-size: .76rem; }
+
+/* --- Tables -------------------------------------------------------------- */
+.tw { width: 100%; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th { font-weight: 560; color: var(--ink-3); font-size: .75rem; }
+td { color: var(--ink-2); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+td.strong { color: var(--ink-1); font-weight: 560; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr { transition: background .12s ease; }
+tbody tr:hover { background: color-mix(in srgb, var(--ink-1) 4%, transparent); }
+td.wrap, th.wrap { white-space: normal; min-width: 14ch; }
+td a { color: var(--ink-1); text-decoration: none; text-underline-offset: 3px; }
+td a:hover { text-decoration: underline; }
+td a:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; border-radius: 3px; }
+
+.track { width: 74px; height: 6px; border-radius: 3px; background: color-mix(in srgb, var(--series-1) 16%, transparent); overflow: hidden; display: inline-block; vertical-align: middle; }
+.track i { display: block; height: 100%; background: var(--series-1); border-radius: 0 3px 3px 0; }
+
+.tag { display: inline-flex; align-items: center; gap: .3rem; font-size: .72rem; color: var(--ink-2); }
+.tag svg { flex: none; }
+
+.hidden { display: none !important; }
+.empty { padding: 2.5rem 1rem; text-align: center; color: var(--ink-3); font-size: .88rem; }
+.note { font-size: .76rem; color: var(--ink-3); margin-top: .9rem; }
+footer { max-width: 1240px; margin: 0 auto; padding: 0 var(--pad) 3rem; color: var(--ink-3); font-size: .78rem; }
+footer a { color: var(--ink-2); }
+
+/* --- Mouvement (désactivable) ------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .card { animation: rise .5s cubic-bezier(.22,.68,.32,1) backwards; }
+  .card:nth-child(2) { animation-delay: .04s; }
+  .card:nth-child(3) { animation-delay: .08s; }
+  .card:nth-child(4) { animation-delay: .12s; }
+  .card:nth-child(5) { animation-delay: .16s; }
+  .card:nth-child(6) { animation-delay: .2s; }
+  .card:nth-child(7) { animation-delay: .24s; }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .draw { stroke-dasharray: var(--len); stroke-dashoffset: var(--len); animation: draw .9s cubic-bezier(.3,.7,.3,1) forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-in">
+    <div class="brand">
+      <h1>Évolution des agents</h1>
+      <span>tableau de bord</span>
+    </div>
+    <div class="head-actions">
+      <span class="pill" id="statusPill"><span class="dot dot-idle"></span><span id="statusText">chargement…</span></span>
+      <a class="btn" href="./index.html">Publications</a>
+      <a class="btn" href="https://github.com/IIMFAII/agent-evolution-system" rel="noopener">Code</a>
+      <button class="btn" id="themeBtn" type="button" aria-label="Changer de thème">Thème</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="toolbar">
+    <span class="lbl">Plage</span>
+    <div class="seg" role="group" aria-label="Plage de générations">
+      <button type="button" data-range="12" aria-pressed="true">12 dernières</button>
+      <button type="button" data-range="30" aria-pressed="false">30 dernières</button>
+      <button type="button" data-range="all" aria-pressed="false">Tout</button>
+    </div>
+    <span class="lbl" id="rangeNote"></span>
+  </div>
+
+  <div id="app" class="grid"></div>
+  <div id="fallback" class="empty hidden"></div>
+</main>
+
+<footer>
+  <p>Données produites à chaque cycle par le pipeline (<code>docs/data.json</code>). Les contenus publiés
+  sont des synthèses de flux RSS publics, assorties de leurs mentions de transparence.</p>
+</footer>
+
+<script>
+(() => {
+  "use strict";
+
+  /* ------------------------------------------------------------------ utils */
+  const $ = (s, r = document) => r.querySelector(s);
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const NS = "http://www.w3.org/2000/svg";
+
+  /** Élément HTML. `text` passe toujours par textContent : les titres viennent
+   *  de flux RSS, donc de données non fiables — jamais d'innerHTML ici. */
+  function el(tag, attrs = {}, text) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v === null || v === undefined) continue;
+      if (k === "class") n.className = v; else n.setAttribute(k, v);
+    }
+    if (text !== undefined) n.textContent = String(text);
+    return n;
+  }
+  function svg(tag, attrs = {}, text) {
+    const n = document.createElementNS(NS, tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v === null || v === undefined) continue;
+      n.setAttribute(k, v);
+    }
+    if (text !== undefined) n.textContent = String(text);
+    return n;
+  }
+  const num = (v, d = 3) => (Number.isFinite(v) ? v.toFixed(d) : "—");
+  const pct = (v) => (Number.isFinite(v) ? Math.round(v * 100) + " %" : "—");
+  const compact = (v) => (v >= 1000 ? (v / 1000).toFixed(1).replace(".0", "") + "k" : String(v));
+
+  function ago(iso) {
+    if (!iso) return "—";
+    const t = Date.parse(iso.endsWith("Z") || iso.includes("+") ? iso : iso + "Z");
+    if (!Number.isFinite(t)) return "—";
+    const s = Math.max(0, (Date.now() - t) / 1000);
+    if (s < 90) return "à l'instant";
+    if (s < 5400) return "il y a " + Math.round(s / 60) + " min";
+    if (s < 172800) return "il y a " + Math.round(s / 3600) + " h";
+    return "il y a " + Math.round(s / 86400) + " j";
+  }
+  function dateShort(iso) {
+    if (!iso) return "—";
+    const t = new Date(iso.endsWith("Z") || iso.includes("+") ? iso : iso + "Z");
+    if (Number.isNaN(+t)) return "—";
+    return t.toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit" }) + " " +
+           t.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+  }
+
+  /* --------------------------------------------------------------- état/data */
+  const state = { data: null, range: 12, tables: new Set() };
+
+  const RUN_STATUS = {
+    success:  { label: "Publié",       cls: "dot-good",     icon: "check" },
+    no_data:  { label: "Rien de neuf", cls: "dot-idle",     icon: "minus" },
+    running:  { label: "En cours",     cls: "dot-warning",  icon: "dots"  },
+    error:    { label: "Erreur",       cls: "dot-critical", icon: "alert" },
+  };
+  const runStatus = (s) => RUN_STATUS[s] || { label: s || "—", cls: "dot-idle", icon: "minus" };
+
+  /** Icône + libellé : un statut ne repose jamais sur la couleur seule. */
+  function statusTag(status) {
+    const st = runStatus(status);
+    const wrap = el("span", { class: "tag" });
+    const s = svg("svg", { width: 12, height: 12, viewBox: "0 0 12 12", "aria-hidden": "true" });
+    const stroke = { check: "M2.5 6.3 4.8 8.6 9.5 3.6", minus: "M2.6 6h6.8", alert: "M6 2.8v3.9M6 8.9v.4", dots: "M3 6h.01M6 6h.01M9 6h.01" }[st.icon];
+    s.appendChild(svg("path", { d: stroke, fill: "none", stroke: "currentColor", "stroke-width": 1.6, "stroke-linecap": "round", "stroke-linejoin": "round" }));
+    wrap.appendChild(el("span", { class: "dot " + st.cls }));
+    wrap.appendChild(s);
+    wrap.appendChild(el("span", {}, st.label));
+    return wrap;
+  }
+
+  function slice(arr) {
+    if (state.range === "all") return arr;
+    return arr.slice(-state.range);
+  }
+
+  /* ------------------------------------------------------- carte + bascule */
+  /** Carte avec en-tête et, si `toggle`, une bascule graphe ↔ table.
+   *  Toute vue graphique a sa jumelle tabulaire : aucune valeur n'est
+   *  accessible uniquement par la couleur ou par le survol. */
+  function card(id, title, desc, spanClass, toggle = true) {
+    const c = el("div", { class: "card " + (spanClass || "") });
+    const head = el("div", { class: "card-head" });
+    const box = el("div");
+    box.appendChild(el("h2", {}, title));
+    if (desc) box.appendChild(el("p", {}, desc));
+    head.appendChild(box);
+    head.appendChild(el("div", { class: "spacer" }));
+    if (toggle) {
+      const on = state.tables.has(id);
+      const btn = el("button", { class: "btn", type: "button", "aria-pressed": on ? "true" : "false" }, on ? "Graphe" : "Table");
+      btn.addEventListener("click", () => {
+        on ? state.tables.delete(id) : state.tables.add(id);
+        if (document.startViewTransition) document.startViewTransition(render); else render();
+      });
+      head.appendChild(btn);
+    }
+    c.appendChild(head);
+    return { c, showTable: state.tables.has(id) };
+  }
+
+  /** Graduations « rondes » (1 / 2 / 2.5 / 5 × 10ⁿ). Diviser simplement le
+   *  domaine en parts égales produit des axes du type 0.81 / 0.83 / 0.86. */
+  function niceTicks(lo, hi, count) {
+    const span = (hi - lo) || 1;
+    const mag = Math.pow(10, Math.floor(Math.log10(span / count)));
+    const norm = span / count / mag;
+    const step = (norm <= 1 ? 1 : norm <= 2 ? 2 : norm <= 2.5 ? 2.5 : norm <= 5 ? 5 : 10) * mag;
+    const dec = Math.max(0, -Math.floor(Math.log10(step) + 1e-9));
+    const out = [];
+    for (let v = Math.ceil(lo / step) * step; v <= hi + step * 1e-6; v += step) {
+      out.push(Number(v.toFixed(10)));
+    }
+    return { ticks: out, dec };
+  }
+
+  function table(cols, rows) {
+    const wrap = el("div", { class: "tw" });
+    const t = el("table");
+    const thead = el("thead"), tr = el("tr");
+    cols.forEach((c) => tr.appendChild(el("th", { class: (c.num ? "num " : "") + (c.wrap ? "wrap" : "") }, c.label)));
+    thead.appendChild(tr); t.appendChild(thead);
+    const tb = el("tbody");
+    rows.forEach((r) => {
+      const row = el("tr");
+      cols.forEach((c, i) => {
+        const td = el("td", { class: (c.num ? "num " : "") + (c.wrap ? "wrap " : "") + (i === 0 ? "strong" : "") });
+        const v = r[i];
+        if (v instanceof Node) td.appendChild(v); else td.textContent = v === null || v === undefined ? "—" : String(v);
+        row.appendChild(td);
+      });
+      tb.appendChild(row);
+    });
+    t.appendChild(tb); wrap.appendChild(t);
+    return wrap;
+  }
+
+  /* ------------------------------------------------------------- tooltip */
+  function tooltip(host) {
+    const tt = el("div", { class: "tt" });
+    host.appendChild(tt);
+    return {
+      show(x, y, header, rows) {
+        tt.replaceChildren();
+        tt.appendChild(el("div", { class: "tt-h" }, header));
+        rows.forEach(({ color, name, value }) => {
+          const r = el("div", { class: "tt-r" });
+          if (color) {
+            const k = el("span", { class: "key-line" });
+            k.style.background = color;
+            r.appendChild(k);
+          }
+          r.appendChild(el("span", { class: "tt-v" }, value));
+          r.appendChild(el("span", { class: "tt-n" }, name));
+          tt.appendChild(r);
+        });
+        tt.dataset.on = "1";
+        const w = tt.offsetWidth, h = tt.offsetHeight, hw = host.clientWidth;
+        tt.style.left = Math.max(4, Math.min(hw - w - 4, x - w / 2)) + "px";
+        tt.style.top = Math.max(4, y - h - 12) + "px";
+      },
+      hide() { tt.dataset.on = "0"; },
+    };
+  }
+
+  /* ------------------------------------------------- graphe : fitness/gén. */
+  function fitnessChart(host, gens) {
+    host.replaceChildren();
+    if (gens.length < 1) { host.appendChild(el("div", { class: "empty" }, "Pas encore de génération évaluée.")); return; }
+
+    const W = host.clientWidth || 640;
+    const padL = 46, padR = 58, padT = 16, padB = 34;
+    const H = Math.max(240, Math.min(340, Math.round(W * 0.42)));
+    const iw = W - padL - padR, ih = H - padT - padB;
+
+    const lo = Math.min(...gens.map((g) => g.worst_fitness ?? g.avg_fitness));
+    const hi = Math.max(...gens.map((g) => g.best_fitness));
+    // Domaine resserré autour des données : sur une courbe, un axe non nul est
+    // lisible ; l'étiquette d'axe annonce explicitement la plage affichée.
+    const padY = Math.max(0.02, (hi - lo) * 0.35);
+    const y0 = Math.max(0, lo - padY), y1 = Math.min(1, hi + padY);
+    const X = (i) => padL + (gens.length === 1 ? iw / 2 : (i * iw) / (gens.length - 1));
+    const Y = (v) => padT + ih - ((v - y0) / (y1 - y0 || 1)) * ih;
+
+    const s = svg("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: "img", "aria-label": "Fitness par génération" });
+    const c1 = cssVar("--series-1"), c2 = cssVar("--series-2"), surf = cssVar("--surface-1");
+
+    // Grille horizontale : hairlines pleines, jamais de pointillés.
+    const { ticks, dec } = niceTicks(y0, y1, 4);
+    ticks.forEach((v) => {
+      const y = Y(v);
+      s.appendChild(svg("line", { x1: padL, x2: W - padR, y1: y, y2: y, stroke: cssVar("--grid"), "stroke-width": 1 }));
+      s.appendChild(svg("text", { x: padL - 9, y: y + 4, "text-anchor": "end", "font-size": 11, fill: cssVar("--ink-3"), "font-variant-numeric": "tabular-nums" }, v.toFixed(dec)));
+    });
+    s.appendChild(svg("line", { x1: padL, x2: W - padR, y1: padT + ih, y2: padT + ih, stroke: cssVar("--axis"), "stroke-width": 1 }));
+
+    // Étendue min–max de la population : lavis à ~10 % de la teinte série 1.
+    if (gens.some((g) => Number.isFinite(g.worst_fitness))) {
+      const up = gens.map((g, i) => `${X(i)},${Y(g.best_fitness)}`).join(" L ");
+      const dn = gens.slice().reverse().map((g, i) => `${X(gens.length - 1 - i)},${Y(g.worst_fitness)}`).join(" L ");
+      const a = svg("path", { d: `M ${up} L ${dn} Z`, fill: c1, "fill-opacity": .10, stroke: "none" });
+      s.appendChild(a);
+    }
+
+    const line = (key, color) => {
+      const d = gens.map((g, i) => `${i ? "L" : "M"} ${X(i)} ${Y(g[key])}`).join(" ");
+      const p = svg("path", { d, fill: "none", stroke: color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" });
+      s.appendChild(p);
+      try {
+        const len = p.getTotalLength();
+        if (len && matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+          p.style.setProperty("--len", len); p.classList.add("draw");
+        }
+      } catch (_) { /* getTotalLength indisponible : rendu statique, sans animation */ }
+      // Marqueur de fin ≥ 8px, cerclé de 2px en couleur de surface.
+      const last = gens.length - 1;
+      s.appendChild(svg("circle", { cx: X(last), cy: Y(gens[last][key]), r: 4.5, fill: color, stroke: surf, "stroke-width": 2 }));
+      // Étiquette directe en bout de courbe (encre, jamais la couleur série).
+      s.appendChild(svg("text", { x: X(last) + 10, y: Y(gens[last][key]) + 4, "font-size": 11.5, fill: cssVar("--ink-2"), "font-variant-numeric": "tabular-nums" }, num(gens[last][key])));
+    };
+    line("avg_fitness", c2);
+    line("best_fitness", c1);
+
+    // Axe X : quelques générations seulement, pour ne pas saturer.
+    const step = Math.max(1, Math.ceil(gens.length / 7));
+    gens.forEach((g, i) => {
+      if (i % step && i !== gens.length - 1) return;
+      s.appendChild(svg("text", { x: X(i), y: H - 12, "text-anchor": "middle", "font-size": 11, fill: cssVar("--ink-3"), "font-variant-numeric": "tabular-nums" }, "G" + g.generation));
+    });
+
+    host.appendChild(s);
+
+    // Croisillon : le lecteur vise une génération, jamais une courbe de 2px.
+    const tt = tooltip(host);
+    const cross = svg("line", { y1: padT, y2: padT + ih, stroke: cssVar("--axis"), "stroke-width": 1, opacity: 0 });
+    s.appendChild(cross);
+    const hit = svg("rect", { x: padL, y: padT, width: iw, height: ih, fill: "transparent", style: "cursor:crosshair" });
+    s.appendChild(hit);
+
+    const at = (clientX) => {
+      const r = s.getBoundingClientRect();
+      const px = ((clientX - r.left) / r.width) * W;
+      let best = 0, bd = Infinity;
+      gens.forEach((_, i) => { const d = Math.abs(X(i) - px); if (d < bd) { bd = d; best = i; } });
+      return best;
+    };
+    const showAt = (i, clientX) => {
+      const g = gens[i];
+      cross.setAttribute("x1", X(i)); cross.setAttribute("x2", X(i)); cross.setAttribute("opacity", 1);
+      const r = s.getBoundingClientRect();
+      const px = (X(i) / W) * r.width;
+      tt.show(px, Y(g.best_fitness) * (r.height / H), "Génération " + g.generation, [
+        { color: c1, name: "Meilleure", value: num(g.best_fitness) },
+        { color: c2, name: "Moyenne", value: num(g.avg_fitness) },
+        { color: null, name: g.population + " agents évalués", value: num(g.worst_fitness) + " min" },
+      ]);
+    };
+    const move = (e) => showAt(at(e.clientX), e.clientX);
+    hit.addEventListener("pointermove", move);
+    hit.addEventListener("pointerleave", () => { cross.setAttribute("opacity", 0); tt.hide(); });
+    // Le clavier donne accès aux mêmes valeurs que le survol.
+    let kb = gens.length - 1;
+    hit.setAttribute("tabindex", "0");
+    hit.addEventListener("focus", () => showAt(kb));
+    hit.addEventListener("blur", () => { cross.setAttribute("opacity", 0); tt.hide(); });
+    hit.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") kb = Math.min(gens.length - 1, kb + 1);
+      else if (e.key === "ArrowLeft") kb = Math.max(0, kb - 1);
+      else return;
+      e.preventDefault(); showAt(kb);
+    });
+  }
+
+  /* ------------------------------------------------------ graphe : heatmap */
+  const SIGNALS = ["compliance", "readability", "keyword_score", "ctr_score", "originality"];
+
+  function rampFor(v) {
+    // 4 paliers discrets : la valeur est aussi écrite dans la cellule, donc la
+    // magnitude n'est jamais portée par la couleur seule.
+    if (v < 0.25) return 1;
+    if (v < 0.5) return 2;
+    if (v < 0.75) return 3;
+    return 4;
+  }
+
+  function heatmap(host, agents, labels) {
+    host.replaceChildren();
+    if (!agents.length) { host.appendChild(el("div", { class: "empty" }, "Aucun agent évalué sur le dernier cycle.")); return; }
+
+    const W = host.clientWidth || 640;
+    const padL = Math.min(150, Math.max(96, Math.round(W * 0.2))), padT = 26, padR = 4, padB = 6;
+    // Cellules basses : de gros blocs saturés lisent « fort » et écrasent le
+    // reste de la page — la donnée doit rester la seule chose bruyante.
+    const rowH = 32, gap = 2;
+    const H = padT + agents.length * rowH + padB;
+    const cw = (W - padL - padR) / SIGNALS.length;
+
+    const s = svg("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: "img", "aria-label": "Signaux d'évaluation par agent" });
+    const surf = cssVar("--surface-1");
+    const tt = tooltip(host);
+
+    SIGNALS.forEach((k, c) => {
+      s.appendChild(svg("text", { x: padL + c * cw + cw / 2, y: 14, "text-anchor": "middle", "font-size": 11, fill: cssVar("--ink-3") }, labels[k] || k));
+    });
+
+    agents.forEach((a, r) => {
+      const y = padT + r * rowH;
+      s.appendChild(svg("text", { x: 0, y: y + rowH / 2 + 4, "font-size": 12, fill: cssVar("--ink-2") }, a.name || "—"));
+      SIGNALS.forEach((k, c) => {
+        const v = Number(a[k]) || 0;
+        const step = rampFor(v);
+        const x = padL + c * cw;
+        // L'écart de 2px est en couleur de surface : c'est le vide qui sépare,
+        // jamais un contour dessiné autour de la marque.
+        const rect = svg("rect", {
+          x: x + gap / 2, y: y + gap / 2, width: cw - gap, height: rowH - gap, rx: 4,
+          fill: cssVar("--ramp-" + step), style: "cursor:pointer",
+        });
+        s.appendChild(rect);
+        s.appendChild(svg("text", {
+          x: x + cw / 2, y: y + rowH / 2 + 4, "text-anchor": "middle", "font-size": 11.5,
+          fill: cssVar("--ramp-" + step + "-ink"), "font-variant-numeric": "tabular-nums",
+          "pointer-events": "none",
+        }, v.toFixed(2)));
+
+        const show = () => {
+          const box = s.getBoundingClientRect();
+          tt.show(((x + cw / 2) / W) * box.width, ((y + rowH / 2) / H) * box.height, a.name || "Agent", [
+            { color: cssVar("--ramp-" + step), name: labels[k] || k, value: v.toFixed(2) },
+            { color: null, name: "fitness globale", value: num(a.fitness) },
+          ]);
+        };
+        rect.addEventListener("pointerenter", show);
+        rect.addEventListener("pointerleave", () => tt.hide());
+        rect.setAttribute("tabindex", "0");
+        rect.addEventListener("focus", show);
+        rect.addEventListener("blur", () => tt.hide());
+      });
+    });
+    host.appendChild(s);
+  }
+
+  /* ------------------------------------------------------------- rendu */
+  function render() {
+    const d = state.data;
+    const app = $("#app");
+    app.replaceChildren();
+
+    const gensAll = d.generations || [];
+    const gens = slice(gensAll);
+    const agents = d.agents || [];
+    const runs = d.runs || [];
+    const pubs = d.publications || [];
+    const labels = d.signal_labels || {};
+    const cyc = d.cycle || {};
+    const pop = d.population || {};
+
+    $("#rangeNote").textContent = gensAll.length
+      ? `${gens.length} génération${gens.length > 1 ? "s" : ""} affichée${gens.length > 1 ? "s" : ""} sur ${gensAll.length}`
+      : "";
+
+    /* --- statut d'en-tête --- */
+    const last = runs[0];
+    const st = runStatus(last && last.status);
+    $("#statusPill").firstChild.className = "dot " + st.cls;
+    $("#statusText").textContent = `${st.label} · ${ago(d.generated_at)}`;
+
+    /* --- 1. héros + tuiles --- */
+    {
+      const c = el("div", { class: "card span-5" });
+      const cur = gensAll[gensAll.length - 1];
+      const prev = gensAll[gensAll.length - 2];
+      c.appendChild(el("div", { class: "card-head" })).appendChild(
+        (() => { const b = el("div"); b.appendChild(el("h2", {}, "Meilleure fitness")); b.appendChild(el("p", {}, "Score du meilleur agent de la dernière génération évaluée, sur 1.000.")); return b; })()
+      );
+      c.appendChild(el("div", { class: "hero-val" }, cur ? num(cur.best_fitness) : "—"));
+      const sub = el("div", { class: "hero-sub" });
+      if (cur && prev) {
+        const dlt = cur.best_fitness - prev.best_fitness;
+        const cls = Math.abs(dlt) < 0.001 ? "delta-flat" : dlt > 0 ? "delta-up" : "delta-down";
+        const arrow = Math.abs(dlt) < 0.001 ? "→" : dlt > 0 ? "↑" : "↓";
+        const dspan = el("span", { class: "delta " + cls }, `${arrow} ${dlt >= 0 ? "+" : ""}${dlt.toFixed(3)}`);
+        sub.appendChild(dspan);
+        sub.appendChild(el("span", {}, ` vs génération ${prev.generation}`));
+      } else {
+        sub.textContent = "Première génération — pas encore de comparaison.";
+      }
+      c.appendChild(sub);
+      const meta = el("div", { class: "note" });
+      meta.textContent = pop.best_agent
+        ? `Agent ${pop.best_agent} · génération ${cur ? cur.generation : "—"} · ${cur ? cur.population : 0} agents en compétition`
+        : `Génération ${cur ? cur.generation : "—"}`;
+      c.appendChild(meta);
+      app.appendChild(c);
+    }
+
+    /* --- 2. tuiles de synthèse --- */
+    {
+      const c = el("div", { class: "card span-7" });
+      const head = el("div", { class: "card-head" });
+      const b = el("div");
+      b.appendChild(el("h2", {}, "Dernier cycle"));
+      b.appendChild(el("p", {}, "État de la dernière exécution du pipeline, toutes les deux heures."));
+      head.appendChild(b);
+      c.appendChild(head);
+
+      const tiles = el("div", { class: "tiles" });
+      const mk = (k, v, m) => {
+        const t = el("div", { class: "tile" });
+        t.appendChild(el("div", { class: "k" }, k));
+        t.appendChild(el("div", { class: "v" }, v));
+        if (m) t.appendChild(el("div", { class: "m" }, m));
+        return t;
+      };
+      const cur = gensAll[gensAll.length - 1];
+      tiles.appendChild(mk("Génération", "G" + (cyc.generation_evaluated ?? (cur ? cur.generation : "—")), cyc.next_generation ? "G" + cyc.next_generation + " en attente" : null));
+      tiles.appendChild(mk("Items ingérés", compact(cyc.items_ingested ?? 0), "flux RSS publics"));
+      tiles.appendChild(mk("Agents évalués", String(agents.length || (cur ? cur.population : 0)), pop.diversity !== undefined ? "diversité " + pct(pop.diversity) : null));
+      tiles.appendChild(mk("Cycles exécutés", compact(runs.length), runs.length >= 40 ? "40 derniers" : "depuis l'origine"));
+      tiles.appendChild(mk("Publications", compact(pubs.length), "contenus conformes"));
+      tiles.appendChild(mk("Rédaction", cyc.llm_enabled ? "LLM" : "Dégradée", cyc.llm_enabled ? (cyc.llm_calls || 0) + " appels" : "clé API absente"));
+      c.appendChild(tiles);
+
+      if (!cyc.llm_enabled) {
+        c.appendChild(el("div", { class: "note" }, "Mode dégradé : la rédaction utilise le repli local déterministe. Le pipeline continue de tourner et d'évoluer, mais la qualité rédactionnelle reste volontairement minimale."));
+      }
+      app.appendChild(c);
+    }
+
+    /* --- 3. fitness par génération --- */
+    {
+      const { c, showTable } = card("fit", "Fitness par génération", "Meilleur agent et moyenne de la population à chaque cycle. La zone claire couvre l'étendue min–max de la population.", "span-8");
+      if (showTable) {
+        c.appendChild(table(
+          [{ label: "Génération" }, { label: "Agents", num: true }, { label: "Meilleure", num: true }, { label: "Moyenne", num: true }, { label: "Minimum", num: true }],
+          gens.slice().reverse().map((g) => ["G" + g.generation, g.population, num(g.best_fitness), num(g.avg_fitness), num(g.worst_fitness)])
+        ));
+      } else {
+        const lg = el("div", { class: "legend" });
+        [["Meilleure", cssVar("--series-1")], ["Moyenne", cssVar("--series-2")]].forEach(([n, col]) => {
+          const it = el("span", { class: "it" });
+          const k = el("span", { class: "key-line" }); k.style.background = col;
+          it.appendChild(k); it.appendChild(el("span", {}, n)); lg.appendChild(it);
+        });
+        const band = el("span", { class: "it" });
+        const bk = el("span", { class: "key-rect" });
+        bk.style.background = "color-mix(in srgb, " + cssVar("--series-1") + " 18%, transparent)";
+        band.appendChild(bk); band.appendChild(el("span", {}, "Étendue de la population")); lg.appendChild(band);
+        c.appendChild(lg);
+        const plot = el("div", { class: "plot" });
+        plot.style.marginTop = ".7rem";
+        c.appendChild(plot);
+        requestAnimationFrame(() => fitnessChart(plot, gens));
+        observe(plot, () => fitnessChart(plot, gens));
+      }
+      app.appendChild(c);
+    }
+
+    /* --- 4. population actuelle --- */
+    {
+      // Déjà tabulaire : pas de bascule graphe/table à proposer.
+      const { c } = card("pop", "Population", "Les agents du dernier cycle et leur ADN paramétrique.", "span-4", false);
+      const ORIGIN = { elite: "élite", crossover: "croisement", mutation: "mutation", seed: "souche" };
+      const rows = agents.map((a) => {
+        // Nom + origine sur deux lignes : la carte est étroite, cinq colonnes
+        // y déborderaient et masqueraient la fitness dans un scroll latéral.
+        const who = el("span");
+        who.appendChild(el("span", {}, a.name || "—"));
+        who.appendChild(el("br"));
+        who.appendChild(el("span", { style: "color:var(--ink-3);font-weight:400;font-size:.74rem;white-space:nowrap" },
+          `${a.tone || "—"} · ${ORIGIN[a.origin] || a.origin || "—"}`));
+
+        const tr = el("span", { style: "display:inline-flex;align-items:center;gap:.45rem" });
+        const track = el("span", { class: "track" });
+        const fill = el("i");
+        fill.style.width = Math.max(2, Math.round(((a.mutation_rate - 0.05) / 0.85) * 100)) + "%";
+        track.appendChild(fill);
+        tr.appendChild(track);
+        tr.appendChild(el("span", { style: "font-variant-numeric:tabular-nums" }, num(a.mutation_rate, 2)));
+        return [who, num(a.fitness), tr];
+      });
+      c.appendChild(table(
+        [{ label: "Agent", wrap: true }, { label: "Fitness", num: true }, { label: "Mutation" }],
+        rows
+      ));
+      c.appendChild(el("div", { class: "note" }, "Le taux de mutation s'auto-adapte : il monte quand la population stagne, baisse quand elle progresse."));
+      app.appendChild(c);
+    }
+
+    /* --- 5. heatmap des signaux --- */
+    {
+      const { c, showTable } = card("sig", "Signaux d'évaluation", "Décomposition de la fitness du dernier cycle. La conformité est un verrou : sous 1.00, le contenu ne peut pas être publié.", "span-7");
+      if (showTable) {
+        c.appendChild(table(
+          [{ label: "Agent" }, ...SIGNALS.map((k) => ({ label: labels[k] || k, num: true })), { label: "Fitness", num: true }],
+          agents.map((a) => [a.name, ...SIGNALS.map((k) => num(a[k], 2)), num(a.fitness)])
+        ));
+      } else {
+        const lg = el("div", { class: "legend" });
+        const sc = el("span", { class: "scale" });
+        sc.appendChild(el("span", {}, "faible"));
+        [1, 2, 3, 4].forEach((i) => { const b = el("i"); b.style.background = cssVar("--ramp-" + i); sc.appendChild(b); });
+        sc.appendChild(el("span", {}, "élevé"));
+        lg.appendChild(sc);
+        const w = el("span", { class: "it" });
+        w.appendChild(el("span", {}, "Pondérations : conformité 30 % · lisibilité 20 % · pertinence 20 % · CTR 20 % · originalité 10 %"));
+        lg.appendChild(w);
+        c.appendChild(lg);
+        const plot = el("div", { class: "plot" });
+        plot.style.marginTop = ".7rem";
+        c.appendChild(plot);
+        requestAnimationFrame(() => heatmap(plot, agents, labels));
+        observe(plot, () => heatmap(plot, agents, labels));
+      }
+      app.appendChild(c);
+    }
+
+    /* --- 6. sources --- */
+    {
+      const c = el("div", { class: "card span-5" });
+      const head = el("div", { class: "card-head" });
+      const b = el("div");
+      b.appendChild(el("h2", {}, "Sources ingérées"));
+      b.appendChild(el("p", {}, "État de chaque flux au dernier cycle. Un flux interdit par robots.txt ou limité est ignoré, sans réessai."));
+      head.appendChild(b); c.appendChild(head);
+      const entries = Object.entries(d.sources || {});
+      if (!entries.length) {
+        c.appendChild(el("div", { class: "empty" }, "Aucun flux interrogé sur le dernier cycle."));
+      } else {
+        c.appendChild(table(
+          [{ label: "Flux", wrap: true }, { label: "État" }],
+          entries.map(([url, res]) => {
+            let host = url;
+            try { host = new URL(url).hostname; } catch (_) { /* url brute conservée */ }
+            const ok = res === "ok";
+            const tag = el("span", { class: "tag" });
+            tag.appendChild(el("span", { class: "dot " + (ok ? "dot-good" : res.includes("429") ? "dot-warning" : "dot-critical") }));
+            tag.appendChild(el("span", {}, ok ? "OK" : res));
+            return [host, tag];
+          })
+        ));
+      }
+      app.appendChild(c);
+    }
+
+    /* --- 7. cycles récents --- */
+    {
+      const c = el("div", { class: "card span-6" });
+      const head = el("div", { class: "card-head" });
+      const b = el("div");
+      b.appendChild(el("h2", {}, "Cycles récents"));
+      b.appendChild(el("p", {}, "« Rien de neuf » signifie que tous les items collectés avaient déjà été traités — le cycle s'arrête alors sans rien republier."));
+      head.appendChild(b); c.appendChild(head);
+      const rr = state.range === "all" ? runs : runs.slice(0, state.range);
+      c.appendChild(table(
+        [{ label: "Cycle" }, { label: "Quand" }, { label: "Gén." }, { label: "Items", num: true }, { label: "Statut" }],
+        rr.map((r) => ["#" + r.id, dateShort(r.started_at), "G" + r.generation, r.items_ingested, statusTag(r.status)])
+      ));
+      app.appendChild(c);
+    }
+
+    /* --- 8. publications --- */
+    {
+      const c = el("div", { class: "card span-6" });
+      const head = el("div", { class: "card-head" });
+      const b = el("div");
+      b.appendChild(el("h2", {}, "Publications"));
+      b.appendChild(el("p", {}, "Seul le meilleur contenu conforme de chaque cycle est publié."));
+      head.appendChild(b); c.appendChild(head);
+      if (!pubs.length) {
+        c.appendChild(el("div", { class: "empty" }, "Aucune publication pour le moment."));
+      } else {
+        c.appendChild(table(
+          [{ label: "Titre", wrap: true }, { label: "Agent" }, { label: "Gén." }, { label: "Fitness", num: true }],
+          pubs.map((p) => {
+            const a = el("a", { href: "./posts/" + p.slug + ".html" }, p.title);
+            return [a, p.agent_name || "—", "G" + p.generation, num(p.fitness)];
+          })
+        ));
+      }
+      app.appendChild(c);
+    }
+  }
+
+  /* Re-rendu à la resize : les graphes sont dessinés en pixels réels pour que
+     la typographie garde sa taille (un viewBox mis à l'échelle la déforme). */
+  const observed = new WeakMap();
+  function observe(node, fn) {
+    if (observed.has(node) || !window.ResizeObserver) return;
+    let w = node.clientWidth;
+    const ro = new ResizeObserver(() => {
+      if (Math.abs(node.clientWidth - w) < 12) return;
+      w = node.clientWidth; fn();
+    });
+    ro.observe(node);
+    observed.set(node, ro);
+  }
+
+  /* --------------------------------------------------------------- amorçage */
+  document.querySelectorAll(".seg button").forEach((b) => {
+    b.addEventListener("click", () => {
+      state.range = b.dataset.range === "all" ? "all" : Number(b.dataset.range);
+      document.querySelectorAll(".seg button").forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
+      render();
+    });
+  });
+
+  const THEME_KEY = "agentdash-theme";
+  const applyTheme = (t) => { if (t) document.documentElement.setAttribute("data-theme", t); else document.documentElement.removeAttribute("data-theme"); };
+  try { applyTheme(localStorage.getItem(THEME_KEY)); } catch (_) { /* stockage indisponible */ }
+  $("#themeBtn").addEventListener("click", () => {
+    const cur = document.documentElement.getAttribute("data-theme");
+    const sysDark = matchMedia("(prefers-color-scheme: dark)").matches;
+    const next = cur ? (cur === "dark" ? "light" : null) : (sysDark ? "light" : "dark");
+    applyTheme(next);
+    try { next ? localStorage.setItem(THEME_KEY, next) : localStorage.removeItem(THEME_KEY); } catch (_) { /* idem */ }
+    if (state.data) render();
+  });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (state.data) render(); });
+
+  fetch("./data.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then((d) => { state.data = d; render(); })
+    .catch((err) => {
+      $("#app").classList.add("hidden");
+      const f = $("#fallback");
+      f.classList.remove("hidden");
+      f.replaceChildren(
+        el("p", {}, "Données indisponibles (" + err.message + ")."),
+        el("p", {}, "Le fichier docs/data.json est produit par le pipeline à chaque cycle. En local, ouvrez cette page via un serveur HTTP plutôt qu'en file:// — les requêtes fetch y sont bloquées."),
+      );
+      $("#statusText").textContent = "données indisponibles";
+    });
+})();
+</script>
+</body>
+</html>

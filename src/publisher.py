@@ -322,6 +322,9 @@ class Publisher:
             "Synthèses produites par une population d'agents évolutifs, "
             "réévaluée toutes les deux heures.",
             "",
+            "[Tableau de bord de l'évolution](dashboard.html) — fitness par "
+            "génération, signaux d'évaluation et historique des cycles.",
+            "",
             "## Publications",
             "",
         ]
@@ -355,6 +358,26 @@ class Publisher:
             logger.error("Écriture de l'index impossible : %s", exc)
             return None
         return index_path
+
+    def write_dashboard_data(self, payload: Dict[str, Any]) -> Optional[Path]:
+        """Écrit `docs/data.json`, la source unique du tableau de bord.
+
+        Séparé de `status.json` à dessein : `status.json` reste l'état compact
+        du dernier cycle (lisible dans le résumé du job CI), tandis que ce
+        fichier porte les séries historiques dont le tableau de bord a besoin.
+        `dashboard.html` est statique et ne change donc pas à chaque cycle.
+        """
+        try:
+            self.output_dir.mkdir(parents=True, exist_ok=True)
+            path = self.output_dir / "data.json"
+            path.write_text(
+                json.dumps(payload, ensure_ascii=False, indent=1, default=str),
+                encoding="utf-8",
+            )
+            return path
+        except OSError as exc:  # pragma: no cover
+            logger.error("Écriture des données du tableau de bord impossible : %s", exc)
+            return None
 
     def write_status(self, payload: Dict[str, Any]) -> Optional[Path]:
         """Écrit un état machine-lisible du dernier cycle (`docs/status.json`)."""

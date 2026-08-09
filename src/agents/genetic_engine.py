@@ -366,6 +366,15 @@ class GeneticEngine:
             filler.generation = next_generation
             children.append(filler)
 
+        # Nommage lisible. Concaténer les noms des parents ("ProspexProspe")
+        # dégénère en quelques générations : tous les descendants finissent
+        # homonymes et illisibles dans les rapports. Le nom porte donc le ton
+        # (déjà muté à ce stade) et la position ; la filiation reste tracée par
+        # les colonnes parent_a / parent_b.
+        for index, child in enumerate(children, start=1):
+            if child.origin != "elite":
+                child.name = f"{child.tone.capitalize()}-{next_generation}.{index}"
+
         logger.info(
             "Génération %d créée : %d agents (%d élite(s), diversité %.2f, "
             "taux de mutation %+.2f).",

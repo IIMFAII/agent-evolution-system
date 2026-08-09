@@ -21,13 +21,14 @@ from __future__ import annotations
 import argparse
 import sys
 import traceback
-from typing import Any, Dict, List
+from datetime import datetime, timezone
+from typing import Any, Dict, List, Optional
 
 from src.agents.agent import Agent, slugify
 from src.agents.genetic_engine import GeneticEngine
 from src.config import settings, setup_logging
 from src.database import Database
-from src.evaluator import Evaluator
+from src.evaluator import WEIGHTS, Evaluator
 from src.ingestor import Ingestor
 from src.llm import get_llm_client
 from src.publisher import Publisher
@@ -46,12 +47,45 @@ def _dominant_theme(items: List[Dict[str, Any]]) -> str:
     return " ".join(themes) if themes else "veille technologique"
 
 
+def _dashboard_payload(
+    db: Database,
+    cycle: Dict[str, Any],
+    sources: Dict[str, str],
+    agents: Optional[List[Dict[str, Any]]] = None,
+    population: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """Assemble la source de données unique du tableau de bord (`docs/data.json`).
+
+    Alimenté à chaque cycle, y compris ceux qui ne publient rien : le tableau de
+    bord doit refléter l'activité réelle du système, pas seulement ses succès.
+    """
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "cycle": cycle,
+        "population": population or {},
+        "agents": agents or [],
+        "generations": db.generation_stats(limit=60),
+        "runs": db.recent_runs(limit=40),
+        "publications": db.recent_contents(limit=20),
+        "sources": sources,
+        "weights": WEIGHTS,
+        "signal_labels": {
+            "compliance": "Conformité",
+            "readability": "Lisibilité",
+            "keyword_score": "Pertinence",
+            "ctr_score": "Potentiel CTR",
+            "originality": "Originalité",
+        },
+    }
+
+
 def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
     """Exécute un cycle complet. Retourne un code de sortie POSIX (0 = OK)."""
     db = Database(settings.db_file)
     generation = db.current_generation()
     run_id = db.start_run(generation)
     notes: List[str] = []
+    sources: Dict[str, str] = {}
 
     # --- 1. Ingestion ------------------------------------------------------
     items: List[Dict[str, Any]] = []
@@ -63,6 +97,7 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
             logger.error("Ingestion en échec (%s) — cycle poursuivi à vide.", exc)
             collected = []
             notes.append(f"ingestion: {type(exc).__name__}")
+        sources = dict(ingestor.report)
 
         items = db.filter_new_items(collected)
         if collected and not items:
@@ -73,6 +108,22 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
         # quota LLM et sans publier de contenu vide.
         logger.info("Aucun nouvel item exploitable — cycle interrompu proprement.")
         db.finish_run(run_id, status="no_data", items_ingested=0, notes="; ".join(notes))
+        if not dry_run:
+            # Le tableau de bord est rafraîchi même sans publication, sinon il
+            # laisserait croire que le système est à l'arrêt.
+            Publisher().write_dashboard_data(
+                _dashboard_payload(
+                    db,
+                    cycle={
+                        "run_id": run_id,
+                        "generation_evaluated": generation,
+                        "items_ingested": 0,
+                        "status": "no_data",
+                        "publication": {"published": False, "reason": "aucun item nouveau"},
+                    },
+                    sources=sources,
+                )
+            )
         return 0
 
     logger.info("%d nouvel(s) item(s) à traiter sur ce cycle.", len(items))
@@ -200,7 +251,37 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
     db.record_items(items)
     db.prune_items()
 
+    # Le cycle est clos AVANT l'export : sinon le tableau de bord relit son
+    # propre run encore marqué « running », et affiche en permanence un dernier
+    # cycle « en cours » avec zéro item.
+    db.finish_run(
+        run_id,
+        status="success",
+        items_ingested=len(items),
+        notes="; ".join(notes),
+    )
+
     if not dry_run:
+        publisher.write_dashboard_data(
+            _dashboard_payload(
+                db,
+                cycle={
+                    "run_id": run_id,
+                    "generation_evaluated": current_generation,
+                    "next_generation": next_population[0].generation
+                    if next_population
+                    else current_generation,
+                    "items_ingested": len(items),
+                    "llm_enabled": llm.available,
+                    "llm_calls": getattr(llm, "calls_made", 0),
+                    "status": "success",
+                    "publication": published_info,
+                },
+                sources=sources,
+                agents=db.scores_for_run(run_id),
+                population=summary,
+            )
+        )
         publisher.write_status(
             {
                 "run_id": run_id,
@@ -215,12 +296,6 @@ def run_cycle(dry_run: bool = False, skip_ingest: bool = False) -> int:
             }
         )
 
-    db.finish_run(
-        run_id,
-        status="success",
-        items_ingested=len(items),
-        notes="; ".join(notes),
-    )
     logger.info(
         "Cycle terminé — génération %s évaluée (meilleure fitness %.3f), "
         "génération %s prête.",
