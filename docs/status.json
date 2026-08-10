@@ -1,25 +1,31 @@
 {
-  "run_id": 14,
-  "generation_evaluated": 11,
-  "next_generation": 12,
-  "items_ingested": 4,
+  "run_id": 15,
+  "generation_evaluated": 12,
+  "next_generation": 13,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 11,
-    "best_fitness": 0.8586,
+    "generation": 12,
+    "best_fitness": 0.8683,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "ec98add5578e409b",
-    "avg_fitness": 0.8508,
+    "best_agent_id": "30cd210ca6784a6b",
+    "avg_fitness": 0.8525,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.5 h, minimum 12 h",
-    "title": "Veille concis : voice, immigration, interview en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.5 h, minimum 12 h",
+    "title": "Veille concis : sandboxes, philippines', disposable en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 12,
+      "population": 5,
+      "avg_fitness": 0.85246,
+      "best_fitness": 0.8683
+    },
     {
       "generation": 11,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84454,
       "best_fitness": 0.857
-    },
-    {
-      "generation": 2,
-      "population": 5,
-      "avg_fitness": 0.8886800000000001,
-      "best_fitness": 0.902
     }
   ]
 }
