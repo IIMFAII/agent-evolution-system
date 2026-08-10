@@ -1,37 +1,35 @@
 {
- "generated_at": "2026-08-10T16:48:42+00:00",
+ "generated_at": "2026-08-10T18:49:27+00:00",
  "cycle": {
-  "run_id": 20,
-  "generation_evaluated": 17,
-  "next_generation": 18,
-  "items_ingested": 4,
+  "run_id": 21,
+  "generation_evaluated": 18,
+  "next_generation": 19,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille concis : marketplace, exploiting, management en 4 signaux à suivre",
-   "agent": "Concis-9.3",
-   "fitness": 0.8562,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-10-veille-concis-marketplace-exploiting-management-en-4-signaux.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
+   "title": "Veille concis : vulnerability, mathematical, capabilities en 2 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 17,
-  "best_fitness": 0.8562,
+  "generation": 18,
+  "best_fitness": 0.8509,
   "best_agent": "Concis-9.3",
-  "best_agent_id": "482c017d14d84806",
-  "avg_fitness": 0.8463,
+  "best_agent_id": "e44d03d5369845af",
+  "avg_fitness": 0.8486,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "482c017d14d84806",
-   "fitness": 0.8562,
+   "agent_id": "e44d03d5369845af",
+   "fitness": 0.8509,
    "readability": 1.0,
-   "keyword_score": 0.381,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4743,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-9.3",
@@ -41,60 +39,60 @@
    "mutation_rate": 0.29625
   },
   {
-   "agent_id": "65c42bd0a6e44562",
-   "fitness": 0.8533,
+   "agent_id": "8b50596b95d1484e",
+   "fitness": 0.848,
    "readability": 1.0,
-   "keyword_score": 0.3667,
-   "ctr_score": 0.9,
+   "keyword_score": 0.46,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-17.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.4767077984686111,
-   "mutation_rate": 0.3948046875
-  },
-  {
-   "agent_id": "e2e42de7c7064813",
-   "fitness": 0.8533,
-   "readability": 1.0,
-   "keyword_score": 0.3667,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-17.5",
+   "name": "Concis-18.2",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.5979564805983035,
-   "mutation_rate": 0.340302734375
+   "temperature": 0.4278774651877776,
+   "mutation_rate": 0.3375537109375
   },
   {
-   "agent_id": "a331cd79b50d4a3d",
-   "fitness": 0.8393,
+   "agent_id": "3bf552b3d4f144e6",
+   "fitness": 0.848,
    "readability": 1.0,
-   "keyword_score": 0.4167,
+   "keyword_score": 0.46,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-17.3",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.5768729361566995,
-   "mutation_rate": 0.32075195312499993
-  },
-  {
-   "agent_id": "aa14f0c16cab4541",
-   "fitness": 0.8293,
-   "readability": 1.0,
-   "keyword_score": 0.3667,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-17.2",
+   "name": "Analytique-18.3",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.5979564805983035,
-   "mutation_rate": 0.340302734375
+   "temperature": 0.5854040215491517,
+   "mutation_rate": 0.28827636718750005
+  },
+  {
+   "agent_id": "6c2faec54ace4102",
+   "fitness": 0.848,
+   "readability": 1.0,
+   "keyword_score": 0.46,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-18.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.5854040215491517,
+   "mutation_rate": 0.28827636718750005
+  },
+  {
+   "agent_id": "470ad9709b944740",
+   "fitness": 0.848,
+   "readability": 1.0,
+   "keyword_score": 0.46,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-18.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.43816863365283065,
+   "mutation_rate": 0.28827636718750005
   }
  ],
  "generations": [
@@ -216,9 +214,25 @@
    "avg_fitness": 0.8462799999999999,
    "best_fitness": 0.8562,
    "worst_fitness": 0.8293
+  },
+  {
+   "generation": 18,
+   "population": 5,
+   "avg_fitness": 0.8485799999999999,
+   "best_fitness": 0.8509,
+   "worst_fitness": 0.848
   }
  ],
  "runs": [
+  {
+   "id": 21,
+   "started_at": "2026-08-10T18:49:09+00:00",
+   "finished_at": "2026-08-10T18:49:27+00:00",
+   "generation": 18,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 2.0 h, minimum 12 h"
+  },
   {
    "id": 20,
    "started_at": "2026-08-10T16:48:34+00:00",
