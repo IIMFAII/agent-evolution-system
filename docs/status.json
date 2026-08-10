@@ -1,25 +1,31 @@
 {
-  "run_id": 21,
-  "generation_evaluated": 18,
-  "next_generation": 19,
-  "items_ingested": 2,
+  "run_id": 22,
+  "generation_evaluated": 19,
+  "next_generation": 20,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 18,
-    "best_fitness": 0.8509,
+    "generation": 19,
+    "best_fitness": 0.8829,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "e44d03d5369845af",
-    "avg_fitness": 0.8486,
+    "best_agent_id": "dedbc44f8c684c9d",
+    "avg_fitness": 0.8766,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille concis : vulnerability, mathematical, capabilities en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
+    "title": "Veille concis : rust, simd en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 19,
+      "population": 5,
+      "avg_fitness": 0.87658,
+      "best_fitness": 0.8829
+    },
     {
       "generation": 18,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8632199999999999,
       "best_fitness": 0.8704
-    },
-    {
-      "generation": 9,
-      "population": 5,
-      "avg_fitness": 0.84378,
-      "best_fitness": 0.8509
     }
   ]
 }
