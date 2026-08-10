@@ -1,25 +1,30 @@
 {
-  "run_id": 17,
-  "generation_evaluated": 14,
-  "next_generation": 15,
-  "items_ingested": 2,
+  "run_id": 18,
+  "generation_evaluated": 15,
+  "next_generation": 16,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 14,
-    "best_fitness": 0.8509,
+    "generation": 15,
+    "best_fitness": 0.1,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "e9d5b924aa6b48dc",
-    "avg_fitness": 0.8466,
+    "best_agent_id": "f3d02dabf5844e81",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.2 h, minimum 12 h",
-    "title": "Veille concis : coding, extension, glimmer en 2 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 15,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 14,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.83904,
       "best_fitness": 0.8479
-    },
-    {
-      "generation": 5,
-      "population": 5,
-      "avg_fitness": 0.82606,
-      "best_fitness": 0.8335
     }
   ]
 }
