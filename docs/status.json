@@ -1,24 +1,31 @@
 {
-  "run_id": 18,
-  "generation_evaluated": 15,
-  "next_generation": 16,
-  "items_ingested": 5,
+  "run_id": 19,
+  "generation_evaluated": 16,
+  "next_generation": 17,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 15,
-    "best_fitness": 0.1,
+    "generation": 16,
+    "best_fitness": 0.8434,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "f3d02dabf5844e81",
-    "avg_fitness": 0.1,
+    "best_agent_id": "8f9bbafe65124267",
+    "avg_fitness": 0.832,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 11.1 h, minimum 12 h",
+    "title": "Veille concis : paralléliser, enshittification, développement en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 16,
+      "population": 5,
+      "avg_fitness": 0.8320000000000001,
+      "best_fitness": 0.8434
+    },
     {
       "generation": 15,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83216,
       "best_fitness": 0.8436
-    },
-    {
-      "generation": 6,
-      "population": 5,
-      "avg_fitness": 0.83904,
-      "best_fitness": 0.8479
     }
   ]
 }
