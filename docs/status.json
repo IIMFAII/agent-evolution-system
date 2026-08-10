@@ -1,25 +1,33 @@
 {
-  "run_id": 12,
-  "generation_evaluated": 9,
-  "next_generation": 10,
-  "items_ingested": 4,
+  "run_id": 13,
+  "generation_evaluated": 10,
+  "next_generation": 11,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 9,
-    "best_fitness": 0.8509,
+    "generation": 10,
+    "best_fitness": 0.8704,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "cedcdd9655964413",
-    "avg_fitness": 0.8438,
+    "best_agent_id": "aae819260fd64404",
+    "avg_fitness": 0.8632,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
-    "title": "Veille concis : australian, autonomous, overturns en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : into, satellite, hackerone en 3 signaux à suivre",
+    "agent": "Concis-9.3",
+    "fitness": 0.8704,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-10-veille-concis-into-satellite-hackerone-en-3-signaux-a-suivre.md"
   },
   "history": [
+    {
+      "generation": 10,
+      "population": 5,
+      "avg_fitness": 0.8632199999999999,
+      "best_fitness": 0.8704
+    },
     {
       "generation": 9,
       "population": 5,
