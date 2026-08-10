@@ -1,25 +1,33 @@
 {
-  "run_id": 19,
-  "generation_evaluated": 16,
-  "next_generation": 17,
-  "items_ingested": 6,
+  "run_id": 20,
+  "generation_evaluated": 17,
+  "next_generation": 18,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 16,
-    "best_fitness": 0.8434,
+    "generation": 17,
+    "best_fitness": 0.8562,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "8f9bbafe65124267",
-    "avg_fitness": 0.832,
+    "best_agent_id": "482c017d14d84806",
+    "avg_fitness": 0.8463,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.1 h, minimum 12 h",
-    "title": "Veille concis : paralléliser, enshittification, développement en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : marketplace, exploiting, management en 4 signaux à suivre",
+    "agent": "Concis-9.3",
+    "fitness": 0.8562,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-10-veille-concis-marketplace-exploiting-management-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 17,
+      "population": 5,
+      "avg_fitness": 0.8462799999999999,
+      "best_fitness": 0.8562
+    },
     {
       "generation": 16,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8451000000000001,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 7,
-      "population": 5,
-      "avg_fitness": 0.83216,
-      "best_fitness": 0.8436
     }
   ]
 }
