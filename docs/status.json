@@ -1,27 +1,31 @@
 {
-  "run_id": 13,
-  "generation_evaluated": 10,
-  "next_generation": 11,
-  "items_ingested": 3,
+  "run_id": 14,
+  "generation_evaluated": 11,
+  "next_generation": 12,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 10,
-    "best_fitness": 0.8704,
+    "generation": 11,
+    "best_fitness": 0.8586,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "aae819260fd64404",
-    "avg_fitness": 0.8632,
+    "best_agent_id": "ec98add5578e409b",
+    "avg_fitness": 0.8508,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : into, satellite, hackerone en 3 signaux à suivre",
-    "agent": "Concis-9.3",
-    "fitness": 0.8704,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-10-veille-concis-into-satellite-hackerone-en-3-signaux-a-suivre.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.5 h, minimum 12 h",
+    "title": "Veille concis : voice, immigration, interview en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 11,
+      "population": 5,
+      "avg_fitness": 0.85084,
+      "best_fitness": 0.8586
+    },
     {
       "generation": 10,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8886800000000001,
       "best_fitness": 0.902
-    },
-    {
-      "generation": 1,
-      "population": 5,
-      "avg_fitness": 0.8440200000000001,
-      "best_fitness": 0.8564
     }
   ]
 }
