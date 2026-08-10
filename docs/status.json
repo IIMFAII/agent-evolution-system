@@ -1,25 +1,31 @@
 {
-  "run_id": 15,
-  "generation_evaluated": 12,
-  "next_generation": 13,
-  "items_ingested": 2,
+  "run_id": 16,
+  "generation_evaluated": 13,
+  "next_generation": 14,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 12,
-    "best_fitness": 0.8683,
+    "generation": 13,
+    "best_fitness": 0.8629,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "30cd210ca6784a6b",
-    "avg_fitness": 0.8525,
+    "best_agent_id": "70f445864aaa46a9",
+    "avg_fitness": 0.8597,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.5 h, minimum 12 h",
-    "title": "Veille concis : sandboxes, philippines', disposable en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille concis : spécialistes, départs, google en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 13,
+      "population": 5,
+      "avg_fitness": 0.8597400000000001,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 12,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.87726,
       "best_fitness": 0.8863
-    },
-    {
-      "generation": 3,
-      "population": 5,
-      "avg_fitness": 0.84454,
-      "best_fitness": 0.857
     }
   ]
 }

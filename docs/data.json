@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-08-10T07:20:55+00:00",
+ "generated_at": "2026-08-10T09:13:32+00:00",
  "cycle": {
-  "run_id": 15,
-  "generation_evaluated": 12,
-  "next_generation": 13,
-  "items_ingested": 2,
+  "run_id": 16,
+  "generation_evaluated": 13,
+  "next_generation": 14,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 3.5 h, minimum 12 h",
-   "title": "Veille concis : sandboxes, philippines', disposable en 2 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+   "title": "Veille concis : spécialistes, départs, google en 1 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 12,
-  "best_fitness": 0.8683,
+  "generation": 13,
+  "best_fitness": 0.8629,
   "best_agent": "Concis-9.3",
-  "best_agent_id": "30cd210ca6784a6b",
-  "avg_fitness": 0.8525,
+  "best_agent_id": "70f445864aaa46a9",
+  "avg_fitness": 0.8597,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "30cd210ca6784a6b",
-   "fitness": 0.8683,
+   "agent_id": "70f445864aaa46a9",
+   "fitness": 0.8629,
    "readability": 1.0,
-   "keyword_score": 0.4416,
+   "keyword_score": 0.4143,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,60 +39,60 @@
    "mutation_rate": 0.29625
   },
   {
-   "agent_id": "a1618c8a60da4dbf",
-   "fitness": 0.8655,
+   "agent_id": "17c5701c9d34483b",
+   "fitness": 0.8629,
    "readability": 1.0,
-   "keyword_score": 0.4273,
+   "keyword_score": 0.4143,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-12.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.5619374972684205,
-   "mutation_rate": 0.3490625
-  },
-  {
-   "agent_id": "7926a81a00ef4b87",
-   "fitness": 0.8655,
-   "readability": 1.0,
-   "keyword_score": 0.4273,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-12.3",
+   "name": "Concis-13.4",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.5619374972684205,
-   "mutation_rate": 0.3490625
+   "temperature": 0.5673945298842102,
+   "mutation_rate": 0.34265625
   },
   {
-   "agent_id": "fbd7840901df4c8a",
-   "fitness": 0.8415,
+   "agent_id": "bb1682f6b8384c23",
+   "fitness": 0.8629,
    "readability": 1.0,
-   "keyword_score": 0.4273,
-   "ctr_score": 0.78,
+   "keyword_score": 0.4143,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-12.5",
-   "tone": "analytique",
+   "name": "Concis-13.5",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.6363102478151772,
-   "mutation_rate": 0.3490625
+   "temperature": 0.5991238725417989,
+   "mutation_rate": 0.3690625
   },
   {
-   "agent_id": "056e720690f84c06",
-   "fitness": 0.8215,
+   "agent_id": "d03c5965920b4e25",
+   "fitness": 0.86,
    "readability": 1.0,
-   "keyword_score": 0.3273,
-   "ctr_score": 0.78,
+   "keyword_score": 0.4,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-12.4",
-   "tone": "pédagogique",
+   "name": "Concis-13.2",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.5619374972684205,
-   "mutation_rate": 0.3490625
+   "temperature": 0.6948545321643499,
+   "mutation_rate": 0.34265625
+  },
+  {
+   "agent_id": "4daddb95113c4938",
+   "fitness": 0.85,
+   "readability": 1.0,
+   "keyword_score": 0.35,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-13.3",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.5673945298842102,
+   "mutation_rate": 0.34265625
   }
  ],
  "generations": [
@@ -179,9 +179,25 @@
    "avg_fitness": 0.85246,
    "best_fitness": 0.8683,
    "worst_fitness": 0.8215
+  },
+  {
+   "generation": 13,
+   "population": 5,
+   "avg_fitness": 0.8597400000000001,
+   "best_fitness": 0.8629,
+   "worst_fitness": 0.85
   }
  ],
  "runs": [
+  {
+   "id": 16,
+   "started_at": "2026-08-10T09:13:28+00:00",
+   "finished_at": "2026-08-10T09:13:32+00:00",
+   "generation": 13,
+   "status": "success",
+   "items_ingested": 1,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.4 h, minimum 12 h"
+  },
   {
    "id": 15,
    "started_at": "2026-08-10T07:20:50+00:00",
