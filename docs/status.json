@@ -1,25 +1,31 @@
 {
-  "run_id": 11,
-  "generation_evaluated": 8,
-  "next_generation": 9,
+  "run_id": 12,
+  "generation_evaluated": 9,
+  "next_generation": 10,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 8,
-    "best_fitness": 0.8629,
-    "best_agent": "Concis-8.3",
-    "best_agent_id": "2c34a351e4c64d4a",
-    "avg_fitness": 0.8451,
+    "generation": 9,
+    "best_fitness": 0.8509,
+    "best_agent": "Concis-9.3",
+    "best_agent_id": "cedcdd9655964413",
+    "avg_fitness": 0.8438,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-    "title": "Veille concis : operational, vapourware, combustion en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
+    "title": "Veille concis : australian, autonomous, overturns en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 9,
+      "population": 5,
+      "avg_fitness": 0.84378,
+      "best_fitness": 0.8509
+    },
     {
       "generation": 8,
       "population": 5,
