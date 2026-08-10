@@ -1,25 +1,31 @@
 {
-  "run_id": 16,
-  "generation_evaluated": 13,
-  "next_generation": 14,
-  "items_ingested": 1,
+  "run_id": 17,
+  "generation_evaluated": 14,
+  "next_generation": 15,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 13,
-    "best_fitness": 0.8629,
+    "generation": 14,
+    "best_fitness": 0.8509,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "70f445864aaa46a9",
-    "avg_fitness": 0.8597,
+    "best_agent_id": "e9d5b924aa6b48dc",
+    "avg_fitness": 0.8466,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille concis : spécialistes, départs, google en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.2 h, minimum 12 h",
+    "title": "Veille concis : coding, extension, glimmer en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 14,
+      "population": 5,
+      "avg_fitness": 0.84658,
+      "best_fitness": 0.8509
+    },
     {
       "generation": 13,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82606,
       "best_fitness": 0.8335
-    },
-    {
-      "generation": 4,
-      "population": 5,
-      "avg_fitness": 0.87726,
-      "best_fitness": 0.8863
     }
   ]
 }
