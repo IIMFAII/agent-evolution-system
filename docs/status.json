@@ -1,25 +1,31 @@
 {
-  "run_id": 29,
-  "generation_evaluated": 26,
-  "next_generation": 27,
+  "run_id": 30,
+  "generation_evaluated": 27,
+  "next_generation": 28,
   "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 26,
-    "best_fitness": 0.8653,
+    "generation": 27,
+    "best_fitness": 0.8843,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "0b82cfca7d064aaa",
-    "avg_fitness": 0.8635,
+    "best_agent_id": "9a3f7df653044db2",
+    "avg_fitness": 0.8797,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
-    "title": "Veille prospectif : underground, passengers', footprint en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.8 h, minimum 12 h",
+    "title": "Veille prospectif : reportedly, openai's, ethicist en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 27,
+      "population": 5,
+      "avg_fitness": 0.8797200000000001,
+      "best_fitness": 0.8843
+    },
     {
       "generation": 26,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8485799999999999,
       "best_fitness": 0.8509
-    },
-    {
-      "generation": 17,
-      "population": 5,
-      "avg_fitness": 0.8462799999999999,
-      "best_fitness": 0.8562
     }
   ]
 }
