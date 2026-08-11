@@ -1,27 +1,31 @@
 {
-  "run_id": 26,
-  "generation_evaluated": 23,
-  "next_generation": 24,
+  "run_id": 27,
+  "generation_evaluated": 24,
+  "next_generation": 25,
   "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 23,
-    "best_fitness": 0.8743,
+    "generation": 24,
+    "best_fitness": 0.8417,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "45b54c6e55f5452b",
-    "avg_fitness": 0.8612,
+    "best_agent_id": "4e7d58faf7264f1a",
+    "avg_fitness": 0.8323,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : thunderbird, hyperspace, releases en 3 signaux à suivre",
-    "agent": "Prospectif-22.4",
-    "fitness": 0.8743,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-11-veille-prospectif-thunderbird-hyperspace-releases-en-3-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
+    "title": "Veille prospectif : token-efficient, interviewing, engineering en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 24,
+      "population": 5,
+      "avg_fitness": 0.83226,
+      "best_fitness": 0.8417
+    },
     {
       "generation": 23,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 14,
-      "population": 5,
-      "avg_fitness": 0.84658,
-      "best_fitness": 0.8509
     }
   ]
 }
