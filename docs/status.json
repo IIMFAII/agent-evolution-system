@@ -1,25 +1,31 @@
 {
-  "run_id": 24,
-  "generation_evaluated": 21,
-  "next_generation": 22,
+  "run_id": 25,
+  "generation_evaluated": 22,
+  "next_generation": 23,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 21,
-    "best_fitness": 0.8536,
-    "best_agent": "Concis-9.3",
-    "best_agent_id": "41a0b6b00c334f2c",
-    "avg_fitness": 0.8519,
+    "generation": 22,
+    "best_fitness": 0.8743,
+    "best_agent": "Prospectif-22.4",
+    "best_agent_id": "6b8f59e831c14079",
+    "avg_fitness": 0.8585,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
-    "title": "Veille concis : america, lexisnexis, anonymity en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
+    "title": "Veille prospectif : floppydisks, president, inference en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 22,
+      "population": 5,
+      "avg_fitness": 0.8585200000000001,
+      "best_fitness": 0.8743
+    },
     {
       "generation": 21,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8597400000000001,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 12,
-      "population": 5,
-      "avg_fitness": 0.85246,
-      "best_fitness": 0.8683
     }
   ]
 }
