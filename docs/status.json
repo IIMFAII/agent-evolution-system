@@ -1,25 +1,31 @@
 {
-  "run_id": 34,
-  "generation_evaluated": 31,
-  "next_generation": 32,
-  "items_ingested": 7,
+  "run_id": 35,
+  "generation_evaluated": 32,
+  "next_generation": 33,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 31,
-    "best_fitness": 0.8479,
+    "generation": 32,
+    "best_fitness": 0.8436,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "ad063bf697084535",
-    "avg_fitness": 0.8377,
+    "best_agent_id": "b2a5ff0e64064041",
+    "avg_fitness": 0.8345,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.7 h, minimum 12 h",
-    "title": "Veille prospectif : understanding, compression, prediction en 7 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.7 h, minimum 12 h",
+    "title": "Veille prospectif : manufacturing, introspective, 19th-century en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 32,
+      "population": 5,
+      "avg_fitness": 0.83446,
+      "best_fitness": 0.8436
+    },
     {
       "generation": 31,
       "population": 5,
@@ -72,12 +78,6 @@
       "generation": 23,
       "population": 5,
       "avg_fitness": 0.86122,
-      "best_fitness": 0.8743
-    },
-    {
-      "generation": 22,
-      "population": 5,
-      "avg_fitness": 0.8585200000000001,
       "best_fitness": 0.8743
     }
   ]
