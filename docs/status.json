@@ -1,25 +1,31 @@
 {
-  "run_id": 23,
-  "generation_evaluated": 20,
-  "next_generation": 21,
+  "run_id": 24,
+  "generation_evaluated": 21,
+  "next_generation": 22,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 20,
-    "best_fitness": 0.8366,
+    "generation": 21,
+    "best_fitness": 0.8536,
     "best_agent": "Concis-9.3",
-    "best_agent_id": "ff48b70e579247e0",
-    "avg_fitness": 0.8335,
+    "best_agent_id": "41a0b6b00c334f2c",
+    "avg_fitness": 0.8519,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
-    "title": "Veille concis : long-distance, ai-generated, integration en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
+    "title": "Veille concis : america, lexisnexis, anonymity en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 21,
+      "population": 5,
+      "avg_fitness": 0.85192,
+      "best_fitness": 0.8536
+    },
     {
       "generation": 20,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85246,
       "best_fitness": 0.8683
-    },
-    {
-      "generation": 11,
-      "population": 5,
-      "avg_fitness": 0.85084,
-      "best_fitness": 0.8586
     }
   ]
 }
