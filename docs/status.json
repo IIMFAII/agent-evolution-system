@@ -1,25 +1,31 @@
 {
-  "run_id": 31,
-  "generation_evaluated": 28,
-  "next_generation": 29,
-  "items_ingested": 5,
+  "run_id": 32,
+  "generation_evaluated": 29,
+  "next_generation": 30,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 28,
-    "best_fitness": 0.8719,
+    "generation": 29,
+    "best_fitness": 0.8383,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "72664b03c4a14ade",
-    "avg_fitness": 0.8638,
+    "best_agent_id": "7e5f6eaf334b479c",
+    "avg_fitness": 0.8329,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.9 h, minimum 12 h",
-    "title": "Veille prospectif : pass-ta-key, greenland, illegally en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille prospectif : first-semester, spreadsheet, university en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 29,
+      "population": 5,
+      "avg_fitness": 0.8328599999999999,
+      "best_fitness": 0.8383
+    },
     {
       "generation": 28,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83348,
       "best_fitness": 0.8366
-    },
-    {
-      "generation": 19,
-      "population": 5,
-      "avg_fitness": 0.87658,
-      "best_fitness": 0.8829
     }
   ]
 }
