@@ -1,27 +1,31 @@
 {
-  "run_id": 33,
-  "generation_evaluated": 30,
-  "next_generation": 31,
-  "items_ingested": 4,
+  "run_id": 34,
+  "generation_evaluated": 31,
+  "next_generation": 32,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 30,
-    "best_fitness": 0.8653,
+    "generation": 31,
+    "best_fitness": 0.8479,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "7fdd5b14c16f4ca5",
-    "avg_fitness": 0.8607,
+    "best_agent_id": "ad063bf697084535",
+    "avg_fitness": 0.8377,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : ai-assisted, engineering, assistance en 4 signaux à suivre",
-    "agent": "Prospectif-22.4",
-    "fitness": 0.8653,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-11-veille-prospectif-ai-assisted-engineering-assistance-en-4-si.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.7 h, minimum 12 h",
+    "title": "Veille prospectif : understanding, compression, prediction en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 31,
+      "population": 5,
+      "avg_fitness": 0.83766,
+      "best_fitness": 0.8479
+    },
     {
       "generation": 30,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8585200000000001,
       "best_fitness": 0.8743
-    },
-    {
-      "generation": 21,
-      "population": 5,
-      "avg_fitness": 0.85192,
-      "best_fitness": 0.8536
     }
   ]
 }
