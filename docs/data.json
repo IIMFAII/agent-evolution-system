@@ -1,31 +1,33 @@
 {
- "generated_at": "2026-08-11T03:38:46+00:00",
+ "generated_at": "2026-08-11T05:01:50+00:00",
  "cycle": {
-  "run_id": 25,
-  "generation_evaluated": 22,
-  "next_generation": 23,
-  "items_ingested": 4,
+  "run_id": 26,
+  "generation_evaluated": 23,
+  "next_generation": 24,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
-   "title": "Veille prospectif : floppydisks, president, inference en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille prospectif : thunderbird, hyperspace, releases en 3 signaux à suivre",
+   "agent": "Prospectif-22.4",
+   "fitness": 0.8743,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-11-veille-prospectif-thunderbird-hyperspace-releases-en-3-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 22,
+  "generation": 23,
   "best_fitness": 0.8743,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "6b8f59e831c14079",
-  "avg_fitness": 0.8585,
+  "best_agent_id": "45b54c6e55f5452b",
+  "avg_fitness": 0.8612,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "6b8f59e831c14079",
+   "agent_id": "45b54c6e55f5452b",
    "fitness": 0.8743,
    "readability": 1.0,
    "keyword_score": 0.4714,
@@ -34,65 +36,65 @@
    "originality": 1.0,
    "name": "Prospectif-22.4",
    "tone": "prospectif",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.48224575801894953,
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "df61b786cb1d42f8",
-   "fitness": 0.8626,
+   "agent_id": "91768cad0f0b4232",
+   "fitness": 0.87,
    "readability": 1.0,
-   "keyword_score": 0.4129,
+   "keyword_score": 0.45,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-9.3",
-   "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.5728515624999999,
-   "mutation_rate": 0.29625
+   "name": "Prospectif-23.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.4894927586852497,
+   "mutation_rate": 0.264256591796875
   },
   {
-   "agent_id": "4c7b5d3859d34255",
+   "agent_id": "5f8e1bf71d824ad3",
+   "fitness": 0.8629,
+   "readability": 1.0,
+   "keyword_score": 0.4143,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-23.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.5275486602594748,
+   "mutation_rate": 0.264256591796875
+  },
+  {
+   "agent_id": "5e584a78db114c7a",
    "fitness": 0.86,
    "readability": 1.0,
    "keyword_score": 0.4,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-22.2",
+   "name": "Critique-23.5",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.5275486602594748,
-   "mutation_rate": 0.279256591796875
+   "temperature": 0.5502001113797373,
+   "mutation_rate": 0.25775329589843754
   },
   {
-   "agent_id": "5b16ad99f8e8477d",
-   "fitness": 0.8597,
+   "agent_id": "705ae3fce06c4c27",
+   "fitness": 0.8389,
    "readability": 1.0,
-   "keyword_score": 0.3987,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-22.3",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.5275486602594748,
-   "mutation_rate": 0.279256591796875
-  },
-  {
-   "agent_id": "de5147b1a0af49d5",
-   "fitness": 0.836,
-   "readability": 1.0,
-   "keyword_score": 0.4,
+   "keyword_score": 0.4143,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-22.5",
+   "name": "Pédagogique-23.2",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.41825062231256516,
-   "mutation_rate": 0.29226318359375003
+   "temperature": 0.5275486602594748,
+   "mutation_rate": 0.264256591796875
   }
  ],
  "generations": [
@@ -249,9 +251,25 @@
    "avg_fitness": 0.8585200000000001,
    "best_fitness": 0.8743,
    "worst_fitness": 0.836
+  },
+  {
+   "generation": 23,
+   "population": 5,
+   "avg_fitness": 0.86122,
+   "best_fitness": 0.8743,
+   "worst_fitness": 0.8389
   }
  ],
  "runs": [
+  {
+   "id": 26,
+   "started_at": "2026-08-11T05:01:44+00:00",
+   "finished_at": "2026-08-11T05:01:50+00:00",
+   "generation": 23,
+   "status": "success",
+   "items_ingested": 3,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 25,
    "started_at": "2026-08-11T03:38:41+00:00",
@@ -480,6 +498,15 @@
  ],
  "publications": [
   {
+   "title": "Veille prospectif : thunderbird, hyperspace, releases en 3 signaux à suivre",
+   "slug": "2026-08-11-veille-prospectif-thunderbird-hyperspace-releases-en-3-signa",
+   "fitness": 0.8743,
+   "generation": 23,
+   "created_at": "2026-08-11T05:01:50+00:00",
+   "agent_name": "Prospectif-22.4",
+   "tone": "prospectif"
+  },
+  {
    "title": "Veille concis : marketplace, exploiting, management en 4 signaux à suivre",
    "slug": "2026-08-10-veille-concis-marketplace-exploiting-management-en-4-signaux",
    "fitness": 0.8562,
@@ -534,7 +561,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 5,
+  "publications": 6,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -626,10 +653,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4183,
+    "score": 0.421,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 5 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 6 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
