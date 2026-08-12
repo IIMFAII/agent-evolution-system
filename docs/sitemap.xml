@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://iimfaii.github.io/agent-evolution-system/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/dashboard.html</loc><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-12-veille-prospectif-cve-2026-53361-use-after-free-container-en.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-11-veille-prospectif-thunderbird-hyperspace-releases-en-3-signa.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-11-veille-prospectif-ai-assisted-engineering-assistance-en-4-si.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-10-veille-concis-marketplace-exploiting-management-en-4-signaux.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>

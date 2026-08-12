@@ -1,34 +1,36 @@
 {
- "generated_at": "2026-08-12T04:02:42+00:00",
+ "generated_at": "2026-08-12T07:16:59+00:00",
  "cycle": {
-  "run_id": 37,
-  "generation_evaluated": 34,
-  "next_generation": 35,
-  "items_ingested": 5,
+  "run_id": 38,
+  "generation_evaluated": 35,
+  "next_generation": 36,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 9.1 h, minimum 12 h",
-   "title": "Veille prospectif : human-written, fake-hotspot, lifesaving en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille prospectif : cve-2026-53361, use-after-free, container en 3 signaux à suivre",
+   "agent": "Prospectif-22.4",
+   "fitness": 0.837,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-12-veille-prospectif-cve-2026-53361-use-after-free-container-en.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 34,
-  "best_fitness": 0.8437,
+  "generation": 35,
+  "best_fitness": 0.837,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "aa383f5caedf4371",
-  "avg_fitness": 0.8345,
+  "best_agent_id": "ae8d2ee615de4ec1",
+  "avg_fitness": 0.8301,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "aa383f5caedf4371",
-   "fitness": 0.8437,
+   "agent_id": "ae8d2ee615de4ec1",
+   "fitness": 0.837,
    "readability": 1.0,
-   "keyword_score": 0.4385,
+   "keyword_score": 0.4048,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,60 +41,60 @@
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "2eb56e050e3b4926",
-   "fitness": 0.8395,
+   "agent_id": "46f8436fcde44cf9",
+   "fitness": 0.837,
    "readability": 1.0,
-   "keyword_score": 0.4177,
+   "keyword_score": 0.4048,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-34.2",
+   "name": "Prospectif-35.4",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4970643249143045,
-   "mutation_rate": 0.3365834832191468
+   "temperature": 0.48965504146662703,
+   "mutation_rate": 0.3344233334064484
   },
   {
-   "agent_id": "0c2c37c44a9c4f25",
-   "fitness": 0.8298,
+   "agent_id": "452e6aa13f3b4075",
+   "fitness": 0.8255,
    "readability": 1.0,
-   "keyword_score": 0.3691,
+   "keyword_score": 0.3476,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-34.3",
-   "tone": "pédagogique",
+   "name": "Critique-35.2",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.48187941828446623,
+   "mutation_rate": 0.36374363303184515
+  },
+  {
+   "agent_id": "4a06c5b659b94f77",
+   "fitness": 0.8255,
+   "readability": 1.0,
+   "keyword_score": 0.3476,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-35.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.48965504146662703,
+   "mutation_rate": 0.3344233334064484
+  },
+  {
+   "agent_id": "fcd1d28dcd1f4909",
+   "fitness": 0.8255,
+   "readability": 1.0,
+   "keyword_score": 0.3476,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-35.5",
+   "tone": "prospectif",
    "origin": "crossover",
    "temperature": 0.466694511654628,
-   "mutation_rate": 0.3509037828445435
-  },
-  {
-   "agent_id": "b576e5ec71024641",
-   "fitness": 0.8298,
-   "readability": 1.0,
-   "keyword_score": 0.3691,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-34.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.466694511654628,
-   "mutation_rate": 0.3509037828445435
-  },
-  {
-   "agent_id": "732cb4c21d3c47ae",
-   "fitness": 0.8298,
-   "readability": 1.0,
-   "keyword_score": 0.3691,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-34.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.33298499134827686,
-   "mutation_rate": 0.3752240824699402
+   "mutation_rate": 0.3709037828445435
   }
  ],
  "generations": [
@@ -333,9 +335,25 @@
    "avg_fitness": 0.83452,
    "best_fitness": 0.8437,
    "worst_fitness": 0.8298
+  },
+  {
+   "generation": 35,
+   "population": 5,
+   "avg_fitness": 0.8301000000000001,
+   "best_fitness": 0.837,
+   "worst_fitness": 0.8255
   }
  ],
  "runs": [
+  {
+   "id": 38,
+   "started_at": "2026-08-12T07:16:27+00:00",
+   "finished_at": "2026-08-12T07:16:59+00:00",
+   "generation": 35,
+   "status": "success",
+   "items_ingested": 3,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 37,
    "started_at": "2026-08-12T04:02:10+00:00",
@@ -672,6 +690,15 @@
  ],
  "publications": [
   {
+   "title": "Veille prospectif : cve-2026-53361, use-after-free, container en 3 signaux à suivre",
+   "slug": "2026-08-12-veille-prospectif-cve-2026-53361-use-after-free-container-en",
+   "fitness": 0.837,
+   "generation": 35,
+   "created_at": "2026-08-12T07:16:59+00:00",
+   "agent_name": "Prospectif-22.4",
+   "tone": "prospectif"
+  },
+  {
    "title": "Veille prospectif : ai-assisted, engineering, assistance en 4 signaux à suivre",
    "slug": "2026-08-11-veille-prospectif-ai-assisted-engineering-assistance-en-4-si",
    "fitness": 0.8653,
@@ -744,7 +771,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 7,
+  "publications": 8,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -836,10 +863,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4237,
+    "score": 0.4263,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 7 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 8 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
