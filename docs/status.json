@@ -1,25 +1,31 @@
 {
-  "run_id": 42,
-  "generation_evaluated": 39,
-  "next_generation": 40,
-  "items_ingested": 4,
+  "run_id": 43,
+  "generation_evaluated": 40,
+  "next_generation": 41,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 39,
-    "best_fitness": 0.8378,
+    "generation": 40,
+    "best_fitness": 0.8499,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "39e6828afdad45af",
-    "avg_fitness": 0.8319,
+    "best_agent_id": "a0ad6955a0c749c0",
+    "avg_fitness": 0.8423,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.6 h, minimum 12 h",
-    "title": "Veille prospectif : perpetual-license, cartelization, outperform en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.6 h, minimum 12 h",
+    "title": "Veille prospectif : terminal-native, engineering, givecampus en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 40,
+      "population": 5,
+      "avg_fitness": 0.84228,
+      "best_fitness": 0.8499
+    },
     {
       "generation": 39,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83766,
       "best_fitness": 0.8479
-    },
-    {
-      "generation": 30,
-      "population": 5,
-      "avg_fitness": 0.8607199999999999,
-      "best_fitness": 0.8653
     }
   ]
 }
