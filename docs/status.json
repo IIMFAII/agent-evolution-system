@@ -1,25 +1,31 @@
 {
-  "run_id": 43,
-  "generation_evaluated": 40,
-  "next_generation": 41,
+  "run_id": 44,
+  "generation_evaluated": 41,
+  "next_generation": 42,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 40,
-    "best_fitness": 0.8499,
+    "generation": 41,
+    "best_fitness": 0.8398,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "a0ad6955a0c749c0",
-    "avg_fitness": 0.8423,
+    "best_agent_id": "2d97f45d75ab4349",
+    "avg_fitness": 0.8312,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.6 h, minimum 12 h",
-    "title": "Veille prospectif : terminal-native, engineering, givecampus en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
+    "title": "Veille prospectif : intelligence, spacexai's, artificial en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 41,
+      "population": 5,
+      "avg_fitness": 0.8311999999999999,
+      "best_fitness": 0.8398
+    },
     {
       "generation": 40,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83446,
       "best_fitness": 0.8436
-    },
-    {
-      "generation": 31,
-      "population": 5,
-      "avg_fitness": 0.83766,
-      "best_fitness": 0.8479
     }
   ]
 }

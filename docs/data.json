@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-08-12T16:52:33+00:00",
+ "generated_at": "2026-08-12T18:55:13+00:00",
  "cycle": {
-  "run_id": 43,
-  "generation_evaluated": 40,
-  "next_generation": 41,
+  "run_id": 44,
+  "generation_evaluated": 41,
+  "next_generation": 42,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 9.6 h, minimum 12 h",
-   "title": "Veille prospectif : terminal-native, engineering, givecampus en 6 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
+   "title": "Veille prospectif : intelligence, spacexai's, artificial en 6 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 40,
-  "best_fitness": 0.8499,
+  "generation": 41,
+  "best_fitness": 0.8398,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "a0ad6955a0c749c0",
-  "avg_fitness": 0.8423,
+  "best_agent_id": "2d97f45d75ab4349",
+  "avg_fitness": 0.8312,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "a0ad6955a0c749c0",
-   "fitness": 0.8499,
+   "agent_id": "2d97f45d75ab4349",
+   "fitness": 0.8398,
    "readability": 1.0,
-   "keyword_score": 0.4695,
+   "keyword_score": 0.4191,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,60 +39,60 @@
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "d0befbe54e6c4f43",
-   "fitness": 0.8457,
+   "agent_id": "a377ce9ca5ad4e76",
+   "fitness": 0.8357,
    "readability": 1.0,
-   "keyword_score": 0.4486,
+   "keyword_score": 0.3983,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-40.3",
+   "name": "Prospectif-41.4",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4859575573690323,
-   "mutation_rate": 0.33858068827539683
+   "temperature": 0.48410165769399094,
+   "mutation_rate": 0.28542193593457343
   },
   {
-   "agent_id": "1a41ebbee6194987",
-   "fitness": 0.8457,
+   "agent_id": "8eb8abe1f47a4bc7",
+   "fitness": 0.8287,
    "readability": 1.0,
-   "keyword_score": 0.4486,
+   "keyword_score": 0.3636,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-40.5",
+   "name": "Prospectif-41.2",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4767467486718475,
-   "mutation_rate": 0.3399656976386905
+   "temperature": 0.4813521530204399,
+   "mutation_rate": 0.3092731929570437
   },
   {
-   "agent_id": "6bc37c4c16d14e1b",
-   "fitness": 0.8425,
+   "agent_id": "94ca5d1d309140d5",
+   "fitness": 0.8259,
    "readability": 1.0,
-   "keyword_score": 0.4324,
+   "keyword_score": 0.3497,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-40.2",
+   "name": "Prospectif-41.3",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4859575573690323,
-   "mutation_rate": 0.33858068827539683
+   "temperature": 0.4492250409881149,
+   "mutation_rate": 0.3092731929570437
   },
   {
-   "agent_id": "2b29a43119ce4350",
-   "fitness": 0.8276,
+   "agent_id": "10c692ae1e654c67",
+   "fitness": 0.8259,
    "readability": 1.0,
-   "keyword_score": 0.3581,
+   "keyword_score": 0.3497,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-40.4",
-   "tone": "pédagogique",
+   "name": "Critique-41.5",
+   "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.4804585480219303,
-   "mutation_rate": 0.3362832023203373
+   "temperature": 0.498131453093911,
+   "mutation_rate": 0.28542193593457343
   }
  ],
  "generations": [
@@ -375,9 +375,25 @@
    "avg_fitness": 0.84228,
    "best_fitness": 0.8499,
    "worst_fitness": 0.8276
+  },
+  {
+   "generation": 41,
+   "population": 5,
+   "avg_fitness": 0.8311999999999999,
+   "best_fitness": 0.8398,
+   "worst_fitness": 0.8259
   }
  ],
  "runs": [
+  {
+   "id": 44,
+   "started_at": "2026-08-12T18:55:08+00:00",
+   "finished_at": "2026-08-12T18:55:13+00:00",
+   "generation": 41,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.6 h, minimum 12 h"
+  },
   {
    "id": 43,
    "started_at": "2026-08-12T16:52:23+00:00",
@@ -728,15 +744,6 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 4,
-   "started_at": "2026-08-09T15:45:35+00:00",
-   "finished_at": "2026-08-09T15:45:40+00:00",
-   "generation": 3,
-   "status": "success",
-   "items_ingested": 2,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
