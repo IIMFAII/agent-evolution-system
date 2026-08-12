@@ -1,37 +1,35 @@
 {
- "generated_at": "2026-08-12T07:16:59+00:00",
+ "generated_at": "2026-08-12T09:07:04+00:00",
  "cycle": {
-  "run_id": 38,
-  "generation_evaluated": 35,
-  "next_generation": 36,
-  "items_ingested": 3,
+  "run_id": 39,
+  "generation_evaluated": 36,
+  "next_generation": 37,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille prospectif : cve-2026-53361, use-after-free, container en 3 signaux à suivre",
-   "agent": "Prospectif-22.4",
-   "fitness": 0.837,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-12-veille-prospectif-cve-2026-53361-use-after-free-container-en.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 1.8 h, minimum 12 h",
+   "title": "Veille prospectif : cringebot, linkedin, dropbox en 2 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 35,
-  "best_fitness": 0.837,
+  "generation": 36,
+  "best_fitness": 0.9343,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "ae8d2ee615de4ec1",
-  "avg_fitness": 0.8301,
+  "best_agent_id": "cae29c789dcd475a",
+  "avg_fitness": 0.9254,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "ae8d2ee615de4ec1",
-   "fitness": 0.837,
+   "agent_id": "cae29c789dcd475a",
+   "fitness": 0.9343,
    "readability": 1.0,
-   "keyword_score": 0.4048,
-   "ctr_score": 0.78,
+   "keyword_score": 0.7714,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Prospectif-22.4",
@@ -41,60 +39,60 @@
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "46f8436fcde44cf9",
-   "fitness": 0.837,
+   "agent_id": "9e02c93bc89e4cf0",
+   "fitness": 0.93,
    "readability": 1.0,
-   "keyword_score": 0.4048,
-   "ctr_score": 0.78,
+   "keyword_score": 0.75,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-35.4",
+   "name": "Prospectif-36.4",
    "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.4859503997427883,
+   "mutation_rate": 0.33334325850009927
+  },
+  {
+   "agent_id": "4eea0c0afb914d6d",
+   "fitness": 0.9229,
+   "readability": 1.0,
+   "keyword_score": 0.7143,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-36.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.44238541287462774,
+   "mutation_rate": 0.33334325850009927
+  },
+  {
+   "agent_id": "3643177e7aa746d0",
+   "fitness": 0.92,
+   "readability": 1.0,
+   "keyword_score": 0.7,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-36.2",
+   "tone": "pédagogique",
    "origin": "crossover",
    "temperature": 0.48965504146662703,
-   "mutation_rate": 0.3344233334064484
+   "mutation_rate": 0.35442333340644844
   },
   {
-   "agent_id": "452e6aa13f3b4075",
-   "fitness": 0.8255,
+   "agent_id": "2c525f76b75a48cc",
+   "fitness": 0.92,
    "readability": 1.0,
-   "keyword_score": 0.3476,
-   "ctr_score": 0.78,
+   "keyword_score": 0.7,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-35.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.48187941828446623,
-   "mutation_rate": 0.36374363303184515
-  },
-  {
-   "agent_id": "4a06c5b659b94f77",
-   "fitness": 0.8255,
-   "readability": 1.0,
-   "keyword_score": 0.3476,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-35.3",
+   "name": "Prospectif-36.3",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.48965504146662703,
-   "mutation_rate": 0.3344233334064484
-  },
-  {
-   "agent_id": "fcd1d28dcd1f4909",
-   "fitness": 0.8255,
-   "readability": 1.0,
-   "keyword_score": 0.3476,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-35.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.466694511654628,
-   "mutation_rate": 0.3709037828445435
+   "temperature": 0.4781747765606275,
+   "mutation_rate": 0.372663558125496
   }
  ],
  "generations": [
@@ -342,9 +340,25 @@
    "avg_fitness": 0.8301000000000001,
    "best_fitness": 0.837,
    "worst_fitness": 0.8255
+  },
+  {
+   "generation": 36,
+   "population": 5,
+   "avg_fitness": 0.92544,
+   "best_fitness": 0.9343,
+   "worst_fitness": 0.92
   }
  ],
  "runs": [
+  {
+   "id": 39,
+   "started_at": "2026-08-12T09:06:32+00:00",
+   "finished_at": "2026-08-12T09:07:04+00:00",
+   "generation": 36,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 1.8 h, minimum 12 h"
+  },
   {
    "id": 38,
    "started_at": "2026-08-12T07:16:27+00:00",
