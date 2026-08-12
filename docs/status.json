@@ -1,25 +1,31 @@
 {
-  "run_id": 36,
-  "generation_evaluated": 33,
-  "next_generation": 34,
-  "items_ingested": 4,
+  "run_id": 37,
+  "generation_evaluated": 34,
+  "next_generation": 35,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 33,
-    "best_fitness": 0.8417,
+    "generation": 34,
+    "best_fitness": 0.8437,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "faae68f6b5bd4e60",
-    "avg_fitness": 0.832,
+    "best_agent_id": "aa383f5caedf4371",
+    "avg_fitness": 0.8345,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.5 h, minimum 12 h",
-    "title": "Veille prospectif : controllers, open-world, generation en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.1 h, minimum 12 h",
+    "title": "Veille prospectif : human-written, fake-hotspot, lifesaving en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 34,
+      "population": 5,
+      "avg_fitness": 0.83452,
+      "best_fitness": 0.8437
+    },
     {
       "generation": 33,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8489000000000001,
       "best_fitness": 0.8557
-    },
-    {
-      "generation": 24,
-      "population": 5,
-      "avg_fitness": 0.83226,
-      "best_fitness": 0.8417
     }
   ]
 }

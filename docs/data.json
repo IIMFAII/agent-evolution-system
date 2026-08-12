@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-08-12T01:23:54+00:00",
+ "generated_at": "2026-08-12T04:02:42+00:00",
  "cycle": {
-  "run_id": 36,
-  "generation_evaluated": 33,
-  "next_generation": 34,
-  "items_ingested": 4,
+  "run_id": 37,
+  "generation_evaluated": 34,
+  "next_generation": 35,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 6.5 h, minimum 12 h",
-   "title": "Veille prospectif : controllers, open-world, generation en 4 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 9.1 h, minimum 12 h",
+   "title": "Veille prospectif : human-written, fake-hotspot, lifesaving en 5 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 33,
-  "best_fitness": 0.8417,
+  "generation": 34,
+  "best_fitness": 0.8437,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "faae68f6b5bd4e60",
-  "avg_fitness": 0.832,
+  "best_agent_id": "aa383f5caedf4371",
+  "avg_fitness": 0.8345,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "faae68f6b5bd4e60",
-   "fitness": 0.8417,
+   "agent_id": "aa383f5caedf4371",
+   "fitness": 0.8437,
    "readability": 1.0,
-   "keyword_score": 0.4286,
+   "keyword_score": 0.4385,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,60 +39,60 @@
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "c072089ff0f5422c",
-   "fitness": 0.8417,
+   "agent_id": "2eb56e050e3b4926",
+   "fitness": 0.8395,
    "readability": 1.0,
-   "keyword_score": 0.4286,
+   "keyword_score": 0.4177,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-33.4",
+   "name": "Prospectif-34.2",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.45114326529030646,
-   "mutation_rate": 0.36954438209533697
+   "temperature": 0.4970643249143045,
+   "mutation_rate": 0.3365834832191468
   },
   {
-   "agent_id": "8f6caabecbde4bd9",
-   "fitness": 0.8303,
+   "agent_id": "0c2c37c44a9c4f25",
+   "fitness": 0.8298,
    "readability": 1.0,
-   "keyword_score": 0.3714,
+   "keyword_score": 0.3691,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-33.3",
+   "name": "Pédagogique-34.3",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.466694511654628,
+   "mutation_rate": 0.3509037828445435
+  },
+  {
+   "agent_id": "b576e5ec71024641",
+   "fitness": 0.8298,
+   "readability": 1.0,
+   "keyword_score": 0.3691,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-34.4",
    "tone": "prospectif",
    "origin": "crossover",
    "temperature": 0.466694511654628,
-   "mutation_rate": 0.3409037828445435
+   "mutation_rate": 0.3509037828445435
   },
   {
-   "agent_id": "3594b6fe299c4c8d",
-   "fitness": 0.8274,
+   "agent_id": "732cb4c21d3c47ae",
+   "fitness": 0.8298,
    "readability": 1.0,
-   "keyword_score": 0.3571,
+   "keyword_score": 0.3691,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-33.5",
+   "name": "Prospectif-34.5",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.466694511654628,
-   "mutation_rate": 0.3409037828445435
-  },
-  {
-   "agent_id": "cdb02ee8f0184a92",
-   "fitness": 0.8189,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-33.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.466694511654628,
-   "mutation_rate": 0.3409037828445435
+   "temperature": 0.33298499134827686,
+   "mutation_rate": 0.3752240824699402
   }
  ],
  "generations": [
@@ -326,9 +326,25 @@
    "avg_fitness": 0.8320000000000001,
    "best_fitness": 0.8417,
    "worst_fitness": 0.8189
+  },
+  {
+   "generation": 34,
+   "population": 5,
+   "avg_fitness": 0.83452,
+   "best_fitness": 0.8437,
+   "worst_fitness": 0.8298
   }
  ],
  "runs": [
+  {
+   "id": 37,
+   "started_at": "2026-08-12T04:02:10+00:00",
+   "finished_at": "2026-08-12T04:02:42+00:00",
+   "generation": 34,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 9.1 h, minimum 12 h"
+  },
   {
    "id": 36,
    "started_at": "2026-08-12T01:23:19+00:00",
