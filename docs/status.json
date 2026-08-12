@@ -1,25 +1,31 @@
 {
-  "run_id": 35,
-  "generation_evaluated": 32,
-  "next_generation": 33,
+  "run_id": 36,
+  "generation_evaluated": 33,
+  "next_generation": 34,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 32,
-    "best_fitness": 0.8436,
+    "generation": 33,
+    "best_fitness": 0.8417,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "b2a5ff0e64064041",
-    "avg_fitness": 0.8345,
+    "best_agent_id": "faae68f6b5bd4e60",
+    "avg_fitness": 0.832,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.7 h, minimum 12 h",
-    "title": "Veille prospectif : manufacturing, introspective, 19th-century en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.5 h, minimum 12 h",
+    "title": "Veille prospectif : controllers, open-world, generation en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 33,
+      "population": 5,
+      "avg_fitness": 0.8320000000000001,
+      "best_fitness": 0.8417
+    },
     {
       "generation": 32,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83226,
       "best_fitness": 0.8417
-    },
-    {
-      "generation": 23,
-      "population": 5,
-      "avg_fitness": 0.86122,
-      "best_fitness": 0.8743
     }
   ]
 }
