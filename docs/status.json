@@ -1,25 +1,31 @@
 {
-  "run_id": 39,
-  "generation_evaluated": 36,
-  "next_generation": 37,
-  "items_ingested": 2,
+  "run_id": 40,
+  "generation_evaluated": 37,
+  "next_generation": 38,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 36,
-    "best_fitness": 0.9343,
+    "generation": 37,
+    "best_fitness": 0.8521,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "cae29c789dcd475a",
-    "avg_fitness": 0.9254,
+    "best_agent_id": "83f27436e17c49a0",
+    "avg_fitness": 0.8469,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.8 h, minimum 12 h",
-    "title": "Veille prospectif : cringebot, linkedin, dropbox en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.7 h, minimum 12 h",
+    "title": "Veille prospectif : materials, reimplementation, controversial en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 37,
+      "population": 5,
+      "avg_fitness": 0.8469,
+      "best_fitness": 0.8521
+    },
     {
       "generation": 36,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8638,
       "best_fitness": 0.8719
-    },
-    {
-      "generation": 27,
-      "population": 5,
-      "avg_fitness": 0.8797200000000001,
-      "best_fitness": 0.8843
     }
   ]
 }
