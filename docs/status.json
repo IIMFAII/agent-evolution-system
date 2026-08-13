@@ -1,25 +1,31 @@
 {
-  "run_id": 47,
-  "generation_evaluated": 44,
-  "next_generation": 45,
-  "items_ingested": 6,
+  "run_id": 49,
+  "generation_evaluated": 45,
+  "next_generation": 46,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 44,
-    "best_fitness": 0.8518,
+    "generation": 45,
+    "best_fitness": 0.8983,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "d2be6c51bf184527",
-    "avg_fitness": 0.8446,
+    "best_agent_id": "d24d59718d8342b1",
+    "avg_fitness": 0.8866,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.8 h, minimum 12 h",
-    "title": "Veille prospectif : browser-native, integrations, synthesizers en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+    "title": "Veille prospectif : desktop, self-hosted, distributed en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 45,
+      "population": 5,
+      "avg_fitness": 0.8866400000000001,
+      "best_fitness": 0.8983
+    },
     {
       "generation": 44,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.92544,
       "best_fitness": 0.9343
-    },
-    {
-      "generation": 35,
-      "population": 5,
-      "avg_fitness": 0.8301000000000001,
-      "best_fitness": 0.837
     }
   ]
 }
