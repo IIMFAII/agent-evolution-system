@@ -1,25 +1,33 @@
 {
-  "run_id": 56,
-  "generation_evaluated": 52,
-  "next_generation": 53,
-  "items_ingested": 5,
+  "run_id": 57,
+  "generation_evaluated": 53,
+  "next_generation": 54,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 52,
-    "best_fitness": 0.8456,
+    "generation": 53,
+    "best_fitness": 0.8463,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "dfb2e851db8e42a6",
-    "avg_fitness": 0.8378,
+    "best_agent_id": "9328972f82df4d4e",
+    "avg_fitness": 0.8366,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
-    "title": "Veille prospectif : systemd-journald, cybercriminals, organizations en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : cybercriminals, np-overrated, security en 3 signaux à suivre",
+    "agent": "Prospectif-22.4",
+    "fitness": 0.8463,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-13-veille-prospectif-cybercriminals-np-overrated-security-en-3.md"
   },
   "history": [
+    {
+      "generation": 53,
+      "population": 5,
+      "avg_fitness": 0.8366,
+      "best_fitness": 0.8463
+    },
     {
       "generation": 52,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8445600000000001,
       "best_fitness": 0.8518
-    },
-    {
-      "generation": 43,
-      "population": 5,
-      "avg_fitness": 0.84012,
-      "best_fitness": 0.8467
     }
   ]
 }
