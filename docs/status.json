@@ -1,25 +1,31 @@
 {
-  "run_id": 53,
-  "generation_evaluated": 49,
-  "next_generation": 50,
-  "items_ingested": 4,
+  "run_id": 54,
+  "generation_evaluated": 50,
+  "next_generation": 51,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 49,
-    "best_fitness": 0.8453,
+    "generation": 50,
+    "best_fitness": 0.8634,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "5bc3ab92992e4dcf",
-    "avg_fitness": 0.833,
+    "best_agent_id": "e636edb678c140d8",
+    "avg_fitness": 0.8551,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
-    "title": "Veille prospectif : spaghettifying, integrations, differences en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
+    "title": "Veille prospectif : watermarks, requested, smoothly en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 50,
+      "population": 5,
+      "avg_fitness": 0.8551,
+      "best_fitness": 0.8634
+    },
     {
       "generation": 49,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8311999999999999,
       "best_fitness": 0.8398
-    },
-    {
-      "generation": 40,
-      "population": 5,
-      "avg_fitness": 0.84228,
-      "best_fitness": 0.8499
     }
   ]
 }
