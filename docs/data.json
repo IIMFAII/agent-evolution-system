@@ -1,100 +1,17 @@
 {
- "generated_at": "2026-08-13T01:25:49+00:00",
+ "generated_at": "2026-08-13T04:05:56+00:00",
  "cycle": {
-  "run_id": 47,
-  "generation_evaluated": 44,
-  "next_generation": 45,
-  "items_ingested": 6,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 48,
+  "generation_evaluated": 45,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 4.8 h, minimum 12 h",
-   "title": "Veille prospectif : browser-native, integrations, synthesizers en 6 signaux à suivre"
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 44,
-  "best_fitness": 0.8518,
-  "best_agent": "Prospectif-22.4",
-  "best_agent_id": "d2be6c51bf184527",
-  "avg_fitness": 0.8446,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "d2be6c51bf184527",
-   "fitness": 0.8518,
-   "readability": 1.0,
-   "keyword_score": 0.4789,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-22.4",
-   "tone": "prospectif",
-   "origin": "elite",
-   "temperature": 0.48224575801894953,
-   "mutation_rate": 0.29226318359375003
-  },
-  {
-   "agent_id": "69dbb118605d49d6",
-   "fitness": 0.8476,
-   "readability": 1.0,
-   "keyword_score": 0.458,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-44.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.45551541979575927,
-   "mutation_rate": 0.3368894347641618
-  },
-  {
-   "agent_id": "8f9d54adae994d5e",
-   "fitness": 0.8476,
-   "readability": 1.0,
-   "keyword_score": 0.458,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-44.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.478597507857053,
-   "mutation_rate": 0.3615156859345735
-  },
-  {
-   "agent_id": "4cdb4cfdc4b1419f",
-   "fitness": 0.8379,
-   "readability": 1.0,
-   "keyword_score": 0.4093,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-44.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.42656766334903107,
-   "mutation_rate": 0.3615156859345735
-  },
-  {
-   "agent_id": "85967210f0ef499c",
-   "fitness": 0.8379,
-   "readability": 1.0,
-   "keyword_score": 0.4093,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-44.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.45551541979575927,
-   "mutation_rate": 0.3368894347641618
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 1,
@@ -406,6 +323,15 @@
   }
  ],
  "runs": [
+  {
+   "id": 48,
+   "started_at": "2026-08-13T04:05:39+00:00",
+   "finished_at": "2026-08-13T04:05:56+00:00",
+   "generation": 45,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
   {
    "id": 47,
    "started_at": "2026-08-13T01:25:45+00:00",
@@ -756,15 +682,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 2.8 h, minimum 12 h"
-  },
-  {
-   "id": 8,
-   "started_at": "2026-08-09T16:27:55+00:00",
-   "finished_at": "2026-08-09T16:28:01+00:00",
-   "generation": 5,
-   "status": "success",
-   "items_ingested": 3,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 0.7 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -851,7 +768,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "erreur réseau (ConnectionError)"
  },
