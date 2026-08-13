@@ -1,25 +1,31 @@
 {
-  "run_id": 55,
-  "generation_evaluated": 51,
-  "next_generation": 52,
-  "items_ingested": 4,
+  "run_id": 56,
+  "generation_evaluated": 52,
+  "next_generation": 53,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 51,
-    "best_fitness": 0.8503,
+    "generation": 52,
+    "best_fitness": 0.8456,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "fc67d1c3bcbc4f8d",
-    "avg_fitness": 0.8417,
+    "best_agent_id": "dfb2e851db8e42a6",
+    "avg_fitness": 0.8378,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
-    "title": "Veille prospectif : accelerating, technology, ultrafast en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
+    "title": "Veille prospectif : systemd-journald, cybercriminals, organizations en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 52,
+      "population": 5,
+      "avg_fitness": 0.83782,
+      "best_fitness": 0.8456
+    },
     {
       "generation": 51,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84012,
       "best_fitness": 0.8467
-    },
-    {
-      "generation": 42,
-      "population": 5,
-      "avg_fitness": 0.8290799999999999,
-      "best_fitness": 0.8394
     }
   ]
 }
