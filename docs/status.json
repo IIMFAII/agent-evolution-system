@@ -1,25 +1,31 @@
 {
-  "run_id": 52,
-  "generation_evaluated": 48,
-  "next_generation": 49,
-  "items_ingested": 5,
+  "run_id": 53,
+  "generation_evaluated": 49,
+  "next_generation": 50,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 48,
-    "best_fitness": 0.8464,
+    "generation": 49,
+    "best_fitness": 0.8453,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "c48470ebf9284c6f",
-    "avg_fitness": 0.8358,
+    "best_agent_id": "5bc3ab92992e4dcf",
+    "avg_fitness": 0.833,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
-    "title": "Veille prospectif : bank, d'utilisateurs, transformation en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
+    "title": "Veille prospectif : spaghettifying, integrations, differences en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 49,
+      "population": 5,
+      "avg_fitness": 0.83302,
+      "best_fitness": 0.8453
+    },
     {
       "generation": 48,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84228,
       "best_fitness": 0.8499
-    },
-    {
-      "generation": 39,
-      "population": 5,
-      "avg_fitness": 0.83186,
-      "best_fitness": 0.8378
     }
   ]
 }
