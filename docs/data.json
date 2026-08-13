@@ -1,35 +1,35 @@
 {
- "generated_at": "2026-08-13T10:57:07+00:00",
+ "generated_at": "2026-08-13T12:57:14+00:00",
  "cycle": {
-  "run_id": 51,
-  "generation_evaluated": 47,
-  "next_generation": 48,
-  "items_ingested": 1,
+  "run_id": 52,
+  "generation_evaluated": 48,
+  "next_generation": 49,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 1.8 h, minimum 12 h",
-   "title": "Veille prospectif : anthropic's, watermarks, claude en 1 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
+   "title": "Veille prospectif : bank, d'utilisateurs, transformation en 5 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 47,
-  "best_fitness": 0.8543,
+  "generation": 48,
+  "best_fitness": 0.8464,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "583ebf7a9dcf4f11",
-  "avg_fitness": 0.8431,
+  "best_agent_id": "c48470ebf9284c6f",
+  "avg_fitness": 0.8358,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "583ebf7a9dcf4f11",
-   "fitness": 0.8543,
+   "agent_id": "c48470ebf9284c6f",
+   "fitness": 0.8464,
    "readability": 1.0,
-   "keyword_score": 0.3714,
-   "ctr_score": 0.9,
+   "keyword_score": 0.452,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Prospectif-22.4",
@@ -39,60 +39,60 @@
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "938a676df4a94d64",
-   "fitness": 0.85,
+   "agent_id": "aa5b8572a55842ce",
+   "fitness": 0.8423,
    "readability": 1.0,
-   "keyword_score": 0.35,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4315,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-47.4",
+   "name": "Prospectif-48.2",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.5968376339607044,
-   "mutation_rate": 0.33784146499005147
+   "temperature": 0.4967219680736539,
+   "mutation_rate": 0.3578414649900515
   },
   {
-   "agent_id": "ff9613a6370e427f",
-   "fitness": 0.84,
+   "agent_id": "da6a65b5f81b4e37",
+   "fitness": 0.8423,
    "readability": 1.0,
-   "keyword_score": 0.3,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4315,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-47.2",
-   "tone": "critique",
+   "name": "Prospectif-48.5",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4681900802274083,
-   "mutation_rate": 0.33784146499005147
+   "temperature": 0.5395416959898269,
+   "mutation_rate": 0.3350523242919008
   },
   {
-   "agent_id": "ed692004bf75486c",
-   "fitness": 0.84,
+   "agent_id": "51772165a9a1432a",
+   "fitness": 0.8247,
    "readability": 1.0,
-   "keyword_score": 0.3,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3436,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-47.5",
-   "tone": "critique",
+   "name": "Analytique-48.4",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.46220967271773655,
-   "mutation_rate": 0.340919746386353
+   "temperature": 0.5295236533392205,
+   "mutation_rate": 0.35938060568820224
   },
   {
-   "agent_id": "7eb6a20ed8ce4353",
-   "fitness": 0.8314,
+   "agent_id": "9ccd2b24f74c4414",
+   "fitness": 0.8231,
    "readability": 1.0,
-   "keyword_score": 0.2571,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3356,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-47.3",
+   "name": "Critique-48.3",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.4575814710562432,
-   "mutation_rate": 0.3395763091789559
+   "temperature": 0.5729187168440111,
+   "mutation_rate": 0.3578414649900515
   }
  ],
  "generations": [
@@ -424,9 +424,25 @@
    "avg_fitness": 0.84314,
    "best_fitness": 0.8543,
    "worst_fitness": 0.8314
+  },
+  {
+   "generation": 48,
+   "population": 5,
+   "avg_fitness": 0.83576,
+   "best_fitness": 0.8464,
+   "worst_fitness": 0.8231
   }
  ],
  "runs": [
+  {
+   "id": 52,
+   "started_at": "2026-08-13T12:57:09+00:00",
+   "finished_at": "2026-08-13T12:57:14+00:00",
+   "generation": 48,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.8 h, minimum 12 h"
+  },
   {
    "id": 51,
    "started_at": "2026-08-13T10:57:02+00:00",
@@ -777,15 +793,6 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 12,
-   "started_at": "2026-08-10T01:17:27+00:00",
-   "finished_at": "2026-08-10T01:17:34+00:00",
-   "generation": 9,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 9.5 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -883,7 +890,7 @@
  "sources": {
   "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
-  "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "erreur réseau (ConnectionError)"
+  "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
  "monetization": {
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",

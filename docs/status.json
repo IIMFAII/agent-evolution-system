@@ -1,25 +1,31 @@
 {
-  "run_id": 51,
-  "generation_evaluated": 47,
-  "next_generation": 48,
-  "items_ingested": 1,
+  "run_id": 52,
+  "generation_evaluated": 48,
+  "next_generation": 49,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 47,
-    "best_fitness": 0.8543,
+    "generation": 48,
+    "best_fitness": 0.8464,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "583ebf7a9dcf4f11",
-    "avg_fitness": 0.8431,
+    "best_agent_id": "c48470ebf9284c6f",
+    "avg_fitness": 0.8358,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.8 h, minimum 12 h",
-    "title": "Veille prospectif : anthropic's, watermarks, claude en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
+    "title": "Veille prospectif : bank, d'utilisateurs, transformation en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 48,
+      "population": 5,
+      "avg_fitness": 0.83576,
+      "best_fitness": 0.8464
+    },
     {
       "generation": 47,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83186,
       "best_fitness": 0.8378
-    },
-    {
-      "generation": 38,
-      "population": 5,
-      "avg_fitness": 0.8694599999999999,
-      "best_fitness": 0.8797
     }
   ]
 }
