@@ -1,25 +1,33 @@
 {
-  "run_id": 49,
-  "generation_evaluated": 45,
-  "next_generation": 46,
-  "items_ingested": 3,
+  "run_id": 50,
+  "generation_evaluated": 46,
+  "next_generation": 47,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 45,
-    "best_fitness": 0.8983,
+    "generation": 46,
+    "best_fitness": 0.8593,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "d24d59718d8342b1",
-    "avg_fitness": 0.8866,
+    "best_agent_id": "cbd659ba3cb2440f",
+    "avg_fitness": 0.845,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
-    "title": "Veille prospectif : desktop, self-hosted, distributed en 3 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : supermarket, sardines, scarcity en 1 signaux à suivre",
+    "agent": "Prospectif-22.4",
+    "fitness": 0.8593,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-13-veille-prospectif-supermarket-sardines-scarcity-en-1-signaux.md"
   },
   "history": [
+    {
+      "generation": 46,
+      "population": 5,
+      "avg_fitness": 0.845,
+      "best_fitness": 0.8593
+    },
     {
       "generation": 45,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8469,
       "best_fitness": 0.8521
-    },
-    {
-      "generation": 36,
-      "population": 5,
-      "avg_fitness": 0.92544,
-      "best_fitness": 0.9343
     }
   ]
 }
