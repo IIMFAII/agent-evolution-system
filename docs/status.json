@@ -1,25 +1,31 @@
 {
-  "run_id": 46,
-  "generation_evaluated": 43,
-  "next_generation": 44,
-  "items_ingested": 5,
+  "run_id": 47,
+  "generation_evaluated": 44,
+  "next_generation": 45,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 43,
-    "best_fitness": 0.8467,
+    "generation": 44,
+    "best_fitness": 0.8518,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "1839d170319a4e29",
-    "avg_fitness": 0.8401,
+    "best_agent_id": "d2be6c51bf184527",
+    "avg_fitness": 0.8446,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille prospectif : supply-chain, credentials, terabytes en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.8 h, minimum 12 h",
+    "title": "Veille prospectif : browser-native, integrations, synthesizers en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 44,
+      "population": 5,
+      "avg_fitness": 0.8445600000000001,
+      "best_fitness": 0.8518
+    },
     {
       "generation": 43,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8301000000000001,
       "best_fitness": 0.837
-    },
-    {
-      "generation": 34,
-      "population": 5,
-      "avg_fitness": 0.83452,
-      "best_fitness": 0.8437
     }
   ]
 }
