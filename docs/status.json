@@ -1,25 +1,31 @@
 {
-  "run_id": 66,
-  "generation_evaluated": 62,
-  "next_generation": 63,
-  "items_ingested": 4,
+  "run_id": 67,
+  "generation_evaluated": 63,
+  "next_generation": 64,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 62,
-    "best_fitness": 0.8529,
+    "generation": 63,
+    "best_fitness": 0.8476,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "88fde293e61b41b8",
-    "avg_fitness": 0.8415,
+    "best_agent_id": "fd70e7c0b9b5434f",
+    "avg_fitness": 0.8351,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
-    "title": "Veille prospectif : contract-grade, llm-generated, by-election en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
+    "title": "Veille prospectif : vulnerability, grothendieck, exploitation en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 63,
+      "population": 5,
+      "avg_fitness": 0.8351000000000001,
+      "best_fitness": 0.8476
+    },
     {
       "generation": 62,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.87144,
       "best_fitness": 0.8803
-    },
-    {
-      "generation": 53,
-      "population": 5,
-      "avg_fitness": 0.8366,
-      "best_fitness": 0.8463
     }
   ]
 }
