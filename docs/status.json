@@ -1,25 +1,31 @@
 {
-  "run_id": 64,
-  "generation_evaluated": 60,
-  "next_generation": 61,
-  "items_ingested": 4,
+  "run_id": 65,
+  "generation_evaluated": 61,
+  "next_generation": 62,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 60,
-    "best_fitness": 0.8383,
+    "generation": 61,
+    "best_fitness": 0.8719,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "9571b65f4c1248b1",
-    "avg_fitness": 0.8237,
+    "best_agent_id": "4fc63bd216ed42d6",
+    "avg_fitness": 0.8594,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
-    "title": "Veille prospectif : internet-draft, temu-fication, implemented en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
+    "title": "Veille prospectif : database, unattended, rayforcedb en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 61,
+      "population": 5,
+      "avg_fitness": 0.85936,
+      "best_fitness": 0.8719
+    },
     {
       "generation": 60,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83782,
       "best_fitness": 0.8456
-    },
-    {
-      "generation": 51,
-      "population": 5,
-      "avg_fitness": 0.8417199999999999,
-      "best_fitness": 0.8503
     }
   ]
 }
