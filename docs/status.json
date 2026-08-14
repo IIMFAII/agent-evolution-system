@@ -1,25 +1,31 @@
 {
-  "run_id": 63,
-  "generation_evaluated": 59,
-  "next_generation": 60,
-  "items_ingested": 2,
+  "run_id": 64,
+  "generation_evaluated": 60,
+  "next_generation": 61,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 59,
-    "best_fitness": 0.8943,
+    "generation": 60,
+    "best_fitness": 0.8383,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "52398c4f77f54385",
-    "avg_fitness": 0.882,
+    "best_agent_id": "9571b65f4c1248b1",
+    "avg_fitness": 0.8237,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille prospectif : présente, deepseek, off-peak en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
+    "title": "Veille prospectif : internet-draft, temu-fication, implemented en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 60,
+      "population": 5,
+      "avg_fitness": 0.82372,
+      "best_fitness": 0.8383
+    },
     {
       "generation": 59,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8417199999999999,
       "best_fitness": 0.8503
-    },
-    {
-      "generation": 50,
-      "population": 5,
-      "avg_fitness": 0.8551,
-      "best_fitness": 0.8634
     }
   ]
 }
