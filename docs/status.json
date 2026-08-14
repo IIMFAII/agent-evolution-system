@@ -1,25 +1,31 @@
 {
-  "run_id": 58,
-  "generation_evaluated": 54,
-  "next_generation": 55,
-  "items_ingested": 3,
+  "run_id": 59,
+  "generation_evaluated": 55,
+  "next_generation": 56,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 54,
-    "best_fitness": 0.8803,
+    "generation": 55,
+    "best_fitness": 0.8623,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "ecbde1975b0f439d",
-    "avg_fitness": 0.8714,
+    "best_agent_id": "914621b3abd04533",
+    "avg_fitness": 0.8551,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.8 h, minimum 12 h",
-    "title": "Veille prospectif : watermarking, sparrowmap, government en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.5 h, minimum 12 h",
+    "title": "Veille prospectif : protesters, understand, conducted en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 55,
+      "population": 5,
+      "avg_fitness": 0.8551399999999999,
+      "best_fitness": 0.8623
+    },
     {
       "generation": 54,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.845,
       "best_fitness": 0.8593
-    },
-    {
-      "generation": 45,
-      "population": 5,
-      "avg_fitness": 0.8866400000000001,
-      "best_fitness": 0.8983
     }
   ]
 }
