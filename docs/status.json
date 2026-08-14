@@ -1,25 +1,31 @@
 {
-  "run_id": 65,
-  "generation_evaluated": 61,
-  "next_generation": 62,
-  "items_ingested": 5,
+  "run_id": 66,
+  "generation_evaluated": 62,
+  "next_generation": 63,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 61,
-    "best_fitness": 0.8719,
+    "generation": 62,
+    "best_fitness": 0.8529,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "4fc63bd216ed42d6",
-    "avg_fitness": 0.8594,
+    "best_agent_id": "88fde293e61b41b8",
+    "avg_fitness": 0.8415,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille prospectif : database, unattended, rayforcedb en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+    "title": "Veille prospectif : contract-grade, llm-generated, by-election en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 62,
+      "population": 5,
+      "avg_fitness": 0.84146,
+      "best_fitness": 0.8529
+    },
     {
       "generation": 61,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8366,
       "best_fitness": 0.8463
-    },
-    {
-      "generation": 52,
-      "population": 5,
-      "avg_fitness": 0.83782,
-      "best_fitness": 0.8456
     }
   ]
 }
