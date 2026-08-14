@@ -1,25 +1,31 @@
 {
-  "run_id": 60,
-  "generation_evaluated": 56,
-  "next_generation": 57,
-  "items_ingested": 1,
+  "run_id": 61,
+  "generation_evaluated": 57,
+  "next_generation": 58,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 56,
-    "best_fitness": 0.8743,
+    "generation": 57,
+    "best_fitness": 0.8623,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "41525f52c38941d3",
-    "avg_fitness": 0.8674,
+    "best_agent_id": "f16d85190cf64b01",
+    "avg_fitness": 0.8543,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.7 h, minimum 12 h",
-    "title": "Veille prospectif : capabilities, frontier, emergent en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
+    "title": "Veille prospectif : deserialization, universal, spacexai en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 57,
+      "population": 5,
+      "avg_fitness": 0.8543,
+      "best_fitness": 0.8623
+    },
     {
       "generation": 56,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83576,
       "best_fitness": 0.8464
-    },
-    {
-      "generation": 47,
-      "population": 5,
-      "avg_fitness": 0.84314,
-      "best_fitness": 0.8543
     }
   ]
 }
