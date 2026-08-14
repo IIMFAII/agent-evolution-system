@@ -1,35 +1,37 @@
 {
- "generated_at": "2026-08-14T09:02:37+00:00",
+ "generated_at": "2026-08-14T10:53:44+00:00",
  "cycle": {
-  "run_id": 61,
-  "generation_evaluated": 57,
-  "next_generation": 58,
+  "run_id": 62,
+  "generation_evaluated": 58,
+  "next_generation": 59,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
-   "title": "Veille prospectif : deserialization, universal, spacexai en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille prospectif : kubernetes, limits, washes en 4 signaux à suivre",
+   "agent": "Prospectif-22.4",
+   "fitness": 0.8697,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-14-veille-prospectif-kubernetes-limits-washes-en-4-signaux-a-su.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 57,
-  "best_fitness": 0.8623,
+  "generation": 58,
+  "best_fitness": 0.8697,
   "best_agent": "Prospectif-22.4",
-  "best_agent_id": "f16d85190cf64b01",
-  "avg_fitness": 0.8543,
+  "best_agent_id": "fc040a82a8bd4a65",
+  "avg_fitness": 0.8571,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "f16d85190cf64b01",
-   "fitness": 0.8623,
+   "agent_id": "fc040a82a8bd4a65",
+   "fitness": 0.8697,
    "readability": 1.0,
-   "keyword_score": 0.5314,
-   "ctr_score": 0.78,
+   "keyword_score": 0.4484,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Prospectif-22.4",
@@ -39,60 +41,60 @@
    "mutation_rate": 0.29226318359375003
   },
   {
-   "agent_id": "39fbe7e5db894094",
-   "fitness": 0.8623,
+   "agent_id": "995f1de6fefc48eb",
+   "fitness": 0.8582,
    "readability": 1.0,
-   "keyword_score": 0.5314,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3912,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-57.2",
-   "tone": "prospectif",
+   "name": "Pédagogique-58.4",
+   "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.5830210939304701,
-   "mutation_rate": 0.2902918565384368
+   "temperature": 0.5363384397330357,
+   "mutation_rate": 0.3534577130916324
   },
   {
-   "agent_id": "1838b2ba3b9d4fff",
-   "fitness": 0.8509,
+   "agent_id": "bc17065d08ce4b1a",
+   "fitness": 0.8554,
    "readability": 1.0,
-   "keyword_score": 0.4743,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3769,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-57.4",
+   "name": "Prospectif-58.3",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4896557855356015,
-   "mutation_rate": 0.31662356964482796
+   "temperature": 0.5326334259747099,
+   "mutation_rate": 0.3412775200660934
   },
   {
-   "agent_id": "cd2485103d034340",
-   "fitness": 0.848,
+   "agent_id": "f329a9f99eed4128",
+   "fitness": 0.8554,
    "readability": 1.0,
-   "keyword_score": 0.46,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3769,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-57.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.48195026339199637,
-   "mutation_rate": 0.2902918565384368
-  },
-  {
-   "agent_id": "47de8facdc1c42ff",
-   "fitness": 0.848,
-   "readability": 1.0,
-   "keyword_score": 0.46,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-57.5",
+   "name": "Prospectif-58.5",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.4913347366557368,
-   "mutation_rate": 0.3213492024278105
+   "temperature": 0.4859507717772755,
+   "mutation_rate": 0.354443376619289
+  },
+  {
+   "agent_id": "c6becb9a7f4241f8",
+   "fitness": 0.8468,
+   "readability": 1.0,
+   "keyword_score": 0.3341,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-58.2",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.5326334259747099,
+   "mutation_rate": 0.3412775200660934
   }
  ],
  "generations": [
@@ -494,9 +496,25 @@
    "avg_fitness": 0.8543,
    "best_fitness": 0.8623,
    "worst_fitness": 0.848
+  },
+  {
+   "generation": 58,
+   "population": 5,
+   "avg_fitness": 0.8571,
+   "best_fitness": 0.8697,
+   "worst_fitness": 0.8468
   }
  ],
  "runs": [
+  {
+   "id": 62,
+   "started_at": "2026-08-14T10:53:35+00:00",
+   "finished_at": "2026-08-14T10:53:44+00:00",
+   "generation": 58,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 61,
    "started_at": "2026-08-14T09:02:28+00:00",
@@ -847,18 +865,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.7 h, minimum 12 h"
-  },
-  {
-   "id": 22,
-   "started_at": "2026-08-10T20:35:55+00:00",
-   "finished_at": "2026-08-10T20:36:00+00:00",
-   "generation": 19,
-   "status": "success",
-   "items_ingested": 1,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.8 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille prospectif : kubernetes, limits, washes en 4 signaux à suivre",
+   "slug": "2026-08-14-veille-prospectif-kubernetes-limits-washes-en-4-signaux-a-su",
+   "fitness": 0.8697,
+   "generation": 58,
+   "created_at": "2026-08-14T10:53:43+00:00",
+   "agent_name": "Prospectif-22.4",
+   "tone": "prospectif"
+  },
   {
    "title": "Veille prospectif : cybercriminals, np-overrated, security en 3 signaux à suivre",
    "slug": "2026-08-13-veille-prospectif-cybercriminals-np-overrated-security-en-3",
@@ -968,7 +986,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 11,
+  "publications": 12,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1060,10 +1078,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4343,
+    "score": 0.437,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 11 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 12 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
