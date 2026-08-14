@@ -1,25 +1,31 @@
 {
-  "run_id": 67,
-  "generation_evaluated": 63,
-  "next_generation": 64,
-  "items_ingested": 6,
+  "run_id": 68,
+  "generation_evaluated": 64,
+  "next_generation": 65,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 63,
-    "best_fitness": 0.8476,
-    "best_agent": "Prospectif-22.4",
-    "best_agent_id": "fd70e7c0b9b5434f",
-    "avg_fitness": 0.8351,
+    "generation": 64,
+    "best_fitness": 0.8635,
+    "best_agent": "Concis-64.2",
+    "best_agent_id": "aa8673e9811544af",
+    "avg_fitness": 0.8475,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
-    "title": "Veille prospectif : vulnerability, grothendieck, exploitation en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
+    "title": "Veille concis : consumption, everything, metabolic en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 64,
+      "population": 5,
+      "avg_fitness": 0.8474600000000001,
+      "best_fitness": 0.8635
+    },
     {
       "generation": 63,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8551399999999999,
       "best_fitness": 0.8623
-    },
-    {
-      "generation": 54,
-      "population": 5,
-      "avg_fitness": 0.87144,
-      "best_fitness": 0.8803
     }
   ]
 }
