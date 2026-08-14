@@ -1,25 +1,31 @@
 {
-  "run_id": 59,
-  "generation_evaluated": 55,
-  "next_generation": 56,
-  "items_ingested": 2,
+  "run_id": 60,
+  "generation_evaluated": 56,
+  "next_generation": 57,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 55,
-    "best_fitness": 0.8623,
+    "generation": 56,
+    "best_fitness": 0.8743,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "914621b3abd04533",
-    "avg_fitness": 0.8551,
+    "best_agent_id": "41525f52c38941d3",
+    "avg_fitness": 0.8674,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.5 h, minimum 12 h",
-    "title": "Veille prospectif : protesters, understand, conducted en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.7 h, minimum 12 h",
+    "title": "Veille prospectif : capabilities, frontier, emergent en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 56,
+      "population": 5,
+      "avg_fitness": 0.86744,
+      "best_fitness": 0.8743
+    },
     {
       "generation": 55,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84314,
       "best_fitness": 0.8543
-    },
-    {
-      "generation": 46,
-      "population": 5,
-      "avg_fitness": 0.845,
-      "best_fitness": 0.8593
     }
   ]
 }
