@@ -1,27 +1,31 @@
 {
-  "run_id": 57,
-  "generation_evaluated": 53,
-  "next_generation": 54,
+  "run_id": 58,
+  "generation_evaluated": 54,
+  "next_generation": 55,
   "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 53,
-    "best_fitness": 0.8463,
+    "generation": 54,
+    "best_fitness": 0.8803,
     "best_agent": "Prospectif-22.4",
-    "best_agent_id": "9328972f82df4d4e",
-    "avg_fitness": 0.8366,
+    "best_agent_id": "ecbde1975b0f439d",
+    "avg_fitness": 0.8714,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : cybercriminals, np-overrated, security en 3 signaux à suivre",
-    "agent": "Prospectif-22.4",
-    "fitness": 0.8463,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-13-veille-prospectif-cybercriminals-np-overrated-security-en-3.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 2.8 h, minimum 12 h",
+    "title": "Veille prospectif : watermarking, sparrowmap, government en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 54,
+      "population": 5,
+      "avg_fitness": 0.87144,
+      "best_fitness": 0.8803
+    },
     {
       "generation": 53,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8866400000000001,
       "best_fitness": 0.8983
-    },
-    {
-      "generation": 44,
-      "population": 5,
-      "avg_fitness": 0.8445600000000001,
-      "best_fitness": 0.8518
     }
   ]
 }
