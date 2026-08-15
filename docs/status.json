@@ -1,25 +1,31 @@
 {
-  "run_id": 77,
-  "generation_evaluated": 73,
-  "next_generation": 74,
+  "run_id": 78,
+  "generation_evaluated": 74,
+  "next_generation": 75,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 73,
-    "best_fitness": 0.8365,
+    "generation": 74,
+    "best_fitness": 0.8322,
     "best_agent": "Analytique-71.2",
-    "best_agent_id": "161574b321a04079",
-    "avg_fitness": 0.8336,
+    "best_agent_id": "26d2600d67ad42db",
+    "avg_fitness": 0.829,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille analytique : development, functional, secondhand en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
+    "title": "Veille analytique : treasurydirect, controversial, alzheimer's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 74,
+      "population": 5,
+      "avg_fitness": 0.82904,
+      "best_fitness": 0.8322
+    },
     {
       "generation": 73,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84398,
       "best_fitness": 0.8626
-    },
-    {
-      "generation": 64,
-      "population": 5,
-      "avg_fitness": 0.8474600000000001,
-      "best_fitness": 0.8635
     }
   ]
 }
