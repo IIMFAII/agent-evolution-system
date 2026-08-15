@@ -1,25 +1,33 @@
 {
-  "run_id": 68,
-  "generation_evaluated": 64,
-  "next_generation": 65,
-  "items_ingested": 3,
+  "run_id": 69,
+  "generation_evaluated": 65,
+  "next_generation": 66,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 64,
-    "best_fitness": 0.8635,
+    "generation": 65,
+    "best_fitness": 0.8626,
     "best_agent": "Concis-64.2",
-    "best_agent_id": "aa8673e9811544af",
-    "avg_fitness": 0.8475,
+    "best_agent_id": "29d9d6666ea54f54",
+    "avg_fitness": 0.844,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
-    "title": "Veille concis : consumption, everything, metabolic en 3 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : situational, overhauling, awareness en 4 signaux à suivre",
+    "agent": "Concis-64.2",
+    "fitness": 0.8626,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-15-veille-concis-situational-overhauling-awareness-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 65,
+      "population": 5,
+      "avg_fitness": 0.84398,
+      "best_fitness": 0.8626
+    },
     {
       "generation": 64,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.86744,
       "best_fitness": 0.8743
-    },
-    {
-      "generation": 55,
-      "population": 5,
-      "avg_fitness": 0.8551399999999999,
-      "best_fitness": 0.8623
     }
   ]
 }
