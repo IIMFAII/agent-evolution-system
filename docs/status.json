@@ -1,25 +1,31 @@
 {
-  "run_id": 79,
-  "generation_evaluated": 75,
-  "next_generation": 76,
+  "run_id": 80,
+  "generation_evaluated": 76,
+  "next_generation": 77,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 75,
-    "best_fitness": 0.8365,
-    "best_agent": "Analytique-71.2",
-    "best_agent_id": "cf757fc499204203",
-    "avg_fitness": 0.8328,
+    "generation": 76,
+    "best_fitness": 0.8536,
+    "best_agent": "Concis-76.3",
+    "best_agent_id": "6022575d92ad4fa4",
+    "avg_fitness": 0.8333,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille analytique : neuroscientists, out-remembering, mathematicians en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
+    "title": "Veille concis : signal, no-new-physics, consciousness en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 76,
+      "population": 5,
+      "avg_fitness": 0.83328,
+      "best_fitness": 0.8536
+    },
     {
       "generation": 75,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.92258,
       "best_fitness": 0.93
-    },
-    {
-      "generation": 66,
-      "population": 5,
-      "avg_fitness": 0.8619999999999999,
-      "best_fitness": 0.864
     }
   ]
 }
