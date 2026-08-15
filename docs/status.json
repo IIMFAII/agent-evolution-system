@@ -1,25 +1,31 @@
 {
-  "run_id": 73,
-  "generation_evaluated": 69,
-  "next_generation": 70,
-  "items_ingested": 1,
+  "run_id": 74,
+  "generation_evaluated": 70,
+  "next_generation": 71,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 69,
-    "best_fitness": 0.89,
+    "generation": 70,
+    "best_fitness": 0.8525,
     "best_agent": "Pédagogique-69.5",
-    "best_agent_id": "43179d1b85e94a67",
-    "avg_fitness": 0.88,
+    "best_agent_id": "c6eb7b04b1644c8c",
+    "avg_fitness": 0.8468,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.4 h, minimum 12 h",
-    "title": "Veille pédagogique : testing, deltix, driven en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.4 h, minimum 12 h",
+    "title": "Veille pédagogique : using, trampolines, suspecting en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 70,
+      "population": 5,
+      "avg_fitness": 0.8467800000000001,
+      "best_fitness": 0.8525
+    },
     {
       "generation": 69,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85936,
       "best_fitness": 0.8719
-    },
-    {
-      "generation": 60,
-      "population": 5,
-      "avg_fitness": 0.82372,
-      "best_fitness": 0.8383
     }
   ]
 }
