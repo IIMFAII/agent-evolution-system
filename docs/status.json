@@ -1,25 +1,31 @@
 {
-  "run_id": 70,
-  "generation_evaluated": 66,
-  "next_generation": 67,
-  "items_ingested": 4,
+  "run_id": 71,
+  "generation_evaluated": 67,
+  "next_generation": 68,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 66,
-    "best_fitness": 0.864,
-    "best_agent": "Concis-64.2",
-    "best_agent_id": "902cf71666ec463e",
-    "avg_fitness": 0.862,
+    "generation": 67,
+    "best_fitness": 0.93,
+    "best_agent": "Prospectif-67.2",
+    "best_agent_id": "467c36e06fee4ac1",
+    "avg_fitness": 0.9226,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
-    "title": "Veille concis : introductory, simplifying, refactoring en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.5 h, minimum 12 h",
+    "title": "Veille prospectif : testing, driven en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 67,
+      "population": 5,
+      "avg_fitness": 0.92258,
+      "best_fitness": 0.93
+    },
     {
       "generation": 66,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8571,
       "best_fitness": 0.8697
-    },
-    {
-      "generation": 57,
-      "population": 5,
-      "avg_fitness": 0.8543,
-      "best_fitness": 0.8623
     }
   ]
 }
