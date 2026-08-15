@@ -1,25 +1,31 @@
 {
-  "run_id": 74,
-  "generation_evaluated": 70,
-  "next_generation": 71,
+  "run_id": 75,
+  "generation_evaluated": 71,
+  "next_generation": 72,
   "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 70,
-    "best_fitness": 0.8525,
-    "best_agent": "Pédagogique-69.5",
-    "best_agent_id": "c6eb7b04b1644c8c",
-    "avg_fitness": 0.8468,
+    "generation": 71,
+    "best_fitness": 0.8342,
+    "best_agent": "Analytique-71.2",
+    "best_agent_id": "a05902d339264eb4",
+    "avg_fitness": 0.826,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.4 h, minimum 12 h",
-    "title": "Veille pédagogique : using, trampolines, suspecting en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
+    "title": "Veille analytique : auto-research, contributions, achieved en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 71,
+      "population": 5,
+      "avg_fitness": 0.82596,
+      "best_fitness": 0.8342
+    },
     {
       "generation": 70,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84146,
       "best_fitness": 0.8529
-    },
-    {
-      "generation": 61,
-      "population": 5,
-      "avg_fitness": 0.85936,
-      "best_fitness": 0.8719
     }
   ]
 }
