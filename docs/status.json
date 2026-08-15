@@ -1,25 +1,33 @@
 {
-  "run_id": 75,
-  "generation_evaluated": 71,
-  "next_generation": 72,
-  "items_ingested": 2,
+  "run_id": 76,
+  "generation_evaluated": 72,
+  "next_generation": 73,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 71,
-    "best_fitness": 0.8342,
+    "generation": 72,
+    "best_fitness": 0.8269,
     "best_agent": "Analytique-71.2",
-    "best_agent_id": "a05902d339264eb4",
-    "avg_fitness": 0.826,
+    "best_agent_id": "9192606f6c7c4480",
+    "avg_fitness": 0.8191,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
-    "title": "Veille analytique : auto-research, contributions, achieved en 2 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : recommendation, recordings, llm-native en 4 signaux à suivre",
+    "agent": "Analytique-71.2",
+    "fitness": 0.8269,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-15-veille-analytique-recommendation-recordings-llm-native-en-4.md"
   },
   "history": [
+    {
+      "generation": 72,
+      "population": 5,
+      "avg_fitness": 0.81914,
+      "best_fitness": 0.8269
+    },
     {
       "generation": 71,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8351000000000001,
       "best_fitness": 0.8476
-    },
-    {
-      "generation": 62,
-      "population": 5,
-      "avg_fitness": 0.84146,
-      "best_fitness": 0.8529
     }
   ]
 }
