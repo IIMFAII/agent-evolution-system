@@ -1,25 +1,31 @@
 {
-  "run_id": 71,
-  "generation_evaluated": 67,
-  "next_generation": 68,
-  "items_ingested": 1,
+  "run_id": 72,
+  "generation_evaluated": 68,
+  "next_generation": 69,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 67,
-    "best_fitness": 0.93,
-    "best_agent": "Prospectif-67.2",
-    "best_agent_id": "467c36e06fee4ac1",
-    "avg_fitness": 0.9226,
+    "generation": 68,
+    "best_fitness": 0.85,
+    "best_agent": "Concis-68.5",
+    "best_agent_id": "34f2ce01f15f4e00",
+    "avg_fitness": 0.8354,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.5 h, minimum 12 h",
-    "title": "Veille prospectif : testing, driven en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.5 h, minimum 12 h",
+    "title": "Veille concis : conversations, thoughtdag, compliant en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 68,
+      "population": 5,
+      "avg_fitness": 0.83538,
+      "best_fitness": 0.85
+    },
     {
       "generation": 67,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.88202,
       "best_fitness": 0.8943
-    },
-    {
-      "generation": 58,
-      "population": 5,
-      "avg_fitness": 0.8571,
-      "best_fitness": 0.8697
     }
   ]
 }
