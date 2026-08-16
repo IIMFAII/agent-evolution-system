@@ -1,25 +1,31 @@
 {
-  "run_id": 84,
-  "generation_evaluated": 80,
-  "next_generation": 81,
+  "run_id": 85,
+  "generation_evaluated": 81,
+  "next_generation": 82,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 80,
-    "best_fitness": 0.8533,
+    "generation": 81,
+    "best_fitness": 0.8508,
     "best_agent": "Concis-79.2",
-    "best_agent_id": "ec19bc99bb8d44bb",
-    "avg_fitness": 0.8284,
+    "best_agent_id": "0fd29c9fd6244d9a",
+    "avg_fitness": 0.8471,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.6 h, minimum 12 h",
-    "title": "Veille concis : programming, brightening, inflection en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille concis : simulations, plaintext, material en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 81,
+      "population": 5,
+      "avg_fitness": 0.84708,
+      "best_fitness": 0.8508
+    },
     {
       "generation": 80,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81914,
       "best_fitness": 0.8269
-    },
-    {
-      "generation": 71,
-      "population": 5,
-      "avg_fitness": 0.82596,
-      "best_fitness": 0.8342
     }
   ]
 }
