@@ -1,27 +1,31 @@
 {
-  "run_id": 82,
-  "generation_evaluated": 78,
-  "next_generation": 79,
-  "items_ingested": 3,
+  "run_id": 83,
+  "generation_evaluated": 79,
+  "next_generation": 80,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 78,
-    "best_fitness": 0.87,
-    "best_agent": "Prospectif-77.3",
-    "best_agent_id": "b8265375ac1646f9",
-    "avg_fitness": 0.8629,
+    "generation": 79,
+    "best_fitness": 0.8514,
+    "best_agent": "Concis-79.2",
+    "best_agent_id": "66cefb0ae81b43f6",
+    "avg_fitness": 0.8458,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : show, multiplayer, real-time en 3 signaux à suivre",
-    "agent": "Prospectif-77.3",
-    "fitness": 0.87,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-16-veille-prospectif-show-multiplayer-real-time-en-3-signaux-a.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.6 h, minimum 12 h",
+    "title": "Veille concis : multi-agent, benchmarks, government en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 79,
+      "population": 5,
+      "avg_fitness": 0.8458,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 78,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8467800000000001,
       "best_fitness": 0.8525
-    },
-    {
-      "generation": 69,
-      "population": 5,
-      "avg_fitness": 0.8800000000000001,
-      "best_fitness": 0.89
     }
   ]
 }
