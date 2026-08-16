@@ -1,34 +1,36 @@
 {
- "generated_at": "2026-08-16T14:17:12+00:00",
+ "generated_at": "2026-08-16T16:17:41+00:00",
  "cycle": {
-  "run_id": 88,
-  "generation_evaluated": 83,
-  "next_generation": 84,
+  "run_id": 89,
+  "generation_evaluated": 84,
+  "next_generation": 85,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
-   "title": "Veille prospectif : engineering, adblocker, reserves en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille prospectif : lost, manually, shutdown en 4 signaux à suivre",
+   "agent": "Prospectif-82.3",
+   "fitness": 0.8645,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-16-veille-prospectif-lost-manually-shutdown-en-4-signaux-a-suiv.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 83,
-  "best_fitness": 0.8755,
+  "generation": 84,
+  "best_fitness": 0.8645,
   "best_agent": "Prospectif-82.3",
-  "best_agent_id": "df8a03bdd0654199",
-  "avg_fitness": 0.8663,
+  "best_agent_id": "e8d1cbef65e04edb",
+  "avg_fitness": 0.855,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "df8a03bdd0654199",
-   "fitness": 0.8755,
+   "agent_id": "e8d1cbef65e04edb",
+   "fitness": 0.8645,
    "readability": 1.0,
-   "keyword_score": 0.4773,
+   "keyword_score": 0.4227,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +41,63 @@
    "mutation_rate": 0.4900318358827463
   },
   {
-   "agent_id": "9432e95d687244d4",
-   "fitness": 0.8683,
+   "agent_id": "c4aed20c29e945c9",
+   "fitness": 0.8572,
    "readability": 1.0,
-   "keyword_score": 0.4416,
+   "keyword_score": 0.3858,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-83.2",
+   "name": "Concis-84.3",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.48109242038929806,
-   "mutation_rate": 0.4413810180116525
+   "temperature": 0.4763846879166954,
+   "mutation_rate": 0.46138101801165254
   },
   {
-   "agent_id": "fe28dad5ce8241d5",
-   "fitness": 0.8655,
+   "agent_id": "d0253a5e04284bd0",
+   "fitness": 0.8545,
    "readability": 1.0,
-   "keyword_score": 0.4273,
+   "keyword_score": 0.3727,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-83.3",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.4902664707133657,
-   "mutation_rate": 0.4413810180116525
-  },
-  {
-   "agent_id": "5213d1aeddae4e56",
-   "fitness": 0.8655,
-   "readability": 1.0,
-   "keyword_score": 0.4273,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-83.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.4625029051200251,
-   "mutation_rate": 0.4413810180116525
-  },
-  {
-   "agent_id": "c9b2c3b9839b4fb5",
-   "fitness": 0.8569,
-   "readability": 1.0,
-   "keyword_score": 0.3844,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-83.5",
+   "name": "Pédagogique-84.2",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.47950697615011006,
-   "mutation_rate": 0.46868265375384
+   "temperature": 0.5707246580886075,
+   "mutation_rate": 0.48570642694719945
+  },
+  {
+   "agent_id": "94a52734960e45ee",
+   "fitness": 0.8543,
+   "readability": 1.0,
+   "keyword_score": 0.3715,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-84.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.5920196551570769,
+   "mutation_rate": 0.48570642694719945
+  },
+  {
+   "agent_id": "4839058ee42840f7",
+   "fitness": 0.8443,
+   "readability": 1.0,
+   "keyword_score": 0.3217,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-84.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.44691979364305595,
+   "mutation_rate": 0.48570642694719945
   }
  ],
  "generations": [
-  {
-   "generation": 24,
-   "population": 5,
-   "avg_fitness": 0.83226,
-   "best_fitness": 0.8417,
-   "worst_fitness": 0.8274
-  },
   {
    "generation": 25,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8663399999999999,
    "best_fitness": 0.8755,
    "worst_fitness": 0.8569
+  },
+  {
+   "generation": 84,
+   "population": 5,
+   "avg_fitness": 0.8549599999999999,
+   "best_fitness": 0.8645,
+   "worst_fitness": 0.8443
   }
  ],
  "runs": [
+  {
+   "id": 89,
+   "started_at": "2026-08-16T16:17:32+00:00",
+   "finished_at": "2026-08-16T16:17:41+00:00",
+   "generation": 84,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 88,
    "started_at": "2026-08-16T14:17:07+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 1,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 49,
-   "started_at": "2026-08-13T07:18:14+00:00",
-   "finished_at": "2026-08-13T07:18:23+00:00",
-   "generation": 45,
-   "status": "success",
-   "items_ingested": 3,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.7 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille prospectif : lost, manually, shutdown en 4 signaux à suivre",
+   "slug": "2026-08-16-veille-prospectif-lost-manually-shutdown-en-4-signaux-a-suiv",
+   "fitness": 0.8645,
+   "generation": 84,
+   "created_at": "2026-08-16T16:17:41+00:00",
+   "agent_name": "Prospectif-82.3",
+   "tone": "prospectif"
+  },
   {
    "title": "Veille prospectif : show, multiplayer, real-time en 3 signaux à suivre",
    "slug": "2026-08-16-veille-prospectif-show-multiplayer-real-time-en-3-signaux-a",
@@ -1025,7 +1036,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 15,
+  "publications": 16,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1117,10 +1128,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.445,
+    "score": 0.4477,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 15 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 16 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

@@ -1,25 +1,33 @@
 {
-  "run_id": 88,
-  "generation_evaluated": 83,
-  "next_generation": 84,
+  "run_id": 89,
+  "generation_evaluated": 84,
+  "next_generation": 85,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 83,
-    "best_fitness": 0.8755,
+    "generation": 84,
+    "best_fitness": 0.8645,
     "best_agent": "Prospectif-82.3",
-    "best_agent_id": "df8a03bdd0654199",
-    "avg_fitness": 0.8663,
+    "best_agent_id": "e8d1cbef65e04edb",
+    "avg_fitness": 0.855,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
-    "title": "Veille prospectif : engineering, adblocker, reserves en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : lost, manually, shutdown en 4 signaux à suivre",
+    "agent": "Prospectif-82.3",
+    "fitness": 0.8645,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-16-veille-prospectif-lost-manually-shutdown-en-4-signaux-a-suiv.md"
   },
   "history": [
+    {
+      "generation": 84,
+      "population": 5,
+      "avg_fitness": 0.8549599999999999,
+      "best_fitness": 0.8645
+    },
     {
       "generation": 83,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8327600000000001,
       "best_fitness": 0.8365
-    },
-    {
-      "generation": 74,
-      "population": 5,
-      "avg_fitness": 0.82904,
-      "best_fitness": 0.8322
     }
   ]
 }
