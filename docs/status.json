@@ -1,25 +1,31 @@
 {
-  "run_id": 87,
-  "generation_evaluated": 82,
-  "next_generation": 83,
-  "items_ingested": 2,
+  "run_id": 88,
+  "generation_evaluated": 83,
+  "next_generation": 84,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 82,
+    "generation": 83,
     "best_fitness": 0.8755,
     "best_agent": "Prospectif-82.3",
-    "best_agent_id": "5b4884e9a7184368",
-    "avg_fitness": 0.8643,
+    "best_agent_id": "df8a03bdd0654199",
+    "avg_fitness": 0.8663,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
-    "title": "Veille prospectif : agent, observability, gooseworks en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
+    "title": "Veille prospectif : engineering, adblocker, reserves en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 83,
+      "population": 5,
+      "avg_fitness": 0.8663399999999999,
+      "best_fitness": 0.8755
+    },
     {
       "generation": 82,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82904,
       "best_fitness": 0.8322
-    },
-    {
-      "generation": 73,
-      "population": 5,
-      "avg_fitness": 0.83362,
-      "best_fitness": 0.8365
     }
   ]
 }
