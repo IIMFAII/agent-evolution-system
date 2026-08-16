@@ -1,25 +1,31 @@
 {
-  "run_id": 85,
-  "generation_evaluated": 81,
-  "next_generation": 82,
-  "items_ingested": 4,
+  "run_id": 87,
+  "generation_evaluated": 82,
+  "next_generation": 83,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 81,
-    "best_fitness": 0.8508,
-    "best_agent": "Concis-79.2",
-    "best_agent_id": "0fd29c9fd6244d9a",
-    "avg_fitness": 0.8471,
+    "generation": 82,
+    "best_fitness": 0.8755,
+    "best_agent": "Prospectif-82.3",
+    "best_agent_id": "5b4884e9a7184368",
+    "avg_fitness": 0.8643,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille concis : simulations, plaintext, material en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
+    "title": "Veille prospectif : agent, observability, gooseworks en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 82,
+      "population": 5,
+      "avg_fitness": 0.86434,
+      "best_fitness": 0.8755
+    },
     {
       "generation": 81,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83362,
       "best_fitness": 0.8365
-    },
-    {
-      "generation": 72,
-      "population": 5,
-      "avg_fitness": 0.81914,
-      "best_fitness": 0.8269
     }
   ]
 }
