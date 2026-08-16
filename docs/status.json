@@ -1,25 +1,31 @@
 {
-  "run_id": 91,
-  "generation_evaluated": 86,
-  "next_generation": 87,
+  "run_id": 92,
+  "generation_evaluated": 87,
+  "next_generation": 88,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 86,
-    "best_fitness": 0.8655,
-    "best_agent": "Concis-86.3",
-    "best_agent_id": "22f2014c643c42e8",
-    "avg_fitness": 0.8454,
+    "generation": 87,
+    "best_fitness": 0.8582,
+    "best_agent": "Concis-87.5",
+    "best_agent_id": "b4fcef2493904cb7",
+    "avg_fitness": 0.8444,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
-    "title": "Veille concis : mathematical, nameservers, cloudflare en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
+    "title": "Veille concis : claude, adulteration, dramatically en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 87,
+      "population": 5,
+      "avg_fitness": 0.8444200000000001,
+      "best_fitness": 0.8582
+    },
     {
       "generation": 86,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8628600000000001,
       "best_fitness": 0.87
-    },
-    {
-      "generation": 77,
-      "population": 5,
-      "avg_fitness": 0.83066,
-      "best_fitness": 0.8382
     }
   ]
 }
