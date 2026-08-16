@@ -1,25 +1,31 @@
 {
-  "run_id": 83,
-  "generation_evaluated": 79,
-  "next_generation": 80,
+  "run_id": 84,
+  "generation_evaluated": 80,
+  "next_generation": 81,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 79,
-    "best_fitness": 0.8514,
+    "generation": 80,
+    "best_fitness": 0.8533,
     "best_agent": "Concis-79.2",
-    "best_agent_id": "66cefb0ae81b43f6",
-    "avg_fitness": 0.8458,
+    "best_agent_id": "ec19bc99bb8d44bb",
+    "avg_fitness": 0.8284,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.6 h, minimum 12 h",
-    "title": "Veille concis : multi-agent, benchmarks, government en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.6 h, minimum 12 h",
+    "title": "Veille concis : programming, brightening, inflection en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 80,
+      "population": 5,
+      "avg_fitness": 0.8284,
+      "best_fitness": 0.8533
+    },
     {
       "generation": 79,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82596,
       "best_fitness": 0.8342
-    },
-    {
-      "generation": 70,
-      "population": 5,
-      "avg_fitness": 0.8467800000000001,
-      "best_fitness": 0.8525
     }
   ]
 }
