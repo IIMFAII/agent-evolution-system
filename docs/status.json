@@ -1,25 +1,31 @@
 {
-  "run_id": 80,
-  "generation_evaluated": 76,
-  "next_generation": 77,
+  "run_id": 81,
+  "generation_evaluated": 77,
+  "next_generation": 78,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 76,
-    "best_fitness": 0.8536,
-    "best_agent": "Concis-76.3",
-    "best_agent_id": "6022575d92ad4fa4",
-    "avg_fitness": 0.8333,
+    "generation": 77,
+    "best_fitness": 0.8382,
+    "best_agent": "Prospectif-77.3",
+    "best_agent_id": "562aa6e69fec4c93",
+    "avg_fitness": 0.8307,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
-    "title": "Veille concis : signal, no-new-physics, consciousness en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+    "title": "Veille prospectif : tea5767-radio-tuner, sugartrack, all-time en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 77,
+      "population": 5,
+      "avg_fitness": 0.83066,
+      "best_fitness": 0.8382
+    },
     {
       "generation": 76,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83538,
       "best_fitness": 0.85
-    },
-    {
-      "generation": 67,
-      "population": 5,
-      "avg_fitness": 0.92258,
-      "best_fitness": 0.93
     }
   ]
 }
