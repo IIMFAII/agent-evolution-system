@@ -1,24 +1,31 @@
 {
-  "run_id": 90,
-  "generation_evaluated": 85,
-  "next_generation": 86,
-  "items_ingested": 3,
+  "run_id": 91,
+  "generation_evaluated": 86,
+  "next_generation": 87,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 85,
-    "best_fitness": 0.1,
-    "best_agent": "Prospectif-82.3",
-    "best_agent_id": "943336c2cc594dd3",
-    "avg_fitness": 0.1,
+    "generation": 86,
+    "best_fitness": 0.8655,
+    "best_agent": "Concis-86.3",
+    "best_agent_id": "22f2014c643c42e8",
+    "avg_fitness": 0.8454,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
+    "title": "Veille concis : mathematical, nameservers, cloudflare en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 86,
+      "population": 5,
+      "avg_fitness": 0.8454200000000001,
+      "best_fitness": 0.8655
+    },
     {
       "generation": 85,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83066,
       "best_fitness": 0.8382
-    },
-    {
-      "generation": 76,
-      "population": 5,
-      "avg_fitness": 0.83328,
-      "best_fitness": 0.8536
     }
   ]
 }
