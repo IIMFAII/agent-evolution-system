@@ -1,27 +1,30 @@
 {
-  "run_id": 102,
-  "generation_evaluated": 96,
-  "next_generation": 97,
+  "run_id": 103,
+  "generation_evaluated": 97,
+  "next_generation": 98,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 96,
-    "best_fitness": 0.8366,
+    "generation": 97,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-95.3",
-    "best_agent_id": "cf63c9cdc5ad4f40",
-    "avg_fitness": 0.8349,
+    "best_agent_id": "c254f5e9aa3042e8",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : prices, astronomical', consequences en 4 signaux à suivre",
-    "agent": "Analytique-95.3",
-    "fitness": 0.8366,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-17-veille-analytique-prices-astronomical-consequences-en-4-sign.md"
+    "published": false,
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 97,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 96,
       "population": 5,
@@ -75,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8917400000000001,
       "best_fitness": 0.8929
-    },
-    {
-      "generation": 87,
-      "population": 5,
-      "avg_fitness": 0.8444200000000001,
-      "best_fitness": 0.8582
     }
   ]
 }
