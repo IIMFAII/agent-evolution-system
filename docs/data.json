@@ -1,37 +1,35 @@
 {
- "generated_at": "2026-08-17T04:36:00+00:00",
+ "generated_at": "2026-08-17T06:42:18+00:00",
  "cycle": {
-  "run_id": 95,
-  "generation_evaluated": 90,
-  "next_generation": 91,
-  "items_ingested": 3,
+  "run_id": 96,
+  "generation_evaluated": 91,
+  "next_generation": 92,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille concis : prolly, content-addressed, partially en 3 signaux à suivre",
-   "agent": "Concis-87.5",
-   "fitness": 0.855,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-17-veille-concis-prolly-content-addressed-partially-en-3-signau.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 2.1 h, minimum 12 h",
+   "title": "Veille concis : gravitational, microlensing, ratepayers' en 2 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 90,
-  "best_fitness": 0.855,
+  "generation": 91,
+  "best_fitness": 0.8342,
   "best_agent": "Concis-87.5",
-  "best_agent_id": "ae0b996521b54dd0",
-  "avg_fitness": 0.8349,
+  "best_agent_id": "b4d3fe15fec1494d",
+  "avg_fitness": 0.8291,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "ae0b996521b54dd0",
-   "fitness": 0.855,
+   "agent_id": "b4d3fe15fec1494d",
+   "fitness": 0.8342,
    "readability": 1.0,
-   "keyword_score": 0.3752,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3912,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-87.5",
@@ -41,70 +39,63 @@
    "mutation_rate": 0.49395048364885963
   },
   {
-   "agent_id": "b8d7c18764ab4529",
-   "fitness": 0.8436,
+   "agent_id": "1cc6f49426b24dc4",
+   "fitness": 0.8342,
    "readability": 1.0,
-   "keyword_score": 0.318,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-90.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.5836333932683803,
-   "mutation_rate": 0.5389504836488597
-  },
-  {
-   "agent_id": "84cfb6554e3b4ce4",
-   "fitness": 0.8282,
-   "readability": 1.0,
-   "keyword_score": 0.3609,
+   "keyword_score": 0.3912,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-90.2",
-   "tone": "prospectif",
+   "name": "Analytique-91.2",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.4122297646628955,
-   "mutation_rate": 0.5289504836488597
+   "temperature": 0.42742589641426687,
+   "mutation_rate": 0.5839504836488597
   },
   {
-   "agent_id": "98acd5b4c014407d",
-   "fitness": 0.8282,
+   "agent_id": "c7f93d0db5ea47b7",
+   "fitness": 0.8342,
    "readability": 1.0,
-   "keyword_score": 0.3609,
+   "keyword_score": 0.3912,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-90.5",
+   "name": "Analytique-91.3",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.527809235510253,
+   "mutation_rate": 0.5839504836488597
+  },
+  {
+   "agent_id": "9c0e47429bcc4df2",
+   "fitness": 0.8214,
+   "readability": 1.0,
+   "keyword_score": 0.3269,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-91.4",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.47198507775212584,
-   "mutation_rate": 0.5289504836488597
+   "temperature": 0.4421074212075107,
+   "mutation_rate": 0.5789504836488597
   },
   {
-   "agent_id": "b5d76f9623f04b31",
-   "fitness": 0.8196,
+   "agent_id": "7baf3479187a4604",
+   "fitness": 0.8214,
    "readability": 1.0,
-   "keyword_score": 0.318,
+   "keyword_score": 0.3269,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-90.3",
-   "tone": "prospectif",
+   "name": "Analytique-91.5",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.47198507775212584,
-   "mutation_rate": 0.5289504836488597
+   "temperature": 0.3588502918709561,
+   "mutation_rate": 0.5839504836488597
   }
  ],
  "generations": [
-  {
-   "generation": 31,
-   "population": 5,
-   "avg_fitness": 0.83766,
-   "best_fitness": 0.8479,
-   "worst_fitness": 0.8244
-  },
   {
    "generation": 32,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.83492,
    "best_fitness": 0.855,
    "worst_fitness": 0.8196
+  },
+  {
+   "generation": 91,
+   "population": 5,
+   "avg_fitness": 0.82908,
+   "best_fitness": 0.8342,
+   "worst_fitness": 0.8214
   }
  ],
  "runs": [
+  {
+   "id": 96,
+   "started_at": "2026-08-17T06:42:10+00:00",
+   "finished_at": "2026-08-17T06:42:18+00:00",
+   "generation": 91,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 2.1 h, minimum 12 h"
+  },
   {
    "id": 95,
    "started_at": "2026-08-17T04:35:54+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 56,
-   "started_at": "2026-08-13T20:36:05+00:00",
-   "finished_at": "2026-08-13T20:36:13+00:00",
-   "generation": 52,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.5 h, minimum 12 h"
   }
  ],
  "publications": [

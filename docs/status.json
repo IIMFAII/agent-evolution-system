@@ -1,27 +1,31 @@
 {
-  "run_id": 95,
-  "generation_evaluated": 90,
-  "next_generation": 91,
-  "items_ingested": 3,
+  "run_id": 96,
+  "generation_evaluated": 91,
+  "next_generation": 92,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 90,
-    "best_fitness": 0.855,
+    "generation": 91,
+    "best_fitness": 0.8342,
     "best_agent": "Concis-87.5",
-    "best_agent_id": "ae0b996521b54dd0",
-    "avg_fitness": 0.8349,
+    "best_agent_id": "b4d3fe15fec1494d",
+    "avg_fitness": 0.8291,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : prolly, content-addressed, partially en 3 signaux à suivre",
-    "agent": "Concis-87.5",
-    "fitness": 0.855,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-17-veille-concis-prolly-content-addressed-partially-en-3-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 2.1 h, minimum 12 h",
+    "title": "Veille concis : gravitational, microlensing, ratepayers' en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 91,
+      "population": 5,
+      "avg_fitness": 0.82908,
+      "best_fitness": 0.8342
+    },
     {
       "generation": 90,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.86434,
       "best_fitness": 0.8755
-    },
-    {
-      "generation": 81,
-      "population": 5,
-      "avg_fitness": 0.84708,
-      "best_fitness": 0.8508
     }
   ]
 }
