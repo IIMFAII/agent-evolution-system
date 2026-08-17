@@ -1,25 +1,31 @@
 {
-  "run_id": 96,
-  "generation_evaluated": 91,
-  "next_generation": 92,
-  "items_ingested": 2,
+  "run_id": 97,
+  "generation_evaluated": 92,
+  "next_generation": 93,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 91,
-    "best_fitness": 0.8342,
+    "generation": 92,
+    "best_fitness": 0.8929,
     "best_agent": "Concis-87.5",
-    "best_agent_id": "b4d3fe15fec1494d",
-    "avg_fitness": 0.8291,
+    "best_agent_id": "384ec421b6de4640",
+    "avg_fitness": 0.8894,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.1 h, minimum 12 h",
-    "title": "Veille concis : gravitational, microlensing, ratepayers' en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
+    "title": "Veille concis : development, hackeurope, hackathons en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 92,
+      "population": 5,
+      "avg_fitness": 0.8894400000000001,
+      "best_fitness": 0.8929
+    },
     {
       "generation": 91,
       "population": 5,
@@ -72,12 +78,6 @@
       "generation": 83,
       "population": 5,
       "avg_fitness": 0.8663399999999999,
-      "best_fitness": 0.8755
-    },
-    {
-      "generation": 82,
-      "population": 5,
-      "avg_fitness": 0.86434,
       "best_fitness": 0.8755
     }
   ]
