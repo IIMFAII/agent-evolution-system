@@ -1,25 +1,31 @@
 {
-  "run_id": 97,
-  "generation_evaluated": 92,
-  "next_generation": 93,
-  "items_ingested": 3,
+  "run_id": 99,
+  "generation_evaluated": 93,
+  "next_generation": 94,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 92,
-    "best_fitness": 0.8929,
+    "generation": 93,
+    "best_fitness": 0.8415,
     "best_agent": "Concis-87.5",
-    "best_agent_id": "384ec421b6de4640",
-    "avg_fitness": 0.8894,
+    "best_agent_id": "f8b95f31569c4278",
+    "avg_fitness": 0.8352,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
-    "title": "Veille concis : development, hackeurope, hackathons en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
+    "title": "Veille concis : desktopcolors, technofeudal, hypothesis en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 93,
+      "population": 5,
+      "avg_fitness": 0.83518,
+      "best_fitness": 0.8415
+    },
     {
       "generation": 92,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8549599999999999,
       "best_fitness": 0.8645
-    },
-    {
-      "generation": 83,
-      "population": 5,
-      "avg_fitness": 0.8663399999999999,
-      "best_fitness": 0.8755
     }
   ]
 }
