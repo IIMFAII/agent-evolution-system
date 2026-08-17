@@ -1,25 +1,31 @@
 {
-  "run_id": 92,
-  "generation_evaluated": 87,
-  "next_generation": 88,
-  "items_ingested": 4,
+  "run_id": 93,
+  "generation_evaluated": 88,
+  "next_generation": 89,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 87,
-    "best_fitness": 0.8582,
+    "generation": 88,
+    "best_fitness": 0.8929,
     "best_agent": "Concis-87.5",
-    "best_agent_id": "b4fcef2493904cb7",
-    "avg_fitness": 0.8444,
+    "best_agent_id": "960d15a5193946dc",
+    "avg_fitness": 0.8917,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille concis : claude, adulteration, dramatically en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
+    "title": "Veille concis : webmaster, manifesto, everyone en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 88,
+      "population": 5,
+      "avg_fitness": 0.8917400000000001,
+      "best_fitness": 0.8929
+    },
     {
       "generation": 87,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8458,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 78,
-      "population": 5,
-      "avg_fitness": 0.8628600000000001,
-      "best_fitness": 0.87
     }
   ]
 }
