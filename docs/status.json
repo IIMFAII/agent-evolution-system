@@ -1,24 +1,31 @@
 {
-  "run_id": 103,
-  "generation_evaluated": 97,
-  "next_generation": 98,
-  "items_ingested": 4,
+  "run_id": 104,
+  "generation_evaluated": 98,
+  "next_generation": 99,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 97,
-    "best_fitness": 0.1,
+    "generation": 98,
+    "best_fitness": 0.8303,
     "best_agent": "Analytique-95.3",
-    "best_agent_id": "c254f5e9aa3042e8",
-    "avg_fitness": 0.1,
+    "best_agent_id": "bd28e68c88114fce",
+    "avg_fitness": 0.828,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
+    "title": "Veille analytique : consciousness, transactions, merchants en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 98,
+      "population": 5,
+      "avg_fitness": 0.8279799999999999,
+      "best_fitness": 0.8303
+    },
     {
       "generation": 97,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.86316,
       "best_fitness": 0.8669
-    },
-    {
-      "generation": 88,
-      "population": 5,
-      "avg_fitness": 0.8917400000000001,
-      "best_fitness": 0.8929
     }
   ]
 }
