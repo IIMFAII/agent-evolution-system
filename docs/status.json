@@ -1,25 +1,33 @@
 {
-  "run_id": 101,
-  "generation_evaluated": 95,
-  "next_generation": 96,
-  "items_ingested": 5,
+  "run_id": 102,
+  "generation_evaluated": 96,
+  "next_generation": 97,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 95,
-    "best_fitness": 0.861,
+    "generation": 96,
+    "best_fitness": 0.8366,
     "best_agent": "Analytique-95.3",
-    "best_agent_id": "0e18c97f51e64881",
-    "avg_fitness": 0.8576,
+    "best_agent_id": "cf63c9cdc5ad4f40",
+    "avg_fitness": 0.8349,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.7 h, minimum 12 h",
-    "title": "Veille analytique : openrouter, universal, discloses en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : prices, astronomical', consequences en 4 signaux à suivre",
+    "agent": "Analytique-95.3",
+    "fitness": 0.8366,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-17-veille-analytique-prices-astronomical-consequences-en-4-sign.md"
   },
   "history": [
+    {
+      "generation": 96,
+      "population": 5,
+      "avg_fitness": 0.83492,
+      "best_fitness": 0.8366
+    },
     {
       "generation": 95,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8444200000000001,
       "best_fitness": 0.8582
-    },
-    {
-      "generation": 86,
-      "population": 5,
-      "avg_fitness": 0.8454200000000001,
-      "best_fitness": 0.8655
     }
   ]
 }
