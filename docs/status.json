@@ -1,25 +1,31 @@
 {
-  "run_id": 93,
-  "generation_evaluated": 88,
-  "next_generation": 89,
-  "items_ingested": 2,
+  "run_id": 94,
+  "generation_evaluated": 89,
+  "next_generation": 90,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 88,
-    "best_fitness": 0.8929,
+    "generation": 89,
+    "best_fitness": 0.8669,
     "best_agent": "Concis-87.5",
-    "best_agent_id": "960d15a5193946dc",
-    "avg_fitness": 0.8917,
+    "best_agent_id": "3472c81d997e45bb",
+    "avg_fitness": 0.8632,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
-    "title": "Veille concis : webmaster, manifesto, everyone en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
+    "title": "Veille concis : adventures, commodore, available en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 89,
+      "population": 5,
+      "avg_fitness": 0.86316,
+      "best_fitness": 0.8669
+    },
     {
       "generation": 88,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8284,
       "best_fitness": 0.8533
-    },
-    {
-      "generation": 79,
-      "population": 5,
-      "avg_fitness": 0.8458,
-      "best_fitness": 0.8514
     }
   ]
 }
