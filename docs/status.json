@@ -1,25 +1,31 @@
 {
-  "run_id": 100,
-  "generation_evaluated": 94,
-  "next_generation": 95,
-  "items_ingested": 4,
+  "run_id": 101,
+  "generation_evaluated": 95,
+  "next_generation": 96,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 94,
-    "best_fitness": 0.8849,
-    "best_agent": "Concis-87.5",
-    "best_agent_id": "09c9d4e49e9240c6",
-    "avg_fitness": 0.8803,
+    "generation": 95,
+    "best_fitness": 0.861,
+    "best_agent": "Analytique-95.3",
+    "best_agent_id": "0e18c97f51e64881",
+    "avg_fitness": 0.8576,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
-    "title": "Veille concis : github, experiencing, performance en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.7 h, minimum 12 h",
+    "title": "Veille analytique : openrouter, universal, discloses en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 95,
+      "population": 5,
+      "avg_fitness": 0.8575800000000001,
+      "best_fitness": 0.861
+    },
     {
       "generation": 94,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8454200000000001,
       "best_fitness": 0.8655
-    },
-    {
-      "generation": 85,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
