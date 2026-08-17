@@ -1,25 +1,31 @@
 {
-  "run_id": 99,
-  "generation_evaluated": 93,
-  "next_generation": 94,
+  "run_id": 100,
+  "generation_evaluated": 94,
+  "next_generation": 95,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 93,
-    "best_fitness": 0.8415,
+    "generation": 94,
+    "best_fitness": 0.8849,
     "best_agent": "Concis-87.5",
-    "best_agent_id": "f8b95f31569c4278",
-    "avg_fitness": 0.8352,
+    "best_agent_id": "09c9d4e49e9240c6",
+    "avg_fitness": 0.8803,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
-    "title": "Veille concis : desktopcolors, technofeudal, hypothesis en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
+    "title": "Veille concis : github, experiencing, performance en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 94,
+      "population": 5,
+      "avg_fitness": 0.88032,
+      "best_fitness": 0.8849
+    },
     {
       "generation": 93,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 84,
-      "population": 5,
-      "avg_fitness": 0.8549599999999999,
-      "best_fitness": 0.8645
     }
   ]
 }
