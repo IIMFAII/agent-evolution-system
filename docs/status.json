@@ -1,25 +1,31 @@
 {
-  "run_id": 106,
-  "generation_evaluated": 100,
-  "next_generation": 101,
-  "items_ingested": 3,
+  "run_id": 107,
+  "generation_evaluated": 101,
+  "next_generation": 102,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 100,
-    "best_fitness": 0.84,
-    "best_agent": "Concis-100.3",
-    "best_agent_id": "842b3dd3fa934f89",
-    "avg_fitness": 0.8334,
+    "generation": 101,
+    "best_fitness": 0.8208,
+    "best_agent": "Analytique-101.4",
+    "best_agent_id": "998679d390784559",
+    "avg_fitness": 0.8179,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
-    "title": "Veille concis : screenshots, bankruptcy, documents en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
+    "title": "Veille analytique : benchmarkpocalypse, computing, episode en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 101,
+      "population": 5,
+      "avg_fitness": 0.8179000000000001,
+      "best_fitness": 0.8208
+    },
     {
       "generation": 100,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8894400000000001,
       "best_fitness": 0.8929
-    },
-    {
-      "generation": 91,
-      "population": 5,
-      "avg_fitness": 0.82908,
-      "best_fitness": 0.8342
     }
   ]
 }
