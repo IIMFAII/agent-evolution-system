@@ -1,25 +1,31 @@
 {
-  "run_id": 114,
-  "generation_evaluated": 107,
-  "next_generation": 108,
+  "run_id": 115,
+  "generation_evaluated": 108,
+  "next_generation": 109,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 107,
-    "best_fitness": 0.8365,
+    "generation": 108,
+    "best_fitness": 0.8389,
     "best_agent": "Pédagogique-106.4",
-    "best_agent_id": "3923a281ed5e4d6e",
-    "avg_fitness": 0.8296,
+    "best_agent_id": "7025440f9c6d4e81",
+    "avg_fitness": 0.8331,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
-    "title": "Veille pédagogique : turboquant, mail-order, shuttering en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
+    "title": "Veille pédagogique : consultants, reflections, management en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 108,
+      "population": 5,
+      "avg_fitness": 0.83314,
+      "best_fitness": 0.8389
+    },
     {
       "generation": 107,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8370599999999999,
       "best_fitness": 0.8509
-    },
-    {
-      "generation": 98,
-      "population": 5,
-      "avg_fitness": 0.8279799999999999,
-      "best_fitness": 0.8303
     }
   ]
 }
