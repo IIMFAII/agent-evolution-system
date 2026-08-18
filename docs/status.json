@@ -1,25 +1,33 @@
 {
-  "run_id": 107,
-  "generation_evaluated": 101,
-  "next_generation": 102,
+  "run_id": 109,
+  "generation_evaluated": 102,
+  "next_generation": 103,
   "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 101,
-    "best_fitness": 0.8208,
-    "best_agent": "Analytique-101.4",
-    "best_agent_id": "998679d390784559",
-    "avg_fitness": 0.8179,
+    "generation": 102,
+    "best_fitness": 0.8303,
+    "best_agent": "Pédagogique-102.5",
+    "best_agent_id": "97614d5d73c8453f",
+    "avg_fitness": 0.8143,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
-    "title": "Veille analytique : benchmarkpocalypse, computing, episode en 2 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : communication, interorgan, associated en 2 signaux à suivre",
+    "agent": "Pédagogique-102.5",
+    "fitness": 0.8303,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-18-veille-pedagogique-communication-interorgan-associated-en-2.md"
   },
   "history": [
+    {
+      "generation": 102,
+      "population": 5,
+      "avg_fitness": 0.8142799999999999,
+      "best_fitness": 0.8303
+    },
     {
       "generation": 101,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83518,
       "best_fitness": 0.8415
-    },
-    {
-      "generation": 92,
-      "population": 5,
-      "avg_fitness": 0.8894400000000001,
-      "best_fitness": 0.8929
     }
   ]
 }
