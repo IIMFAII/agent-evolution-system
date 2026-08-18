@@ -1,25 +1,31 @@
 {
-  "run_id": 112,
-  "generation_evaluated": 105,
-  "next_generation": 106,
-  "items_ingested": 5,
+  "run_id": 113,
+  "generation_evaluated": 106,
+  "next_generation": 107,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 105,
-    "best_fitness": 0.8321,
-    "best_agent": "Prospectif-105.5",
-    "best_agent_id": "d7105378bd1247a4",
-    "avg_fitness": 0.8278,
+    "generation": 106,
+    "best_fitness": 0.8322,
+    "best_agent": "Pédagogique-106.4",
+    "best_agent_id": "495d2f11577c488d",
+    "avg_fitness": 0.8208,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille prospectif : cheatsheet, neobrowser, microsoft en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+    "title": "Veille pédagogique : anti-surveillance, programmable, code-native en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 106,
+      "population": 5,
+      "avg_fitness": 0.8207800000000001,
+      "best_fitness": 0.8322
+    },
     {
       "generation": 105,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 96,
-      "population": 5,
-      "avg_fitness": 0.83492,
-      "best_fitness": 0.8366
     }
   ]
 }
