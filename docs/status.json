@@ -1,25 +1,31 @@
 {
-  "run_id": 113,
-  "generation_evaluated": 106,
-  "next_generation": 107,
+  "run_id": 114,
+  "generation_evaluated": 107,
+  "next_generation": 108,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 106,
-    "best_fitness": 0.8322,
+    "generation": 107,
+    "best_fitness": 0.8365,
     "best_agent": "Pédagogique-106.4",
-    "best_agent_id": "495d2f11577c488d",
-    "avg_fitness": 0.8208,
+    "best_agent_id": "3923a281ed5e4d6e",
+    "avg_fitness": 0.8296,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
-    "title": "Veille pédagogique : anti-surveillance, programmable, code-native en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
+    "title": "Veille pédagogique : turboquant, mail-order, shuttering en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 107,
+      "population": 5,
+      "avg_fitness": 0.8295999999999999,
+      "best_fitness": 0.8365
+    },
     {
       "generation": 106,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8279799999999999,
       "best_fitness": 0.8303
-    },
-    {
-      "generation": 97,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
