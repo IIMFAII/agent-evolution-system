@@ -1,25 +1,30 @@
 {
-  "run_id": 115,
-  "generation_evaluated": 108,
-  "next_generation": 109,
+  "run_id": 116,
+  "generation_evaluated": 109,
+  "next_generation": 110,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 108,
-    "best_fitness": 0.8389,
+    "generation": 109,
+    "best_fitness": 0.1,
     "best_agent": "Pédagogique-106.4",
-    "best_agent_id": "7025440f9c6d4e81",
-    "avg_fitness": 0.8331,
+    "best_agent_id": "7e72ad55f7974598",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
-    "title": "Veille pédagogique : consultants, reflections, management en 4 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 109,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 108,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.83338,
       "best_fitness": 0.84
-    },
-    {
-      "generation": 99,
-      "population": 5,
-      "avg_fitness": 0.8370599999999999,
-      "best_fitness": 0.8509
     }
   ]
 }
