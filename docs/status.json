@@ -1,25 +1,31 @@
 {
-  "run_id": 110,
-  "generation_evaluated": 103,
-  "next_generation": 104,
+  "run_id": 111,
+  "generation_evaluated": 104,
+  "next_generation": 105,
   "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 103,
-    "best_fitness": 0.8509,
+    "generation": 104,
+    "best_fitness": 0.8452,
     "best_agent": "Pédagogique-102.5",
-    "best_agent_id": "9326f163e0b04a51",
-    "avg_fitness": 0.8409,
+    "best_agent_id": "1ab4fee65e66481d",
+    "avg_fitness": 0.8418,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
-    "title": "Veille pédagogique : performance, programming, rethinking en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
+    "title": "Veille pédagogique : wisconsin, spirit's, network en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 104,
+      "population": 5,
+      "avg_fitness": 0.8417999999999999,
+      "best_fitness": 0.8452
+    },
     {
       "generation": 103,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8575800000000001,
       "best_fitness": 0.861
-    },
-    {
-      "generation": 94,
-      "population": 5,
-      "avg_fitness": 0.88032,
-      "best_fitness": 0.8849
     }
   ]
 }
