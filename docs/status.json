@@ -1,25 +1,31 @@
 {
-  "run_id": 119,
-  "generation_evaluated": 112,
-  "next_generation": 113,
-  "items_ingested": 3,
+  "run_id": 120,
+  "generation_evaluated": 113,
+  "next_generation": 114,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 112,
-    "best_fitness": 0.8646,
+    "generation": 113,
+    "best_fitness": 0.8514,
     "best_agent": "Concis-112.2",
-    "best_agent_id": "6c8e4aa27f0643b1",
-    "avg_fitness": 0.8477,
+    "best_agent_id": "73b5705784674ca6",
+    "avg_fitness": 0.8291,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.6 h, minimum 12 h",
-    "title": "Veille concis : mathematics, blockbuster, parallels en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
+    "title": "Veille concis : automatically, walking-dead, rewrite en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 113,
+      "population": 5,
+      "avg_fitness": 0.82908,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 112,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8417999999999999,
       "best_fitness": 0.8452
-    },
-    {
-      "generation": 103,
-      "population": 5,
-      "avg_fitness": 0.8408599999999999,
-      "best_fitness": 0.8509
     }
   ]
 }
