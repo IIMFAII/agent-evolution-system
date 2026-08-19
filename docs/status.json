@@ -1,24 +1,33 @@
 {
-  "run_id": 124,
-  "generation_evaluated": 117,
-  "next_generation": 118,
-  "items_ingested": 3,
+  "run_id": 125,
+  "generation_evaluated": 118,
+  "next_generation": 119,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 117,
-    "best_fitness": 0.1,
+    "generation": 118,
+    "best_fitness": 0.8322,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "57b997287c554080",
-    "avg_fitness": 0.1,
+    "best_agent_id": "f567af69b31e4021",
+    "avg_fitness": 0.8293,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille prospectif : self-scaffolding, self-improvement, technologies en 4 signaux à suivre",
+    "agent": "Prospectif-115.4",
+    "fitness": 0.8322,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-19-veille-prospectif-self-scaffolding-self-improvement-technolo.md"
   },
   "history": [
+    {
+      "generation": 118,
+      "population": 5,
+      "avg_fitness": 0.82934,
+      "best_fitness": 0.8322
+    },
     {
       "generation": 117,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 108,
-      "population": 5,
-      "avg_fitness": 0.83314,
-      "best_fitness": 0.8389
     }
   ]
 }

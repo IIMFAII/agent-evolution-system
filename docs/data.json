@@ -1,35 +1,38 @@
 {
- "generated_at": "2026-08-19T14:27:12+00:00",
+ "generated_at": "2026-08-19T16:24:40+00:00",
  "cycle": {
-  "run_id": 124,
-  "generation_evaluated": 117,
-  "next_generation": 118,
-  "items_ingested": 3,
+  "run_id": 125,
+  "generation_evaluated": 118,
+  "next_generation": 119,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+   "published": true,
+   "title": "Veille prospectif : self-scaffolding, self-improvement, technologies en 4 signaux à suivre",
+   "agent": "Prospectif-115.4",
+   "fitness": 0.8322,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-19-veille-prospectif-self-scaffolding-self-improvement-technolo.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 117,
-  "best_fitness": 0.1,
+  "generation": 118,
+  "best_fitness": 0.8322,
   "best_agent": "Prospectif-115.4",
-  "best_agent_id": "57b997287c554080",
-  "avg_fitness": 0.1,
+  "best_agent_id": "f567af69b31e4021",
+  "avg_fitness": 0.8293,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "57b997287c554080",
-   "fitness": 0.1,
+   "agent_id": "f567af69b31e4021",
+   "fitness": 0.8322,
    "readability": 1.0,
    "keyword_score": 0.381,
    "ctr_score": 0.78,
-   "compliance": 0.66,
+   "compliance": 1.0,
    "originality": 1.0,
    "name": "Prospectif-115.4",
    "tone": "prospectif",
@@ -38,70 +41,63 @@
    "mutation_rate": 0.7682813476014965
   },
   {
-   "agent_id": "7b351c1fb76d4eed",
-   "fitness": 0.1,
+   "agent_id": "9a9f43e2dfdd4c4c",
+   "fitness": 0.8322,
+   "readability": 1.0,
+   "keyword_score": 0.381,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-118.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.5429767846435706,
+   "mutation_rate": 0.7954532550264233
+  },
+  {
+   "agent_id": "d7f49250a6874274",
+   "fitness": 0.8322,
+   "readability": 1.0,
+   "keyword_score": 0.381,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-118.5",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6291832550209291,
+   "mutation_rate": 0.8139610837388866
+  },
+  {
+   "agent_id": "2081216414ce489d",
+   "fitness": 0.8293,
    "readability": 1.0,
    "keyword_score": 0.3667,
    "ctr_score": 0.78,
-   "compliance": 0.66,
+   "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-117.2",
-   "tone": "pédagogique",
+   "name": "Analytique-118.3",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.6077463374403763,
-   "mutation_rate": 0.8052970050264232
+   "temperature": 0.6013045088378035,
+   "mutation_rate": 0.7954532550264233
   },
   {
-   "agent_id": "a857f596b4814b52",
-   "fitness": 0.1,
-   "readability": 1.0,
-   "keyword_score": 0.3238,
-   "ctr_score": 0.9,
-   "compliance": 0.66,
-   "originality": 1.0,
-   "name": "Concis-117.3",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.4064335173953264,
-   "mutation_rate": 0.8052970050264232
-  },
-  {
-   "agent_id": "d88b609e88fb4ffb",
-   "fitness": 0.1,
-   "readability": 1.0,
-   "keyword_score": 0.3667,
-   "ctr_score": 0.9,
-   "compliance": 0.66,
-   "originality": 1.0,
-   "name": "Concis-117.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.5067296505879663,
-   "mutation_rate": 0.8052970050264232
-  },
-  {
-   "agent_id": "e87238b3af234bd2",
-   "fitness": 0.1,
+   "agent_id": "cec7b6fb2c254945",
+   "fitness": 0.8208,
    "readability": 1.0,
    "keyword_score": 0.3238,
    "ctr_score": 0.78,
-   "compliance": 0.66,
+   "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-117.5",
-   "tone": "critique",
+   "name": "Prospectif-118.4",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.6693892491376447,
-   "mutation_rate": 0.78262516245135
+   "temperature": 0.4724444189509963,
+   "mutation_rate": 0.8067891763139599
   }
  ],
  "generations": [
-  {
-   "generation": 58,
-   "population": 5,
-   "avg_fitness": 0.8571,
-   "best_fitness": 0.8697,
-   "worst_fitness": 0.8468
-  },
   {
    "generation": 59,
    "population": 5,
@@ -514,9 +510,25 @@
    "avg_fitness": 0.1,
    "best_fitness": 0.1,
    "worst_fitness": 0.1
+  },
+  {
+   "generation": 118,
+   "population": 5,
+   "avg_fitness": 0.82934,
+   "best_fitness": 0.8322,
+   "worst_fitness": 0.8208
   }
  ],
  "runs": [
+  {
+   "id": 125,
+   "started_at": "2026-08-19T16:24:33+00:00",
+   "finished_at": "2026-08-19T16:24:40+00:00",
+   "generation": 118,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 124,
    "started_at": "2026-08-19T14:27:05+00:00",
@@ -867,18 +879,18 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 85,
-   "started_at": "2026-08-16T08:22:03+00:00",
-   "finished_at": "2026-08-16T08:22:10+00:00",
-   "generation": 81,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.4 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille prospectif : self-scaffolding, self-improvement, technologies en 4 signaux à suivre",
+   "slug": "2026-08-19-veille-prospectif-self-scaffolding-self-improvement-technolo",
+   "fitness": 0.8322,
+   "generation": 118,
+   "created_at": "2026-08-19T16:24:40+00:00",
+   "agent_name": "Prospectif-115.4",
+   "tone": "prospectif"
+  },
   {
    "title": "Veille pédagogique : property-based, architecture, programmable en 4 signaux à suivre",
    "slug": "2026-08-19-veille-pedagogique-property-based-architecture-programmable",
@@ -1049,15 +1061,6 @@
    "created_at": "2026-08-09T15:28:39+00:00",
    "agent_name": "Prospectif",
    "tone": "prospectif"
-  },
-  {
-   "title": "Veille prospectif : intelligence, max-severity, exploitation en 12 signaux à suivre",
-   "slug": "2026-08-09-veille-prospectif-intelligence-max-severity-exploitation-en",
-   "fitness": 0.8564,
-   "generation": 1,
-   "created_at": "2026-08-09T15:06:41+00:00",
-   "agent_name": "Prospectif",
-   "tone": "prospectif"
   }
  ],
  "sources": {
@@ -1069,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 20,
+  "publications": 21,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1161,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4583,
+    "score": 0.461,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 20 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 21 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
