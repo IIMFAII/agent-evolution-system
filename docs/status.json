@@ -1,24 +1,33 @@
 {
-  "run_id": 116,
-  "generation_evaluated": 109,
-  "next_generation": 110,
+  "run_id": 117,
+  "generation_evaluated": 110,
+  "next_generation": 111,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 109,
-    "best_fitness": 0.1,
+    "generation": 110,
+    "best_fitness": 0.8474,
     "best_agent": "Pédagogique-106.4",
-    "best_agent_id": "7e72ad55f7974598",
-    "avg_fitness": 0.1,
+    "best_agent_id": "8d252562445e4f61",
+    "avg_fitness": 0.8423,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille pédagogique : property-based, architecture, programmable en 4 signaux à suivre",
+    "agent": "Pédagogique-106.4",
+    "fitness": 0.8474,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-19-veille-pedagogique-property-based-architecture-programmable.md"
   },
   "history": [
+    {
+      "generation": 110,
+      "population": 5,
+      "avg_fitness": 0.84228,
+      "best_fitness": 0.8474
+    },
     {
       "generation": 109,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8179000000000001,
       "best_fitness": 0.8208
-    },
-    {
-      "generation": 100,
-      "population": 5,
-      "avg_fitness": 0.83338,
-      "best_fitness": 0.84
     }
   ]
 }
