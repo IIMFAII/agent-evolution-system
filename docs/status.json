@@ -1,25 +1,31 @@
 {
-  "run_id": 118,
-  "generation_evaluated": 111,
-  "next_generation": 112,
-  "items_ingested": 4,
+  "run_id": 119,
+  "generation_evaluated": 112,
+  "next_generation": 113,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 111,
-    "best_fitness": 0.8289,
-    "best_agent": "Pédagogique-106.4",
-    "best_agent_id": "8bf4a98b27e246ce",
-    "avg_fitness": 0.8257,
+    "generation": 112,
+    "best_fitness": 0.8646,
+    "best_agent": "Concis-112.2",
+    "best_agent_id": "6c8e4aa27f0643b1",
+    "avg_fitness": 0.8477,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille pédagogique : disreputable, disgraceful, punctuation en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.6 h, minimum 12 h",
+    "title": "Veille concis : mathematics, blockbuster, parallels en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 112,
+      "population": 5,
+      "avg_fitness": 0.84772,
+      "best_fitness": 0.8646
+    },
     {
       "generation": 111,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8408599999999999,
       "best_fitness": 0.8509
-    },
-    {
-      "generation": 102,
-      "population": 5,
-      "avg_fitness": 0.8142799999999999,
-      "best_fitness": 0.8303
     }
   ]
 }
