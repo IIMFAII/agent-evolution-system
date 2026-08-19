@@ -1,25 +1,31 @@
 {
-  "run_id": 121,
-  "generation_evaluated": 114,
-  "next_generation": 115,
-  "items_ingested": 4,
+  "run_id": 122,
+  "generation_evaluated": 115,
+  "next_generation": 116,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 114,
-    "best_fitness": 0.8597,
-    "best_agent": "Concis-112.2",
-    "best_agent_id": "df2f6a16330a45c7",
-    "avg_fitness": 0.8502,
+    "generation": 115,
+    "best_fitness": 0.8929,
+    "best_agent": "Prospectif-115.4",
+    "best_agent_id": "93e40c41c87943c2",
+    "avg_fitness": 0.8831,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.6 h, minimum 12 h",
-    "title": "Veille concis : open-source, destroying, healthcare en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
+    "title": "Veille prospectif : programming, photonics, language en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 115,
+      "population": 5,
+      "avg_fitness": 0.88314,
+      "best_fitness": 0.8929
+    },
     {
       "generation": 114,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8207800000000001,
       "best_fitness": 0.8322
-    },
-    {
-      "generation": 105,
-      "population": 5,
-      "avg_fitness": 0.8278399999999999,
-      "best_fitness": 0.8321
     }
   ]
 }
