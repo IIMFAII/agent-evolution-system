@@ -1,25 +1,31 @@
 {
-  "run_id": 127,
-  "generation_evaluated": 120,
-  "next_generation": 121,
+  "run_id": 128,
+  "generation_evaluated": 121,
+  "next_generation": 122,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 120,
-    "best_fitness": 0.8365,
+    "generation": 121,
+    "best_fitness": 0.8695,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "d691184018e54ef7",
-    "avg_fitness": 0.829,
+    "best_agent_id": "8fca16930d5049ef",
+    "avg_fitness": 0.8672,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
-    "title": "Veille prospectif : semiclassical, openrouter, equations en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
+    "title": "Veille prospectif : drafting, parallel, xwayland en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 121,
+      "population": 5,
+      "avg_fitness": 0.8671599999999999,
+      "best_fitness": 0.8695
+    },
     {
       "generation": 120,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84772,
       "best_fitness": 0.8646
-    },
-    {
-      "generation": 111,
-      "population": 5,
-      "avg_fitness": 0.82574,
-      "best_fitness": 0.8289
     }
   ]
 }
