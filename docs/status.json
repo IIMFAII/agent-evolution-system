@@ -1,16 +1,16 @@
 {
-  "run_id": 123,
-  "generation_evaluated": 116,
-  "next_generation": 117,
-  "items_ingested": 2,
+  "run_id": 124,
+  "generation_evaluated": 117,
+  "next_generation": 118,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 116,
+    "generation": 117,
     "best_fitness": 0.1,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "16161bab64a8449e",
+    "best_agent_id": "57b997287c554080",
     "avg_fitness": 0.1,
     "diversity": 1.0
   },
@@ -19,6 +19,12 @@
     "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 117,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 116,
       "population": 5,
@@ -72,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.83314,
       "best_fitness": 0.8389
-    },
-    {
-      "generation": 107,
-      "population": 5,
-      "avg_fitness": 0.8295999999999999,
-      "best_fitness": 0.8365
     }
   ]
 }
