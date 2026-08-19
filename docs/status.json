@@ -1,25 +1,30 @@
 {
-  "run_id": 122,
-  "generation_evaluated": 115,
-  "next_generation": 116,
-  "items_ingested": 1,
+  "run_id": 123,
+  "generation_evaluated": 116,
+  "next_generation": 117,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 115,
-    "best_fitness": 0.8929,
+    "generation": 116,
+    "best_fitness": 0.1,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "93e40c41c87943c2",
-    "avg_fitness": 0.8831,
+    "best_agent_id": "16161bab64a8449e",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
-    "title": "Veille prospectif : programming, photonics, language en 1 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 116,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 115,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8295999999999999,
       "best_fitness": 0.8365
-    },
-    {
-      "generation": 106,
-      "population": 5,
-      "avg_fitness": 0.8207800000000001,
-      "best_fitness": 0.8322
     }
   ]
 }
