@@ -1,25 +1,31 @@
 {
-  "run_id": 126,
-  "generation_evaluated": 119,
-  "next_generation": 120,
+  "run_id": 127,
+  "generation_evaluated": 120,
+  "next_generation": 121,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 119,
+    "generation": 120,
     "best_fitness": 0.8365,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "bb3c78e0502140b0",
+    "best_agent_id": "d691184018e54ef7",
     "avg_fitness": 0.829,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille prospectif : stratosphere, incoherence, openrouter en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
+    "title": "Veille prospectif : semiclassical, openrouter, equations en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 120,
+      "population": 5,
+      "avg_fitness": 0.8290200000000001,
+      "best_fitness": 0.8365
+    },
     {
       "generation": 119,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82574,
       "best_fitness": 0.8289
-    },
-    {
-      "generation": 110,
-      "population": 5,
-      "avg_fitness": 0.84228,
-      "best_fitness": 0.8474
     }
   ]
 }
