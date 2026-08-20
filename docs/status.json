@@ -1,27 +1,31 @@
 {
-  "run_id": 131,
-  "generation_evaluated": 124,
-  "next_generation": 125,
-  "items_ingested": 1,
+  "run_id": 132,
+  "generation_evaluated": 125,
+  "next_generation": 126,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 124,
-    "best_fitness": 0.8929,
+    "generation": 125,
+    "best_fitness": 0.8329,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "ca07c52d6c1846f6",
-    "avg_fitness": 0.886,
+    "best_agent_id": "0e029c0c689e4040",
+    "avg_fitness": 0.828,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : radians, better, turns en 1 signaux à suivre",
-    "agent": "Prospectif-115.4",
-    "fitness": 0.8929,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-20-veille-prospectif-radians-better-turns-en-1-signaux-a-suivre.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 2.1 h, minimum 12 h",
+    "title": "Veille prospectif : entertainment, engineering, announcing en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 125,
+      "population": 5,
+      "avg_fitness": 0.8280200000000001,
+      "best_fitness": 0.8329
+    },
     {
       "generation": 124,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 115,
-      "population": 5,
-      "avg_fitness": 0.88314,
-      "best_fitness": 0.8929
     }
   ]
 }
