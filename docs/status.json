@@ -1,25 +1,31 @@
 {
-  "run_id": 134,
-  "generation_evaluated": 127,
-  "next_generation": 128,
-  "items_ingested": 1,
+  "run_id": 135,
+  "generation_evaluated": 128,
+  "next_generation": 129,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 127,
-    "best_fitness": 0.9229,
-    "best_agent": "Prospectif-115.4",
-    "best_agent_id": "0a3d4852214f44e6",
-    "avg_fitness": 0.9206,
+    "generation": 128,
+    "best_fitness": 0.8629,
+    "best_agent": "Critique-128.5",
+    "best_agent_id": "38cd5c5e49cc441f",
+    "avg_fitness": 0.8393,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille prospectif : please, don't, paste en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
+    "title": "Veille critique : autocomplete, engineer's, on-device en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 128,
+      "population": 5,
+      "avg_fitness": 0.8393200000000001,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 127,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8290200000000001,
       "best_fitness": 0.8365
-    },
-    {
-      "generation": 118,
-      "population": 5,
-      "avg_fitness": 0.82934,
-      "best_fitness": 0.8322
     }
   ]
 }
