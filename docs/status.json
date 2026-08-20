@@ -1,25 +1,31 @@
 {
-  "run_id": 136,
-  "generation_evaluated": 129,
-  "next_generation": 130,
-  "items_ingested": 5,
+  "run_id": 137,
+  "generation_evaluated": 130,
+  "next_generation": 131,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 129,
+    "generation": 130,
     "best_fitness": 0.8514,
     "best_agent": "Concis-129.4",
-    "best_agent_id": "c8b80679cabc479a",
-    "avg_fitness": 0.8344,
+    "best_agent_id": "de7a1d00732b43d3",
+    "avg_fitness": 0.8511,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
-    "title": "Veille concis : instructions, exfiltrates, malicious en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille concis : your, compromise, interview en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 130,
+      "population": 5,
+      "avg_fitness": 0.8511200000000001,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 129,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8671599999999999,
       "best_fitness": 0.8695
-    },
-    {
-      "generation": 120,
-      "population": 5,
-      "avg_fitness": 0.8290200000000001,
-      "best_fitness": 0.8365
     }
   ]
 }
