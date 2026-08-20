@@ -1,25 +1,31 @@
 {
-  "run_id": 133,
-  "generation_evaluated": 126,
-  "next_generation": 127,
+  "run_id": 134,
+  "generation_evaluated": 127,
+  "next_generation": 128,
   "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 126,
-    "best_fitness": 0.8629,
+    "generation": 127,
+    "best_fitness": 0.9229,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "7bbbc62101e94e1c",
-    "avg_fitness": 0.858,
+    "best_agent_id": "0a3d4852214f44e6",
+    "avg_fitness": 0.9206,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
-    "title": "Veille prospectif : rorschach, everyone, windows en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
+    "title": "Veille prospectif : please, don't, paste en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 127,
+      "population": 5,
+      "avg_fitness": 0.9206,
+      "best_fitness": 0.9229
+    },
     {
       "generation": 126,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82934,
       "best_fitness": 0.8322
-    },
-    {
-      "generation": 117,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
