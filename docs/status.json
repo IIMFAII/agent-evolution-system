@@ -1,27 +1,31 @@
 {
-  "run_id": 138,
-  "generation_evaluated": 131,
-  "next_generation": 132,
+  "run_id": 139,
+  "generation_evaluated": 132,
+  "next_generation": 133,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 131,
-    "best_fitness": 0.8805,
+    "generation": 132,
+    "best_fitness": 0.8474,
     "best_agent": "Prospectif-131.2",
-    "best_agent_id": "42c6566f325845a4",
-    "avg_fitness": 0.8728,
+    "best_agent_id": "179e7716224541df",
+    "avg_fitness": 0.8383,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : optimizing, cybersyn, biology en 4 signaux à suivre",
-    "agent": "Prospectif-131.2",
-    "fitness": 0.8805,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-20-veille-prospectif-optimizing-cybersyn-biology-en-4-signaux-a.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
+    "title": "Veille prospectif : substitution, autoscaling, algorithmic en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 132,
+      "population": 5,
+      "avg_fitness": 0.8382799999999999,
+      "best_fitness": 0.8474
+    },
     {
       "generation": 131,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.88142,
       "best_fitness": 0.8929
-    },
-    {
-      "generation": 122,
-      "population": 5,
-      "avg_fitness": 0.8191,
-      "best_fitness": 0.8285
     }
   ]
 }
