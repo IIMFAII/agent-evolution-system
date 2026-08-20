@@ -1,25 +1,31 @@
 {
-  "run_id": 128,
-  "generation_evaluated": 121,
-  "next_generation": 122,
+  "run_id": 129,
+  "generation_evaluated": 122,
+  "next_generation": 123,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 121,
-    "best_fitness": 0.8695,
+    "generation": 122,
+    "best_fitness": 0.8285,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "8fca16930d5049ef",
-    "avg_fitness": 0.8672,
+    "best_agent_id": "d785fd3bf0be4b21",
+    "avg_fitness": 0.8191,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille prospectif : drafting, parallel, xwayland en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
+    "title": "Veille prospectif : collaborative, universality, vibe-coding en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 122,
+      "population": 5,
+      "avg_fitness": 0.8191,
+      "best_fitness": 0.8285
+    },
     {
       "generation": 121,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82908,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 112,
-      "population": 5,
-      "avg_fitness": 0.84772,
-      "best_fitness": 0.8646
     }
   ]
 }
