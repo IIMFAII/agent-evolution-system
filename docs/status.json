@@ -1,25 +1,33 @@
 {
-  "run_id": 137,
-  "generation_evaluated": 130,
-  "next_generation": 131,
+  "run_id": 138,
+  "generation_evaluated": 131,
+  "next_generation": 132,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 130,
-    "best_fitness": 0.8514,
-    "best_agent": "Concis-129.4",
-    "best_agent_id": "de7a1d00732b43d3",
-    "avg_fitness": 0.8511,
+    "generation": 131,
+    "best_fitness": 0.8805,
+    "best_agent": "Prospectif-131.2",
+    "best_agent_id": "42c6566f325845a4",
+    "avg_fitness": 0.8728,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
-    "title": "Veille concis : your, compromise, interview en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : optimizing, cybersyn, biology en 4 signaux à suivre",
+    "agent": "Prospectif-131.2",
+    "fitness": 0.8805,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-20-veille-prospectif-optimizing-cybersyn-biology-en-4-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 131,
+      "population": 5,
+      "avg_fitness": 0.87278,
+      "best_fitness": 0.8805
+    },
     {
       "generation": 130,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8191,
       "best_fitness": 0.8285
-    },
-    {
-      "generation": 121,
-      "population": 5,
-      "avg_fitness": 0.8671599999999999,
-      "best_fitness": 0.8695
     }
   ]
 }
