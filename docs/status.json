@@ -1,25 +1,31 @@
 {
-  "run_id": 139,
-  "generation_evaluated": 132,
-  "next_generation": 133,
+  "run_id": 140,
+  "generation_evaluated": 133,
+  "next_generation": 134,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 132,
-    "best_fitness": 0.8474,
-    "best_agent": "Prospectif-131.2",
-    "best_agent_id": "179e7716224541df",
-    "avg_fitness": 0.8383,
+    "generation": 133,
+    "best_fitness": 0.8629,
+    "best_agent": "Concis-133.2",
+    "best_agent_id": "fd2a49f845394e3a",
+    "avg_fitness": 0.8368,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
-    "title": "Veille prospectif : substitution, autoscaling, algorithmic en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
+    "title": "Veille concis : consequence, scientists, prosecuted en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 133,
+      "population": 5,
+      "avg_fitness": 0.83682,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 132,
       "population": 5,
@@ -72,12 +78,6 @@
       "generation": 124,
       "population": 5,
       "avg_fitness": 0.8859999999999999,
-      "best_fitness": 0.8929
-    },
-    {
-      "generation": 123,
-      "population": 5,
-      "avg_fitness": 0.88142,
       "best_fitness": 0.8929
     }
   ]
