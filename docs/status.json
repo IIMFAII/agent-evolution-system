@@ -1,25 +1,31 @@
 {
-  "run_id": 129,
-  "generation_evaluated": 122,
-  "next_generation": 123,
-  "items_ingested": 4,
+  "run_id": 130,
+  "generation_evaluated": 123,
+  "next_generation": 124,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 122,
-    "best_fitness": 0.8285,
+    "generation": 123,
+    "best_fitness": 0.8929,
     "best_agent": "Prospectif-115.4",
-    "best_agent_id": "d785fd3bf0be4b21",
-    "avg_fitness": 0.8191,
+    "best_agent_id": "96c4bc2bb84f49d5",
+    "avg_fitness": 0.8814,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
-    "title": "Veille prospectif : collaborative, universality, vibe-coding en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
+    "title": "Veille prospectif : feature, request, support en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 123,
+      "population": 5,
+      "avg_fitness": 0.88142,
+      "best_fitness": 0.8929
+    },
     {
       "generation": 122,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85016,
       "best_fitness": 0.8597
-    },
-    {
-      "generation": 113,
-      "population": 5,
-      "avg_fitness": 0.82908,
-      "best_fitness": 0.8514
     }
   ]
 }
