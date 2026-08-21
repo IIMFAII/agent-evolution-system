@@ -1,24 +1,31 @@
 {
-  "run_id": 141,
-  "generation_evaluated": 134,
-  "next_generation": 135,
-  "items_ingested": 4,
+  "run_id": 142,
+  "generation_evaluated": 135,
+  "next_generation": 136,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 134,
-    "best_fitness": 0.1,
+    "generation": 135,
+    "best_fitness": 0.8569,
     "best_agent": "Concis-133.2",
-    "best_agent_id": "44d5a5b299494f16",
-    "avg_fitness": 0.1,
+    "best_agent_id": "28ae89452b6d4b75",
+    "avg_fitness": 0.854,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
+    "title": "Veille concis : prohibits, berkeley, classes en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 135,
+      "population": 5,
+      "avg_fitness": 0.85402,
+      "best_fitness": 0.8569
+    },
     {
       "generation": 134,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85802,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 125,
-      "population": 5,
-      "avg_fitness": 0.8280200000000001,
-      "best_fitness": 0.8329
     }
   ]
 }
