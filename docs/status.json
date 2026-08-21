@@ -1,25 +1,31 @@
 {
-  "run_id": 146,
-  "generation_evaluated": 139,
-  "next_generation": 140,
-  "items_ingested": 3,
+  "run_id": 147,
+  "generation_evaluated": 140,
+  "next_generation": 141,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 139,
-    "best_fitness": 0.8901,
-    "best_agent": "Concis-133.2",
-    "best_agent_id": "fe341be112924ae2",
-    "avg_fitness": 0.8824,
+    "generation": 140,
+    "best_fitness": 0.8269,
+    "best_agent": "Analytique-140.2",
+    "best_agent_id": "49193fe4706e4845",
+    "avg_fitness": 0.8262,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
-    "title": "Veille concis : remembering, batteries, release en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
+    "title": "Veille analytique : books, deepseek-v4-flash-vision-exp, high-performance en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 140,
+      "population": 5,
+      "avg_fitness": 0.82622,
+      "best_fitness": 0.8269
+    },
     {
       "generation": 139,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.87278,
       "best_fitness": 0.8805
-    },
-    {
-      "generation": 130,
-      "population": 5,
-      "avg_fitness": 0.8511200000000001,
-      "best_fitness": 0.8514
     }
   ]
 }
