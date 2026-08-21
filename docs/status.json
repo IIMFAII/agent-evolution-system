@@ -1,25 +1,31 @@
 {
-  "run_id": 149,
-  "generation_evaluated": 142,
-  "next_generation": 143,
+  "run_id": 150,
+  "generation_evaluated": 143,
+  "next_generation": 144,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 142,
-    "best_fitness": 0.837,
+    "generation": 143,
+    "best_fitness": 0.8479,
     "best_agent": "Analytique-142.2",
-    "best_agent_id": "145cd4835a234c59",
-    "avg_fitness": 0.8324,
+    "best_agent_id": "f486d232cdd24861",
+    "avg_fitness": 0.8433,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
-    "title": "Veille analytique : text-to-speech, constitution, foundation en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille analytique : meeting-recording, stratégique, performance en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 143,
+      "population": 5,
+      "avg_fitness": 0.8433400000000001,
+      "best_fitness": 0.8479
+    },
     {
       "generation": 142,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 133,
-      "population": 5,
-      "avg_fitness": 0.83682,
-      "best_fitness": 0.8629
     }
   ]
 }
