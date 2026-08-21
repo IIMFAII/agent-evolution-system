@@ -1,25 +1,30 @@
 {
-  "run_id": 140,
-  "generation_evaluated": 133,
-  "next_generation": 134,
+  "run_id": 141,
+  "generation_evaluated": 134,
+  "next_generation": 135,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 133,
-    "best_fitness": 0.8629,
+    "generation": 134,
+    "best_fitness": 0.1,
     "best_agent": "Concis-133.2",
-    "best_agent_id": "fd2a49f845394e3a",
-    "avg_fitness": 0.8368,
+    "best_agent_id": "44d5a5b299494f16",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.8 h, minimum 12 h",
-    "title": "Veille concis : consequence, scientists, prosecuted en 4 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 134,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 133,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8280200000000001,
       "best_fitness": 0.8329
-    },
-    {
-      "generation": 124,
-      "population": 5,
-      "avg_fitness": 0.8859999999999999,
-      "best_fitness": 0.8929
     }
   ]
 }
