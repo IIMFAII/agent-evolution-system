@@ -1,25 +1,33 @@
 {
-  "run_id": 143,
-  "generation_evaluated": 136,
-  "next_generation": 137,
-  "items_ingested": 3,
+  "run_id": 144,
+  "generation_evaluated": 137,
+  "next_generation": 138,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 136,
-    "best_fitness": 0.8543,
+    "generation": 137,
+    "best_fitness": 0.8582,
     "best_agent": "Concis-133.2",
-    "best_agent_id": "48272ac62a4a48cc",
-    "avg_fitness": 0.852,
+    "best_agent_id": "7c55299547434908",
+    "avg_fitness": 0.8488,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
-    "title": "Veille concis : books, intelligence, artificial en 3 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : experience, intervened, religious en 2 signaux à suivre",
+    "agent": "Concis-133.2",
+    "fitness": 0.8582,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-21-veille-concis-experience-intervened-religious-en-2-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 137,
+      "population": 5,
+      "avg_fitness": 0.84884,
+      "best_fitness": 0.8582
+    },
     {
       "generation": 136,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8393200000000001,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 127,
-      "population": 5,
-      "avg_fitness": 0.9206,
-      "best_fitness": 0.9229
     }
   ]
 }

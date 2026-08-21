@@ -1,34 +1,36 @@
 {
- "generated_at": "2026-08-21T04:32:30+00:00",
+ "generated_at": "2026-08-21T06:36:33+00:00",
  "cycle": {
-  "run_id": 143,
-  "generation_evaluated": 136,
-  "next_generation": 137,
-  "items_ingested": 3,
+  "run_id": 144,
+  "generation_evaluated": 137,
+  "next_generation": 138,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
-   "title": "Veille concis : books, intelligence, artificial en 3 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : experience, intervened, religious en 2 signaux à suivre",
+   "agent": "Concis-133.2",
+   "fitness": 0.8582,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-21-veille-concis-experience-intervened-religious-en-2-signaux-a.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 136,
-  "best_fitness": 0.8543,
+  "generation": 137,
+  "best_fitness": 0.8582,
   "best_agent": "Concis-133.2",
-  "best_agent_id": "48272ac62a4a48cc",
-  "avg_fitness": 0.852,
+  "best_agent_id": "7c55299547434908",
+  "avg_fitness": 0.8488,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "48272ac62a4a48cc",
-   "fitness": 0.8543,
+   "agent_id": "7c55299547434908",
+   "fitness": 0.8582,
    "readability": 1.0,
-   "keyword_score": 0.3714,
+   "keyword_score": 0.3912,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +41,63 @@
    "mutation_rate": 0.8686463401350741
   },
   {
-   "agent_id": "2d0f6a7db30f4642",
-   "fitness": 0.8543,
+   "agent_id": "e24feb51d02040ba",
+   "fitness": 0.8582,
    "readability": 1.0,
-   "keyword_score": 0.3714,
+   "keyword_score": 0.3912,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-136.2",
-   "tone": "prospectif",
+   "name": "Analytique-137.2",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.5413578860225724,
-   "mutation_rate": 0.87
+   "temperature": 0.6735109722812578,
+   "mutation_rate": 0.89
   },
   {
-   "agent_id": "ebde5a1f4161432e",
-   "fitness": 0.8543,
+   "agent_id": "540904c08d854a65",
+   "fitness": 0.8582,
    "readability": 1.0,
-   "keyword_score": 0.3714,
+   "keyword_score": 0.3912,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-136.3",
-   "tone": "prospectif",
+   "name": "Analytique-137.5",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.5284893681608394,
-   "mutation_rate": 0.8543231700675371
+   "temperature": 0.5345450712967696,
+   "mutation_rate": 0.8821615850337685
   },
   {
-   "agent_id": "fce3aa3dc62f4651",
-   "fitness": 0.8543,
+   "agent_id": "a9881b8187324ba0",
+   "fitness": 0.8468,
    "readability": 1.0,
-   "keyword_score": 0.3714,
+   "keyword_score": 0.3341,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-136.4",
+   "name": "Critique-137.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.4195517976622142,
+   "mutation_rate": 0.8814847551013056
+  },
+  {
+   "agent_id": "52c291863df7462e",
+   "fitness": 0.8228,
+   "readability": 1.0,
+   "keyword_score": 0.3341,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-137.4",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.6627250616427126,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "9b1f06a35c7e4cb8",
-   "fitness": 0.8429,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-136.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.29682025131065837,
-   "mutation_rate": 0.8543231700675371
+   "temperature": 0.6454532307728529,
+   "mutation_rate": 0.8821615850337685
   }
  ],
  "generations": [
-  {
-   "generation": 77,
-   "population": 5,
-   "avg_fitness": 0.83066,
-   "best_fitness": 0.8382,
-   "worst_fitness": 0.8279
-  },
   {
    "generation": 78,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8520199999999999,
    "best_fitness": 0.8543,
    "worst_fitness": 0.8429
+  },
+  {
+   "generation": 137,
+   "population": 5,
+   "avg_fitness": 0.84884,
+   "best_fitness": 0.8582,
+   "worst_fitness": 0.8228
   }
  ],
  "runs": [
+  {
+   "id": 144,
+   "started_at": "2026-08-21T06:36:25+00:00",
+   "finished_at": "2026-08-21T06:36:33+00:00",
+   "generation": 137,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 143,
    "started_at": "2026-08-21T04:32:23+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.4 h, minimum 12 h"
-  },
-  {
-   "id": 104,
-   "started_at": "2026-08-17T22:18:28+00:00",
-   "finished_at": "2026-08-17T22:18:33+00:00",
-   "generation": 98,
-   "status": "success",
-   "items_ingested": 3,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.8 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : experience, intervened, religious en 2 signaux à suivre",
+   "slug": "2026-08-21-veille-concis-experience-intervened-religious-en-2-signaux-a",
+   "fitness": 0.8582,
+   "generation": 137,
+   "created_at": "2026-08-21T06:36:33+00:00",
+   "agent_name": "Concis-133.2",
+   "tone": "concis"
+  },
   {
    "title": "Veille prospectif : optimizing, cybersyn, biology en 4 signaux à suivre",
    "slug": "2026-08-20-veille-prospectif-optimizing-cybersyn-biology-en-4-signaux-a",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-10T16:48:42+00:00",
    "agent_name": "Concis-9.3",
    "tone": "concis"
-  },
-  {
-   "title": "Veille concis : into, satellite, hackerone en 3 signaux à suivre",
-   "slug": "2026-08-10-veille-concis-into-satellite-hackerone-en-3-signaux-a-suivre",
-   "fitness": 0.8704,
-   "generation": 10,
-   "created_at": "2026-08-10T03:48:21+00:00",
-   "agent_name": "Concis-9.3",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 23,
+  "publications": 24,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4663,
+    "score": 0.469,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 23 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 24 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
