@@ -1,25 +1,31 @@
 {
-  "run_id": 147,
-  "generation_evaluated": 140,
-  "next_generation": 141,
+  "run_id": 148,
+  "generation_evaluated": 141,
+  "next_generation": 142,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 140,
-    "best_fitness": 0.8269,
-    "best_agent": "Analytique-140.2",
-    "best_agent_id": "49193fe4706e4845",
-    "avg_fitness": 0.8262,
+    "generation": 141,
+    "best_fitness": 0.8562,
+    "best_agent": "Prospectif-141.2",
+    "best_agent_id": "45172d5cf4f349e9",
+    "avg_fitness": 0.8516,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille analytique : books, deepseek-v4-flash-vision-exp, high-performance en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+    "title": "Veille prospectif : search, pre-invented, paywalled en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 141,
+      "population": 5,
+      "avg_fitness": 0.85164,
+      "best_fitness": 0.8562
+    },
     {
       "generation": 140,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8382799999999999,
       "best_fitness": 0.8474
-    },
-    {
-      "generation": 131,
-      "population": 5,
-      "avg_fitness": 0.87278,
-      "best_fitness": 0.8805
     }
   ]
 }
