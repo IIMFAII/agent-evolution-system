@@ -1,25 +1,31 @@
 {
-  "run_id": 148,
-  "generation_evaluated": 141,
-  "next_generation": 142,
-  "items_ingested": 4,
+  "run_id": 149,
+  "generation_evaluated": 142,
+  "next_generation": 143,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 141,
-    "best_fitness": 0.8562,
-    "best_agent": "Prospectif-141.2",
-    "best_agent_id": "45172d5cf4f349e9",
-    "avg_fitness": 0.8516,
+    "generation": 142,
+    "best_fitness": 0.837,
+    "best_agent": "Analytique-142.2",
+    "best_agent_id": "145cd4835a234c59",
+    "avg_fitness": 0.8324,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
-    "title": "Veille prospectif : search, pre-invented, paywalled en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
+    "title": "Veille analytique : text-to-speech, constitution, foundation en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 142,
+      "population": 5,
+      "avg_fitness": 0.8323599999999999,
+      "best_fitness": 0.837
+    },
     {
       "generation": 141,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83682,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 132,
-      "population": 5,
-      "avg_fitness": 0.8382799999999999,
-      "best_fitness": 0.8474
     }
   ]
 }
