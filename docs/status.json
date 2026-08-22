@@ -1,25 +1,31 @@
 {
-  "run_id": 155,
-  "generation_evaluated": 148,
-  "next_generation": 149,
+  "run_id": 156,
+  "generation_evaluated": 149,
+  "next_generation": 150,
   "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 148,
-    "best_fitness": 0.8543,
+    "generation": 149,
+    "best_fitness": 0.8629,
     "best_agent": "Critique-148.5",
-    "best_agent_id": "e7ca1570f6734fc6",
-    "avg_fitness": 0.8429,
+    "best_agent_id": "363c1032675145d7",
+    "avg_fitness": 0.8491,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
-    "title": "Veille critique : humans, likely, sugary en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.2 h, minimum 12 h",
+    "title": "Veille critique : reduction, price en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 149,
+      "population": 5,
+      "avg_fitness": 0.84914,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 148,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82622,
       "best_fitness": 0.8269
-    },
-    {
-      "generation": 139,
-      "population": 5,
-      "avg_fitness": 0.88242,
-      "best_fitness": 0.8901
     }
   ]
 }
