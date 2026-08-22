@@ -1,25 +1,31 @@
 {
-  "run_id": 153,
-  "generation_evaluated": 146,
-  "next_generation": 147,
-  "items_ingested": 4,
+  "run_id": 154,
+  "generation_evaluated": 147,
+  "next_generation": 148,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 146,
-    "best_fitness": 0.8322,
-    "best_agent": "Analytique-142.2",
-    "best_agent_id": "ba980db0209f4c15",
-    "avg_fitness": 0.8208,
+    "generation": 147,
+    "best_fitness": 0.8468,
+    "best_agent": "Critique-147.2",
+    "best_agent_id": "d1a4e00e7f294dd9",
+    "avg_fitness": 0.8364,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.6 h, minimum 12 h",
-    "title": "Veille analytique : interference, leadership, opposition en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.5 h, minimum 12 h",
+    "title": "Veille critique : partnership, non-folding, software en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 147,
+      "population": 5,
+      "avg_fitness": 0.8364,
+      "best_fitness": 0.8468
+    },
     {
       "generation": 146,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85512,
       "best_fitness": 0.8597
-    },
-    {
-      "generation": 137,
-      "population": 5,
-      "avg_fitness": 0.84884,
-      "best_fitness": 0.8582
     }
   ]
 }
