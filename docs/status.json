@@ -1,25 +1,31 @@
 {
-  "run_id": 160,
-  "generation_evaluated": 153,
-  "next_generation": 154,
-  "items_ingested": 4,
+  "run_id": 161,
+  "generation_evaluated": 154,
+  "next_generation": 155,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 153,
-    "best_fitness": 0.8269,
+    "generation": 154,
+    "best_fitness": 0.8989,
     "best_agent": "Analytique-153.5",
-    "best_agent_id": "828aba9283aa4bd8",
-    "avg_fitness": 0.8199,
+    "best_agent_id": "5fa825baac5f4b76",
+    "avg_fitness": 0.8897,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille analytique : problem-solving, algorithmic, critique en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+    "title": "Veille analytique : thirteenlabs, introduction, elevenlabs en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 154,
+      "population": 5,
+      "avg_fitness": 0.88972,
+      "best_fitness": 0.8989
+    },
     {
       "generation": 153,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8234600000000001,
       "best_fitness": 0.8303
-    },
-    {
-      "generation": 144,
-      "population": 5,
-      "avg_fitness": 0.8313200000000001,
-      "best_fitness": 0.8365
     }
   ]
 }
