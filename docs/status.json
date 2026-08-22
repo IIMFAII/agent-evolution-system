@@ -1,25 +1,31 @@
 {
-  "run_id": 152,
-  "generation_evaluated": 145,
-  "next_generation": 146,
-  "items_ingested": 2,
+  "run_id": 153,
+  "generation_evaluated": 146,
+  "next_generation": 147,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 145,
-    "best_fitness": 0.8303,
+    "generation": 146,
+    "best_fitness": 0.8322,
     "best_agent": "Analytique-142.2",
-    "best_agent_id": "db080e7855cb45d9",
-    "avg_fitness": 0.8235,
+    "best_agent_id": "ba980db0209f4c15",
+    "avg_fitness": 0.8208,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille analytique : salespatriot, impressions, engineers en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.6 h, minimum 12 h",
+    "title": "Veille analytique : interference, leadership, opposition en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 146,
+      "population": 5,
+      "avg_fitness": 0.8207800000000001,
+      "best_fitness": 0.8322
+    },
     {
       "generation": 145,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84884,
       "best_fitness": 0.8582
-    },
-    {
-      "generation": 136,
-      "population": 5,
-      "avg_fitness": 0.8520199999999999,
-      "best_fitness": 0.8543
     }
   ]
 }
