@@ -1,25 +1,33 @@
 {
-  "run_id": 163,
-  "generation_evaluated": 156,
-  "next_generation": 157,
-  "items_ingested": 4,
+  "run_id": 164,
+  "generation_evaluated": 157,
+  "next_generation": 158,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 156,
-    "best_fitness": 0.8738,
+    "generation": 157,
+    "best_fitness": 0.8859,
     "best_agent": "Analytique-153.5",
-    "best_agent_id": "f00e7fa980304878",
-    "avg_fitness": 0.86,
+    "best_agent_id": "ad0b1bcab0d648ef",
+    "avg_fitness": 0.8791,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
-    "title": "Veille analytique : your, deprecated, hdiutil en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : translator, converge, claudish en 3 signaux à suivre",
+    "agent": "Analytique-153.5",
+    "fitness": 0.8859,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-22-veille-analytique-translator-converge-claudish-en-3-signaux.md"
   },
   "history": [
+    {
+      "generation": 157,
+      "population": 5,
+      "avg_fitness": 0.8790600000000002,
+      "best_fitness": 0.8859
+    },
     {
       "generation": 156,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8428799999999999,
       "best_fitness": 0.8543
-    },
-    {
-      "generation": 147,
-      "population": 5,
-      "avg_fitness": 0.8364,
-      "best_fitness": 0.8468
     }
   ]
 }
