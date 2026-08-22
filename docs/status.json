@@ -1,27 +1,31 @@
 {
-  "run_id": 157,
-  "generation_evaluated": 150,
-  "next_generation": 151,
+  "run_id": 158,
+  "generation_evaluated": 151,
+  "next_generation": 152,
   "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 150,
-    "best_fitness": 0.8389,
+    "generation": 151,
+    "best_fitness": 0.8749,
     "best_agent": "Critique-148.5",
-    "best_agent_id": "3aa49a8f88284434",
-    "avg_fitness": 0.8251,
+    "best_agent_id": "622263a3472a41f0",
+    "avg_fitness": 0.8726,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : tariffs, dollar', canada en 1 signaux à suivre",
-    "agent": "Critique-148.5",
-    "fitness": 0.8389,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-22-veille-critique-tariffs-dollar-canada-en-1-signaux-a-suivre.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
+    "title": "Veille critique : maturation, important, process en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 151,
+      "population": 5,
+      "avg_fitness": 0.8725999999999999,
+      "best_fitness": 0.8749
+    },
     {
       "generation": 150,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8323599999999999,
       "best_fitness": 0.837
-    },
-    {
-      "generation": 141,
-      "population": 5,
-      "avg_fitness": 0.85164,
-      "best_fitness": 0.8562
     }
   ]
 }
