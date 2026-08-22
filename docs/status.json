@@ -1,25 +1,30 @@
 {
-  "run_id": 161,
-  "generation_evaluated": 154,
-  "next_generation": 155,
-  "items_ingested": 2,
+  "run_id": 162,
+  "generation_evaluated": 155,
+  "next_generation": 156,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 154,
-    "best_fitness": 0.8989,
+    "generation": 155,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-153.5",
-    "best_agent_id": "5fa825baac5f4b76",
-    "avg_fitness": 0.8897,
+    "best_agent_id": "0df6c3631b1149a8",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
-    "title": "Veille analytique : thirteenlabs, introduction, elevenlabs en 2 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 155,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 154,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8207800000000001,
       "best_fitness": 0.8322
-    },
-    {
-      "generation": 145,
-      "population": 5,
-      "avg_fitness": 0.8234600000000001,
-      "best_fitness": 0.8303
     }
   ]
 }
