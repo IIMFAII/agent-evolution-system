@@ -1,25 +1,31 @@
 {
-  "run_id": 154,
-  "generation_evaluated": 147,
-  "next_generation": 148,
-  "items_ingested": 2,
+  "run_id": 155,
+  "generation_evaluated": 148,
+  "next_generation": 149,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 147,
-    "best_fitness": 0.8468,
-    "best_agent": "Critique-147.2",
-    "best_agent_id": "d1a4e00e7f294dd9",
-    "avg_fitness": 0.8364,
+    "generation": 148,
+    "best_fitness": 0.8543,
+    "best_agent": "Critique-148.5",
+    "best_agent_id": "e7ca1570f6734fc6",
+    "avg_fitness": 0.8429,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.5 h, minimum 12 h",
-    "title": "Veille critique : partnership, non-folding, software en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
+    "title": "Veille critique : humans, likely, sugary en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 148,
+      "population": 5,
+      "avg_fitness": 0.8428799999999999,
+      "best_fitness": 0.8543
+    },
     {
       "generation": 147,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.88242,
       "best_fitness": 0.8901
-    },
-    {
-      "generation": 138,
-      "population": 5,
-      "avg_fitness": 0.85512,
-      "best_fitness": 0.8597
     }
   ]
 }
