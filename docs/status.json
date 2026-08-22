@@ -1,25 +1,31 @@
 {
-  "run_id": 159,
-  "generation_evaluated": 152,
-  "next_generation": 153,
-  "items_ingested": 3,
+  "run_id": 160,
+  "generation_evaluated": 153,
+  "next_generation": 154,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 152,
-    "best_fitness": 0.8543,
-    "best_agent": "Concis-152.5",
-    "best_agent_id": "066b7b8b299341ed",
-    "avg_fitness": 0.8308,
+    "generation": 153,
+    "best_fitness": 0.8269,
+    "best_agent": "Analytique-153.5",
+    "best_agent_id": "828aba9283aa4bd8",
+    "avg_fitness": 0.8199,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
-    "title": "Veille concis : dollar, microprocessor, negotiations en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
+    "title": "Veille analytique : problem-solving, algorithmic, critique en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 153,
+      "population": 5,
+      "avg_fitness": 0.81986,
+      "best_fitness": 0.8269
+    },
     {
       "generation": 152,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8313200000000001,
       "best_fitness": 0.8365
-    },
-    {
-      "generation": 143,
-      "population": 5,
-      "avg_fitness": 0.8433400000000001,
-      "best_fitness": 0.8479
     }
   ]
 }
