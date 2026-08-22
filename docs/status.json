@@ -1,25 +1,31 @@
 {
-  "run_id": 158,
-  "generation_evaluated": 151,
-  "next_generation": 152,
-  "items_ingested": 1,
+  "run_id": 159,
+  "generation_evaluated": 152,
+  "next_generation": 153,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 151,
-    "best_fitness": 0.8749,
-    "best_agent": "Critique-148.5",
-    "best_agent_id": "622263a3472a41f0",
-    "avg_fitness": 0.8726,
+    "generation": 152,
+    "best_fitness": 0.8543,
+    "best_agent": "Concis-152.5",
+    "best_agent_id": "066b7b8b299341ed",
+    "avg_fitness": 0.8308,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 1.9 h, minimum 12 h",
-    "title": "Veille critique : maturation, important, process en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
+    "title": "Veille concis : dollar, microprocessor, negotiations en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 152,
+      "population": 5,
+      "avg_fitness": 0.83076,
+      "best_fitness": 0.8543
+    },
     {
       "generation": 151,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8433400000000001,
       "best_fitness": 0.8479
-    },
-    {
-      "generation": 142,
-      "population": 5,
-      "avg_fitness": 0.8323599999999999,
-      "best_fitness": 0.837
     }
   ]
 }
