@@ -1,24 +1,31 @@
 {
-  "run_id": 162,
-  "generation_evaluated": 155,
-  "next_generation": 156,
-  "items_ingested": 3,
+  "run_id": 163,
+  "generation_evaluated": 156,
+  "next_generation": 157,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 155,
-    "best_fitness": 0.1,
+    "generation": 156,
+    "best_fitness": 0.8738,
     "best_agent": "Analytique-153.5",
-    "best_agent_id": "0df6c3631b1149a8",
-    "avg_fitness": 0.1,
+    "best_agent_id": "f00e7fa980304878",
+    "avg_fitness": 0.86,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille analytique : your, deprecated, hdiutil en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 156,
+      "population": 5,
+      "avg_fitness": 0.86004,
+      "best_fitness": 0.8738
+    },
     {
       "generation": 155,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8364,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 146,
-      "population": 5,
-      "avg_fitness": 0.8207800000000001,
-      "best_fitness": 0.8322
     }
   ]
 }
