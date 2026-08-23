@@ -1,25 +1,31 @@
 {
-  "run_id": 165,
-  "generation_evaluated": 158,
-  "next_generation": 159,
-  "items_ingested": 1,
+  "run_id": 167,
+  "generation_evaluated": 159,
+  "next_generation": 160,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 158,
-    "best_fitness": 0.9229,
+    "generation": 159,
+    "best_fitness": 0.856,
     "best_agent": "Analytique-153.5",
-    "best_agent_id": "f18d6983470a4a09",
-    "avg_fitness": 0.92,
+    "best_agent_id": "b460f330c205477b",
+    "avg_fitness": 0.8509,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.7 h, minimum 12 h",
-    "title": "Veille analytique : speedrun, frontier, nanogpt en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.3 h, minimum 12 h",
+    "title": "Veille analytique : cross-platform, computing, emulator en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 159,
+      "population": 5,
+      "avg_fitness": 0.85086,
+      "best_fitness": 0.856
+    },
     {
       "generation": 158,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82514,
       "best_fitness": 0.8389
-    },
-    {
-      "generation": 149,
-      "population": 5,
-      "avg_fitness": 0.84914,
-      "best_fitness": 0.8629
     }
   ]
 }
