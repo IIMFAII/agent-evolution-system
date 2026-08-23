@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-23T18:20:58+00:00",
+ "generated_at": "2026-08-23T20:16:17+00:00",
  "cycle": {
-  "run_id": 174,
+  "run_id": 175,
   "generation_evaluated": 166,
   "items_ingested": 0,
   "status": "no_data",
@@ -436,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 175,
+   "started_at": "2026-08-23T20:16:12+00:00",
+   "finished_at": "2026-08-23T20:16:17+00:00",
+   "generation": 166,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 174,
    "started_at": "2026-08-23T18:20:47+00:00",
    "finished_at": "2026-08-23T18:20:58+00:00",
@@ -785,15 +794,6 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.0 h, minimum 12 h"
-  },
-  {
-   "id": 135,
-   "started_at": "2026-08-20T12:36:35+00:00",
-   "finished_at": "2026-08-20T12:36:42+00:00",
-   "generation": 128,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.1 h, minimum 12 h"
   }
  ],
  "publications": [
