@@ -1,25 +1,31 @@
 {
-  "run_id": 172,
-  "generation_evaluated": 164,
-  "next_generation": 165,
-  "items_ingested": 2,
+  "run_id": 173,
+  "generation_evaluated": 165,
+  "next_generation": 166,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 164,
-    "best_fitness": 0.8543,
+    "generation": 165,
+    "best_fitness": 0.8882,
     "best_agent": "Concis-164.4",
-    "best_agent_id": "bd97e546fd624ec9",
-    "avg_fitness": 0.8441,
+    "best_agent_id": "33bf9c1a259d4d97",
+    "avg_fitness": 0.8695,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
-    "title": "Veille concis : android-based, automotive, firmware en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
+    "title": "Veille concis : authoritarianism, slovakia, backdoor en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 165,
+      "population": 5,
+      "avg_fitness": 0.8694599999999999,
+      "best_fitness": 0.8882
+    },
     {
       "generation": 164,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.86004,
       "best_fitness": 0.8738
-    },
-    {
-      "generation": 155,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
