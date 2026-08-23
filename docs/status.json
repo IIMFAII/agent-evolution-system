@@ -1,25 +1,31 @@
 {
-  "run_id": 171,
-  "generation_evaluated": 163,
-  "next_generation": 164,
-  "items_ingested": 4,
+  "run_id": 172,
+  "generation_evaluated": 164,
+  "next_generation": 165,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 163,
-    "best_fitness": 0.8339,
-    "best_agent": "Analytique-153.5",
-    "best_agent_id": "a87357b35895420a",
-    "avg_fitness": 0.8287,
+    "generation": 164,
+    "best_fitness": 0.8543,
+    "best_agent": "Concis-164.4",
+    "best_agent_id": "bd97e546fd624ec9",
+    "avg_fitness": 0.8441,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.2 h, minimum 12 h",
-    "title": "Veille analytique : reverse-engineering, sloppification, declassified en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
+    "title": "Veille concis : android-based, automotive, firmware en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 164,
+      "population": 5,
+      "avg_fitness": 0.84412,
+      "best_fitness": 0.8543
+    },
     {
       "generation": 163,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 154,
-      "population": 5,
-      "avg_fitness": 0.88972,
-      "best_fitness": 0.8989
     }
   ]
 }
