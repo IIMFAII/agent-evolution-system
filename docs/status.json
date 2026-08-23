@@ -1,25 +1,31 @@
 {
-  "run_id": 168,
-  "generation_evaluated": 160,
-  "next_generation": 161,
-  "items_ingested": 3,
+  "run_id": 169,
+  "generation_evaluated": 161,
+  "next_generation": 162,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 160,
-    "best_fitness": 0.8523,
+    "generation": 161,
+    "best_fitness": 0.8574,
     "best_agent": "Analytique-153.5",
-    "best_agent_id": "e2adb7a49e994c4a",
-    "avg_fitness": 0.8477,
+    "best_agent_id": "dc56620e95af4d4e",
+    "avg_fitness": 0.8483,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
-    "title": "Veille analytique : successor, becoming, missing en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.1 h, minimum 12 h",
+    "title": "Veille analytique : compiling, wireless, upgrade en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 161,
+      "population": 5,
+      "avg_fitness": 0.8482799999999999,
+      "best_fitness": 0.8574
+    },
     {
       "generation": 160,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83076,
       "best_fitness": 0.8543
-    },
-    {
-      "generation": 151,
-      "population": 5,
-      "avg_fitness": 0.8725999999999999,
-      "best_fitness": 0.8749
     }
   ]
 }
