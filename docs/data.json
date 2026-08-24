@@ -1,25 +1,103 @@
 {
- "generated_at": "2026-08-24T12:37:46+00:00",
+ "generated_at": "2026-08-24T14:36:01+00:00",
  "cycle": {
-  "run_id": 183,
+  "run_id": 184,
   "generation_evaluated": 166,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 167,
+  "items_ingested": 1,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
-   "published": false,
-   "reason": "aucun item nouveau"
+   "published": true,
+   "title": "Veille concis : entreprises, partout, presque en 1 signaux à suivre",
+   "agent": "Concis-164.4",
+   "fitness": 0.8543,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-24-veille-concis-entreprises-partout-presque-en-1-signaux-a-sui.md"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 166,
+  "best_fitness": 0.8543,
+  "best_agent": "Concis-164.4",
+  "best_agent_id": "48af557a2f454075",
+  "avg_fitness": 0.852,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 106,
-   "population": 5,
-   "avg_fitness": 0.8207800000000001,
-   "best_fitness": 0.8322,
-   "worst_fitness": 0.8093
+   "agent_id": "48af557a2f454075",
+   "fitness": 0.8543,
+   "readability": 1.0,
+   "keyword_score": 0.3714,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-164.4",
+   "tone": "concis",
+   "origin": "elite",
+   "temperature": 0.2606700538218426,
+   "mutation_rate": 0.87
   },
+  {
+   "agent_id": "ee60d2263b2c46c9",
+   "fitness": 0.8543,
+   "readability": 1.0,
+   "keyword_score": 0.3714,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-166.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.2811615587643294,
+   "mutation_rate": 0.8325
+  },
+  {
+   "agent_id": "745451c232c840b6",
+   "fitness": 0.8543,
+   "readability": 1.0,
+   "keyword_score": 0.3714,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-166.4",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.31100347988411614,
+   "mutation_rate": 0.8174999999999999
+  },
+  {
+   "agent_id": "a63bfb58ebb947c8",
+   "fitness": 0.8543,
+   "readability": 1.0,
+   "keyword_score": 0.3714,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-166.5",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.36670176450523195,
+   "mutation_rate": 0.8099999999999999
+  },
+  {
+   "agent_id": "620bb678f6a64d62",
+   "fitness": 0.8429,
+   "readability": 1.0,
+   "keyword_score": 0.3143,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-166.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.40572234494850906,
+   "mutation_rate": 0.8174999999999999
+  }
+ ],
+ "generations": [
   {
    "generation": 107,
    "population": 5,
@@ -432,9 +510,25 @@
    "avg_fitness": 0.8694599999999999,
    "best_fitness": 0.8882,
    "worst_fitness": 0.8531
+  },
+  {
+   "generation": 166,
+   "population": 5,
+   "avg_fitness": 0.8520199999999999,
+   "best_fitness": 0.8543,
+   "worst_fitness": 0.8429
   }
  ],
  "runs": [
+  {
+   "id": 184,
+   "started_at": "2026-08-24T14:35:55+00:00",
+   "finished_at": "2026-08-24T14:36:01+00:00",
+   "generation": 166,
+   "status": "success",
+   "items_ingested": 1,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 183,
    "started_at": "2026-08-24T12:37:39+00:00",
@@ -785,18 +879,18 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 2.0 h, minimum 12 h"
-  },
-  {
-   "id": 144,
-   "started_at": "2026-08-21T06:36:25+00:00",
-   "finished_at": "2026-08-21T06:36:33+00:00",
-   "generation": 137,
-   "status": "success",
-   "items_ingested": 2,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : entreprises, partout, presque en 1 signaux à suivre",
+   "slug": "2026-08-24-veille-concis-entreprises-partout-presque-en-1-signaux-a-sui",
+   "fitness": 0.8543,
+   "generation": 166,
+   "created_at": "2026-08-24T14:36:01+00:00",
+   "agent_name": "Concis-164.4",
+   "tone": "concis"
+  },
   {
    "title": "Veille analytique : neurotypical, individuals, tragically en 1 signaux à suivre",
    "slug": "2026-08-23-veille-analytique-neurotypical-individuals-tragically-en-1-s",
@@ -967,15 +1061,6 @@
    "created_at": "2026-08-13T09:06:29+00:00",
    "agent_name": "Prospectif-22.4",
    "tone": "prospectif"
-  },
-  {
-   "title": "Veille prospectif : connectedness, intelligence, artificial en 3 signaux à suivre",
-   "slug": "2026-08-12-veille-prospectif-connectedness-intelligence-artificial-en-3",
-   "fitness": 0.8394,
-   "generation": 42,
-   "created_at": "2026-08-12T20:37:29+00:00",
-   "agent_name": "Prospectif-22.4",
-   "tone": "prospectif"
   }
  ],
  "sources": {
@@ -987,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 28,
+  "publications": 29,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1079,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4797,
+    "score": 0.4823,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 28 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 29 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
