@@ -1,102 +1,17 @@
 {
- "generated_at": "2026-08-24T14:36:01+00:00",
+ "generated_at": "2026-08-24T16:29:54+00:00",
  "cycle": {
-  "run_id": 184,
-  "generation_evaluated": 166,
-  "next_generation": 167,
-  "items_ingested": 1,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 185,
+  "generation_evaluated": 167,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
-   "published": true,
-   "title": "Veille concis : entreprises, partout, presque en 1 signaux à suivre",
-   "agent": "Concis-164.4",
-   "fitness": 0.8543,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-24-veille-concis-entreprises-partout-presque-en-1-signaux-a-sui.md"
+   "published": false,
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 166,
-  "best_fitness": 0.8543,
-  "best_agent": "Concis-164.4",
-  "best_agent_id": "48af557a2f454075",
-  "avg_fitness": 0.852,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "48af557a2f454075",
-   "fitness": 0.8543,
-   "readability": 1.0,
-   "keyword_score": 0.3714,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-164.4",
-   "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.2606700538218426,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "ee60d2263b2c46c9",
-   "fitness": 0.8543,
-   "readability": 1.0,
-   "keyword_score": 0.3714,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-166.2",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.2811615587643294,
-   "mutation_rate": 0.8325
-  },
-  {
-   "agent_id": "745451c232c840b6",
-   "fitness": 0.8543,
-   "readability": 1.0,
-   "keyword_score": 0.3714,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-166.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.31100347988411614,
-   "mutation_rate": 0.8174999999999999
-  },
-  {
-   "agent_id": "a63bfb58ebb947c8",
-   "fitness": 0.8543,
-   "readability": 1.0,
-   "keyword_score": 0.3714,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-166.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.36670176450523195,
-   "mutation_rate": 0.8099999999999999
-  },
-  {
-   "agent_id": "620bb678f6a64d62",
-   "fitness": 0.8429,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-166.3",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.40572234494850906,
-   "mutation_rate": 0.8174999999999999
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 107,
@@ -521,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 185,
+   "started_at": "2026-08-24T16:29:49+00:00",
+   "finished_at": "2026-08-24T16:29:54+00:00",
+   "generation": 167,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 184,
    "started_at": "2026-08-24T14:35:55+00:00",
    "finished_at": "2026-08-24T14:36:01+00:00",
@@ -870,15 +794,6 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.8 h, minimum 12 h"
-  },
-  {
-   "id": 145,
-   "started_at": "2026-08-21T08:33:41+00:00",
-   "finished_at": "2026-08-21T08:33:47+00:00",
-   "generation": 138,
-   "status": "success",
-   "items_ingested": 3,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 2.0 h, minimum 12 h"
   }
  ],
  "publications": [
