@@ -1,25 +1,31 @@
 {
-  "run_id": 186,
-  "generation_evaluated": 167,
-  "next_generation": 168,
-  "items_ingested": 3,
+  "run_id": 187,
+  "generation_evaluated": 168,
+  "next_generation": 169,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 167,
-    "best_fitness": 0.8389,
+    "generation": 168,
+    "best_fitness": 0.8285,
     "best_agent": "Concis-164.4",
-    "best_agent_id": "c5372e8fe2cb424d",
-    "avg_fitness": 0.8366,
+    "best_agent_id": "ef9f810d16324454",
+    "avg_fitness": 0.8239,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
-    "title": "Veille concis : spécification, l'évaluerait, publicités en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
+    "title": "Veille concis : export-blocked, temperature, highlights en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 168,
+      "population": 5,
+      "avg_fitness": 0.82394,
+      "best_fitness": 0.8285
+    },
     {
       "generation": 167,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85086,
       "best_fitness": 0.856
-    },
-    {
-      "generation": 158,
-      "population": 5,
-      "avg_fitness": 0.9200200000000001,
-      "best_fitness": 0.9229
     }
   ]
 }
