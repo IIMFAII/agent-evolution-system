@@ -1,25 +1,31 @@
 {
-  "run_id": 199,
-  "generation_evaluated": 179,
-  "next_generation": 180,
+  "run_id": 200,
+  "generation_evaluated": 180,
+  "next_generation": 181,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 179,
-    "best_fitness": 0.8569,
+    "generation": 180,
+    "best_fitness": 0.8189,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "f4fcd708e0cf42a9",
-    "avg_fitness": 0.8521,
+    "best_agent_id": "0bedba6e720c4b5f",
+    "avg_fitness": 0.8189,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
-    "title": "Veille critique : perplexity, authorizes, read-only en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
+    "title": "Veille critique : vulnerability, pre-declared, monitoring en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 180,
+      "population": 5,
+      "avg_fitness": 0.8189,
+      "best_fitness": 0.8189
+    },
     {
       "generation": 179,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84102,
       "best_fitness": 0.8554
-    },
-    {
-      "generation": 170,
-      "population": 5,
-      "avg_fitness": 0.85204,
-      "best_fitness": 0.8566
     }
   ]
 }
