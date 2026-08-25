@@ -1,25 +1,31 @@
 {
-  "run_id": 188,
-  "generation_evaluated": 169,
-  "next_generation": 170,
-  "items_ingested": 2,
+  "run_id": 189,
+  "generation_evaluated": 170,
+  "next_generation": 171,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 169,
-    "best_fitness": 0.8509,
-    "best_agent": "Concis-164.4",
-    "best_agent_id": "b3ebff6490654064",
-    "avg_fitness": 0.844,
+    "generation": 170,
+    "best_fitness": 0.8566,
+    "best_agent": "Prospectif-170.2",
+    "best_agent_id": "f4ea33bf35fc47af",
+    "avg_fitness": 0.852,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
-    "title": "Veille concis : intelligence, artificial, insisting en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
+    "title": "Veille prospectif : icloud, fingerprint, self-hosted en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 170,
+      "population": 5,
+      "avg_fitness": 0.85204,
+      "best_fitness": 0.8566
+    },
     {
       "generation": 169,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8482799999999999,
       "best_fitness": 0.8574
-    },
-    {
-      "generation": 160,
-      "population": 5,
-      "avg_fitness": 0.8477,
-      "best_fitness": 0.8523
     }
   ]
 }
