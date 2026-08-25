@@ -1,25 +1,31 @@
 {
-  "run_id": 193,
-  "generation_evaluated": 174,
-  "next_generation": 175,
-  "items_ingested": 1,
+  "run_id": 194,
+  "generation_evaluated": 175,
+  "next_generation": 176,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 174,
-    "best_fitness": 0.9229,
-    "best_agent": "Pédagogique-174.3",
-    "best_agent_id": "a7fcbe77966343ab",
-    "avg_fitness": 0.9137,
+    "generation": 175,
+    "best_fitness": 0.8582,
+    "best_agent": "Concis-175.3",
+    "best_agent_id": "f4a748d86f0b4e36",
+    "avg_fitness": 0.8344,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
-    "title": "Veille pédagogique : volcanoes, history, made en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.5 h, minimum 12 h",
+    "title": "Veille concis : restaurants, performance, subsequent en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 175,
+      "population": 5,
+      "avg_fitness": 0.8344400000000001,
+      "best_fitness": 0.8582
+    },
     {
       "generation": 174,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8520199999999999,
       "best_fitness": 0.8543
-    },
-    {
-      "generation": 165,
-      "population": 5,
-      "avg_fitness": 0.8694599999999999,
-      "best_fitness": 0.8882
     }
   ]
 }
