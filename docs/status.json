@@ -1,25 +1,33 @@
 {
-  "run_id": 189,
-  "generation_evaluated": 170,
-  "next_generation": 171,
-  "items_ingested": 5,
+  "run_id": 190,
+  "generation_evaluated": 171,
+  "next_generation": 172,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 170,
-    "best_fitness": 0.8566,
+    "generation": 171,
+    "best_fitness": 0.8554,
     "best_agent": "Prospectif-170.2",
-    "best_agent_id": "f4ea33bf35fc47af",
-    "avg_fitness": 0.852,
+    "best_agent_id": "2958194ba81e40cc",
+    "avg_fitness": 0.841,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
-    "title": "Veille prospectif : icloud, fingerprint, self-hosted en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : universities, languages, founders en 3 signaux à suivre",
+    "agent": "Prospectif-170.2",
+    "fitness": 0.8554,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-25-veille-prospectif-universities-languages-founders-en-3-signa.md"
   },
   "history": [
+    {
+      "generation": 171,
+      "population": 5,
+      "avg_fitness": 0.84102,
+      "best_fitness": 0.8554
+    },
     {
       "generation": 170,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8120200000000001,
       "best_fitness": 0.8189
-    },
-    {
-      "generation": 161,
-      "population": 5,
-      "avg_fitness": 0.8482799999999999,
-      "best_fitness": 0.8574
     }
   ]
 }
