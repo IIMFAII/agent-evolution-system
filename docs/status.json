@@ -1,27 +1,31 @@
 {
-  "run_id": 190,
-  "generation_evaluated": 171,
-  "next_generation": 172,
+  "run_id": 191,
+  "generation_evaluated": 172,
+  "next_generation": 173,
   "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 171,
-    "best_fitness": 0.8554,
+    "generation": 172,
+    "best_fitness": 0.8243,
     "best_agent": "Prospectif-170.2",
-    "best_agent_id": "2958194ba81e40cc",
-    "avg_fitness": 0.841,
+    "best_agent_id": "e3692ccce64641d7",
+    "avg_fitness": 0.8243,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : universities, languages, founders en 3 signaux à suivre",
-    "agent": "Prospectif-170.2",
-    "fitness": 0.8554,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-25-veille-prospectif-universities-languages-founders-en-3-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 1.7 h, minimum 12 h",
+    "title": "Veille prospectif : microharness, touchscreen, persistent en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 172,
+      "population": 5,
+      "avg_fitness": 0.8243,
+      "best_fitness": 0.8243
+    },
     {
       "generation": 171,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82872,
       "best_fitness": 0.8339
-    },
-    {
-      "generation": 162,
-      "population": 5,
-      "avg_fitness": 0.8120200000000001,
-      "best_fitness": 0.8189
     }
   ]
 }
