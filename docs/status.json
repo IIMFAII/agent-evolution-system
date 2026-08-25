@@ -1,25 +1,31 @@
 {
-  "run_id": 195,
-  "generation_evaluated": 176,
-  "next_generation": 177,
-  "items_ingested": 3,
+  "run_id": 196,
+  "generation_evaluated": 177,
+  "next_generation": 178,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 176,
-    "best_fitness": 0.855,
-    "best_agent": "Concis-175.3",
-    "best_agent_id": "38ae41ba718c4edb",
-    "avg_fitness": 0.8383,
+    "generation": 177,
+    "best_fitness": 0.8494,
+    "best_agent": "Critique-177.5",
+    "best_agent_id": "56301d2dfc154eeb",
+    "avg_fitness": 0.8423,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.7 h, minimum 12 h",
-    "title": "Veille concis : helloassembly, application, smallest en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
+    "title": "Veille critique : generalist, introduces, anthropic en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 177,
+      "population": 5,
+      "avg_fitness": 0.8423,
+      "best_fitness": 0.8494
+    },
     {
       "generation": 176,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82394,
       "best_fitness": 0.8285
-    },
-    {
-      "generation": 167,
-      "population": 5,
-      "avg_fitness": 0.8366,
-      "best_fitness": 0.8389
     }
   ]
 }
