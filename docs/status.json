@@ -1,25 +1,33 @@
 {
-  "run_id": 196,
-  "generation_evaluated": 177,
-  "next_generation": 178,
-  "items_ingested": 5,
+  "run_id": 197,
+  "generation_evaluated": 178,
+  "next_generation": 179,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 177,
-    "best_fitness": 0.8494,
+    "generation": 178,
+    "best_fitness": 0.8436,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "56301d2dfc154eeb",
-    "avg_fitness": 0.8423,
+    "best_agent_id": "68c2f3e3cb204ac8",
+    "avg_fitness": 0.8413,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
-    "title": "Veille critique : generalist, introduces, anthropic en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : anthropic, potential, nietzsche en 4 signaux à suivre",
+    "agent": "Critique-177.5",
+    "fitness": 0.8436,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-25-veille-critique-anthropic-potential-nietzsche-en-4-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 178,
+      "population": 5,
+      "avg_fitness": 0.84128,
+      "best_fitness": 0.8436
+    },
     {
       "generation": 177,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.844,
       "best_fitness": 0.8509
-    },
-    {
-      "generation": 168,
-      "population": 5,
-      "avg_fitness": 0.82394,
-      "best_fitness": 0.8285
     }
   ]
 }

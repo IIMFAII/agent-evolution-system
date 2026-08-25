@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-08-25T14:39:05+00:00",
+ "generated_at": "2026-08-25T16:29:47+00:00",
  "cycle": {
-  "run_id": 196,
-  "generation_evaluated": 177,
-  "next_generation": 178,
-  "items_ingested": 5,
+  "run_id": 197,
+  "generation_evaluated": 178,
+  "next_generation": 179,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
-   "title": "Veille critique : generalist, introduces, anthropic en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : anthropic, potential, nietzsche en 4 signaux à suivre",
+   "agent": "Critique-177.5",
+   "fitness": 0.8436,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-25-veille-critique-anthropic-potential-nietzsche-en-4-signaux-a.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 177,
-  "best_fitness": 0.8494,
+  "generation": 178,
+  "best_fitness": 0.8436,
   "best_agent": "Critique-177.5",
-  "best_agent_id": "56301d2dfc154eeb",
-  "avg_fitness": 0.8423,
+  "best_agent_id": "68c2f3e3cb204ac8",
+  "avg_fitness": 0.8413,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "56301d2dfc154eeb",
-   "fitness": 0.8494,
+   "agent_id": "68c2f3e3cb204ac8",
+   "fitness": 0.8436,
    "readability": 1.0,
-   "keyword_score": 0.3469,
+   "keyword_score": 0.318,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-177.5",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.39595634365663146,
    "mutation_rate": 0.8690625000000001
   },
   {
-   "agent_id": "521c5446982e4335",
-   "fitness": 0.8492,
+   "agent_id": "ce1b1fee7b7d4439",
+   "fitness": 0.8436,
    "readability": 1.0,
-   "keyword_score": 0.3458,
+   "keyword_score": 0.318,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-175.3",
-   "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.3163205677678662,
-   "mutation_rate": 0.8212499999999999
-  },
-  {
-   "agent_id": "e3874f8b355a43e1",
-   "fitness": 0.8492,
-   "readability": 1.0,
-   "keyword_score": 0.3458,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-177.4",
-   "tone": "concis",
+   "name": "Analytique-178.2",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.17784275685326967,
+   "temperature": 0.28689955025495056,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "1ff04146a81c4564",
-   "fitness": 0.8383,
+   "agent_id": "6ed7590010e046a1",
+   "fitness": 0.8436,
    "readability": 1.0,
-   "keyword_score": 0.2914,
+   "keyword_score": 0.318,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-177.2",
+   "name": "Prospectif-178.4",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.2810986992644685,
+   "temperature": 0.23151505387047527,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "8b0261b92a8b43f4",
-   "fitness": 0.8254,
+   "agent_id": "2286acf63b7e4585",
+   "fitness": 0.8434,
    "readability": 1.0,
-   "keyword_score": 0.3469,
-   "ctr_score": 0.78,
+   "keyword_score": 0.317,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-177.3",
-   "tone": "pédagogique",
+   "name": "Concis-178.3",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.30466536704176117,
-   "mutation_rate": 0.8690625000000001
+   "temperature": 0.3677687962394013,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "e5a0d63e812a4ab9",
+   "fitness": 0.8322,
+   "readability": 1.0,
+   "keyword_score": 0.2609,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-178.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.5007376474440703,
+   "mutation_rate": 0.8651562500000001
   }
  ],
  "generations": [
-  {
-   "generation": 118,
-   "population": 5,
-   "avg_fitness": 0.82934,
-   "best_fitness": 0.8322,
-   "worst_fitness": 0.8208
-  },
   {
    "generation": 119,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8423,
    "best_fitness": 0.8494,
    "worst_fitness": 0.8254
+  },
+  {
+   "generation": 178,
+   "population": 5,
+   "avg_fitness": 0.84128,
+   "best_fitness": 0.8436,
+   "worst_fitness": 0.8322
   }
  ],
  "runs": [
+  {
+   "id": 197,
+   "started_at": "2026-08-25T16:29:42+00:00",
+   "finished_at": "2026-08-25T16:29:47+00:00",
+   "generation": 178,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 196,
    "started_at": "2026-08-25T14:38:59+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 1,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 1.9 h, minimum 12 h"
-  },
-  {
-   "id": 157,
-   "started_at": "2026-08-22T08:22:04+00:00",
-   "finished_at": "2026-08-22T08:22:12+00:00",
-   "generation": 150,
-   "status": "success",
-   "items_ingested": 1,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : anthropic, potential, nietzsche en 4 signaux à suivre",
+   "slug": "2026-08-25-veille-critique-anthropic-potential-nietzsche-en-4-signaux-a",
+   "fitness": 0.8436,
+   "generation": 178,
+   "created_at": "2026-08-25T16:29:47+00:00",
+   "agent_name": "Critique-177.5",
+   "tone": "critique"
+  },
   {
    "title": "Veille prospectif : universities, languages, founders en 3 signaux à suivre",
    "slug": "2026-08-25-veille-prospectif-universities-languages-founders-en-3-signa",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-14T10:53:43+00:00",
    "agent_name": "Prospectif-22.4",
    "tone": "prospectif"
-  },
-  {
-   "title": "Veille prospectif : cybercriminals, np-overrated, security en 3 signaux à suivre",
-   "slug": "2026-08-13-veille-prospectif-cybercriminals-np-overrated-security-en-3",
-   "fitness": 0.8463,
-   "generation": 53,
-   "created_at": "2026-08-13T22:35:20+00:00",
-   "agent_name": "Prospectif-22.4",
-   "tone": "prospectif"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 30,
+  "publications": 31,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.485,
+    "score": 0.4877,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 30 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 31 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
