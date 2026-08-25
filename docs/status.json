@@ -1,25 +1,31 @@
 {
-  "run_id": 192,
-  "generation_evaluated": 173,
-  "next_generation": 174,
-  "items_ingested": 2,
+  "run_id": 193,
+  "generation_evaluated": 174,
+  "next_generation": 175,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 173,
-    "best_fitness": 0.8514,
-    "best_agent": "Prospectif-170.2",
-    "best_agent_id": "121ee3a02ac443ab",
-    "avg_fitness": 0.8486,
+    "generation": 174,
+    "best_fitness": 0.9229,
+    "best_agent": "Pédagogique-174.3",
+    "best_agent_id": "a7fcbe77966343ab",
+    "avg_fitness": 0.9137,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.7 h, minimum 12 h",
-    "title": "Veille prospectif : screenshots, markdown, sifive's en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
+    "title": "Veille pédagogique : volcanoes, history, made en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 174,
+      "population": 5,
+      "avg_fitness": 0.91372,
+      "best_fitness": 0.9229
+    },
     {
       "generation": 173,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8694599999999999,
       "best_fitness": 0.8882
-    },
-    {
-      "generation": 164,
-      "population": 5,
-      "avg_fitness": 0.84412,
-      "best_fitness": 0.8543
     }
   ]
 }
