@@ -1,25 +1,33 @@
 {
-  "run_id": 208,
-  "generation_evaluated": 188,
-  "next_generation": 189,
-  "items_ingested": 4,
+  "run_id": 209,
+  "generation_evaluated": 189,
+  "next_generation": 190,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 188,
-    "best_fitness": 0.8403,
-    "best_agent": "Critique-177.5",
-    "best_agent_id": "0727a85227ef4376",
-    "avg_fitness": 0.8332,
+    "generation": 189,
+    "best_fitness": 0.8451,
+    "best_agent": "Analytique-189.2",
+    "best_agent_id": "0d04d3be807e4693",
+    "avg_fitness": 0.8405,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.1 h, minimum 12 h",
-    "title": "Veille critique : twitter, settlement, children en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : curry, processeurs, financement en 6 signaux à suivre",
+    "agent": "Analytique-189.2",
+    "fitness": 0.8451,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-26-veille-analytique-curry-processeurs-financement-en-6-signaux.md"
   },
   "history": [
+    {
+      "generation": 189,
+      "population": 5,
+      "avg_fitness": 0.8405400000000001,
+      "best_fitness": 0.8451
+    },
     {
       "generation": 188,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8189,
       "best_fitness": 0.8189
-    },
-    {
-      "generation": 179,
-      "population": 5,
-      "avg_fitness": 0.8521000000000001,
-      "best_fitness": 0.8569
     }
   ]
 }
