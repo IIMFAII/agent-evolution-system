@@ -1,25 +1,31 @@
 {
-  "run_id": 204,
-  "generation_evaluated": 184,
-  "next_generation": 185,
-  "items_ingested": 1,
+  "run_id": 205,
+  "generation_evaluated": 185,
+  "next_generation": 186,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 184,
-    "best_fitness": 0.8274,
+    "generation": 185,
+    "best_fitness": 0.831,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "a4ec35f9a4554993",
-    "avg_fitness": 0.8178,
+    "best_agent_id": "091726b310e84ba8",
+    "avg_fitness": 0.8287,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.1 h, minimum 12 h",
-    "title": "Veille critique : understanding, statistical, adults en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
+    "title": "Veille critique : supercomputer, cryptanalysis, disrupting en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 185,
+      "population": 5,
+      "avg_fitness": 0.8286999999999999,
+      "best_fitness": 0.831
+    },
     {
       "generation": 184,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8382999999999999,
       "best_fitness": 0.855
-    },
-    {
-      "generation": 175,
-      "population": 5,
-      "avg_fitness": 0.8344400000000001,
-      "best_fitness": 0.8582
     }
   ]
 }
