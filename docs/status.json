@@ -1,24 +1,33 @@
 {
-  "run_id": 202,
-  "generation_evaluated": 182,
-  "next_generation": 183,
-  "items_ingested": 3,
+  "run_id": 203,
+  "generation_evaluated": 183,
+  "next_generation": 184,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 182,
-    "best_fitness": 0.1,
+    "generation": 183,
+    "best_fitness": 0.8394,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "f123b23e1e20450e",
-    "avg_fitness": 0.1,
+    "best_agent_id": "dace0e00e24f4a34",
+    "avg_fitness": 0.8275,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille critique : architecture, management, insanely en 2 signaux à suivre",
+    "agent": "Critique-177.5",
+    "fitness": 0.8394,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-26-veille-critique-architecture-management-insanely-en-2-signau.md"
   },
   "history": [
+    {
+      "generation": 183,
+      "population": 5,
+      "avg_fitness": 0.82752,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 182,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.91372,
       "best_fitness": 0.9229
-    },
-    {
-      "generation": 173,
-      "population": 5,
-      "avg_fitness": 0.84856,
-      "best_fitness": 0.8514
     }
   ]
 }

@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://iimfaii.github.io/agent-evolution-system/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/dashboard.html</loc><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-26-veille-critique-architecture-management-insanely-en-2-signau.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-25-veille-prospectif-universities-languages-founders-en-3-signa.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-25-veille-critique-anthropic-potential-nietzsche-en-4-signaux-a.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-08-24-veille-concis-entreprises-partout-presque-en-1-signaux-a-sui.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
