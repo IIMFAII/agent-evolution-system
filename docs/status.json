@@ -1,25 +1,30 @@
 {
-  "run_id": 201,
-  "generation_evaluated": 181,
-  "next_generation": 182,
-  "items_ingested": 2,
+  "run_id": 202,
+  "generation_evaluated": 182,
+  "next_generation": 183,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 181,
-    "best_fitness": 0.8314,
+    "generation": 182,
+    "best_fitness": 0.1,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "0d1c6be11543429b",
-    "avg_fitness": 0.8268,
+    "best_agent_id": "f123b23e1e20450e",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
-    "title": "Veille critique : gerrit-style, workflow, texbrain en 2 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 182,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 181,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.84856,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 172,
-      "population": 5,
-      "avg_fitness": 0.8243,
-      "best_fitness": 0.8243
     }
   ]
 }
