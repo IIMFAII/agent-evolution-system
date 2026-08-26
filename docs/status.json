@@ -1,27 +1,31 @@
 {
-  "run_id": 209,
-  "generation_evaluated": 189,
-  "next_generation": 190,
-  "items_ingested": 6,
+  "run_id": 210,
+  "generation_evaluated": 190,
+  "next_generation": 191,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 189,
-    "best_fitness": 0.8451,
+    "generation": 190,
+    "best_fitness": 0.8171,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "0d04d3be807e4693",
-    "avg_fitness": 0.8405,
+    "best_agent_id": "a92c815149874ad2",
+    "avg_fitness": 0.8148,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : curry, processeurs, financement en 6 signaux à suivre",
-    "agent": "Analytique-189.2",
-    "fitness": 0.8451,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-26-veille-analytique-curry-processeurs-financement-en-6-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.0 h, minimum 12 h",
+    "title": "Veille analytique : unitedhealth's, designation, designated en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 190,
+      "population": 5,
+      "avg_fitness": 0.8148200000000001,
+      "best_fitness": 0.8171
+    },
     {
       "generation": 189,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82684,
       "best_fitness": 0.8314
-    },
-    {
-      "generation": 180,
-      "population": 5,
-      "avg_fitness": 0.8189,
-      "best_fitness": 0.8189
     }
   ]
 }
