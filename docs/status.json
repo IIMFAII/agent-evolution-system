@@ -1,25 +1,31 @@
 {
-  "run_id": 210,
-  "generation_evaluated": 190,
-  "next_generation": 191,
-  "items_ingested": 4,
+  "run_id": 211,
+  "generation_evaluated": 191,
+  "next_generation": 192,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 190,
-    "best_fitness": 0.8171,
+    "generation": 191,
+    "best_fitness": 0.83,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "a92c815149874ad2",
-    "avg_fitness": 0.8148,
+    "best_agent_id": "0a8a0dea6c0d4a91",
+    "avg_fitness": 0.825,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.0 h, minimum 12 h",
-    "title": "Veille analytique : unitedhealth's, designation, designated en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
+    "title": "Veille analytique : dual-architecture, large-scale, disruptive en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 191,
+      "population": 5,
+      "avg_fitness": 0.8250399999999999,
+      "best_fitness": 0.83
+    },
     {
       "generation": 190,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 181,
-      "population": 5,
-      "avg_fitness": 0.82684,
-      "best_fitness": 0.8314
     }
   ]
 }
