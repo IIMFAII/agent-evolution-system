@@ -1,25 +1,31 @@
 {
-  "run_id": 207,
-  "generation_evaluated": 187,
-  "next_generation": 188,
+  "run_id": 208,
+  "generation_evaluated": 188,
+  "next_generation": 189,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 187,
-    "best_fitness": 0.8648,
+    "generation": 188,
+    "best_fitness": 0.8403,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "4386c9765b334ec1",
-    "avg_fitness": 0.8576,
+    "best_agent_id": "0727a85227ef4376",
+    "avg_fitness": 0.8332,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
-    "title": "Veille critique : proliferate, developers, security en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.1 h, minimum 12 h",
+    "title": "Veille critique : twitter, settlement, children en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 188,
+      "population": 5,
+      "avg_fitness": 0.8331799999999999,
+      "best_fitness": 0.8403
+    },
     {
       "generation": 187,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8521000000000001,
       "best_fitness": 0.8569
-    },
-    {
-      "generation": 178,
-      "population": 5,
-      "avg_fitness": 0.84128,
-      "best_fitness": 0.8436
     }
   ]
 }
