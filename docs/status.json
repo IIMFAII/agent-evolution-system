@@ -1,25 +1,31 @@
 {
-  "run_id": 206,
-  "generation_evaluated": 186,
-  "next_generation": 187,
+  "run_id": 207,
+  "generation_evaluated": 187,
+  "next_generation": 188,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 186,
-    "best_fitness": 0.8394,
+    "generation": 187,
+    "best_fitness": 0.8648,
     "best_agent": "Critique-177.5",
-    "best_agent_id": "8bc3e7e35b5f4e7f",
-    "avg_fitness": 0.8326,
+    "best_agent_id": "4386c9765b334ec1",
+    "avg_fitness": 0.8576,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille critique : banking, glm-series, australian en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
+    "title": "Veille critique : proliferate, developers, security en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 187,
+      "population": 5,
+      "avg_fitness": 0.8576,
+      "best_fitness": 0.8648
+    },
     {
       "generation": 186,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84128,
       "best_fitness": 0.8436
-    },
-    {
-      "generation": 177,
-      "population": 5,
-      "avg_fitness": 0.8423,
-      "best_fitness": 0.8494
     }
   ]
 }
