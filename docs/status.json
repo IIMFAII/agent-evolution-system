@@ -1,24 +1,33 @@
 {
-  "run_id": 212,
-  "generation_evaluated": 192,
-  "next_generation": 193,
-  "items_ingested": 4,
+  "run_id": 213,
+  "generation_evaluated": 193,
+  "next_generation": 194,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 192,
-    "best_fitness": 0.1,
+    "generation": 193,
+    "best_fitness": 0.8569,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "7f4a24040731492b",
-    "avg_fitness": 0.1,
+    "best_agent_id": "c7d445e0be164cec",
+    "avg_fitness": 0.8545,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille analytique : claude, l'addiction, lightweight en 8 signaux à suivre",
+    "agent": "Analytique-189.2",
+    "fitness": 0.8569,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-27-veille-analytique-claude-l-addiction-lightweight-en-8-signau.md"
   },
   "history": [
+    {
+      "generation": 193,
+      "population": 5,
+      "avg_fitness": 0.85452,
+      "best_fitness": 0.8569
+    },
     {
       "generation": 192,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8178000000000001,
       "best_fitness": 0.8274
-    },
-    {
-      "generation": 183,
-      "population": 5,
-      "avg_fitness": 0.82752,
-      "best_fitness": 0.8394
     }
   ]
 }
