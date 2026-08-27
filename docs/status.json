@@ -1,25 +1,30 @@
 {
-  "run_id": 211,
-  "generation_evaluated": 191,
-  "next_generation": 192,
-  "items_ingested": 5,
+  "run_id": 212,
+  "generation_evaluated": 192,
+  "next_generation": 193,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 191,
-    "best_fitness": 0.83,
+    "generation": 192,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "0a8a0dea6c0d4a91",
-    "avg_fitness": 0.825,
+    "best_agent_id": "7f4a24040731492b",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille analytique : dual-architecture, large-scale, disruptive en 5 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 192,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 191,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.82752,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 182,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
