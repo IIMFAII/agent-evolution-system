@@ -1,27 +1,31 @@
 {
-  "run_id": 213,
-  "generation_evaluated": 193,
-  "next_generation": 194,
-  "items_ingested": 8,
+  "run_id": 214,
+  "generation_evaluated": 194,
+  "next_generation": 195,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 193,
-    "best_fitness": 0.8569,
+    "generation": 194,
+    "best_fitness": 0.8296,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "c7d445e0be164cec",
-    "avg_fitness": 0.8545,
+    "best_agent_id": "ac7b636a27f64ac4",
+    "avg_fitness": 0.825,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : claude, l'addiction, lightweight en 8 signaux à suivre",
-    "agent": "Analytique-189.2",
-    "fitness": 0.8569,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-27-veille-analytique-claude-l-addiction-lightweight-en-8-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
+    "title": "Veille analytique : gogograndparent, bootstrappable, infrastructure en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 194,
+      "population": 5,
+      "avg_fitness": 0.8250400000000001,
+      "best_fitness": 0.8296
+    },
     {
       "generation": 193,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8286999999999999,
       "best_fitness": 0.831
-    },
-    {
-      "generation": 184,
-      "population": 5,
-      "avg_fitness": 0.8178000000000001,
-      "best_fitness": 0.8274
     }
   ]
 }
