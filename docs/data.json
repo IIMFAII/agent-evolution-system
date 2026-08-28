@@ -1,35 +1,37 @@
 {
- "generated_at": "2026-08-28T03:58:35+00:00",
+ "generated_at": "2026-08-28T16:26:19+00:00",
  "cycle": {
-  "run_id": 214,
-  "generation_evaluated": 194,
-  "next_generation": 195,
-  "items_ingested": 4,
+  "run_id": 215,
+  "generation_evaluated": 195,
+  "next_generation": 196,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
-   "title": "Veille analytique : gogograndparent, bootstrappable, infrastructure en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : authorities, prolific, printing en 5 signaux à suivre",
+   "agent": "Analytique-189.2",
+   "fitness": 0.8457,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-28-veille-analytique-authorities-prolific-printing-en-5-signaux.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 194,
-  "best_fitness": 0.8296,
+  "generation": 195,
+  "best_fitness": 0.8457,
   "best_agent": "Analytique-189.2",
-  "best_agent_id": "ac7b636a27f64ac4",
-  "avg_fitness": 0.825,
+  "best_agent_id": "d587684dc20d4717",
+  "avg_fitness": 0.8434,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "ac7b636a27f64ac4",
-   "fitness": 0.8296,
+   "agent_id": "d587684dc20d4717",
+   "fitness": 0.8457,
    "readability": 1.0,
-   "keyword_score": 0.3681,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3285,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-189.2",
@@ -39,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "a921530efc784717",
-   "fitness": 0.8296,
+   "agent_id": "c22c33969a9f42dc",
+   "fitness": 0.8457,
    "readability": 1.0,
-   "keyword_score": 0.3681,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3285,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-194.2",
+   "name": "Analytique-195.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.34815554218952727,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "b91dc4df1a3149e0",
+   "fitness": 0.8455,
+   "readability": 1.0,
+   "keyword_score": 0.3275,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-195.2",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.18670285558689625,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "da3340eef2e24428",
+   "fitness": 0.8455,
+   "readability": 1.0,
+   "keyword_score": 0.3275,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-195.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.42231289358709634,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "4d4d526a935d4da8",
+   "fitness": 0.8344,
+   "readability": 1.0,
+   "keyword_score": 0.272,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-195.5",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.35959651221851385,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "63c48a9f49224e54",
-   "fitness": 0.8296,
-   "readability": 1.0,
-   "keyword_score": 0.3681,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-194.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.23892684879540635,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "0c099ca7e2d54abc",
-   "fitness": 0.8182,
-   "readability": 1.0,
-   "keyword_score": 0.311,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-194.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.20348683584735539,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "9bc91e2014f04172",
-   "fitness": 0.8182,
-   "readability": 1.0,
-   "keyword_score": 0.311,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-194.5",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.38721749332372307,
-   "mutation_rate": 0.87
+   "temperature": 0.28811185266525874,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 135,
-   "population": 5,
-   "avg_fitness": 0.85402,
-   "best_fitness": 0.8569,
-   "worst_fitness": 0.8454
-  },
   {
    "generation": 136,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8250400000000001,
    "best_fitness": 0.8296,
    "worst_fitness": 0.8182
+  },
+  {
+   "generation": 195,
+   "population": 5,
+   "avg_fitness": 0.84336,
+   "best_fitness": 0.8457,
+   "worst_fitness": 0.8344
   }
  ],
  "runs": [
+  {
+   "id": 215,
+   "started_at": "2026-08-28T16:26:13+00:00",
+   "finished_at": "2026-08-28T16:26:19+00:00",
+   "generation": 195,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 214,
    "started_at": "2026-08-28T03:58:30+00:00",
@@ -868,18 +879,18 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 175,
-   "started_at": "2026-08-23T20:16:12+00:00",
-   "finished_at": "2026-08-23T20:16:17+00:00",
-   "generation": 166,
-   "status": "no_data",
-   "items_ingested": 0,
-   "notes": ""
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : authorities, prolific, printing en 5 signaux à suivre",
+   "slug": "2026-08-28-veille-analytique-authorities-prolific-printing-en-5-signaux",
+   "fitness": 0.8457,
+   "generation": 195,
+   "created_at": "2026-08-28T16:26:19+00:00",
+   "agent_name": "Analytique-189.2",
+   "tone": "analytique"
+  },
   {
    "title": "Veille analytique : claude, l'addiction, lightweight en 8 signaux à suivre",
    "slug": "2026-08-27-veille-analytique-claude-l-addiction-lightweight-en-8-signau",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-16T16:17:41+00:00",
    "agent_name": "Prospectif-82.3",
    "tone": "prospectif"
-  },
-  {
-   "title": "Veille prospectif : show, multiplayer, real-time en 3 signaux à suivre",
-   "slug": "2026-08-16-veille-prospectif-show-multiplayer-real-time-en-3-signaux-a",
-   "fitness": 0.87,
-   "generation": 78,
-   "created_at": "2026-08-16T02:55:30+00:00",
-   "agent_name": "Prospectif-77.3",
-   "tone": "prospectif"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 34,
+  "publications": 35,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.4957,
+    "score": 0.4983,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 34 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 35 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
