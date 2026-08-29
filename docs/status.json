@@ -1,25 +1,33 @@
 {
-  "run_id": 216,
-  "generation_evaluated": 196,
-  "next_generation": 197,
+  "run_id": 218,
+  "generation_evaluated": 197,
+  "next_generation": 198,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 196,
-    "best_fitness": 0.8189,
+    "generation": 197,
+    "best_fitness": 0.8492,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "e91260ad10184096",
-    "avg_fitness": 0.8189,
+    "best_agent_id": "08a92350f03e4660",
+    "avg_fitness": 0.8492,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.0 h, minimum 12 h",
-    "title": "Veille analytique : paleoclimate, accidentally, precarious en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : votes, introductory, responsible en 4 signaux à suivre",
+    "agent": "Analytique-189.2",
+    "fitness": 0.8492,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-29-veille-analytique-votes-introductory-responsible-en-4-signau.md"
   },
   "history": [
+    {
+      "generation": 197,
+      "population": 5,
+      "avg_fitness": 0.8492,
+      "best_fitness": 0.8492
+    },
     {
       "generation": 196,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8331799999999999,
       "best_fitness": 0.8403
-    },
-    {
-      "generation": 187,
-      "population": 5,
-      "avg_fitness": 0.8576,
-      "best_fitness": 0.8648
     }
   ]
 }
