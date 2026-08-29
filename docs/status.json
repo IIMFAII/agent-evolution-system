@@ -1,27 +1,31 @@
 {
-  "run_id": 218,
-  "generation_evaluated": 197,
-  "next_generation": 198,
+  "run_id": 219,
+  "generation_evaluated": 198,
+  "next_generation": 199,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 197,
-    "best_fitness": 0.8492,
-    "best_agent": "Analytique-189.2",
-    "best_agent_id": "08a92350f03e4660",
-    "avg_fitness": 0.8492,
+    "generation": 198,
+    "best_fitness": 0.854,
+    "best_agent": "Critique-198.2",
+    "best_agent_id": "6aebabcb6d6b4564",
+    "avg_fitness": 0.8421,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : votes, introductory, responsible en 4 signaux à suivre",
-    "agent": "Analytique-189.2",
-    "fitness": 0.8492,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-29-veille-analytique-votes-introductory-responsible-en-4-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.2 h, minimum 12 h",
+    "title": "Veille critique : productivity, accelerate, predatory en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 198,
+      "population": 5,
+      "avg_fitness": 0.8421199999999999,
+      "best_fitness": 0.854
+    },
     {
       "generation": 197,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8405400000000001,
       "best_fitness": 0.8451
-    },
-    {
-      "generation": 188,
-      "population": 5,
-      "avg_fitness": 0.8331799999999999,
-      "best_fitness": 0.8403
     }
   ]
 }
