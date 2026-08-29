@@ -1,25 +1,31 @@
 {
-  "run_id": 219,
-  "generation_evaluated": 198,
-  "next_generation": 199,
+  "run_id": 220,
+  "generation_evaluated": 199,
+  "next_generation": 200,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 198,
-    "best_fitness": 0.854,
-    "best_agent": "Critique-198.2",
-    "best_agent_id": "6aebabcb6d6b4564",
-    "avg_fitness": 0.8421,
+    "generation": 199,
+    "best_fitness": 0.8574,
+    "best_agent": "Concis-199.3",
+    "best_agent_id": "3254911fed494376",
+    "avg_fitness": 0.8475,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.2 h, minimum 12 h",
-    "title": "Veille critique : productivity, accelerate, predatory en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
+    "title": "Veille concis : tencent, solar-powered, domain-driven en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 199,
+      "population": 5,
+      "avg_fitness": 0.84752,
+      "best_fitness": 0.8574
+    },
     {
       "generation": 198,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8148200000000001,
       "best_fitness": 0.8171
-    },
-    {
-      "generation": 189,
-      "population": 5,
-      "avg_fitness": 0.8405400000000001,
-      "best_fitness": 0.8451
     }
   ]
 }
