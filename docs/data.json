@@ -1,100 +1,17 @@
 {
- "generated_at": "2026-08-29T01:23:29+00:00",
+ "generated_at": "2026-08-29T08:33:01+00:00",
  "cycle": {
-  "run_id": 216,
-  "generation_evaluated": 196,
-  "next_generation": 197,
-  "items_ingested": 4,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 217,
+  "generation_evaluated": 197,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 9.0 h, minimum 12 h",
-   "title": "Veille analytique : paleoclimate, accidentally, precarious en 4 signaux à suivre"
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 196,
-  "best_fitness": 0.8189,
-  "best_agent": "Analytique-189.2",
-  "best_agent_id": "e91260ad10184096",
-  "avg_fitness": 0.8189,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "e91260ad10184096",
-   "fitness": 0.8189,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-189.2",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.21662719311200368,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "52a0661be5a84194",
-   "fitness": 0.8189,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-196.2",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.13320195801586654,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "da37745f33504a0a",
-   "fitness": 0.8189,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-196.3",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.19656902392468317,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "9f29be8b8b5f442e",
-   "fitness": 0.8189,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-196.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.3889936368443896,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "5ca82450949940aa",
-   "fitness": 0.8189,
-   "readability": 1.0,
-   "keyword_score": 0.3143,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-196.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.4086670198835176,
-   "mutation_rate": 0.87
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 137,
@@ -519,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 217,
+   "started_at": "2026-08-29T08:32:42+00:00",
+   "finished_at": "2026-08-29T08:33:01+00:00",
+   "generation": 197,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 216,
    "started_at": "2026-08-29T01:23:22+00:00",
    "finished_at": "2026-08-29T01:23:29+00:00",
@@ -868,15 +794,6 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 177,
-   "started_at": "2026-08-24T00:57:20+00:00",
-   "finished_at": "2026-08-24T00:57:25+00:00",
-   "generation": 166,
-   "status": "no_data",
-   "items_ingested": 0,
-   "notes": ""
   }
  ],
  "publications": [
@@ -1062,7 +979,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
