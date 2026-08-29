@@ -1,27 +1,31 @@
 {
-  "run_id": 215,
-  "generation_evaluated": 195,
-  "next_generation": 196,
-  "items_ingested": 5,
+  "run_id": 216,
+  "generation_evaluated": 196,
+  "next_generation": 197,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 195,
-    "best_fitness": 0.8457,
+    "generation": 196,
+    "best_fitness": 0.8189,
     "best_agent": "Analytique-189.2",
-    "best_agent_id": "d587684dc20d4717",
-    "avg_fitness": 0.8434,
+    "best_agent_id": "e91260ad10184096",
+    "avg_fitness": 0.8189,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : authorities, prolific, printing en 5 signaux à suivre",
-    "agent": "Analytique-189.2",
-    "fitness": 0.8457,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-28-veille-analytique-authorities-prolific-printing-en-5-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 9.0 h, minimum 12 h",
+    "title": "Veille analytique : paleoclimate, accidentally, precarious en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 196,
+      "population": 5,
+      "avg_fitness": 0.8189,
+      "best_fitness": 0.8189
+    },
     {
       "generation": 195,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8576,
       "best_fitness": 0.8648
-    },
-    {
-      "generation": 186,
-      "population": 5,
-      "avg_fitness": 0.83256,
-      "best_fitness": 0.8394
     }
   ]
 }
