@@ -1,25 +1,33 @@
 {
-  "run_id": 223,
-  "generation_evaluated": 202,
-  "next_generation": 203,
-  "items_ingested": 5,
+  "run_id": 224,
+  "generation_evaluated": 203,
+  "next_generation": 204,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 202,
-    "best_fitness": 0.8468,
+    "generation": 203,
+    "best_fitness": 0.8329,
     "best_agent": "Concis-199.3",
-    "best_agent_id": "d9f4bb00aec54fdb",
-    "avg_fitness": 0.8281,
+    "best_agent_id": "41e4fe23c3e44206",
+    "avg_fitness": 0.8283,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
-    "title": "Veille concis : descriptions, interpreter, pydantic's en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : organizations, coordination, kubernetes en 4 signaux à suivre",
+    "agent": "Concis-199.3",
+    "fitness": 0.8329,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-30-veille-concis-organizations-coordination-kubernetes-en-4-sig.md"
   },
   "history": [
+    {
+      "generation": 203,
+      "population": 5,
+      "avg_fitness": 0.8283400000000001,
+      "best_fitness": 0.8329
+    },
     {
       "generation": 202,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8250400000000001,
       "best_fitness": 0.8296
-    },
-    {
-      "generation": 193,
-      "population": 5,
-      "avg_fitness": 0.85452,
-      "best_fitness": 0.8569
     }
   ]
 }
