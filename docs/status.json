@@ -1,27 +1,31 @@
 {
-  "run_id": 224,
-  "generation_evaluated": 203,
-  "next_generation": 204,
-  "items_ingested": 4,
+  "run_id": 225,
+  "generation_evaluated": 204,
+  "next_generation": 205,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 203,
-    "best_fitness": 0.8329,
+    "generation": 204,
+    "best_fitness": 0.8384,
     "best_agent": "Concis-199.3",
-    "best_agent_id": "41e4fe23c3e44206",
-    "avg_fitness": 0.8283,
+    "best_agent_id": "7e70c47e30e5414a",
+    "avg_fitness": 0.8384,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : organizations, coordination, kubernetes en 4 signaux à suivre",
-    "agent": "Concis-199.3",
-    "fitness": 0.8329,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-30-veille-concis-organizations-coordination-kubernetes-en-4-sig.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
+    "title": "Veille concis : continuous, diffusion, language en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 204,
+      "population": 5,
+      "avg_fitness": 0.8384,
+      "best_fitness": 0.8384
+    },
     {
       "generation": 203,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84336,
       "best_fitness": 0.8457
-    },
-    {
-      "generation": 194,
-      "population": 5,
-      "avg_fitness": 0.8250400000000001,
-      "best_fitness": 0.8296
     }
   ]
 }
