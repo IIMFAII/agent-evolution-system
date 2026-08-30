@@ -1,25 +1,33 @@
 {
-  "run_id": 220,
-  "generation_evaluated": 199,
-  "next_generation": 200,
+  "run_id": 221,
+  "generation_evaluated": 200,
+  "next_generation": 201,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 199,
-    "best_fitness": 0.8574,
+    "generation": 200,
+    "best_fitness": 0.8458,
     "best_agent": "Concis-199.3",
-    "best_agent_id": "3254911fed494376",
-    "avg_fitness": 0.8475,
+    "best_agent_id": "fde90b69cb704390",
+    "avg_fitness": 0.8337,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-    "title": "Veille concis : tencent, solar-powered, domain-driven en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : highest-ever, temperature, continued en 4 signaux à suivre",
+    "agent": "Concis-199.3",
+    "fitness": 0.8458,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-30-veille-concis-highest-ever-temperature-continued-en-4-signau.md"
   },
   "history": [
+    {
+      "generation": 200,
+      "population": 5,
+      "avg_fitness": 0.8337,
+      "best_fitness": 0.8458
+    },
     {
       "generation": 199,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8250399999999999,
       "best_fitness": 0.83
-    },
-    {
-      "generation": 190,
-      "population": 5,
-      "avg_fitness": 0.8148200000000001,
-      "best_fitness": 0.8171
     }
   ]
 }

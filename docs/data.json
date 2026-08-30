@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-08-29T22:11:45+00:00",
+ "generated_at": "2026-08-30T03:08:25+00:00",
  "cycle": {
-  "run_id": 220,
-  "generation_evaluated": 199,
-  "next_generation": 200,
+  "run_id": 221,
+  "generation_evaluated": 200,
+  "next_generation": 201,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-   "title": "Veille concis : tencent, solar-powered, domain-driven en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : highest-ever, temperature, continued en 4 signaux à suivre",
+   "agent": "Concis-199.3",
+   "fitness": 0.8458,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-30-veille-concis-highest-ever-temperature-continued-en-4-signau.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 199,
-  "best_fitness": 0.8574,
+  "generation": 200,
+  "best_fitness": 0.8458,
   "best_agent": "Concis-199.3",
-  "best_agent_id": "3254911fed494376",
-  "avg_fitness": 0.8475,
+  "best_agent_id": "fde90b69cb704390",
+  "avg_fitness": 0.8337,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "3254911fed494376",
-   "fitness": 0.8574,
+   "agent_id": "fde90b69cb704390",
+   "fitness": 0.8458,
    "readability": 1.0,
-   "keyword_score": 0.3871,
+   "keyword_score": 0.3288,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-199.3",
    "tone": "concis",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.35810330792589484,
    "mutation_rate": 0.89
   },
   {
-   "agent_id": "7113e6537d7e4d93",
-   "fitness": 0.8574,
+   "agent_id": "f6765607060f48ed",
+   "fitness": 0.8443,
    "readability": 1.0,
-   "keyword_score": 0.3871,
+   "keyword_score": 0.3217,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-199.5",
+   "name": "Concis-200.5",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.16060222919541312,
+   "temperature": 0.30285950329809397,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "881e17bfcb664f05",
-   "fitness": 0.856,
+   "agent_id": "6b5c12f27db947e8",
+   "fitness": 0.8344,
    "readability": 1.0,
-   "keyword_score": 0.38,
+   "keyword_score": 0.2718,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-199.4",
+   "name": "Concis-200.2",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.16467070840836423,
-   "mutation_rate": 0.89
+   "temperature": 0.11517519647852557,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "136e7d0a18f54a67",
-   "fitness": 0.8334,
+   "agent_id": "f3d2dac5addf41b1",
+   "fitness": 0.822,
    "readability": 1.0,
-   "keyword_score": 0.3871,
+   "keyword_score": 0.3299,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-198.2",
-   "tone": "critique",
-   "origin": "elite",
-   "temperature": 0.10457726527882252,
-   "mutation_rate": 0.87
+   "name": "Prospectif-200.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.26177266204726934,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "1f290b52cee347ca",
-   "fitness": 0.8334,
+   "agent_id": "be69702a9ac44050",
+   "fitness": 0.822,
    "readability": 1.0,
-   "keyword_score": 0.3871,
+   "keyword_score": 0.3299,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-199.2",
-   "tone": "critique",
+   "name": "Prospectif-200.4",
+   "tone": "prospectif",
    "origin": "crossover",
    "temperature": 0.1,
-   "mutation_rate": 0.89
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 140,
-   "population": 5,
-   "avg_fitness": 0.82622,
-   "best_fitness": 0.8269,
-   "worst_fitness": 0.8238
-  },
   {
    "generation": 141,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.84752,
    "best_fitness": 0.8574,
    "worst_fitness": 0.8334
+  },
+  {
+   "generation": 200,
+   "population": 5,
+   "avg_fitness": 0.8337,
+   "best_fitness": 0.8458,
+   "worst_fitness": 0.822
   }
  ],
  "runs": [
+  {
+   "id": 221,
+   "started_at": "2026-08-30T03:08:16+00:00",
+   "finished_at": "2026-08-30T03:08:25+00:00",
+   "generation": 200,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 220,
    "started_at": "2026-08-29T22:11:40+00:00",
@@ -868,18 +879,18 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 181,
-   "started_at": "2026-08-24T08:40:54+00:00",
-   "finished_at": "2026-08-24T08:40:59+00:00",
-   "generation": 166,
-   "status": "no_data",
-   "items_ingested": 0,
-   "notes": ""
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : highest-ever, temperature, continued en 4 signaux à suivre",
+   "slug": "2026-08-30-veille-concis-highest-ever-temperature-continued-en-4-signau",
+   "fitness": 0.8458,
+   "generation": 200,
+   "created_at": "2026-08-30T03:08:25+00:00",
+   "agent_name": "Concis-199.3",
+   "tone": "concis"
+  },
   {
    "title": "Veille analytique : votes, introductory, responsible en 4 signaux à suivre",
    "slug": "2026-08-29-veille-analytique-votes-introductory-responsible-en-4-signau",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-17T18:30:36+00:00",
    "agent_name": "Analytique-95.3",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille concis : prolly, content-addressed, partially en 3 signaux à suivre",
-   "slug": "2026-08-17-veille-concis-prolly-content-addressed-partially-en-3-signau",
-   "fitness": 0.855,
-   "generation": 90,
-   "created_at": "2026-08-17T04:36:00+00:00",
-   "agent_name": "Concis-87.5",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 36,
+  "publications": 37,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.501,
+    "score": 0.5037,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 36 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 37 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
