@@ -1,25 +1,31 @@
 {
-  "run_id": 222,
-  "generation_evaluated": 201,
-  "next_generation": 202,
-  "items_ingested": 4,
+  "run_id": 223,
+  "generation_evaluated": 202,
+  "next_generation": 203,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 201,
-    "best_fitness": 0.8394,
+    "generation": 202,
+    "best_fitness": 0.8468,
     "best_agent": "Concis-199.3",
-    "best_agent_id": "a16a45ac40904a8c",
-    "avg_fitness": 0.8326,
+    "best_agent_id": "d9f4bb00aec54fdb",
+    "avg_fitness": 0.8281,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.5 h, minimum 12 h",
-    "title": "Veille concis : private, backchannel, copy-to-vm en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
+    "title": "Veille concis : descriptions, interpreter, pydantic's en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 202,
+      "population": 5,
+      "avg_fitness": 0.8280799999999999,
+      "best_fitness": 0.8468
+    },
     {
       "generation": 201,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85452,
       "best_fitness": 0.8569
-    },
-    {
-      "generation": 192,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
