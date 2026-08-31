@@ -1,35 +1,37 @@
 {
- "generated_at": "2026-08-31T18:37:58+00:00",
+ "generated_at": "2026-08-31T23:34:10+00:00",
  "cycle": {
-  "run_id": 228,
-  "generation_evaluated": 207,
-  "next_generation": 208,
-  "items_ingested": 4,
+  "run_id": 229,
+  "generation_evaluated": 208,
+  "next_generation": 209,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
-   "title": "Veille analytique : cyberpunk, engineers, walkable en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : cross-platform, opentelemetry, installing en 5 signaux à suivre",
+   "agent": "Analytique-206.5",
+   "fitness": 0.8258,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-31-veille-analytique-cross-platform-opentelemetry-installing-en.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 207,
-  "best_fitness": 0.8464,
+  "generation": 208,
+  "best_fitness": 0.8258,
   "best_agent": "Analytique-206.5",
-  "best_agent_id": "b3102239f17a4ebc",
-  "avg_fitness": 0.8438,
+  "best_agent_id": "4e100373962443a3",
+  "avg_fitness": 0.8211,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "b3102239f17a4ebc",
-   "fitness": 0.8464,
+   "agent_id": "4e100373962443a3",
+   "fitness": 0.8258,
    "readability": 1.0,
-   "keyword_score": 0.3321,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3491,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-206.5",
@@ -39,70 +41,63 @@
    "mutation_rate": 0.865
   },
   {
-   "agent_id": "6f3cd7b977ab4cad",
-   "fitness": 0.8464,
+   "agent_id": "bb492b56d45240eb",
+   "fitness": 0.8254,
    "readability": 1.0,
-   "keyword_score": 0.3321,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3469,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-207.2",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.4651657944389572,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "b636b4c8186c4262",
-   "fitness": 0.8464,
-   "readability": 1.0,
-   "keyword_score": 0.3321,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-207.3",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.3658932309799135,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "0f05b89fa2274a78",
-   "fitness": 0.845,
-   "readability": 1.0,
-   "keyword_score": 0.325,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-207.5",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.4960319507177976,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "86b1c521674041c8",
-   "fitness": 0.835,
-   "readability": 1.0,
-   "keyword_score": 0.275,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-207.4",
+   "name": "Concis-208.4",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.49664417894630153,
-   "mutation_rate": 0.9
+   "temperature": 0.4090096279543532,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "c2b2b7f782a64d26",
+   "fitness": 0.8254,
+   "readability": 1.0,
+   "keyword_score": 0.3469,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-208.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.5355586517288885,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "e42a5f2c76cb4e5d",
+   "fitness": 0.8145,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-208.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.40531516045296584,
+   "mutation_rate": 0.8525
+  },
+  {
+   "agent_id": "1b136aefc1d749e9",
+   "fitness": 0.8145,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-208.3",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.38912534940239907,
+   "mutation_rate": 0.8525
   }
  ],
  "generations": [
-  {
-   "generation": 148,
-   "population": 5,
-   "avg_fitness": 0.8428799999999999,
-   "best_fitness": 0.8543,
-   "worst_fitness": 0.8314
-  },
   {
    "generation": 149,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8438399999999999,
    "best_fitness": 0.8464,
    "worst_fitness": 0.835
+  },
+  {
+   "generation": 208,
+   "population": 5,
+   "avg_fitness": 0.82112,
+   "best_fitness": 0.8258,
+   "worst_fitness": 0.8145
   }
  ],
  "runs": [
+  {
+   "id": 229,
+   "started_at": "2026-08-31T23:34:04+00:00",
+   "finished_at": "2026-08-31T23:34:10+00:00",
+   "generation": 208,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 228,
    "started_at": "2026-08-31T18:37:50+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 189,
-   "started_at": "2026-08-25T00:56:44+00:00",
-   "finished_at": "2026-08-25T00:56:52+00:00",
-   "generation": 170,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.3 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : cross-platform, opentelemetry, installing en 5 signaux à suivre",
+   "slug": "2026-08-31-veille-analytique-cross-platform-opentelemetry-installing-en",
+   "fitness": 0.8258,
+   "generation": 208,
+   "created_at": "2026-08-31T23:34:10+00:00",
+   "agent_name": "Analytique-206.5",
+   "tone": "analytique"
+  },
   {
    "title": "Veille analytique : cyberdéfense, researcher's, accidentally en 5 signaux à suivre",
    "slug": "2026-08-31-veille-analytique-cyberdefense-researcher-s-accidentally-en",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-19T16:24:40+00:00",
    "agent_name": "Prospectif-115.4",
    "tone": "prospectif"
-  },
-  {
-   "title": "Veille pédagogique : property-based, architecture, programmable en 4 signaux à suivre",
-   "slug": "2026-08-19-veille-pedagogique-property-based-architecture-programmable",
-   "fitness": 0.8474,
-   "generation": 110,
-   "created_at": "2026-08-19T00:55:02+00:00",
-   "agent_name": "Pédagogique-106.4",
-   "tone": "pédagogique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 39,
+  "publications": 40,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.509,
+    "score": 0.5117,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 39 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 40 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
