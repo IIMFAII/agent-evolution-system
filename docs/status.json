@@ -1,27 +1,31 @@
 {
-  "run_id": 227,
-  "generation_evaluated": 206,
-  "next_generation": 207,
-  "items_ingested": 5,
+  "run_id": 228,
+  "generation_evaluated": 207,
+  "next_generation": 208,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 206,
-    "best_fitness": 0.8295,
+    "generation": 207,
+    "best_fitness": 0.8464,
     "best_agent": "Analytique-206.5",
-    "best_agent_id": "a37f317bcc08486c",
-    "avg_fitness": 0.8292,
+    "best_agent_id": "b3102239f17a4ebc",
+    "avg_fitness": 0.8438,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : cyberdéfense, researcher's, accidentally en 5 signaux à suivre",
-    "agent": "Analytique-206.5",
-    "fitness": 0.8295,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-31-veille-analytique-cyberdefense-researcher-s-accidentally-en.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
+    "title": "Veille analytique : cyberpunk, engineers, walkable en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 207,
+      "population": 5,
+      "avg_fitness": 0.8438399999999999,
+      "best_fitness": 0.8464
+    },
     {
       "generation": 206,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8421199999999999,
       "best_fitness": 0.854
-    },
-    {
-      "generation": 197,
-      "population": 5,
-      "avg_fitness": 0.8492,
-      "best_fitness": 0.8492
     }
   ]
 }
