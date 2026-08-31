@@ -1,25 +1,31 @@
 {
-  "run_id": 225,
-  "generation_evaluated": 204,
-  "next_generation": 205,
-  "items_ingested": 3,
+  "run_id": 226,
+  "generation_evaluated": 205,
+  "next_generation": 206,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 204,
-    "best_fitness": 0.8384,
+    "generation": 205,
+    "best_fitness": 0.8574,
     "best_agent": "Concis-199.3",
-    "best_agent_id": "7e70c47e30e5414a",
-    "avg_fitness": 0.8384,
+    "best_agent_id": "705dba632afc455e",
+    "avg_fitness": 0.8551,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
-    "title": "Veille concis : continuous, diffusion, language en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
+    "title": "Veille concis : understanding, professionals, diffusion en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 205,
+      "population": 5,
+      "avg_fitness": 0.85512,
+      "best_fitness": 0.8574
+    },
     {
       "generation": 204,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8189,
       "best_fitness": 0.8189
-    },
-    {
-      "generation": 195,
-      "population": 5,
-      "avg_fitness": 0.84336,
-      "best_fitness": 0.8457
     }
   ]
 }
