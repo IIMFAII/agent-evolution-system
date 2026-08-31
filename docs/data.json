@@ -1,34 +1,78 @@
 {
- "generated_at": "2026-08-31T03:02:08+00:00",
+ "generated_at": "2026-08-31T10:22:30+00:00",
  "cycle": {
-  "run_id": 226,
-  "generation_evaluated": 205,
-  "next_generation": 206,
-  "items_ingested": 4,
+  "run_id": 227,
+  "generation_evaluated": 206,
+  "next_generation": 207,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
-   "title": "Veille concis : understanding, professionals, diffusion en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : cyberdéfense, researcher's, accidentally en 5 signaux à suivre",
+   "agent": "Analytique-206.5",
+   "fitness": 0.8295,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-31-veille-analytique-cyberdefense-researcher-s-accidentally-en.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 205,
-  "best_fitness": 0.8574,
-  "best_agent": "Concis-199.3",
-  "best_agent_id": "705dba632afc455e",
-  "avg_fitness": 0.8551,
+  "generation": 206,
+  "best_fitness": 0.8295,
+  "best_agent": "Analytique-206.5",
+  "best_agent_id": "a37f317bcc08486c",
+  "avg_fitness": 0.8292,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "705dba632afc455e",
-   "fitness": 0.8574,
+   "agent_id": "a37f317bcc08486c",
+   "fitness": 0.8295,
    "readability": 1.0,
-   "keyword_score": 0.5071,
+   "keyword_score": 0.3675,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-206.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.4157342232689249,
+   "mutation_rate": 0.865
+  },
+  {
+   "agent_id": "85706f0b2a22452a",
+   "fitness": 0.8293,
+   "readability": 1.0,
+   "keyword_score": 0.3664,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-206.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.4890218802708447,
+   "mutation_rate": 0.865
+  },
+  {
+   "agent_id": "42a46c59589940cb",
+   "fitness": 0.8293,
+   "readability": 1.0,
+   "keyword_score": 0.3664,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-206.4",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.4839442256566378,
+   "mutation_rate": 0.865
+  },
+  {
+   "agent_id": "686c39221c604c89",
+   "fitness": 0.829,
+   "readability": 1.0,
+   "keyword_score": 0.3652,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +83,21 @@
    "mutation_rate": 0.89
   },
   {
-   "agent_id": "6a9eeed0836b4aa8",
-   "fitness": 0.8574,
+   "agent_id": "38e0c832d6604f27",
+   "fitness": 0.829,
    "readability": 1.0,
-   "keyword_score": 0.5071,
+   "keyword_score": 0.3652,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-205.3",
+   "name": "Concis-206.2",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.442699158243706,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "9fe7e3c275364e69",
-   "fitness": 0.8574,
-   "readability": 1.0,
-   "keyword_score": 0.5071,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-205.4",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.4374995457056783,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "7c532a1bd2ab4fed",
-   "fitness": 0.8574,
-   "readability": 1.0,
-   "keyword_score": 0.5071,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-205.5",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.43176868891490483,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "6f24bf678cf4462c",
-   "fitness": 0.846,
-   "readability": 1.0,
-   "keyword_score": 0.45,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-205.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.4348227109771744,
-   "mutation_rate": 0.9
+   "temperature": 0.5122774261264912,
+   "mutation_rate": 0.865
   }
  ],
  "generations": [
-  {
-   "generation": 146,
-   "population": 5,
-   "avg_fitness": 0.8207800000000001,
-   "best_fitness": 0.8322,
-   "worst_fitness": 0.8093
-  },
   {
    "generation": 147,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.85512,
    "best_fitness": 0.8574,
    "worst_fitness": 0.846
+  },
+  {
+   "generation": 206,
+   "population": 5,
+   "avg_fitness": 0.82922,
+   "best_fitness": 0.8295,
+   "worst_fitness": 0.829
   }
  ],
  "runs": [
+  {
+   "id": 227,
+   "started_at": "2026-08-31T10:22:25+00:00",
+   "finished_at": "2026-08-31T10:22:30+00:00",
+   "generation": 206,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 226,
    "started_at": "2026-08-31T03:01:58+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 2,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.7 h, minimum 12 h"
-  },
-  {
-   "id": 187,
-   "started_at": "2026-08-24T20:22:57+00:00",
-   "finished_at": "2026-08-24T20:23:04+00:00",
-   "generation": 168,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.8 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : cyberdéfense, researcher's, accidentally en 5 signaux à suivre",
+   "slug": "2026-08-31-veille-analytique-cyberdefense-researcher-s-accidentally-en",
+   "fitness": 0.8295,
+   "generation": 206,
+   "created_at": "2026-08-31T10:22:30+00:00",
+   "agent_name": "Analytique-206.5",
+   "tone": "analytique"
+  },
   {
    "title": "Veille concis : organizations, coordination, kubernetes en 4 signaux à suivre",
    "slug": "2026-08-30-veille-concis-organizations-coordination-kubernetes-en-4-sig",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-19T00:55:02+00:00",
    "agent_name": "Pédagogique-106.4",
    "tone": "pédagogique"
-  },
-  {
-   "title": "Veille pédagogique : communication, interorgan, associated en 2 signaux à suivre",
-   "slug": "2026-08-18-veille-pedagogique-communication-interorgan-associated-en-2",
-   "fitness": 0.8303,
-   "generation": 102,
-   "created_at": "2026-08-18T08:29:50+00:00",
-   "agent_name": "Pédagogique-102.5",
-   "tone": "pédagogique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 38,
+  "publications": 39,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.5063,
+    "score": 0.509,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 38 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 39 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
