@@ -1,25 +1,31 @@
 {
-  "run_id": 230,
-  "generation_evaluated": 209,
-  "next_generation": 210,
+  "run_id": 231,
+  "generation_evaluated": 210,
+  "next_generation": 211,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 209,
-    "best_fitness": 0.8208,
+    "generation": 210,
+    "best_fitness": 0.8357,
     "best_agent": "Analytique-206.5",
-    "best_agent_id": "4df2a38869aa4cc2",
-    "avg_fitness": 0.8208,
+    "best_agent_id": "78c5f986f4aa445d",
+    "avg_fitness": 0.8309,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.6 h, minimum 12 h",
-    "title": "Veille analytique : procrastination, multiplayer, influential en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
+    "title": "Veille analytique : dependency-free, collectwise, framework en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 210,
+      "population": 5,
+      "avg_fitness": 0.8309200000000001,
+      "best_fitness": 0.8357
+    },
     {
       "generation": 209,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83256,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 200,
-      "population": 5,
-      "avg_fitness": 0.8337,
-      "best_fitness": 0.8458
     }
   ]
 }
