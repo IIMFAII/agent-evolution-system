@@ -1,27 +1,31 @@
 {
-  "run_id": 229,
-  "generation_evaluated": 208,
-  "next_generation": 209,
-  "items_ingested": 5,
+  "run_id": 230,
+  "generation_evaluated": 209,
+  "next_generation": 210,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 208,
-    "best_fitness": 0.8258,
+    "generation": 209,
+    "best_fitness": 0.8208,
     "best_agent": "Analytique-206.5",
-    "best_agent_id": "4e100373962443a3",
-    "avg_fitness": 0.8211,
+    "best_agent_id": "4df2a38869aa4cc2",
+    "avg_fitness": 0.8208,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : cross-platform, opentelemetry, installing en 5 signaux à suivre",
-    "agent": "Analytique-206.5",
-    "fitness": 0.8258,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-08-31-veille-analytique-cross-platform-opentelemetry-installing-en.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.6 h, minimum 12 h",
+    "title": "Veille analytique : procrastination, multiplayer, influential en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 209,
+      "population": 5,
+      "avg_fitness": 0.8208,
+      "best_fitness": 0.8208
+    },
     {
       "generation": 208,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8337,
       "best_fitness": 0.8458
-    },
-    {
-      "generation": 199,
-      "population": 5,
-      "avg_fitness": 0.84752,
-      "best_fitness": 0.8574
     }
   ]
 }
