@@ -1,25 +1,33 @@
 {
-  "run_id": 231,
-  "generation_evaluated": 210,
-  "next_generation": 211,
-  "items_ingested": 4,
+  "run_id": 232,
+  "generation_evaluated": 211,
+  "next_generation": 212,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 210,
-    "best_fitness": 0.8357,
-    "best_agent": "Analytique-206.5",
-    "best_agent_id": "78c5f986f4aa445d",
-    "avg_fitness": 0.8309,
+    "generation": 211,
+    "best_fitness": 0.8526,
+    "best_agent": "Concis-211.3",
+    "best_agent_id": "d7c04391ce4145fb",
+    "avg_fitness": 0.8362,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.5 h, minimum 12 h",
-    "title": "Veille analytique : dependency-free, collectwise, framework en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : collaborative, américaine, collective en 6 signaux à suivre",
+    "agent": "Concis-211.3",
+    "fitness": 0.8526,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-01-veille-concis-collaborative-americaine-collective-en-6-signa.md"
   },
   "history": [
+    {
+      "generation": 211,
+      "population": 5,
+      "avg_fitness": 0.8361599999999999,
+      "best_fitness": 0.8526
+    },
     {
       "generation": 210,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8280799999999999,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 201,
-      "population": 5,
-      "avg_fitness": 0.83256,
-      "best_fitness": 0.8394
     }
   ]
 }
