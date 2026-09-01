@@ -1,25 +1,31 @@
 {
-  "run_id": 233,
-  "generation_evaluated": 212,
-  "next_generation": 213,
+  "run_id": 234,
+  "generation_evaluated": 213,
+  "next_generation": 214,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 212,
-    "best_fitness": 0.849,
+    "generation": 213,
+    "best_fitness": 0.8564,
     "best_agent": "Concis-211.3",
-    "best_agent_id": "a232e9758c614862",
-    "avg_fitness": 0.8467,
+    "best_agent_id": "1afb1653d7924e06",
+    "avg_fitness": 0.8541,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.7 h, minimum 12 h",
-    "title": "Veille concis : claude, development, champions en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+    "title": "Veille concis : show, fluorescent, ai-labeled en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 213,
+      "population": 5,
+      "avg_fitness": 0.85412,
+      "best_fitness": 0.8564
+    },
     {
       "generation": 212,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8384,
       "best_fitness": 0.8384
-    },
-    {
-      "generation": 203,
-      "population": 5,
-      "avg_fitness": 0.8283400000000001,
-      "best_fitness": 0.8329
     }
   ]
 }
