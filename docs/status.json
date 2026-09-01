@@ -1,27 +1,31 @@
 {
-  "run_id": 232,
-  "generation_evaluated": 211,
-  "next_generation": 212,
-  "items_ingested": 6,
+  "run_id": 233,
+  "generation_evaluated": 212,
+  "next_generation": 213,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 211,
-    "best_fitness": 0.8526,
+    "generation": 212,
+    "best_fitness": 0.849,
     "best_agent": "Concis-211.3",
-    "best_agent_id": "d7c04391ce4145fb",
-    "avg_fitness": 0.8362,
+    "best_agent_id": "a232e9758c614862",
+    "avg_fitness": 0.8467,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : collaborative, américaine, collective en 6 signaux à suivre",
-    "agent": "Concis-211.3",
-    "fitness": 0.8526,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-01-veille-concis-collaborative-americaine-collective-en-6-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.7 h, minimum 12 h",
+    "title": "Veille concis : claude, development, champions en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 212,
+      "population": 5,
+      "avg_fitness": 0.84672,
+      "best_fitness": 0.849
+    },
     {
       "generation": 211,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8283400000000001,
       "best_fitness": 0.8329
-    },
-    {
-      "generation": 202,
-      "population": 5,
-      "avg_fitness": 0.8280799999999999,
-      "best_fitness": 0.8468
     }
   ]
 }
