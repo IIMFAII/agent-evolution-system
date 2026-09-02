@@ -1,27 +1,31 @@
 {
-  "run_id": 238,
-  "generation_evaluated": 217,
-  "next_generation": 218,
+  "run_id": 239,
+  "generation_evaluated": 218,
+  "next_generation": 219,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 217,
-    "best_fitness": 0.8515,
+    "generation": 218,
+    "best_fitness": 0.8498,
     "best_agent": "Analytique-217.4",
-    "best_agent_id": "e627510bae634fc2",
-    "avg_fitness": 0.8421,
+    "best_agent_id": "d251342b9cdf4da9",
+    "avg_fitness": 0.8496,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : publicités, smartphone, firefox's en 5 signaux à suivre",
-    "agent": "Analytique-217.4",
-    "fitness": 0.8515,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-02-veille-analytique-publicites-smartphone-firefox-s-en-5-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.1 h, minimum 12 h",
+    "title": "Veille analytique : interpreter, driver's, product en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 218,
+      "population": 5,
+      "avg_fitness": 0.8496,
+      "best_fitness": 0.8498
+    },
     {
       "generation": 217,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8208,
       "best_fitness": 0.8208
-    },
-    {
-      "generation": 208,
-      "population": 5,
-      "avg_fitness": 0.82112,
-      "best_fitness": 0.8258
     }
   ]
 }
