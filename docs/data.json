@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-09-02T14:01:23+00:00",
+ "generated_at": "2026-09-02T19:09:50+00:00",
  "cycle": {
-  "run_id": 237,
-  "generation_evaluated": 216,
-  "next_generation": 217,
+  "run_id": 238,
+  "generation_evaluated": 217,
+  "next_generation": 218,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
-   "title": "Veille critique : intelligence, beginner's, infecting en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : publicités, smartphone, firefox's en 5 signaux à suivre",
+   "agent": "Analytique-217.4",
+   "fitness": 0.8515,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-02-veille-analytique-publicites-smartphone-firefox-s-en-5-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 216,
+  "generation": 217,
   "best_fitness": 0.8515,
-  "best_agent": "Critique-216.5",
-  "best_agent_id": "48ae8dc9d50c4433",
-  "avg_fitness": 0.8349,
+  "best_agent": "Analytique-217.4",
+  "best_agent_id": "e627510bae634fc2",
+  "avg_fitness": 0.8421,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "48ae8dc9d50c4433",
+   "agent_id": "e627510bae634fc2",
    "fitness": 0.8515,
    "readability": 1.0,
-   "keyword_score": 0.3575,
+   "keyword_score": 0.3577,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-217.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.6290368113483319,
+   "mutation_rate": 0.895234375
+  },
+  {
+   "agent_id": "12ef4900fad54217",
+   "fitness": 0.8513,
+   "readability": 1.0,
+   "keyword_score": 0.3566,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-216.5",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.42164981714462324,
    "mutation_rate": 0.83796875
   },
   {
-   "agent_id": "3e8d4bd0edf34657",
+   "agent_id": "c96e030ceec84509",
    "fitness": 0.8513,
    "readability": 1.0,
-   "keyword_score": 0.3563,
+   "keyword_score": 0.3566,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-211.3",
+   "name": "Critique-217.5",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.4938284786611228,
+   "mutation_rate": 0.8879687500000001
+  },
+  {
+   "agent_id": "de2800f6de6145cc",
+   "fitness": 0.8401,
+   "readability": 1.0,
+   "keyword_score": 0.3003,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-217.3",
    "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.5716413976905862,
-   "mutation_rate": 0.8525
-  },
-  {
-   "agent_id": "1e106efde5b546a1",
-   "fitness": 0.8277,
-   "readability": 1.0,
-   "keyword_score": 0.3586,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-216.3",
-   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.49806532931391634,
-   "mutation_rate": 0.837734375
+   "temperature": 0.4598575732292698,
+   "mutation_rate": 0.8878515625000001
   },
   {
-   "agent_id": "35e860c0146541d4",
-   "fitness": 0.8275,
+   "agent_id": "8422b8576c854c04",
+   "fitness": 0.8163,
    "readability": 1.0,
-   "keyword_score": 0.3575,
+   "keyword_score": 0.3013,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-216.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.5366208886874969,
-   "mutation_rate": 0.83796875
-  },
-  {
-   "agent_id": "3e2dfc45bc6844f2",
-   "fitness": 0.8164,
-   "readability": 1.0,
-   "keyword_score": 0.3021,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-216.2",
+   "name": "Pédagogique-217.2",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.7244031564033937,
-   "mutation_rate": 0.8532031250000001
+   "temperature": 0.36938104979496555,
+   "mutation_rate": 0.895234375
   }
  ],
  "generations": [
-  {
-   "generation": 157,
-   "population": 5,
-   "avg_fitness": 0.8790600000000002,
-   "best_fitness": 0.8859,
-   "worst_fitness": 0.8745
-  },
   {
    "generation": 158,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8348800000000001,
    "best_fitness": 0.8515,
    "worst_fitness": 0.8164
+  },
+  {
+   "generation": 217,
+   "population": 5,
+   "avg_fitness": 0.8421,
+   "best_fitness": 0.8515,
+   "worst_fitness": 0.8163
   }
  ],
  "runs": [
+  {
+   "id": 238,
+   "started_at": "2026-09-02T19:09:44+00:00",
+   "finished_at": "2026-09-02T19:09:50+00:00",
+   "generation": 217,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 237,
    "started_at": "2026-09-02T14:01:15+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.9 h, minimum 12 h"
-  },
-  {
-   "id": 198,
-   "started_at": "2026-08-25T18:32:07+00:00",
-   "finished_at": "2026-08-25T18:32:25+00:00",
-   "generation": 179,
-   "status": "no_data",
-   "items_ingested": 0,
-   "notes": ""
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : publicités, smartphone, firefox's en 5 signaux à suivre",
+   "slug": "2026-09-02-veille-analytique-publicites-smartphone-firefox-s-en-5-signa",
+   "fitness": 0.8515,
+   "generation": 217,
+   "created_at": "2026-09-02T19:09:50+00:00",
+   "agent_name": "Analytique-217.4",
+   "tone": "analytique"
+  },
   {
    "title": "Veille concis : efficient, inference, improving en 4 signaux à suivre",
    "slug": "2026-09-02-veille-concis-efficient-inference-improving-en-4-signaux-a-s",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-21T06:36:33+00:00",
    "agent_name": "Concis-133.2",
    "tone": "concis"
-  },
-  {
-   "title": "Veille prospectif : optimizing, cybersyn, biology en 4 signaux à suivre",
-   "slug": "2026-08-20-veille-prospectif-optimizing-cybersyn-biology-en-4-signaux-a",
-   "fitness": 0.8805,
-   "generation": 131,
-   "created_at": "2026-08-20T18:30:49+00:00",
-   "agent_name": "Prospectif-131.2",
-   "tone": "prospectif"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 42,
+  "publications": 43,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.517,
+    "score": 0.5197,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 42 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 43 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
