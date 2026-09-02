@@ -1,25 +1,31 @@
 {
-  "run_id": 236,
-  "generation_evaluated": 215,
-  "next_generation": 216,
-  "items_ingested": 3,
+  "run_id": 237,
+  "generation_evaluated": 216,
+  "next_generation": 217,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 215,
-    "best_fitness": 0.8754,
-    "best_agent": "Concis-211.3",
-    "best_agent_id": "08c981ca6f8b4af2",
-    "avg_fitness": 0.8635,
+    "generation": 216,
+    "best_fitness": 0.8515,
+    "best_agent": "Critique-216.5",
+    "best_agent_id": "48ae8dc9d50c4433",
+    "avg_fitness": 0.8349,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille concis : unemployment, artificial, structure en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
+    "title": "Veille critique : intelligence, beginner's, infecting en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 216,
+      "population": 5,
+      "avg_fitness": 0.8348800000000001,
+      "best_fitness": 0.8515
+    },
     {
       "generation": 215,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8438399999999999,
       "best_fitness": 0.8464
-    },
-    {
-      "generation": 206,
-      "population": 5,
-      "avg_fitness": 0.82922,
-      "best_fitness": 0.8295
     }
   ]
 }
