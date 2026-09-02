@@ -1,27 +1,31 @@
 {
-  "run_id": 235,
-  "generation_evaluated": 214,
-  "next_generation": 215,
-  "items_ingested": 4,
+  "run_id": 236,
+  "generation_evaluated": 215,
+  "next_generation": 216,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 214,
-    "best_fitness": 0.86,
+    "generation": 215,
+    "best_fitness": 0.8754,
     "best_agent": "Concis-211.3",
-    "best_agent_id": "a39e53e4e1b14599",
-    "avg_fitness": 0.8529,
+    "best_agent_id": "08c981ca6f8b4af2",
+    "avg_fitness": 0.8635,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : efficient, inference, improving en 4 signaux à suivre",
-    "agent": "Concis-211.3",
-    "fitness": 0.86,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-02-veille-concis-efficient-inference-improving-en-4-signaux-a-s.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
+    "title": "Veille concis : unemployment, artificial, structure en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 215,
+      "population": 5,
+      "avg_fitness": 0.86352,
+      "best_fitness": 0.8754
+    },
     {
       "generation": 214,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82922,
       "best_fitness": 0.8295
-    },
-    {
-      "generation": 205,
-      "population": 5,
-      "avg_fitness": 0.85512,
-      "best_fitness": 0.8574
     }
   ]
 }
