@@ -1,25 +1,33 @@
 {
-  "run_id": 234,
-  "generation_evaluated": 213,
-  "next_generation": 214,
+  "run_id": 235,
+  "generation_evaluated": 214,
+  "next_generation": 215,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 213,
-    "best_fitness": 0.8564,
+    "generation": 214,
+    "best_fitness": 0.86,
     "best_agent": "Concis-211.3",
-    "best_agent_id": "1afb1653d7924e06",
-    "avg_fitness": 0.8541,
+    "best_agent_id": "a39e53e4e1b14599",
+    "avg_fitness": 0.8529,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
-    "title": "Veille concis : show, fluorescent, ai-labeled en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : efficient, inference, improving en 4 signaux à suivre",
+    "agent": "Concis-211.3",
+    "fitness": 0.86,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-02-veille-concis-efficient-inference-improving-en-4-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 214,
+      "population": 5,
+      "avg_fitness": 0.8528800000000001,
+      "best_fitness": 0.86
+    },
     {
       "generation": 213,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.85512,
       "best_fitness": 0.8574
-    },
-    {
-      "generation": 204,
-      "population": 5,
-      "avg_fitness": 0.8384,
-      "best_fitness": 0.8384
     }
   ]
 }
