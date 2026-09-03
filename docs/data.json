@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-09-03T19:02:15+00:00",
+ "generated_at": "2026-09-03T22:09:27+00:00",
  "cycle": {
-  "run_id": 243,
-  "generation_evaluated": 222,
-  "next_generation": 223,
-  "items_ingested": 5,
+  "run_id": 244,
+  "generation_evaluated": 223,
+  "next_generation": 224,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
-   "title": "Veille critique : distillation, production, available en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : which, gpt-6, astra en 6 signaux à suivre",
+   "agent": "Critique-222.3",
+   "fitness": 0.8572,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-03-veille-critique-which-gpt-6-astra-en-6-signaux-a-suivre.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 222,
-  "best_fitness": 0.8536,
+  "generation": 223,
+  "best_fitness": 0.8572,
   "best_agent": "Critique-222.3",
-  "best_agent_id": "a65441568afa479a",
-  "avg_fitness": 0.8437,
+  "best_agent_id": "b94d21591c644e24",
+  "avg_fitness": 0.8545,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "a65441568afa479a",
-   "fitness": 0.8536,
+   "agent_id": "b94d21591c644e24",
+   "fitness": 0.8572,
    "readability": 1.0,
-   "keyword_score": 0.3678,
+   "keyword_score": 0.3858,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-222.3",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.552658206446618,
    "mutation_rate": 0.89
   },
   {
-   "agent_id": "cd9b5b6326554e10",
-   "fitness": 0.8533,
+   "agent_id": "2328c38291e24e0c",
+   "fitness": 0.8572,
    "readability": 1.0,
-   "keyword_score": 0.3666,
+   "keyword_score": 0.3858,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-222.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.5654808718130055,
-   "mutation_rate": 0.89
-  },
-  {
-   "agent_id": "633276c2bee54a6b",
-   "fitness": 0.8522,
-   "readability": 1.0,
-   "keyword_score": 0.3608,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-222.5",
+   "name": "Critique-223.3",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.669365205296256,
+   "temperature": 0.6275179428124065,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "ba1162a6c141499b",
-   "fitness": 0.8298,
+   "agent_id": "a4eacbb6c9c94169",
+   "fitness": 0.856,
    "readability": 1.0,
-   "keyword_score": 0.3689,
-   "ctr_score": 0.78,
+   "keyword_score": 0.38,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-221.4",
+   "name": "Analytique-223.4",
    "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.5923484521022832,
-   "mutation_rate": 0.87
+   "origin": "crossover",
+   "temperature": 0.5397175238468062,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "30213855794c4479",
-   "fitness": 0.8296,
+   "agent_id": "1bcd563711a249f2",
+   "fitness": 0.8558,
    "readability": 1.0,
-   "keyword_score": 0.3678,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3789,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-222.2",
-   "tone": "prospectif",
+   "name": "Critique-223.5",
+   "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.7004220318086625,
+   "temperature": 0.5725033292744506,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "2ed7597deb454e0a",
+   "fitness": 0.8461,
+   "readability": 1.0,
+   "keyword_score": 0.3303,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-223.2",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.6051258355789536,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 163,
-   "population": 5,
-   "avg_fitness": 0.82872,
-   "best_fitness": 0.8339,
-   "worst_fitness": 0.8224
-  },
   {
    "generation": 164,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8436999999999999,
    "best_fitness": 0.8536,
    "worst_fitness": 0.8296
+  },
+  {
+   "generation": 223,
+   "population": 5,
+   "avg_fitness": 0.8544599999999999,
+   "best_fitness": 0.8572,
+   "worst_fitness": 0.8461
   }
  ],
  "runs": [
+  {
+   "id": 244,
+   "started_at": "2026-09-03T22:09:22+00:00",
+   "finished_at": "2026-09-03T22:09:27+00:00",
+   "generation": 223,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 243,
    "started_at": "2026-09-03T19:02:08+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 4.0 h, minimum 12 h"
-  },
-  {
-   "id": 204,
-   "started_at": "2026-08-26T06:38:29+00:00",
-   "finished_at": "2026-08-26T06:38:34+00:00",
-   "generation": 184,
-   "status": "success",
-   "items_ingested": 1,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 2.1 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : which, gpt-6, astra en 6 signaux à suivre",
+   "slug": "2026-09-03-veille-critique-which-gpt-6-astra-en-6-signaux-a-suivre",
+   "fitness": 0.8572,
+   "generation": 223,
+   "created_at": "2026-09-03T22:09:27+00:00",
+   "agent_name": "Critique-222.3",
+   "tone": "critique"
+  },
   {
    "title": "Veille critique : personalized, pre-release, peptides en 2 signaux à suivre",
    "slug": "2026-09-03-veille-critique-personalized-pre-release-peptides-en-2-signa",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-22T08:22:12+00:00",
    "agent_name": "Critique-148.5",
    "tone": "critique"
-  },
-  {
-   "title": "Veille analytique : cybersecurity, self-playing, capabilities en 4 signaux à suivre",
-   "slug": "2026-08-21-veille-analytique-cybersecurity-self-playing-capabilities-en",
-   "fitness": 0.8365,
-   "generation": 144,
-   "created_at": "2026-08-21T20:19:16+00:00",
-   "agent_name": "Analytique-142.2",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 44,
+  "publications": 45,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.5223,
+    "score": 0.525,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 44 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 45 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

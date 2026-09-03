@@ -1,25 +1,33 @@
 {
-  "run_id": 243,
-  "generation_evaluated": 222,
-  "next_generation": 223,
-  "items_ingested": 5,
+  "run_id": 244,
+  "generation_evaluated": 223,
+  "next_generation": 224,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 222,
-    "best_fitness": 0.8536,
+    "generation": 223,
+    "best_fitness": 0.8572,
     "best_agent": "Critique-222.3",
-    "best_agent_id": "a65441568afa479a",
-    "avg_fitness": 0.8437,
+    "best_agent_id": "b94d21591c644e24",
+    "avg_fitness": 0.8545,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
-    "title": "Veille critique : distillation, production, available en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : which, gpt-6, astra en 6 signaux à suivre",
+    "agent": "Critique-222.3",
+    "fitness": 0.8572,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-03-veille-critique-which-gpt-6-astra-en-6-signaux-a-suivre.md"
   },
   "history": [
+    {
+      "generation": 223,
+      "population": 5,
+      "avg_fitness": 0.8544599999999999,
+      "best_fitness": 0.8572
+    },
     {
       "generation": 222,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8528800000000001,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 213,
-      "population": 5,
-      "avg_fitness": 0.85412,
-      "best_fitness": 0.8564
     }
   ]
 }
