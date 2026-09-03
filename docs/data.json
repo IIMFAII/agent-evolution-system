@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-09-03T02:34:52+00:00",
+ "generated_at": "2026-09-03T08:28:38+00:00",
  "cycle": {
-  "run_id": 240,
-  "generation_evaluated": 219,
-  "next_generation": 220,
-  "items_ingested": 4,
+  "run_id": 241,
+  "generation_evaluated": 220,
+  "next_generation": 221,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 7.4 h, minimum 12 h",
-   "title": "Veille critique : personalized, operations, immediate en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : personalized, pre-release, peptides en 2 signaux à suivre",
+   "agent": "Critique-219.2",
+   "fitness": 0.8664,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-03-veille-critique-personalized-pre-release-peptides-en-2-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 219,
-  "best_fitness": 0.854,
+  "generation": 220,
+  "best_fitness": 0.8664,
   "best_agent": "Critique-219.2",
-  "best_agent_id": "f95fd7666659490b",
-  "avg_fitness": 0.8373,
+  "best_agent_id": "61c5ac0806ba48b9",
+  "avg_fitness": 0.8548,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "f95fd7666659490b",
-   "fitness": 0.854,
+   "agent_id": "61c5ac0806ba48b9",
+   "fitness": 0.8664,
    "readability": 1.0,
-   "keyword_score": 0.3702,
+   "keyword_score": 0.4321,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-219.2",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.5576356671900284,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "d6452d217562404f",
-   "fitness": 0.854,
+   "agent_id": "0929578aa735423e",
+   "fitness": 0.855,
    "readability": 1.0,
-   "keyword_score": 0.3702,
+   "keyword_score": 0.375,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-219.3",
+   "name": "Concis-220.2",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.6587269329123528,
+   "temperature": 0.5170462459750289,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "c13bf0d43bd14bcb",
-   "fitness": 0.83,
+   "agent_id": "25cc50ccc96c43e1",
+   "fitness": 0.855,
    "readability": 1.0,
-   "keyword_score": 0.3702,
-   "ctr_score": 0.78,
+   "keyword_score": 0.375,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-217.4",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.6290368113483319,
-   "mutation_rate": 0.895234375
-  },
-  {
-   "agent_id": "3d2e5204fb7c4711",
-   "fitness": 0.83,
-   "readability": 1.0,
-   "keyword_score": 0.3702,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-219.5",
-   "tone": "prospectif",
+   "name": "Concis-220.3",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.7277600311677966,
+   "temperature": 0.8370193769436577,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "860e6ae1dc9249ce",
-   "fitness": 0.8186,
+   "agent_id": "fcd7bd66848b4236",
+   "fitness": 0.855,
    "readability": 1.0,
-   "keyword_score": 0.313,
+   "keyword_score": 0.375,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-220.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.7431593413071393,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "4f367a575fc54cda",
+   "fitness": 0.8424,
+   "readability": 1.0,
+   "keyword_score": 0.4321,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-219.4",
+   "name": "Prospectif-220.4",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.5850774283586692,
+   "temperature": 0.6027257420767946,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 160,
-   "population": 5,
-   "avg_fitness": 0.8477,
-   "best_fitness": 0.8523,
-   "worst_fitness": 0.8408
-  },
   {
    "generation": 161,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8373200000000001,
    "best_fitness": 0.854,
    "worst_fitness": 0.8186
+  },
+  {
+   "generation": 220,
+   "population": 5,
+   "avg_fitness": 0.85476,
+   "best_fitness": 0.8664,
+   "worst_fitness": 0.8424
   }
  ],
  "runs": [
+  {
+   "id": 241,
+   "started_at": "2026-09-03T08:28:34+00:00",
+   "finished_at": "2026-09-03T08:28:38+00:00",
+   "generation": 220,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 240,
    "started_at": "2026-09-03T02:34:45+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); aucun contenu au-dessus du seuil de qualité/conformité"
-  },
-  {
-   "id": 201,
-   "started_at": "2026-08-26T00:57:56+00:00",
-   "finished_at": "2026-08-26T00:58:03+00:00",
-   "generation": 181,
-   "status": "success",
-   "items_ingested": 2,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.5 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : personalized, pre-release, peptides en 2 signaux à suivre",
+   "slug": "2026-09-03-veille-critique-personalized-pre-release-peptides-en-2-signa",
+   "fitness": 0.8664,
+   "generation": 220,
+   "created_at": "2026-09-03T08:28:38+00:00",
+   "agent_name": "Critique-219.2",
+   "tone": "critique"
+  },
   {
    "title": "Veille analytique : publicités, smartphone, firefox's en 5 signaux à suivre",
    "slug": "2026-09-02-veille-analytique-publicites-smartphone-firefox-s-en-5-signa",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-21T20:19:16+00:00",
    "agent_name": "Analytique-142.2",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille concis : experience, intervened, religious en 2 signaux à suivre",
-   "slug": "2026-08-21-veille-concis-experience-intervened-religious-en-2-signaux-a",
-   "fitness": 0.8582,
-   "generation": 137,
-   "created_at": "2026-08-21T06:36:33+00:00",
-   "agent_name": "Concis-133.2",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 43,
+  "publications": 44,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.5197,
+    "score": 0.5223,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 43 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 44 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
