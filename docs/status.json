@@ -1,25 +1,31 @@
 {
-  "run_id": 239,
-  "generation_evaluated": 218,
-  "next_generation": 219,
-  "items_ingested": 5,
+  "run_id": 240,
+  "generation_evaluated": 219,
+  "next_generation": 220,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 218,
-    "best_fitness": 0.8498,
-    "best_agent": "Analytique-217.4",
-    "best_agent_id": "d251342b9cdf4da9",
-    "avg_fitness": 0.8496,
+    "generation": 219,
+    "best_fitness": 0.854,
+    "best_agent": "Critique-219.2",
+    "best_agent_id": "f95fd7666659490b",
+    "avg_fitness": 0.8373,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.1 h, minimum 12 h",
-    "title": "Veille analytique : interpreter, driver's, product en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.4 h, minimum 12 h",
+    "title": "Veille critique : personalized, operations, immediate en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 219,
+      "population": 5,
+      "avg_fitness": 0.8373200000000001,
+      "best_fitness": 0.854
+    },
     {
       "generation": 218,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8309200000000001,
       "best_fitness": 0.8357
-    },
-    {
-      "generation": 209,
-      "population": 5,
-      "avg_fitness": 0.8208,
-      "best_fitness": 0.8208
     }
   ]
 }
