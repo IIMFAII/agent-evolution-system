@@ -1,25 +1,31 @@
 {
-  "run_id": 242,
-  "generation_evaluated": 221,
-  "next_generation": 222,
+  "run_id": 243,
+  "generation_evaluated": 222,
+  "next_generation": 223,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 221,
-    "best_fitness": 0.8586,
-    "best_agent": "Analytique-221.4",
-    "best_agent_id": "58c47f8301354ed9",
-    "avg_fitness": 0.854,
+    "generation": 222,
+    "best_fitness": 0.8536,
+    "best_agent": "Critique-222.3",
+    "best_agent_id": "a65441568afa479a",
+    "avg_fitness": 0.8437,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
-    "title": "Veille analytique : entreprise, orchestra, elevated en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
+    "title": "Veille critique : distillation, production, available en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 222,
+      "population": 5,
+      "avg_fitness": 0.8436999999999999,
+      "best_fitness": 0.8536
+    },
     {
       "generation": 221,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85412,
       "best_fitness": 0.8564
-    },
-    {
-      "generation": 212,
-      "population": 5,
-      "avg_fitness": 0.84672,
-      "best_fitness": 0.849
     }
   ]
 }
