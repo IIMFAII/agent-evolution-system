@@ -1,27 +1,31 @@
 {
-  "run_id": 241,
-  "generation_evaluated": 220,
-  "next_generation": 221,
-  "items_ingested": 2,
+  "run_id": 242,
+  "generation_evaluated": 221,
+  "next_generation": 222,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 220,
-    "best_fitness": 0.8664,
-    "best_agent": "Critique-219.2",
-    "best_agent_id": "61c5ac0806ba48b9",
-    "avg_fitness": 0.8548,
+    "generation": 221,
+    "best_fitness": 0.8586,
+    "best_agent": "Analytique-221.4",
+    "best_agent_id": "58c47f8301354ed9",
+    "avg_fitness": 0.854,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : personalized, pre-release, peptides en 2 signaux à suivre",
-    "agent": "Critique-219.2",
-    "fitness": 0.8664,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-03-veille-critique-personalized-pre-release-peptides-en-2-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
+    "title": "Veille analytique : entreprise, orchestra, elevated en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 221,
+      "population": 5,
+      "avg_fitness": 0.85404,
+      "best_fitness": 0.8586
+    },
     {
       "generation": 220,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84672,
       "best_fitness": 0.849
-    },
-    {
-      "generation": 211,
-      "population": 5,
-      "avg_fitness": 0.8361599999999999,
-      "best_fitness": 0.8526
     }
   ]
 }
