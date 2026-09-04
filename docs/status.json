@@ -1,25 +1,31 @@
 {
-  "run_id": 248,
-  "generation_evaluated": 227,
-  "next_generation": 228,
-  "items_ingested": 4,
+  "run_id": 249,
+  "generation_evaluated": 228,
+  "next_generation": 229,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 227,
-    "best_fitness": 0.8189,
+    "generation": 228,
+    "best_fitness": 0.8533,
     "best_agent": "Critique-222.3",
-    "best_agent_id": "b47153f9711045a2",
-    "avg_fitness": 0.816,
+    "best_agent_id": "75fb87cc63a74bf6",
+    "avg_fitness": 0.8368,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.4 h, minimum 12 h",
-    "title": "Veille critique : orchestration, hydrafusion, multi-model en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.2 h, minimum 12 h",
+    "title": "Veille critique : formalizing, government, attacking en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 228,
+      "population": 5,
+      "avg_fitness": 0.83676,
+      "best_fitness": 0.8533
+    },
     {
       "generation": 227,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8373200000000001,
       "best_fitness": 0.854
-    },
-    {
-      "generation": 218,
-      "population": 5,
-      "avg_fitness": 0.8496,
-      "best_fitness": 0.8498
     }
   ]
 }
