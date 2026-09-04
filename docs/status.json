@@ -1,25 +1,33 @@
 {
-  "run_id": 246,
-  "generation_evaluated": 225,
-  "next_generation": 226,
-  "items_ingested": 6,
+  "run_id": 247,
+  "generation_evaluated": 226,
+  "next_generation": 227,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 225,
-    "best_fitness": 0.8528,
+    "generation": 226,
+    "best_fitness": 0.8132,
     "best_agent": "Critique-222.3",
-    "best_agent_id": "9bf08382019a42c9",
-    "avg_fitness": 0.8366,
+    "best_agent_id": "1930eaf242cf43a2",
+    "avg_fitness": 0.8088,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
-    "title": "Veille critique : every, l'évènementiel, verification en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : cybersécurité, cyberattaques, pennsylvania en 7 signaux à suivre",
+    "agent": "Critique-222.3",
+    "fitness": 0.8132,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-04-veille-critique-cybersecurite-cyberattaques-pennsylvania-en.md"
   },
   "history": [
+    {
+      "generation": 226,
+      "population": 5,
+      "avg_fitness": 0.8088200000000001,
+      "best_fitness": 0.8132
+    },
     {
       "generation": 225,
       "population": 5,
@@ -72,12 +80,6 @@
       "generation": 217,
       "population": 5,
       "avg_fitness": 0.8421,
-      "best_fitness": 0.8515
-    },
-    {
-      "generation": 216,
-      "population": 5,
-      "avg_fitness": 0.8348800000000001,
       "best_fitness": 0.8515
     }
   ]
