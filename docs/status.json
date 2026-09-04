@@ -1,25 +1,31 @@
 {
-  "run_id": 249,
-  "generation_evaluated": 228,
-  "next_generation": 229,
-  "items_ingested": 6,
+  "run_id": 250,
+  "generation_evaluated": 229,
+  "next_generation": 230,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 228,
-    "best_fitness": 0.8533,
-    "best_agent": "Critique-222.3",
-    "best_agent_id": "75fb87cc63a74bf6",
-    "avg_fitness": 0.8368,
+    "generation": 229,
+    "best_fitness": 0.8513,
+    "best_agent": "Concis-229.5",
+    "best_agent_id": "db0ddb0e41924788",
+    "avg_fitness": 0.83,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.2 h, minimum 12 h",
-    "title": "Veille critique : formalizing, government, attacking en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.7 h, minimum 12 h",
+    "title": "Veille concis : sandbox, multiplication, record-high en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 229,
+      "population": 5,
+      "avg_fitness": 0.83004,
+      "best_fitness": 0.8513
+    },
     {
       "generation": 228,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85476,
       "best_fitness": 0.8664
-    },
-    {
-      "generation": 219,
-      "population": 5,
-      "avg_fitness": 0.8373200000000001,
-      "best_fitness": 0.854
     }
   ]
 }
