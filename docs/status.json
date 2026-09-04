@@ -1,27 +1,31 @@
 {
-  "run_id": 247,
-  "generation_evaluated": 226,
-  "next_generation": 227,
-  "items_ingested": 7,
+  "run_id": 248,
+  "generation_evaluated": 227,
+  "next_generation": 228,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 226,
-    "best_fitness": 0.8132,
+    "generation": 227,
+    "best_fitness": 0.8189,
     "best_agent": "Critique-222.3",
-    "best_agent_id": "1930eaf242cf43a2",
-    "avg_fitness": 0.8088,
+    "best_agent_id": "b47153f9711045a2",
+    "avg_fitness": 0.816,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : cybersécurité, cyberattaques, pennsylvania en 7 signaux à suivre",
-    "agent": "Critique-222.3",
-    "fitness": 0.8132,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-04-veille-critique-cybersecurite-cyberattaques-pennsylvania-en.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.4 h, minimum 12 h",
+    "title": "Veille critique : orchestration, hydrafusion, multi-model en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 227,
+      "population": 5,
+      "avg_fitness": 0.8160000000000001,
+      "best_fitness": 0.8189
+    },
     {
       "generation": 226,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8496,
       "best_fitness": 0.8498
-    },
-    {
-      "generation": 217,
-      "population": 5,
-      "avg_fitness": 0.8421,
-      "best_fitness": 0.8515
     }
   ]
 }
