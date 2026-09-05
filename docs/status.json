@@ -1,25 +1,31 @@
 {
-  "run_id": 252,
-  "generation_evaluated": 231,
-  "next_generation": 232,
-  "items_ingested": 4,
+  "run_id": 253,
+  "generation_evaluated": 232,
+  "next_generation": 233,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 231,
+    "generation": 232,
     "best_fitness": 0.8429,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "0e7d27d59b8543e6",
-    "avg_fitness": 0.8426,
+    "best_agent_id": "19a27bd858fa423d",
+    "avg_fitness": 0.8214,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille concis : countries, instances, takedowns en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
+    "title": "Veille concis : geopolitical, netherlands, incidents en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 232,
+      "population": 5,
+      "avg_fitness": 0.8214,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 231,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8544599999999999,
       "best_fitness": 0.8572
-    },
-    {
-      "generation": 222,
-      "population": 5,
-      "avg_fitness": 0.8436999999999999,
-      "best_fitness": 0.8536
     }
   ]
 }
