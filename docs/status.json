@@ -1,27 +1,31 @@
 {
-  "run_id": 251,
-  "generation_evaluated": 230,
-  "next_generation": 231,
+  "run_id": 252,
+  "generation_evaluated": 231,
+  "next_generation": 232,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 230,
-    "best_fitness": 0.8514,
+    "generation": 231,
+    "best_fitness": 0.8429,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "bf22a91e0b5c46d0",
-    "avg_fitness": 0.8347,
+    "best_agent_id": "0e7d27d59b8543e6",
+    "avg_fitness": 0.8426,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : intelligence, artificial, mikrotik's en 4 signaux à suivre",
-    "agent": "Concis-229.5",
-    "fitness": 0.8514,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-05-veille-concis-intelligence-artificial-mikrotik-s-en-4-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille concis : countries, instances, takedowns en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 231,
+      "population": 5,
+      "avg_fitness": 0.8426,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 230,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8436999999999999,
       "best_fitness": 0.8536
-    },
-    {
-      "generation": 221,
-      "population": 5,
-      "avg_fitness": 0.85404,
-      "best_fitness": 0.8586
     }
   ]
 }
