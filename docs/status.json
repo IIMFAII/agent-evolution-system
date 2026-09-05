@@ -1,25 +1,31 @@
 {
-  "run_id": 256,
-  "generation_evaluated": 235,
-  "next_generation": 236,
+  "run_id": 257,
+  "generation_evaluated": 236,
+  "next_generation": 237,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 235,
-    "best_fitness": 0.8648,
+    "generation": 236,
+    "best_fitness": 0.8154,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "74d8ea754e7d46af",
-    "avg_fitness": 0.8625,
+    "best_agent_id": "b11571c0745a4802",
+    "avg_fitness": 0.8128,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
-    "title": "Veille concis : programming, chemicals, luxuries en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 4.0 h, minimum 12 h",
+    "title": "Veille concis : orbit, three-dimensional, navier-stokes en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 236,
+      "population": 5,
+      "avg_fitness": 0.8128399999999999,
+      "best_fitness": 0.8154
+    },
     {
       "generation": 235,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8160000000000001,
       "best_fitness": 0.8189
-    },
-    {
-      "generation": 226,
-      "population": 5,
-      "avg_fitness": 0.8088200000000001,
-      "best_fitness": 0.8132
     }
   ]
 }
