@@ -1,27 +1,31 @@
 {
-  "run_id": 255,
-  "generation_evaluated": 234,
-  "next_generation": 235,
+  "run_id": 256,
+  "generation_evaluated": 235,
+  "next_generation": 236,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 234,
-    "best_fitness": 0.806,
+    "generation": 235,
+    "best_fitness": 0.8648,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "c28cc75d8853431b",
-    "avg_fitness": 0.8037,
+    "best_agent_id": "74d8ea754e7d46af",
+    "avg_fitness": 0.8625,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : ultra-processed, overwhelmingly, foundation en 4 signaux à suivre",
-    "agent": "Concis-229.5",
-    "fitness": 0.806,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-05-veille-concis-ultra-processed-overwhelmingly-foundation-en-4.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 2.0 h, minimum 12 h",
+    "title": "Veille concis : programming, chemicals, luxuries en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 235,
+      "population": 5,
+      "avg_fitness": 0.8625,
+      "best_fitness": 0.8648
+    },
     {
       "generation": 234,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8088200000000001,
       "best_fitness": 0.8132
-    },
-    {
-      "generation": 225,
-      "population": 5,
-      "avg_fitness": 0.8365600000000001,
-      "best_fitness": 0.8528
     }
   ]
 }
