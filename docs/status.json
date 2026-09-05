@@ -1,25 +1,31 @@
 {
-  "run_id": 253,
-  "generation_evaluated": 232,
-  "next_generation": 233,
-  "items_ingested": 2,
+  "run_id": 254,
+  "generation_evaluated": 233,
+  "next_generation": 234,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 232,
-    "best_fitness": 0.8429,
+    "generation": 233,
+    "best_fitness": 0.86,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "19a27bd858fa423d",
-    "avg_fitness": 0.8214,
+    "best_agent_id": "fd0193b2af9c4830",
+    "avg_fitness": 0.8481,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
-    "title": "Veille concis : geopolitical, netherlands, incidents en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille concis : testosterone, explanation, screening en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 233,
+      "population": 5,
+      "avg_fitness": 0.84812,
+      "best_fitness": 0.86
+    },
     {
       "generation": 232,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83712,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 223,
-      "population": 5,
-      "avg_fitness": 0.8544599999999999,
-      "best_fitness": 0.8572
     }
   ]
 }
