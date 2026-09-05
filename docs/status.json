@@ -1,25 +1,33 @@
 {
-  "run_id": 250,
-  "generation_evaluated": 229,
-  "next_generation": 230,
-  "items_ingested": 5,
+  "run_id": 251,
+  "generation_evaluated": 230,
+  "next_generation": 231,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 229,
-    "best_fitness": 0.8513,
+    "generation": 230,
+    "best_fitness": 0.8514,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "db0ddb0e41924788",
-    "avg_fitness": 0.83,
+    "best_agent_id": "bf22a91e0b5c46d0",
+    "avg_fitness": 0.8347,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.7 h, minimum 12 h",
-    "title": "Veille concis : sandbox, multiplication, record-high en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : intelligence, artificial, mikrotik's en 4 signaux à suivre",
+    "agent": "Concis-229.5",
+    "fitness": 0.8514,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-05-veille-concis-intelligence-artificial-mikrotik-s-en-4-signau.md"
   },
   "history": [
+    {
+      "generation": 230,
+      "population": 5,
+      "avg_fitness": 0.8347200000000001,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 229,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.85404,
       "best_fitness": 0.8586
-    },
-    {
-      "generation": 220,
-      "population": 5,
-      "avg_fitness": 0.85476,
-      "best_fitness": 0.8664
     }
   ]
 }
