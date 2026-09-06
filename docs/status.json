@@ -1,25 +1,31 @@
 {
-  "run_id": 262,
-  "generation_evaluated": 241,
-  "next_generation": 242,
+  "run_id": 263,
+  "generation_evaluated": 242,
+  "next_generation": 243,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 241,
-    "best_fitness": 0.8546,
+    "generation": 242,
+    "best_fitness": 0.8634,
     "best_agent": "Prospectif-240.2",
-    "best_agent_id": "71eaa65e5a0f48c0",
-    "avg_fitness": 0.85,
+    "best_agent_id": "18e537ec1db7447f",
+    "avg_fitness": 0.8634,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
-    "title": "Veille prospectif : netbsd, cultivating, hamburger en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
+    "title": "Veille prospectif : continue, nitter, will en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 242,
+      "population": 5,
+      "avg_fitness": 0.8634000000000001,
+      "best_fitness": 0.8634
+    },
     {
       "generation": 241,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84812,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 232,
-      "population": 5,
-      "avg_fitness": 0.8214,
-      "best_fitness": 0.8429
     }
   ]
 }
