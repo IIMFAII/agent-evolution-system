@@ -1,25 +1,31 @@
 {
-  "run_id": 261,
-  "generation_evaluated": 240,
-  "next_generation": 241,
+  "run_id": 262,
+  "generation_evaluated": 241,
+  "next_generation": 242,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 240,
-    "best_fitness": 0.8597,
+    "generation": 241,
+    "best_fitness": 0.8546,
     "best_agent": "Prospectif-240.2",
-    "best_agent_id": "c45c1a4467e34205",
-    "avg_fitness": 0.8572,
+    "best_agent_id": "71eaa65e5a0f48c0",
+    "avg_fitness": 0.85,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.1 h, minimum 12 h",
-    "title": "Veille prospectif : doomscrolling, intellectual, creativity en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
+    "title": "Veille prospectif : netbsd, cultivating, hamburger en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 241,
+      "population": 5,
+      "avg_fitness": 0.8500399999999999,
+      "best_fitness": 0.8546
+    },
     {
       "generation": 240,
       "population": 5,
@@ -72,12 +78,6 @@
       "generation": 232,
       "population": 5,
       "avg_fitness": 0.8214,
-      "best_fitness": 0.8429
-    },
-    {
-      "generation": 231,
-      "population": 5,
-      "avg_fitness": 0.8426,
       "best_fitness": 0.8429
     }
   ]
