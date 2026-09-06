@@ -1,25 +1,31 @@
 {
-  "run_id": 258,
-  "generation_evaluated": 237,
-  "next_generation": 238,
-  "items_ingested": 4,
+  "run_id": 259,
+  "generation_evaluated": 238,
+  "next_generation": 239,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 237,
-    "best_fitness": 0.8543,
+    "generation": 238,
+    "best_fitness": 0.8429,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "4b80d3fbe3c14a54",
-    "avg_fitness": 0.8495,
+    "best_agent_id": "72347ea322be4a83",
+    "avg_fitness": 0.8241,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
-    "title": "Veille concis : memory, programmers, moratoriums en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
+    "title": "Veille concis : self-hosting, accessible, everyone en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 238,
+      "population": 5,
+      "avg_fitness": 0.8240999999999999,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 237,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83004,
       "best_fitness": 0.8513
-    },
-    {
-      "generation": 228,
-      "population": 5,
-      "avg_fitness": 0.83676,
-      "best_fitness": 0.8533
     }
   ]
 }
