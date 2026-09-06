@@ -1,27 +1,30 @@
 {
-  "run_id": 264,
-  "generation_evaluated": 243,
-  "next_generation": 244,
-  "items_ingested": 4,
+  "run_id": 265,
+  "generation_evaluated": 244,
+  "next_generation": 245,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 243,
-    "best_fitness": 0.8394,
+    "generation": 244,
+    "best_fitness": 0.1,
     "best_agent": "Concis-243.2",
-    "best_agent_id": "247369a9aa624679",
-    "avg_fitness": 0.8247,
+    "best_agent_id": "9289694aa6c0486e",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : webassembly, harnessing, embeddings en 4 signaux à suivre",
-    "agent": "Concis-243.2",
-    "fitness": 0.8394,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-06-veille-concis-webassembly-harnessing-embeddings-en-4-signaux.md"
+    "published": false,
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 244,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 243,
       "population": 5,
@@ -75,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8625,
       "best_fitness": 0.8648
-    },
-    {
-      "generation": 234,
-      "population": 5,
-      "avg_fitness": 0.80372,
-      "best_fitness": 0.806
     }
   ]
 }
