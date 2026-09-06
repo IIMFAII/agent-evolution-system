@@ -1,25 +1,33 @@
 {
-  "run_id": 259,
-  "generation_evaluated": 238,
-  "next_generation": 239,
-  "items_ingested": 2,
+  "run_id": 260,
+  "generation_evaluated": 239,
+  "next_generation": 240,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 238,
-    "best_fitness": 0.8429,
+    "generation": 239,
+    "best_fitness": 0.8857,
     "best_agent": "Concis-229.5",
-    "best_agent_id": "72347ea322be4a83",
-    "avg_fitness": 0.8241,
+    "best_agent_id": "989529283e654f32",
+    "avg_fitness": 0.8811,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
-    "title": "Veille concis : self-hosting, accessible, everyone en 2 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : transformation, reloaded, sundays en 4 signaux à suivre",
+    "agent": "Concis-229.5",
+    "fitness": 0.8857,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-06-veille-concis-transformation-reloaded-sundays-en-4-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 239,
+      "population": 5,
+      "avg_fitness": 0.88114,
+      "best_fitness": 0.8857
+    },
     {
       "generation": 238,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8347200000000001,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 229,
-      "population": 5,
-      "avg_fitness": 0.83004,
-      "best_fitness": 0.8513
     }
   ]
 }
