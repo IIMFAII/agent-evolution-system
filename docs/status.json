@@ -1,24 +1,31 @@
 {
-  "run_id": 265,
-  "generation_evaluated": 244,
-  "next_generation": 245,
+  "run_id": 266,
+  "generation_evaluated": 245,
+  "next_generation": 246,
   "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 244,
-    "best_fitness": 0.1,
+    "generation": 245,
+    "best_fitness": 0.8274,
     "best_agent": "Concis-243.2",
-    "best_agent_id": "9289694aa6c0486e",
-    "avg_fitness": 0.1,
+    "best_agent_id": "546758a610ba4896",
+    "avg_fitness": 0.8248,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 4.5 h, minimum 12 h",
+    "title": "Veille concis : evidence-aware, multi-engine, mathematics en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 245,
+      "population": 5,
+      "avg_fitness": 0.82484,
+      "best_fitness": 0.8274
+    },
     {
       "generation": 244,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8128399999999999,
       "best_fitness": 0.8154
-    },
-    {
-      "generation": 235,
-      "population": 5,
-      "avg_fitness": 0.8625,
-      "best_fitness": 0.8648
     }
   ]
 }
