@@ -1,27 +1,31 @@
 {
-  "run_id": 268,
-  "generation_evaluated": 247,
-  "next_generation": 248,
-  "items_ingested": 6,
+  "run_id": 270,
+  "generation_evaluated": 248,
+  "next_generation": 249,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 247,
-    "best_fitness": 0.8399,
+    "generation": 248,
+    "best_fitness": 0.8837,
     "best_agent": "Critique-247.2",
-    "best_agent_id": "e25d684bc34641f0",
-    "avg_fitness": 0.8376,
+    "best_agent_id": "209b57094e714bd4",
+    "avg_fitness": 0.8813,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : repairability, cyberattaque, requirements en 6 signaux à suivre",
-    "agent": "Critique-247.2",
-    "fitness": 0.8399,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-07-veille-critique-repairability-cyberattaque-requirements-en-6.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
+    "title": "Veille critique : education, economics, smallest en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 248,
+      "population": 5,
+      "avg_fitness": 0.8813000000000001,
+      "best_fitness": 0.8837
+    },
     {
       "generation": 247,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.88114,
       "best_fitness": 0.8857
-    },
-    {
-      "generation": 238,
-      "population": 5,
-      "avg_fitness": 0.8240999999999999,
-      "best_fitness": 0.8429
     }
   ]
 }
