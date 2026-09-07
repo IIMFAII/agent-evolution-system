@@ -1,34 +1,64 @@
 {
- "generated_at": "2026-09-07T08:50:27+00:00",
+ "generated_at": "2026-09-07T15:27:04+00:00",
  "cycle": {
-  "run_id": 267,
-  "generation_evaluated": 246,
-  "next_generation": 247,
-  "items_ingested": 4,
+  "run_id": 268,
+  "generation_evaluated": 247,
+  "next_generation": 248,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.9 h, minimum 12 h",
-   "title": "Veille concis : switzerland's, local-first, commercials en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : repairability, cyberattaque, requirements en 6 signaux à suivre",
+   "agent": "Critique-247.2",
+   "fitness": 0.8399,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-07-veille-critique-repairability-cyberattaque-requirements-en-6.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 246,
-  "best_fitness": 0.8189,
-  "best_agent": "Concis-243.2",
-  "best_agent_id": "72471789c4384c45",
-  "avg_fitness": 0.8163,
+  "generation": 247,
+  "best_fitness": 0.8399,
+  "best_agent": "Critique-247.2",
+  "best_agent_id": "e25d684bc34641f0",
+  "avg_fitness": 0.8376,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "72471789c4384c45",
-   "fitness": 0.8189,
+   "agent_id": "e25d684bc34641f0",
+   "fitness": 0.8399,
    "readability": 1.0,
-   "keyword_score": 0.3143,
+   "keyword_score": 0.4195,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-247.2",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.319837654651588,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "1e437996e6cd4fb7",
+   "fitness": 0.8399,
+   "readability": 1.0,
+   "keyword_score": 0.4195,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-247.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.33193387596345114,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "c80ad0e2d2d44b47",
+   "fitness": 0.8396,
+   "readability": 1.0,
+   "keyword_score": 0.418,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +69,35 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "48b16ff3ec8a4882",
-   "fitness": 0.8189,
+   "agent_id": "a700e9f551654be3",
+   "fitness": 0.8396,
    "readability": 1.0,
-   "keyword_score": 0.3143,
+   "keyword_score": 0.418,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-246.2",
+   "name": "Concis-247.5",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.37701946162711086,
-   "mutation_rate": 0.87
+   "temperature": 0.31459693857778415,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "690d71e5e6924b79",
-   "fitness": 0.8189,
+   "agent_id": "8a44de7363cd4b2e",
+   "fitness": 0.829,
    "readability": 1.0,
-   "keyword_score": 0.3143,
+   "keyword_score": 0.3648,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-246.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.40071939046381605,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "9b2edfdc19734cca",
-   "fitness": 0.8174,
-   "readability": 1.0,
-   "keyword_score": 0.3071,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-246.5",
+   "name": "Critique-247.3",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.21716561117852398,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "a626cae195a042b4",
-   "fitness": 0.8074,
-   "readability": 1.0,
-   "keyword_score": 0.2571,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-246.3",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.27095770484194365,
-   "mutation_rate": 0.87
+   "temperature": 0.43678169471604644,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 187,
-   "population": 5,
-   "avg_fitness": 0.8576,
-   "best_fitness": 0.8648,
-   "worst_fitness": 0.8533
-  },
   {
    "generation": 188,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8163,
    "best_fitness": 0.8189,
    "worst_fitness": 0.8074
+  },
+  {
+   "generation": 247,
+   "population": 5,
+   "avg_fitness": 0.8375999999999999,
+   "best_fitness": 0.8399,
+   "worst_fitness": 0.829
   }
  ],
  "runs": [
+  {
+   "id": 268,
+   "started_at": "2026-09-07T15:26:59+00:00",
+   "finished_at": "2026-09-07T15:27:04+00:00",
+   "generation": 247,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 267,
    "started_at": "2026-09-07T08:50:14+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 228,
-   "started_at": "2026-08-31T18:37:50+00:00",
-   "finished_at": "2026-08-31T18:37:58+00:00",
-   "generation": 207,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.3 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : repairability, cyberattaque, requirements en 6 signaux à suivre",
+   "slug": "2026-09-07-veille-critique-repairability-cyberattaque-requirements-en-6",
+   "fitness": 0.8399,
+   "generation": 247,
+   "created_at": "2026-09-07T15:27:04+00:00",
+   "agent_name": "Critique-247.2",
+   "tone": "critique"
+  },
   {
    "title": "Veille concis : webassembly, harnessing, embeddings en 4 signaux à suivre",
    "slug": "2026-09-06-veille-concis-webassembly-harnessing-embeddings-en-4-signaux",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-26T04:34:11+00:00",
    "agent_name": "Critique-177.5",
    "tone": "critique"
-  },
-  {
-   "title": "Veille critique : anthropic, potential, nietzsche en 4 signaux à suivre",
-   "slug": "2026-08-25-veille-critique-anthropic-potential-nietzsche-en-4-signaux-a",
-   "fitness": 0.8436,
-   "generation": 178,
-   "created_at": "2026-08-25T16:29:47+00:00",
-   "agent_name": "Critique-177.5",
-   "tone": "critique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 50,
+  "publications": 51,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1162,10 +1164,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.5383,
+    "score": 0.541,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 50 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 51 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
