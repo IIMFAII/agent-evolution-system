@@ -1,102 +1,17 @@
 {
- "generated_at": "2026-09-07T15:27:04+00:00",
+ "generated_at": "2026-09-07T19:32:41+00:00",
  "cycle": {
-  "run_id": 268,
-  "generation_evaluated": 247,
-  "next_generation": 248,
-  "items_ingested": 6,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 269,
+  "generation_evaluated": 248,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
-   "published": true,
-   "title": "Veille critique : repairability, cyberattaque, requirements en 6 signaux à suivre",
-   "agent": "Critique-247.2",
-   "fitness": 0.8399,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-07-veille-critique-repairability-cyberattaque-requirements-en-6.md"
+   "published": false,
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 247,
-  "best_fitness": 0.8399,
-  "best_agent": "Critique-247.2",
-  "best_agent_id": "e25d684bc34641f0",
-  "avg_fitness": 0.8376,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "e25d684bc34641f0",
-   "fitness": 0.8399,
-   "readability": 1.0,
-   "keyword_score": 0.4195,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-247.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.319837654651588,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "1e437996e6cd4fb7",
-   "fitness": 0.8399,
-   "readability": 1.0,
-   "keyword_score": 0.4195,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-247.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.33193387596345114,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "c80ad0e2d2d44b47",
-   "fitness": 0.8396,
-   "readability": 1.0,
-   "keyword_score": 0.418,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-243.2",
-   "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.2626558476760651,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "a700e9f551654be3",
-   "fitness": 0.8396,
-   "readability": 1.0,
-   "keyword_score": 0.418,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-247.5",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.31459693857778415,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "8a44de7363cd4b2e",
-   "fitness": 0.829,
-   "readability": 1.0,
-   "keyword_score": 0.3648,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-247.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.43678169471604644,
-   "mutation_rate": 0.9
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 188,
@@ -521,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 269,
+   "started_at": "2026-09-07T19:32:22+00:00",
+   "finished_at": "2026-09-07T19:32:41+00:00",
+   "generation": 248,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 268,
    "started_at": "2026-09-07T15:26:59+00:00",
    "finished_at": "2026-09-07T15:27:04+00:00",
@@ -870,15 +794,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.6 h, minimum 12 h"
-  },
-  {
-   "id": 229,
-   "started_at": "2026-08-31T23:34:04+00:00",
-   "finished_at": "2026-08-31T23:34:10+00:00",
-   "generation": 208,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
@@ -1064,7 +979,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
