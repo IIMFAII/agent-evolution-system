@@ -1,25 +1,31 @@
 {
-  "run_id": 266,
-  "generation_evaluated": 245,
-  "next_generation": 246,
-  "items_ingested": 3,
+  "run_id": 267,
+  "generation_evaluated": 246,
+  "next_generation": 247,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 245,
-    "best_fitness": 0.8274,
+    "generation": 246,
+    "best_fitness": 0.8189,
     "best_agent": "Concis-243.2",
-    "best_agent_id": "546758a610ba4896",
-    "avg_fitness": 0.8248,
+    "best_agent_id": "72471789c4384c45",
+    "avg_fitness": 0.8163,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.5 h, minimum 12 h",
-    "title": "Veille concis : evidence-aware, multi-engine, mathematics en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.9 h, minimum 12 h",
+    "title": "Veille concis : switzerland's, local-first, commercials en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 246,
+      "population": 5,
+      "avg_fitness": 0.8163,
+      "best_fitness": 0.8189
+    },
     {
       "generation": 245,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84946,
       "best_fitness": 0.8543
-    },
-    {
-      "generation": 236,
-      "population": 5,
-      "avg_fitness": 0.8128399999999999,
-      "best_fitness": 0.8154
     }
   ]
 }
