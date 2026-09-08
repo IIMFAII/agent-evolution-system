@@ -1,25 +1,31 @@
 {
-  "run_id": 273,
-  "generation_evaluated": 251,
-  "next_generation": 252,
+  "run_id": 274,
+  "generation_evaluated": 252,
+  "next_generation": 253,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 251,
-    "best_fitness": 0.8248,
+    "generation": 252,
+    "best_fitness": 0.8474,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "86eefef4ab144b0f",
-    "avg_fitness": 0.8225,
+    "best_agent_id": "b1b0b7d3a1a84712",
+    "avg_fitness": 0.8428,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
-    "title": "Veille critique : mathematics, performance, copperhead en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+    "title": "Veille critique : visualization, millennium, cancelled en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 252,
+      "population": 5,
+      "avg_fitness": 0.84284,
+      "best_fitness": 0.8474
+    },
     {
       "generation": 251,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8247199999999999,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 242,
-      "population": 5,
-      "avg_fitness": 0.8634000000000001,
-      "best_fitness": 0.8634
     }
   ]
 }
