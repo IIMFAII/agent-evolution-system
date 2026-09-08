@@ -1,25 +1,33 @@
 {
-  "run_id": 274,
-  "generation_evaluated": 252,
-  "next_generation": 253,
+  "run_id": 275,
+  "generation_evaluated": 253,
+  "next_generation": 254,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 252,
-    "best_fitness": 0.8474,
+    "generation": 253,
+    "best_fitness": 0.846,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "b1b0b7d3a1a84712",
-    "avg_fitness": 0.8428,
+    "best_agent_id": "5fff4c1dcc0e4baa",
+    "avg_fitness": 0.8414,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
-    "title": "Veille critique : visualization, millennium, cancelled en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : exploration, animation, language en 4 signaux à suivre",
+    "agent": "Critique-250.2",
+    "fitness": 0.846,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-08-veille-critique-exploration-animation-language-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 253,
+      "population": 5,
+      "avg_fitness": 0.8413999999999999,
+      "best_fitness": 0.846
+    },
     {
       "generation": 252,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 243,
-      "population": 5,
-      "avg_fitness": 0.8247199999999999,
-      "best_fitness": 0.8394
     }
   ]
 }
