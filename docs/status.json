@@ -1,25 +1,31 @@
 {
-  "run_id": 270,
-  "generation_evaluated": 248,
-  "next_generation": 249,
+  "run_id": 271,
+  "generation_evaluated": 249,
+  "next_generation": 250,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 248,
-    "best_fitness": 0.8837,
-    "best_agent": "Critique-247.2",
-    "best_agent_id": "209b57094e714bd4",
-    "avg_fitness": 0.8813,
+    "generation": 249,
+    "best_fitness": 0.8629,
+    "best_agent": "Concis-249.2",
+    "best_agent_id": "dd5004e6804d4716",
+    "avg_fitness": 0.8394,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
-    "title": "Veille critique : education, economics, smallest en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.2 h, minimum 12 h",
+    "title": "Veille concis : certificate, open-source, disconnect en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 249,
+      "population": 5,
+      "avg_fitness": 0.8393799999999999,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 248,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85724,
       "best_fitness": 0.8597
-    },
-    {
-      "generation": 239,
-      "population": 5,
-      "avg_fitness": 0.88114,
-      "best_fitness": 0.8857
     }
   ]
 }
