@@ -1,100 +1,17 @@
 {
- "generated_at": "2026-09-09T19:00:33+00:00",
+ "generated_at": "2026-09-09T22:10:29+00:00",
  "cycle": {
-  "run_id": 279,
-  "generation_evaluated": 257,
-  "next_generation": 258,
-  "items_ingested": 4,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 280,
+  "generation_evaluated": 258,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
-   "title": "Veille critique : iphone, apple, self-hosted en 4 signaux à suivre"
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 257,
-  "best_fitness": 0.86,
-  "best_agent": "Critique-250.2",
-  "best_agent_id": "3dd68669ef3e499a",
-  "avg_fitness": 0.8572,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "3dd68669ef3e499a",
-   "fitness": 0.86,
-   "readability": 1.0,
-   "keyword_score": 0.4,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-250.2",
-   "tone": "critique",
-   "origin": "elite",
-   "temperature": 0.30515475219280674,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "13b6ea5b17d64f2f",
-   "fitness": 0.86,
-   "readability": 1.0,
-   "keyword_score": 0.4,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-257.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.30882479268168855,
-   "mutation_rate": 0.89
-  },
-  {
-   "agent_id": "7ca0351c071049a6",
-   "fitness": 0.8586,
-   "readability": 1.0,
-   "keyword_score": 0.3929,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-257.3",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.47986525723918966,
-   "mutation_rate": 0.89
-  },
-  {
-   "agent_id": "a4c22a0524284e43",
-   "fitness": 0.8586,
-   "readability": 1.0,
-   "keyword_score": 0.3929,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-257.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.1566851652795008,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "2474eb32e8794d84",
-   "fitness": 0.8486,
-   "readability": 1.0,
-   "keyword_score": 0.3429,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-257.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.18856286299157235,
-   "mutation_rate": 0.9
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 198,
@@ -519,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 280,
+   "started_at": "2026-09-09T22:10:10+00:00",
+   "finished_at": "2026-09-09T22:10:29+00:00",
+   "generation": 258,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 279,
    "started_at": "2026-09-09T19:00:28+00:00",
    "finished_at": "2026-09-09T19:00:33+00:00",
@@ -868,15 +794,6 @@
    "status": "success",
    "items_ingested": 2,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 240,
-   "started_at": "2026-09-03T02:34:45+00:00",
-   "finished_at": "2026-09-03T02:34:52+00:00",
-   "generation": 219,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.4 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -1062,7 +979,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ReadTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
