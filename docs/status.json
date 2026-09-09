@@ -1,27 +1,30 @@
 {
-  "run_id": 275,
-  "generation_evaluated": 253,
-  "next_generation": 254,
-  "items_ingested": 4,
+  "run_id": 276,
+  "generation_evaluated": 254,
+  "next_generation": 255,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 253,
-    "best_fitness": 0.846,
+    "generation": 254,
+    "best_fitness": 0.1,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "5fff4c1dcc0e4baa",
-    "avg_fitness": 0.8414,
+    "best_agent_id": "09a7ca3c4ba044ce",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : exploration, animation, language en 4 signaux à suivre",
-    "agent": "Critique-250.2",
-    "fitness": 0.846,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-08-veille-critique-exploration-animation-language-en-4-signaux.md"
+    "published": false,
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 254,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 253,
       "population": 5,
@@ -75,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.82484,
       "best_fitness": 0.8274
-    },
-    {
-      "generation": 244,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
