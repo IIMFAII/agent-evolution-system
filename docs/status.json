@@ -1,24 +1,31 @@
 {
-  "run_id": 276,
-  "generation_evaluated": 254,
-  "next_generation": 255,
-  "items_ingested": 5,
+  "run_id": 277,
+  "generation_evaluated": 255,
+  "next_generation": 256,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 254,
-    "best_fitness": 0.1,
+    "generation": 255,
+    "best_fitness": 0.8468,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "09a7ca3c4ba044ce",
-    "avg_fitness": 0.1,
+    "best_agent_id": "2b9fcafacdfd4767",
+    "avg_fitness": 0.8276,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
+    "title": "Veille critique : experiments, apparently, computing en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 255,
+      "population": 5,
+      "avg_fitness": 0.8275600000000001,
+      "best_fitness": 0.8468
+    },
     {
       "generation": 254,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8163,
       "best_fitness": 0.8189
-    },
-    {
-      "generation": 245,
-      "population": 5,
-      "avg_fitness": 0.82484,
-      "best_fitness": 0.8274
     }
   ]
 }
