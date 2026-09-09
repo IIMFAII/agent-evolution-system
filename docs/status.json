@@ -1,25 +1,33 @@
 {
-  "run_id": 277,
-  "generation_evaluated": 255,
-  "next_generation": 256,
-  "items_ingested": 4,
+  "run_id": 278,
+  "generation_evaluated": 256,
+  "next_generation": 257,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 255,
-    "best_fitness": 0.8468,
+    "generation": 256,
+    "best_fitness": 0.8494,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "2b9fcafacdfd4767",
-    "avg_fitness": 0.8276,
+    "best_agent_id": "65dc795ad30e43d1",
+    "avg_fitness": 0.8447,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
-    "title": "Veille critique : experiments, apparently, computing en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : controlled, ex-partner, personnel en 5 signaux à suivre",
+    "agent": "Critique-250.2",
+    "fitness": 0.8494,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-09-veille-critique-controlled-ex-partner-personnel-en-5-signaux.md"
   },
   "history": [
+    {
+      "generation": 256,
+      "population": 5,
+      "avg_fitness": 0.84468,
+      "best_fitness": 0.8494
+    },
     {
       "generation": 255,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8375999999999999,
       "best_fitness": 0.8399
-    },
-    {
-      "generation": 246,
-      "population": 5,
-      "avg_fitness": 0.8163,
-      "best_fitness": 0.8189
     }
   ]
 }
