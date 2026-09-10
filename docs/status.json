@@ -1,24 +1,31 @@
 {
-  "run_id": 282,
-  "generation_evaluated": 259,
-  "next_generation": 260,
-  "items_ingested": 4,
+  "run_id": 283,
+  "generation_evaluated": 260,
+  "next_generation": 261,
+  "items_ingested": 9,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 259,
-    "best_fitness": 0.1,
+    "generation": 260,
+    "best_fitness": 0.8564,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "1a6c9cc00b5b41fb",
-    "avg_fitness": 0.1,
+    "best_agent_id": "323986950acf4723",
+    "avg_fitness": 0.8417,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 11.3 h, minimum 12 h",
+    "title": "Veille critique : openai, conversations, électronique en 9 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 260,
+      "population": 5,
+      "avg_fitness": 0.84174,
+      "best_fitness": 0.8564
+    },
     {
       "generation": 259,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8225199999999999,
       "best_fitness": 0.8248
-    },
-    {
-      "generation": 250,
-      "population": 5,
-      "avg_fitness": 0.82196,
-      "best_fitness": 0.8246
     }
   ]
 }
