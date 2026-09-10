@@ -1,25 +1,33 @@
 {
-  "run_id": 279,
-  "generation_evaluated": 257,
-  "next_generation": 258,
-  "items_ingested": 4,
+  "run_id": 281,
+  "generation_evaluated": 258,
+  "next_generation": 259,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 257,
-    "best_fitness": 0.86,
+    "generation": 258,
+    "best_fitness": 0.8414,
     "best_agent": "Critique-250.2",
-    "best_agent_id": "3dd68669ef3e499a",
-    "avg_fitness": 0.8572,
+    "best_agent_id": "c31b2d4ceccc45eb",
+    "avg_fitness": 0.8296,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
-    "title": "Veille critique : iphone, apple, self-hosted en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : automattic's, mullenweg, factoring en 5 signaux à suivre",
+    "agent": "Critique-250.2",
+    "fitness": 0.8414,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-10-veille-critique-automattic-s-mullenweg-factoring-en-5-signau.md"
   },
   "history": [
+    {
+      "generation": 258,
+      "population": 5,
+      "avg_fitness": 0.82962,
+      "best_fitness": 0.8414
+    },
     {
       "generation": 257,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8393799999999999,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 248,
-      "population": 5,
-      "avg_fitness": 0.8813000000000001,
-      "best_fitness": 0.8837
     }
   ]
 }

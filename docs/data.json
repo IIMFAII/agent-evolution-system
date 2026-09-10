@@ -1,25 +1,103 @@
 {
- "generated_at": "2026-09-09T22:10:29+00:00",
+ "generated_at": "2026-09-10T02:42:05+00:00",
  "cycle": {
-  "run_id": 280,
+  "run_id": 281,
   "generation_evaluated": 258,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 259,
+  "items_ingested": 5,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
-   "published": false,
-   "reason": "aucun item nouveau"
+   "published": true,
+   "title": "Veille critique : automattic's, mullenweg, factoring en 5 signaux à suivre",
+   "agent": "Critique-250.2",
+   "fitness": 0.8414,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-10-veille-critique-automattic-s-mullenweg-factoring-en-5-signau.md"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 258,
+  "best_fitness": 0.8414,
+  "best_agent": "Critique-250.2",
+  "best_agent_id": "c31b2d4ceccc45eb",
+  "avg_fitness": 0.8296,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 198,
-   "population": 5,
-   "avg_fitness": 0.8421199999999999,
-   "best_fitness": 0.854,
-   "worst_fitness": 0.83
+   "agent_id": "c31b2d4ceccc45eb",
+   "fitness": 0.8414,
+   "readability": 1.0,
+   "keyword_score": 0.3071,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-250.2",
+   "tone": "critique",
+   "origin": "elite",
+   "temperature": 0.30515475219280674,
+   "mutation_rate": 0.9
   },
+  {
+   "agent_id": "57356dc8dbb74efd",
+   "fitness": 0.8414,
+   "readability": 1.0,
+   "keyword_score": 0.3071,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-258.5",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.1,
+   "mutation_rate": 0.865
+  },
+  {
+   "agent_id": "32ab8a255bae4f40",
+   "fitness": 0.8412,
+   "readability": 1.0,
+   "keyword_score": 0.3061,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-258.3",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.19199456764745138,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "84d6a7af87c84a98",
+   "fitness": 0.8176,
+   "readability": 1.0,
+   "keyword_score": 0.3081,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-258.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.3943450249604391,
+   "mutation_rate": 0.86
+  },
+  {
+   "agent_id": "32da8369feaa411e",
+   "fitness": 0.8065,
+   "readability": 1.0,
+   "keyword_score": 0.2526,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-258.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.3849134237634686,
+   "mutation_rate": 0.865
+  }
+ ],
+ "generations": [
   {
    "generation": 199,
    "population": 5,
@@ -432,9 +510,25 @@
    "avg_fitness": 0.85716,
    "best_fitness": 0.86,
    "worst_fitness": 0.8486
+  },
+  {
+   "generation": 258,
+   "population": 5,
+   "avg_fitness": 0.82962,
+   "best_fitness": 0.8414,
+   "worst_fitness": 0.8065
   }
  ],
  "runs": [
+  {
+   "id": 281,
+   "started_at": "2026-09-10T02:41:57+00:00",
+   "finished_at": "2026-09-10T02:42:05+00:00",
+   "generation": 258,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 280,
    "started_at": "2026-09-09T22:10:10+00:00",
@@ -785,18 +879,18 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.6 h, minimum 12 h"
-  },
-  {
-   "id": 241,
-   "started_at": "2026-09-03T08:28:34+00:00",
-   "finished_at": "2026-09-03T08:28:38+00:00",
-   "generation": 220,
-   "status": "success",
-   "items_ingested": 2,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : automattic's, mullenweg, factoring en 5 signaux à suivre",
+   "slug": "2026-09-10-veille-critique-automattic-s-mullenweg-factoring-en-5-signau",
+   "fitness": 0.8414,
+   "generation": 258,
+   "created_at": "2026-09-10T02:42:05+00:00",
+   "agent_name": "Critique-250.2",
+   "tone": "critique"
+  },
   {
    "title": "Veille critique : controlled, ex-partner, personnel en 5 signaux à suivre",
    "slug": "2026-09-09-veille-critique-controlled-ex-partner-personnel-en-5-signaux",
@@ -967,19 +1061,10 @@
    "created_at": "2026-08-29T14:54:25+00:00",
    "agent_name": "Analytique-189.2",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille analytique : authorities, prolific, printing en 5 signaux à suivre",
-   "slug": "2026-08-28-veille-analytique-authorities-prolific-printing-en-5-signaux",
-   "fitness": 0.8457,
-   "generation": 195,
-   "created_at": "2026-08-28T16:26:19+00:00",
-   "agent_name": "Analytique-189.2",
-   "tone": "analytique"
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ReadTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
@@ -987,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 54,
+  "publications": 55,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1049,6 +1134,34 @@
     "policy_source": null
    },
    {
+    "id": "licence_donnees",
+    "name": "Licence du jeu de données",
+    "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
+    "score": 0.5517,
+    "status": "à préparer",
+    "blocked_reason": null,
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 55 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "angle": null,
+    "ai_policy": "compatible",
+    "ai_policy_label": "Compatible contenu automatisé",
+    "audience_floor": 0,
+    "days_to_first_euro": 60,
+    "human_steps": [
+     "Créer un compte d'encaissement professionnel (KYC + statut d'entreprise).",
+     "Rédiger et publier des conditions de licence.",
+     "Démarcher les premiers clients : aucun automatisme ne remplace cette étape."
+    ],
+    "automatable": [
+     "Produire l'export structuré à chaque cycle (déjà en place : data.json).",
+     "Versionner et horodater le corpus pour en garantir la traçabilité."
+    ],
+    "legal_notes": [
+     "Ne redistribuer que ce que vous produisez : les métadonnées et vos synthèses, jamais le texte intégral des sources.",
+     "Le droit sui generis des bases de données protège l'investissement, à condition que la base soit substantielle."
+    ],
+    "policy_source": null
+   },
+   {
     "id": "dons",
     "name": "Dons et soutien récurrent",
     "summary": "Une page de soutien (GitHub Sponsors, Liberapay, Ko-fi…). Le donateur soutient le projet, pas un produit : aucune promesse commerciale n'est faite, donc aucune CGU n'encadre l'origine du contenu.",
@@ -1072,34 +1185,6 @@
     "legal_notes": [
      "Les dons perçus régulièrement en contrepartie d'une activité sont des revenus imposables : ils doivent être déclarés.",
      "Indiquer clairement que le contenu est automatisé, comme le fait déjà le site."
-    ],
-    "policy_source": null
-   },
-   {
-    "id": "licence_donnees",
-    "name": "Licence du jeu de données",
-    "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.549,
-    "status": "à préparer",
-    "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 54 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
-    "angle": null,
-    "ai_policy": "compatible",
-    "ai_policy_label": "Compatible contenu automatisé",
-    "audience_floor": 0,
-    "days_to_first_euro": 60,
-    "human_steps": [
-     "Créer un compte d'encaissement professionnel (KYC + statut d'entreprise).",
-     "Rédiger et publier des conditions de licence.",
-     "Démarcher les premiers clients : aucun automatisme ne remplace cette étape."
-    ],
-    "automatable": [
-     "Produire l'export structuré à chaque cycle (déjà en place : data.json).",
-     "Versionner et horodater le corpus pour en garantir la traçabilité."
-    ],
-    "legal_notes": [
-     "Ne redistribuer que ce que vous produisez : les métadonnées et vos synthèses, jamais le texte intégral des sources.",
-     "Le droit sui generis des bases de données protège l'investissement, à condition que la base soit substantielle."
     ],
     "policy_source": null
    },
