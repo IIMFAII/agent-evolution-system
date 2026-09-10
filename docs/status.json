@@ -1,27 +1,31 @@
 {
-  "run_id": 284,
-  "generation_evaluated": 261,
-  "next_generation": 262,
+  "run_id": 285,
+  "generation_evaluated": 262,
+  "next_generation": 263,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 261,
-    "best_fitness": 0.8691,
+    "generation": 262,
+    "best_fitness": 0.8228,
     "best_agent": "Concis-261.4",
-    "best_agent_id": "fe5debe74cc64b6d",
-    "avg_fitness": 0.8476,
+    "best_agent_id": "563d6b99f4504f2e",
+    "avg_fitness": 0.816,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : theory, terminal-bench, ahead-of-time en 4 signaux à suivre",
-    "agent": "Concis-261.4",
-    "fitness": 0.8691,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-10-veille-concis-theory-terminal-bench-ahead-of-time-en-4-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
+    "title": "Veille concis : investigative, navier-stokes, steganography en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 262,
+      "population": 5,
+      "avg_fitness": 0.8159599999999999,
+      "best_fitness": 0.8228
+    },
     {
       "generation": 261,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8413999999999999,
       "best_fitness": 0.846
-    },
-    {
-      "generation": 252,
-      "population": 5,
-      "avg_fitness": 0.84284,
-      "best_fitness": 0.8474
     }
   ]
 }
