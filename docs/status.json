@@ -1,25 +1,31 @@
 {
-  "run_id": 289,
-  "generation_evaluated": 266,
-  "next_generation": 267,
+  "run_id": 290,
+  "generation_evaluated": 267,
+  "next_generation": 268,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 266,
-    "best_fitness": 0.8394,
+    "generation": 267,
+    "best_fitness": 0.8274,
     "best_agent": "Prospectif-265.3",
-    "best_agent_id": "32a9bf977fb54c82",
-    "avg_fitness": 0.8391,
+    "best_agent_id": "75e84453471e490c",
+    "avg_fitness": 0.8228,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
-    "title": "Veille prospectif : engineering, anniversary, spider-man en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille prospectif : commemoration, grapheneos', president's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 267,
+      "population": 5,
+      "avg_fitness": 0.82284,
+      "best_fitness": 0.8274
+    },
     {
       "generation": 266,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82962,
       "best_fitness": 0.8414
-    },
-    {
-      "generation": 257,
-      "population": 5,
-      "avg_fitness": 0.85716,
-      "best_fitness": 0.86
     }
   ]
 }
