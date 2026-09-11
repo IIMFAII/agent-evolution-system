@@ -1,25 +1,33 @@
 {
-  "run_id": 286,
-  "generation_evaluated": 263,
-  "next_generation": 264,
+  "run_id": 287,
+  "generation_evaluated": 264,
+  "next_generation": 265,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 263,
-    "best_fitness": 0.8448,
+    "generation": 264,
+    "best_fitness": 0.8569,
     "best_agent": "Concis-261.4",
-    "best_agent_id": "174ab497c3654175",
-    "avg_fitness": 0.8445,
+    "best_agent_id": "301c6810e38540d1",
+    "avg_fitness": 0.8501,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
-    "title": "Veille concis : fire, extinguisher, electricity en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : uncensored, available, deepseek en 4 signaux à suivre",
+    "agent": "Concis-261.4",
+    "fitness": 0.8569,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-11-veille-concis-uncensored-available-deepseek-en-4-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 264,
+      "population": 5,
+      "avg_fitness": 0.85006,
+      "best_fitness": 0.8569
+    },
     {
       "generation": 263,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8275600000000001,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 254,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
