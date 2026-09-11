@@ -1,25 +1,31 @@
 {
-  "run_id": 288,
-  "generation_evaluated": 265,
-  "next_generation": 266,
-  "items_ingested": 7,
+  "run_id": 289,
+  "generation_evaluated": 266,
+  "next_generation": 267,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 265,
-    "best_fitness": 0.8564,
+    "generation": 266,
+    "best_fitness": 0.8394,
     "best_agent": "Prospectif-265.3",
-    "best_agent_id": "ff05de2692064ffc",
-    "avg_fitness": 0.8446,
+    "best_agent_id": "32a9bf977fb54c82",
+    "avg_fitness": 0.8391,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.5 h, minimum 12 h",
-    "title": "Veille prospectif : l'activité, pourraient, infecting en 7 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
+    "title": "Veille prospectif : engineering, anniversary, spider-man en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 266,
+      "population": 5,
+      "avg_fitness": 0.83912,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 265,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85716,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 256,
-      "population": 5,
-      "avg_fitness": 0.84468,
-      "best_fitness": 0.8494
     }
   ]
 }
