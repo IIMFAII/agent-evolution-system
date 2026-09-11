@@ -1,25 +1,31 @@
 {
-  "run_id": 285,
-  "generation_evaluated": 262,
-  "next_generation": 263,
+  "run_id": 286,
+  "generation_evaluated": 263,
+  "next_generation": 264,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 262,
-    "best_fitness": 0.8228,
+    "generation": 263,
+    "best_fitness": 0.8448,
     "best_agent": "Concis-261.4",
-    "best_agent_id": "563d6b99f4504f2e",
-    "avg_fitness": 0.816,
+    "best_agent_id": "174ab497c3654175",
+    "avg_fitness": 0.8445,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
-    "title": "Veille concis : investigative, navier-stokes, steganography en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
+    "title": "Veille concis : fire, extinguisher, electricity en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 263,
+      "population": 5,
+      "avg_fitness": 0.8445,
+      "best_fitness": 0.8448
+    },
     {
       "generation": 262,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 253,
-      "population": 5,
-      "avg_fitness": 0.8413999999999999,
-      "best_fitness": 0.846
     }
   ]
 }
