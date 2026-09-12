@@ -1,27 +1,31 @@
 {
-  "run_id": 291,
-  "generation_evaluated": 268,
-  "next_generation": 269,
-  "items_ingested": 4,
+  "run_id": 292,
+  "generation_evaluated": 269,
+  "next_generation": 270,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 268,
-    "best_fitness": 0.8349,
-    "best_agent": "Analytique-268.2",
-    "best_agent_id": "a89d213b77584c3a",
-    "avg_fitness": 0.8348,
+    "generation": 269,
+    "best_fitness": 0.8189,
+    "best_agent": "Concis-269.3",
+    "best_agent_id": "c75e8d5cd8a041e3",
+    "avg_fitness": 0.814,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : system-agnostic, blinkenlights, decloudflare en 4 signaux à suivre",
-    "agent": "Analytique-268.2",
-    "fitness": 0.8349,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-11-veille-analytique-system-agnostic-blinkenlights-decloudflare.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 2.9 h, minimum 12 h",
+    "title": "Veille concis : compiler-accurate, astronomy's, frequencies en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 269,
+      "population": 5,
+      "avg_fitness": 0.8140000000000001,
+      "best_fitness": 0.8189
+    },
     {
       "generation": 268,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84174,
       "best_fitness": 0.8564
-    },
-    {
-      "generation": 259,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
