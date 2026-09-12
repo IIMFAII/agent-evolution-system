@@ -1,25 +1,31 @@
 {
-  "run_id": 295,
-  "generation_evaluated": 272,
-  "next_generation": 273,
+  "run_id": 296,
+  "generation_evaluated": 273,
+  "next_generation": 274,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 272,
-    "best_fitness": 0.8761,
+    "generation": 273,
+    "best_fitness": 0.8648,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "cfc10f6768534303",
-    "avg_fitness": 0.8639,
+    "best_agent_id": "df76553a59d64c19",
+    "avg_fitness": 0.8648,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.4 h, minimum 12 h",
-    "title": "Veille concis : allegations, renaissance, responds en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.7 h, minimum 12 h",
+    "title": "Veille concis : open, openstreetmap, interviews en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 273,
+      "population": 5,
+      "avg_fitness": 0.8648,
+      "best_fitness": 0.8648
+    },
     {
       "generation": 272,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85006,
       "best_fitness": 0.8569
-    },
-    {
-      "generation": 263,
-      "population": 5,
-      "avg_fitness": 0.8445,
-      "best_fitness": 0.8448
     }
   ]
 }
