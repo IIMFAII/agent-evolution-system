@@ -1,25 +1,31 @@
 {
-  "run_id": 292,
-  "generation_evaluated": 269,
-  "next_generation": 270,
-  "items_ingested": 3,
+  "run_id": 293,
+  "generation_evaluated": 270,
+  "next_generation": 271,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 269,
-    "best_fitness": 0.8189,
+    "generation": 270,
+    "best_fitness": 0.8634,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "c75e8d5cd8a041e3",
-    "avg_fitness": 0.814,
+    "best_agent_id": "be722964d8e647cb",
+    "avg_fitness": 0.8611,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 2.9 h, minimum 12 h",
-    "title": "Veille concis : compiler-accurate, astronomy's, frequencies en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
+    "title": "Veille concis : engine, reverse-engineering, retrospectively en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 270,
+      "population": 5,
+      "avg_fitness": 0.86112,
+      "best_fitness": 0.8634
+    },
     {
       "generation": 269,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8475999999999999,
       "best_fitness": 0.8691
-    },
-    {
-      "generation": 260,
-      "population": 5,
-      "avg_fitness": 0.84174,
-      "best_fitness": 0.8564
     }
   ]
 }
