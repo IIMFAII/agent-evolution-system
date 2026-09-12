@@ -1,25 +1,31 @@
 {
-  "run_id": 296,
-  "generation_evaluated": 273,
-  "next_generation": 274,
+  "run_id": 297,
+  "generation_evaluated": 274,
+  "next_generation": 275,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 273,
-    "best_fitness": 0.8648,
+    "generation": 274,
+    "best_fitness": 0.8492,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "df76553a59d64c19",
-    "avg_fitness": 0.8648,
+    "best_agent_id": "a5c5c2a426be4240",
+    "avg_fitness": 0.8302,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.7 h, minimum 12 h",
-    "title": "Veille concis : open, openstreetmap, interviews en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
+    "title": "Veille concis : ill-advised', california, open-world en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 274,
+      "population": 5,
+      "avg_fitness": 0.8302400000000001,
+      "best_fitness": 0.8492
+    },
     {
       "generation": 273,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8445600000000001,
       "best_fitness": 0.8564
-    },
-    {
-      "generation": 264,
-      "population": 5,
-      "avg_fitness": 0.85006,
-      "best_fitness": 0.8569
     }
   ]
 }
