@@ -1,35 +1,37 @@
 {
- "generated_at": "2026-09-12T08:18:03+00:00",
+ "generated_at": "2026-09-12T13:18:30+00:00",
  "cycle": {
-  "run_id": 293,
-  "generation_evaluated": 270,
-  "next_generation": 271,
+  "run_id": 294,
+  "generation_evaluated": 271,
+  "next_generation": 272,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
-   "title": "Veille concis : engine, reverse-engineering, retrospectively en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : replacing, mountains, spotlight en 4 signaux à suivre",
+   "agent": "Concis-269.3",
+   "fitness": 0.8448,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-12-veille-concis-replacing-mountains-spotlight-en-4-signaux-a-s.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 270,
-  "best_fitness": 0.8634,
+  "generation": 271,
+  "best_fitness": 0.8448,
   "best_agent": "Concis-269.3",
-  "best_agent_id": "be722964d8e647cb",
-  "avg_fitness": 0.8611,
+  "best_agent_id": "678f6d7edea24fbd",
+  "avg_fitness": 0.8422,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "be722964d8e647cb",
-   "fitness": 0.8634,
+   "agent_id": "678f6d7edea24fbd",
+   "fitness": 0.8448,
    "readability": 1.0,
-   "keyword_score": 0.5371,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3238,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-269.3",
@@ -39,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "285fada54c9d4c5e",
-   "fitness": 0.8634,
+   "agent_id": "fa59392a1e1f4623",
+   "fitness": 0.8448,
    "readability": 1.0,
-   "keyword_score": 0.5371,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3238,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-270.3",
+   "name": "Analytique-271.4",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.44594289690375755,
-   "mutation_rate": 0.9
+   "temperature": 0.2981875087368009,
+   "mutation_rate": 0.87
   },
   {
-   "agent_id": "0cb859994ba446bb",
-   "fitness": 0.8634,
+   "agent_id": "19fd7f8c3ff842f3",
+   "fitness": 0.8448,
    "readability": 1.0,
-   "keyword_score": 0.5371,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3238,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-270.4",
+   "name": "Concis-271.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.3190011200290698,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "1fe4fe180b7a49a1",
+   "fitness": 0.8433,
+   "readability": 1.0,
+   "keyword_score": 0.3167,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-271.2",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.3043905189303892,
-   "mutation_rate": 0.9
+   "temperature": 0.3356379889056419,
+   "mutation_rate": 0.87
   },
   {
-   "agent_id": "560234866cc84e63",
-   "fitness": 0.8634,
+   "agent_id": "5c4ef4b0cd764265",
+   "fitness": 0.8333,
    "readability": 1.0,
-   "keyword_score": 0.5371,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2667,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-270.5",
-   "tone": "concis",
+   "name": "Prospectif-271.3",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.41124402078573935,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "840d3062ed70474f",
-   "fitness": 0.852,
-   "readability": 1.0,
-   "keyword_score": 0.48,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-270.2",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.3609132050796963,
-   "mutation_rate": 0.9
+   "temperature": 0.4815374901769311,
+   "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 211,
-   "population": 5,
-   "avg_fitness": 0.8361599999999999,
-   "best_fitness": 0.8526,
-   "worst_fitness": 0.8178
-  },
   {
    "generation": 212,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.86112,
    "best_fitness": 0.8634,
    "worst_fitness": 0.852
+  },
+  {
+   "generation": 271,
+   "population": 5,
+   "avg_fitness": 0.8422000000000001,
+   "best_fitness": 0.8448,
+   "worst_fitness": 0.8333
   }
  ],
  "runs": [
+  {
+   "id": 294,
+   "started_at": "2026-09-12T13:18:23+00:00",
+   "finished_at": "2026-09-12T13:18:30+00:00",
+   "generation": 271,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 293,
    "started_at": "2026-09-12T08:17:58+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 254,
-   "started_at": "2026-09-05T14:25:04+00:00",
-   "finished_at": "2026-09-05T14:25:11+00:00",
-   "generation": 233,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.9 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : replacing, mountains, spotlight en 4 signaux à suivre",
+   "slug": "2026-09-12-veille-concis-replacing-mountains-spotlight-en-4-signaux-a-s",
+   "fitness": 0.8448,
+   "generation": 271,
+   "created_at": "2026-09-12T13:18:29+00:00",
+   "agent_name": "Concis-269.3",
+   "tone": "concis"
+  },
   {
    "title": "Veille analytique : system-agnostic, blinkenlights, decloudflare en 4 signaux à suivre",
    "slug": "2026-09-11-veille-analytique-system-agnostic-blinkenlights-decloudflare",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-08-31T23:34:10+00:00",
    "agent_name": "Analytique-206.5",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille analytique : cyberdéfense, researcher's, accidentally en 5 signaux à suivre",
-   "slug": "2026-08-31-veille-analytique-cyberdefense-researcher-s-accidentally-en",
-   "fitness": 0.8295,
-   "generation": 206,
-   "created_at": "2026-08-31T10:22:30+00:00",
-   "agent_name": "Analytique-206.5",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 58,
+  "publications": 59,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.5597,
+    "score": 0.5623,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 58 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 59 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

@@ -1,25 +1,33 @@
 {
-  "run_id": 293,
-  "generation_evaluated": 270,
-  "next_generation": 271,
+  "run_id": 294,
+  "generation_evaluated": 271,
+  "next_generation": 272,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 270,
-    "best_fitness": 0.8634,
+    "generation": 271,
+    "best_fitness": 0.8448,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "be722964d8e647cb",
-    "avg_fitness": 0.8611,
+    "best_agent_id": "678f6d7edea24fbd",
+    "avg_fitness": 0.8422,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
-    "title": "Veille concis : engine, reverse-engineering, retrospectively en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : replacing, mountains, spotlight en 4 signaux à suivre",
+    "agent": "Concis-269.3",
+    "fitness": 0.8448,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-12-veille-concis-replacing-mountains-spotlight-en-4-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 271,
+      "population": 5,
+      "avg_fitness": 0.8422000000000001,
+      "best_fitness": 0.8448
+    },
     {
       "generation": 270,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8159599999999999,
       "best_fitness": 0.8228
-    },
-    {
-      "generation": 261,
-      "population": 5,
-      "avg_fitness": 0.8475999999999999,
-      "best_fitness": 0.8691
     }
   ]
 }
