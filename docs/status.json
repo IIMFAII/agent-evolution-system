@@ -1,25 +1,33 @@
 {
-  "run_id": 300,
-  "generation_evaluated": 277,
-  "next_generation": 278,
+  "run_id": 301,
+  "generation_evaluated": 278,
+  "next_generation": 279,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 277,
-    "best_fitness": 0.8394,
+    "generation": 278,
+    "best_fitness": 0.8468,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "fcf04bd3156f42ea",
-    "avg_fitness": 0.8227,
+    "best_agent_id": "8ee90f764c77491e",
+    "avg_fitness": 0.8374,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.3 h, minimum 12 h",
-    "title": "Veille concis : fingerprints', supervisor, government en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : introduces, behaviour', september en 4 signaux à suivre",
+    "agent": "Concis-269.3",
+    "fitness": 0.8468,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-13-veille-concis-introduces-behaviour-september-en-4-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 278,
+      "population": 5,
+      "avg_fitness": 0.83744,
+      "best_fitness": 0.8468
+    },
     {
       "generation": 277,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8140000000000001,
       "best_fitness": 0.8189
-    },
-    {
-      "generation": 268,
-      "population": 5,
-      "avg_fitness": 0.83478,
-      "best_fitness": 0.8349
     }
   ]
 }
