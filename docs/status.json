@@ -1,25 +1,31 @@
 {
-  "run_id": 299,
-  "generation_evaluated": 276,
-  "next_generation": 277,
+  "run_id": 300,
+  "generation_evaluated": 277,
+  "next_generation": 278,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 276,
-    "best_fitness": 0.8442,
+    "generation": 277,
+    "best_fitness": 0.8394,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "92c59dc01fb747a2",
-    "avg_fitness": 0.8394,
+    "best_agent_id": "fcf04bd3156f42ea",
+    "avg_fitness": 0.8227,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille concis : researchers, wandering, dramatic en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.3 h, minimum 12 h",
+    "title": "Veille concis : fingerprints', supervisor, government en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 277,
+      "population": 5,
+      "avg_fitness": 0.82272,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 276,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83478,
       "best_fitness": 0.8349
-    },
-    {
-      "generation": 267,
-      "population": 5,
-      "avg_fitness": 0.82284,
-      "best_fitness": 0.8274
     }
   ]
 }
