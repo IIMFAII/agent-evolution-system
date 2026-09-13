@@ -1,25 +1,33 @@
 {
-  "run_id": 297,
-  "generation_evaluated": 274,
-  "next_generation": 275,
+  "run_id": 298,
+  "generation_evaluated": 275,
+  "next_generation": 276,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 274,
-    "best_fitness": 0.8492,
+    "generation": 275,
+    "best_fitness": 0.8474,
     "best_agent": "Concis-269.3",
-    "best_agent_id": "a5c5c2a426be4240",
-    "avg_fitness": 0.8302,
+    "best_agent_id": "b57a85a0604646e3",
+    "avg_fitness": 0.8428,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
-    "title": "Veille concis : ill-advised', california, open-world en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : coordinating, mathematics, development en 4 signaux à suivre",
+    "agent": "Concis-269.3",
+    "fitness": 0.8474,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-13-veille-concis-coordinating-mathematics-development-en-4-sign.md"
   },
   "history": [
+    {
+      "generation": 275,
+      "population": 5,
+      "avg_fitness": 0.84284,
+      "best_fitness": 0.8474
+    },
     {
       "generation": 274,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83912,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 265,
-      "population": 5,
-      "avg_fitness": 0.8445600000000001,
-      "best_fitness": 0.8564
     }
   ]
 }
