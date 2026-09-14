@@ -1,24 +1,31 @@
 {
-  "run_id": 302,
-  "generation_evaluated": 279,
-  "next_generation": 280,
+  "run_id": 303,
+  "generation_evaluated": 280,
+  "next_generation": 281,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 279,
-    "best_fitness": 0.1,
-    "best_agent": "Concis-269.3",
-    "best_agent_id": "a78cf39f8f4e4a29",
-    "avg_fitness": 0.1,
+    "generation": 280,
+    "best_fitness": 0.8714,
+    "best_agent": "Pédagogique-280.3",
+    "best_agent_id": "94a19c1d580f427c",
+    "avg_fitness": 0.8709,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
+    "title": "Veille pédagogique : show, intelligence, intersection en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 280,
+      "population": 5,
+      "avg_fitness": 0.87094,
+      "best_fitness": 0.8714
+    },
     {
       "generation": 279,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8422000000000001,
       "best_fitness": 0.8448
-    },
-    {
-      "generation": 270,
-      "population": 5,
-      "avg_fitness": 0.86112,
-      "best_fitness": 0.8634
     }
   ]
 }
