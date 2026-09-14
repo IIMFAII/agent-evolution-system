@@ -1,25 +1,31 @@
 {
-  "run_id": 305,
-  "generation_evaluated": 282,
-  "next_generation": 283,
+  "run_id": 306,
+  "generation_evaluated": 283,
+  "next_generation": 284,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 282,
-    "best_fitness": 0.86,
-    "best_agent": "Concis-282.4",
-    "best_agent_id": "8526526c93d94252",
-    "avg_fitness": 0.8458,
+    "generation": 283,
+    "best_fitness": 0.8414,
+    "best_agent": "Critique-283.2",
+    "best_agent_id": "bab4942685c44287",
+    "avg_fitness": 0.8367,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-    "title": "Veille concis : applications, principles, rubygems en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
+    "title": "Veille critique : mathematics, beginning, oracle's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 283,
+      "population": 5,
+      "avg_fitness": 0.83672,
+      "best_fitness": 0.8414
+    },
     {
       "generation": 282,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8302400000000001,
       "best_fitness": 0.8492
-    },
-    {
-      "generation": 273,
-      "population": 5,
-      "avg_fitness": 0.8648,
-      "best_fitness": 0.8648
     }
   ]
 }
