@@ -1,27 +1,31 @@
 {
-  "run_id": 304,
-  "generation_evaluated": 281,
-  "next_generation": 282,
-  "items_ingested": 5,
+  "run_id": 305,
+  "generation_evaluated": 282,
+  "next_generation": 283,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 281,
-    "best_fitness": 0.8275,
-    "best_agent": "Analytique-281.2",
-    "best_agent_id": "8668de03ea834eed",
-    "avg_fitness": 0.8249,
+    "generation": 282,
+    "best_fitness": 0.86,
+    "best_agent": "Concis-282.4",
+    "best_agent_id": "8526526c93d94252",
+    "avg_fitness": 0.8458,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : eurobirdportal, movements, viewports en 5 signaux à suivre",
-    "agent": "Analytique-281.2",
-    "fitness": 0.8275,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-14-veille-analytique-eurobirdportal-movements-viewports-en-5-si.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
+    "title": "Veille concis : applications, principles, rubygems en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 282,
+      "population": 5,
+      "avg_fitness": 0.8458399999999999,
+      "best_fitness": 0.86
+    },
     {
       "generation": 281,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8648,
       "best_fitness": 0.8648
-    },
-    {
-      "generation": 272,
-      "population": 5,
-      "avg_fitness": 0.86394,
-      "best_fitness": 0.8761
     }
   ]
 }
