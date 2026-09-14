@@ -1,25 +1,33 @@
 {
-  "run_id": 303,
-  "generation_evaluated": 280,
-  "next_generation": 281,
-  "items_ingested": 4,
+  "run_id": 304,
+  "generation_evaluated": 281,
+  "next_generation": 282,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 280,
-    "best_fitness": 0.8714,
-    "best_agent": "Pédagogique-280.3",
-    "best_agent_id": "94a19c1d580f427c",
-    "avg_fitness": 0.8709,
+    "generation": 281,
+    "best_fitness": 0.8275,
+    "best_agent": "Analytique-281.2",
+    "best_agent_id": "8668de03ea834eed",
+    "avg_fitness": 0.8249,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.5 h, minimum 12 h",
-    "title": "Veille pédagogique : show, intelligence, intersection en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : eurobirdportal, movements, viewports en 5 signaux à suivre",
+    "agent": "Analytique-281.2",
+    "fitness": 0.8275,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-14-veille-analytique-eurobirdportal-movements-viewports-en-5-si.md"
   },
   "history": [
+    {
+      "generation": 281,
+      "population": 5,
+      "avg_fitness": 0.8248599999999999,
+      "best_fitness": 0.8275
+    },
     {
       "generation": 280,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.86394,
       "best_fitness": 0.8761
-    },
-    {
-      "generation": 271,
-      "population": 5,
-      "avg_fitness": 0.8422000000000001,
-      "best_fitness": 0.8448
     }
   ]
 }
