@@ -1,25 +1,31 @@
 {
-  "run_id": 310,
-  "generation_evaluated": 287,
-  "next_generation": 288,
+  "run_id": 311,
+  "generation_evaluated": 288,
+  "next_generation": 289,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 287,
-    "best_fitness": 0.8672,
+    "generation": 288,
+    "best_fitness": 0.8394,
     "best_agent": "Analytique-286.2",
-    "best_agent_id": "027aa3cae9fa4301",
-    "avg_fitness": 0.8601,
+    "best_agent_id": "3af8387e0b7b4b32",
+    "avg_fitness": 0.8348,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.8 h, minimum 12 h",
-    "title": "Veille analytique : surveillance, dystopian, becoming en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
+    "title": "Veille analytique : zero-dependency, adjudication, oil-market en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 288,
+      "population": 5,
+      "avg_fitness": 0.83484,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 287,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 278,
-      "population": 5,
-      "avg_fitness": 0.83744,
-      "best_fitness": 0.8468
     }
   ]
 }
