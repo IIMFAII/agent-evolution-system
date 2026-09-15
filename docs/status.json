@@ -1,25 +1,33 @@
 {
-  "run_id": 306,
-  "generation_evaluated": 283,
-  "next_generation": 284,
+  "run_id": 307,
+  "generation_evaluated": 284,
+  "next_generation": 285,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 283,
-    "best_fitness": 0.8414,
+    "generation": 284,
+    "best_fitness": 0.8514,
     "best_agent": "Critique-283.2",
-    "best_agent_id": "bab4942685c44287",
-    "avg_fitness": 0.8367,
+    "best_agent_id": "092a43a7471246e2",
+    "avg_fitness": 0.8491,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
-    "title": "Veille critique : mathematics, beginning, oracle's en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : pedalboard, perplexity, behringer en 4 signaux à suivre",
+    "agent": "Critique-283.2",
+    "fitness": 0.8514,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-15-veille-critique-pedalboard-perplexity-behringer-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 284,
+      "population": 5,
+      "avg_fitness": 0.8491200000000001,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 283,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.84284,
       "best_fitness": 0.8474
-    },
-    {
-      "generation": 274,
-      "population": 5,
-      "avg_fitness": 0.8302400000000001,
-      "best_fitness": 0.8492
     }
   ]
 }
