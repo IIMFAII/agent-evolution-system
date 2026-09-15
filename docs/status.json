@@ -1,25 +1,33 @@
 {
-  "run_id": 308,
-  "generation_evaluated": 285,
-  "next_generation": 286,
-  "items_ingested": 2,
+  "run_id": 309,
+  "generation_evaluated": 286,
+  "next_generation": 287,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 285,
-    "best_fitness": 0.8414,
-    "best_agent": "Critique-283.2",
-    "best_agent_id": "77b634bddf714bef",
-    "avg_fitness": 0.8411,
+    "generation": 286,
+    "best_fitness": 0.8453,
+    "best_agent": "Analytique-286.2",
+    "best_agent_id": "24d8507dee064c63",
+    "avg_fitness": 0.8452,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.9 h, minimum 12 h",
-    "title": "Veille critique : handcuffs, precedent, scratch en 2 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : surveillance, numérique, enough en 8 signaux à suivre",
+    "agent": "Analytique-286.2",
+    "fitness": 0.8453,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-15-veille-analytique-surveillance-numerique-enough-en-8-signaux.md"
   },
   "history": [
+    {
+      "generation": 286,
+      "population": 5,
+      "avg_fitness": 0.84518,
+      "best_fitness": 0.8453
+    },
     {
       "generation": 285,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82272,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 276,
-      "population": 5,
-      "avg_fitness": 0.8393599999999999,
-      "best_fitness": 0.8442
     }
   ]
 }

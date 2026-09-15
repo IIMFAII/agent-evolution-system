@@ -1,34 +1,78 @@
 {
- "generated_at": "2026-09-15T07:04:53+00:00",
+ "generated_at": "2026-09-15T13:04:08+00:00",
  "cycle": {
-  "run_id": 308,
-  "generation_evaluated": 285,
-  "next_generation": 286,
-  "items_ingested": 2,
+  "run_id": 309,
+  "generation_evaluated": 286,
+  "next_generation": 287,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 6.9 h, minimum 12 h",
-   "title": "Veille critique : handcuffs, precedent, scratch en 2 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : surveillance, numérique, enough en 8 signaux à suivre",
+   "agent": "Analytique-286.2",
+   "fitness": 0.8453,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-15-veille-analytique-surveillance-numerique-enough-en-8-signaux.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 285,
-  "best_fitness": 0.8414,
-  "best_agent": "Critique-283.2",
-  "best_agent_id": "77b634bddf714bef",
-  "avg_fitness": 0.8411,
+  "generation": 286,
+  "best_fitness": 0.8453,
+  "best_agent": "Analytique-286.2",
+  "best_agent_id": "24d8507dee064c63",
+  "avg_fitness": 0.8452,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "77b634bddf714bef",
-   "fitness": 0.8414,
+   "agent_id": "24d8507dee064c63",
+   "fitness": 0.8453,
    "readability": 1.0,
-   "keyword_score": 0.3071,
+   "keyword_score": 0.3265,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-286.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.24626996100273754,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "e256406e0a8b48d7",
+   "fitness": 0.8453,
+   "readability": 1.0,
+   "keyword_score": 0.3265,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-286.3",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.3263213090453152,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "c9c577c283ba482b",
+   "fitness": 0.8453,
+   "readability": 1.0,
+   "keyword_score": 0.3265,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-286.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.3398968278582495,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "92cb84e948024f85",
+   "fitness": 0.8451,
+   "readability": 1.0,
+   "keyword_score": 0.3254,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +83,21 @@
    "mutation_rate": 0.87
   },
   {
-   "agent_id": "6acf168a36014a5c",
-   "fitness": 0.8414,
+   "agent_id": "6162fcb44d104ee3",
+   "fitness": 0.8449,
    "readability": 1.0,
-   "keyword_score": 0.3071,
+   "keyword_score": 0.3243,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-285.2",
+   "name": "Concis-286.4",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.4147569554944909,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "d691d00578b64d4a",
-   "fitness": 0.8414,
-   "readability": 1.0,
-   "keyword_score": 0.3071,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-285.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.3398009398095051,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "73a35ef69dda4cb7",
-   "fitness": 0.8414,
-   "readability": 1.0,
-   "keyword_score": 0.3071,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-285.5",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.33999271590699387,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "6288ed375920426d",
-   "fitness": 0.84,
-   "readability": 1.0,
-   "keyword_score": 0.3,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-285.3",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.3654766776475328,
+   "temperature": 0.2949182056556233,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 226,
-   "population": 5,
-   "avg_fitness": 0.8088200000000001,
-   "best_fitness": 0.8132,
-   "worst_fitness": 0.8022
-  },
   {
    "generation": 227,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8411200000000001,
    "best_fitness": 0.8414,
    "worst_fitness": 0.84
+  },
+  {
+   "generation": 286,
+   "population": 5,
+   "avg_fitness": 0.84518,
+   "best_fitness": 0.8453,
+   "worst_fitness": 0.8449
   }
  ],
  "runs": [
+  {
+   "id": 309,
+   "started_at": "2026-09-15T13:04:03+00:00",
+   "finished_at": "2026-09-15T13:04:08+00:00",
+   "generation": 286,
+   "status": "success",
+   "items_ingested": 8,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 308,
    "started_at": "2026-09-15T07:04:47+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.0 h, minimum 12 h"
-  },
-  {
-   "id": 269,
-   "started_at": "2026-09-07T19:32:22+00:00",
-   "finished_at": "2026-09-07T19:32:41+00:00",
-   "generation": 248,
-   "status": "no_data",
-   "items_ingested": 0,
-   "notes": ""
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : surveillance, numérique, enough en 8 signaux à suivre",
+   "slug": "2026-09-15-veille-analytique-surveillance-numerique-enough-en-8-signaux",
+   "fitness": 0.8453,
+   "generation": 286,
+   "created_at": "2026-09-15T13:04:08+00:00",
+   "agent_name": "Analytique-286.2",
+   "tone": "analytique"
+  },
   {
    "title": "Veille critique : pedalboard, perplexity, behringer en 4 signaux à suivre",
    "slug": "2026-09-15-veille-critique-pedalboard-perplexity-behringer-en-4-signaux",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-03T22:09:27+00:00",
    "agent_name": "Critique-222.3",
    "tone": "critique"
-  },
-  {
-   "title": "Veille critique : personalized, pre-release, peptides en 2 signaux à suivre",
-   "slug": "2026-09-03-veille-critique-personalized-pre-release-peptides-en-2-signa",
-   "fitness": 0.8664,
-   "generation": 220,
-   "created_at": "2026-09-03T08:28:38+00:00",
-   "agent_name": "Critique-219.2",
-   "tone": "critique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 63,
+  "publications": 64,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.573,
+    "score": 0.5757,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 63 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 64 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
