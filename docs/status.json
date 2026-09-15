@@ -1,25 +1,31 @@
 {
-  "run_id": 311,
-  "generation_evaluated": 288,
-  "next_generation": 289,
+  "run_id": 312,
+  "generation_evaluated": 289,
+  "next_generation": 290,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 288,
-    "best_fitness": 0.8394,
+    "generation": 289,
+    "best_fitness": 0.8202,
     "best_agent": "Analytique-286.2",
-    "best_agent_id": "3af8387e0b7b4b32",
-    "avg_fitness": 0.8348,
+    "best_agent_id": "afcc921c6dc84912",
+    "avg_fitness": 0.8156,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
-    "title": "Veille analytique : zero-dependency, adjudication, oil-market en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
+    "title": "Veille analytique : open-sources, rheinmetall, battlesuite en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 289,
+      "population": 5,
+      "avg_fitness": 0.8156399999999999,
+      "best_fitness": 0.8202
+    },
     {
       "generation": 288,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.87094,
       "best_fitness": 0.8714
-    },
-    {
-      "generation": 279,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
