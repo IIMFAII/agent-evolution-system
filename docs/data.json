@@ -1,36 +1,34 @@
 {
- "generated_at": "2026-09-15T00:10:27+00:00",
+ "generated_at": "2026-09-15T07:04:53+00:00",
  "cycle": {
-  "run_id": 307,
-  "generation_evaluated": 284,
-  "next_generation": 285,
-  "items_ingested": 4,
+  "run_id": 308,
+  "generation_evaluated": 285,
+  "next_generation": 286,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille critique : pedalboard, perplexity, behringer en 4 signaux à suivre",
-   "agent": "Critique-283.2",
-   "fitness": 0.8514,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-15-veille-critique-pedalboard-perplexity-behringer-en-4-signaux.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 6.9 h, minimum 12 h",
+   "title": "Veille critique : handcuffs, precedent, scratch en 2 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 284,
-  "best_fitness": 0.8514,
+  "generation": 285,
+  "best_fitness": 0.8414,
   "best_agent": "Critique-283.2",
-  "best_agent_id": "092a43a7471246e2",
-  "avg_fitness": 0.8491,
+  "best_agent_id": "77b634bddf714bef",
+  "avg_fitness": 0.8411,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "092a43a7471246e2",
-   "fitness": 0.8514,
+   "agent_id": "77b634bddf714bef",
+   "fitness": 0.8414,
    "readability": 1.0,
-   "keyword_score": 0.3571,
+   "keyword_score": 0.3071,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -41,70 +39,63 @@
    "mutation_rate": 0.87
   },
   {
-   "agent_id": "e071f5a9485e40cc",
-   "fitness": 0.8514,
+   "agent_id": "6acf168a36014a5c",
+   "fitness": 0.8414,
    "readability": 1.0,
-   "keyword_score": 0.3571,
+   "keyword_score": 0.3071,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-284.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.3106301404086674,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "f202207370b547f7",
-   "fitness": 0.8514,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-284.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.23340479209035664,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "f9d5ed484fa748dc",
-   "fitness": 0.8514,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-284.5",
+   "name": "Concis-285.2",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.2441487753994963,
+   "temperature": 0.4147569554944909,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "4dd846ec470c4619",
+   "agent_id": "d691d00578b64d4a",
+   "fitness": 0.8414,
+   "readability": 1.0,
+   "keyword_score": 0.3071,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-285.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.3398009398095051,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "73a35ef69dda4cb7",
+   "fitness": 0.8414,
+   "readability": 1.0,
+   "keyword_score": 0.3071,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-285.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.33999271590699387,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "6288ed375920426d",
    "fitness": 0.84,
    "readability": 1.0,
    "keyword_score": 0.3,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-284.2",
-   "tone": "concis",
+   "name": "Analytique-285.3",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.2489122890572121,
+   "temperature": 0.3654766776475328,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 225,
-   "population": 5,
-   "avg_fitness": 0.8365600000000001,
-   "best_fitness": 0.8528,
-   "worst_fitness": 0.8178
-  },
   {
    "generation": 226,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8491200000000001,
    "best_fitness": 0.8514,
    "worst_fitness": 0.84
+  },
+  {
+   "generation": 285,
+   "population": 5,
+   "avg_fitness": 0.8411200000000001,
+   "best_fitness": 0.8414,
+   "worst_fitness": 0.84
   }
  ],
  "runs": [
+  {
+   "id": 308,
+   "started_at": "2026-09-15T07:04:47+00:00",
+   "finished_at": "2026-09-15T07:04:53+00:00",
+   "generation": 285,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.9 h, minimum 12 h"
+  },
   {
    "id": 307,
    "started_at": "2026-09-15T00:10:09+00:00",
@@ -870,15 +877,6 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 268,
-   "started_at": "2026-09-07T15:26:59+00:00",
-   "finished_at": "2026-09-07T15:27:04+00:00",
-   "generation": 247,
-   "status": "success",
-   "items_ingested": 6,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
