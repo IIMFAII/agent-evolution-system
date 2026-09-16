@@ -1,27 +1,31 @@
 {
-  "run_id": 316,
-  "generation_evaluated": 293,
-  "next_generation": 294,
-  "items_ingested": 4,
+  "run_id": 317,
+  "generation_evaluated": 294,
+  "next_generation": 295,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 293,
-    "best_fitness": 0.854,
+    "generation": 294,
+    "best_fitness": 0.8274,
     "best_agent": "Concis-293.2",
-    "best_agent_id": "7ad0e57f98174e29",
-    "avg_fitness": 0.8398,
+    "best_agent_id": "997d29db802544a6",
+    "avg_fitness": 0.8228,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : self-hosted, persistent, vectorized en 4 signaux à suivre",
-    "agent": "Concis-293.2",
-    "fitness": 0.854,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-16-veille-concis-self-hosted-persistent-vectorized-en-4-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
+    "title": "Veille concis : vulnerabilities, post-training, cyberattack en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 294,
+      "population": 5,
+      "avg_fitness": 0.82276,
+      "best_fitness": 0.8274
+    },
     {
       "generation": 293,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8411200000000001,
       "best_fitness": 0.8414
-    },
-    {
-      "generation": 284,
-      "population": 5,
-      "avg_fitness": 0.8491200000000001,
-      "best_fitness": 0.8514
     }
   ]
 }
