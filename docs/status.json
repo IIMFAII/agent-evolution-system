@@ -1,25 +1,31 @@
 {
-  "run_id": 314,
-  "generation_evaluated": 291,
-  "next_generation": 292,
-  "items_ingested": 5,
+  "run_id": 315,
+  "generation_evaluated": 292,
+  "next_generation": 293,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 291,
-    "best_fitness": 0.8254,
-    "best_agent": "Critique-291.3",
-    "best_agent_id": "ea280767136240ec",
-    "avg_fitness": 0.8226,
+    "generation": 292,
+    "best_fitness": 0.8329,
+    "best_agent": "Analytique-292.5",
+    "best_agent_id": "b1feae4de942452a",
+    "avg_fitness": 0.8302,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.1 h, minimum 12 h",
-    "title": "Veille critique : cycle-accurate, negativland, microsoft en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
+    "title": "Veille analytique : self-improvement, ralentissement, hebdomadaires en 8 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 292,
+      "population": 5,
+      "avg_fitness": 0.8301999999999999,
+      "best_fitness": 0.8329
+    },
     {
       "generation": 291,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83672,
       "best_fitness": 0.8414
-    },
-    {
-      "generation": 282,
-      "population": 5,
-      "avg_fitness": 0.8458399999999999,
-      "best_fitness": 0.86
     }
   ]
 }
