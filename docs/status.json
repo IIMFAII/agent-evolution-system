@@ -1,25 +1,33 @@
 {
-  "run_id": 315,
-  "generation_evaluated": 292,
-  "next_generation": 293,
-  "items_ingested": 8,
+  "run_id": 316,
+  "generation_evaluated": 293,
+  "next_generation": 294,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 292,
-    "best_fitness": 0.8329,
-    "best_agent": "Analytique-292.5",
-    "best_agent_id": "b1feae4de942452a",
-    "avg_fitness": 0.8302,
+    "generation": 293,
+    "best_fitness": 0.854,
+    "best_agent": "Concis-293.2",
+    "best_agent_id": "7ad0e57f98174e29",
+    "avg_fitness": 0.8398,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.6 h, minimum 12 h",
-    "title": "Veille analytique : self-improvement, ralentissement, hebdomadaires en 8 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : self-hosted, persistent, vectorized en 4 signaux à suivre",
+    "agent": "Concis-293.2",
+    "fitness": 0.854,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-16-veille-concis-self-hosted-persistent-vectorized-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 293,
+      "population": 5,
+      "avg_fitness": 0.83984,
+      "best_fitness": 0.854
+    },
     {
       "generation": 292,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8491200000000001,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 283,
-      "population": 5,
-      "avg_fitness": 0.83672,
-      "best_fitness": 0.8414
     }
   ]
 }
