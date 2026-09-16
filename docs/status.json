@@ -1,25 +1,33 @@
 {
-  "run_id": 312,
-  "generation_evaluated": 289,
-  "next_generation": 290,
-  "items_ingested": 4,
+  "run_id": 313,
+  "generation_evaluated": 290,
+  "next_generation": 291,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 289,
-    "best_fitness": 0.8202,
-    "best_agent": "Analytique-286.2",
-    "best_agent_id": "afcc921c6dc84912",
-    "avg_fitness": 0.8156,
+    "generation": 290,
+    "best_fitness": 0.8328,
+    "best_agent": "Prospectif-290.5",
+    "best_agent_id": "1572f7557fd14c18",
+    "avg_fitness": 0.8237,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
-    "title": "Veille analytique : open-sources, rheinmetall, battlesuite en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : discoverable, disallowing, photography en 3 signaux à suivre",
+    "agent": "Prospectif-290.5",
+    "fitness": 0.8328,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-16-veille-prospectif-discoverable-disallowing-photography-en-3.md"
   },
   "history": [
+    {
+      "generation": 290,
+      "population": 5,
+      "avg_fitness": 0.8237,
+      "best_fitness": 0.8328
+    },
     {
       "generation": 289,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8248599999999999,
       "best_fitness": 0.8275
-    },
-    {
-      "generation": 280,
-      "population": 5,
-      "avg_fitness": 0.87094,
-      "best_fitness": 0.8714
     }
   ]
 }
