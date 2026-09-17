@@ -1,25 +1,33 @@
 {
-  "run_id": 321,
-  "generation_evaluated": 298,
-  "next_generation": 299,
+  "run_id": 322,
+  "generation_evaluated": 299,
+  "next_generation": 300,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 298,
-    "best_fitness": 0.8464,
-    "best_agent": "Concis-297.3",
-    "best_agent_id": "6b050c04d22e48f2",
-    "avg_fitness": 0.8458,
+    "generation": 299,
+    "best_fitness": 0.8272,
+    "best_agent": "Analytique-299.2",
+    "best_agent_id": "8ddfb8e3c9394bd2",
+    "avg_fitness": 0.8243,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
-    "title": "Veille concis : zettascale, referrals, thousands en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : near-lossless, compression, apocalypse en 4 signaux à suivre",
+    "agent": "Analytique-299.2",
+    "fitness": 0.8272,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-17-veille-analytique-near-lossless-compression-apocalypse-en-4.md"
   },
   "history": [
+    {
+      "generation": 299,
+      "population": 5,
+      "avg_fitness": 0.82434,
+      "best_fitness": 0.8272
+    },
     {
       "generation": 298,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8237,
       "best_fitness": 0.8328
-    },
-    {
-      "generation": 289,
-      "population": 5,
-      "avg_fitness": 0.8156399999999999,
-      "best_fitness": 0.8202
     }
   ]
 }
