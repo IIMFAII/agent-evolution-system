@@ -1,27 +1,31 @@
 {
-  "run_id": 319,
-  "generation_evaluated": 296,
-  "next_generation": 297,
-  "items_ingested": 4,
+  "run_id": 320,
+  "generation_evaluated": 297,
+  "next_generation": 298,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 296,
-    "best_fitness": 0.8483,
-    "best_agent": "Prospectif-296.2",
-    "best_agent_id": "f969cbd097f64ce6",
-    "avg_fitness": 0.8392,
+    "generation": 297,
+    "best_fitness": 0.8556,
+    "best_agent": "Concis-297.3",
+    "best_agent_id": "87e0bae1576d41bf",
+    "avg_fitness": 0.8345,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille prospectif : security-audit-skill, development, cloudflare en 4 signaux à suivre",
-    "agent": "Prospectif-296.2",
-    "fitness": 0.8483,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-17-veille-prospectif-security-audit-skill-development-cloudflar.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.5 h, minimum 12 h",
+    "title": "Veille concis : self-storage, replacement, facilities en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 297,
+      "population": 5,
+      "avg_fitness": 0.83446,
+      "best_fitness": 0.8556
+    },
     {
       "generation": 296,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83484,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 287,
-      "population": 5,
-      "avg_fitness": 0.86012,
-      "best_fitness": 0.8672
     }
   ]
 }
