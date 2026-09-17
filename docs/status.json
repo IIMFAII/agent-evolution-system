@@ -1,25 +1,31 @@
 {
-  "run_id": 317,
-  "generation_evaluated": 294,
-  "next_generation": 295,
-  "items_ingested": 5,
+  "run_id": 318,
+  "generation_evaluated": 295,
+  "next_generation": 296,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 294,
-    "best_fitness": 0.8274,
+    "generation": 295,
+    "best_fitness": 0.83,
     "best_agent": "Concis-293.2",
-    "best_agent_id": "997d29db802544a6",
-    "avg_fitness": 0.8228,
+    "best_agent_id": "3179d4420e414503",
+    "avg_fitness": 0.8274,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
-    "title": "Veille concis : vulnerabilities, post-training, cyberattack en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.7 h, minimum 12 h",
+    "title": "Veille concis : configurable, deepseek-v4, compression en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 295,
+      "population": 5,
+      "avg_fitness": 0.82744,
+      "best_fitness": 0.83
+    },
     {
       "generation": 294,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84518,
       "best_fitness": 0.8453
-    },
-    {
-      "generation": 285,
-      "population": 5,
-      "avg_fitness": 0.8411200000000001,
-      "best_fitness": 0.8414
     }
   ]
 }
