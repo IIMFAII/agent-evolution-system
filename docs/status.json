@@ -1,25 +1,31 @@
 {
-  "run_id": 320,
-  "generation_evaluated": 297,
-  "next_generation": 298,
-  "items_ingested": 5,
+  "run_id": 321,
+  "generation_evaluated": 298,
+  "next_generation": 299,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 297,
-    "best_fitness": 0.8556,
+    "generation": 298,
+    "best_fitness": 0.8464,
     "best_agent": "Concis-297.3",
-    "best_agent_id": "87e0bae1576d41bf",
-    "avg_fitness": 0.8345,
+    "best_agent_id": "6b050c04d22e48f2",
+    "avg_fitness": 0.8458,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.5 h, minimum 12 h",
-    "title": "Veille concis : self-storage, replacement, facilities en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
+    "title": "Veille concis : zettascale, referrals, thousands en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 298,
+      "population": 5,
+      "avg_fitness": 0.8458400000000001,
+      "best_fitness": 0.8464
+    },
     {
       "generation": 297,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8156399999999999,
       "best_fitness": 0.8202
-    },
-    {
-      "generation": 288,
-      "population": 5,
-      "avg_fitness": 0.83484,
-      "best_fitness": 0.8394
     }
   ]
 }
