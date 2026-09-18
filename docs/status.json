@@ -1,27 +1,31 @@
 {
-  "run_id": 322,
-  "generation_evaluated": 299,
-  "next_generation": 300,
-  "items_ingested": 4,
+  "run_id": 323,
+  "generation_evaluated": 300,
+  "next_generation": 301,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 299,
-    "best_fitness": 0.8272,
+    "generation": 300,
+    "best_fitness": 0.8384,
     "best_agent": "Analytique-299.2",
-    "best_agent_id": "8ddfb8e3c9394bd2",
-    "avg_fitness": 0.8243,
+    "best_agent_id": "d17c7845cf534a40",
+    "avg_fitness": 0.8381,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : near-lossless, compression, apocalypse en 4 signaux à suivre",
-    "agent": "Analytique-299.2",
-    "fitness": 0.8272,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-17-veille-analytique-near-lossless-compression-apocalypse-en-4.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.2 h, minimum 12 h",
+    "title": "Veille analytique : than, safe, experimental en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 300,
+      "population": 5,
+      "avg_fitness": 0.83812,
+      "best_fitness": 0.8384
+    },
     {
       "generation": 299,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82258,
       "best_fitness": 0.8254
-    },
-    {
-      "generation": 290,
-      "population": 5,
-      "avg_fitness": 0.8237,
-      "best_fitness": 0.8328
     }
   ]
 }
