@@ -1,25 +1,30 @@
 {
-  "run_id": 326,
-  "generation_evaluated": 303,
-  "next_generation": 304,
-  "items_ingested": 6,
+  "run_id": 327,
+  "generation_evaluated": 304,
+  "next_generation": 305,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 303,
-    "best_fitness": 0.844,
+    "generation": 304,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-303.2",
-    "best_agent_id": "bdb6f031d20242ac",
-    "avg_fitness": 0.8416,
+    "best_agent_id": "d5681f4673fb4a62",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.8 h, minimum 12 h",
-    "title": "Veille analytique : google, photon-emission-guided, hallucinated en 6 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 304,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 303,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.82744,
       "best_fitness": 0.83
-    },
-    {
-      "generation": 294,
-      "population": 5,
-      "avg_fitness": 0.82276,
-      "best_fitness": 0.8274
     }
   ]
 }
