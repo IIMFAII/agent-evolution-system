@@ -1,27 +1,31 @@
 {
-  "run_id": 325,
-  "generation_evaluated": 302,
-  "next_generation": 303,
-  "items_ingested": 8,
+  "run_id": 326,
+  "generation_evaluated": 303,
+  "next_generation": 304,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 302,
-    "best_fitness": 0.836,
-    "best_agent": "Pédagogique-302.2",
-    "best_agent_id": "41b052e150644d16",
-    "avg_fitness": 0.8294,
+    "generation": 303,
+    "best_fitness": 0.844,
+    "best_agent": "Analytique-303.2",
+    "best_agent_id": "bdb6f031d20242ac",
+    "avg_fitness": 0.8416,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille pédagogique : professionnels, souveraineté, l'autonomie en 8 signaux à suivre",
-    "agent": "Pédagogique-302.2",
-    "fitness": 0.836,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-18-veille-pedagogique-professionnels-souverainete-l-autonomie-e.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.8 h, minimum 12 h",
+    "title": "Veille analytique : google, photon-emission-guided, hallucinated en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 303,
+      "population": 5,
+      "avg_fitness": 0.8416,
+      "best_fitness": 0.844
+    },
     {
       "generation": 302,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82276,
       "best_fitness": 0.8274
-    },
-    {
-      "generation": 293,
-      "population": 5,
-      "avg_fitness": 0.83984,
-      "best_fitness": 0.854
     }
   ]
 }
