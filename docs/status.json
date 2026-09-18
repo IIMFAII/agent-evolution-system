@@ -1,25 +1,31 @@
 {
-  "run_id": 323,
-  "generation_evaluated": 300,
-  "next_generation": 301,
-  "items_ingested": 3,
+  "run_id": 324,
+  "generation_evaluated": 301,
+  "next_generation": 302,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 300,
-    "best_fitness": 0.8384,
+    "generation": 301,
+    "best_fitness": 0.8187,
     "best_agent": "Analytique-299.2",
-    "best_agent_id": "d17c7845cf534a40",
-    "avg_fitness": 0.8381,
+    "best_agent_id": "60abf885017a4aae",
+    "avg_fitness": 0.8161,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.2 h, minimum 12 h",
-    "title": "Veille analytique : than, safe, experimental en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.1 h, minimum 12 h",
+    "title": "Veille analytique : misconfiguration, watermarking, differently en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 301,
+      "population": 5,
+      "avg_fitness": 0.8160999999999999,
+      "best_fitness": 0.8187
+    },
     {
       "generation": 300,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8301999999999999,
       "best_fitness": 0.8329
-    },
-    {
-      "generation": 291,
-      "population": 5,
-      "avg_fitness": 0.82258,
-      "best_fitness": 0.8254
     }
   ]
 }
