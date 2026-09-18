@@ -1,25 +1,33 @@
 {
-  "run_id": 324,
-  "generation_evaluated": 301,
-  "next_generation": 302,
-  "items_ingested": 5,
+  "run_id": 325,
+  "generation_evaluated": 302,
+  "next_generation": 303,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 301,
-    "best_fitness": 0.8187,
-    "best_agent": "Analytique-299.2",
-    "best_agent_id": "60abf885017a4aae",
-    "avg_fitness": 0.8161,
+    "generation": 302,
+    "best_fitness": 0.836,
+    "best_agent": "Pédagogique-302.2",
+    "best_agent_id": "41b052e150644d16",
+    "avg_fitness": 0.8294,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.1 h, minimum 12 h",
-    "title": "Veille analytique : misconfiguration, watermarking, differently en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : professionnels, souveraineté, l'autonomie en 8 signaux à suivre",
+    "agent": "Pédagogique-302.2",
+    "fitness": 0.836,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-18-veille-pedagogique-professionnels-souverainete-l-autonomie-e.md"
   },
   "history": [
+    {
+      "generation": 302,
+      "population": 5,
+      "avg_fitness": 0.82936,
+      "best_fitness": 0.836
+    },
     {
       "generation": 301,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83984,
       "best_fitness": 0.854
-    },
-    {
-      "generation": 292,
-      "population": 5,
-      "avg_fitness": 0.8301999999999999,
-      "best_fitness": 0.8329
     }
   ]
 }
