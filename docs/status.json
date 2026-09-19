@@ -1,24 +1,33 @@
 {
-  "run_id": 327,
-  "generation_evaluated": 304,
-  "next_generation": 305,
+  "run_id": 328,
+  "generation_evaluated": 305,
+  "next_generation": 306,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 304,
-    "best_fitness": 0.1,
-    "best_agent": "Analytique-303.2",
-    "best_agent_id": "d5681f4673fb4a62",
-    "avg_fitness": 0.1,
+    "generation": 305,
+    "best_fitness": 0.8514,
+    "best_agent": "Critique-305.2",
+    "best_agent_id": "0abd2717d73a423a",
+    "avg_fitness": 0.8347,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille critique : open-sources, conditions, liveworld en 4 signaux à suivre",
+    "agent": "Critique-305.2",
+    "fitness": 0.8514,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-19-veille-critique-open-sources-conditions-liveworld-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 305,
+      "population": 5,
+      "avg_fitness": 0.8347200000000001,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 304,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83918,
       "best_fitness": 0.8483
-    },
-    {
-      "generation": 295,
-      "population": 5,
-      "avg_fitness": 0.82744,
-      "best_fitness": 0.83
     }
   ]
 }
