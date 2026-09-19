@@ -1,25 +1,31 @@
 {
-  "run_id": 332,
-  "generation_evaluated": 309,
-  "next_generation": 310,
+  "run_id": 333,
+  "generation_evaluated": 310,
+  "next_generation": 311,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 309,
-    "best_fitness": 0.8514,
+    "generation": 310,
+    "best_fitness": 0.8392,
     "best_agent": "Critique-305.2",
-    "best_agent_id": "cd565abff5a54e7e",
-    "avg_fitness": 0.8324,
+    "best_agent_id": "2fb685c8513042a4",
+    "avg_fitness": 0.8368,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.0 h, minimum 12 h",
-    "title": "Veille critique : substantive, benchmarks, workloads en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 5.1 h, minimum 12 h",
+    "title": "Veille critique : zero-knowledge, compression, censorship en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 310,
+      "population": 5,
+      "avg_fitness": 0.8368399999999999,
+      "best_fitness": 0.8392
+    },
     {
       "generation": 309,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8160999999999999,
       "best_fitness": 0.8187
-    },
-    {
-      "generation": 300,
-      "population": 5,
-      "avg_fitness": 0.83812,
-      "best_fitness": 0.8384
     }
   ]
 }
