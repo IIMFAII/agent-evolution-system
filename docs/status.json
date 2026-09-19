@@ -1,25 +1,31 @@
 {
-  "run_id": 329,
-  "generation_evaluated": 306,
-  "next_generation": 307,
-  "items_ingested": 4,
+  "run_id": 330,
+  "generation_evaluated": 307,
+  "next_generation": 308,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 306,
-    "best_fitness": 0.8394,
+    "generation": 307,
+    "best_fitness": 0.8714,
     "best_agent": "Critique-305.2",
-    "best_agent_id": "dcd08c6d4a394881",
-    "avg_fitness": 0.83,
+    "best_agent_id": "8b89394ad4fe44dd",
+    "avg_fitness": 0.8688,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
-    "title": "Veille critique : medicine-led, imaginary, celebrate en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.9 h, minimum 12 h",
+    "title": "Veille critique : ai-generated, horrible, version en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 307,
+      "population": 5,
+      "avg_fitness": 0.86884,
+      "best_fitness": 0.8714
+    },
     {
       "generation": 306,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8458400000000001,
       "best_fitness": 0.8464
-    },
-    {
-      "generation": 297,
-      "population": 5,
-      "avg_fitness": 0.83446,
-      "best_fitness": 0.8556
     }
   ]
 }
