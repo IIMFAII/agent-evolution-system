@@ -1,27 +1,31 @@
 {
-  "run_id": 331,
-  "generation_evaluated": 308,
-  "next_generation": 309,
+  "run_id": 332,
+  "generation_evaluated": 309,
+  "next_generation": 310,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 308,
-    "best_fitness": 0.8448,
+    "generation": 309,
+    "best_fitness": 0.8514,
     "best_agent": "Critique-305.2",
-    "best_agent_id": "9f23de4d940f4fea",
-    "avg_fitness": 0.8425,
+    "best_agent_id": "cd565abff5a54e7e",
+    "avg_fitness": 0.8324,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : agreement, graphical, learning en 4 signaux à suivre",
-    "agent": "Critique-305.2",
-    "fitness": 0.8448,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-19-veille-critique-agreement-graphical-learning-en-4-signaux-a.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.0 h, minimum 12 h",
+    "title": "Veille critique : substantive, benchmarks, workloads en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 309,
+      "population": 5,
+      "avg_fitness": 0.8324400000000001,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 308,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83812,
       "best_fitness": 0.8384
-    },
-    {
-      "generation": 299,
-      "population": 5,
-      "avg_fitness": 0.82434,
-      "best_fitness": 0.8272
     }
   ]
 }
