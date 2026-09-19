@@ -1,27 +1,31 @@
 {
-  "run_id": 328,
-  "generation_evaluated": 305,
-  "next_generation": 306,
+  "run_id": 329,
+  "generation_evaluated": 306,
+  "next_generation": 307,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 305,
-    "best_fitness": 0.8514,
+    "generation": 306,
+    "best_fitness": 0.8394,
     "best_agent": "Critique-305.2",
-    "best_agent_id": "0abd2717d73a423a",
-    "avg_fitness": 0.8347,
+    "best_agent_id": "dcd08c6d4a394881",
+    "avg_fitness": 0.83,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : open-sources, conditions, liveworld en 4 signaux à suivre",
-    "agent": "Critique-305.2",
-    "fitness": 0.8514,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-19-veille-critique-open-sources-conditions-liveworld-en-4-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
+    "title": "Veille critique : medicine-led, imaginary, celebrate en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 306,
+      "population": 5,
+      "avg_fitness": 0.83004,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 305,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83446,
       "best_fitness": 0.8556
-    },
-    {
-      "generation": 296,
-      "population": 5,
-      "avg_fitness": 0.83918,
-      "best_fitness": 0.8483
     }
   ]
 }
