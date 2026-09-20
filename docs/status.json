@@ -1,25 +1,31 @@
 {
-  "run_id": 333,
-  "generation_evaluated": 310,
-  "next_generation": 311,
+  "run_id": 334,
+  "generation_evaluated": 311,
+  "next_generation": 312,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 310,
-    "best_fitness": 0.8392,
+    "generation": 311,
+    "best_fitness": 0.8714,
     "best_agent": "Critique-305.2",
-    "best_agent_id": "2fb685c8513042a4",
-    "avg_fitness": 0.8368,
+    "best_agent_id": "8a95bbb3c97e44a3",
+    "avg_fitness": 0.8567,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.1 h, minimum 12 h",
-    "title": "Veille critique : zero-knowledge, compression, censorship en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.0 h, minimum 12 h",
+    "title": "Veille critique : wildlife, capabilities, reflection en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 311,
+      "population": 5,
+      "avg_fitness": 0.8566800000000001,
+      "best_fitness": 0.8714
+    },
     {
       "generation": 310,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82936,
       "best_fitness": 0.836
-    },
-    {
-      "generation": 301,
-      "population": 5,
-      "avg_fitness": 0.8160999999999999,
-      "best_fitness": 0.8187
     }
   ]
 }
