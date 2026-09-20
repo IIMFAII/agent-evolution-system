@@ -1,25 +1,33 @@
 {
-  "run_id": 338,
-  "generation_evaluated": 315,
-  "next_generation": 316,
+  "run_id": 339,
+  "generation_evaluated": 316,
+  "next_generation": 317,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 315,
-    "best_fitness": 0.8714,
+    "generation": 316,
+    "best_fitness": 0.86,
     "best_agent": "Analytique-315.3",
-    "best_agent_id": "5140574dbea24065",
-    "avg_fitness": 0.8646,
+    "best_agent_id": "2386e694b96c4422",
+    "avg_fitness": 0.8506,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.2 h, minimum 12 h",
-    "title": "Veille analytique : sandboxing, hierarchy, necessary en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : orchestrator, practices, happened en 4 signaux à suivre",
+    "agent": "Analytique-315.3",
+    "fitness": 0.86,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-20-veille-analytique-orchestrator-practices-happened-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 316,
+      "population": 5,
+      "avg_fitness": 0.85064,
+      "best_fitness": 0.86
+    },
     {
       "generation": 315,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.86884,
       "best_fitness": 0.8714
-    },
-    {
-      "generation": 306,
-      "population": 5,
-      "avg_fitness": 0.83004,
-      "best_fitness": 0.8394
     }
   ]
 }
