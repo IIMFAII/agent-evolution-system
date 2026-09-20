@@ -1,25 +1,31 @@
 {
-  "run_id": 337,
-  "generation_evaluated": 314,
-  "next_generation": 315,
+  "run_id": 338,
+  "generation_evaluated": 315,
+  "next_generation": 316,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 314,
-    "best_fitness": 0.8333,
-    "best_agent": "Critique-314.5",
-    "best_agent_id": "704db867715d446e",
-    "avg_fitness": 0.8187,
+    "generation": 315,
+    "best_fitness": 0.8714,
+    "best_agent": "Analytique-315.3",
+    "best_agent_id": "5140574dbea24065",
+    "avg_fitness": 0.8646,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
-    "title": "Veille critique : alternative, autonomous, decisions en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.2 h, minimum 12 h",
+    "title": "Veille analytique : sandboxing, hierarchy, necessary en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 315,
+      "population": 5,
+      "avg_fitness": 0.86456,
+      "best_fitness": 0.8714
+    },
     {
       "generation": 314,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83004,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 305,
-      "population": 5,
-      "avg_fitness": 0.8347200000000001,
-      "best_fitness": 0.8514
     }
   ]
 }
