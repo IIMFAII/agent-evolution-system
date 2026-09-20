@@ -1,25 +1,31 @@
 {
-  "run_id": 336,
-  "generation_evaluated": 313,
-  "next_generation": 314,
-  "items_ingested": 5,
+  "run_id": 337,
+  "generation_evaluated": 314,
+  "next_generation": 315,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 313,
-    "best_fitness": 0.8258,
-    "best_agent": "Analytique-313.4",
-    "best_agent_id": "28f61204957d4ee9",
-    "avg_fitness": 0.8234,
+    "generation": 314,
+    "best_fitness": 0.8333,
+    "best_agent": "Critique-314.5",
+    "best_agent_id": "704db867715d446e",
+    "avg_fitness": 0.8187,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
-    "title": "Veille analytique : supply-chain, qwen-image-2, infiltrated en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
+    "title": "Veille critique : alternative, autonomous, decisions en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 314,
+      "population": 5,
+      "avg_fitness": 0.8187,
+      "best_fitness": 0.8333
+    },
     {
       "generation": 313,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8347200000000001,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 304,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
