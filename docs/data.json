@@ -1,34 +1,50 @@
 {
- "generated_at": "2026-09-21T09:31:16+00:00",
+ "generated_at": "2026-09-21T16:09:10+00:00",
  "cycle": {
-  "run_id": 341,
-  "generation_evaluated": 318,
-  "next_generation": 319,
-  "items_ingested": 4,
+  "run_id": 342,
+  "generation_evaluated": 319,
+  "next_generation": 320,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 9.7 h, minimum 12 h",
-   "title": "Veille critique : models, restrictions, continual en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : claude, chercheurs, septembre en 6 signaux à suivre",
+   "agent": "Analytique-319.2",
+   "fitness": 0.8489,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-21-veille-analytique-claude-chercheurs-septembre-en-6-signaux-a.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 318,
-  "best_fitness": 0.8471,
-  "best_agent": "Critique-317.5",
-  "best_agent_id": "36a61d45dea04a3f",
-  "avg_fitness": 0.8425,
+  "generation": 319,
+  "best_fitness": 0.8489,
+  "best_agent": "Analytique-319.2",
+  "best_agent_id": "8504a4b037314fcf",
+  "avg_fitness": 0.8465,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "36a61d45dea04a3f",
-   "fitness": 0.8471,
+   "agent_id": "8504a4b037314fcf",
+   "fitness": 0.8489,
    "readability": 1.0,
-   "keyword_score": 0.3357,
+   "keyword_score": 0.3447,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-319.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.3617290726670651,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "e34a48d67f344e61",
+   "fitness": 0.8487,
+   "readability": 1.0,
+   "keyword_score": 0.3436,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,56 +55,42 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "87bfc6480c474d54",
-   "fitness": 0.8471,
+   "agent_id": "b6c7b178e0e8477e",
+   "fitness": 0.8487,
    "readability": 1.0,
-   "keyword_score": 0.3357,
+   "keyword_score": 0.3436,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-318.2",
+   "name": "Pédagogique-319.3",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.17812403701334215,
+   "temperature": 0.26311889133387584,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "b8c76bc9219f4616",
-   "fitness": 0.8471,
+   "agent_id": "c51fc23b39214c29",
+   "fitness": 0.8487,
    "readability": 1.0,
-   "keyword_score": 0.3357,
+   "keyword_score": 0.3436,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-318.3",
-   "tone": "concis",
+   "name": "Critique-319.4",
+   "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.2624827909492274,
+   "temperature": 0.13785683658319023,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "17cdbb110fa345d4",
-   "fitness": 0.8357,
+   "agent_id": "a173350525974f50",
+   "fitness": 0.8377,
    "readability": 1.0,
-   "keyword_score": 0.2786,
+   "keyword_score": 0.2886,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-318.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.23404185246876588,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "7b9127069ecf4fdc",
-   "fitness": 0.8357,
-   "readability": 1.0,
-   "keyword_score": 0.2786,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-318.5",
+   "name": "Pédagogique-319.5",
    "tone": "pédagogique",
    "origin": "crossover",
    "temperature": 0.1,
@@ -96,13 +98,6 @@
   }
  ],
  "generations": [
-  {
-   "generation": 259,
-   "population": 5,
-   "avg_fitness": 0.1,
-   "best_fitness": 0.1,
-   "worst_fitness": 0.1
-  },
   {
    "generation": 260,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.84254,
    "best_fitness": 0.8471,
    "worst_fitness": 0.8357
+  },
+  {
+   "generation": 319,
+   "population": 5,
+   "avg_fitness": 0.8465400000000001,
+   "best_fitness": 0.8489,
+   "worst_fitness": 0.8377
   }
  ],
  "runs": [
+  {
+   "id": 342,
+   "started_at": "2026-09-21T16:09:05+00:00",
+   "finished_at": "2026-09-21T16:09:10+00:00",
+   "generation": 319,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 341,
    "started_at": "2026-09-21T09:31:00+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.5 h, minimum 12 h"
-  },
-  {
-   "id": 302,
-   "started_at": "2026-09-13T22:01:27+00:00",
-   "finished_at": "2026-09-13T22:01:40+00:00",
-   "generation": 279,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); aucun contenu au-dessus du seuil de qualité/conformité"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : claude, chercheurs, septembre en 6 signaux à suivre",
+   "slug": "2026-09-21-veille-analytique-claude-chercheurs-septembre-en-6-signaux-a",
+   "fitness": 0.8489,
+   "generation": 319,
+   "created_at": "2026-09-21T16:09:10+00:00",
+   "agent_name": "Analytique-319.2",
+   "tone": "analytique"
+  },
   {
    "title": "Veille analytique : orchestrator, practices, happened en 4 signaux à suivre",
    "slug": "2026-09-20-veille-analytique-orchestrator-practices-happened-en-4-signa",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-10T02:42:05+00:00",
    "agent_name": "Critique-250.2",
    "tone": "critique"
-  },
-  {
-   "title": "Veille critique : controlled, ex-partner, personnel en 5 signaux à suivre",
-   "slug": "2026-09-09-veille-critique-controlled-ex-partner-personnel-en-5-signaux",
-   "fitness": 0.8494,
-   "generation": 256,
-   "created_at": "2026-09-09T14:06:31+00:00",
-   "agent_name": "Critique-250.2",
-   "tone": "critique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 73,
+  "publications": 74,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.5997,
+    "score": 0.6023,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 73 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 74 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
