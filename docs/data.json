@@ -1,110 +1,101 @@
 {
- "generated_at": "2026-09-21T16:09:10+00:00",
+ "generated_at": "2026-09-21T21:35:17+00:00",
  "cycle": {
-  "run_id": 342,
-  "generation_evaluated": 319,
-  "next_generation": 320,
-  "items_ingested": 6,
+  "run_id": 343,
+  "generation_evaluated": 320,
+  "next_generation": 321,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille analytique : claude, chercheurs, septembre en 6 signaux à suivre",
-   "agent": "Analytique-319.2",
-   "fitness": 0.8489,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-21-veille-analytique-claude-chercheurs-septembre-en-6-signaux-a.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+   "title": "Veille analytique : transformers, bottleneck, explained en 4 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 319,
-  "best_fitness": 0.8489,
+  "generation": 320,
+  "best_fitness": 0.8408,
   "best_agent": "Analytique-319.2",
-  "best_agent_id": "8504a4b037314fcf",
-  "avg_fitness": 0.8465,
+  "best_agent_id": "d1a1930d9a694d20",
+  "avg_fitness": 0.8362,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "8504a4b037314fcf",
-   "fitness": 0.8489,
+   "agent_id": "d1a1930d9a694d20",
+   "fitness": 0.8408,
    "readability": 1.0,
-   "keyword_score": 0.3447,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4238,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-319.2",
    "tone": "analytique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.3617290726670651,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "e34a48d67f344e61",
-   "fitness": 0.8487,
+   "agent_id": "6b21c757ae4d4b57",
+   "fitness": 0.8408,
    "readability": 1.0,
-   "keyword_score": 0.3436,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4238,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-317.5",
-   "tone": "critique",
-   "origin": "elite",
-   "temperature": 0.2823556191648046,
+   "name": "Analytique-320.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.28258674183320104,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "b6c7b178e0e8477e",
-   "fitness": 0.8487,
+   "agent_id": "d82b3921a9394191",
+   "fitness": 0.8408,
    "readability": 1.0,
-   "keyword_score": 0.3436,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4238,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-319.3",
+   "name": "Prospectif-320.5",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.30162461542497965,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "402f2231845744a1",
+   "fitness": 0.8293,
+   "readability": 1.0,
+   "keyword_score": 0.3667,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-320.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.12942394683467984,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "0149a17a1b9a450e",
+   "fitness": 0.8293,
+   "readability": 1.0,
+   "keyword_score": 0.3667,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-320.4",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.26311889133387584,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "c51fc23b39214c29",
-   "fitness": 0.8487,
-   "readability": 1.0,
-   "keyword_score": 0.3436,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-319.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.13785683658319023,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "a173350525974f50",
-   "fitness": 0.8377,
-   "readability": 1.0,
-   "keyword_score": 0.2886,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-319.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.1,
+   "temperature": 0.2716779145268216,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 260,
-   "population": 5,
-   "avg_fitness": 0.84174,
-   "best_fitness": 0.8564,
-   "worst_fitness": 0.831
-  },
   {
    "generation": 261,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8465400000000001,
    "best_fitness": 0.8489,
    "worst_fitness": 0.8377
+  },
+  {
+   "generation": 320,
+   "population": 5,
+   "avg_fitness": 0.8362,
+   "best_fitness": 0.8408,
+   "worst_fitness": 0.8293
   }
  ],
  "runs": [
+  {
+   "id": 343,
+   "started_at": "2026-09-21T21:35:12+00:00",
+   "finished_at": "2026-09-21T21:35:17+00:00",
+   "generation": 320,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.4 h, minimum 12 h"
+  },
   {
    "id": 342,
    "started_at": "2026-09-21T16:09:05+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 303,
-   "started_at": "2026-09-14T02:57:47+00:00",
-   "finished_at": "2026-09-14T02:57:51+00:00",
-   "generation": 280,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.5 h, minimum 12 h"
   }
  ],
  "publications": [

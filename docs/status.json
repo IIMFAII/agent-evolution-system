@@ -1,27 +1,31 @@
 {
-  "run_id": 342,
-  "generation_evaluated": 319,
-  "next_generation": 320,
-  "items_ingested": 6,
+  "run_id": 343,
+  "generation_evaluated": 320,
+  "next_generation": 321,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 319,
-    "best_fitness": 0.8489,
+    "generation": 320,
+    "best_fitness": 0.8408,
     "best_agent": "Analytique-319.2",
-    "best_agent_id": "8504a4b037314fcf",
-    "avg_fitness": 0.8465,
+    "best_agent_id": "d1a1930d9a694d20",
+    "avg_fitness": 0.8362,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : claude, chercheurs, septembre en 6 signaux à suivre",
-    "agent": "Analytique-319.2",
-    "fitness": 0.8489,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-21-veille-analytique-claude-chercheurs-septembre-en-6-signaux-a.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille analytique : transformers, bottleneck, explained en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 320,
+      "population": 5,
+      "avg_fitness": 0.8362,
+      "best_fitness": 0.8408
+    },
     {
       "generation": 319,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8566800000000001,
       "best_fitness": 0.8714
-    },
-    {
-      "generation": 310,
-      "population": 5,
-      "avg_fitness": 0.8368399999999999,
-      "best_fitness": 0.8392
     }
   ]
 }
