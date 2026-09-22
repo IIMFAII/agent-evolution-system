@@ -1,25 +1,31 @@
 {
-  "run_id": 346,
-  "generation_evaluated": 323,
-  "next_generation": 324,
-  "items_ingested": 1,
+  "run_id": 347,
+  "generation_evaluated": 324,
+  "next_generation": 325,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 323,
-    "best_fitness": 0.8514,
-    "best_agent": "Concis-322.3",
-    "best_agent_id": "8b3ba061c9594e91",
-    "avg_fitness": 0.8491,
+    "generation": 324,
+    "best_fitness": 0.8288,
+    "best_agent": "Analytique-324.2",
+    "best_agent_id": "b8e30084a6464859",
+    "avg_fitness": 0.8264,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
-    "title": "Veille concis : entreprises, systèmes, gemini en 1 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+    "title": "Veille analytique : transatlantique, unauthenticated, preinstalled en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 324,
+      "population": 5,
+      "avg_fitness": 0.82638,
+      "best_fitness": 0.8288
+    },
     {
       "generation": 323,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.86456,
       "best_fitness": 0.8714
-    },
-    {
-      "generation": 314,
-      "population": 5,
-      "avg_fitness": 0.8187,
-      "best_fitness": 0.8333
     }
   ]
 }

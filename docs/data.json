@@ -1,35 +1,77 @@
 {
- "generated_at": "2026-09-22T13:01:21+00:00",
+ "generated_at": "2026-09-22T17:52:35+00:00",
  "cycle": {
-  "run_id": 346,
-  "generation_evaluated": 323,
-  "next_generation": 324,
-  "items_ingested": 1,
+  "run_id": 347,
+  "generation_evaluated": 324,
+  "next_generation": 325,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
-   "title": "Veille concis : entreprises, systèmes, gemini en 1 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+   "title": "Veille analytique : transatlantique, unauthenticated, preinstalled en 7 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 323,
-  "best_fitness": 0.8514,
-  "best_agent": "Concis-322.3",
-  "best_agent_id": "8b3ba061c9594e91",
-  "avg_fitness": 0.8491,
+  "generation": 324,
+  "best_fitness": 0.8288,
+  "best_agent": "Analytique-324.2",
+  "best_agent_id": "b8e30084a6464859",
+  "avg_fitness": 0.8264,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "8b3ba061c9594e91",
-   "fitness": 0.8514,
+   "agent_id": "b8e30084a6464859",
+   "fitness": 0.8288,
    "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
+   "keyword_score": 0.364,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-324.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.47984371044432506,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "fa845f7400e34381",
+   "fitness": 0.8286,
+   "readability": 1.0,
+   "keyword_score": 0.3628,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-324.4",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.4618688778246661,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "59c9734eb26b45d0",
+   "fitness": 0.8286,
+   "readability": 1.0,
+   "keyword_score": 0.3628,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-324.5",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.38856957288466093,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "6e449b71c93743dc",
+   "fitness": 0.8283,
+   "readability": 1.0,
+   "keyword_score": 0.3616,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-322.3",
@@ -39,70 +81,21 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "83a25482cbb74bc4",
-   "fitness": 0.8514,
+   "agent_id": "e8e17a835b5c4720",
+   "fitness": 0.8176,
    "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3079,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-323.2",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.4503491589022026,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "e4ba5f44dc36405d",
-   "fitness": 0.8514,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-323.3",
+   "name": "Prospectif-324.3",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.5401582750111892,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "86d9ad1678a4475c",
-   "fitness": 0.8514,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-323.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.32678998686711924,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "dab8e8184bc54187",
-   "fitness": 0.84,
-   "readability": 1.0,
-   "keyword_score": 0.3,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-323.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.268689885125197,
-   "mutation_rate": 0.87
+   "temperature": 0.5649778944610551,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 264,
-   "population": 5,
-   "avg_fitness": 0.85006,
-   "best_fitness": 0.8569,
-   "worst_fitness": 0.8455
-  },
   {
    "generation": 265,
    "population": 5,
@@ -515,9 +508,25 @@
    "avg_fitness": 0.8491200000000001,
    "best_fitness": 0.8514,
    "worst_fitness": 0.84
+  },
+  {
+   "generation": 324,
+   "population": 5,
+   "avg_fitness": 0.82638,
+   "best_fitness": 0.8288,
+   "worst_fitness": 0.8176
   }
  ],
  "runs": [
+  {
+   "id": 347,
+   "started_at": "2026-09-22T17:52:30+00:00",
+   "finished_at": "2026-09-22T17:52:35+00:00",
+   "generation": 324,
+   "status": "success",
+   "items_ingested": 7,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.7 h, minimum 12 h"
+  },
   {
    "id": 346,
    "started_at": "2026-09-22T13:01:01+00:00",
@@ -868,15 +877,6 @@
    "status": "success",
    "items_ingested": 2,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.9 h, minimum 12 h"
-  },
-  {
-   "id": 307,
-   "started_at": "2026-09-15T00:10:09+00:00",
-   "finished_at": "2026-09-15T00:10:27+00:00",
-   "generation": 284,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
@@ -1062,7 +1062,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
