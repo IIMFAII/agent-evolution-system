@@ -1,25 +1,31 @@
 {
-  "run_id": 343,
-  "generation_evaluated": 320,
-  "next_generation": 321,
-  "items_ingested": 4,
+  "run_id": 344,
+  "generation_evaluated": 321,
+  "next_generation": 322,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 320,
-    "best_fitness": 0.8408,
+    "generation": 321,
+    "best_fitness": 0.8494,
     "best_agent": "Analytique-319.2",
-    "best_agent_id": "d1a1930d9a694d20",
-    "avg_fitness": 0.8362,
+    "best_agent_id": "ce29bf759a5d4a58",
+    "avg_fitness": 0.8351,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille analytique : transformers, bottleneck, explained en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
+    "title": "Veille analytique : data, extraordinarily, boundaries en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 321,
+      "population": 5,
+      "avg_fitness": 0.83514,
+      "best_fitness": 0.8494
+    },
     {
       "generation": 320,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8324,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 311,
-      "population": 5,
-      "avg_fitness": 0.8566800000000001,
-      "best_fitness": 0.8714
     }
   ]
 }
