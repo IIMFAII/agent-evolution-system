@@ -1,27 +1,31 @@
 {
-  "run_id": 348,
-  "generation_evaluated": 325,
-  "next_generation": 326,
-  "items_ingested": 5,
+  "run_id": 349,
+  "generation_evaluated": 326,
+  "next_generation": 327,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 325,
-    "best_fitness": 0.861,
+    "generation": 326,
+    "best_fitness": 0.8448,
     "best_agent": "Concis-325.3",
-    "best_agent_id": "abe45f54629e4a49",
-    "avg_fitness": 0.8424,
+    "best_agent_id": "deff53413b504a28",
+    "avg_fitness": 0.8448,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : ai-assisted, compromised, javascript en 5 signaux à suivre",
-    "agent": "Concis-325.3",
-    "fitness": 0.861,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-22-veille-concis-ai-assisted-compromised-javascript-en-5-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.2 h, minimum 12 h",
+    "title": "Veille concis : microsoft, foxpro, ai-assisted en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 326,
+      "population": 5,
+      "avg_fitness": 0.8448,
+      "best_fitness": 0.8448
+    },
     {
       "generation": 325,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84924,
       "best_fitness": 0.8634
-    },
-    {
-      "generation": 316,
-      "population": 5,
-      "avg_fitness": 0.85064,
-      "best_fitness": 0.86
     }
   ]
 }
