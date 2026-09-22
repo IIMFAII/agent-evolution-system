@@ -1,25 +1,33 @@
 {
-  "run_id": 347,
-  "generation_evaluated": 324,
-  "next_generation": 325,
-  "items_ingested": 7,
+  "run_id": 348,
+  "generation_evaluated": 325,
+  "next_generation": 326,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 324,
-    "best_fitness": 0.8288,
-    "best_agent": "Analytique-324.2",
-    "best_agent_id": "b8e30084a6464859",
-    "avg_fitness": 0.8264,
+    "generation": 325,
+    "best_fitness": 0.861,
+    "best_agent": "Concis-325.3",
+    "best_agent_id": "abe45f54629e4a49",
+    "avg_fitness": 0.8424,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
-    "title": "Veille analytique : transatlantique, unauthenticated, preinstalled en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : ai-assisted, compromised, javascript en 5 signaux à suivre",
+    "agent": "Concis-325.3",
+    "fitness": 0.861,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-22-veille-concis-ai-assisted-compromised-javascript-en-5-signau.md"
   },
   "history": [
+    {
+      "generation": 325,
+      "population": 5,
+      "avg_fitness": 0.84238,
+      "best_fitness": 0.861
+    },
     {
       "generation": 324,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.85064,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 315,
-      "population": 5,
-      "avg_fitness": 0.86456,
-      "best_fitness": 0.8714
     }
   ]
 }
