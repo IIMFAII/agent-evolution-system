@@ -1,25 +1,33 @@
 {
-  "run_id": 344,
-  "generation_evaluated": 321,
-  "next_generation": 322,
-  "items_ingested": 5,
+  "run_id": 345,
+  "generation_evaluated": 322,
+  "next_generation": 323,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 321,
-    "best_fitness": 0.8494,
-    "best_agent": "Analytique-319.2",
-    "best_agent_id": "ce29bf759a5d4a58",
-    "avg_fitness": 0.8351,
+    "generation": 322,
+    "best_fitness": 0.8629,
+    "best_agent": "Concis-322.3",
+    "best_agent_id": "1548fb61e1214a0c",
+    "avg_fitness": 0.8368,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
-    "title": "Veille analytique : data, extraordinarily, boundaries en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : intelligence, performance, battersea en 4 signaux à suivre",
+    "agent": "Concis-322.3",
+    "fitness": 0.8629,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-22-veille-concis-intelligence-performance-battersea-en-4-signau.md"
   },
   "history": [
+    {
+      "generation": 322,
+      "population": 5,
+      "avg_fitness": 0.83682,
+      "best_fitness": 0.8629
+    },
     {
       "generation": 321,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8234199999999999,
       "best_fitness": 0.8258
-    },
-    {
-      "generation": 312,
-      "population": 5,
-      "avg_fitness": 0.8324,
-      "best_fitness": 0.8468
     }
   ]
 }
