@@ -1,25 +1,31 @@
 {
-  "run_id": 349,
-  "generation_evaluated": 326,
-  "next_generation": 327,
-  "items_ingested": 3,
+  "run_id": 350,
+  "generation_evaluated": 327,
+  "next_generation": 328,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 326,
-    "best_fitness": 0.8448,
+    "generation": 327,
+    "best_fitness": 0.8429,
     "best_agent": "Concis-325.3",
-    "best_agent_id": "deff53413b504a28",
-    "avg_fitness": 0.8448,
+    "best_agent_id": "a7447b517533427c",
+    "avg_fitness": 0.833,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.2 h, minimum 12 h",
-    "title": "Veille concis : microsoft, foxpro, ai-assisted en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 6.8 h, minimum 12 h",
+    "title": "Veille concis : australia's, censorship', criticises en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 327,
+      "population": 5,
+      "avg_fitness": 0.833,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 326,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84254,
       "best_fitness": 0.8471
-    },
-    {
-      "generation": 317,
-      "population": 5,
-      "avg_fitness": 0.84924,
-      "best_fitness": 0.8634
     }
   ]
 }
