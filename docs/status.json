@@ -1,25 +1,31 @@
 {
-  "run_id": 352,
-  "generation_evaluated": 329,
-  "next_generation": 330,
-  "items_ingested": 8,
+  "run_id": 353,
+  "generation_evaluated": 330,
+  "next_generation": 331,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 329,
-    "best_fitness": 0.853,
+    "generation": 330,
+    "best_fitness": 0.8367,
     "best_agent": "Analytique-329.3",
-    "best_agent_id": "f5e80040420e4fad",
-    "avg_fitness": 0.8528,
+    "best_agent_id": "bc2eb8f6a3424ad6",
+    "avg_fitness": 0.8291,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
-    "title": "Veille analytique : lance, l'ia, investigation en 8 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
+    "title": "Veille analytique : cybersécurité, crispr-like, connectées en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 330,
+      "population": 5,
+      "avg_fitness": 0.82914,
+      "best_fitness": 0.8367
+    },
     {
       "generation": 329,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83514,
       "best_fitness": 0.8494
-    },
-    {
-      "generation": 320,
-      "population": 5,
-      "avg_fitness": 0.8362,
-      "best_fitness": 0.8408
     }
   ]
 }
