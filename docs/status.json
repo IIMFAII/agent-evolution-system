@@ -1,25 +1,33 @@
 {
-  "run_id": 353,
-  "generation_evaluated": 330,
-  "next_generation": 331,
-  "items_ingested": 5,
+  "run_id": 354,
+  "generation_evaluated": 331,
+  "next_generation": 332,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 330,
-    "best_fitness": 0.8367,
+    "generation": 331,
+    "best_fitness": 0.8672,
     "best_agent": "Analytique-329.3",
-    "best_agent_id": "bc2eb8f6a3424ad6",
-    "avg_fitness": 0.8291,
+    "best_agent_id": "184a3ac0a0964c47",
+    "avg_fitness": 0.8578,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
-    "title": "Veille analytique : cybersécurité, crispr-like, connectées en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : load-bearing, something, claude's en 4 signaux à suivre",
+    "agent": "Analytique-329.3",
+    "fitness": 0.8672,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-23-veille-analytique-load-bearing-something-claude-s-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 331,
+      "population": 5,
+      "avg_fitness": 0.85784,
+      "best_fitness": 0.8672
+    },
     {
       "generation": 330,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83682,
       "best_fitness": 0.8629
-    },
-    {
-      "generation": 321,
-      "population": 5,
-      "avg_fitness": 0.83514,
-      "best_fitness": 0.8494
     }
   ]
 }
