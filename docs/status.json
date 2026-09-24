@@ -1,25 +1,31 @@
 {
-  "run_id": 358,
-  "generation_evaluated": 335,
-  "next_generation": 336,
+  "run_id": 359,
+  "generation_evaluated": 336,
+  "next_generation": 337,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 335,
-    "best_fitness": 0.8691,
+    "generation": 336,
+    "best_fitness": 0.8274,
     "best_agent": "Concis-334.3",
-    "best_agent_id": "1b448e24360e4359",
-    "avg_fitness": 0.8668,
+    "best_agent_id": "4bcc8fe1c80f45c7",
+    "avg_fitness": 0.8251,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.2 h, minimum 12 h",
-    "title": "Veille concis : programming, engineers, antitumor en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
+    "title": "Veille concis : international, investigate, california en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 336,
+      "population": 5,
+      "avg_fitness": 0.8251200000000001,
+      "best_fitness": 0.8274
+    },
     {
       "generation": 335,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.833,
       "best_fitness": 0.8429
-    },
-    {
-      "generation": 326,
-      "population": 5,
-      "avg_fitness": 0.8448,
-      "best_fitness": 0.8448
     }
   ]
 }
