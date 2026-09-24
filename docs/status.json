@@ -1,27 +1,31 @@
 {
-  "run_id": 354,
-  "generation_evaluated": 331,
-  "next_generation": 332,
+  "run_id": 355,
+  "generation_evaluated": 332,
+  "next_generation": 333,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 331,
-    "best_fitness": 0.8672,
+    "generation": 332,
+    "best_fitness": 0.8189,
     "best_agent": "Analytique-329.3",
-    "best_agent_id": "184a3ac0a0964c47",
-    "avg_fitness": 0.8578,
+    "best_agent_id": "8154ee224e1c4fd9",
+    "avg_fitness": 0.8163,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : load-bearing, something, claude's en 4 signaux à suivre",
-    "agent": "Analytique-329.3",
-    "fitness": 0.8672,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-23-veille-analytique-load-bearing-something-claude-s-en-4-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
+    "title": "Veille analytique : manufacturing, virtio-nvgpu, near-native en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 332,
+      "population": 5,
+      "avg_fitness": 0.8163,
+      "best_fitness": 0.8189
+    },
     {
       "generation": 331,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8491200000000001,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 322,
-      "population": 5,
-      "avg_fitness": 0.83682,
-      "best_fitness": 0.8629
     }
   ]
 }
