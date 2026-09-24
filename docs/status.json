@@ -1,27 +1,31 @@
 {
-  "run_id": 357,
-  "generation_evaluated": 334,
-  "next_generation": 335,
-  "items_ingested": 7,
+  "run_id": 358,
+  "generation_evaluated": 335,
+  "next_generation": 336,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 334,
-    "best_fitness": 0.8485,
+    "generation": 335,
+    "best_fitness": 0.8691,
     "best_agent": "Concis-334.3",
-    "best_agent_id": "bb4c8d2e5f3e4044",
-    "avg_fitness": 0.8273,
+    "best_agent_id": "1b448e24360e4359",
+    "avg_fitness": 0.8668,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : controversial, classifiées, devraient en 7 signaux à suivre",
-    "agent": "Concis-334.3",
-    "fitness": 0.8485,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-24-veille-concis-controversial-classifiees-devraient-en-7-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.2 h, minimum 12 h",
+    "title": "Veille concis : programming, engineers, antitumor en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 335,
+      "population": 5,
+      "avg_fitness": 0.8667999999999999,
+      "best_fitness": 0.8691
+    },
     {
       "generation": 334,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8448,
       "best_fitness": 0.8448
-    },
-    {
-      "generation": 325,
-      "population": 5,
-      "avg_fitness": 0.84238,
-      "best_fitness": 0.861
     }
   ]
 }
