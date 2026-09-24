@@ -1,25 +1,31 @@
 {
-  "run_id": 355,
-  "generation_evaluated": 332,
-  "next_generation": 333,
+  "run_id": 356,
+  "generation_evaluated": 333,
+  "next_generation": 334,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 332,
-    "best_fitness": 0.8189,
+    "generation": 333,
+    "best_fitness": 0.8471,
     "best_agent": "Analytique-329.3",
-    "best_agent_id": "8154ee224e1c4fd9",
-    "avg_fitness": 0.8163,
+    "best_agent_id": "f8cfe964bd644c4e",
+    "avg_fitness": 0.8448,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
-    "title": "Veille analytique : manufacturing, virtio-nvgpu, near-native en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
+    "title": "Veille analytique : meta, video, six-year-old en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 333,
+      "population": 5,
+      "avg_fitness": 0.84482,
+      "best_fitness": 0.8471
+    },
     {
       "generation": 332,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82638,
       "best_fitness": 0.8288
-    },
-    {
-      "generation": 323,
-      "population": 5,
-      "avg_fitness": 0.8491200000000001,
-      "best_fitness": 0.8514
     }
   ]
 }
