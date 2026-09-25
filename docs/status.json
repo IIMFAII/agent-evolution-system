@@ -1,27 +1,31 @@
 {
-  "run_id": 360,
-  "generation_evaluated": 337,
-  "next_generation": 338,
-  "items_ingested": 2,
+  "run_id": 361,
+  "generation_evaluated": 338,
+  "next_generation": 339,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 337,
-    "best_fitness": 0.8429,
+    "generation": 338,
+    "best_fitness": 0.8514,
     "best_agent": "Concis-334.3",
-    "best_agent_id": "3c4324581b7b4b45",
-    "avg_fitness": 0.836,
+    "best_agent_id": "96f2048c81b4480b",
+    "avg_fitness": 0.8372,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : calibration, accuracy, shoulder en 2 signaux à suivre",
-    "agent": "Concis-334.3",
-    "fitness": 0.8429,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-25-veille-concis-calibration-accuracy-shoulder-en-2-signaux-a-s.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.3 h, minimum 12 h",
+    "title": "Veille concis : based, cve-2025-13032, governments en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 338,
+      "population": 5,
+      "avg_fitness": 0.8372400000000001,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 337,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8528399999999999,
       "best_fitness": 0.853
-    },
-    {
-      "generation": 328,
-      "population": 5,
-      "avg_fitness": 0.84192,
-      "best_fitness": 0.8422
     }
   ]
 }
