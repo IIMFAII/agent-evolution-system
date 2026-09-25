@@ -1,25 +1,33 @@
 {
-  "run_id": 362,
-  "generation_evaluated": 339,
-  "next_generation": 340,
-  "items_ingested": 5,
+  "run_id": 363,
+  "generation_evaluated": 340,
+  "next_generation": 341,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 339,
-    "best_fitness": 0.8724,
+    "generation": 340,
+    "best_fitness": 0.8394,
     "best_agent": "Prospectif-339.3",
-    "best_agent_id": "c11cc3429da746cd",
-    "avg_fitness": 0.8676,
+    "best_agent_id": "b3480a9499304592",
+    "avg_fitness": 0.832,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
-    "title": "Veille prospectif : principles, carriers, thinking en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : citizenship, beginning, ukraine's en 4 signaux à suivre",
+    "agent": "Prospectif-339.3",
+    "fitness": 0.8394,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-25-veille-prospectif-citizenship-beginning-ukraine-s-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 340,
+      "population": 5,
+      "avg_fitness": 0.8320399999999999,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 339,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.85784,
       "best_fitness": 0.8672
-    },
-    {
-      "generation": 330,
-      "population": 5,
-      "avg_fitness": 0.82914,
-      "best_fitness": 0.8367
     }
   ]
 }
