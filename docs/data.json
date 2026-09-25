@@ -1,35 +1,37 @@
 {
- "generated_at": "2026-09-24T22:56:29+00:00",
+ "generated_at": "2026-09-25T03:02:11+00:00",
  "cycle": {
-  "run_id": 359,
-  "generation_evaluated": 336,
-  "next_generation": 337,
-  "items_ingested": 4,
+  "run_id": 360,
+  "generation_evaluated": 337,
+  "next_generation": 338,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
-   "title": "Veille concis : international, investigate, california en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : calibration, accuracy, shoulder en 2 signaux à suivre",
+   "agent": "Concis-334.3",
+   "fitness": 0.8429,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-25-veille-concis-calibration-accuracy-shoulder-en-2-signaux-a-s.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 336,
-  "best_fitness": 0.8274,
+  "generation": 337,
+  "best_fitness": 0.8429,
   "best_agent": "Concis-334.3",
-  "best_agent_id": "4bcc8fe1c80f45c7",
-  "avg_fitness": 0.8251,
+  "best_agent_id": "3c4324581b7b4b45",
+  "avg_fitness": 0.836,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "4bcc8fe1c80f45c7",
-   "fitness": 0.8274,
+   "agent_id": "3c4324581b7b4b45",
+   "fitness": 0.8429,
    "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3143,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-334.3",
@@ -39,70 +41,63 @@
    "mutation_rate": 0.87
   },
   {
-   "agent_id": "5faba6a77eb448eb",
-   "fitness": 0.8274,
+   "agent_id": "841a8d2aedad4001",
+   "fitness": 0.8429,
    "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3143,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-336.2",
+   "name": "Pédagogique-337.3",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.6324518871193887,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "ad69209fdcbf4a64",
+   "fitness": 0.8314,
+   "readability": 1.0,
+   "keyword_score": 0.2571,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-337.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6035682688111814,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "95fe787262404fc3",
+   "fitness": 0.8314,
+   "readability": 1.0,
+   "keyword_score": 0.2571,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-337.4",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.5358058218964696,
-   "mutation_rate": 0.855
+   "temperature": 0.5961682974231344,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "cdf5c5ebf7db4c5e",
-   "fitness": 0.8274,
+   "agent_id": "e9229db01b5542ad",
+   "fitness": 0.8314,
    "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2571,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-336.3",
-   "tone": "analytique",
+   "name": "Pédagogique-337.5",
+   "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.5213313729996344,
-   "mutation_rate": 0.85
-  },
-  {
-   "agent_id": "64cf47f9fb894d41",
-   "fitness": 0.8274,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-336.4",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.6713307157258932,
-   "mutation_rate": 0.855
-  },
-  {
-   "agent_id": "917596dc09cb42bb",
-   "fitness": 0.816,
-   "readability": 1.0,
-   "keyword_score": 0.3,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-336.5",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.5968063869973258,
-   "mutation_rate": 0.855
+   "temperature": 0.5285685974480521,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 277,
-   "population": 5,
-   "avg_fitness": 0.82272,
-   "best_fitness": 0.8394,
-   "worst_fitness": 0.804
-  },
   {
    "generation": 278,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8251200000000001,
    "best_fitness": 0.8274,
    "worst_fitness": 0.816
+  },
+  {
+   "generation": 337,
+   "population": 5,
+   "avg_fitness": 0.836,
+   "best_fitness": 0.8429,
+   "worst_fitness": 0.8314
   }
  ],
  "runs": [
+  {
+   "id": 360,
+   "started_at": "2026-09-25T03:02:06+00:00",
+   "finished_at": "2026-09-25T03:02:11+00:00",
+   "generation": 337,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 359,
    "started_at": "2026-09-24T22:56:24+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.4 h, minimum 12 h"
-  },
-  {
-   "id": 320,
-   "started_at": "2026-09-17T14:35:52+00:00",
-   "finished_at": "2026-09-17T14:35:58+00:00",
-   "generation": 297,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.5 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : calibration, accuracy, shoulder en 2 signaux à suivre",
+   "slug": "2026-09-25-veille-concis-calibration-accuracy-shoulder-en-2-signaux-a-s",
+   "fitness": 0.8429,
+   "generation": 337,
+   "created_at": "2026-09-25T03:02:11+00:00",
+   "agent_name": "Concis-334.3",
+   "tone": "concis"
+  },
   {
    "title": "Veille concis : controversial, classifiées, devraient en 7 signaux à suivre",
    "slug": "2026-09-24-veille-concis-controversial-classifiees-devraient-en-7-signa",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-13T18:28:58+00:00",
    "agent_name": "Concis-269.3",
    "tone": "concis"
-  },
-  {
-   "title": "Veille concis : coordinating, mathematics, development en 4 signaux à suivre",
-   "slug": "2026-09-13-veille-concis-coordinating-mathematics-development-en-4-sign",
-   "fitness": 0.8474,
-   "generation": 275,
-   "created_at": "2026-09-13T02:42:46+00:00",
-   "agent_name": "Concis-269.3",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 79,
+  "publications": 80,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6157,
+    "score": 0.6183,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 79 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 80 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

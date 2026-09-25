@@ -1,25 +1,33 @@
 {
-  "run_id": 359,
-  "generation_evaluated": 336,
-  "next_generation": 337,
-  "items_ingested": 4,
+  "run_id": 360,
+  "generation_evaluated": 337,
+  "next_generation": 338,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 336,
-    "best_fitness": 0.8274,
+    "generation": 337,
+    "best_fitness": 0.8429,
     "best_agent": "Concis-334.3",
-    "best_agent_id": "4bcc8fe1c80f45c7",
-    "avg_fitness": 0.8251,
+    "best_agent_id": "3c4324581b7b4b45",
+    "avg_fitness": 0.836,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
-    "title": "Veille concis : international, investigate, california en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : calibration, accuracy, shoulder en 2 signaux à suivre",
+    "agent": "Concis-334.3",
+    "fitness": 0.8429,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-25-veille-concis-calibration-accuracy-shoulder-en-2-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 337,
+      "population": 5,
+      "avg_fitness": 0.836,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 336,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.84192,
       "best_fitness": 0.8422
-    },
-    {
-      "generation": 327,
-      "population": 5,
-      "avg_fitness": 0.833,
-      "best_fitness": 0.8429
     }
   ]
 }
