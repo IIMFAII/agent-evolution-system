@@ -1,25 +1,31 @@
 {
-  "run_id": 361,
-  "generation_evaluated": 338,
-  "next_generation": 339,
-  "items_ingested": 4,
+  "run_id": 362,
+  "generation_evaluated": 339,
+  "next_generation": 340,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 338,
-    "best_fitness": 0.8514,
-    "best_agent": "Concis-334.3",
-    "best_agent_id": "96f2048c81b4480b",
-    "avg_fitness": 0.8372,
+    "generation": 339,
+    "best_fitness": 0.8724,
+    "best_agent": "Prospectif-339.3",
+    "best_agent_id": "c11cc3429da746cd",
+    "avg_fitness": 0.8676,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.3 h, minimum 12 h",
-    "title": "Veille concis : based, cve-2025-13032, governments en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille prospectif : principles, carriers, thinking en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 339,
+      "population": 5,
+      "avg_fitness": 0.86762,
+      "best_fitness": 0.8724
+    },
     {
       "generation": 338,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82914,
       "best_fitness": 0.8367
-    },
-    {
-      "generation": 329,
-      "population": 5,
-      "avg_fitness": 0.8528399999999999,
-      "best_fitness": 0.853
     }
   ]
 }
