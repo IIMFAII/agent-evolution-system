@@ -1,25 +1,33 @@
 {
-  "run_id": 365,
-  "generation_evaluated": 342,
-  "next_generation": 343,
-  "items_ingested": 5,
+  "run_id": 366,
+  "generation_evaluated": 343,
+  "next_generation": 344,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 342,
-    "best_fitness": 0.8535,
+    "generation": 343,
+    "best_fitness": 0.8411,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "289a96c8018c4dab",
-    "avg_fitness": 0.8391,
+    "best_agent_id": "c6d4e8aefb8a4941",
+    "avg_fitness": 0.8363,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-    "title": "Veille critique : tiddlyinstall, deceiving, cambridge en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : you're, prove, safe en 4 signaux à suivre",
+    "agent": "Critique-342.2",
+    "fitness": 0.8411,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-26-veille-critique-you-re-prove-safe-en-4-signaux-a-suivre.md"
   },
   "history": [
+    {
+      "generation": 343,
+      "population": 5,
+      "avg_fitness": 0.83626,
+      "best_fitness": 0.8411
+    },
     {
       "generation": 342,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8273400000000001,
       "best_fitness": 0.8485
-    },
-    {
-      "generation": 333,
-      "population": 5,
-      "avg_fitness": 0.84482,
-      "best_fitness": 0.8471
     }
   ]
 }
