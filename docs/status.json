@@ -1,25 +1,31 @@
 {
-  "run_id": 364,
-  "generation_evaluated": 341,
-  "next_generation": 342,
-  "items_ingested": 4,
+  "run_id": 365,
+  "generation_evaluated": 342,
+  "next_generation": 343,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 341,
-    "best_fitness": 0.8488,
-    "best_agent": "Prospectif-339.3",
-    "best_agent_id": "3243f2e5a73543da",
-    "avg_fitness": 0.8442,
+    "generation": 342,
+    "best_fitness": 0.8535,
+    "best_agent": "Critique-342.2",
+    "best_agent_id": "289a96c8018c4dab",
+    "avg_fitness": 0.8391,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
-    "title": "Veille prospectif : surveillance, revealing, supports en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
+    "title": "Veille critique : tiddlyinstall, deceiving, cambridge en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 342,
+      "population": 5,
+      "avg_fitness": 0.8391,
+      "best_fitness": 0.8535
+    },
     {
       "generation": 341,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84482,
       "best_fitness": 0.8471
-    },
-    {
-      "generation": 332,
-      "population": 5,
-      "avg_fitness": 0.8163,
-      "best_fitness": 0.8189
     }
   ]
 }
