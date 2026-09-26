@@ -1,25 +1,101 @@
 {
- "generated_at": "2026-09-26T14:01:06+00:00",
+ "generated_at": "2026-09-26T18:55:36+00:00",
  "cycle": {
-  "run_id": 367,
+  "run_id": 368,
   "generation_evaluated": 344,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 345,
+  "items_ingested": 4,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
    "published": false,
-   "reason": "aucun item nouveau"
+   "reason": "cadençage : dernière publication il y a 9.9 h, minimum 12 h",
+   "title": "Veille critique : foreigners, technology, excalidraw en 4 signaux à suivre"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 344,
+  "best_fitness": 0.8394,
+  "best_agent": "Critique-342.2",
+  "best_agent_id": "f988ba6ef0164315",
+  "avg_fitness": 0.8252,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 284,
-   "population": 5,
-   "avg_fitness": 0.8491200000000001,
-   "best_fitness": 0.8514,
-   "worst_fitness": 0.84
+   "agent_id": "f988ba6ef0164315",
+   "fitness": 0.8394,
+   "readability": 1.0,
+   "keyword_score": 0.2971,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-342.2",
+   "tone": "critique",
+   "origin": "elite",
+   "temperature": 0.6382356779364877,
+   "mutation_rate": 0.9
   },
+  {
+   "agent_id": "bb27bba49a9041cd",
+   "fitness": 0.8394,
+   "readability": 1.0,
+   "keyword_score": 0.2971,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-344.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.5526265383400342,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "6f2b03a1d9314a15",
+   "fitness": 0.828,
+   "readability": 1.0,
+   "keyword_score": 0.24,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-344.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.5259619841465439,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "d35f8a1802834e45",
+   "fitness": 0.8154,
+   "readability": 1.0,
+   "keyword_score": 0.2971,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-344.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.5632570364948519,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "e2d840bcb304495d",
+   "fitness": 0.804,
+   "readability": 1.0,
+   "keyword_score": 0.24,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-344.2",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.7537800589661231,
+   "mutation_rate": 0.9
+  }
+ ],
+ "generations": [
   {
    "generation": 285,
    "population": 5,
@@ -432,9 +508,25 @@
    "avg_fitness": 0.83626,
    "best_fitness": 0.8411,
    "worst_fitness": 0.8297
+  },
+  {
+   "generation": 344,
+   "population": 5,
+   "avg_fitness": 0.82524,
+   "best_fitness": 0.8394,
+   "worst_fitness": 0.804
   }
  ],
  "runs": [
+  {
+   "id": 368,
+   "started_at": "2026-09-26T18:55:30+00:00",
+   "finished_at": "2026-09-26T18:55:36+00:00",
+   "generation": 344,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 9.9 h, minimum 12 h"
+  },
   {
    "id": 367,
    "started_at": "2026-09-26T14:00:46+00:00",
@@ -785,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.7 h, minimum 12 h"
-  },
-  {
-   "id": 328,
-   "started_at": "2026-09-19T02:45:28+00:00",
-   "finished_at": "2026-09-19T02:45:34+00:00",
-   "generation": 305,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
@@ -979,7 +1062,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
