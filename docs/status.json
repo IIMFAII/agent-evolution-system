@@ -1,27 +1,31 @@
 {
-  "run_id": 372,
-  "generation_evaluated": 348,
-  "next_generation": 349,
+  "run_id": 373,
+  "generation_evaluated": 349,
+  "next_generation": 350,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 348,
-    "best_fitness": 0.8228,
+    "generation": 349,
+    "best_fitness": 0.8464,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "2e805fefee5a404a",
-    "avg_fitness": 0.8182,
+    "best_agent_id": "c8308ffdf97f4844",
+    "avg_fitness": 0.8441,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : self-referential, rechargeable, discovery en 4 signaux à suivre",
-    "agent": "Critique-342.2",
-    "fitness": 0.8228,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-27-veille-critique-self-referential-rechargeable-discovery-en-4.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.5 h, minimum 12 h",
+    "title": "Veille critique : video, lofi, browser-generated en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 349,
+      "population": 5,
+      "avg_fitness": 0.84412,
+      "best_fitness": 0.8464
+    },
     {
       "generation": 348,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8320399999999999,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 339,
-      "population": 5,
-      "avg_fitness": 0.86762,
-      "best_fitness": 0.8724
     }
   ]
 }
