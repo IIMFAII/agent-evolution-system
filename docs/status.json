@@ -1,25 +1,31 @@
 {
-  "run_id": 370,
-  "generation_evaluated": 346,
-  "next_generation": 347,
-  "items_ingested": 2,
+  "run_id": 371,
+  "generation_evaluated": 347,
+  "next_generation": 348,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 346,
-    "best_fitness": 0.86,
+    "generation": 347,
+    "best_fitness": 0.8586,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "25dbf52d83094460",
-    "avg_fitness": 0.8433,
+    "best_agent_id": "f4222c11bcdc4fe3",
+    "avg_fitness": 0.854,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
-    "title": "Veille critique : sousveillance, remembers, homebody en 2 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
+    "title": "Veille critique : what, president, discovers en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 347,
+      "population": 5,
+      "avg_fitness": 0.85404,
+      "best_fitness": 0.8586
+    },
     {
       "generation": 346,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8372400000000001,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 337,
-      "population": 5,
-      "avg_fitness": 0.836,
-      "best_fitness": 0.8429
     }
   ]
 }
