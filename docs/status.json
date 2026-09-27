@@ -1,25 +1,31 @@
 {
-  "run_id": 373,
-  "generation_evaluated": 349,
-  "next_generation": 350,
+  "run_id": 374,
+  "generation_evaluated": 350,
+  "next_generation": 351,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 349,
-    "best_fitness": 0.8464,
+    "generation": 350,
+    "best_fitness": 0.8814,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "c8308ffdf97f4844",
-    "avg_fitness": 0.8441,
+    "best_agent_id": "b84a61cd2a1e4286",
+    "avg_fitness": 0.865,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.5 h, minimum 12 h",
-    "title": "Veille critique : video, lofi, browser-generated en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.8 h, minimum 12 h",
+    "title": "Veille critique : woodworking, terminator, projects en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 350,
+      "population": 5,
+      "avg_fitness": 0.86496,
+      "best_fitness": 0.8814
+    },
     {
       "generation": 349,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8442399999999999,
       "best_fitness": 0.8488
-    },
-    {
-      "generation": 340,
-      "population": 5,
-      "avg_fitness": 0.8320399999999999,
-      "best_fitness": 0.8394
     }
   ]
 }
