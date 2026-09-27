@@ -1,27 +1,31 @@
 {
-  "run_id": 369,
-  "generation_evaluated": 345,
-  "next_generation": 346,
-  "items_ingested": 4,
+  "run_id": 370,
+  "generation_evaluated": 346,
+  "next_generation": 347,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 345,
-    "best_fitness": 0.8514,
+    "generation": 346,
+    "best_fitness": 0.86,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "2b1639b657be4ce1",
-    "avg_fitness": 0.8514,
+    "best_agent_id": "25dbf52d83094460",
+    "avg_fitness": 0.8433,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : where, interplanetary, foreigners en 4 signaux à suivre",
-    "agent": "Critique-342.2",
-    "fitness": 0.8514,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-26-veille-critique-where-interplanetary-foreigners-en-4-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
+    "title": "Veille critique : sousveillance, remembers, homebody en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 346,
+      "population": 5,
+      "avg_fitness": 0.84332,
+      "best_fitness": 0.86
+    },
     {
       "generation": 345,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.836,
       "best_fitness": 0.8429
-    },
-    {
-      "generation": 336,
-      "population": 5,
-      "avg_fitness": 0.8251200000000001,
-      "best_fitness": 0.8274
     }
   ]
 }
