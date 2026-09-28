@@ -1,25 +1,33 @@
 {
-  "run_id": 376,
-  "generation_evaluated": 352,
-  "next_generation": 353,
-  "items_ingested": 8,
+  "run_id": 377,
+  "generation_evaluated": 353,
+  "next_generation": 354,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 352,
-    "best_fitness": 0.86,
+    "generation": 353,
+    "best_fitness": 0.8423,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "3515704860e8448d",
-    "avg_fitness": 0.8549,
+    "best_agent_id": "f04d926ffba643f0",
+    "avg_fitness": 0.8401,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-    "title": "Veille critique : cloud, souveraineté, marketplace en 8 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : transformer, automations, grapheneos en 5 signaux à suivre",
+    "agent": "Critique-342.2",
+    "fitness": 0.8423,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-28-veille-critique-transformer-automations-grapheneos-en-5-sign.md"
   },
   "history": [
+    {
+      "generation": 353,
+      "population": 5,
+      "avg_fitness": 0.8401,
+      "best_fitness": 0.8423
+    },
     {
       "generation": 352,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82524,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 343,
-      "population": 5,
-      "avg_fitness": 0.83626,
-      "best_fitness": 0.8411
     }
   ]
 }
