@@ -1,27 +1,31 @@
 {
-  "run_id": 375,
-  "generation_evaluated": 351,
-  "next_generation": 352,
-  "items_ingested": 4,
+  "run_id": 376,
+  "generation_evaluated": 352,
+  "next_generation": 353,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 351,
-    "best_fitness": 0.8514,
+    "generation": 352,
+    "best_fitness": 0.86,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "9ca6826ccc244564",
-    "avg_fitness": 0.8514,
+    "best_agent_id": "3515704860e8448d",
+    "avg_fitness": 0.8549,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : generation, powertrain, microsoft en 4 signaux à suivre",
-    "agent": "Critique-342.2",
-    "fitness": 0.8514,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-28-veille-critique-generation-powertrain-microsoft-en-4-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
+    "title": "Veille critique : cloud, souveraineté, marketplace en 8 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 352,
+      "population": 5,
+      "avg_fitness": 0.8548600000000001,
+      "best_fitness": 0.86
+    },
     {
       "generation": 351,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83626,
       "best_fitness": 0.8411
-    },
-    {
-      "generation": 342,
-      "population": 5,
-      "avg_fitness": 0.8391,
-      "best_fitness": 0.8535
     }
   ]
 }
