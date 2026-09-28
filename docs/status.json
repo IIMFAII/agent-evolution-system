@@ -1,25 +1,33 @@
 {
-  "run_id": 374,
-  "generation_evaluated": 350,
-  "next_generation": 351,
+  "run_id": 375,
+  "generation_evaluated": 351,
+  "next_generation": 352,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 350,
-    "best_fitness": 0.8814,
+    "generation": 351,
+    "best_fitness": 0.8514,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "b84a61cd2a1e4286",
-    "avg_fitness": 0.865,
+    "best_agent_id": "9ca6826ccc244564",
+    "avg_fitness": 0.8514,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.8 h, minimum 12 h",
-    "title": "Veille critique : woodworking, terminator, projects en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : generation, powertrain, microsoft en 4 signaux à suivre",
+    "agent": "Critique-342.2",
+    "fitness": 0.8514,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-28-veille-critique-generation-powertrain-microsoft-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 351,
+      "population": 5,
+      "avg_fitness": 0.8514000000000002,
+      "best_fitness": 0.8514
+    },
     {
       "generation": 350,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8391,
       "best_fitness": 0.8535
-    },
-    {
-      "generation": 341,
-      "population": 5,
-      "avg_fitness": 0.8442399999999999,
-      "best_fitness": 0.8488
     }
   ]
 }
