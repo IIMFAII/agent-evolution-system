@@ -1,24 +1,33 @@
 {
-  "run_id": 379,
-  "generation_evaluated": 355,
-  "next_generation": 356,
-  "items_ingested": 4,
+  "run_id": 380,
+  "generation_evaluated": 356,
+  "next_generation": 357,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 355,
-    "best_fitness": 0.1,
-    "best_agent": "Critique-342.2",
-    "best_agent_id": "fd344c4ebe5342b8",
-    "avg_fitness": 0.1,
+    "generation": 356,
+    "best_fitness": 0.8275,
+    "best_agent": "Analytique-356.2",
+    "best_agent_id": "17e1471250be45a7",
+    "avg_fitness": 0.8274,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille analytique : development, engineering, electricity en 5 signaux à suivre",
+    "agent": "Analytique-356.2",
+    "fitness": 0.8275,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-29-veille-analytique-development-engineering-electricity-en-5-s.md"
   },
   "history": [
+    {
+      "generation": 356,
+      "population": 5,
+      "avg_fitness": 0.82738,
+      "best_fitness": 0.8275
+    },
     {
       "generation": 355,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.85404,
       "best_fitness": 0.8586
-    },
-    {
-      "generation": 346,
-      "population": 5,
-      "avg_fitness": 0.84332,
-      "best_fitness": 0.86
     }
   ]
 }
