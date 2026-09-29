@@ -1,27 +1,31 @@
 {
-  "run_id": 377,
-  "generation_evaluated": 353,
-  "next_generation": 354,
-  "items_ingested": 5,
+  "run_id": 378,
+  "generation_evaluated": 354,
+  "next_generation": 355,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 353,
-    "best_fitness": 0.8423,
+    "generation": 354,
+    "best_fitness": 0.8208,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "f04d926ffba643f0",
-    "avg_fitness": 0.8401,
+    "best_agent_id": "8791b69879384ee9",
+    "avg_fitness": 0.8205,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : transformer, automations, grapheneos en 5 signaux à suivre",
-    "agent": "Critique-342.2",
-    "fitness": 0.8423,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-28-veille-critique-transformer-automations-grapheneos-en-5-sign.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.0 h, minimum 12 h",
+    "title": "Veille critique : jev-compatible, surveillance, language en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 354,
+      "population": 5,
+      "avg_fitness": 0.8205,
+      "best_fitness": 0.8208
+    },
     {
       "generation": 353,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8514000000000002,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 344,
-      "population": 5,
-      "avg_fitness": 0.82524,
-      "best_fitness": 0.8394
     }
   ]
 }
