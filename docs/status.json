@@ -1,25 +1,30 @@
 {
-  "run_id": 378,
-  "generation_evaluated": 354,
-  "next_generation": 355,
+  "run_id": 379,
+  "generation_evaluated": 355,
+  "next_generation": 356,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 354,
-    "best_fitness": 0.8208,
+    "generation": 355,
+    "best_fitness": 0.1,
     "best_agent": "Critique-342.2",
-    "best_agent_id": "8791b69879384ee9",
-    "avg_fitness": 0.8205,
+    "best_agent_id": "fd344c4ebe5342b8",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.0 h, minimum 12 h",
-    "title": "Veille critique : jev-compatible, surveillance, language en 4 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 355,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 354,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.84332,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 345,
-      "population": 5,
-      "avg_fitness": 0.8514000000000002,
-      "best_fitness": 0.8514
     }
   ]
 }
