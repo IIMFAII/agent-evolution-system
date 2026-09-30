@@ -1,110 +1,101 @@
 {
- "generated_at": "2026-09-30T07:50:13+00:00",
+ "generated_at": "2026-09-30T14:31:10+00:00",
  "cycle": {
-  "run_id": 383,
-  "generation_evaluated": 359,
-  "next_generation": 360,
-  "items_ingested": 5,
+  "run_id": 384,
+  "generation_evaluated": 360,
+  "next_generation": 361,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille pédagogique : non-transformer, ai-generated, responsible en 5 signaux à suivre",
-   "agent": "Pédagogique-359.2",
-   "fitness": 0.8341,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-30-veille-pedagogique-non-transformer-ai-generated-responsible.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 6.7 h, minimum 12 h",
+   "title": "Veille critique : quantum-safe, certificates, prestataire en 2 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 359,
-  "best_fitness": 0.8341,
-  "best_agent": "Pédagogique-359.2",
-  "best_agent_id": "b436724b2e404259",
-  "avg_fitness": 0.8263,
+  "generation": 360,
+  "best_fitness": 0.8234,
+  "best_agent": "Critique-360.3",
+  "best_agent_id": "f44d94ee260a48a1",
+  "avg_fitness": 0.8186,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "b436724b2e404259",
-   "fitness": 0.8341,
+   "agent_id": "f44d94ee260a48a1",
+   "fitness": 0.8234,
    "readability": 1.0,
-   "keyword_score": 0.3905,
+   "keyword_score": 0.3371,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-360.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.5741577743536306,
+   "mutation_rate": 0.895
+  },
+  {
+   "agent_id": "7600751c26324c8d",
+   "fitness": 0.8234,
+   "readability": 1.0,
+   "keyword_score": 0.3371,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-360.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.3982844814514159,
+   "mutation_rate": 0.89625
+  },
+  {
+   "agent_id": "0e357505a35342de",
+   "fitness": 0.822,
+   "readability": 1.0,
+   "keyword_score": 0.33,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Pédagogique-359.2",
    "tone": "pédagogique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.423577303570583,
    "mutation_rate": 0.8975
   },
   {
-   "agent_id": "eae2a48d100446ec",
-   "fitness": 0.8244,
+   "agent_id": "f01a8dffb1a84bba",
+   "fitness": 0.812,
    "readability": 1.0,
-   "keyword_score": 0.3422,
+   "keyword_score": 0.28,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-358.3",
-   "tone": "critique",
-   "origin": "elite",
-   "temperature": 0.621879379452601,
-   "mutation_rate": 0.855
-  },
-  {
-   "agent_id": "2eb07f3838d3418c",
-   "fitness": 0.8244,
-   "readability": 1.0,
-   "keyword_score": 0.3422,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-359.3",
+   "name": "Pédagogique-360.2",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.6122255726509581,
-   "mutation_rate": 0.875
+   "temperature": 0.5136339258724443,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "28f3275667dc4507",
-   "fitness": 0.8244,
+   "agent_id": "b9c818ea830340a4",
+   "fitness": 0.812,
    "readability": 1.0,
-   "keyword_score": 0.3422,
+   "keyword_score": 0.28,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-359.4",
+   "name": "Pédagogique-360.4",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.6036905481743057,
-   "mutation_rate": 0.875
-  },
-  {
-   "agent_id": "4ca8e1af40a847b6",
-   "fitness": 0.8244,
-   "readability": 1.0,
-   "keyword_score": 0.3422,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-359.5",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.5210949958496461,
-   "mutation_rate": 0.875
+   "temperature": 0.4832030369167841,
+   "mutation_rate": 0.895
   }
  ],
  "generations": [
-  {
-   "generation": 300,
-   "population": 5,
-   "avg_fitness": 0.83812,
-   "best_fitness": 0.8384,
-   "worst_fitness": 0.837
-  },
   {
    "generation": 301,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8263400000000001,
    "best_fitness": 0.8341,
    "worst_fitness": 0.8244
+  },
+  {
+   "generation": 360,
+   "population": 5,
+   "avg_fitness": 0.8185600000000001,
+   "best_fitness": 0.8234,
+   "worst_fitness": 0.812
   }
  ],
  "runs": [
+  {
+   "id": 384,
+   "started_at": "2026-09-30T14:30:52+00:00",
+   "finished_at": "2026-09-30T14:31:10+00:00",
+   "generation": 360,
+   "status": "success",
+   "items_ingested": 2,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.7 h, minimum 12 h"
+  },
   {
    "id": 383,
    "started_at": "2026-09-30T07:50:07+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 344,
-   "started_at": "2026-09-22T00:30:43+00:00",
-   "finished_at": "2026-09-22T00:31:00+00:00",
-   "generation": 321,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.4 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -1064,7 +1062,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
