@@ -1,25 +1,31 @@
 {
-  "run_id": 381,
-  "generation_evaluated": 357,
-  "next_generation": 358,
+  "run_id": 382,
+  "generation_evaluated": 358,
+  "next_generation": 359,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 357,
-    "best_fitness": 0.8468,
-    "best_agent": "Analytique-356.2",
-    "best_agent_id": "eb356afeee4646ea",
-    "avg_fitness": 0.8374,
+    "generation": 358,
+    "best_fitness": 0.8432,
+    "best_agent": "Critique-358.3",
+    "best_agent_id": "fd3f98f639b64625",
+    "avg_fitness": 0.8333,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille analytique : counterfeit, companies, destroyed en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
+    "title": "Veille critique : serialization, rethinking, designer en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 358,
+      "population": 5,
+      "avg_fitness": 0.83332,
+      "best_fitness": 0.8432
+    },
     {
       "generation": 357,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84412,
       "best_fitness": 0.8464
-    },
-    {
-      "generation": 348,
-      "population": 5,
-      "avg_fitness": 0.81824,
-      "best_fitness": 0.8228
     }
   ]
 }
