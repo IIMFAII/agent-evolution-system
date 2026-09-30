@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-09-30T00:57:44+00:00",
+ "generated_at": "2026-09-30T07:50:13+00:00",
  "cycle": {
-  "run_id": 382,
-  "generation_evaluated": 358,
-  "next_generation": 359,
-  "items_ingested": 4,
+  "run_id": 383,
+  "generation_evaluated": 359,
+  "next_generation": 360,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
-   "title": "Veille critique : serialization, rethinking, designer en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille pédagogique : non-transformer, ai-generated, responsible en 5 signaux à suivre",
+   "agent": "Pédagogique-359.2",
+   "fitness": 0.8341,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-30-veille-pedagogique-non-transformer-ai-generated-responsible.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 358,
-  "best_fitness": 0.8432,
-  "best_agent": "Critique-358.3",
-  "best_agent_id": "fd3f98f639b64625",
-  "avg_fitness": 0.8333,
+  "generation": 359,
+  "best_fitness": 0.8341,
+  "best_agent": "Pédagogique-359.2",
+  "best_agent_id": "b436724b2e404259",
+  "avg_fitness": 0.8263,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "fd3f98f639b64625",
-   "fitness": 0.8432,
+   "agent_id": "b436724b2e404259",
+   "fitness": 0.8341,
    "readability": 1.0,
-   "keyword_score": 0.3158,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3905,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-359.2",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.423577303570583,
+   "mutation_rate": 0.8975
+  },
+  {
+   "agent_id": "eae2a48d100446ec",
+   "fitness": 0.8244,
+   "readability": 1.0,
+   "keyword_score": 0.3422,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-358.3",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.621879379452601,
    "mutation_rate": 0.855
   },
   {
-   "agent_id": "ba372d2fabf44d70",
-   "fitness": 0.843,
+   "agent_id": "2eb07f3838d3418c",
+   "fitness": 0.8244,
    "readability": 1.0,
-   "keyword_score": 0.3148,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-358.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.49912360710555703,
-   "mutation_rate": 0.855
-  },
-  {
-   "agent_id": "df0dc16a13a9496a",
-   "fitness": 0.8306,
-   "readability": 1.0,
-   "keyword_score": 0.3729,
+   "keyword_score": 0.3422,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-356.2",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.6166001726328524,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "7c45b98d0fe04fb1",
-   "fitness": 0.8306,
-   "readability": 1.0,
-   "keyword_score": 0.3729,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-358.2",
+   "name": "Pédagogique-359.3",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.45669051442998637,
-   "mutation_rate": 0.84
+   "temperature": 0.6122255726509581,
+   "mutation_rate": 0.875
   },
   {
-   "agent_id": "ac28d3b7fb3d4869",
-   "fitness": 0.8192,
+   "agent_id": "28f3275667dc4507",
+   "fitness": 0.8244,
    "readability": 1.0,
-   "keyword_score": 0.3158,
+   "keyword_score": 0.3422,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-358.5",
-   "tone": "analytique",
+   "name": "Pédagogique-359.4",
+   "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.5456909157151506,
-   "mutation_rate": 0.855
+   "temperature": 0.6036905481743057,
+   "mutation_rate": 0.875
+  },
+  {
+   "agent_id": "4ca8e1af40a847b6",
+   "fitness": 0.8244,
+   "readability": 1.0,
+   "keyword_score": 0.3422,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-359.5",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.5210949958496461,
+   "mutation_rate": 0.875
   }
  ],
  "generations": [
-  {
-   "generation": 299,
-   "population": 5,
-   "avg_fitness": 0.82434,
-   "best_fitness": 0.8272,
-   "worst_fitness": 0.8156
-  },
   {
    "generation": 300,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.83332,
    "best_fitness": 0.8432,
    "worst_fitness": 0.8192
+  },
+  {
+   "generation": 359,
+   "population": 5,
+   "avg_fitness": 0.8263400000000001,
+   "best_fitness": 0.8341,
+   "worst_fitness": 0.8244
   }
  ],
  "runs": [
+  {
+   "id": 383,
+   "started_at": "2026-09-30T07:50:07+00:00",
+   "finished_at": "2026-09-30T07:50:13+00:00",
+   "generation": 359,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 382,
    "started_at": "2026-09-30T00:57:39+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.4 h, minimum 12 h"
-  },
-  {
-   "id": 343,
-   "started_at": "2026-09-21T21:35:12+00:00",
-   "finished_at": "2026-09-21T21:35:17+00:00",
-   "generation": 320,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.4 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille pédagogique : non-transformer, ai-generated, responsible en 5 signaux à suivre",
+   "slug": "2026-09-30-veille-pedagogique-non-transformer-ai-generated-responsible",
+   "fitness": 0.8341,
+   "generation": 359,
+   "created_at": "2026-09-30T07:50:13+00:00",
+   "agent_name": "Pédagogique-359.2",
+   "tone": "pédagogique"
+  },
   {
    "title": "Veille analytique : development, engineering, electricity en 5 signaux à suivre",
    "slug": "2026-09-29-veille-analytique-development-engineering-electricity-en-5-s",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-18T14:02:21+00:00",
    "agent_name": "Pédagogique-302.2",
    "tone": "pédagogique"
-  },
-  {
-   "title": "Veille analytique : near-lossless, compression, apocalypse en 4 signaux à suivre",
-   "slug": "2026-09-17-veille-analytique-near-lossless-compression-apocalypse-en-4",
-   "fitness": 0.8272,
-   "generation": 299,
-   "created_at": "2026-09-17T22:36:58+00:00",
-   "agent_name": "Analytique-299.2",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 87,
+  "publications": 88,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.637,
+    "score": 0.6397,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 87 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 88 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

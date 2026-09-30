@@ -1,25 +1,33 @@
 {
-  "run_id": 382,
-  "generation_evaluated": 358,
-  "next_generation": 359,
-  "items_ingested": 4,
+  "run_id": 383,
+  "generation_evaluated": 359,
+  "next_generation": 360,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 358,
-    "best_fitness": 0.8432,
-    "best_agent": "Critique-358.3",
-    "best_agent_id": "fd3f98f639b64625",
-    "avg_fitness": 0.8333,
+    "generation": 359,
+    "best_fitness": 0.8341,
+    "best_agent": "Pédagogique-359.2",
+    "best_agent_id": "b436724b2e404259",
+    "avg_fitness": 0.8263,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
-    "title": "Veille critique : serialization, rethinking, designer en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : non-transformer, ai-generated, responsible en 5 signaux à suivre",
+    "agent": "Pédagogique-359.2",
+    "fitness": 0.8341,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-30-veille-pedagogique-non-transformer-ai-generated-responsible.md"
   },
   "history": [
+    {
+      "generation": 359,
+      "population": 5,
+      "avg_fitness": 0.8263400000000001,
+      "best_fitness": 0.8341
+    },
     {
       "generation": 358,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.86496,
       "best_fitness": 0.8814
-    },
-    {
-      "generation": 349,
-      "population": 5,
-      "avg_fitness": 0.84412,
-      "best_fitness": 0.8464
     }
   ]
 }
