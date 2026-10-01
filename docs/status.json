@@ -1,25 +1,31 @@
 {
-  "run_id": 386,
-  "generation_evaluated": 362,
-  "next_generation": 363,
-  "items_ingested": 5,
+  "run_id": 387,
+  "generation_evaluated": 363,
+  "next_generation": 364,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 362,
-    "best_fitness": 0.8278,
-    "best_agent": "Analytique-361.3",
-    "best_agent_id": "6235096f85204f4b",
-    "avg_fitness": 0.8233,
+    "generation": 363,
+    "best_fitness": 0.855,
+    "best_agent": "Critique-363.4",
+    "best_agent_id": "cb27d3cefd5a4e3c",
+    "avg_fitness": 0.8335,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.6 h, minimum 12 h",
-    "title": "Veille analytique : programming, experience, exploiting en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.7 h, minimum 12 h",
+    "title": "Veille critique : sandboxing, sufficient, satellites en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 363,
+      "population": 5,
+      "avg_fitness": 0.8334999999999999,
+      "best_fitness": 0.855
+    },
     {
       "generation": 362,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8205,
       "best_fitness": 0.8208
-    },
-    {
-      "generation": 353,
-      "population": 5,
-      "avg_fitness": 0.8401,
-      "best_fitness": 0.8423
     }
   ]
 }
