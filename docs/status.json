@@ -1,27 +1,31 @@
 {
-  "run_id": 388,
-  "generation_evaluated": 364,
-  "next_generation": 365,
-  "items_ingested": 5,
+  "run_id": 389,
+  "generation_evaluated": 365,
+  "next_generation": 366,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 364,
-    "best_fitness": 0.8213,
-    "best_agent": "Critique-363.4",
-    "best_agent_id": "b4da89ac405340ea",
-    "avg_fitness": 0.8145,
+    "generation": 365,
+    "best_fitness": 0.8453,
+    "best_agent": "Concis-365.3",
+    "best_agent_id": "299d6ab826384545",
+    "avg_fitness": 0.8258,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : open-source, entreprises, fast-tracks en 5 signaux à suivre",
-    "agent": "Critique-363.4",
-    "fitness": 0.8213,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-01-veille-critique-open-source-entreprises-fast-tracks-en-5-sig.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille concis : development, openradioss, executives en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 365,
+      "population": 5,
+      "avg_fitness": 0.82578,
+      "best_fitness": 0.8453
+    },
     {
       "generation": 364,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82738,
       "best_fitness": 0.8275
-    },
-    {
-      "generation": 355,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
