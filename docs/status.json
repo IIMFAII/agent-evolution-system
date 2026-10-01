@@ -1,27 +1,31 @@
 {
-  "run_id": 385,
-  "generation_evaluated": 361,
-  "next_generation": 362,
-  "items_ingested": 7,
+  "run_id": 386,
+  "generation_evaluated": 362,
+  "next_generation": 363,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 361,
-    "best_fitness": 0.8489,
+    "generation": 362,
+    "best_fitness": 0.8278,
     "best_agent": "Analytique-361.3",
-    "best_agent_id": "23f4880ba3534f05",
-    "avg_fitness": 0.8443,
+    "best_agent_id": "6235096f85204f4b",
+    "avg_fitness": 0.8233,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : goes, technologies, stratégiques en 7 signaux à suivre",
-    "agent": "Analytique-361.3",
-    "fitness": 0.8489,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-09-30-veille-analytique-goes-technologies-strategiques-en-7-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.6 h, minimum 12 h",
+    "title": "Veille analytique : programming, experience, exploiting en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 362,
+      "population": 5,
+      "avg_fitness": 0.8232799999999999,
+      "best_fitness": 0.8278
+    },
     {
       "generation": 361,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8401,
       "best_fitness": 0.8423
-    },
-    {
-      "generation": 352,
-      "population": 5,
-      "avg_fitness": 0.8548600000000001,
-      "best_fitness": 0.86
     }
   ]
 }
