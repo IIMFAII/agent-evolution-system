@@ -1,25 +1,33 @@
 {
-  "run_id": 387,
-  "generation_evaluated": 363,
-  "next_generation": 364,
-  "items_ingested": 3,
+  "run_id": 388,
+  "generation_evaluated": 364,
+  "next_generation": 365,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 363,
-    "best_fitness": 0.855,
+    "generation": 364,
+    "best_fitness": 0.8213,
     "best_agent": "Critique-363.4",
-    "best_agent_id": "cb27d3cefd5a4e3c",
-    "avg_fitness": 0.8335,
+    "best_agent_id": "b4da89ac405340ea",
+    "avg_fitness": 0.8145,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.7 h, minimum 12 h",
-    "title": "Veille critique : sandboxing, sufficient, satellites en 3 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : open-source, entreprises, fast-tracks en 5 signaux à suivre",
+    "agent": "Critique-363.4",
+    "fitness": 0.8213,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-01-veille-critique-open-source-entreprises-fast-tracks-en-5-sig.md"
   },
   "history": [
+    {
+      "generation": 364,
+      "population": 5,
+      "avg_fitness": 0.81448,
+      "best_fitness": 0.8213
+    },
     {
       "generation": 363,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 354,
-      "population": 5,
-      "avg_fitness": 0.8205,
-      "best_fitness": 0.8208
     }
   ]
 }

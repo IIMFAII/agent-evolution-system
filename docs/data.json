@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-10-01T08:11:12+00:00",
+ "generated_at": "2026-10-01T16:50:28+00:00",
  "cycle": {
-  "run_id": 387,
-  "generation_evaluated": 363,
-  "next_generation": 364,
-  "items_ingested": 3,
+  "run_id": 388,
+  "generation_evaluated": 364,
+  "next_generation": 365,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 11.7 h, minimum 12 h",
-   "title": "Veille critique : sandboxing, sufficient, satellites en 3 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : open-source, entreprises, fast-tracks en 5 signaux à suivre",
+   "agent": "Critique-363.4",
+   "fitness": 0.8213,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-01-veille-critique-open-source-entreprises-fast-tracks-en-5-sig.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 363,
-  "best_fitness": 0.855,
+  "generation": 364,
+  "best_fitness": 0.8213,
   "best_agent": "Critique-363.4",
-  "best_agent_id": "cb27d3cefd5a4e3c",
-  "avg_fitness": 0.8335,
+  "best_agent_id": "b4da89ac405340ea",
+  "avg_fitness": 0.8145,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "cb27d3cefd5a4e3c",
-   "fitness": 0.855,
+   "agent_id": "b4da89ac405340ea",
+   "fitness": 0.8213,
    "readability": 1.0,
-   "keyword_score": 0.3748,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3265,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-363.4",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.6697029211744683,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "1d8cd1a63775452a",
-   "fitness": 0.831,
+   "agent_id": "253466eca29c4c84",
+   "fitness": 0.8201,
    "readability": 1.0,
-   "keyword_score": 0.3748,
+   "keyword_score": 0.3206,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-361.3",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.48622112790252325,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "5e4cd9c35a784c14",
-   "fitness": 0.831,
-   "readability": 1.0,
-   "keyword_score": 0.3748,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-363.2",
+   "name": "Analytique-364.4",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.5117795091238238,
-   "mutation_rate": 0.9
+   "temperature": 0.6214122210004313,
+   "mutation_rate": 0.87
   },
   {
-   "agent_id": "7e805bd2b5ae4924",
-   "fitness": 0.831,
+   "agent_id": "caa14c468bbb4555",
+   "fitness": 0.8104,
    "readability": 1.0,
-   "keyword_score": 0.3748,
+   "keyword_score": 0.272,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-363.5",
+   "name": "Analytique-364.2",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.5284819844850318,
-   "mutation_rate": 0.9
+   "temperature": 0.6247354518612224,
+   "mutation_rate": 0.87
   },
   {
-   "agent_id": "8d158283d94848e9",
-   "fitness": 0.8195,
+   "agent_id": "39c7166a5d2044a1",
+   "fitness": 0.8104,
    "readability": 1.0,
-   "keyword_score": 0.3176,
+   "keyword_score": 0.272,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-363.3",
-   "tone": "pédagogique",
+   "name": "Analytique-364.3",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.41694136467071474,
-   "mutation_rate": 0.9
+   "temperature": 0.5226316553671234,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "25cd151e81ed47fc",
+   "fitness": 0.8102,
+   "readability": 1.0,
+   "keyword_score": 0.2711,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-364.5",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.477590150317631,
+   "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 304,
-   "population": 5,
-   "avg_fitness": 0.1,
-   "best_fitness": 0.1,
-   "worst_fitness": 0.1
-  },
   {
    "generation": 305,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8334999999999999,
    "best_fitness": 0.855,
    "worst_fitness": 0.8195
+  },
+  {
+   "generation": 364,
+   "population": 5,
+   "avg_fitness": 0.81448,
+   "best_fitness": 0.8213,
+   "worst_fitness": 0.8102
   }
  ],
  "runs": [
+  {
+   "id": 388,
+   "started_at": "2026-10-01T16:50:20+00:00",
+   "finished_at": "2026-10-01T16:50:28+00:00",
+   "generation": 364,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 387,
    "started_at": "2026-10-01T08:11:03+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.2 h, minimum 12 h"
-  },
-  {
-   "id": 348,
-   "started_at": "2026-09-22T20:46:21+00:00",
-   "finished_at": "2026-09-22T20:46:28+00:00",
-   "generation": 325,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : open-source, entreprises, fast-tracks en 5 signaux à suivre",
+   "slug": "2026-10-01-veille-critique-open-source-entreprises-fast-tracks-en-5-sig",
+   "fitness": 0.8213,
+   "generation": 364,
+   "created_at": "2026-10-01T16:50:28+00:00",
+   "agent_name": "Critique-363.4",
+   "tone": "critique"
+  },
   {
    "title": "Veille analytique : goes, technologies, stratégiques en 7 signaux à suivre",
    "slug": "2026-09-30-veille-analytique-goes-technologies-strategiques-en-7-signau",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-19T16:58:48+00:00",
    "agent_name": "Critique-305.2",
    "tone": "critique"
-  },
-  {
-   "title": "Veille critique : open-sources, conditions, liveworld en 4 signaux à suivre",
-   "slug": "2026-09-19-veille-critique-open-sources-conditions-liveworld-en-4-signa",
-   "fitness": 0.8514,
-   "generation": 305,
-   "created_at": "2026-09-19T02:45:34+00:00",
-   "agent_name": "Critique-305.2",
-   "tone": "critique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 89,
+  "publications": 90,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6423,
+    "score": 0.645,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 89 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 90 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

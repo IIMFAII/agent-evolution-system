@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://iimfaii.github.io/agent-evolution-system/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/dashboard.html</loc><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-10-01-veille-critique-open-source-entreprises-fast-tracks-en-5-sig.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-09-30-veille-pedagogique-non-transformer-ai-generated-responsible.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-09-30-veille-analytique-goes-technologies-strategiques-en-7-signau.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-09-29-veille-analytique-development-engineering-electricity-en-5-s.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
