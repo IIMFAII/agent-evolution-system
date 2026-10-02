@@ -1,25 +1,33 @@
 {
-  "run_id": 390,
-  "generation_evaluated": 366,
-  "next_generation": 367,
-  "items_ingested": 4,
+  "run_id": 391,
+  "generation_evaluated": 367,
+  "next_generation": 368,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 366,
-    "best_fitness": 0.83,
+    "generation": 367,
+    "best_fitness": 0.8349,
     "best_agent": "Concis-365.3",
-    "best_agent_id": "aeef8cdbd445430a",
-    "avg_fitness": 0.8277,
+    "best_agent_id": "19bbee5b09154b5d",
+    "avg_fitness": 0.8281,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
-    "title": "Veille concis : vulnerabilities, government-run, international en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : cross-platform, open-source, multitrack en 3 signaux à suivre",
+    "agent": "Concis-365.3",
+    "fitness": 0.8349,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-02-veille-concis-cross-platform-open-source-multitrack-en-3-sig.md"
   },
   "history": [
+    {
+      "generation": 367,
+      "population": 5,
+      "avg_fitness": 0.82806,
+      "best_fitness": 0.8349
+    },
     {
       "generation": 366,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83332,
       "best_fitness": 0.8432
-    },
-    {
-      "generation": 357,
-      "population": 5,
-      "avg_fitness": 0.83744,
-      "best_fitness": 0.8468
     }
   ]
 }
