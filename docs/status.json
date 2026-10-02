@@ -1,25 +1,31 @@
 {
-  "run_id": 389,
-  "generation_evaluated": 365,
-  "next_generation": 366,
-  "items_ingested": 6,
+  "run_id": 390,
+  "generation_evaluated": 366,
+  "next_generation": 367,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 365,
-    "best_fitness": 0.8453,
+    "generation": 366,
+    "best_fitness": 0.83,
     "best_agent": "Concis-365.3",
-    "best_agent_id": "299d6ab826384545",
-    "avg_fitness": 0.8258,
+    "best_agent_id": "aeef8cdbd445430a",
+    "avg_fitness": 0.8277,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille concis : development, openradioss, executives en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
+    "title": "Veille concis : vulnerabilities, government-run, international en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 366,
+      "population": 5,
+      "avg_fitness": 0.82772,
+      "best_fitness": 0.83
+    },
     {
       "generation": 365,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83744,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 356,
-      "population": 5,
-      "avg_fitness": 0.82738,
-      "best_fitness": 0.8275
     }
   ]
 }
