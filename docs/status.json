@@ -1,25 +1,31 @@
 {
-  "run_id": 392,
-  "generation_evaluated": 368,
-  "next_generation": 369,
-  "items_ingested": 8,
+  "run_id": 393,
+  "generation_evaluated": 369,
+  "next_generation": 370,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 368,
-    "best_fitness": 0.8528,
-    "best_agent": "Prospectif-368.2",
-    "best_agent_id": "724d6c379a4e4d93",
-    "avg_fitness": 0.8527,
+    "generation": 369,
+    "best_fitness": 0.8429,
+    "best_agent": "Analytique-369.4",
+    "best_agent_id": "893794d1c80b4f91",
+    "avg_fitness": 0.8291,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
-    "title": "Veille prospectif : veut, l'intégration, entreprises en 8 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
+    "title": "Veille analytique : open-source, performance, everyone's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 369,
+      "population": 5,
+      "avg_fitness": 0.82914,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 368,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8185600000000001,
       "best_fitness": 0.8234
-    },
-    {
-      "generation": 359,
-      "population": 5,
-      "avg_fitness": 0.8263400000000001,
-      "best_fitness": 0.8341
     }
   ]
 }
