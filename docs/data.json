@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-10-03T07:27:54+00:00",
+ "generated_at": "2026-10-03T12:57:55+00:00",
  "cycle": {
-  "run_id": 395,
-  "generation_evaluated": 371,
-  "next_generation": 372,
-  "items_ingested": 5,
+  "run_id": 396,
+  "generation_evaluated": 372,
+  "next_generation": 373,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-   "title": "Veille concis : intelligence, permissions, cloudflare en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : sécurité, signent, géants en 1 signaux à suivre",
+   "agent": "Critique-372.2",
+   "fitness": 0.8429,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-03-veille-critique-securite-signent-geants-en-1-signaux-a-suivr.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 371,
-  "best_fitness": 0.8644,
-  "best_agent": "Concis-371.5",
-  "best_agent_id": "4b77cfd409d14988",
-  "avg_fitness": 0.8458,
+  "generation": 372,
+  "best_fitness": 0.8429,
+  "best_agent": "Critique-372.2",
+  "best_agent_id": "237ba9df75e3441e",
+  "avg_fitness": 0.8403,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "4b77cfd409d14988",
-   "fitness": 0.8644,
+   "agent_id": "237ba9df75e3441e",
+   "fitness": 0.8429,
    "readability": 1.0,
-   "keyword_score": 0.4222,
+   "keyword_score": 0.3143,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-372.2",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 1.0629535869440578,
+   "mutation_rate": 0.855
+  },
+  {
+   "agent_id": "5177ed02c4994224",
+   "fitness": 0.8429,
+   "readability": 1.0,
+   "keyword_score": 0.3143,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-372.4",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.8654466873850184,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "0f7cd387e9d1424d",
+   "fitness": 0.8429,
+   "readability": 1.0,
+   "keyword_score": 0.3143,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-372.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.961957230723755,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "5ea2c9061d87412b",
+   "fitness": 0.8414,
+   "readability": 1.0,
+   "keyword_score": 0.3071,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-371.5",
    "tone": "concis",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.8762148158190259,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "f0e35945942c4402",
-   "fitness": 0.8561,
+   "agent_id": "bc7576658ba8475c",
+   "fitness": 0.8314,
    "readability": 1.0,
-   "keyword_score": 0.3807,
+   "keyword_score": 0.2571,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-371.4",
-   "tone": "concis",
+   "name": "Pédagogique-372.3",
+   "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.7221680960098442,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "485614ef07454274",
-   "fitness": 0.8435,
-   "readability": 1.0,
-   "keyword_score": 0.4374,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-371.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.8546785589510107,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "50cd42936cae4368",
-   "fitness": 0.8326,
-   "readability": 1.0,
-   "keyword_score": 0.3831,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-369.4",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.9636097418530485,
+   "temperature": 0.8062351232524836,
    "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "b92f663a32d34469",
-   "fitness": 0.8324,
-   "readability": 1.0,
-   "keyword_score": 0.3819,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-371.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.8969597399632627,
-   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 312,
-   "population": 5,
-   "avg_fitness": 0.8324,
-   "best_fitness": 0.8468,
-   "worst_fitness": 0.8228
-  },
   {
    "generation": 313,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8458,
    "best_fitness": 0.8644,
    "worst_fitness": 0.8324
+  },
+  {
+   "generation": 372,
+   "population": 5,
+   "avg_fitness": 0.8403,
+   "best_fitness": 0.8429,
+   "worst_fitness": 0.8314
   }
  ],
  "runs": [
+  {
+   "id": 396,
+   "started_at": "2026-10-03T12:57:48+00:00",
+   "finished_at": "2026-10-03T12:57:55+00:00",
+   "generation": 372,
+   "status": "success",
+   "items_ingested": 1,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 395,
    "started_at": "2026-10-03T07:27:49+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 7,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 356,
-   "started_at": "2026-09-24T08:56:08+00:00",
-   "finished_at": "2026-09-24T08:56:23+00:00",
-   "generation": 333,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.3 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : sécurité, signent, géants en 1 signaux à suivre",
+   "slug": "2026-10-03-veille-critique-securite-signent-geants-en-1-signaux-a-suivr",
+   "fitness": 0.8429,
+   "generation": 372,
+   "created_at": "2026-10-03T12:57:55+00:00",
+   "agent_name": "Critique-372.2",
+   "tone": "critique"
+  },
   {
    "title": "Veille analytique : model, report-generation, open-sourcing en 3 signaux à suivre",
    "slug": "2026-10-03-veille-analytique-model-report-generation-open-sourcing-en-3",
@@ -1050,19 +1061,10 @@
    "created_at": "2026-09-21T16:09:10+00:00",
    "agent_name": "Analytique-319.2",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille analytique : orchestrator, practices, happened en 4 signaux à suivre",
-   "slug": "2026-09-20-veille-analytique-orchestrator-practices-happened-en-4-signa",
-   "fitness": 0.86,
-   "generation": 316,
-   "created_at": "2026-09-20T23:47:17+00:00",
-   "agent_name": "Analytique-315.3",
-   "tone": "analytique"
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectionError)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 92,
+  "publications": 93,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1135,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6503,
+    "score": 0.653,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 92 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 93 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

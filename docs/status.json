@@ -1,25 +1,33 @@
 {
-  "run_id": 395,
-  "generation_evaluated": 371,
-  "next_generation": 372,
-  "items_ingested": 5,
+  "run_id": 396,
+  "generation_evaluated": 372,
+  "next_generation": 373,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 371,
-    "best_fitness": 0.8644,
-    "best_agent": "Concis-371.5",
-    "best_agent_id": "4b77cfd409d14988",
-    "avg_fitness": 0.8458,
+    "generation": 372,
+    "best_fitness": 0.8429,
+    "best_agent": "Critique-372.2",
+    "best_agent_id": "237ba9df75e3441e",
+    "avg_fitness": 0.8403,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-    "title": "Veille concis : intelligence, permissions, cloudflare en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : sécurité, signent, géants en 1 signaux à suivre",
+    "agent": "Critique-372.2",
+    "fitness": 0.8429,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-03-veille-critique-securite-signent-geants-en-1-signaux-a-suivr.md"
   },
   "history": [
+    {
+      "generation": 372,
+      "population": 5,
+      "avg_fitness": 0.8403,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 371,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8334999999999999,
       "best_fitness": 0.855
-    },
-    {
-      "generation": 362,
-      "population": 5,
-      "avg_fitness": 0.8232799999999999,
-      "best_fitness": 0.8278
     }
   ]
 }
