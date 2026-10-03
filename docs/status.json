@@ -1,27 +1,31 @@
 {
-  "run_id": 394,
-  "generation_evaluated": 370,
-  "next_generation": 371,
-  "items_ingested": 3,
+  "run_id": 395,
+  "generation_evaluated": 371,
+  "next_generation": 372,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 370,
-    "best_fitness": 0.8424,
-    "best_agent": "Analytique-369.4",
-    "best_agent_id": "e2012a42b9c9445d",
-    "avg_fitness": 0.8421,
+    "generation": 371,
+    "best_fitness": 0.8644,
+    "best_agent": "Concis-371.5",
+    "best_agent_id": "4b77cfd409d14988",
+    "avg_fitness": 0.8458,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : model, report-generation, open-sourcing en 3 signaux à suivre",
-    "agent": "Analytique-369.4",
-    "fitness": 0.8424,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-03-veille-analytique-model-report-generation-open-sourcing-en-3.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
+    "title": "Veille concis : intelligence, permissions, cloudflare en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 371,
+      "population": 5,
+      "avg_fitness": 0.8458,
+      "best_fitness": 0.8644
+    },
     {
       "generation": 370,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8232799999999999,
       "best_fitness": 0.8278
-    },
-    {
-      "generation": 361,
-      "population": 5,
-      "avg_fitness": 0.8442999999999999,
-      "best_fitness": 0.8489
     }
   ]
 }
