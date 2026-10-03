@@ -1,25 +1,33 @@
 {
-  "run_id": 393,
-  "generation_evaluated": 369,
-  "next_generation": 370,
-  "items_ingested": 4,
+  "run_id": 394,
+  "generation_evaluated": 370,
+  "next_generation": 371,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 369,
-    "best_fitness": 0.8429,
+    "generation": 370,
+    "best_fitness": 0.8424,
     "best_agent": "Analytique-369.4",
-    "best_agent_id": "893794d1c80b4f91",
-    "avg_fitness": 0.8291,
+    "best_agent_id": "e2012a42b9c9445d",
+    "avg_fitness": 0.8421,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.5 h, minimum 12 h",
-    "title": "Veille analytique : open-source, performance, everyone's en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : model, report-generation, open-sourcing en 3 signaux à suivre",
+    "agent": "Analytique-369.4",
+    "fitness": 0.8424,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-03-veille-analytique-model-report-generation-open-sourcing-en-3.md"
   },
   "history": [
+    {
+      "generation": 370,
+      "population": 5,
+      "avg_fitness": 0.8421200000000001,
+      "best_fitness": 0.8424
+    },
     {
       "generation": 369,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8442999999999999,
       "best_fitness": 0.8489
-    },
-    {
-      "generation": 360,
-      "population": 5,
-      "avg_fitness": 0.8185600000000001,
-      "best_fitness": 0.8234
     }
   ]
 }
