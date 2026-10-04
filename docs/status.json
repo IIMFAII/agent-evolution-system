@@ -1,25 +1,33 @@
 {
-  "run_id": 399,
-  "generation_evaluated": 375,
-  "next_generation": 376,
+  "run_id": 400,
+  "generation_evaluated": 376,
+  "next_generation": 377,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 375,
-    "best_fitness": 0.8208,
+    "generation": 376,
+    "best_fitness": 0.854,
     "best_agent": "Critique-372.2",
-    "best_agent_id": "ebd62129d8414e25",
-    "avg_fitness": 0.8185,
+    "best_agent_id": "d670a3c3adc84b54",
+    "avg_fitness": 0.8517,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.3 h, minimum 12 h",
-    "title": "Veille critique : indiscriminate, ultra-wideband, surveillance' en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : we're, developers, everything en 4 signaux à suivre",
+    "agent": "Critique-372.2",
+    "fitness": 0.854,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-04-veille-critique-we-re-developers-everything-en-4-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 376,
+      "population": 5,
+      "avg_fitness": 0.8517199999999999,
+      "best_fitness": 0.854
+    },
     {
       "generation": 375,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82806,
       "best_fitness": 0.8349
-    },
-    {
-      "generation": 366,
-      "population": 5,
-      "avg_fitness": 0.82772,
-      "best_fitness": 0.83
     }
   ]
 }
