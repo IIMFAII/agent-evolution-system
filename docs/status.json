@@ -1,25 +1,31 @@
 {
-  "run_id": 401,
-  "generation_evaluated": 377,
-  "next_generation": 378,
-  "items_ingested": 4,
+  "run_id": 402,
+  "generation_evaluated": 378,
+  "next_generation": 379,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 377,
-    "best_fitness": 0.8434,
+    "generation": 378,
+    "best_fitness": 0.855,
     "best_agent": "Critique-372.2",
-    "best_agent_id": "95e5b149866e4416",
-    "avg_fitness": 0.8388,
+    "best_agent_id": "ff5cfafc1cca4a29",
+    "avg_fitness": 0.8431,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille critique : every, next, twice-exceptional en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.3 h, minimum 12 h",
+    "title": "Veille critique : co-leading, governance, blindsight en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 378,
+      "population": 5,
+      "avg_fitness": 0.8431,
+      "best_fitness": 0.855
+    },
     {
       "generation": 377,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82914,
       "best_fitness": 0.8429
-    },
-    {
-      "generation": 368,
-      "population": 5,
-      "avg_fitness": 0.85272,
-      "best_fitness": 0.8528
     }
   ]
 }
