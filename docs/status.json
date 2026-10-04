@@ -1,25 +1,31 @@
 {
-  "run_id": 398,
-  "generation_evaluated": 374,
-  "next_generation": 375,
+  "run_id": 399,
+  "generation_evaluated": 375,
+  "next_generation": 376,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 374,
-    "best_fitness": 0.8514,
+    "generation": 375,
+    "best_fitness": 0.8208,
     "best_agent": "Critique-372.2",
-    "best_agent_id": "71be5faf76254f67",
-    "avg_fitness": 0.8468,
+    "best_agent_id": "ebd62129d8414e25",
+    "avg_fitness": 0.8185,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 7.5 h, minimum 12 h",
-    "title": "Veille critique : cloudflare, platform, american en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.3 h, minimum 12 h",
+    "title": "Veille critique : indiscriminate, ultra-wideband, surveillance' en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 375,
+      "population": 5,
+      "avg_fitness": 0.8185,
+      "best_fitness": 0.8208
+    },
     {
       "generation": 374,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82772,
       "best_fitness": 0.83
-    },
-    {
-      "generation": 365,
-      "population": 5,
-      "avg_fitness": 0.82578,
-      "best_fitness": 0.8453
     }
   ]
 }
