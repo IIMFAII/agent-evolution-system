@@ -1,25 +1,33 @@
 {
-  "run_id": 405,
-  "generation_evaluated": 380,
-  "next_generation": 381,
-  "items_ingested": 5,
+  "run_id": 406,
+  "generation_evaluated": 381,
+  "next_generation": 382,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 380,
-    "best_fitness": 0.8381,
-    "best_agent": "Concis-380.2",
-    "best_agent_id": "5e7ec0506ae24e38",
-    "avg_fitness": 0.8252,
+    "generation": 381,
+    "best_fitness": 0.8249,
+    "best_agent": "Critique-381.4",
+    "best_agent_id": "e49623c715eb400f",
+    "avg_fitness": 0.8183,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.8 h, minimum 12 h",
-    "title": "Veille concis : replacement, plant-based, observation en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : cybersécurité, accélérateur, activities en 6 signaux à suivre",
+    "agent": "Critique-381.4",
+    "fitness": 0.8249,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-05-veille-critique-cybersecurite-accelerateur-activities-en-6-s.md"
   },
   "history": [
+    {
+      "generation": 381,
+      "population": 5,
+      "avg_fitness": 0.8182599999999999,
+      "best_fitness": 0.8249
+    },
     {
       "generation": 380,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8403,
       "best_fitness": 0.8429
-    },
-    {
-      "generation": 371,
-      "population": 5,
-      "avg_fitness": 0.8458,
-      "best_fitness": 0.8644
     }
   ]
 }
