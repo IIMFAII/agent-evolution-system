@@ -1,27 +1,31 @@
 {
-  "run_id": 404,
-  "generation_evaluated": 379,
-  "next_generation": 380,
-  "items_ingested": 4,
+  "run_id": 405,
+  "generation_evaluated": 380,
+  "next_generation": 381,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 379,
-    "best_fitness": 0.8569,
-    "best_agent": "Critique-372.2",
-    "best_agent_id": "1ec801d57ffe49f8",
-    "avg_fitness": 0.8427,
+    "generation": 380,
+    "best_fitness": 0.8381,
+    "best_agent": "Concis-380.2",
+    "best_agent_id": "5e7ec0506ae24e38",
+    "avg_fitness": 0.8252,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : self-hosted, infections, materials en 4 signaux à suivre",
-    "agent": "Critique-372.2",
-    "fitness": 0.8569,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-05-veille-critique-self-hosted-infections-materials-en-4-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.8 h, minimum 12 h",
+    "title": "Veille concis : replacement, plant-based, observation en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 380,
+      "population": 5,
+      "avg_fitness": 0.82516,
+      "best_fitness": 0.8381
+    },
     {
       "generation": 379,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8458,
       "best_fitness": 0.8644
-    },
-    {
-      "generation": 370,
-      "population": 5,
-      "avg_fitness": 0.8421200000000001,
-      "best_fitness": 0.8424
     }
   ]
 }
