@@ -1,27 +1,31 @@
 {
-  "run_id": 408,
-  "generation_evaluated": 383,
-  "next_generation": 384,
-  "items_ingested": 4,
+  "run_id": 409,
+  "generation_evaluated": 384,
+  "next_generation": 385,
+  "items_ingested": 9,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 383,
-    "best_fitness": 0.8329,
+    "generation": 384,
+    "best_fitness": 0.8564,
     "best_agent": "Concis-382.2",
-    "best_agent_id": "b736d18ebb80479a",
-    "avg_fitness": 0.8306,
+    "best_agent_id": "0179f4a646974854",
+    "avg_fitness": 0.8376,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : resurrecting, conferencing, programming en 4 signaux à suivre",
-    "agent": "Concis-382.2",
-    "fitness": 0.8329,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-06-veille-concis-resurrecting-conferencing-programming-en-4-sig.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
+    "title": "Veille concis : agents, observability, automatiser en 9 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 384,
+      "population": 5,
+      "avg_fitness": 0.8375600000000001,
+      "best_fitness": 0.8564
+    },
     {
       "generation": 383,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8185,
       "best_fitness": 0.8208
-    },
-    {
-      "generation": 374,
-      "population": 5,
-      "avg_fitness": 0.8467600000000001,
-      "best_fitness": 0.8514
     }
   ]
 }
