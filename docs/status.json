@@ -1,25 +1,30 @@
 {
-  "run_id": 409,
-  "generation_evaluated": 384,
-  "next_generation": 385,
-  "items_ingested": 9,
+  "run_id": 410,
+  "generation_evaluated": 385,
+  "next_generation": 386,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 384,
-    "best_fitness": 0.8564,
+    "generation": 385,
+    "best_fitness": 0.1,
     "best_agent": "Concis-382.2",
-    "best_agent_id": "0179f4a646974854",
-    "avg_fitness": 0.8376,
+    "best_agent_id": "df7b4a379da741ee",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
-    "title": "Veille concis : agents, observability, automatiser en 9 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 385,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 384,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8517199999999999,
       "best_fitness": 0.854
-    },
-    {
-      "generation": 375,
-      "population": 5,
-      "avg_fitness": 0.8185,
-      "best_fitness": 0.8208
     }
   ]
 }
