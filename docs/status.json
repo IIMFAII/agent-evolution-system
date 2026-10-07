@@ -1,25 +1,33 @@
 {
-  "run_id": 412,
-  "generation_evaluated": 387,
-  "next_generation": 388,
-  "items_ingested": 4,
+  "run_id": 413,
+  "generation_evaluated": 388,
+  "next_generation": 389,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 387,
-    "best_fitness": 0.8394,
-    "best_agent": "Concis-382.2",
-    "best_agent_id": "0e46a15ca6a746c1",
-    "avg_fitness": 0.8202,
+    "generation": 388,
+    "best_fitness": 0.8556,
+    "best_agent": "Concis-388.3",
+    "best_agent_id": "205137251df345c7",
+    "avg_fitness": 0.8417,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.9 h, minimum 12 h",
-    "title": "Veille concis : photographs, components, javascript en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : claude, cybersécurité, entreprises en 6 signaux à suivre",
+    "agent": "Concis-388.3",
+    "fitness": 0.8556,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-07-veille-concis-claude-cybersecurite-entreprises-en-6-signaux.md"
   },
   "history": [
+    {
+      "generation": 388,
+      "population": 5,
+      "avg_fitness": 0.84174,
+      "best_fitness": 0.8556
+    },
     {
       "generation": 387,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.84274,
       "best_fitness": 0.8569
-    },
-    {
-      "generation": 378,
-      "population": 5,
-      "avg_fitness": 0.8431,
-      "best_fitness": 0.855
     }
   ]
 }
