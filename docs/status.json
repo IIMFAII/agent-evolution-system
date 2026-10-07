@@ -1,24 +1,33 @@
 {
-  "run_id": 410,
-  "generation_evaluated": 385,
-  "next_generation": 386,
-  "items_ingested": 6,
+  "run_id": 411,
+  "generation_evaluated": 386,
+  "next_generation": 387,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 385,
-    "best_fitness": 0.1,
+    "generation": 386,
+    "best_fitness": 0.8574,
     "best_agent": "Concis-382.2",
-    "best_agent_id": "df7b4a379da741ee",
-    "avg_fitness": 0.1,
+    "best_agent_id": "f320944ebf424846",
+    "avg_fitness": 0.8526,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille concis : open-source, exclusive, streaming en 4 signaux à suivre",
+    "agent": "Concis-382.2",
+    "fitness": 0.8574,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-07-veille-concis-open-source-exclusive-streaming-en-4-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 386,
+      "population": 5,
+      "avg_fitness": 0.8525600000000001,
+      "best_fitness": 0.8574
+    },
     {
       "generation": 385,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83884,
       "best_fitness": 0.8434
-    },
-    {
-      "generation": 376,
-      "population": 5,
-      "avg_fitness": 0.8517199999999999,
-      "best_fitness": 0.854
     }
   ]
 }

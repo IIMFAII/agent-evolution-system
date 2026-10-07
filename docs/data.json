@@ -1,35 +1,38 @@
 {
- "generated_at": "2026-10-06T22:10:52+00:00",
+ "generated_at": "2026-10-07T03:51:51+00:00",
  "cycle": {
-  "run_id": 410,
-  "generation_evaluated": 385,
-  "next_generation": 386,
-  "items_ingested": 6,
+  "run_id": 411,
+  "generation_evaluated": 386,
+  "next_generation": 387,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+   "published": true,
+   "title": "Veille concis : open-source, exclusive, streaming en 4 signaux à suivre",
+   "agent": "Concis-382.2",
+   "fitness": 0.8574,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-07-veille-concis-open-source-exclusive-streaming-en-4-signaux-a.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 385,
-  "best_fitness": 0.1,
+  "generation": 386,
+  "best_fitness": 0.8574,
   "best_agent": "Concis-382.2",
-  "best_agent_id": "df7b4a379da741ee",
-  "avg_fitness": 0.1,
+  "best_agent_id": "f320944ebf424846",
+  "avg_fitness": 0.8526,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "df7b4a379da741ee",
-   "fitness": 0.1,
+   "agent_id": "f320944ebf424846",
+   "fitness": 0.8574,
    "readability": 1.0,
-   "keyword_score": 0.2918,
+   "keyword_score": 0.3871,
    "ctr_score": 0.9,
-   "compliance": 0.66,
+   "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-382.2",
    "tone": "concis",
@@ -38,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "56485d878f9c4228",
-   "fitness": 0.1,
+   "agent_id": "530402c2b521413b",
+   "fitness": 0.8574,
    "readability": 1.0,
-   "keyword_score": 0.2381,
-   "ctr_score": 0.78,
-   "compliance": 0.66,
+   "keyword_score": 0.3871,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-385.2",
-   "tone": "pédagogique",
+   "name": "Concis-386.5",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.9011555775582542,
-   "mutation_rate": 0.87
+   "temperature": 0.6917365026896775,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "ba7c0b102aa54cab",
-   "fitness": 0.1,
+   "agent_id": "230926368ae44551",
+   "fitness": 0.856,
    "readability": 1.0,
-   "keyword_score": 0.2381,
-   "ctr_score": 0.78,
-   "compliance": 0.66,
+   "keyword_score": 0.38,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-385.3",
+   "name": "Critique-386.2",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.7789273319972683,
-   "mutation_rate": 0.87
+   "temperature": 0.897821196340433,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "cd5bdb271f44483d",
-   "fitness": 0.1,
+   "agent_id": "9d8829777dbe40db",
+   "fitness": 0.846,
    "readability": 1.0,
-   "keyword_score": 0.2389,
-   "ctr_score": 0.78,
-   "compliance": 0.66,
+   "keyword_score": 0.33,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-385.4",
+   "name": "Concis-386.3",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 1.0466634298836388,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "4dac53d8d7a74180",
+   "fitness": 0.846,
+   "readability": 1.0,
+   "keyword_score": 0.33,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-386.4",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.9789020320958897,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "f3ccdc87957d4dbe",
-   "fitness": 0.1,
-   "readability": 1.0,
-   "keyword_score": 0.2381,
-   "ctr_score": 0.78,
-   "compliance": 0.66,
-   "originality": 1.0,
-   "name": "Pédagogique-385.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8452699990636092,
-   "mutation_rate": 0.87
+   "temperature": 1.060776826500519,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 326,
-   "population": 5,
-   "avg_fitness": 0.8448,
-   "best_fitness": 0.8448,
-   "worst_fitness": 0.8448
-  },
   {
    "generation": 327,
    "population": 5,
@@ -514,9 +510,25 @@
    "avg_fitness": 0.1,
    "best_fitness": 0.1,
    "worst_fitness": 0.1
+  },
+  {
+   "generation": 386,
+   "population": 5,
+   "avg_fitness": 0.8525600000000001,
+   "best_fitness": 0.8574,
+   "worst_fitness": 0.846
   }
  ],
  "runs": [
+  {
+   "id": 411,
+   "started_at": "2026-10-07T03:51:41+00:00",
+   "finished_at": "2026-10-07T03:51:51+00:00",
+   "generation": 386,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 410,
    "started_at": "2026-10-06T22:10:45+00:00",
@@ -867,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 371,
-   "started_at": "2026-09-27T09:44:50+00:00",
-   "finished_at": "2026-09-27T09:44:56+00:00",
-   "generation": 347,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.4 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : open-source, exclusive, streaming en 4 signaux à suivre",
+   "slug": "2026-10-07-veille-concis-open-source-exclusive-streaming-en-4-signaux-a",
+   "fitness": 0.8574,
+   "generation": 386,
+   "created_at": "2026-10-07T03:51:51+00:00",
+   "agent_name": "Concis-382.2",
+   "tone": "concis"
+  },
   {
    "title": "Veille concis : resurrecting, conferencing, programming en 4 signaux à suivre",
    "slug": "2026-10-06-veille-concis-resurrecting-conferencing-programming-en-4-sig",
@@ -1049,15 +1061,6 @@
    "created_at": "2026-09-24T14:34:54+00:00",
    "agent_name": "Concis-334.3",
    "tone": "concis"
-  },
-  {
-   "title": "Veille analytique : load-bearing, something, claude's en 4 signaux à suivre",
-   "slug": "2026-09-23-veille-analytique-load-bearing-something-claude-s-en-4-signa",
-   "fitness": 0.8672,
-   "generation": 331,
-   "created_at": "2026-09-23T22:37:42+00:00",
-   "agent_name": "Analytique-329.3",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1069,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 97,
+  "publications": 98,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1134,10 +1137,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6637,
+    "score": 0.6663,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 97 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 98 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
