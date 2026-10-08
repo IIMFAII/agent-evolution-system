@@ -1,25 +1,31 @@
 {
-  "run_id": 414,
-  "generation_evaluated": 389,
-  "next_generation": 390,
-  "items_ingested": 4,
+  "run_id": 415,
+  "generation_evaluated": 390,
+  "next_generation": 391,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 389,
-    "best_fitness": 0.8189,
+    "generation": 390,
+    "best_fitness": 0.8943,
     "best_agent": "Concis-388.3",
-    "best_agent_id": "58a791d796404c96",
-    "avg_fitness": 0.8166,
+    "best_agent_id": "a78cce6f059c4c89",
+    "avg_fitness": 0.892,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.7 h, minimum 12 h",
-    "title": "Veille concis : photograph, understanding, development en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.0 h, minimum 12 h",
+    "title": "Veille concis : alternative, homebrew, margaret en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 390,
+      "population": 5,
+      "avg_fitness": 0.8920199999999999,
+      "best_fitness": 0.8943
+    },
     {
       "generation": 389,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8182599999999999,
       "best_fitness": 0.8249
-    },
-    {
-      "generation": 380,
-      "population": 5,
-      "avg_fitness": 0.82516,
-      "best_fitness": 0.8381
     }
   ]
 }
