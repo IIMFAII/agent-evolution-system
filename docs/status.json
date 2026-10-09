@@ -1,25 +1,33 @@
 {
-  "run_id": 420,
-  "generation_evaluated": 395,
-  "next_generation": 396,
-  "items_ingested": 8,
+  "run_id": 421,
+  "generation_evaluated": 396,
+  "next_generation": 397,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 395,
-    "best_fitness": 0.8638,
+    "generation": 396,
+    "best_fitness": 0.8174,
     "best_agent": "Critique-395.2",
-    "best_agent_id": "477d45ac8f7245cf",
-    "avg_fitness": 0.8495,
+    "best_agent_id": "3b6d9331f8834f7e",
+    "avg_fitness": 0.813,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.4 h, minimum 12 h",
-    "title": "Veille critique : cloud, international, relationship en 8 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : cops, microsoft-decision-1, decision-making en 5 signaux à suivre",
+    "agent": "Critique-395.2",
+    "fitness": 0.8174,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-09-veille-critique-cops-microsoft-decision-1-decision-making-en.md"
   },
   "history": [
+    {
+      "generation": 396,
+      "population": 5,
+      "avg_fitness": 0.81296,
+      "best_fitness": 0.8174
+    },
     {
       "generation": 395,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8202,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 386,
-      "population": 5,
-      "avg_fitness": 0.8525600000000001,
-      "best_fitness": 0.8574
     }
   ]
 }
