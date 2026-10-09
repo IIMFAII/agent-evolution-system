@@ -1,35 +1,51 @@
 {
- "generated_at": "2026-10-09T00:06:06+00:00",
+ "generated_at": "2026-10-09T08:21:05+00:00",
  "cycle": {
-  "run_id": 418,
-  "generation_evaluated": 393,
-  "next_generation": 394,
-  "items_ingested": 3,
+  "run_id": 419,
+  "generation_evaluated": 394,
+  "next_generation": 395,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
-   "title": "Veille concis : chronotherapy, implications, mathematics en 3 signaux à suivre"
+   "published": true,
+   "title": "Veille prospectif : browser, show, observability en 6 signaux à suivre",
+   "agent": "Prospectif-394.4",
+   "fitness": 0.8638,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-09-veille-prospectif-browser-show-observability-en-6-signaux-a.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 393,
-  "best_fitness": 0.831,
-  "best_agent": "Concis-388.3",
-  "best_agent_id": "2404607d7b944f13",
-  "avg_fitness": 0.8287,
+  "generation": 394,
+  "best_fitness": 0.8638,
+  "best_agent": "Prospectif-394.4",
+  "best_agent_id": "4f6cf9a4ed69401f",
+  "avg_fitness": 0.8528,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "2404607d7b944f13",
-   "fitness": 0.831,
+   "agent_id": "4f6cf9a4ed69401f",
+   "fitness": 0.8638,
    "readability": 1.0,
-   "keyword_score": 0.3748,
-   "ctr_score": 0.78,
+   "keyword_score": 0.4192,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-394.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.9267711438156818,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "6a40809947e646b3",
+   "fitness": 0.8636,
+   "readability": 1.0,
+   "keyword_score": 0.4178,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-388.3",
@@ -39,70 +55,49 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "efd3859743514e1b",
-   "fitness": 0.831,
+   "agent_id": "5a4c575b436b414c",
+   "fitness": 0.8528,
    "readability": 1.0,
-   "keyword_score": 0.3748,
-   "ctr_score": 0.78,
+   "keyword_score": 0.364,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-393.2",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 1.0908544050330107,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "bc5b91c927174ea3",
-   "fitness": 0.831,
-   "readability": 1.0,
-   "keyword_score": 0.3748,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-393.4",
+   "name": "Prospectif-394.3",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.9107897446849109,
-   "mutation_rate": 0.87
+   "temperature": 1.0008220748589607,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "7bb0ca9676bb4918",
-   "fitness": 0.831,
+   "agent_id": "a2ea5dbbfa1b49b8",
+   "fitness": 0.8418,
    "readability": 1.0,
-   "keyword_score": 0.3748,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3089,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-393.5",
-   "tone": "analytique",
+   "name": "Pédagogique-394.2",
+   "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 1.1346617029145616,
-   "mutation_rate": 0.87
+   "temperature": 0.9901922447830688,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "0b48aad53d9544b1",
-   "fitness": 0.8195,
+   "agent_id": "8606a812320f45f4",
+   "fitness": 0.8418,
    "readability": 1.0,
-   "keyword_score": 0.3176,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3089,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-393.3",
-   "tone": "analytique",
+   "name": "Prospectif-394.5",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.9236610540390446,
-   "mutation_rate": 0.87
+   "temperature": 1.101146766955785,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 334,
-   "population": 5,
-   "avg_fitness": 0.8273400000000001,
-   "best_fitness": 0.8485,
-   "worst_fitness": 0.8139
-  },
   {
    "generation": 335,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8286999999999999,
    "best_fitness": 0.831,
    "worst_fitness": 0.8195
+  },
+  {
+   "generation": 394,
+   "population": 5,
+   "avg_fitness": 0.85276,
+   "best_fitness": 0.8638,
+   "worst_fitness": 0.8418
   }
  ],
  "runs": [
+  {
+   "id": 419,
+   "started_at": "2026-10-09T08:20:58+00:00",
+   "finished_at": "2026-10-09T08:21:05+00:00",
+   "generation": 394,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 418,
    "started_at": "2026-10-09T00:06:01+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 379,
-   "started_at": "2026-09-29T07:47:20+00:00",
-   "finished_at": "2026-09-29T07:47:27+00:00",
-   "generation": 355,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); aucun contenu au-dessus du seuil de qualité/conformité"
   }
  ],
  "publications": [
+  {
+   "title": "Veille prospectif : browser, show, observability en 6 signaux à suivre",
+   "slug": "2026-10-09-veille-prospectif-browser-show-observability-en-6-signaux-a",
+   "fitness": 0.8638,
+   "generation": 394,
+   "created_at": "2026-10-09T08:21:05+00:00",
+   "agent_name": "Prospectif-394.4",
+   "tone": "prospectif"
+  },
   {
    "title": "Veille concis : privilégient, mathematical, entreprises en 5 signaux à suivre",
    "slug": "2026-10-08-veille-concis-privilegient-mathematical-entreprises-en-5-sig",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-26T08:59:57+00:00",
    "agent_name": "Critique-342.2",
    "tone": "critique"
-  },
-  {
-   "title": "Veille prospectif : citizenship, beginning, ukraine's en 4 signaux à suivre",
-   "slug": "2026-09-25-veille-prospectif-citizenship-beginning-ukraine-s-en-4-signa",
-   "fitness": 0.8394,
-   "generation": 340,
-   "created_at": "2026-09-25T19:46:11+00:00",
-   "agent_name": "Prospectif-339.3",
-   "tone": "prospectif"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 100,
+  "publications": 101,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6717,
+    "score": 0.6743,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 100 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 101 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

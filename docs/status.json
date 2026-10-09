@@ -1,25 +1,33 @@
 {
-  "run_id": 418,
-  "generation_evaluated": 393,
-  "next_generation": 394,
-  "items_ingested": 3,
+  "run_id": 419,
+  "generation_evaluated": 394,
+  "next_generation": 395,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 393,
-    "best_fitness": 0.831,
-    "best_agent": "Concis-388.3",
-    "best_agent_id": "2404607d7b944f13",
-    "avg_fitness": 0.8287,
+    "generation": 394,
+    "best_fitness": 0.8638,
+    "best_agent": "Prospectif-394.4",
+    "best_agent_id": "4f6cf9a4ed69401f",
+    "avg_fitness": 0.8528,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.4 h, minimum 12 h",
-    "title": "Veille concis : chronotherapy, implications, mathematics en 3 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : browser, show, observability en 6 signaux à suivre",
+    "agent": "Prospectif-394.4",
+    "fitness": 0.8638,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-09-veille-prospectif-browser-show-observability-en-6-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 394,
+      "population": 5,
+      "avg_fitness": 0.85276,
+      "best_fitness": 0.8638
+    },
     {
       "generation": 393,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 384,
-      "population": 5,
-      "avg_fitness": 0.8375600000000001,
-      "best_fitness": 0.8564
     }
   ]
 }
