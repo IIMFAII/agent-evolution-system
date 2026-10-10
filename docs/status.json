@@ -1,25 +1,31 @@
 {
-  "run_id": 424,
-  "generation_evaluated": 399,
-  "next_generation": 400,
+  "run_id": 425,
+  "generation_evaluated": 400,
+  "next_generation": 401,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 399,
-    "best_fitness": 0.8468,
+    "generation": 400,
+    "best_fitness": 0.8403,
     "best_agent": "Critique-395.2",
-    "best_agent_id": "b5945e2206174cc1",
-    "avg_fitness": 0.842,
+    "best_agent_id": "34628dda00d24eb1",
+    "avg_fitness": 0.838,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.4 h, minimum 12 h",
-    "title": "Veille critique : open-source, chemicals, covid-19 en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
+    "title": "Veille critique : reflection, operating, resurrect en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 400,
+      "population": 5,
+      "avg_fitness": 0.83802,
+      "best_fitness": 0.8403
+    },
     {
       "generation": 399,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8204,
       "best_fitness": 0.8252
-    },
-    {
-      "generation": 390,
-      "population": 5,
-      "avg_fitness": 0.8920199999999999,
-      "best_fitness": 0.8943
     }
   ]
 }
