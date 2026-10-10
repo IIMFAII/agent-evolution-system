@@ -1,27 +1,31 @@
 {
-  "run_id": 423,
-  "generation_evaluated": 398,
-  "next_generation": 399,
+  "run_id": 424,
+  "generation_evaluated": 399,
+  "next_generation": 400,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 398,
-    "best_fitness": 0.825,
+    "generation": 399,
+    "best_fitness": 0.8468,
     "best_agent": "Critique-395.2",
-    "best_agent_id": "3d242049099145ab",
-    "avg_fitness": 0.8227,
+    "best_agent_id": "b5945e2206174cc1",
+    "avg_fitness": 0.842,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : vulnerability, processing, influences en 4 signaux à suivre",
-    "agent": "Critique-395.2",
-    "fitness": 0.825,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-10-veille-critique-vulnerability-processing-influences-en-4-sig.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.4 h, minimum 12 h",
+    "title": "Veille critique : open-source, chemicals, covid-19 en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 399,
+      "population": 5,
+      "avg_fitness": 0.84196,
+      "best_fitness": 0.8468
+    },
     {
       "generation": 398,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8920199999999999,
       "best_fitness": 0.8943
-    },
-    {
-      "generation": 389,
-      "population": 5,
-      "avg_fitness": 0.8166,
-      "best_fitness": 0.8189
     }
   ]
 }
