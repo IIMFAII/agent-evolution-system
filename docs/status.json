@@ -1,27 +1,30 @@
 {
-  "run_id": 428,
-  "generation_evaluated": 403,
-  "next_generation": 404,
+  "run_id": 429,
+  "generation_evaluated": 404,
+  "next_generation": 405,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 403,
-    "best_fitness": 0.8442,
+    "generation": 404,
+    "best_fitness": 0.1,
     "best_agent": "Concis-403.5",
-    "best_agent_id": "bf0b4930e13d49d6",
-    "avg_fitness": 0.8182,
+    "best_agent_id": "e1003d46d2bc481e",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : replications, open-source, exxonmobil en 4 signaux à suivre",
-    "agent": "Concis-403.5",
-    "fitness": 0.8442,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-11-veille-concis-replications-open-source-exxonmobil-en-4-signa.md"
+    "published": false,
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 404,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 403,
       "population": 5,
@@ -74,12 +77,6 @@
       "generation": 395,
       "population": 5,
       "avg_fitness": 0.84952,
-      "best_fitness": 0.8638
-    },
-    {
-      "generation": 394,
-      "population": 5,
-      "avg_fitness": 0.85276,
       "best_fitness": 0.8638
     }
   ]
