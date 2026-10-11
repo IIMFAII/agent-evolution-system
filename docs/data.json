@@ -1,35 +1,51 @@
 {
- "generated_at": "2026-10-11T08:10:28+00:00",
+ "generated_at": "2026-10-11T16:06:08+00:00",
  "cycle": {
-  "run_id": 427,
-  "generation_evaluated": 402,
-  "next_generation": 403,
-  "items_ingested": 3,
+  "run_id": 428,
+  "generation_evaluated": 403,
+  "next_generation": 404,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 7.5 h, minimum 12 h",
-   "title": "Veille critique : first-person, decompile, raspberry en 3 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : replications, open-source, exxonmobil en 4 signaux à suivre",
+   "agent": "Concis-403.5",
+   "fitness": 0.8442,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-11-veille-concis-replications-open-source-exxonmobil-en-4-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 402,
-  "best_fitness": 0.8514,
-  "best_agent": "Critique-395.2",
-  "best_agent_id": "bda7689e32084b4b",
-  "avg_fitness": 0.837,
+  "generation": 403,
+  "best_fitness": 0.8442,
+  "best_agent": "Concis-403.5",
+  "best_agent_id": "bf0b4930e13d49d6",
+  "avg_fitness": 0.8182,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "bda7689e32084b4b",
-   "fitness": 0.8514,
+   "agent_id": "bf0b4930e13d49d6",
+   "fitness": 0.8442,
    "readability": 1.0,
-   "keyword_score": 0.3571,
+   "keyword_score": 0.3211,
    "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-403.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.9150516729019981,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "2502ffbe81f14f65",
+   "fitness": 0.8202,
+   "readability": 1.0,
+   "keyword_score": 0.3211,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-395.2",
@@ -39,70 +55,49 @@
    "mutation_rate": 0.87
   },
   {
-   "agent_id": "c2975be6372a4b0d",
-   "fitness": 0.8514,
+   "agent_id": "11e2b0c7f04545c4",
+   "fitness": 0.8088,
    "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-402.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 1.0190277352709294,
-   "mutation_rate": 0.895
-  },
-  {
-   "agent_id": "a7babf9ccc724dd6",
-   "fitness": 0.8274,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
+   "keyword_score": 0.264,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-402.3",
+   "name": "Analytique-403.2",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.9421774193548584,
-   "mutation_rate": 0.89875
+   "temperature": 0.8940185892620824,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "935beead0bb84b26",
-   "fitness": 0.8274,
+   "agent_id": "98173ffce0d54f42",
+   "fitness": 0.8088,
    "readability": 1.0,
-   "keyword_score": 0.3571,
+   "keyword_score": 0.264,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-402.4",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 1.018140644185671,
-   "mutation_rate": 0.8925000000000001
-  },
-  {
-   "agent_id": "3243f2d73f7d422b",
-   "fitness": 0.8274,
-   "readability": 1.0,
-   "keyword_score": 0.3571,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-402.5",
+   "name": "Pédagogique-403.3",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 1.0124026858714341,
-   "mutation_rate": 0.89625
+   "temperature": 0.9877768601932098,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "84d1579fece74328",
+   "fitness": 0.8088,
+   "readability": 1.0,
+   "keyword_score": 0.264,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-403.4",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.9400263232805424,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 343,
-   "population": 5,
-   "avg_fitness": 0.83626,
-   "best_fitness": 0.8411,
-   "worst_fitness": 0.8297
-  },
   {
    "generation": 344,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8370000000000001,
    "best_fitness": 0.8514,
    "worst_fitness": 0.8274
+  },
+  {
+   "generation": 403,
+   "population": 5,
+   "avg_fitness": 0.81816,
+   "best_fitness": 0.8442,
+   "worst_fitness": 0.8088
   }
  ],
  "runs": [
+  {
+   "id": 428,
+   "started_at": "2026-10-11T16:06:01+00:00",
+   "finished_at": "2026-10-11T16:06:08+00:00",
+   "generation": 403,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 427,
    "started_at": "2026-10-11T08:10:22+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 6,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.4 h, minimum 12 h"
-  },
-  {
-   "id": 388,
-   "started_at": "2026-10-01T16:50:20+00:00",
-   "finished_at": "2026-10-01T16:50:28+00:00",
-   "generation": 364,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : replications, open-source, exxonmobil en 4 signaux à suivre",
+   "slug": "2026-10-11-veille-concis-replications-open-source-exxonmobil-en-4-signa",
+   "fitness": 0.8442,
+   "generation": 403,
+   "created_at": "2026-10-11T16:06:08+00:00",
+   "agent_name": "Concis-403.5",
+   "tone": "concis"
+  },
   {
    "title": "Veille critique : city-building, decision, prefer en 2 signaux à suivre",
    "slug": "2026-10-11-veille-critique-city-building-decision-prefer-en-2-signaux-a",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-28T19:07:25+00:00",
    "agent_name": "Critique-342.2",
    "tone": "critique"
-  },
-  {
-   "title": "Veille critique : generation, powertrain, microsoft en 4 signaux à suivre",
-   "slug": "2026-09-28-veille-critique-generation-powertrain-microsoft-en-4-signaux",
-   "fitness": 0.8514,
-   "generation": 351,
-   "created_at": "2026-09-28T03:09:11+00:00",
-   "agent_name": "Critique-342.2",
-   "tone": "critique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 104,
+  "publications": 105,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6823,
+    "score": 0.685,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 104 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 105 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
