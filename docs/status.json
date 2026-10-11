@@ -1,25 +1,33 @@
 {
-  "run_id": 425,
-  "generation_evaluated": 400,
-  "next_generation": 401,
-  "items_ingested": 4,
+  "run_id": 426,
+  "generation_evaluated": 401,
+  "next_generation": 402,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 400,
-    "best_fitness": 0.8403,
+    "generation": 401,
+    "best_fitness": 0.8468,
     "best_agent": "Critique-395.2",
-    "best_agent_id": "34628dda00d24eb1",
-    "avg_fitness": 0.838,
+    "best_agent_id": "f3c712c970184599",
+    "avg_fitness": 0.8468,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
-    "title": "Veille critique : reflection, operating, resurrect en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : city-building, decision, prefer en 2 signaux à suivre",
+    "agent": "Critique-395.2",
+    "fitness": 0.8468,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-11-veille-critique-city-building-decision-prefer-en-2-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 401,
+      "population": 5,
+      "avg_fitness": 0.8468,
+      "best_fitness": 0.8468
+    },
     {
       "generation": 400,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8491199999999999,
       "best_fitness": 0.8562
-    },
-    {
-      "generation": 391,
-      "population": 5,
-      "avg_fitness": 0.8204,
-      "best_fitness": 0.8252
     }
   ]
 }
