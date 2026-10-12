@@ -1,25 +1,33 @@
 {
-  "run_id": 430,
-  "generation_evaluated": 405,
-  "next_generation": 406,
-  "items_ingested": 4,
+  "run_id": 431,
+  "generation_evaluated": 406,
+  "next_generation": 407,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 405,
-    "best_fitness": 0.83,
-    "best_agent": "Concis-403.5",
-    "best_agent_id": "7d938922dedb4972",
-    "avg_fitness": 0.8272,
+    "generation": 406,
+    "best_fitness": 0.8213,
+    "best_agent": "Prospectif-406.3",
+    "best_agent_id": "3522381e802c4769",
+    "avg_fitness": 0.8146,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.8 h, minimum 12 h",
-    "title": "Veille concis : affordability, self-hosted, governments en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : unprecedented, anthropic's, alternative en 5 signaux à suivre",
+    "agent": "Prospectif-406.3",
+    "fitness": 0.8213,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-12-veille-prospectif-unprecedented-anthropic-s-alternative-en-5.md"
   },
   "history": [
+    {
+      "generation": 406,
+      "population": 5,
+      "avg_fitness": 0.81464,
+      "best_fitness": 0.8213
+    },
     {
       "generation": 405,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.84712,
       "best_fitness": 0.8474
-    },
-    {
-      "generation": 396,
-      "population": 5,
-      "avg_fitness": 0.81296,
-      "best_fitness": 0.8174
     }
   ]
 }
