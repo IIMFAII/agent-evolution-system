@@ -1,24 +1,31 @@
 {
-  "run_id": 429,
-  "generation_evaluated": 404,
-  "next_generation": 405,
+  "run_id": 430,
+  "generation_evaluated": 405,
+  "next_generation": 406,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 404,
-    "best_fitness": 0.1,
+    "generation": 405,
+    "best_fitness": 0.83,
     "best_agent": "Concis-403.5",
-    "best_agent_id": "e1003d46d2bc481e",
-    "avg_fitness": 0.1,
+    "best_agent_id": "7d938922dedb4972",
+    "avg_fitness": 0.8272,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 8.8 h, minimum 12 h",
+    "title": "Veille concis : affordability, self-hosted, governments en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 405,
+      "population": 5,
+      "avg_fitness": 0.8271599999999999,
+      "best_fitness": 0.83
+    },
     {
       "generation": 404,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81296,
       "best_fitness": 0.8174
-    },
-    {
-      "generation": 395,
-      "population": 5,
-      "avg_fitness": 0.84952,
-      "best_fitness": 0.8638
     }
   ]
 }
