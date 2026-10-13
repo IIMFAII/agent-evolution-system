@@ -1,25 +1,33 @@
 {
-  "run_id": 434,
-  "generation_evaluated": 409,
-  "next_generation": 410,
-  "items_ingested": 4,
+  "run_id": 435,
+  "generation_evaluated": 410,
+  "next_generation": 411,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 409,
-    "best_fitness": 0.8397,
-    "best_agent": "Concis-409.5",
-    "best_agent_id": "7714ee467ce743b4",
-    "avg_fitness": 0.8216,
+    "generation": 410,
+    "best_fitness": 0.8247,
+    "best_agent": "Critique-410.2",
+    "best_agent_id": "b62a8947ef994293",
+    "avg_fitness": 0.8243,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.1 h, minimum 12 h",
-    "title": "Veille concis : capabilities, open-source, transforms en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : installations, frigorifiques, construction en 6 signaux à suivre",
+    "agent": "Critique-410.2",
+    "fitness": 0.8247,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-13-veille-critique-installations-frigorifiques-construction-en.md"
   },
   "history": [
+    {
+      "generation": 410,
+      "population": 5,
+      "avg_fitness": 0.82434,
+      "best_fitness": 0.8247
+    },
     {
       "generation": 409,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8468,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 400,
-      "population": 5,
-      "avg_fitness": 0.83802,
-      "best_fitness": 0.8403
     }
   ]
 }

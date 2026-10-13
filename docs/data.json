@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-10-13T08:50:57+00:00",
+ "generated_at": "2026-10-13T17:18:15+00:00",
  "cycle": {
-  "run_id": 434,
-  "generation_evaluated": 409,
-  "next_generation": 410,
-  "items_ingested": 4,
+  "run_id": 435,
+  "generation_evaluated": 410,
+  "next_generation": 411,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 7.1 h, minimum 12 h",
-   "title": "Veille concis : capabilities, open-source, transforms en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : installations, frigorifiques, construction en 6 signaux à suivre",
+   "agent": "Critique-410.2",
+   "fitness": 0.8247,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-13-veille-critique-installations-frigorifiques-construction-en.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 409,
-  "best_fitness": 0.8397,
-  "best_agent": "Concis-409.5",
-  "best_agent_id": "7714ee467ce743b4",
-  "avg_fitness": 0.8216,
+  "generation": 410,
+  "best_fitness": 0.8247,
+  "best_agent": "Critique-410.2",
+  "best_agent_id": "b62a8947ef994293",
+  "avg_fitness": 0.8243,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "7714ee467ce743b4",
-   "fitness": 0.8397,
+   "agent_id": "b62a8947ef994293",
+   "fitness": 0.8247,
    "readability": 1.0,
-   "keyword_score": 0.2983,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3436,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-410.2",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.8895010942180612,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "39e9a1921971434c",
+   "fitness": 0.8247,
+   "readability": 1.0,
+   "keyword_score": 0.3436,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-410.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.663101032744781,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "27fd0c88013e4933",
+   "fitness": 0.8247,
+   "readability": 1.0,
+   "keyword_score": 0.3436,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-410.5",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.8277665425529698,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "fc80f3dcbf0f4884",
+   "fitness": 0.8245,
+   "readability": 1.0,
+   "keyword_score": 0.3424,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-410.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.8311065223603553,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "91a57bbeb7054800",
+   "fitness": 0.8231,
+   "readability": 1.0,
+   "keyword_score": 0.3356,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-409.5",
    "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.821632671034323,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "c467585aaaed449d",
-   "fitness": 0.8171,
-   "readability": 1.0,
-   "keyword_score": 0.3054,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-408.4",
-   "tone": "critique",
    "origin": "elite",
-   "temperature": 0.8973650794233373,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "c4493620039c45cc",
-   "fitness": 0.8171,
-   "readability": 1.0,
-   "keyword_score": 0.3054,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-409.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.8893900726077031,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "bace9c47bb6c4e81",
-   "fitness": 0.8171,
-   "readability": 1.0,
-   "keyword_score": 0.3054,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-409.3",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.7695924952965458,
-   "mutation_rate": 0.855
-  },
-  {
-   "agent_id": "3d3c3fe4b82944ab",
-   "fitness": 0.8171,
-   "readability": 1.0,
-   "keyword_score": 0.3054,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-409.4",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 1.0395617208877308,
+   "temperature": 0.821632671034323,
    "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 350,
-   "population": 5,
-   "avg_fitness": 0.86496,
-   "best_fitness": 0.8814,
-   "worst_fitness": 0.846
-  },
   {
    "generation": 351,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.82162,
    "best_fitness": 0.8397,
    "worst_fitness": 0.8171
+  },
+  {
+   "generation": 410,
+   "population": 5,
+   "avg_fitness": 0.82434,
+   "best_fitness": 0.8247,
+   "worst_fitness": 0.8231
   }
  ],
  "runs": [
+  {
+   "id": 435,
+   "started_at": "2026-10-13T17:18:06+00:00",
+   "finished_at": "2026-10-13T17:18:15+00:00",
+   "generation": 410,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 434,
    "started_at": "2026-10-13T08:50:50+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 1,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 395,
-   "started_at": "2026-10-03T07:27:49+00:00",
-   "finished_at": "2026-10-03T07:27:54+00:00",
-   "generation": 371,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.6 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : installations, frigorifiques, construction en 6 signaux à suivre",
+   "slug": "2026-10-13-veille-critique-installations-frigorifiques-construction-en",
+   "fitness": 0.8247,
+   "generation": 410,
+   "created_at": "2026-10-13T17:18:15+00:00",
+   "agent_name": "Critique-410.2",
+   "tone": "critique"
+  },
   {
    "title": "Veille critique : cells, pattern-first, experimental en 4 signaux à suivre",
    "slug": "2026-10-13-veille-critique-cells-pattern-first-experimental-en-4-signau",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-09-30T20:28:05+00:00",
    "agent_name": "Analytique-361.3",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille pédagogique : non-transformer, ai-generated, responsible en 5 signaux à suivre",
-   "slug": "2026-09-30-veille-pedagogique-non-transformer-ai-generated-responsible",
-   "fitness": 0.8341,
-   "generation": 359,
-   "created_at": "2026-09-30T07:50:13+00:00",
-   "agent_name": "Pédagogique-359.2",
-   "tone": "pédagogique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 107,
+  "publications": 108,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.6903,
+    "score": 0.693,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 107 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 108 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
