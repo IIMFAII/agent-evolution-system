@@ -1,110 +1,101 @@
 {
- "generated_at": "2026-10-13T17:18:15+00:00",
+ "generated_at": "2026-10-13T22:12:18+00:00",
  "cycle": {
-  "run_id": 435,
-  "generation_evaluated": 410,
-  "next_generation": 411,
-  "items_ingested": 6,
+  "run_id": 436,
+  "generation_evaluated": 411,
+  "next_generation": 412,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille critique : installations, frigorifiques, construction en 6 signaux à suivre",
-   "agent": "Critique-410.2",
-   "fitness": 0.8247,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-13-veille-critique-installations-frigorifiques-construction-en.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
+   "title": "Veille critique : mathematicians, researchers, open-source en 4 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 410,
-  "best_fitness": 0.8247,
+  "generation": 411,
+  "best_fitness": 0.8154,
   "best_agent": "Critique-410.2",
-  "best_agent_id": "b62a8947ef994293",
-  "avg_fitness": 0.8243,
+  "best_agent_id": "abee07c7aa5b4cd8",
+  "avg_fitness": 0.8108,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "b62a8947ef994293",
-   "fitness": 0.8247,
+   "agent_id": "abee07c7aa5b4cd8",
+   "fitness": 0.8154,
    "readability": 1.0,
-   "keyword_score": 0.3436,
+   "keyword_score": 0.2971,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-410.2",
    "tone": "critique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.8895010942180612,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "39e9a1921971434c",
-   "fitness": 0.8247,
+   "agent_id": "da8a9c7ea8b0469c",
+   "fitness": 0.8154,
    "readability": 1.0,
-   "keyword_score": 0.3436,
+   "keyword_score": 0.2971,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-410.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.663101032744781,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "27fd0c88013e4933",
-   "fitness": 0.8247,
-   "readability": 1.0,
-   "keyword_score": 0.3436,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-410.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.8277665425529698,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "fc80f3dcbf0f4884",
-   "fitness": 0.8245,
-   "readability": 1.0,
-   "keyword_score": 0.3424,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-410.4",
+   "name": "Concis-411.3",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.8311065223603553,
+   "temperature": 0.7489204073569943,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "91a57bbeb7054800",
-   "fitness": 0.8231,
+   "agent_id": "eee0f429c6a3455b",
+   "fitness": 0.8154,
    "readability": 1.0,
-   "keyword_score": 0.3356,
+   "keyword_score": 0.2971,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-409.5",
+   "name": "Analytique-411.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.9786084198585766,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "9a9c51460c1c421c",
+   "fitness": 0.804,
+   "readability": 1.0,
+   "keyword_score": 0.24,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-411.2",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.7802603424686565,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "00c2b6dbc12f4551",
+   "fitness": 0.804,
+   "readability": 1.0,
+   "keyword_score": 0.24,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-411.5",
    "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.821632671034323,
-   "mutation_rate": 0.87
+   "origin": "crossover",
+   "temperature": 0.6482531793853764,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 351,
-   "population": 5,
-   "avg_fitness": 0.8514000000000002,
-   "best_fitness": 0.8514,
-   "worst_fitness": 0.8514
-  },
   {
    "generation": 352,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.82434,
    "best_fitness": 0.8247,
    "worst_fitness": 0.8231
+  },
+  {
+   "generation": 411,
+   "population": 5,
+   "avg_fitness": 0.81084,
+   "best_fitness": 0.8154,
+   "worst_fitness": 0.804
   }
  ],
  "runs": [
+  {
+   "id": 436,
+   "started_at": "2026-10-13T22:12:10+00:00",
+   "finished_at": "2026-10-13T22:12:18+00:00",
+   "generation": 411,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 4.9 h, minimum 12 h"
+  },
   {
    "id": 435,
    "started_at": "2026-10-13T17:18:06+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 4.8 h, minimum 12 h"
-  },
-  {
-   "id": 396,
-   "started_at": "2026-10-03T12:57:48+00:00",
-   "finished_at": "2026-10-03T12:57:55+00:00",
-   "generation": 372,
-   "status": "success",
-   "items_ingested": 1,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
