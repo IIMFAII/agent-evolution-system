@@ -1,25 +1,31 @@
 {
-  "run_id": 439,
-  "generation_evaluated": 414,
-  "next_generation": 415,
-  "items_ingested": 5,
+  "run_id": 440,
+  "generation_evaluated": 415,
+  "next_generation": 416,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 414,
-    "best_fitness": 0.8326,
-    "best_agent": "Analytique-414.4",
-    "best_agent_id": "8261013afdfb4181",
-    "avg_fitness": 0.8279,
+    "generation": 415,
+    "best_fitness": 0.8394,
+    "best_agent": "Critique-415.2",
+    "best_agent_id": "ff70b10cd9714379",
+    "avg_fitness": 0.825,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
-    "title": "Veille analytique : profiling-based, self-replicate, switzerland en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+    "title": "Veille critique : middle-aged, underwrote, ownership en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 415,
+      "population": 5,
+      "avg_fitness": 0.825,
+      "best_fitness": 0.8394
+    },
     {
       "generation": 414,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81464,
       "best_fitness": 0.8213
-    },
-    {
-      "generation": 405,
-      "population": 5,
-      "avg_fitness": 0.8271599999999999,
-      "best_fitness": 0.83
     }
   ]
 }
