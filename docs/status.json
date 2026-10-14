@@ -1,25 +1,33 @@
 {
-  "run_id": 437,
-  "generation_evaluated": 412,
-  "next_generation": 413,
-  "items_ingested": 5,
+  "run_id": 438,
+  "generation_evaluated": 413,
+  "next_generation": 414,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 412,
-    "best_fitness": 0.8496,
-    "best_agent": "Analytique-412.5",
-    "best_agent_id": "c68a4e67408543ba",
-    "avg_fitness": 0.8472,
+    "generation": 413,
+    "best_fitness": 0.8735,
+    "best_agent": "Concis-413.3",
+    "best_agent_id": "35fbc8ed25734661",
+    "avg_fitness": 0.8593,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.9 h, minimum 12 h",
-    "title": "Veille analytique : video, recreational, programming en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : disassemble, celebration, developers en 4 signaux à suivre",
+    "agent": "Concis-413.3",
+    "fitness": 0.8735,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-14-veille-concis-disassemble-celebration-developers-en-4-signau.md"
   },
   "history": [
+    {
+      "generation": 413,
+      "population": 5,
+      "avg_fitness": 0.8593400000000001,
+      "best_fitness": 0.8735
+    },
     {
       "generation": 412,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 403,
-      "population": 5,
-      "avg_fitness": 0.81816,
-      "best_fitness": 0.8442
     }
   ]
 }

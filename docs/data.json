@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-10-14T03:10:55+00:00",
+ "generated_at": "2026-10-14T09:13:08+00:00",
  "cycle": {
-  "run_id": 437,
-  "generation_evaluated": 412,
-  "next_generation": 413,
-  "items_ingested": 5,
+  "run_id": 438,
+  "generation_evaluated": 413,
+  "next_generation": 414,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 9.9 h, minimum 12 h",
-   "title": "Veille analytique : video, recreational, programming en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : disassemble, celebration, developers en 4 signaux à suivre",
+   "agent": "Concis-413.3",
+   "fitness": 0.8735,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-14-veille-concis-disassemble-celebration-developers-en-4-signau.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 412,
-  "best_fitness": 0.8496,
-  "best_agent": "Analytique-412.5",
-  "best_agent_id": "c68a4e67408543ba",
-  "avg_fitness": 0.8472,
+  "generation": 413,
+  "best_fitness": 0.8735,
+  "best_agent": "Concis-413.3",
+  "best_agent_id": "35fbc8ed25734661",
+  "avg_fitness": 0.8593,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "c68a4e67408543ba",
-   "fitness": 0.8496,
+   "agent_id": "35fbc8ed25734661",
+   "fitness": 0.8735,
    "readability": 1.0,
-   "keyword_score": 0.348,
+   "keyword_score": 0.4677,
    "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-413.3",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.6754542005791412,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "4cb0578718b0453d",
+   "fitness": 0.8735,
+   "readability": 1.0,
+   "keyword_score": 0.4677,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-413.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.9674761105088878,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "2f7a801b7f274c35",
+   "fitness": 0.8621,
+   "readability": 1.0,
+   "keyword_score": 0.4105,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-413.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.8084400170940043,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "14f9cd23fb294909",
+   "fitness": 0.8495,
+   "readability": 1.0,
+   "keyword_score": 0.4677,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-412.5",
    "tone": "analytique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.7273789399699473,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "a695c773060b45a1",
-   "fitness": 0.8494,
+   "agent_id": "3b6f092935d84035",
+   "fitness": 0.8381,
    "readability": 1.0,
-   "keyword_score": 0.3469,
-   "ctr_score": 0.9,
+   "keyword_score": 0.4105,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-410.2",
+   "name": "Critique-413.2",
    "tone": "critique",
-   "origin": "elite",
-   "temperature": 0.8895010942180612,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "5ae7839a8ce645c7",
-   "fitness": 0.8492,
-   "readability": 1.0,
-   "keyword_score": 0.3458,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-412.3",
-   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.6881823099300779,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "0e680824cc8c44a2",
-   "fitness": 0.8492,
-   "readability": 1.0,
-   "keyword_score": 0.3458,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-412.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.981473905178233,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "92c2a55d8a444828",
-   "fitness": 0.8385,
-   "readability": 1.0,
-   "keyword_score": 0.2923,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-412.2",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.8265968944008356,
-   "mutation_rate": 0.9
+   "temperature": 0.8544264225740901,
+   "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 353,
-   "population": 5,
-   "avg_fitness": 0.8401,
-   "best_fitness": 0.8423,
-   "worst_fitness": 0.8313
-  },
   {
    "generation": 354,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.84718,
    "best_fitness": 0.8496,
    "worst_fitness": 0.8385
+  },
+  {
+   "generation": 413,
+   "population": 5,
+   "avg_fitness": 0.8593400000000001,
+   "best_fitness": 0.8735,
+   "worst_fitness": 0.8381
   }
  ],
  "runs": [
+  {
+   "id": 438,
+   "started_at": "2026-10-14T09:13:02+00:00",
+   "finished_at": "2026-10-14T09:13:08+00:00",
+   "generation": 413,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 437,
    "started_at": "2026-10-14T03:10:47+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.3 h, minimum 12 h"
-  },
-  {
-   "id": 398,
-   "started_at": "2026-10-03T20:29:37+00:00",
-   "finished_at": "2026-10-03T20:29:50+00:00",
-   "generation": 374,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.5 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : disassemble, celebration, developers en 4 signaux à suivre",
+   "slug": "2026-10-14-veille-concis-disassemble-celebration-developers-en-4-signau",
+   "fitness": 0.8735,
+   "generation": 413,
+   "created_at": "2026-10-14T09:13:08+00:00",
+   "agent_name": "Concis-413.3",
+   "tone": "concis"
+  },
   {
    "title": "Veille critique : installations, frigorifiques, construction en 6 signaux à suivre",
    "slug": "2026-10-13-veille-critique-installations-frigorifiques-construction-en",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-10-01T16:50:28+00:00",
    "agent_name": "Critique-363.4",
    "tone": "critique"
-  },
-  {
-   "title": "Veille analytique : goes, technologies, stratégiques en 7 signaux à suivre",
-   "slug": "2026-09-30-veille-analytique-goes-technologies-strategiques-en-7-signau",
-   "fitness": 0.8489,
-   "generation": 361,
-   "created_at": "2026-09-30T20:28:05+00:00",
-   "agent_name": "Analytique-361.3",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 108,
+  "publications": 109,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.693,
+    "score": 0.6957,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 108 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 109 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
