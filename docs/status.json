@@ -1,25 +1,31 @@
 {
-  "run_id": 436,
-  "generation_evaluated": 411,
-  "next_generation": 412,
-  "items_ingested": 4,
+  "run_id": 437,
+  "generation_evaluated": 412,
+  "next_generation": 413,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 411,
-    "best_fitness": 0.8154,
-    "best_agent": "Critique-410.2",
-    "best_agent_id": "abee07c7aa5b4cd8",
-    "avg_fitness": 0.8108,
+    "generation": 412,
+    "best_fitness": 0.8496,
+    "best_agent": "Analytique-412.5",
+    "best_agent_id": "c68a4e67408543ba",
+    "avg_fitness": 0.8472,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
-    "title": "Veille critique : mathematicians, researchers, open-source en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.9 h, minimum 12 h",
+    "title": "Veille analytique : video, recreational, programming en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 412,
+      "population": 5,
+      "avg_fitness": 0.84718,
+      "best_fitness": 0.8496
+    },
     {
       "generation": 411,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81816,
       "best_fitness": 0.8442
-    },
-    {
-      "generation": 402,
-      "population": 5,
-      "avg_fitness": 0.8370000000000001,
-      "best_fitness": 0.8514
     }
   ]
 }

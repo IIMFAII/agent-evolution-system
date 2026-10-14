@@ -1,35 +1,49 @@
 {
- "generated_at": "2026-10-13T22:12:18+00:00",
+ "generated_at": "2026-10-14T03:10:55+00:00",
  "cycle": {
-  "run_id": 436,
-  "generation_evaluated": 411,
-  "next_generation": 412,
-  "items_ingested": 4,
+  "run_id": 437,
+  "generation_evaluated": 412,
+  "next_generation": 413,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 4.9 h, minimum 12 h",
-   "title": "Veille critique : mathematicians, researchers, open-source en 4 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 9.9 h, minimum 12 h",
+   "title": "Veille analytique : video, recreational, programming en 5 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 411,
-  "best_fitness": 0.8154,
-  "best_agent": "Critique-410.2",
-  "best_agent_id": "abee07c7aa5b4cd8",
-  "avg_fitness": 0.8108,
+  "generation": 412,
+  "best_fitness": 0.8496,
+  "best_agent": "Analytique-412.5",
+  "best_agent_id": "c68a4e67408543ba",
+  "avg_fitness": 0.8472,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "abee07c7aa5b4cd8",
-   "fitness": 0.8154,
+   "agent_id": "c68a4e67408543ba",
+   "fitness": 0.8496,
    "readability": 1.0,
-   "keyword_score": 0.2971,
-   "ctr_score": 0.78,
+   "keyword_score": 0.348,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-412.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.7273789399699473,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "a695c773060b45a1",
+   "fitness": 0.8494,
+   "readability": 1.0,
+   "keyword_score": 0.3469,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-410.2",
@@ -39,70 +53,49 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "da8a9c7ea8b0469c",
-   "fitness": 0.8154,
+   "agent_id": "5ae7839a8ce645c7",
+   "fitness": 0.8492,
    "readability": 1.0,
-   "keyword_score": 0.2971,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3458,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-411.3",
+   "name": "Concis-412.3",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.7489204073569943,
+   "temperature": 0.6881823099300779,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "eee0f429c6a3455b",
-   "fitness": 0.8154,
+   "agent_id": "0e680824cc8c44a2",
+   "fitness": 0.8492,
    "readability": 1.0,
-   "keyword_score": 0.2971,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3458,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-411.4",
+   "name": "Concis-412.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.981473905178233,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "92c2a55d8a444828",
+   "fitness": 0.8385,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-412.2",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.9786084198585766,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "9a9c51460c1c421c",
-   "fitness": 0.804,
-   "readability": 1.0,
-   "keyword_score": 0.24,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-411.2",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.7802603424686565,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "00c2b6dbc12f4551",
-   "fitness": 0.804,
-   "readability": 1.0,
-   "keyword_score": 0.24,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-411.5",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.6482531793853764,
+   "temperature": 0.8265968944008356,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 352,
-   "population": 5,
-   "avg_fitness": 0.8548600000000001,
-   "best_fitness": 0.86,
-   "worst_fitness": 0.8473
-  },
   {
    "generation": 353,
    "population": 5,
@@ -515,9 +508,25 @@
    "avg_fitness": 0.81084,
    "best_fitness": 0.8154,
    "worst_fitness": 0.804
+  },
+  {
+   "generation": 412,
+   "population": 5,
+   "avg_fitness": 0.84718,
+   "best_fitness": 0.8496,
+   "worst_fitness": 0.8385
   }
  ],
  "runs": [
+  {
+   "id": 437,
+   "started_at": "2026-10-14T03:10:47+00:00",
+   "finished_at": "2026-10-14T03:10:55+00:00",
+   "generation": 412,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 9.9 h, minimum 12 h"
+  },
   {
    "id": 436,
    "started_at": "2026-10-13T22:12:10+00:00",
@@ -868,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.5 h, minimum 12 h"
-  },
-  {
-   "id": 397,
-   "started_at": "2026-10-03T17:44:15+00:00",
-   "finished_at": "2026-10-03T17:44:20+00:00",
-   "generation": 373,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 4.8 h, minimum 12 h"
   }
  ],
  "publications": [
