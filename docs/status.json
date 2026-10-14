@@ -1,25 +1,33 @@
 {
-  "run_id": 440,
-  "generation_evaluated": 415,
-  "next_generation": 416,
+  "run_id": 441,
+  "generation_evaluated": 416,
+  "next_generation": 417,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 415,
-    "best_fitness": 0.8394,
-    "best_agent": "Critique-415.2",
-    "best_agent_id": "ff70b10cd9714379",
-    "avg_fitness": 0.825,
+    "generation": 416,
+    "best_fitness": 0.8597,
+    "best_agent": "Concis-416.4",
+    "best_agent_id": "ab526c740da84904",
+    "avg_fitness": 0.8453,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
-    "title": "Veille critique : middle-aged, underwrote, ownership en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : experimental, anthropic's, releasing en 4 signaux à suivre",
+    "agent": "Concis-416.4",
+    "fitness": 0.8597,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-14-veille-concis-experimental-anthropic-s-releasing-en-4-signau.md"
   },
   "history": [
+    {
+      "generation": 416,
+      "population": 5,
+      "avg_fitness": 0.8452999999999999,
+      "best_fitness": 0.8597
+    },
     {
       "generation": 415,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82294,
       "best_fitness": 0.8252
-    },
-    {
-      "generation": 406,
-      "population": 5,
-      "avg_fitness": 0.81464,
-      "best_fitness": 0.8213
     }
   ]
 }
