@@ -1,110 +1,101 @@
 {
- "generated_at": "2026-10-14T09:13:08+00:00",
+ "generated_at": "2026-10-14T14:50:03+00:00",
  "cycle": {
-  "run_id": 438,
-  "generation_evaluated": 413,
-  "next_generation": 414,
-  "items_ingested": 4,
+  "run_id": 439,
+  "generation_evaluated": 414,
+  "next_generation": 415,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille concis : disassemble, celebration, developers en 4 signaux à suivre",
-   "agent": "Concis-413.3",
-   "fitness": 0.8735,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-14-veille-concis-disassemble-celebration-developers-en-4-signau.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
+   "title": "Veille analytique : profiling-based, self-replicate, switzerland en 5 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 413,
-  "best_fitness": 0.8735,
-  "best_agent": "Concis-413.3",
-  "best_agent_id": "35fbc8ed25734661",
-  "avg_fitness": 0.8593,
+  "generation": 414,
+  "best_fitness": 0.8326,
+  "best_agent": "Analytique-414.4",
+  "best_agent_id": "8261013afdfb4181",
+  "avg_fitness": 0.8279,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "35fbc8ed25734661",
-   "fitness": 0.8735,
+   "agent_id": "8261013afdfb4181",
+   "fitness": 0.8326,
    "readability": 1.0,
-   "keyword_score": 0.4677,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3831,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-414.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.8649674284013427,
+   "mutation_rate": 0.855
+  },
+  {
+   "agent_id": "9ea2d0ffc0664263",
+   "fitness": 0.8321,
+   "readability": 1.0,
+   "keyword_score": 0.3807,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-413.3",
    "tone": "concis",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.6754542005791412,
    "mutation_rate": 0.87
   },
   {
-   "agent_id": "4cb0578718b0453d",
-   "fitness": 0.8735,
+   "agent_id": "58ba649d00544adf",
+   "fitness": 0.8321,
    "readability": 1.0,
-   "keyword_score": 0.4677,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-413.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.9674761105088878,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "2f7a801b7f274c35",
-   "fitness": 0.8621,
-   "readability": 1.0,
-   "keyword_score": 0.4105,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-413.5",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.8084400170940043,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "14f9cd23fb294909",
-   "fitness": 0.8495,
-   "readability": 1.0,
-   "keyword_score": 0.4677,
+   "keyword_score": 0.3807,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-412.5",
+   "name": "Concis-414.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.8311111934723504,
+   "mutation_rate": 0.84
+  },
+  {
+   "agent_id": "fc6b631136d54f99",
+   "fitness": 0.8215,
+   "readability": 1.0,
+   "keyword_score": 0.3274,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-414.3",
    "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.7273789399699473,
-   "mutation_rate": 0.9
+   "origin": "crossover",
+   "temperature": 0.9066422381306836,
+   "mutation_rate": 0.84
   },
   {
-   "agent_id": "3b6f092935d84035",
-   "fitness": 0.8381,
+   "agent_id": "18838014d8da4509",
+   "fitness": 0.8211,
    "readability": 1.0,
-   "keyword_score": 0.4105,
+   "keyword_score": 0.3254,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-413.2",
-   "tone": "critique",
+   "name": "Concis-414.2",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.8544264225740901,
-   "mutation_rate": 0.87
+   "temperature": 0.7864509242290565,
+   "mutation_rate": 0.84
   }
  ],
  "generations": [
-  {
-   "generation": 354,
-   "population": 5,
-   "avg_fitness": 0.8205,
-   "best_fitness": 0.8208,
-   "worst_fitness": 0.8193
-  },
   {
    "generation": 355,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8593400000000001,
    "best_fitness": 0.8735,
    "worst_fitness": 0.8381
+  },
+  {
+   "generation": 414,
+   "population": 5,
+   "avg_fitness": 0.8278800000000001,
+   "best_fitness": 0.8326,
+   "worst_fitness": 0.8211
   }
  ],
  "runs": [
+  {
+   "id": 439,
+   "started_at": "2026-10-14T14:49:58+00:00",
+   "finished_at": "2026-10-14T14:50:03+00:00",
+   "generation": 414,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.6 h, minimum 12 h"
+  },
   {
    "id": 438,
    "started_at": "2026-10-14T09:13:02+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 399,
-   "started_at": "2026-10-04T00:18:22+00:00",
-   "finished_at": "2026-10-04T00:18:45+00:00",
-   "generation": 375,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.3 h, minimum 12 h"
   }
  ],
  "publications": [
