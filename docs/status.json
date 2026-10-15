@@ -1,25 +1,31 @@
 {
-  "run_id": 442,
-  "generation_evaluated": 417,
-  "next_generation": 418,
-  "items_ingested": 3,
+  "run_id": 443,
+  "generation_evaluated": 418,
+  "next_generation": 419,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 417,
-    "best_fitness": 0.8483,
-    "best_agent": "Pédagogique-417.4",
-    "best_agent_id": "3acb39f202b644aa",
-    "avg_fitness": 0.8414,
+    "generation": 418,
+    "best_fitness": 0.8354,
+    "best_agent": "Concis-418.2",
+    "best_agent_id": "41c28af73dc84d2c",
+    "avg_fitness": 0.8253,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
-    "title": "Veille pédagogique : allocator, 5-24b-a2b, on-device en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
+    "title": "Veille concis : iroh-powered, filesharing, persistent en 2 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 418,
+      "population": 5,
+      "avg_fitness": 0.8253199999999999,
+      "best_fitness": 0.8354
+    },
     {
       "generation": 417,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82162,
       "best_fitness": 0.8397
-    },
-    {
-      "generation": 408,
-      "population": 5,
-      "avg_fitness": 0.83672,
-      "best_fitness": 0.8514
     }
   ]
 }
