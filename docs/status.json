@@ -1,25 +1,33 @@
 {
-  "run_id": 443,
-  "generation_evaluated": 418,
-  "next_generation": 419,
-  "items_ingested": 2,
+  "run_id": 444,
+  "generation_evaluated": 419,
+  "next_generation": 420,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 418,
-    "best_fitness": 0.8354,
-    "best_agent": "Concis-418.2",
-    "best_agent_id": "41c28af73dc84d2c",
-    "avg_fitness": 0.8253,
+    "generation": 419,
+    "best_fitness": 0.8344,
+    "best_agent": "Prospectif-419.5",
+    "best_agent_id": "983b16c9a84b4b69",
+    "avg_fitness": 0.8276,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.8 h, minimum 12 h",
-    "title": "Veille concis : iroh-powered, filesharing, persistent en 2 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : mathematicians, postconditions, preconditions en 5 signaux à suivre",
+    "agent": "Prospectif-419.5",
+    "fitness": 0.8344,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-15-veille-prospectif-mathematicians-postconditions-precondition.md"
   },
   "history": [
+    {
+      "generation": 419,
+      "population": 5,
+      "avg_fitness": 0.8276199999999999,
+      "best_fitness": 0.8344
+    },
     {
       "generation": 418,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82434,
       "best_fitness": 0.8247
-    },
-    {
-      "generation": 409,
-      "population": 5,
-      "avg_fitness": 0.82162,
-      "best_fitness": 0.8397
     }
   ]
 }
