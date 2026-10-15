@@ -1,27 +1,31 @@
 {
-  "run_id": 441,
-  "generation_evaluated": 416,
-  "next_generation": 417,
-  "items_ingested": 4,
+  "run_id": 442,
+  "generation_evaluated": 417,
+  "next_generation": 418,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 416,
-    "best_fitness": 0.8597,
-    "best_agent": "Concis-416.4",
-    "best_agent_id": "ab526c740da84904",
-    "avg_fitness": 0.8453,
+    "generation": 417,
+    "best_fitness": 0.8483,
+    "best_agent": "Pédagogique-417.4",
+    "best_agent_id": "3acb39f202b644aa",
+    "avg_fitness": 0.8414,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : experimental, anthropic's, releasing en 4 signaux à suivre",
-    "agent": "Concis-416.4",
-    "fitness": 0.8597,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-14-veille-concis-experimental-anthropic-s-releasing-en-4-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.9 h, minimum 12 h",
+    "title": "Veille pédagogique : allocator, 5-24b-a2b, on-device en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 417,
+      "population": 5,
+      "avg_fitness": 0.8413999999999999,
+      "best_fitness": 0.8483
+    },
     {
       "generation": 416,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83672,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 407,
-      "population": 5,
-      "avg_fitness": 0.82294,
-      "best_fitness": 0.8252
     }
   ]
 }
