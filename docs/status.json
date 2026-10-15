@@ -1,25 +1,31 @@
 {
-  "run_id": 445,
-  "generation_evaluated": 420,
-  "next_generation": 421,
-  "items_ingested": 5,
+  "run_id": 446,
+  "generation_evaluated": 421,
+  "next_generation": 422,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 420,
-    "best_fitness": 0.8624,
+    "generation": 421,
+    "best_fitness": 0.8369,
     "best_agent": "Prospectif-419.5",
-    "best_agent_id": "bd0d4b403d6946ad",
-    "avg_fitness": 0.851,
+    "best_agent_id": "ce802a84d1d841fc",
+    "avg_fitness": 0.8298,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.0 h, minimum 12 h",
-    "title": "Veille prospectif : microsoft, sécurité, launches en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.2 h, minimum 12 h",
+    "title": "Veille prospectif : outperform, declining, delivered en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 421,
+      "population": 5,
+      "avg_fitness": 0.8297800000000001,
+      "best_fitness": 0.8369
+    },
     {
       "generation": 420,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84718,
       "best_fitness": 0.8496
-    },
-    {
-      "generation": 411,
-      "population": 5,
-      "avg_fitness": 0.81084,
-      "best_fitness": 0.8154
     }
   ]
 }
