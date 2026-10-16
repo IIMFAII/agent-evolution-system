@@ -1,25 +1,31 @@
 {
-  "run_id": 448,
-  "generation_evaluated": 423,
-  "next_generation": 424,
+  "run_id": 449,
+  "generation_evaluated": 424,
+  "next_generation": 425,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 423,
-    "best_fitness": 0.8857,
+    "generation": 424,
+    "best_fitness": 0.86,
     "best_agent": "Prospectif-419.5",
-    "best_agent_id": "a4eec8c3bfae4e03",
-    "avg_fitness": 0.8834,
+    "best_agent_id": "eba1dfe6bad748e4",
+    "avg_fitness": 0.8529,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille prospectif : programming, gentoo's, chromium en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.7 h, minimum 12 h",
+    "title": "Veille prospectif : authorities, autistici, inventati en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 424,
+      "population": 5,
+      "avg_fitness": 0.8529199999999999,
+      "best_fitness": 0.86
+    },
     {
       "generation": 423,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.825,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 414,
-      "population": 5,
-      "avg_fitness": 0.8278800000000001,
-      "best_fitness": 0.8326
     }
   ]
 }
