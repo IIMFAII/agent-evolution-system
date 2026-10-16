@@ -1,34 +1,36 @@
 {
- "generated_at": "2026-10-15T22:51:28+00:00",
+ "generated_at": "2026-10-16T02:46:59+00:00",
  "cycle": {
-  "run_id": 446,
-  "generation_evaluated": 421,
-  "next_generation": 422,
+  "run_id": 447,
+  "generation_evaluated": 422,
+  "next_generation": 423,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 8.2 h, minimum 12 h",
-   "title": "Veille prospectif : outperform, declining, delivered en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille prospectif : your, philadelphia, development en 4 signaux à suivre",
+   "agent": "Prospectif-419.5",
+   "fitness": 0.8514,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-16-veille-prospectif-your-philadelphia-development-en-4-signaux.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 421,
-  "best_fitness": 0.8369,
+  "generation": 422,
+  "best_fitness": 0.8514,
   "best_agent": "Prospectif-419.5",
-  "best_agent_id": "ce802a84d1d841fc",
-  "avg_fitness": 0.8298,
+  "best_agent_id": "f07a2343657c42d3",
+  "avg_fitness": 0.8446,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "ce802a84d1d841fc",
-   "fitness": 0.8369,
+   "agent_id": "f07a2343657c42d3",
+   "fitness": 0.8514,
    "readability": 1.0,
-   "keyword_score": 0.2847,
+   "keyword_score": 0.3571,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "c673bb1446144189",
-   "fitness": 0.8355,
+   "agent_id": "2c6797c468a3418a",
+   "fitness": 0.8514,
    "readability": 1.0,
-   "keyword_score": 0.2776,
+   "keyword_score": 0.3571,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-421.2",
+   "name": "Concis-422.3",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.8241924045515318,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "84a660d5c21749dc",
+   "fitness": 0.84,
+   "readability": 1.0,
+   "keyword_score": 0.3,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-422.2",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.8678886148614238,
-   "mutation_rate": 0.87
+   "temperature": 0.673873764115261,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "d9ee6d1c96764063",
-   "fitness": 0.8255,
+   "agent_id": "f6d8160912ff4c58",
+   "fitness": 0.84,
    "readability": 1.0,
-   "keyword_score": 0.2276,
+   "keyword_score": 0.3,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-421.3",
-   "tone": "critique",
+   "name": "Concis-422.4",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.8501635762688251,
-   "mutation_rate": 0.87
+   "temperature": 0.9928877000963884,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "e3109409c70f4976",
-   "fitness": 0.8255,
+   "agent_id": "0365e9688317447c",
+   "fitness": 0.84,
    "readability": 1.0,
-   "keyword_score": 0.2276,
+   "keyword_score": 0.3,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-421.4",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.830848582093156,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "e6e33b976c9d40e7",
-   "fitness": 0.8255,
-   "readability": 1.0,
-   "keyword_score": 0.2276,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-421.5",
+   "name": "Prospectif-422.5",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.8041590566478796,
-   "mutation_rate": 0.87
+   "temperature": 0.7581686169263134,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 362,
-   "population": 5,
-   "avg_fitness": 0.8232799999999999,
-   "best_fitness": 0.8278,
-   "worst_fitness": 0.8165
-  },
   {
    "generation": 363,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8297800000000001,
    "best_fitness": 0.8369,
    "worst_fitness": 0.8255
+  },
+  {
+   "generation": 422,
+   "population": 5,
+   "avg_fitness": 0.8445600000000001,
+   "best_fitness": 0.8514,
+   "worst_fitness": 0.84
   }
  ],
  "runs": [
+  {
+   "id": 447,
+   "started_at": "2026-10-16T02:46:48+00:00",
+   "finished_at": "2026-10-16T02:46:59+00:00",
+   "generation": 422,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 446,
    "started_at": "2026-10-15T22:51:09+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 407,
-   "started_at": "2026-10-06T01:04:30+00:00",
-   "finished_at": "2026-10-06T01:04:37+00:00",
-   "generation": 382,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.1 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille prospectif : your, philadelphia, development en 4 signaux à suivre",
+   "slug": "2026-10-16-veille-prospectif-your-philadelphia-development-en-4-signaux",
+   "fitness": 0.8514,
+   "generation": 422,
+   "created_at": "2026-10-16T02:46:59+00:00",
+   "agent_name": "Prospectif-419.5",
+   "tone": "prospectif"
+  },
   {
    "title": "Veille prospectif : mathematicians, postconditions, preconditions en 5 signaux à suivre",
    "slug": "2026-10-15-veille-prospectif-mathematicians-postconditions-precondition",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-10-03T12:57:55+00:00",
    "agent_name": "Critique-372.2",
    "tone": "critique"
-  },
-  {
-   "title": "Veille analytique : model, report-generation, open-sourcing en 3 signaux à suivre",
-   "slug": "2026-10-03-veille-analytique-model-report-generation-open-sourcing-en-3",
-   "fitness": 0.8424,
-   "generation": 370,
-   "created_at": "2026-10-03T00:52:55+00:00",
-   "agent_name": "Analytique-369.4",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 111,
+  "publications": 112,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.701,
+    "score": 0.7037,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 111 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 112 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
