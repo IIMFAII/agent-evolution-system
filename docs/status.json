@@ -1,25 +1,31 @@
 {
-  "run_id": 455,
-  "generation_evaluated": 430,
-  "next_generation": 431,
+  "run_id": 456,
+  "generation_evaluated": 431,
+  "next_generation": 432,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 430,
-    "best_fitness": 0.8411,
+    "generation": 431,
+    "best_fitness": 0.8448,
     "best_agent": "Concis-425.2",
-    "best_agent_id": "eb2d80f4beb54772",
-    "avg_fitness": 0.8343,
+    "best_agent_id": "eb6dd96be5294b3d",
+    "avg_fitness": 0.8376,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
-    "title": "Veille concis : transparent, surpasses, trillion en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
+    "title": "Veille concis : restaurant, microsoft, engineers en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 431,
+      "population": 5,
+      "avg_fitness": 0.8376000000000001,
+      "best_fitness": 0.8448
+    },
     {
       "generation": 430,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8445600000000001,
       "best_fitness": 0.8514
-    },
-    {
-      "generation": 421,
-      "population": 5,
-      "avg_fitness": 0.8297800000000001,
-      "best_fitness": 0.8369
     }
   ]
 }
