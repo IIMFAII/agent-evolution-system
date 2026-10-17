@@ -1,25 +1,31 @@
 {
-  "run_id": 451,
-  "generation_evaluated": 426,
-  "next_generation": 427,
-  "items_ingested": 5,
+  "run_id": 452,
+  "generation_evaluated": 427,
+  "next_generation": 428,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 426,
-    "best_fitness": 0.8561,
+    "generation": 427,
+    "best_fitness": 0.8678,
     "best_agent": "Concis-425.2",
-    "best_agent_id": "fe43bec4408449c7",
-    "avg_fitness": 0.8394,
+    "best_agent_id": "5e07586a0247447b",
+    "avg_fitness": 0.863,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.2 h, minimum 12 h",
-    "title": "Veille concis : integration, efficiency, authorized en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.4 h, minimum 12 h",
+    "title": "Veille concis : butlerian, nine-inch, flexport en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 427,
+      "population": 5,
+      "avg_fitness": 0.86296,
+      "best_fitness": 0.8678
+    },
     {
       "generation": 426,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8253199999999999,
       "best_fitness": 0.8354
-    },
-    {
-      "generation": 417,
-      "population": 5,
-      "avg_fitness": 0.8413999999999999,
-      "best_fitness": 0.8483
     }
   ]
 }
