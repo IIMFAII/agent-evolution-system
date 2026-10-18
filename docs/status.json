@@ -1,25 +1,33 @@
 {
-  "run_id": 459,
-  "generation_evaluated": 434,
-  "next_generation": 435,
-  "items_ingested": 4,
+  "run_id": 460,
+  "generation_evaluated": 435,
+  "next_generation": 436,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 434,
-    "best_fitness": 0.8509,
+    "generation": 435,
+    "best_fitness": 0.8208,
     "best_agent": "Concis-434.3",
-    "best_agent_id": "f0ece20176e84e51",
-    "avg_fitness": 0.8361,
+    "best_agent_id": "250a4db710124f49",
+    "avg_fitness": 0.8159,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
-    "title": "Veille concis : infiltrated, successful, cloudflare en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : micromanipulator, sub-micrometer, permissions en 3 signaux à suivre",
+    "agent": "Concis-434.3",
+    "fitness": 0.8208,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-18-veille-concis-micromanipulator-sub-micrometer-permissions-en.md"
   },
   "history": [
+    {
+      "generation": 435,
+      "population": 5,
+      "avg_fitness": 0.8159000000000001,
+      "best_fitness": 0.8208
+    },
     {
       "generation": 434,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8394199999999999,
       "best_fitness": 0.8561
-    },
-    {
-      "generation": 425,
-      "population": 5,
-      "avg_fitness": 0.81816,
-      "best_fitness": 0.8394
     }
   ]
 }
