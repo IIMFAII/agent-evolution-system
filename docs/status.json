@@ -1,25 +1,31 @@
 {
-  "run_id": 458,
-  "generation_evaluated": 433,
-  "next_generation": 434,
-  "items_ingested": 3,
+  "run_id": 459,
+  "generation_evaluated": 434,
+  "next_generation": 435,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 433,
-    "best_fitness": 0.8314,
-    "best_agent": "Concis-425.2",
-    "best_agent_id": "51df0428877f4a90",
-    "avg_fitness": 0.8124,
+    "generation": 434,
+    "best_fitness": 0.8509,
+    "best_agent": "Concis-434.3",
+    "best_agent_id": "f0ece20176e84e51",
+    "avg_fitness": 0.8361,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.6 h, minimum 12 h",
-    "title": "Veille concis : ownership, zuckerberg's, instagram en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
+    "title": "Veille concis : infiltrated, successful, cloudflare en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 434,
+      "population": 5,
+      "avg_fitness": 0.83612,
+      "best_fitness": 0.8509
+    },
     {
       "generation": 433,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81816,
       "best_fitness": 0.8394
-    },
-    {
-      "generation": 424,
-      "population": 5,
-      "avg_fitness": 0.8529199999999999,
-      "best_fitness": 0.86
     }
   ]
 }
