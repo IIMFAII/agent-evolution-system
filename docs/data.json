@@ -1,25 +1,101 @@
 {
- "generated_at": "2026-10-18T17:02:43+00:00",
+ "generated_at": "2026-10-18T19:58:18+00:00",
  "cycle": {
-  "run_id": 461,
+  "run_id": 462,
   "generation_evaluated": 436,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 437,
+  "items_ingested": 4,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
    "published": false,
-   "reason": "aucun item nouveau"
+   "reason": "cadençage : dernière publication il y a 6.2 h, minimum 12 h",
+   "title": "Veille concis : restrictions, threatens, factories en 4 signaux à suivre"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 436,
+  "best_fitness": 0.8569,
+  "best_agent": "Concis-434.3",
+  "best_agent_id": "99b36975a77e412c",
+  "avg_fitness": 0.8371,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 376,
-   "population": 5,
-   "avg_fitness": 0.8517199999999999,
-   "best_fitness": 0.854,
-   "worst_fitness": 0.8426
+   "agent_id": "99b36975a77e412c",
+   "fitness": 0.8569,
+   "readability": 1.0,
+   "keyword_score": 0.3844,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-434.3",
+   "tone": "concis",
+   "origin": "elite",
+   "temperature": 1.0096931911619738,
+   "mutation_rate": 0.9
   },
+  {
+   "agent_id": "a0da7d488e5344bd",
+   "fitness": 0.8329,
+   "readability": 1.0,
+   "keyword_score": 0.3844,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-436.4",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 1.0917676109909027,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "89abc7dcc1c74deb",
+   "fitness": 0.8329,
+   "readability": 1.0,
+   "keyword_score": 0.3844,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-436.5",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 1.0732107736062424,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "2440ebc6f94e4685",
+   "fitness": 0.8315,
+   "readability": 1.0,
+   "keyword_score": 0.3773,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-436.2",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.895877558478892,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "3632e63fd0f94341",
+   "fitness": 0.8315,
+   "readability": 1.0,
+   "keyword_score": 0.3773,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-436.3",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.8795268570115535,
+   "mutation_rate": 0.9
+  }
+ ],
+ "generations": [
   {
    "generation": 377,
    "population": 5,
@@ -432,9 +508,25 @@
    "avg_fitness": 0.8159000000000001,
    "best_fitness": 0.8208,
    "worst_fitness": 0.8093
+  },
+  {
+   "generation": 436,
+   "population": 5,
+   "avg_fitness": 0.83714,
+   "best_fitness": 0.8569,
+   "worst_fitness": 0.8315
   }
  ],
  "runs": [
+  {
+   "id": 462,
+   "started_at": "2026-10-18T19:58:13+00:00",
+   "finished_at": "2026-10-18T19:58:18+00:00",
+   "generation": 436,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.2 h, minimum 12 h"
+  },
   {
    "id": 461,
    "started_at": "2026-10-18T17:02:23+00:00",
@@ -785,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 422,
-   "started_at": "2026-10-10T03:55:29+00:00",
-   "finished_at": "2026-10-10T03:55:33+00:00",
-   "generation": 397,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.8 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -979,7 +1062,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },

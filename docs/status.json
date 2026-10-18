@@ -1,27 +1,31 @@
 {
-  "run_id": 460,
-  "generation_evaluated": 435,
-  "next_generation": 436,
-  "items_ingested": 3,
+  "run_id": 462,
+  "generation_evaluated": 436,
+  "next_generation": 437,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 435,
-    "best_fitness": 0.8208,
+    "generation": 436,
+    "best_fitness": 0.8569,
     "best_agent": "Concis-434.3",
-    "best_agent_id": "250a4db710124f49",
-    "avg_fitness": 0.8159,
+    "best_agent_id": "99b36975a77e412c",
+    "avg_fitness": 0.8371,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : micromanipulator, sub-micrometer, permissions en 3 signaux à suivre",
-    "agent": "Concis-434.3",
-    "fitness": 0.8208,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-18-veille-concis-micromanipulator-sub-micrometer-permissions-en.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.2 h, minimum 12 h",
+    "title": "Veille concis : restrictions, threatens, factories en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 436,
+      "population": 5,
+      "avg_fitness": 0.83714,
+      "best_fitness": 0.8569
+    },
     {
       "generation": 435,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.86296,
       "best_fitness": 0.8678
-    },
-    {
-      "generation": 426,
-      "population": 5,
-      "avg_fitness": 0.8394199999999999,
-      "best_fitness": 0.8561
     }
   ]
 }
