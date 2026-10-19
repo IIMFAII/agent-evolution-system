@@ -1,27 +1,30 @@
 {
-  "run_id": 466,
-  "generation_evaluated": 440,
-  "next_generation": 441,
+  "run_id": 467,
+  "generation_evaluated": 441,
+  "next_generation": 442,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 440,
-    "best_fitness": 0.836,
+    "generation": 441,
+    "best_fitness": 0.1,
     "best_agent": "Pédagogique-440.4",
-    "best_agent_id": "6dea2831ebeb48b3",
-    "avg_fitness": 0.8337,
+    "best_agent_id": "24e9b03c25e84bc5",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille pédagogique : another, infrastructures, cybersécurité en 6 signaux à suivre",
-    "agent": "Pédagogique-440.4",
-    "fitness": 0.836,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-19-veille-pedagogique-another-infrastructures-cybersecurite-en.md"
+    "published": false,
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 441,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 440,
       "population": 5,
@@ -75,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.84224,
       "best_fitness": 0.8468
-    },
-    {
-      "generation": 431,
-      "population": 5,
-      "avg_fitness": 0.8376000000000001,
-      "best_fitness": 0.8448
     }
   ]
 }
