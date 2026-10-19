@@ -1,25 +1,33 @@
 {
-  "run_id": 463,
-  "generation_evaluated": 437,
-  "next_generation": 438,
-  "items_ingested": 3,
+  "run_id": 464,
+  "generation_evaluated": 438,
+  "next_generation": 439,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 437,
-    "best_fitness": 0.8314,
+    "generation": 438,
+    "best_fitness": 0.8274,
     "best_agent": "Concis-434.3",
-    "best_agent_id": "d586821094124df4",
-    "avg_fitness": 0.8102,
+    "best_agent_id": "2abcf2b7706d42fe",
+    "avg_fitness": 0.8183,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
-    "title": "Veille concis : agents, multi-method, associations en 3 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : uncosntitutional, trademarking, cyberspace en 4 signaux à suivre",
+    "agent": "Concis-434.3",
+    "fitness": 0.8274,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-19-veille-concis-uncosntitutional-trademarking-cyberspace-en-4.md"
   },
   "history": [
+    {
+      "generation": 438,
+      "population": 5,
+      "avg_fitness": 0.81828,
+      "best_fitness": 0.8274
+    },
     {
       "generation": 437,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.86684,
       "best_fitness": 0.8714
-    },
-    {
-      "generation": 428,
-      "population": 5,
-      "avg_fitness": 0.81684,
-      "best_fitness": 0.8214
     }
   ]
 }
