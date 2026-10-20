@@ -1,24 +1,31 @@
 {
-  "run_id": 467,
-  "generation_evaluated": 441,
-  "next_generation": 442,
-  "items_ingested": 6,
+  "run_id": 468,
+  "generation_evaluated": 442,
+  "next_generation": 443,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 441,
-    "best_fitness": 0.1,
+    "generation": 442,
+    "best_fitness": 0.8093,
     "best_agent": "Pédagogique-440.4",
-    "best_agent_id": "24e9b03c25e84bc5",
-    "avg_fitness": 0.1,
+    "best_agent_id": "81cdfff4a35444dc",
+    "avg_fitness": 0.8093,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
+    "title": "Veille pédagogique : token-maxxing, openrouter's, supermarket en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 442,
+      "population": 5,
+      "avg_fitness": 0.8093,
+      "best_fitness": 0.8093
+    },
     {
       "generation": 441,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8124399999999999,
       "best_fitness": 0.8314
-    },
-    {
-      "generation": 432,
-      "population": 5,
-      "avg_fitness": 0.84224,
-      "best_fitness": 0.8468
     }
   ]
 }
