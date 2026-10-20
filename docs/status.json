@@ -1,25 +1,31 @@
 {
-  "run_id": 470,
-  "generation_evaluated": 444,
-  "next_generation": 445,
-  "items_ingested": 5,
+  "run_id": 471,
+  "generation_evaluated": 445,
+  "next_generation": 446,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 444,
-    "best_fitness": 0.8234,
-    "best_agent": "Pédagogique-440.4",
-    "best_agent_id": "6189bf040b7d4b10",
-    "avg_fitness": 0.8188,
+    "generation": 445,
+    "best_fitness": 0.806,
+    "best_agent": "Analytique-445.2",
+    "best_agent_id": "8af8947a78d6418a",
+    "avg_fitness": 0.8059,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.2 h, minimum 12 h",
-    "title": "Veille pédagogique : conversations, open-sourced, demographic en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.2 h, minimum 12 h",
+    "title": "Veille analytique : d'investigation, open-sources, entreprises en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 445,
+      "population": 5,
+      "avg_fitness": 0.8058799999999999,
+      "best_fitness": 0.806
+    },
     {
       "generation": 444,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83714,
       "best_fitness": 0.8569
-    },
-    {
-      "generation": 435,
-      "population": 5,
-      "avg_fitness": 0.8159000000000001,
-      "best_fitness": 0.8208
     }
   ]
 }
