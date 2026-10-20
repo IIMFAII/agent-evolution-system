@@ -1,25 +1,33 @@
 {
-  "run_id": 468,
-  "generation_evaluated": 442,
-  "next_generation": 443,
-  "items_ingested": 4,
+  "run_id": 469,
+  "generation_evaluated": 443,
+  "next_generation": 444,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 442,
-    "best_fitness": 0.8093,
+    "generation": 443,
+    "best_fitness": 0.8379,
     "best_agent": "Pédagogique-440.4",
-    "best_agent_id": "81cdfff4a35444dc",
-    "avg_fitness": 0.8093,
+    "best_agent_id": "8154d16aaaff4f47",
+    "avg_fitness": 0.8378,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.1 h, minimum 12 h",
-    "title": "Veille pédagogique : token-maxxing, openrouter's, supermarket en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : switch, development, self-hosted en 7 signaux à suivre",
+    "agent": "Pédagogique-440.4",
+    "fitness": 0.8379,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-20-veille-pedagogique-switch-development-self-hosted-en-7-signa.md"
   },
   "history": [
+    {
+      "generation": 443,
+      "population": 5,
+      "avg_fitness": 0.83782,
+      "best_fitness": 0.8379
+    },
     {
       "generation": 442,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83612,
       "best_fitness": 0.8509
-    },
-    {
-      "generation": 433,
-      "population": 5,
-      "avg_fitness": 0.8124399999999999,
-      "best_fitness": 0.8314
     }
   ]
 }
