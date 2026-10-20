@@ -1,25 +1,33 @@
 {
-  "run_id": 471,
-  "generation_evaluated": 445,
-  "next_generation": 446,
-  "items_ingested": 6,
+  "run_id": 472,
+  "generation_evaluated": 446,
+  "next_generation": 447,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 445,
-    "best_fitness": 0.806,
-    "best_agent": "Analytique-445.2",
-    "best_agent_id": "8af8947a78d6418a",
-    "avg_fitness": 0.8059,
+    "generation": 446,
+    "best_fitness": 0.8295,
+    "best_agent": "Concis-446.4",
+    "best_agent_id": "f45442eae0cc4a51",
+    "avg_fitness": 0.8152,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.2 h, minimum 12 h",
-    "title": "Veille analytique : d'investigation, open-sources, entreprises en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : compromised, neurotoxins, discovery en 5 signaux à suivre",
+    "agent": "Concis-446.4",
+    "fitness": 0.8295,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-20-veille-concis-compromised-neurotoxins-discovery-en-5-signaux.md"
   },
   "history": [
+    {
+      "generation": 446,
+      "population": 5,
+      "avg_fitness": 0.81524,
+      "best_fitness": 0.8295
+    },
     {
       "generation": 445,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8101600000000001,
       "best_fitness": 0.8314
-    },
-    {
-      "generation": 436,
-      "population": 5,
-      "avg_fitness": 0.83714,
-      "best_fitness": 0.8569
     }
   ]
 }
