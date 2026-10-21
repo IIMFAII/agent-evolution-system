@@ -1,27 +1,31 @@
 {
-  "run_id": 472,
-  "generation_evaluated": 446,
-  "next_generation": 447,
-  "items_ingested": 5,
+  "run_id": 473,
+  "generation_evaluated": 447,
+  "next_generation": 448,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 446,
-    "best_fitness": 0.8295,
-    "best_agent": "Concis-446.4",
-    "best_agent_id": "f45442eae0cc4a51",
-    "avg_fitness": 0.8152,
+    "generation": 447,
+    "best_fitness": 0.86,
+    "best_agent": "Analytique-447.2",
+    "best_agent_id": "51a21da9b6704657",
+    "avg_fitness": 0.8599,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : compromised, neurotoxins, discovery en 5 signaux à suivre",
-    "agent": "Concis-446.4",
-    "fitness": 0.8295,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-20-veille-concis-compromised-neurotoxins-discovery-en-5-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
+    "title": "Veille analytique : quantumly, possible, learning en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 447,
+      "population": 5,
+      "avg_fitness": 0.8599399999999999,
+      "best_fitness": 0.86
+    },
     {
       "generation": 446,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81828,
       "best_fitness": 0.8274
-    },
-    {
-      "generation": 437,
-      "population": 5,
-      "avg_fitness": 0.8101600000000001,
-      "best_fitness": 0.8314
     }
   ]
 }
