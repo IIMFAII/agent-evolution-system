@@ -1,25 +1,31 @@
 {
-  "run_id": 473,
-  "generation_evaluated": 447,
-  "next_generation": 448,
-  "items_ingested": 4,
+  "run_id": 474,
+  "generation_evaluated": 448,
+  "next_generation": 449,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 447,
-    "best_fitness": 0.86,
-    "best_agent": "Analytique-447.2",
-    "best_agent_id": "51a21da9b6704657",
-    "avg_fitness": 0.8599,
+    "generation": 448,
+    "best_fitness": 0.848,
+    "best_agent": "Critique-448.3",
+    "best_agent_id": "b07f24e23de9411d",
+    "avg_fitness": 0.8336,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.1 h, minimum 12 h",
-    "title": "Veille analytique : quantumly, possible, learning en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.2 h, minimum 12 h",
+    "title": "Veille critique : pillowfort, imminently, battlezone en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 448,
+      "population": 5,
+      "avg_fitness": 0.8336,
+      "best_fitness": 0.848
+    },
     {
       "generation": 447,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.85612,
       "best_fitness": 0.8647
-    },
-    {
-      "generation": 438,
-      "population": 5,
-      "avg_fitness": 0.81828,
-      "best_fitness": 0.8274
     }
   ]
 }
