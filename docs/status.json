@@ -1,25 +1,33 @@
 {
-  "run_id": 474,
-  "generation_evaluated": 448,
-  "next_generation": 449,
+  "run_id": 475,
+  "generation_evaluated": 449,
+  "next_generation": 450,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 448,
-    "best_fitness": 0.848,
-    "best_agent": "Critique-448.3",
-    "best_agent_id": "b07f24e23de9411d",
-    "avg_fitness": 0.8336,
+    "generation": 449,
+    "best_fitness": 0.8344,
+    "best_agent": "Analytique-449.4",
+    "best_agent_id": "9cbb1699209e4ebb",
+    "avg_fitness": 0.8342,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.2 h, minimum 12 h",
-    "title": "Veille critique : pillowfort, imminently, battlezone en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : planet, patch, d'information en 5 signaux à suivre",
+    "agent": "Analytique-449.4",
+    "fitness": 0.8344,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-21-veille-analytique-planet-patch-d-information-en-5-signaux-a.md"
   },
   "history": [
+    {
+      "generation": 449,
+      "population": 5,
+      "avg_fitness": 0.83422,
+      "best_fitness": 0.8344
+    },
     {
       "generation": 448,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8336600000000001,
       "best_fitness": 0.836
-    },
-    {
-      "generation": 439,
-      "population": 5,
-      "avg_fitness": 0.85612,
-      "best_fitness": 0.8647
     }
   ]
 }
