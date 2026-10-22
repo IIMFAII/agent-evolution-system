@@ -1,25 +1,31 @@
 {
-  "run_id": 479,
-  "generation_evaluated": 452,
-  "next_generation": 453,
-  "items_ingested": 4,
+  "run_id": 480,
+  "generation_evaluated": 453,
+  "next_generation": 454,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 452,
-    "best_fitness": 0.8287,
+    "generation": 453,
+    "best_fitness": 0.8492,
     "best_agent": "Analytique-449.4",
-    "best_agent_id": "fe3fbcc85bba47d7",
-    "avg_fitness": 0.8286,
+    "best_agent_id": "ddf2a45bc8b948b2",
+    "avg_fitness": 0.8425,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.2 h, minimum 12 h",
-    "title": "Veille analytique : browser, agents, d'information en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+    "title": "Veille analytique : exit, certificate, intercept en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 453,
+      "population": 5,
+      "avg_fitness": 0.84246,
+      "best_fitness": 0.8492
+    },
     {
       "generation": 452,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81884,
       "best_fitness": 0.8234
-    },
-    {
-      "generation": 443,
-      "population": 5,
-      "avg_fitness": 0.83782,
-      "best_fitness": 0.8379
     }
   ]
 }
