@@ -1,25 +1,33 @@
 {
-  "run_id": 480,
-  "generation_evaluated": 453,
-  "next_generation": 454,
+  "run_id": 481,
+  "generation_evaluated": 454,
+  "next_generation": 455,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 453,
-    "best_fitness": 0.8492,
+    "generation": 454,
+    "best_fitness": 0.8608,
     "best_agent": "Analytique-449.4",
-    "best_agent_id": "ddf2a45bc8b948b2",
-    "avg_fitness": 0.8425,
+    "best_agent_id": "7777507fe6f44817",
+    "avg_fitness": 0.8562,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
-    "title": "Veille analytique : exit, certificate, intercept en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : failles, world, show en 6 signaux à suivre",
+    "agent": "Analytique-449.4",
+    "fitness": 0.8608,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-22-veille-analytique-failles-world-show-en-6-signaux-a-suivre.md"
   },
   "history": [
+    {
+      "generation": 454,
+      "population": 5,
+      "avg_fitness": 0.8562000000000001,
+      "best_fitness": 0.8608
+    },
     {
       "generation": 453,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8058799999999999,
       "best_fitness": 0.806
-    },
-    {
-      "generation": 444,
-      "population": 5,
-      "avg_fitness": 0.81884,
-      "best_fitness": 0.8234
     }
   ]
 }
