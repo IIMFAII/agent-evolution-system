@@ -1,25 +1,103 @@
 {
- "generated_at": "2026-10-21T22:58:55+00:00",
+ "generated_at": "2026-10-22T02:56:42+00:00",
  "cycle": {
-  "run_id": 477,
+  "run_id": 478,
   "generation_evaluated": 451,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 452,
+  "items_ingested": 5,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
-   "published": false,
-   "reason": "aucun item nouveau"
+   "published": true,
+   "title": "Veille analytique : multiplication, enterprises, sideloading en 5 signaux à suivre",
+   "agent": "Analytique-449.4",
+   "fitness": 0.8146,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-22-veille-analytique-multiplication-enterprises-sideloading-en.md"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 451,
+  "best_fitness": 0.8146,
+  "best_agent": "Analytique-449.4",
+  "best_agent_id": "a1de746c1b3d4e52",
+  "avg_fitness": 0.8145,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 391,
-   "population": 5,
-   "avg_fitness": 0.8204,
-   "best_fitness": 0.8252,
-   "worst_fitness": 0.8143
+   "agent_id": "a1de746c1b3d4e52",
+   "fitness": 0.8146,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-449.4",
+   "tone": "analytique",
+   "origin": "elite",
+   "temperature": 1.06504851206032,
+   "mutation_rate": 0.9
   },
+  {
+   "agent_id": "77b1d30e1b334891",
+   "fitness": 0.8146,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-451.3",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 1.2,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "ec434e52369647a3",
+   "fitness": 0.8145,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-451.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 1.1017189083194407,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "4c712ec3d3c1491a",
+   "fitness": 0.8145,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-451.4",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 1.1604510140321653,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "9d3006573c6c4f3e",
+   "fitness": 0.8145,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-451.5",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.9277721915705227,
+   "mutation_rate": 0.87
+  }
+ ],
+ "generations": [
   {
    "generation": 392,
    "population": 5,
@@ -432,9 +510,25 @@
    "avg_fitness": 0.8572200000000001,
    "best_fitness": 0.8575,
    "worst_fitness": 0.857
+  },
+  {
+   "generation": 451,
+   "population": 5,
+   "avg_fitness": 0.81454,
+   "best_fitness": 0.8146,
+   "worst_fitness": 0.8145
   }
  ],
  "runs": [
+  {
+   "id": 478,
+   "started_at": "2026-10-22T02:56:37+00:00",
+   "finished_at": "2026-10-22T02:56:42+00:00",
+   "generation": 451,
+   "status": "success",
+   "items_ingested": 5,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 477,
    "started_at": "2026-10-21T22:58:29+00:00",
@@ -785,18 +879,18 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.6 h, minimum 12 h"
-  },
-  {
-   "id": 438,
-   "started_at": "2026-10-14T09:13:02+00:00",
-   "finished_at": "2026-10-14T09:13:08+00:00",
-   "generation": 413,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : multiplication, enterprises, sideloading en 5 signaux à suivre",
+   "slug": "2026-10-22-veille-analytique-multiplication-enterprises-sideloading-en",
+   "fitness": 0.8146,
+   "generation": 451,
+   "created_at": "2026-10-22T02:56:42+00:00",
+   "agent_name": "Analytique-449.4",
+   "tone": "analytique"
+  },
   {
    "title": "Veille analytique : planet, patch, d'information en 5 signaux à suivre",
    "slug": "2026-10-21-veille-analytique-planet-patch-d-information-en-5-signaux-a",
@@ -967,19 +1061,10 @@
    "created_at": "2026-10-10T10:23:13+00:00",
    "agent_name": "Critique-395.2",
    "tone": "critique"
-  },
-  {
-   "title": "Veille critique : cops, microsoft-decision-1, decision-making en 5 signaux à suivre",
-   "slug": "2026-10-09-veille-critique-cops-microsoft-decision-1-decision-making-en",
-   "fitness": 0.8174,
-   "generation": 396,
-   "created_at": "2026-10-09T22:08:24+00:00",
-   "agent_name": "Critique-395.2",
-   "tone": "critique"
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
@@ -987,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 121,
+  "publications": 122,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1023,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.7277,
+    "score": 0.7303,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 121 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 122 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
