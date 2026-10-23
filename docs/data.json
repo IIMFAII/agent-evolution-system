@@ -1,100 +1,17 @@
 {
- "generated_at": "2026-10-23T03:00:46+00:00",
+ "generated_at": "2026-10-23T09:00:35+00:00",
  "cycle": {
-  "run_id": 483,
-  "generation_evaluated": 456,
-  "next_generation": 457,
-  "items_ingested": 4,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 484,
+  "generation_evaluated": 457,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-   "title": "Veille concis : foolishness, programming, language en 4 signaux à suivre"
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 456,
-  "best_fitness": 0.8548,
-  "best_agent": "Concis-455.5",
-  "best_agent_id": "9dc845af37184533",
-  "avg_fitness": 0.8405,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "9dc845af37184533",
-   "fitness": 0.8548,
-   "readability": 1.0,
-   "keyword_score": 0.3738,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-455.5",
-   "tone": "concis",
-   "origin": "elite",
-   "temperature": 1.0109155739269686,
-   "mutation_rate": 0.84
-  },
-  {
-   "agent_id": "bd519df735c24f15",
-   "fitness": 0.8548,
-   "readability": 1.0,
-   "keyword_score": 0.3738,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-456.3",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 1.014837029561509,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "8af884460ea74796",
-   "fitness": 0.831,
-   "readability": 1.0,
-   "keyword_score": 0.375,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-456.2",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 1.1180836596444168,
-   "mutation_rate": 0.89375
-  },
-  {
-   "agent_id": "ca2b1f69ebfa448c",
-   "fitness": 0.831,
-   "readability": 1.0,
-   "keyword_score": 0.375,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-456.4",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 1.1012709864362122,
-   "mutation_rate": 0.89
-  },
-  {
-   "agent_id": "881671812a7c4043",
-   "fitness": 0.831,
-   "readability": 1.0,
-   "keyword_score": 0.375,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-456.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.9405740793527514,
-   "mutation_rate": 0.89
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 397,
@@ -519,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 484,
+   "started_at": "2026-10-23T09:00:12+00:00",
+   "finished_at": "2026-10-23T09:00:35+00:00",
+   "generation": 457,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 483,
    "started_at": "2026-10-23T03:00:13+00:00",
    "finished_at": "2026-10-23T03:00:46+00:00",
@@ -868,15 +794,6 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.0 h, minimum 12 h"
-  },
-  {
-   "id": 444,
-   "started_at": "2026-10-15T14:37:18+00:00",
-   "finished_at": "2026-10-15T14:37:23+00:00",
-   "generation": 419,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
@@ -1062,7 +979,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
