@@ -1,25 +1,31 @@
 {
-  "run_id": 486,
-  "generation_evaluated": 458,
-  "next_generation": 459,
-  "items_ingested": 5,
+  "run_id": 487,
+  "generation_evaluated": 459,
+  "next_generation": 460,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 458,
-    "best_fitness": 0.8145,
+    "generation": 459,
+    "best_fitness": 0.8192,
     "best_agent": "Analytique-458.4",
-    "best_agent_id": "41db9dbbd7704083",
-    "avg_fitness": 0.8143,
+    "best_agent_id": "790d892cde4848d2",
+    "avg_fitness": 0.8192,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.1 h, minimum 12 h",
-    "title": "Veille analytique : l'utilisation, identifiants, artificial en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.3 h, minimum 12 h",
+    "title": "Veille analytique : systemd-nspawn, containers, whirlwind en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 459,
+      "population": 5,
+      "avg_fitness": 0.8192,
+      "best_fitness": 0.8192
+    },
     {
       "generation": 458,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8572200000000001,
       "best_fitness": 0.8575
-    },
-    {
-      "generation": 449,
-      "population": 5,
-      "avg_fitness": 0.83422,
-      "best_fitness": 0.8344
     }
   ]
 }
