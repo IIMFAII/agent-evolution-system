@@ -1,25 +1,31 @@
 {
-  "run_id": 482,
-  "generation_evaluated": 455,
-  "next_generation": 456,
-  "items_ingested": 3,
+  "run_id": 483,
+  "generation_evaluated": 456,
+  "next_generation": 457,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 455,
-    "best_fitness": 0.82,
+    "generation": 456,
+    "best_fitness": 0.8548,
     "best_agent": "Concis-455.5",
-    "best_agent_id": "e5e7cb8c42ee4777",
-    "avg_fitness": 0.8008,
+    "best_agent_id": "9dc845af37184533",
+    "avg_fitness": 0.8405,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.2 h, minimum 12 h",
-    "title": "Veille concis : negotiations, transactions, disgraced en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
+    "title": "Veille concis : foolishness, programming, language en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 456,
+      "population": 5,
+      "avg_fitness": 0.84052,
+      "best_fitness": 0.8548
+    },
     {
       "generation": 455,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8599399999999999,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 446,
-      "population": 5,
-      "avg_fitness": 0.81524,
-      "best_fitness": 0.8295
     }
   ]
 }
