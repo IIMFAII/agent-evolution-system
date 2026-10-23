@@ -1,25 +1,33 @@
 {
-  "run_id": 483,
-  "generation_evaluated": 456,
-  "next_generation": 457,
-  "items_ingested": 4,
+  "run_id": 485,
+  "generation_evaluated": 457,
+  "next_generation": 458,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 456,
-    "best_fitness": 0.8548,
-    "best_agent": "Concis-455.5",
-    "best_agent_id": "9dc845af37184533",
-    "avg_fitness": 0.8405,
+    "generation": 457,
+    "best_fitness": 0.8216,
+    "best_agent": "Pédagogique-457.2",
+    "best_agent_id": "917de545e03d48a6",
+    "avg_fitness": 0.8215,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-    "title": "Veille concis : foolishness, programming, language en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : d'investissements, confidentialité, investor-owned en 7 signaux à suivre",
+    "agent": "Pédagogique-457.2",
+    "fitness": 0.8216,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-23-veille-pedagogique-d-investissements-confidentialite-investo.md"
   },
   "history": [
+    {
+      "generation": 457,
+      "population": 5,
+      "avg_fitness": 0.8215199999999999,
+      "best_fitness": 0.8216
+    },
     {
       "generation": 456,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8336,
       "best_fitness": 0.848
-    },
-    {
-      "generation": 447,
-      "population": 5,
-      "avg_fitness": 0.8599399999999999,
-      "best_fitness": 0.86
     }
   ]
 }
