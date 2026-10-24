@@ -1,100 +1,17 @@
 {
- "generated_at": "2026-10-24T13:47:51+00:00",
+ "generated_at": "2026-10-24T17:09:28+00:00",
  "cycle": {
-  "run_id": 490,
-  "generation_evaluated": 462,
-  "next_generation": 463,
-  "items_ingested": 4,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 491,
+  "generation_evaluated": 463,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 5.2 h, minimum 12 h",
-   "title": "Veille analytique : cve-2022-22706, torrentfreak, ai-assisted en 4 signaux à suivre"
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 462,
-  "best_fitness": 0.8057,
-  "best_agent": "Analytique-458.4",
-  "best_agent_id": "5b029291efb144a9",
-  "avg_fitness": 0.8057,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "5b029291efb144a9",
-   "fitness": 0.8057,
-   "readability": 1.0,
-   "keyword_score": 0.2483,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-458.4",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 1.010540665713673,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "11d69ba7a6fe4218",
-   "fitness": 0.8057,
-   "readability": 1.0,
-   "keyword_score": 0.2483,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-462.2",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 1.003103868636803,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "99e2fb1cfeed4662",
-   "fitness": 0.8057,
-   "readability": 1.0,
-   "keyword_score": 0.2483,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-462.3",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.9832435838212201,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "34e0b5ee15d74144",
-   "fitness": 0.8057,
-   "readability": 1.0,
-   "keyword_score": 0.2483,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-462.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 1.0053969044267845,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "e1939dafb1164733",
-   "fitness": 0.8057,
-   "readability": 1.0,
-   "keyword_score": 0.2483,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-462.5",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 1.0874752876127871,
-   "mutation_rate": 0.87
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 403,
@@ -519,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 491,
+   "started_at": "2026-10-24T17:09:06+00:00",
+   "finished_at": "2026-10-24T17:09:28+00:00",
+   "generation": 463,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 490,
    "started_at": "2026-10-24T13:47:46+00:00",
    "finished_at": "2026-10-24T13:47:51+00:00",
@@ -868,15 +794,6 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.4 h, minimum 12 h"
-  },
-  {
-   "id": 451,
-   "started_at": "2026-10-16T22:25:17+00:00",
-   "finished_at": "2026-10-16T22:25:23+00:00",
-   "generation": 426,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 3.2 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -1062,7 +979,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
