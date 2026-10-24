@@ -1,27 +1,31 @@
 {
-  "run_id": 489,
-  "generation_evaluated": 461,
-  "next_generation": 462,
+  "run_id": 490,
+  "generation_evaluated": 462,
+  "next_generation": 463,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 461,
-    "best_fitness": 0.8134,
+    "generation": 462,
+    "best_fitness": 0.8057,
     "best_agent": "Analytique-458.4",
-    "best_agent_id": "6e249ebfcd6644b6",
-    "avg_fitness": 0.8134,
+    "best_agent_id": "5b029291efb144a9",
+    "avg_fitness": 0.8057,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : programming, functional, listening en 4 signaux à suivre",
-    "agent": "Analytique-458.4",
-    "fitness": 0.8134,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-24-veille-analytique-programming-functional-listening-en-4-sign.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.2 h, minimum 12 h",
+    "title": "Veille analytique : cve-2022-22706, torrentfreak, ai-assisted en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 462,
+      "population": 5,
+      "avg_fitness": 0.8057000000000001,
+      "best_fitness": 0.8057
+    },
     {
       "generation": 461,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84246,
       "best_fitness": 0.8492
-    },
-    {
-      "generation": 452,
-      "population": 5,
-      "avg_fitness": 0.8286200000000001,
-      "best_fitness": 0.8287
     }
   ]
 }
