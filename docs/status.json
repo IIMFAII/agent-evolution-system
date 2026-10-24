@@ -1,25 +1,30 @@
 {
-  "run_id": 490,
-  "generation_evaluated": 462,
-  "next_generation": 463,
+  "run_id": 492,
+  "generation_evaluated": 463,
+  "next_generation": 464,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 462,
-    "best_fitness": 0.8057,
+    "generation": 463,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-458.4",
-    "best_agent_id": "5b029291efb144a9",
-    "avg_fitness": 0.8057,
+    "best_agent_id": "3b87379174ec4521",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.2 h, minimum 12 h",
-    "title": "Veille analytique : cve-2022-22706, torrentfreak, ai-assisted en 4 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 463,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 462,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8562000000000001,
       "best_fitness": 0.8608
-    },
-    {
-      "generation": 453,
-      "population": 5,
-      "avg_fitness": 0.84246,
-      "best_fitness": 0.8492
     }
   ]
 }

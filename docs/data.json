@@ -1,25 +1,100 @@
 {
- "generated_at": "2026-10-24T17:09:28+00:00",
+ "generated_at": "2026-10-24T20:05:00+00:00",
  "cycle": {
-  "run_id": 491,
+  "run_id": 492,
   "generation_evaluated": 463,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 464,
+  "items_ingested": 4,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
    "published": false,
-   "reason": "aucun item nouveau"
+   "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 463,
+  "best_fitness": 0.1,
+  "best_agent": "Analytique-458.4",
+  "best_agent_id": "3b87379174ec4521",
+  "avg_fitness": 0.1,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 403,
-   "population": 5,
-   "avg_fitness": 0.81816,
-   "best_fitness": 0.8442,
-   "worst_fitness": 0.8088
+   "agent_id": "3b87379174ec4521",
+   "fitness": 0.1,
+   "readability": 1.0,
+   "keyword_score": 0.2538,
+   "ctr_score": 0.9,
+   "compliance": 0.66,
+   "originality": 1.0,
+   "name": "Analytique-458.4",
+   "tone": "analytique",
+   "origin": "elite",
+   "temperature": 1.010540665713673,
+   "mutation_rate": 0.9
   },
+  {
+   "agent_id": "56b397e1d9604805",
+   "fitness": 0.1,
+   "readability": 1.0,
+   "keyword_score": 0.2538,
+   "ctr_score": 0.9,
+   "compliance": 0.66,
+   "originality": 1.0,
+   "name": "Concis-463.2",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 1.04900797666323,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "0f3007fc9d48432f",
+   "fitness": 0.1,
+   "readability": 1.0,
+   "keyword_score": 0.2538,
+   "ctr_score": 0.9,
+   "compliance": 0.66,
+   "originality": 1.0,
+   "name": "Critique-463.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 1.164150133981896,
+   "mutation_rate": 0.89
+  },
+  {
+   "agent_id": "62bf8d898e5b43db",
+   "fitness": 0.1,
+   "readability": 1.0,
+   "keyword_score": 0.2538,
+   "ctr_score": 0.9,
+   "compliance": 0.66,
+   "originality": 1.0,
+   "name": "Concis-463.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 1.0249006885252008,
+   "mutation_rate": 0.89
+  },
+  {
+   "agent_id": "a5d7c110dd624b31",
+   "fitness": 0.1,
+   "readability": 1.0,
+   "keyword_score": 0.2538,
+   "ctr_score": 0.9,
+   "compliance": 0.66,
+   "originality": 1.0,
+   "name": "Concis-463.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.9931737262290116,
+   "mutation_rate": 0.89
+  }
+ ],
+ "generations": [
   {
    "generation": 404,
    "population": 5,
@@ -432,9 +507,25 @@
    "avg_fitness": 0.8057000000000001,
    "best_fitness": 0.8057,
    "worst_fitness": 0.8057
+  },
+  {
+   "generation": 463,
+   "population": 5,
+   "avg_fitness": 0.1,
+   "best_fitness": 0.1,
+   "worst_fitness": 0.1
   }
  ],
  "runs": [
+  {
+   "id": 492,
+   "started_at": "2026-10-24T20:04:54+00:00",
+   "finished_at": "2026-10-24T20:05:00+00:00",
+   "generation": 463,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé); aucun contenu au-dessus du seuil de qualité/conformité"
+  },
   {
    "id": 491,
    "started_at": "2026-10-24T17:09:06+00:00",
@@ -785,15 +876,6 @@
    "status": "success",
    "items_ingested": 1,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 452,
-   "started_at": "2026-10-17T02:38:17+00:00",
-   "finished_at": "2026-10-17T02:38:23+00:00",
-   "generation": 427,
-   "status": "success",
-   "items_ingested": 3,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.4 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -979,7 +1061,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
  },
