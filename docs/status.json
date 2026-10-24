@@ -1,24 +1,33 @@
 {
-  "run_id": 488,
-  "generation_evaluated": 460,
-  "next_generation": 461,
-  "items_ingested": 3,
+  "run_id": 489,
+  "generation_evaluated": 461,
+  "next_generation": 462,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 460,
-    "best_fitness": 0.1,
+    "generation": 461,
+    "best_fitness": 0.8134,
     "best_agent": "Analytique-458.4",
-    "best_agent_id": "f1be4ea378cc453b",
-    "avg_fitness": 0.1,
+    "best_agent_id": "6e249ebfcd6644b6",
+    "avg_fitness": 0.8134,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille analytique : programming, functional, listening en 4 signaux à suivre",
+    "agent": "Analytique-458.4",
+    "fitness": 0.8134,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-24-veille-analytique-programming-functional-listening-en-4-sign.md"
   },
   "history": [
+    {
+      "generation": 461,
+      "population": 5,
+      "avg_fitness": 0.8134,
+      "best_fitness": 0.8134
+    },
     {
       "generation": 460,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8286200000000001,
       "best_fitness": 0.8287
-    },
-    {
-      "generation": 451,
-      "population": 5,
-      "avg_fitness": 0.81454,
-      "best_fitness": 0.8146
     }
   ]
 }
