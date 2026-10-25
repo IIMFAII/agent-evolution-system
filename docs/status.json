@@ -1,25 +1,31 @@
 {
-  "run_id": 494,
-  "generation_evaluated": 465,
-  "next_generation": 466,
-  "items_ingested": 3,
+  "run_id": 495,
+  "generation_evaluated": 466,
+  "next_generation": 467,
+  "items_ingested": 1,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 465,
-    "best_fitness": 0.836,
+    "generation": 466,
+    "best_fitness": 0.82,
     "best_agent": "Concis-464.4",
-    "best_agent_id": "e234dff8fd9b4231",
-    "avg_fitness": 0.836,
+    "best_agent_id": "837d78ba612b4376",
+    "avg_fitness": 0.82,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
-    "title": "Veille concis : trillion-parameter, enginiered, findmyweb en 3 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.9 h, minimum 12 h",
+    "title": "Veille concis : harness, models, qwen3 en 1 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 466,
+      "population": 5,
+      "avg_fitness": 0.82,
+      "best_fitness": 0.82
+    },
     {
       "generation": 465,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8215199999999999,
       "best_fitness": 0.8216
-    },
-    {
-      "generation": 456,
-      "population": 5,
-      "avg_fitness": 0.84052,
-      "best_fitness": 0.8548
     }
   ]
 }
