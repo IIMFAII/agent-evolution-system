@@ -1,27 +1,31 @@
 {
-  "run_id": 493,
-  "generation_evaluated": 464,
-  "next_generation": 465,
-  "items_ingested": 4,
+  "run_id": 494,
+  "generation_evaluated": 465,
+  "next_generation": 466,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 464,
-    "best_fitness": 0.8376,
+    "generation": 465,
+    "best_fitness": 0.836,
     "best_agent": "Concis-464.4",
-    "best_agent_id": "d65f59af7a0340a2",
-    "avg_fitness": 0.8232,
+    "best_agent_id": "e234dff8fd9b4231",
+    "avg_fitness": 0.836,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : open-source, operations, ambitious en 4 signaux à suivre",
-    "agent": "Concis-464.4",
-    "fitness": 0.8376,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-24-veille-concis-open-source-operations-ambitious-en-4-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 3.3 h, minimum 12 h",
+    "title": "Veille concis : trillion-parameter, enginiered, findmyweb en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 465,
+      "population": 5,
+      "avg_fitness": 0.836,
+      "best_fitness": 0.836
+    },
     {
       "generation": 464,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84052,
       "best_fitness": 0.8548
-    },
-    {
-      "generation": 455,
-      "population": 5,
-      "avg_fitness": 0.8008000000000001,
-      "best_fitness": 0.82
     }
   ]
 }
