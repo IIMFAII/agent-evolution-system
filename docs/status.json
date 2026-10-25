@@ -1,25 +1,31 @@
 {
-  "run_id": 497,
-  "generation_evaluated": 468,
-  "next_generation": 469,
+  "run_id": 498,
+  "generation_evaluated": 469,
+  "next_generation": 470,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 468,
-    "best_fitness": 0.8338,
+    "generation": 469,
+    "best_fitness": 0.8314,
     "best_agent": "Concis-464.4",
-    "best_agent_id": "bc2a8a7b897a4527",
-    "avg_fitness": 0.8338,
+    "best_agent_id": "5bd528f191554669",
+    "avg_fitness": 0.8314,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.6 h, minimum 12 h",
-    "title": "Veille concis : imagination, interact, parton's en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.2 h, minimum 12 h",
+    "title": "Veille concis : engineering, anthropic, serbia's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 469,
+      "population": 5,
+      "avg_fitness": 0.8314,
+      "best_fitness": 0.8314
+    },
     {
       "generation": 468,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 459,
-      "population": 5,
-      "avg_fitness": 0.8192,
-      "best_fitness": 0.8192
     }
   ]
 }
