@@ -1,25 +1,33 @@
 {
-  "run_id": 498,
-  "generation_evaluated": 469,
-  "next_generation": 470,
+  "run_id": 499,
+  "generation_evaluated": 470,
+  "next_generation": 471,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 469,
-    "best_fitness": 0.8314,
-    "best_agent": "Concis-464.4",
-    "best_agent_id": "5bd528f191554669",
-    "avg_fitness": 0.8314,
+    "generation": 470,
+    "best_fitness": 0.8473,
+    "best_agent": "Pédagogique-470.2",
+    "best_agent_id": "3d9d8384dcd04d8d",
+    "avg_fitness": 0.8473,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.2 h, minimum 12 h",
-    "title": "Veille concis : engineering, anthropic, serbia's en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : attention, teardown, nintendo en 4 signaux à suivre",
+    "agent": "Pédagogique-470.2",
+    "fitness": 0.8473,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-26-veille-pedagogique-attention-teardown-nintendo-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 470,
+      "population": 5,
+      "avg_fitness": 0.84726,
+      "best_fitness": 0.8473
+    },
     {
       "generation": 469,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8134,
       "best_fitness": 0.8134
-    },
-    {
-      "generation": 460,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
