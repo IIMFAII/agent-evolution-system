@@ -1,25 +1,33 @@
 {
-  "run_id": 500,
-  "generation_evaluated": 471,
-  "next_generation": 472,
-  "items_ingested": 4,
+  "run_id": 501,
+  "generation_evaluated": 472,
+  "next_generation": 473,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 471,
-    "best_fitness": 0.8648,
+    "generation": 472,
+    "best_fitness": 0.8249,
     "best_agent": "Pédagogique-470.2",
-    "best_agent_id": "32ee0d531ab94f0d",
-    "avg_fitness": 0.8645,
+    "best_agent_id": "9f45732e0d3b4f3e",
+    "avg_fitness": 0.8161,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.8 h, minimum 12 h",
-    "title": "Veille pédagogique : block, switzerland, paperpilot en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille pédagogique : from-scratch, partenaires, offensively en 6 signaux à suivre",
+    "agent": "Pédagogique-470.2",
+    "fitness": 0.8249,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-26-veille-pedagogique-from-scratch-partenaires-offensively-en-6.md"
   },
   "history": [
+    {
+      "generation": 472,
+      "population": 5,
+      "avg_fitness": 0.81606,
+      "best_fitness": 0.8249
+    },
     {
       "generation": 471,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 462,
-      "population": 5,
-      "avg_fitness": 0.8057000000000001,
-      "best_fitness": 0.8057
     }
   ]
 }
