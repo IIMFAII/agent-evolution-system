@@ -1,37 +1,77 @@
 {
- "generated_at": "2026-10-27T09:31:58+00:00",
+ "generated_at": "2026-10-27T15:40:26+00:00",
  "cycle": {
-  "run_id": 504,
-  "generation_evaluated": 475,
-  "next_generation": 476,
-  "items_ingested": 3,
+  "run_id": 505,
+  "generation_evaluated": 476,
+  "next_generation": 477,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille pédagogique : man-month, mythical, remember en 3 signaux à suivre",
-   "agent": "Pédagogique-470.2",
-   "fitness": 0.8673,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-27-veille-pedagogique-man-month-mythical-remember-en-3-signaux.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 6.1 h, minimum 12 h",
+   "title": "Veille critique : polls, representative, exploitation en 6 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 475,
-  "best_fitness": 0.8673,
-  "best_agent": "Pédagogique-470.2",
-  "best_agent_id": "24299dd6b5474a09",
-  "avg_fitness": 0.8673,
+  "generation": 476,
+  "best_fitness": 0.8386,
+  "best_agent": "Critique-476.3",
+  "best_agent_id": "d249cf6b28e04623",
+  "avg_fitness": 0.8242,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "24299dd6b5474a09",
-   "fitness": 0.8673,
+   "agent_id": "d249cf6b28e04623",
+   "fitness": 0.8386,
    "readability": 1.0,
-   "keyword_score": 0.4364,
+   "keyword_score": 0.2932,
    "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-476.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.8435144844856792,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "815df74245dd4a84",
+   "fitness": 0.8386,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-476.5",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.9212702472670098,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "11ee2da6e8864708",
+   "fitness": 0.8148,
+   "readability": 1.0,
+   "keyword_score": 0.2941,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-476.4",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 1.0245987313112885,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "802966b71cfa4ddb",
+   "fitness": 0.8146,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Pédagogique-470.2",
@@ -41,70 +81,21 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "87098ad3e7cc4e74",
-   "fitness": 0.8673,
+   "agent_id": "78f86c11cea449e7",
+   "fitness": 0.8146,
    "readability": 1.0,
-   "keyword_score": 0.4364,
-   "ctr_score": 0.9,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-475.2",
+   "name": "Pédagogique-476.2",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 1.198206710143262,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "109153b74b854c49",
-   "fitness": 0.8673,
-   "readability": 1.0,
-   "keyword_score": 0.4364,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-475.3",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.9441664740746196,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "392827919d0c45fe",
-   "fitness": 0.8673,
-   "readability": 1.0,
-   "keyword_score": 0.4364,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-475.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 1.038893847020808,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "be6a0e515d1445a8",
-   "fitness": 0.8673,
-   "readability": 1.0,
-   "keyword_score": 0.4364,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-475.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.9280501654156367,
-   "mutation_rate": 0.9
+   "temperature": 1.0987923296661015,
+   "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 416,
-   "population": 5,
-   "avg_fitness": 0.8452999999999999,
-   "best_fitness": 0.8597,
-   "worst_fitness": 0.836
-  },
   {
    "generation": 417,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8673,
    "best_fitness": 0.8673,
    "worst_fitness": 0.8673
+  },
+  {
+   "generation": 476,
+   "population": 5,
+   "avg_fitness": 0.82424,
+   "best_fitness": 0.8386,
+   "worst_fitness": 0.8146
   }
  ],
  "runs": [
+  {
+   "id": 505,
+   "started_at": "2026-10-27T15:40:22+00:00",
+   "finished_at": "2026-10-27T15:40:26+00:00",
+   "generation": 476,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.1 h, minimum 12 h"
+  },
   {
    "id": 504,
    "started_at": "2026-10-27T09:31:52+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 6,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 465,
-   "started_at": "2026-10-19T09:31:00+00:00",
-   "finished_at": "2026-10-19T09:31:13+00:00",
-   "generation": 439,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.6 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -1066,7 +1064,7 @@
  "sources": {
   "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
-  "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "ok"
+  "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "bloqué par robots.txt"
  },
  "monetization": {
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",

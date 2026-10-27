@@ -1,27 +1,31 @@
 {
-  "run_id": 504,
-  "generation_evaluated": 475,
-  "next_generation": 476,
-  "items_ingested": 3,
+  "run_id": 505,
+  "generation_evaluated": 476,
+  "next_generation": 477,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 475,
-    "best_fitness": 0.8673,
-    "best_agent": "Pédagogique-470.2",
-    "best_agent_id": "24299dd6b5474a09",
-    "avg_fitness": 0.8673,
+    "generation": 476,
+    "best_fitness": 0.8386,
+    "best_agent": "Critique-476.3",
+    "best_agent_id": "d249cf6b28e04623",
+    "avg_fitness": 0.8242,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille pédagogique : man-month, mythical, remember en 3 signaux à suivre",
-    "agent": "Pédagogique-470.2",
-    "fitness": 0.8673,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-27-veille-pedagogique-man-month-mythical-remember-en-3-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.1 h, minimum 12 h",
+    "title": "Veille critique : polls, representative, exploitation en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 476,
+      "population": 5,
+      "avg_fitness": 0.82424,
+      "best_fitness": 0.8386
+    },
     {
       "generation": 475,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8267999999999999,
       "best_fitness": 0.846
-    },
-    {
-      "generation": 466,
-      "population": 5,
-      "avg_fitness": 0.82,
-      "best_fitness": 0.82
     }
   ]
 }
