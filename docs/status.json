@@ -1,25 +1,31 @@
 {
-  "run_id": 505,
-  "generation_evaluated": 476,
-  "next_generation": 477,
+  "run_id": 506,
+  "generation_evaluated": 477,
+  "next_generation": 478,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 476,
-    "best_fitness": 0.8386,
+    "generation": 477,
+    "best_fitness": 0.8146,
     "best_agent": "Critique-476.3",
-    "best_agent_id": "d249cf6b28e04623",
-    "avg_fitness": 0.8242,
+    "best_agent_id": "48b08e4f25cd4e8b",
+    "avg_fitness": 0.8146,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 6.1 h, minimum 12 h",
-    "title": "Veille critique : polls, representative, exploitation en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
+    "title": "Veille critique : investigation, intelligence, remediation en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 477,
+      "population": 5,
+      "avg_fitness": 0.81458,
+      "best_fitness": 0.8146
+    },
     {
       "generation": 476,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8337999999999999,
       "best_fitness": 0.8338
-    },
-    {
-      "generation": 467,
-      "population": 5,
-      "avg_fitness": 0.8267999999999999,
-      "best_fitness": 0.846
     }
   ]
 }
