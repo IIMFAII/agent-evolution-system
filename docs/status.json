@@ -1,25 +1,31 @@
 {
-  "run_id": 502,
-  "generation_evaluated": 473,
-  "next_generation": 474,
+  "run_id": 503,
+  "generation_evaluated": 474,
+  "next_generation": 475,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 473,
-    "best_fitness": 0.8105,
+    "generation": 474,
+    "best_fitness": 0.8136,
     "best_agent": "Pédagogique-470.2",
-    "best_agent_id": "10edf164ff3e4862",
-    "avg_fitness": 0.8105,
+    "best_agent_id": "6118a017e14044b0",
+    "avg_fitness": 0.8136,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.8 h, minimum 12 h",
-    "title": "Veille pédagogique : understanding, communities, corridorkey en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.9 h, minimum 12 h",
+    "title": "Veille pédagogique : windows, cross-request, exponential en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 474,
+      "population": 5,
+      "avg_fitness": 0.8135999999999999,
+      "best_fitness": 0.8136
+    },
     {
       "generation": 473,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.836,
       "best_fitness": 0.836
-    },
-    {
-      "generation": 464,
-      "population": 5,
-      "avg_fitness": 0.8231999999999999,
-      "best_fitness": 0.8376
     }
   ]
 }
