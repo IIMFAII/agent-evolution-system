@@ -1,25 +1,33 @@
 {
-  "run_id": 506,
-  "generation_evaluated": 477,
-  "next_generation": 478,
-  "items_ingested": 6,
+  "run_id": 507,
+  "generation_evaluated": 478,
+  "next_generation": 479,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 477,
-    "best_fitness": 0.8146,
+    "generation": 478,
+    "best_fitness": 0.8424,
     "best_agent": "Critique-476.3",
-    "best_agent_id": "48b08e4f25cd4e8b",
-    "avg_fitness": 0.8146,
+    "best_agent_id": "7510aece6a904715",
+    "avg_fitness": 0.8424,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.8 h, minimum 12 h",
-    "title": "Veille critique : investigation, intelligence, remediation en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : government, claude, bring en 7 signaux à suivre",
+    "agent": "Critique-476.3",
+    "fitness": 0.8424,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-28-veille-critique-government-claude-bring-en-7-signaux-a-suivr.md"
   },
   "history": [
+    {
+      "generation": 478,
+      "population": 5,
+      "avg_fitness": 0.84236,
+      "best_fitness": 0.8424
+    },
     {
       "generation": 477,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8314,
       "best_fitness": 0.8314
-    },
-    {
-      "generation": 468,
-      "population": 5,
-      "avg_fitness": 0.8337999999999999,
-      "best_fitness": 0.8338
     }
   ]
 }
