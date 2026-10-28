@@ -1,25 +1,33 @@
 {
-  "run_id": 508,
-  "generation_evaluated": 479,
-  "next_generation": 480,
-  "items_ingested": 4,
+  "run_id": 509,
+  "generation_evaluated": 480,
+  "next_generation": 481,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 479,
-    "best_fitness": 0.8227,
+    "generation": 480,
+    "best_fitness": 0.8083,
     "best_agent": "Critique-476.3",
-    "best_agent_id": "55ea6952b7374eac",
-    "avg_fitness": 0.8226,
+    "best_agent_id": "35087f5c42ef4fa7",
+    "avg_fitness": 0.8082,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.9 h, minimum 12 h",
-    "title": "Veille critique : posix-compatible, intelligence, artificial en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : architectural, local-first, comparison en 6 signaux à suivre",
+    "agent": "Critique-476.3",
+    "fitness": 0.8083,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-28-veille-critique-architectural-local-first-comparison-en-6-si.md"
   },
   "history": [
+    {
+      "generation": 480,
+      "population": 5,
+      "avg_fitness": 0.80822,
+      "best_fitness": 0.8083
+    },
     {
       "generation": 479,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8644999999999999,
       "best_fitness": 0.8648
-    },
-    {
-      "generation": 470,
-      "population": 5,
-      "avg_fitness": 0.84726,
-      "best_fitness": 0.8473
     }
   ]
 }
