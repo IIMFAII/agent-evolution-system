@@ -1,25 +1,33 @@
 {
-  "run_id": 513,
-  "generation_evaluated": 484,
-  "next_generation": 485,
+  "run_id": 514,
+  "generation_evaluated": 485,
+  "next_generation": 486,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 484,
-    "best_fitness": 0.8148,
-    "best_agent": "Analytique-482.4",
-    "best_agent_id": "6d880b139323467a",
-    "avg_fitness": 0.8147,
+    "generation": 485,
+    "best_fitness": 0.8463,
+    "best_agent": "Concis-485.5",
+    "best_agent_id": "20a49f15fbdb4aef",
+    "avg_fitness": 0.8273,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
-    "title": "Veille analytique : intelligence, artificial, identities en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : show, claude-enabled, relationship' en 6 signaux à suivre",
+    "agent": "Concis-485.5",
+    "fitness": 0.8463,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-29-veille-concis-show-claude-enabled-relationship-en-6-signaux.md"
   },
   "history": [
+    {
+      "generation": 485,
+      "population": 5,
+      "avg_fitness": 0.8272999999999999,
+      "best_fitness": 0.8463
+    },
     {
       "generation": 484,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82424,
       "best_fitness": 0.8386
-    },
-    {
-      "generation": 475,
-      "population": 5,
-      "avg_fitness": 0.8673,
-      "best_fitness": 0.8673
     }
   ]
 }

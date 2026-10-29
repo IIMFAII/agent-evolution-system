@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://iimfaii.github.io/agent-evolution-system/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/dashboard.html</loc><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-10-29-veille-concis-show-claude-enabled-relationship-en-6-signaux.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-10-29-veille-analytique-background-transcript-regularly-en-3-signa.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-10-28-veille-critique-government-claude-bring-en-7-signaux-a-suivr.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-10-28-veille-critique-architectural-local-first-comparison-en-6-si.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
