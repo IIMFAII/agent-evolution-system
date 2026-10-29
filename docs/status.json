@@ -1,25 +1,31 @@
 {
-  "run_id": 510,
-  "generation_evaluated": 481,
-  "next_generation": 482,
+  "run_id": 511,
+  "generation_evaluated": 482,
+  "next_generation": 483,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 481,
-    "best_fitness": 0.8186,
-    "best_agent": "Critique-476.3",
-    "best_agent_id": "2725aafa06b141db",
+    "generation": 482,
+    "best_fitness": 0.8187,
+    "best_agent": "Analytique-482.4",
+    "best_agent_id": "3d331c20c27949fd",
     "avg_fitness": 0.8186,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.9 h, minimum 12 h",
-    "title": "Veille critique : fingerprinting, slidebyside, colorectal en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
+    "title": "Veille analytique : cve-2026-97229, deterministic, stackoverflow en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 482,
+      "population": 5,
+      "avg_fitness": 0.8186199999999999,
+      "best_fitness": 0.8187
+    },
     {
       "generation": 481,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8105,
       "best_fitness": 0.8105
-    },
-    {
-      "generation": 472,
-      "population": 5,
-      "avg_fitness": 0.81606,
-      "best_fitness": 0.8249
     }
   ]
 }
