@@ -1,25 +1,33 @@
 {
-  "run_id": 511,
-  "generation_evaluated": 482,
-  "next_generation": 483,
-  "items_ingested": 6,
+  "run_id": 512,
+  "generation_evaluated": 483,
+  "next_generation": 484,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 482,
-    "best_fitness": 0.8187,
+    "generation": 483,
+    "best_fitness": 0.8291,
     "best_agent": "Analytique-482.4",
-    "best_agent_id": "3d331c20c27949fd",
-    "avg_fitness": 0.8186,
+    "best_agent_id": "d0d64a238c2c4420",
+    "avg_fitness": 0.8195,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
-    "title": "Veille analytique : cve-2026-97229, deterministic, stackoverflow en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : background, transcript, regularly en 3 signaux à suivre",
+    "agent": "Analytique-482.4",
+    "fitness": 0.8291,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-29-veille-analytique-background-transcript-regularly-en-3-signa.md"
   },
   "history": [
+    {
+      "generation": 483,
+      "population": 5,
+      "avg_fitness": 0.8195,
+      "best_fitness": 0.8291
+    },
     {
       "generation": 482,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8135999999999999,
       "best_fitness": 0.8136
-    },
-    {
-      "generation": 473,
-      "population": 5,
-      "avg_fitness": 0.8105,
-      "best_fitness": 0.8105
     }
   ]
 }

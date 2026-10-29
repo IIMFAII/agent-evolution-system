@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-10-29T01:29:01+00:00",
+ "generated_at": "2026-10-29T07:55:59+00:00",
  "cycle": {
-  "run_id": 511,
-  "generation_evaluated": 482,
-  "next_generation": 483,
-  "items_ingested": 6,
+  "run_id": 512,
+  "generation_evaluated": 483,
+  "next_generation": 484,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 10.7 h, minimum 12 h",
-   "title": "Veille analytique : cve-2026-97229, deterministic, stackoverflow en 6 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : background, transcript, regularly en 3 signaux à suivre",
+   "agent": "Analytique-482.4",
+   "fitness": 0.8291,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-29-veille-analytique-background-transcript-regularly-en-3-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 482,
-  "best_fitness": 0.8187,
+  "generation": 483,
+  "best_fitness": 0.8291,
   "best_agent": "Analytique-482.4",
-  "best_agent_id": "3d331c20c27949fd",
-  "avg_fitness": 0.8186,
+  "best_agent_id": "d0d64a238c2c4420",
+  "avg_fitness": 0.8195,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "3d331c20c27949fd",
-   "fitness": 0.8187,
+   "agent_id": "d0d64a238c2c4420",
+   "fitness": 0.8291,
    "readability": 1.0,
-   "keyword_score": 0.3137,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2455,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-482.4",
    "tone": "analytique",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.858742816515484,
    "mutation_rate": 0.87
   },
   {
-   "agent_id": "5cbbc3f778c24dc0",
-   "fitness": 0.8186,
+   "agent_id": "3af0d3c41b8a4cba",
+   "fitness": 0.8291,
    "readability": 1.0,
-   "keyword_score": 0.3128,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2455,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-476.3",
+   "name": "Critique-483.2",
    "tone": "critique",
-   "origin": "elite",
-   "temperature": 0.8435144844856792,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "f9147626248d45a6",
-   "fitness": 0.8186,
-   "readability": 1.0,
-   "keyword_score": 0.3128,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-482.2",
-   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 1.0036811357679374,
-   "mutation_rate": 0.855
+   "temperature": 0.6500014169947822,
+   "mutation_rate": 0.89
   },
   {
-   "agent_id": "3923ff58666045a5",
-   "fitness": 0.8186,
+   "agent_id": "7395f28065d840a7",
+   "fitness": 0.8291,
    "readability": 1.0,
-   "keyword_score": 0.3128,
+   "keyword_score": 0.2455,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-483.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.7345585528929075,
+   "mutation_rate": 0.8825000000000001
+  },
+  {
+   "agent_id": "0a7fd13020da4374",
+   "fitness": 0.8051,
+   "readability": 1.0,
+   "keyword_score": 0.2455,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-482.3",
+   "name": "Pédagogique-483.3",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.7262822990387963,
-   "mutation_rate": 0.87
+   "temperature": 1.0386635072986168,
+   "mutation_rate": 0.8825000000000001
   },
   {
-   "agent_id": "6cd23e81d0f54da4",
-   "fitness": 0.8186,
+   "agent_id": "b98c156cb1a14cbc",
+   "fitness": 0.8051,
    "readability": 1.0,
-   "keyword_score": 0.3128,
+   "keyword_score": 0.2455,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-482.5",
-   "tone": "prospectif",
+   "name": "Pédagogique-483.4",
+   "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.7993834783257364,
-   "mutation_rate": 0.87
+   "temperature": 0.8699938641148146,
+   "mutation_rate": 0.89
   }
  ],
  "generations": [
-  {
-   "generation": 423,
-   "population": 5,
-   "avg_fitness": 0.8834200000000001,
-   "best_fitness": 0.8857,
-   "worst_fitness": 0.8743
-  },
   {
    "generation": 424,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8186199999999999,
    "best_fitness": 0.8187,
    "worst_fitness": 0.8186
+  },
+  {
+   "generation": 483,
+   "population": 5,
+   "avg_fitness": 0.8195,
+   "best_fitness": 0.8291,
+   "worst_fitness": 0.8051
   }
  ],
  "runs": [
+  {
+   "id": 512,
+   "started_at": "2026-10-29T07:55:56+00:00",
+   "finished_at": "2026-10-29T07:55:59+00:00",
+   "generation": 483,
+   "status": "success",
+   "items_ingested": 3,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 511,
    "started_at": "2026-10-29T01:28:58+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 4.1 h, minimum 12 h"
-  },
-  {
-   "id": 472,
-   "started_at": "2026-10-20T22:53:19+00:00",
-   "finished_at": "2026-10-20T22:53:23+00:00",
-   "generation": 446,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : background, transcript, regularly en 3 signaux à suivre",
+   "slug": "2026-10-29-veille-analytique-background-transcript-regularly-en-3-signa",
+   "fitness": 0.8291,
+   "generation": 483,
+   "created_at": "2026-10-29T07:55:59+00:00",
+   "agent_name": "Analytique-482.4",
+   "tone": "analytique"
+  },
   {
    "title": "Veille critique : architectural, local-first, comparison en 6 signaux à suivre",
    "slug": "2026-10-28-veille-critique-architectural-local-first-comparison-en-6-si",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-10-17T08:12:16+00:00",
    "agent_name": "Concis-425.2",
    "tone": "concis"
-  },
-  {
-   "title": "Veille concis : ham-band-only, jailbroken, anthropic en 4 signaux à suivre",
-   "slug": "2026-10-16-veille-concis-ham-band-only-jailbroken-anthropic-en-4-signau",
-   "fitness": 0.8394,
-   "generation": 425,
-   "created_at": "2026-10-16T19:13:22+00:00",
-   "agent_name": "Concis-425.2",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 132,
+  "publications": 133,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.757,
+    "score": 0.7597,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 132 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 133 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
