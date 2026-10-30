@@ -1,25 +1,31 @@
 {
-  "run_id": 515,
-  "generation_evaluated": 486,
-  "next_generation": 487,
-  "items_ingested": 6,
+  "run_id": 516,
+  "generation_evaluated": 487,
+  "next_generation": 488,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 486,
-    "best_fitness": 0.8385,
+    "generation": 487,
+    "best_fitness": 0.8571,
     "best_agent": "Concis-485.5",
-    "best_agent_id": "154730883e2a4dc4",
-    "avg_fitness": 0.829,
+    "best_agent_id": "66b455ea2de24fe4",
+    "avg_fitness": 0.8571,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 4.7 h, minimum 12 h",
-    "title": "Veille concis : california's, transformer, mccarthy's en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.2 h, minimum 12 h",
+    "title": "Veille concis : hypervisor, maintained, released en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 487,
+      "population": 5,
+      "avg_fitness": 0.8571,
+      "best_fitness": 0.8571
+    },
     {
       "generation": 486,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84236,
       "best_fitness": 0.8424
-    },
-    {
-      "generation": 477,
-      "population": 5,
-      "avg_fitness": 0.81458,
-      "best_fitness": 0.8146
     }
   ]
 }
