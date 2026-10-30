@@ -1,27 +1,31 @@
 {
-  "run_id": 517,
-  "generation_evaluated": 488,
-  "next_generation": 489,
+  "run_id": 518,
+  "generation_evaluated": 489,
+  "next_generation": 490,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 488,
-    "best_fitness": 0.8426,
-    "best_agent": "Critique-488.4",
-    "best_agent_id": "9434b3be30c54bd2",
-    "avg_fitness": 0.8329,
+    "generation": 489,
+    "best_fitness": 0.8109,
+    "best_agent": "Analytique-489.4",
+    "best_agent_id": "9528baa6b7304e08",
+    "avg_fitness": 0.8107,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : stephenson, ebbinghaus, democratic en 6 signaux à suivre",
-    "agent": "Critique-488.4",
-    "fitness": 0.8426,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-30-veille-critique-stephenson-ebbinghaus-democratic-en-6-signau.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille analytique : incident, investment-grade, pickpocket's en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 489,
+      "population": 5,
+      "avg_fitness": 0.8107199999999999,
+      "best_fitness": 0.8109
+    },
     {
       "generation": 488,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.80822,
       "best_fitness": 0.8083
-    },
-    {
-      "generation": 479,
-      "population": 5,
-      "avg_fitness": 0.82262,
-      "best_fitness": 0.8227
     }
   ]
 }
