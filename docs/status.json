@@ -1,25 +1,33 @@
 {
-  "run_id": 522,
-  "generation_evaluated": 493,
-  "next_generation": 494,
+  "run_id": 523,
+  "generation_evaluated": 494,
+  "next_generation": 495,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 493,
-    "best_fitness": 0.8237,
+    "generation": 494,
+    "best_fitness": 0.8067,
     "best_agent": "Analytique-493.5",
-    "best_agent_id": "78a199077aed47d5",
-    "avg_fitness": 0.8235,
+    "best_agent_id": "7ad4bad9b9f64a07",
+    "avg_fitness": 0.8065,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
-    "title": "Veille analytique : self-reported, demoscenes, generative en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : proofreaders, distributed, recommended en 6 signaux à suivre",
+    "agent": "Analytique-493.5",
+    "fitness": 0.8067,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-31-veille-analytique-proofreaders-distributed-recommended-en-6.md"
   },
   "history": [
+    {
+      "generation": 494,
+      "population": 5,
+      "avg_fitness": 0.80654,
+      "best_fitness": 0.8067
+    },
     {
       "generation": 493,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8272999999999999,
       "best_fitness": 0.8463
-    },
-    {
-      "generation": 484,
-      "population": 5,
-      "avg_fitness": 0.8146799999999998,
-      "best_fitness": 0.8148
     }
   ]
 }
