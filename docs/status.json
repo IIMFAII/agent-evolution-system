@@ -1,25 +1,31 @@
 {
-  "run_id": 518,
-  "generation_evaluated": 489,
-  "next_generation": 490,
-  "items_ingested": 6,
+  "run_id": 519,
+  "generation_evaluated": 490,
+  "next_generation": 491,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 489,
-    "best_fitness": 0.8109,
-    "best_agent": "Analytique-489.4",
-    "best_agent_id": "9528baa6b7304e08",
-    "avg_fitness": 0.8107,
+    "generation": 490,
+    "best_fitness": 0.8344,
+    "best_agent": "Critique-490.4",
+    "best_agent_id": "74b3f8f8f6694d03",
+    "avg_fitness": 0.8223,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille analytique : incident, investment-grade, pickpocket's en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
+    "title": "Veille critique : patrick, stewart, parallel-friendly en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 490,
+      "population": 5,
+      "avg_fitness": 0.8223,
+      "best_fitness": 0.8344
+    },
     {
       "generation": 489,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8185600000000001,
       "best_fitness": 0.8186
-    },
-    {
-      "generation": 480,
-      "population": 5,
-      "avg_fitness": 0.80822,
-      "best_fitness": 0.8083
     }
   ]
 }
