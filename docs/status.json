@@ -1,24 +1,31 @@
 {
-  "run_id": 521,
-  "generation_evaluated": 492,
-  "next_generation": 493,
+  "run_id": 522,
+  "generation_evaluated": 493,
+  "next_generation": 494,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 492,
-    "best_fitness": 0.1,
-    "best_agent": "Critique-490.4",
-    "best_agent_id": "05ed7047bc88439c",
-    "avg_fitness": 0.1,
+    "generation": 493,
+    "best_fitness": 0.8237,
+    "best_agent": "Analytique-493.5",
+    "best_agent_id": "78a199077aed47d5",
+    "avg_fitness": 0.8235,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
+    "title": "Veille analytique : self-reported, demoscenes, generative en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 493,
+      "population": 5,
+      "avg_fitness": 0.82354,
+      "best_fitness": 0.8237
+    },
     {
       "generation": 492,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8146799999999998,
       "best_fitness": 0.8148
-    },
-    {
-      "generation": 483,
-      "population": 5,
-      "avg_fitness": 0.8195,
-      "best_fitness": 0.8291
     }
   ]
 }
