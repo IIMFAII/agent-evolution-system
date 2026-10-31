@@ -1,25 +1,33 @@
 {
-  "run_id": 519,
-  "generation_evaluated": 490,
-  "next_generation": 491,
-  "items_ingested": 7,
+  "run_id": 520,
+  "generation_evaluated": 491,
+  "next_generation": 492,
+  "items_ingested": 2,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 490,
-    "best_fitness": 0.8344,
+    "generation": 491,
+    "best_fitness": 0.86,
     "best_agent": "Critique-490.4",
-    "best_agent_id": "74b3f8f8f6694d03",
-    "avg_fitness": 0.8223,
+    "best_agent_id": "bcdb83a819ef4303",
+    "avg_fitness": 0.86,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
-    "title": "Veille critique : patrick, stewart, parallel-friendly en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : disappears, breached, emerges en 2 signaux à suivre",
+    "agent": "Critique-490.4",
+    "fitness": 0.86,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-10-31-veille-critique-disappears-breached-emerges-en-2-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 491,
+      "population": 5,
+      "avg_fitness": 0.86,
+      "best_fitness": 0.86
+    },
     {
       "generation": 490,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8186199999999999,
       "best_fitness": 0.8187
-    },
-    {
-      "generation": 481,
-      "population": 5,
-      "avg_fitness": 0.8185600000000001,
-      "best_fitness": 0.8186
     }
   ]
 }
