@@ -1,24 +1,31 @@
 {
-  "run_id": 526,
-  "generation_evaluated": 497,
-  "next_generation": 498,
-  "items_ingested": 6,
+  "run_id": 527,
+  "generation_evaluated": 498,
+  "next_generation": 499,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 497,
-    "best_fitness": 0.1,
-    "best_agent": "Analytique-496.3",
-    "best_agent_id": "944e9bba316541d0",
-    "avg_fitness": 0.1,
+    "generation": 498,
+    "best_fitness": 0.8385,
+    "best_agent": "Concis-498.5",
+    "best_agent_id": "4da34223147245dc",
+    "avg_fitness": 0.8195,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
+    "title": "Veille concis : mathematics, deregulate, healthcare en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 498,
+      "population": 5,
+      "avg_fitness": 0.81946,
+      "best_fitness": 0.8385
+    },
     {
       "generation": 497,
       "population": 5,
@@ -72,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8107199999999999,
       "best_fitness": 0.8109
-    },
-    {
-      "generation": 488,
-      "population": 5,
-      "avg_fitness": 0.83292,
-      "best_fitness": 0.8426
     }
   ]
 }
