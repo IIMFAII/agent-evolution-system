@@ -1,27 +1,30 @@
 {
-  "run_id": 525,
-  "generation_evaluated": 496,
-  "next_generation": 497,
-  "items_ingested": 5,
+  "run_id": 526,
+  "generation_evaluated": 497,
+  "next_generation": 498,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 496,
-    "best_fitness": 0.8409,
+    "generation": 497,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-496.3",
-    "best_agent_id": "1a0461314c284e91",
-    "avg_fitness": 0.8407,
+    "best_agent_id": "944e9bba316541d0",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : javascript, frameworks, universal en 5 signaux à suivre",
-    "agent": "Analytique-496.3",
-    "fitness": 0.8409,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-01-veille-analytique-javascript-frameworks-universal-en-5-signa.md"
+    "published": false,
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 497,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 496,
       "population": 5,
@@ -75,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.83292,
       "best_fitness": 0.8426
-    },
-    {
-      "generation": 487,
-      "population": 5,
-      "avg_fitness": 0.8571,
-      "best_fitness": 0.8571
     }
   ]
 }
