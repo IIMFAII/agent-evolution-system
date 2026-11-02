@@ -1,25 +1,33 @@
 {
-  "run_id": 527,
-  "generation_evaluated": 498,
-  "next_generation": 499,
-  "items_ingested": 5,
+  "run_id": 528,
+  "generation_evaluated": 499,
+  "next_generation": 500,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 498,
-    "best_fitness": 0.8385,
+    "generation": 499,
+    "best_fitness": 0.825,
     "best_agent": "Concis-498.5",
-    "best_agent_id": "4da34223147245dc",
-    "avg_fitness": 0.8195,
+    "best_agent_id": "899643a218e14619",
+    "avg_fitness": 0.825,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.6 h, minimum 12 h",
-    "title": "Veille concis : mathematics, deregulate, healthcare en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : financial, companies, economist en 3 signaux à suivre",
+    "agent": "Concis-498.5",
+    "fitness": 0.825,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-02-veille-concis-financial-companies-economist-en-3-signaux-a-s.md"
   },
   "history": [
+    {
+      "generation": 499,
+      "population": 5,
+      "avg_fitness": 0.825,
+      "best_fitness": 0.825
+    },
     {
       "generation": 498,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8223,
       "best_fitness": 0.8344
-    },
-    {
-      "generation": 489,
-      "population": 5,
-      "avg_fitness": 0.8107199999999999,
-      "best_fitness": 0.8109
     }
   ]
 }
