@@ -1,36 +1,90 @@
 {
- "generated_at": "2026-11-02T01:10:46+00:00",
+ "generated_at": "2026-11-02T08:45:00+00:00",
  "cycle": {
-  "run_id": 528,
-  "generation_evaluated": 499,
-  "next_generation": 500,
-  "items_ingested": 3,
+  "run_id": 529,
+  "generation_evaluated": 500,
+  "next_generation": 501,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille concis : financial, companies, economist en 3 signaux à suivre",
-   "agent": "Concis-498.5",
-   "fitness": 0.825,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-02-veille-concis-financial-companies-economist-en-3-signaux-a-s.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 7.6 h, minimum 12 h",
+   "title": "Veille analytique : unix, announcement, charlemagne en 6 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 499,
-  "best_fitness": 0.825,
-  "best_agent": "Concis-498.5",
-  "best_agent_id": "899643a218e14619",
-  "avg_fitness": 0.825,
+  "generation": 500,
+  "best_fitness": 0.8388,
+  "best_agent": "Analytique-500.3",
+  "best_agent_id": "ac3f5ab18f0e4dc7",
+  "avg_fitness": 0.8386,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "899643a218e14619",
-   "fitness": 0.825,
+   "agent_id": "ac3f5ab18f0e4dc7",
+   "fitness": 0.8388,
    "readability": 1.0,
-   "keyword_score": 0.225,
+   "keyword_score": 0.2941,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-500.3",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.8205132738896137,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "e9c053164a26400c",
+   "fitness": 0.8386,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-500.2",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.8722142457515413,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "7b8f35e0e1c64e0b",
+   "fitness": 0.8386,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-500.4",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.7831730547690603,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "ea7772fb25b14dbb",
+   "fitness": 0.8386,
+   "readability": 1.0,
+   "keyword_score": 0.2932,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-500.5",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.8157330662381437,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "de55d7c9e9604456",
+   "fitness": 0.8385,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,72 +93,9 @@
    "origin": "elite",
    "temperature": 0.7122080596677332,
    "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "0172df93dc184268",
-   "fitness": 0.825,
-   "readability": 1.0,
-   "keyword_score": 0.225,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-499.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.8020818517776611,
-   "mutation_rate": 0.855
-  },
-  {
-   "agent_id": "5fb78da21d6a45ee",
-   "fitness": 0.825,
-   "readability": 1.0,
-   "keyword_score": 0.225,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-499.3",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.6464166212275924,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "32ed816d4e62413e",
-   "fitness": 0.825,
-   "readability": 1.0,
-   "keyword_score": 0.225,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-499.4",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.7999735527792685,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "36366bd4e48a4848",
-   "fitness": 0.825,
-   "readability": 1.0,
-   "keyword_score": 0.225,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-499.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8314925796970187,
-   "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 440,
-   "population": 5,
-   "avg_fitness": 0.8336600000000001,
-   "best_fitness": 0.836,
-   "worst_fitness": 0.8249
-  },
   {
    "generation": 441,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.825,
    "best_fitness": 0.825,
    "worst_fitness": 0.825
+  },
+  {
+   "generation": 500,
+   "population": 5,
+   "avg_fitness": 0.83862,
+   "best_fitness": 0.8388,
+   "worst_fitness": 0.8385
   }
  ],
  "runs": [
+  {
+   "id": 529,
+   "started_at": "2026-11-02T08:44:57+00:00",
+   "finished_at": "2026-11-02T08:45:00+00:00",
+   "generation": 500,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.6 h, minimum 12 h"
+  },
   {
    "id": 528,
    "started_at": "2026-11-02T01:10:40+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.2 h, minimum 12 h"
-  },
-  {
-   "id": 489,
-   "started_at": "2026-10-24T08:34:19+00:00",
-   "finished_at": "2026-10-24T08:34:25+00:00",
-   "generation": 461,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
