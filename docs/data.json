@@ -1,100 +1,17 @@
 {
- "generated_at": "2026-11-02T08:45:00+00:00",
+ "generated_at": "2026-11-02T19:56:43+00:00",
  "cycle": {
-  "run_id": 529,
-  "generation_evaluated": 500,
-  "next_generation": 501,
-  "items_ingested": 6,
-  "llm_enabled": false,
-  "llm_calls": 0,
-  "status": "success",
+  "run_id": 530,
+  "generation_evaluated": 501,
+  "items_ingested": 0,
+  "status": "no_data",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 7.6 h, minimum 12 h",
-   "title": "Veille analytique : unix, announcement, charlemagne en 6 signaux à suivre"
+   "reason": "aucun item nouveau"
   }
  },
- "population": {
-  "population": 5,
-  "generation": 500,
-  "best_fitness": 0.8388,
-  "best_agent": "Analytique-500.3",
-  "best_agent_id": "ac3f5ab18f0e4dc7",
-  "avg_fitness": 0.8386,
-  "diversity": 1.0
- },
- "agents": [
-  {
-   "agent_id": "ac3f5ab18f0e4dc7",
-   "fitness": 0.8388,
-   "readability": 1.0,
-   "keyword_score": 0.2941,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-500.3",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.8205132738896137,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "e9c053164a26400c",
-   "fitness": 0.8386,
-   "readability": 1.0,
-   "keyword_score": 0.2932,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-500.2",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8722142457515413,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "7b8f35e0e1c64e0b",
-   "fitness": 0.8386,
-   "readability": 1.0,
-   "keyword_score": 0.2932,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-500.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.7831730547690603,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "ea7772fb25b14dbb",
-   "fitness": 0.8386,
-   "readability": 1.0,
-   "keyword_score": 0.2932,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-500.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8157330662381437,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "de55d7c9e9604456",
-   "fitness": 0.8385,
-   "readability": 1.0,
-   "keyword_score": 0.2923,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-498.5",
-   "tone": "concis",
-   "origin": "elite",
-   "temperature": 0.7122080596677332,
-   "mutation_rate": 0.9
-  }
- ],
+ "population": {},
+ "agents": [],
  "generations": [
   {
    "generation": 441,
@@ -519,6 +436,15 @@
  ],
  "runs": [
   {
+   "id": 530,
+   "started_at": "2026-11-02T19:56:22+00:00",
+   "finished_at": "2026-11-02T19:56:43+00:00",
+   "generation": 501,
+   "status": "no_data",
+   "items_ingested": 0,
+   "notes": ""
+  },
+  {
    "id": 529,
    "started_at": "2026-11-02T08:44:57+00:00",
    "finished_at": "2026-11-02T08:45:00+00:00",
@@ -868,15 +794,6 @@
    "status": "no_data",
    "items_ingested": 0,
    "notes": ""
-  },
-  {
-   "id": 490,
-   "started_at": "2026-10-24T13:47:46+00:00",
-   "finished_at": "2026-10-24T13:47:51+00:00",
-   "generation": 462,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.2 h, minimum 12 h"
   }
  ],
  "publications": [
@@ -1062,7 +979,7 @@
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "ok",
+  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "bloqué par robots.txt"
  },
