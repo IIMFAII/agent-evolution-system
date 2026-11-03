@@ -1,25 +1,103 @@
 {
- "generated_at": "2026-11-02T19:56:43+00:00",
+ "generated_at": "2026-11-03T01:59:30+00:00",
  "cycle": {
-  "run_id": 530,
+  "run_id": 531,
   "generation_evaluated": 501,
-  "items_ingested": 0,
-  "status": "no_data",
+  "next_generation": 502,
+  "items_ingested": 6,
+  "llm_enabled": false,
+  "llm_calls": 0,
+  "status": "success",
   "publication": {
-   "published": false,
-   "reason": "aucun item nouveau"
+   "published": true,
+   "title": "Veille analytique : discimagestudio, cleveland-area, anthropic's en 6 signaux à suivre",
+   "agent": "Analytique-500.3",
+   "fitness": 0.8187,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-03-veille-analytique-discimagestudio-cleveland-area-anthropic-s.md"
   }
  },
- "population": {},
- "agents": [],
- "generations": [
+ "population": {
+  "population": 5,
+  "generation": 501,
+  "best_fitness": 0.8187,
+  "best_agent": "Analytique-500.3",
+  "best_agent_id": "0c8c8e9d0e5742fa",
+  "avg_fitness": 0.8186,
+  "diversity": 1.0
+ },
+ "agents": [
   {
-   "generation": 441,
-   "population": 5,
-   "avg_fitness": 0.1,
-   "best_fitness": 0.1,
-   "worst_fitness": 0.1
+   "agent_id": "0c8c8e9d0e5742fa",
+   "fitness": 0.8187,
+   "readability": 1.0,
+   "keyword_score": 0.3137,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-500.3",
+   "tone": "analytique",
+   "origin": "elite",
+   "temperature": 0.8205132738896137,
+   "mutation_rate": 0.9
   },
+  {
+   "agent_id": "8db0cf9c9b94487e",
+   "fitness": 0.8186,
+   "readability": 1.0,
+   "keyword_score": 0.3128,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-501.2",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.7596781912606536,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "264d758461c04fc9",
+   "fitness": 0.8186,
+   "readability": 1.0,
+   "keyword_score": 0.3128,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-501.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.6841637614149245,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "fab539feeda14c58",
+   "fitness": 0.8186,
+   "readability": 1.0,
+   "keyword_score": 0.3128,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-501.4",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.9680189697693271,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "cf9b3ab19796433d",
+   "fitness": 0.8186,
+   "readability": 1.0,
+   "keyword_score": 0.3128,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-501.5",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.8006407721921707,
+   "mutation_rate": 0.87
+  }
+ ],
+ "generations": [
   {
    "generation": 442,
    "population": 5,
@@ -432,9 +510,25 @@
    "avg_fitness": 0.83862,
    "best_fitness": 0.8388,
    "worst_fitness": 0.8385
+  },
+  {
+   "generation": 501,
+   "population": 5,
+   "avg_fitness": 0.8186199999999999,
+   "best_fitness": 0.8187,
+   "worst_fitness": 0.8186
   }
  ],
  "runs": [
+  {
+   "id": 531,
+   "started_at": "2026-11-03T01:59:26+00:00",
+   "finished_at": "2026-11-03T01:59:30+00:00",
+   "generation": 501,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 530,
    "started_at": "2026-11-02T19:56:22+00:00",
@@ -785,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); aucun contenu au-dessus du seuil de qualité/conformité"
-  },
-  {
-   "id": 491,
-   "started_at": "2026-10-24T17:09:06+00:00",
-   "finished_at": "2026-10-24T17:09:28+00:00",
-   "generation": 463,
-   "status": "no_data",
-   "items_ingested": 0,
-   "notes": ""
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : discimagestudio, cleveland-area, anthropic's en 6 signaux à suivre",
+   "slug": "2026-11-03-veille-analytique-discimagestudio-cleveland-area-anthropic-s",
+   "fitness": 0.8187,
+   "generation": 501,
+   "created_at": "2026-11-03T01:59:29+00:00",
+   "agent_name": "Analytique-500.3",
+   "tone": "analytique"
+  },
   {
    "title": "Veille concis : financial, companies, economist en 3 signaux à suivre",
    "slug": "2026-11-02-veille-concis-financial-companies-economist-en-3-signaux-a-s",
@@ -967,19 +1061,10 @@
    "created_at": "2026-10-21T14:48:45+00:00",
    "agent_name": "Analytique-449.4",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille concis : compromised, neurotoxins, discovery en 5 signaux à suivre",
-   "slug": "2026-10-20-veille-concis-compromised-neurotoxins-discovery-en-5-signaux",
-   "fitness": 0.8295,
-   "generation": 446,
-   "created_at": "2026-10-20T22:53:23+00:00",
-   "agent_name": "Concis-446.4",
-   "tone": "concis"
   }
  ],
  "sources": {
-  "https://hnrss.org/frontpage": "erreur réseau (ConnectTimeout)",
+  "https://hnrss.org/frontpage": "ok",
   "https://feeds.arstechnica.com/arstechnica/technology-lab": "ok",
   "https://www.lemondeinformatique.fr/flux-rss/thematique/tout-les-articles/rss.xml": "bloqué par robots.txt"
  },
@@ -987,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 139,
+  "publications": 140,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1023,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.7757,
+    "score": 0.7783,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 139 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 140 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
