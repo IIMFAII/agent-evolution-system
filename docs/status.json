@@ -1,25 +1,33 @@
 {
-  "run_id": 532,
-  "generation_evaluated": 502,
-  "next_generation": 503,
-  "items_ingested": 6,
+  "run_id": 533,
+  "generation_evaluated": 503,
+  "next_generation": 504,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 502,
-    "best_fitness": 0.8461,
+    "generation": 503,
+    "best_fitness": 0.8302,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "53cd6c9fdcfe4975",
-    "avg_fitness": 0.8414,
+    "best_agent_id": "b68efb1860db417b",
+    "avg_fitness": 0.8301,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
-    "title": "Veille analytique : open-source, browser, show en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : show, interactive, hackerchurn en 7 signaux à suivre",
+    "agent": "Analytique-500.3",
+    "fitness": 0.8302,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-03-veille-analytique-show-interactive-hackerchurn-en-7-signaux.md"
   },
   "history": [
+    {
+      "generation": 503,
+      "population": 5,
+      "avg_fitness": 0.83012,
+      "best_fitness": 0.8302
+    },
     {
       "generation": 502,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.80654,
       "best_fitness": 0.8067
-    },
-    {
-      "generation": 493,
-      "population": 5,
-      "avg_fitness": 0.82354,
-      "best_fitness": 0.8237
     }
   ]
 }
