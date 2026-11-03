@@ -1,37 +1,35 @@
 {
- "generated_at": "2026-11-03T01:59:30+00:00",
+ "generated_at": "2026-11-03T09:17:06+00:00",
  "cycle": {
-  "run_id": 531,
-  "generation_evaluated": 501,
-  "next_generation": 502,
+  "run_id": 532,
+  "generation_evaluated": 502,
+  "next_generation": 503,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille analytique : discimagestudio, cleveland-area, anthropic's en 6 signaux à suivre",
-   "agent": "Analytique-500.3",
-   "fitness": 0.8187,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-03-veille-analytique-discimagestudio-cleveland-area-anthropic-s.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
+   "title": "Veille analytique : open-source, browser, show en 6 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 501,
-  "best_fitness": 0.8187,
+  "generation": 502,
+  "best_fitness": 0.8461,
   "best_agent": "Analytique-500.3",
-  "best_agent_id": "0c8c8e9d0e5742fa",
-  "avg_fitness": 0.8186,
+  "best_agent_id": "53cd6c9fdcfe4975",
+  "avg_fitness": 0.8414,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "0c8c8e9d0e5742fa",
-   "fitness": 0.8187,
+   "agent_id": "53cd6c9fdcfe4975",
+   "fitness": 0.8461,
    "readability": 1.0,
-   "keyword_score": 0.3137,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3305,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-500.3",
@@ -41,70 +39,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "8db0cf9c9b94487e",
-   "fitness": 0.8186,
+   "agent_id": "1cf5c6ba7f7041d3",
+   "fitness": 0.8457,
    "readability": 1.0,
-   "keyword_score": 0.3128,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3285,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-501.2",
-   "tone": "pédagogique",
+   "name": "Concis-502.2",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.7596781912606536,
-   "mutation_rate": 0.87
+   "temperature": 0.6850911233646728,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "264d758461c04fc9",
-   "fitness": 0.8186,
+   "agent_id": "cbbf2697f66a4c71",
+   "fitness": 0.8457,
    "readability": 1.0,
-   "keyword_score": 0.3128,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3285,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-501.3",
+   "name": "Concis-502.3",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.6405210278924377,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "8ccd87a229ce409c",
+   "fitness": 0.8347,
+   "readability": 1.0,
+   "keyword_score": 0.2737,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-502.4",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.7723044930271539,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "970f1b7d832d4c9a",
+   "fitness": 0.8347,
+   "readability": 1.0,
+   "keyword_score": 0.2737,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Critique-502.5",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.6841637614149245,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "fab539feeda14c58",
-   "fitness": 0.8186,
-   "readability": 1.0,
-   "keyword_score": 0.3128,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-501.4",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.9680189697693271,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "cf9b3ab19796433d",
-   "fitness": 0.8186,
-   "readability": 1.0,
-   "keyword_score": 0.3128,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-501.5",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8006407721921707,
-   "mutation_rate": 0.87
+   "temperature": 0.7753146943216469,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 442,
-   "population": 5,
-   "avg_fitness": 0.8093,
-   "best_fitness": 0.8093,
-   "worst_fitness": 0.8093
-  },
   {
    "generation": 443,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8186199999999999,
    "best_fitness": 0.8187,
    "worst_fitness": 0.8186
+  },
+  {
+   "generation": 502,
+   "population": 5,
+   "avg_fitness": 0.84138,
+   "best_fitness": 0.8461,
+   "worst_fitness": 0.8347
   }
  ],
  "runs": [
+  {
+   "id": 532,
+   "started_at": "2026-11-03T09:17:03+00:00",
+   "finished_at": "2026-11-03T09:17:06+00:00",
+   "generation": 502,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.3 h, minimum 12 h"
+  },
   {
    "id": 531,
    "started_at": "2026-11-03T01:59:26+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 492,
-   "started_at": "2026-10-24T20:04:54+00:00",
-   "finished_at": "2026-10-24T20:05:00+00:00",
-   "generation": 463,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); aucun contenu au-dessus du seuil de qualité/conformité"
   }
  ],
  "publications": [

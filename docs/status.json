@@ -1,27 +1,31 @@
 {
-  "run_id": 531,
-  "generation_evaluated": 501,
-  "next_generation": 502,
+  "run_id": 532,
+  "generation_evaluated": 502,
+  "next_generation": 503,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 501,
-    "best_fitness": 0.8187,
+    "generation": 502,
+    "best_fitness": 0.8461,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "0c8c8e9d0e5742fa",
-    "avg_fitness": 0.8186,
+    "best_agent_id": "53cd6c9fdcfe4975",
+    "avg_fitness": 0.8414,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : discimagestudio, cleveland-area, anthropic's en 6 signaux à suivre",
-    "agent": "Analytique-500.3",
-    "fitness": 0.8187,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-03-veille-analytique-discimagestudio-cleveland-area-anthropic-s.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.3 h, minimum 12 h",
+    "title": "Veille analytique : open-source, browser, show en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 502,
+      "population": 5,
+      "avg_fitness": 0.84138,
+      "best_fitness": 0.8461
+    },
     {
       "generation": 501,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82354,
       "best_fitness": 0.8237
-    },
-    {
-      "generation": 492,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
