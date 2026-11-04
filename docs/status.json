@@ -1,27 +1,31 @@
 {
-  "run_id": 536,
-  "generation_evaluated": 506,
-  "next_generation": 507,
-  "items_ingested": 6,
+  "run_id": 537,
+  "generation_evaluated": 507,
+  "next_generation": 508,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 506,
-    "best_fitness": 0.8107,
+    "generation": 507,
+    "best_fitness": 0.8258,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "476d11cd13d744ca",
-    "avg_fitness": 0.8106,
+    "best_agent_id": "c8da7fab21bd48f0",
+    "avg_fitness": 0.819,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : man-in-the-middle, open-source, displaylink en 6 signaux à suivre",
-    "agent": "Analytique-500.3",
-    "fitness": 0.8107,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-04-veille-analytique-man-in-the-middle-open-source-displaylink.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
+    "title": "Veille analytique : accelerator, open-weight, ripple-65b en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 507,
+      "population": 5,
+      "avg_fitness": 0.819,
+      "best_fitness": 0.8258
+    },
     {
       "generation": 506,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81946,
       "best_fitness": 0.8385
-    },
-    {
-      "generation": 497,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
