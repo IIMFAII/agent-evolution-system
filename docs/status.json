@@ -1,25 +1,31 @@
 {
-  "run_id": 534,
-  "generation_evaluated": 504,
-  "next_generation": 505,
-  "items_ingested": 6,
+  "run_id": 535,
+  "generation_evaluated": 505,
+  "next_generation": 506,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 504,
-    "best_fitness": 0.8146,
+    "generation": 505,
+    "best_fitness": 0.8432,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "f484a7fea1eb4cdf",
-    "avg_fitness": 0.8145,
+    "best_agent_id": "ea71c1035b614f1d",
+    "avg_fitness": 0.8432,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.3 h, minimum 12 h",
-    "title": "Veille analytique : mathematical, foundations, open-source en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.0 h, minimum 12 h",
+    "title": "Veille analytique : arrows, tectonically, differences en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 505,
+      "population": 5,
+      "avg_fitness": 0.8431999999999998,
+      "best_fitness": 0.8432
+    },
     {
       "generation": 504,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8406600000000001,
       "best_fitness": 0.8409
-    },
-    {
-      "generation": 495,
-      "population": 5,
-      "avg_fitness": 0.81952,
-      "best_fitness": 0.8386
     }
   ]
 }
