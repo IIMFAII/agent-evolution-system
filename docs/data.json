@@ -1,35 +1,37 @@
 {
- "generated_at": "2026-11-04T04:29:41+00:00",
+ "generated_at": "2026-11-04T13:39:44+00:00",
  "cycle": {
-  "run_id": 535,
-  "generation_evaluated": 505,
-  "next_generation": 506,
-  "items_ingested": 4,
+  "run_id": 536,
+  "generation_evaluated": 506,
+  "next_generation": 507,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 11.0 h, minimum 12 h",
-   "title": "Veille analytique : arrows, tectonically, differences en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : man-in-the-middle, open-source, displaylink en 6 signaux à suivre",
+   "agent": "Analytique-500.3",
+   "fitness": 0.8107,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-04-veille-analytique-man-in-the-middle-open-source-displaylink.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 505,
-  "best_fitness": 0.8432,
+  "generation": 506,
+  "best_fitness": 0.8107,
   "best_agent": "Analytique-500.3",
-  "best_agent_id": "ea71c1035b614f1d",
-  "avg_fitness": 0.8432,
+  "best_agent_id": "476d11cd13d744ca",
+  "avg_fitness": 0.8106,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "ea71c1035b614f1d",
-   "fitness": 0.8432,
+   "agent_id": "476d11cd13d744ca",
+   "fitness": 0.8107,
    "readability": 1.0,
-   "keyword_score": 0.3158,
-   "ctr_score": 0.9,
+   "keyword_score": 0.2737,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-500.3",
@@ -39,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "72934eec78914bf4",
-   "fitness": 0.8432,
+   "agent_id": "0bc8fee6a6274346",
+   "fitness": 0.8107,
    "readability": 1.0,
-   "keyword_score": 0.3158,
-   "ctr_score": 0.9,
+   "keyword_score": 0.2737,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-505.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.8358390321223111,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "5ee52e0fdaaa4d29",
-   "fitness": 0.8432,
-   "readability": 1.0,
-   "keyword_score": 0.3158,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-505.3",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.7686685341137643,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "1e6a83df33ab4c16",
-   "fitness": 0.8432,
-   "readability": 1.0,
-   "keyword_score": 0.3158,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-505.4",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.818943234126859,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "7130ba77514e4e9d",
-   "fitness": 0.8432,
-   "readability": 1.0,
-   "keyword_score": 0.3158,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Analytique-505.5",
+   "name": "Analytique-506.2",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.7719108231386234,
-   "mutation_rate": 0.9
+   "temperature": 0.9075455278530625,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "dc5d8211d68541a1",
+   "fitness": 0.8106,
+   "readability": 1.0,
+   "keyword_score": 0.2729,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-506.3",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.8658607243392349,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "42cb03820e044385",
+   "fitness": 0.8106,
+   "readability": 1.0,
+   "keyword_score": 0.2729,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-506.4",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.9449262611406829,
+   "mutation_rate": 0.87
+  },
+  {
+   "agent_id": "70f144896c894a82",
+   "fitness": 0.8106,
+   "readability": 1.0,
+   "keyword_score": 0.2729,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-506.5",
+   "tone": "pédagogique",
+   "origin": "crossover",
+   "temperature": 0.8694116159113511,
+   "mutation_rate": 0.87
   }
  ],
  "generations": [
-  {
-   "generation": 446,
-   "population": 5,
-   "avg_fitness": 0.81524,
-   "best_fitness": 0.8295,
-   "worst_fitness": 0.8056
-  },
   {
    "generation": 447,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8431999999999998,
    "best_fitness": 0.8432,
    "worst_fitness": 0.8432
+  },
+  {
+   "generation": 506,
+   "population": 5,
+   "avg_fitness": 0.81064,
+   "best_fitness": 0.8107,
+   "worst_fitness": 0.8106
   }
  ],
  "runs": [
+  {
+   "id": 536,
+   "started_at": "2026-11-04T13:39:35+00:00",
+   "finished_at": "2026-11-04T13:39:44+00:00",
+   "generation": 506,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 535,
    "started_at": "2026-11-04T04:29:30+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 4.6 h, minimum 12 h"
-  },
-  {
-   "id": 496,
-   "started_at": "2026-10-25T14:03:39+00:00",
-   "finished_at": "2026-10-25T14:03:45+00:00",
-   "generation": 467,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : man-in-the-middle, open-source, displaylink en 6 signaux à suivre",
+   "slug": "2026-11-04-veille-analytique-man-in-the-middle-open-source-displaylink",
+   "fitness": 0.8107,
+   "generation": 506,
+   "created_at": "2026-11-04T13:39:44+00:00",
+   "agent_name": "Analytique-500.3",
+   "tone": "analytique"
+  },
   {
    "title": "Veille analytique : show, interactive, hackerchurn en 7 signaux à suivre",
    "slug": "2026-11-03-veille-analytique-show-interactive-hackerchurn-en-7-signaux",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-10-22T19:41:38+00:00",
    "agent_name": "Analytique-449.4",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille analytique : multiplication, enterprises, sideloading en 5 signaux à suivre",
-   "slug": "2026-10-22-veille-analytique-multiplication-enterprises-sideloading-en",
-   "fitness": 0.8146,
-   "generation": 451,
-   "created_at": "2026-10-22T02:56:42+00:00",
-   "agent_name": "Analytique-449.4",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 141,
+  "publications": 142,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.781,
+    "score": 0.7837,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 141 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 142 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",

@@ -1,25 +1,33 @@
 {
-  "run_id": 535,
-  "generation_evaluated": 505,
-  "next_generation": 506,
-  "items_ingested": 4,
+  "run_id": 536,
+  "generation_evaluated": 506,
+  "next_generation": 507,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 505,
-    "best_fitness": 0.8432,
+    "generation": 506,
+    "best_fitness": 0.8107,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "ea71c1035b614f1d",
-    "avg_fitness": 0.8432,
+    "best_agent_id": "476d11cd13d744ca",
+    "avg_fitness": 0.8106,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.0 h, minimum 12 h",
-    "title": "Veille analytique : arrows, tectonically, differences en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : man-in-the-middle, open-source, displaylink en 6 signaux à suivre",
+    "agent": "Analytique-500.3",
+    "fitness": 0.8107,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-04-veille-analytique-man-in-the-middle-open-source-displaylink.md"
   },
   "history": [
+    {
+      "generation": 506,
+      "population": 5,
+      "avg_fitness": 0.81064,
+      "best_fitness": 0.8107
+    },
     {
       "generation": 505,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 496,
-      "population": 5,
-      "avg_fitness": 0.8406600000000001,
-      "best_fitness": 0.8409
     }
   ]
 }
