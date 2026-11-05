@@ -1,25 +1,33 @@
 {
-  "run_id": 537,
-  "generation_evaluated": 507,
-  "next_generation": 508,
-  "items_ingested": 7,
+  "run_id": 538,
+  "generation_evaluated": 508,
+  "next_generation": 509,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 507,
-    "best_fitness": 0.8258,
+    "generation": 508,
+    "best_fitness": 0.8102,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "c8da7fab21bd48f0",
-    "avg_fitness": 0.819,
+    "best_agent_id": "1e64a0b58f274c7f",
+    "avg_fitness": 0.8101,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
-    "title": "Veille analytique : accelerator, open-weight, ripple-65b en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : virtualization, microgravity, improvements en 8 signaux à suivre",
+    "agent": "Analytique-500.3",
+    "fitness": 0.8102,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-05-veille-analytique-virtualization-microgravity-improvements-e.md"
   },
   "history": [
+    {
+      "generation": 508,
+      "population": 5,
+      "avg_fitness": 0.8100799999999999,
+      "best_fitness": 0.8102
+    },
     {
       "generation": 507,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.825,
       "best_fitness": 0.825
-    },
-    {
-      "generation": 498,
-      "population": 5,
-      "avg_fitness": 0.81946,
-      "best_fitness": 0.8385
     }
   ]
 }
