@@ -1,27 +1,31 @@
 {
-  "run_id": 540,
-  "generation_evaluated": 510,
-  "next_generation": 511,
+  "run_id": 541,
+  "generation_evaluated": 511,
+  "next_generation": 512,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 510,
-    "best_fitness": 0.8237,
+    "generation": 511,
+    "best_fitness": 0.8477,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "e2bc75b6bc434256",
-    "avg_fitness": 0.8234,
+    "best_agent_id": "a2da673f0f18465e",
+    "avg_fitness": 0.8475,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : psychophysics, orchestrate, formalized en 6 signaux à suivre",
-    "agent": "Analytique-500.3",
-    "fitness": 0.8237,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-05-veille-analytique-psychophysics-orchestrate-formalized-en-6.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
+    "title": "Veille analytique : code, vulnerability, open-source en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 511,
+      "population": 5,
+      "avg_fitness": 0.8474999999999999,
+      "best_fitness": 0.8477
+    },
     {
       "generation": 510,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84138,
       "best_fitness": 0.8461
-    },
-    {
-      "generation": 501,
-      "population": 5,
-      "avg_fitness": 0.8186199999999999,
-      "best_fitness": 0.8187
     }
   ]
 }
