@@ -1,27 +1,31 @@
 {
-  "run_id": 538,
-  "generation_evaluated": 508,
-  "next_generation": 509,
-  "items_ingested": 8,
+  "run_id": 539,
+  "generation_evaluated": 509,
+  "next_generation": 510,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 508,
-    "best_fitness": 0.8102,
+    "generation": 509,
+    "best_fitness": 0.84,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "1e64a0b58f274c7f",
-    "avg_fitness": 0.8101,
+    "best_agent_id": "a6c990e5f5924c8a",
+    "avg_fitness": 0.84,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : virtualization, microgravity, improvements en 8 signaux à suivre",
-    "agent": "Analytique-500.3",
-    "fitness": 0.8102,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-05-veille-analytique-virtualization-microgravity-improvements-e.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
+    "title": "Veille analytique : announces, portfolio, animation en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 509,
+      "population": 5,
+      "avg_fitness": 0.8400000000000001,
+      "best_fitness": 0.84
+    },
     {
       "generation": 508,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83862,
       "best_fitness": 0.8388
-    },
-    {
-      "generation": 499,
-      "population": 5,
-      "avg_fitness": 0.825,
-      "best_fitness": 0.825
     }
   ]
 }
