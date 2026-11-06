@@ -1,25 +1,31 @@
 {
-  "run_id": 541,
-  "generation_evaluated": 511,
-  "next_generation": 512,
-  "items_ingested": 6,
+  "run_id": 542,
+  "generation_evaluated": 512,
+  "next_generation": 513,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 511,
-    "best_fitness": 0.8477,
+    "generation": 512,
+    "best_fitness": 0.8215,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "a2da673f0f18465e",
-    "avg_fitness": 0.8475,
+    "best_agent_id": "5e49290933d64ac6",
+    "avg_fitness": 0.821,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.4 h, minimum 12 h",
-    "title": "Veille analytique : code, vulnerability, open-source en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 10.9 h, minimum 12 h",
+    "title": "Veille analytique : price-performance, vulnerability, replacement en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 512,
+      "population": 5,
+      "avg_fitness": 0.8210200000000001,
+      "best_fitness": 0.8215
+    },
     {
       "generation": 511,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.83012,
       "best_fitness": 0.8302
-    },
-    {
-      "generation": 502,
-      "population": 5,
-      "avg_fitness": 0.84138,
-      "best_fitness": 0.8461
     }
   ]
 }
