@@ -1,25 +1,33 @@
 {
-  "run_id": 542,
-  "generation_evaluated": 512,
-  "next_generation": 513,
-  "items_ingested": 7,
+  "run_id": 543,
+  "generation_evaluated": 513,
+  "next_generation": 514,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 512,
-    "best_fitness": 0.8215,
+    "generation": 513,
+    "best_fitness": 0.8467,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "5e49290933d64ac6",
-    "avg_fitness": 0.821,
+    "best_agent_id": "b3594c3d15d446a4",
+    "avg_fitness": 0.8466,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.9 h, minimum 12 h",
-    "title": "Veille analytique : price-performance, vulnerability, replacement en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : years, open-source, statistical en 6 signaux à suivre",
+    "agent": "Analytique-500.3",
+    "fitness": 0.8467,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-06-veille-analytique-years-open-source-statistical-en-6-signaux.md"
   },
   "history": [
+    {
+      "generation": 513,
+      "population": 5,
+      "avg_fitness": 0.84662,
+      "best_fitness": 0.8467
+    },
     {
       "generation": 512,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.81454,
       "best_fitness": 0.8146
-    },
-    {
-      "generation": 503,
-      "population": 5,
-      "avg_fitness": 0.83012,
-      "best_fitness": 0.8302
     }
   ]
 }
