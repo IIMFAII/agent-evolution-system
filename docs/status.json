@@ -1,27 +1,31 @@
 {
-  "run_id": 543,
-  "generation_evaluated": 513,
-  "next_generation": 514,
+  "run_id": 544,
+  "generation_evaluated": 514,
+  "next_generation": 515,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 513,
-    "best_fitness": 0.8467,
+    "generation": 514,
+    "best_fitness": 0.8148,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "b3594c3d15d446a4",
-    "avg_fitness": 0.8466,
+    "best_agent_id": "de36adcbb0264409",
+    "avg_fitness": 0.8147,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : years, open-source, statistical en 6 signaux à suivre",
-    "agent": "Analytique-500.3",
-    "fitness": 0.8467,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-06-veille-analytique-years-open-source-statistical-en-6-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
+    "title": "Veille analytique : payment-skimming, investigations, congressional en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 514,
+      "population": 5,
+      "avg_fitness": 0.81472,
+      "best_fitness": 0.8148
+    },
     {
       "generation": 513,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8431999999999998,
       "best_fitness": 0.8432
-    },
-    {
-      "generation": 504,
-      "population": 5,
-      "avg_fitness": 0.81454,
-      "best_fitness": 0.8146
     }
   ]
 }
