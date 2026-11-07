@@ -1,25 +1,33 @@
 {
-  "run_id": 545,
-  "generation_evaluated": 515,
-  "next_generation": 516,
-  "items_ingested": 7,
+  "run_id": 546,
+  "generation_evaluated": 516,
+  "next_generation": 517,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 515,
-    "best_fitness": 0.8383,
+    "generation": 516,
+    "best_fitness": 0.8409,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "e1d452cadfd54793",
-    "avg_fitness": 0.8381,
+    "best_agent_id": "ea53fa6f289a4a52",
+    "avg_fitness": 0.8407,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
-    "title": "Veille analytique : data, organizations, dramatically en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : linux, rent-pricing, components en 5 signaux à suivre",
+    "agent": "Analytique-500.3",
+    "fitness": 0.8409,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-07-veille-analytique-linux-rent-pricing-components-en-5-signaux.md"
   },
   "history": [
+    {
+      "generation": 516,
+      "population": 5,
+      "avg_fitness": 0.8407399999999999,
+      "best_fitness": 0.8409
+    },
     {
       "generation": 515,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.819,
       "best_fitness": 0.8258
-    },
-    {
-      "generation": 506,
-      "population": 5,
-      "avg_fitness": 0.81064,
-      "best_fitness": 0.8107
     }
   ]
 }
