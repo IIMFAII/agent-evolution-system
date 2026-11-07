@@ -1,34 +1,36 @@
 {
- "generated_at": "2026-11-07T16:02:17+00:00",
+ "generated_at": "2026-11-07T21:20:35+00:00",
  "cycle": {
-  "run_id": 547,
-  "generation_evaluated": 517,
-  "next_generation": 518,
+  "run_id": 548,
+  "generation_evaluated": 518,
+  "next_generation": 519,
   "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
-   "title": "Veille analytique : port, undocumented, underground en 6 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : microsoft, research's, competitor en 6 signaux à suivre",
+   "agent": "Analytique-500.3",
+   "fitness": 0.8346,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-07-veille-analytique-microsoft-research-s-competitor-en-6-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 517,
-  "best_fitness": 0.8452,
+  "generation": 518,
+  "best_fitness": 0.8346,
   "best_agent": "Analytique-500.3",
-  "best_agent_id": "15c6257aa8f54835",
-  "avg_fitness": 0.845,
+  "best_agent_id": "3d2a2c20c93d42a1",
+  "avg_fitness": 0.8345,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "15c6257aa8f54835",
-   "fitness": 0.8452,
+   "agent_id": "3d2a2c20c93d42a1",
+   "fitness": 0.8346,
    "readability": 1.0,
-   "keyword_score": 0.3258,
+   "keyword_score": 0.2729,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "c417a6c5306649ea",
-   "fitness": 0.8452,
+   "agent_id": "1e51d548a69b4c37",
+   "fitness": 0.8346,
    "readability": 1.0,
-   "keyword_score": 0.3258,
+   "keyword_score": 0.2729,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-517.4",
+   "name": "Analytique-518.2",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.8221772525511594,
+   "temperature": 0.9446390034579227,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "695dc0846eac497a",
-   "fitness": 0.845,
+   "agent_id": "de2bf08a38e84b26",
+   "fitness": 0.8346,
    "readability": 1.0,
-   "keyword_score": 0.3248,
+   "keyword_score": 0.2729,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-517.2",
-   "tone": "critique",
+   "name": "Analytique-518.3",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 1.0076356397542285,
+   "temperature": 0.6967823753977027,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "473c7994b4c14f62",
-   "fitness": 0.845,
+   "agent_id": "e4322127de154933",
+   "fitness": 0.8344,
    "readability": 1.0,
-   "keyword_score": 0.3248,
+   "keyword_score": 0.272,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-517.5",
+   "name": "Prospectif-518.4",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.8581107187060131,
+   "temperature": 0.8209941816276903,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "3c13555b32e8453d",
-   "fitness": 0.8448,
+   "agent_id": "b4290d46d5e9489d",
+   "fitness": 0.8344,
    "readability": 1.0,
-   "keyword_score": 0.3238,
+   "keyword_score": 0.272,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-517.3",
-   "tone": "concis",
+   "name": "Prospectif-518.5",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.7912958264220717,
+   "temperature": 0.9149064461526939,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 458,
-   "population": 5,
-   "avg_fitness": 0.8143,
-   "best_fitness": 0.8145,
-   "worst_fitness": 0.8141
-  },
   {
    "generation": 459,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.84504,
    "best_fitness": 0.8452,
    "worst_fitness": 0.8448
+  },
+  {
+   "generation": 518,
+   "population": 5,
+   "avg_fitness": 0.83452,
+   "best_fitness": 0.8346,
+   "worst_fitness": 0.8344
   }
  ],
  "runs": [
+  {
+   "id": 548,
+   "started_at": "2026-11-07T21:20:32+00:00",
+   "finished_at": "2026-11-07T21:20:35+00:00",
+   "generation": 518,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 547,
    "started_at": "2026-11-07T16:02:04+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 6,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 508,
-   "started_at": "2026-10-28T07:50:08+00:00",
-   "finished_at": "2026-10-28T07:50:15+00:00",
-   "generation": 479,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.9 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : microsoft, research's, competitor en 6 signaux à suivre",
+   "slug": "2026-11-07-veille-analytique-microsoft-research-s-competitor-en-6-signa",
+   "fitness": 0.8346,
+   "generation": 518,
+   "created_at": "2026-11-07T21:20:35+00:00",
+   "agent_name": "Analytique-500.3",
+   "tone": "analytique"
+  },
   {
    "title": "Veille analytique : linux, rent-pricing, components en 5 signaux à suivre",
    "slug": "2026-11-07-veille-analytique-linux-rent-pricing-components-en-5-signaux",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-10-26T02:48:12+00:00",
    "agent_name": "Pédagogique-470.2",
    "tone": "pédagogique"
-  },
-  {
-   "title": "Veille concis : collaboration, recreation, challenge en 4 signaux à suivre",
-   "slug": "2026-10-25-veille-concis-collaboration-recreation-challenge-en-4-signau",
-   "fitness": 0.846,
-   "generation": 467,
-   "created_at": "2026-10-25T14:03:45+00:00",
-   "agent_name": "Concis-464.4",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 146,
+  "publications": 147,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
@@ -1106,10 +1108,10 @@
     "id": "licence_donnees",
     "name": "Licence du jeu de données",
     "summary": "Vendre l'accès à la donnée agrégée que le pipeline produit déjà (historique de veille structuré, séries de fitness, corpus horodaté) plutôt qu'au texte. La valeur porte sur l'agrégation et la fraîcheur, pas sur la rédaction — donc aucune CGU sur l'origine du texte ne s'applique.",
-    "score": 0.7943,
+    "score": 0.797,
     "status": "à préparer",
     "blocked_reason": null,
-    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 146 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
+    "rationale": "Ne dépend pas de l'audience, mais exige un corpus vendable : ~150 publications contre 147 aujourd'hui. Le pipeline y arrive seul en continuant de tourner.",
     "angle": null,
     "ai_policy": "compatible",
     "ai_policy_label": "Compatible contenu automatisé",
