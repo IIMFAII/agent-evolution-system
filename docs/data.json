@@ -1,35 +1,35 @@
 {
- "generated_at": "2026-11-06T20:12:28+00:00",
+ "generated_at": "2026-11-07T01:31:43+00:00",
  "cycle": {
-  "run_id": 544,
-  "generation_evaluated": 514,
-  "next_generation": 515,
-  "items_ingested": 6,
+  "run_id": 545,
+  "generation_evaluated": 515,
+  "next_generation": 516,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
    "published": false,
-   "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-   "title": "Veille analytique : payment-skimming, investigations, congressional en 6 signaux à suivre"
+   "reason": "cadençage : dernière publication il y a 11.9 h, minimum 12 h",
+   "title": "Veille analytique : data, organizations, dramatically en 7 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 514,
-  "best_fitness": 0.8148,
+  "generation": 515,
+  "best_fitness": 0.8383,
   "best_agent": "Analytique-500.3",
-  "best_agent_id": "de36adcbb0264409",
-  "avg_fitness": 0.8147,
+  "best_agent_id": "e1d452cadfd54793",
+  "avg_fitness": 0.8381,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "de36adcbb0264409",
-   "fitness": 0.8148,
+   "agent_id": "e1d452cadfd54793",
+   "fitness": 0.8383,
    "readability": 1.0,
-   "keyword_score": 0.2941,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2914,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Analytique-500.3",
@@ -39,70 +39,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "fc1bccd0954447eb",
-   "fitness": 0.8148,
+   "agent_id": "508915103c024bec",
+   "fitness": 0.8383,
    "readability": 1.0,
-   "keyword_score": 0.2941,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2914,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-514.2",
+   "name": "Analytique-515.5",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.9352192333388178,
-   "mutation_rate": 0.87
+   "temperature": 0.7594100703035331,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "c8bb2fe59da14be2",
-   "fitness": 0.8148,
+   "agent_id": "6d419f353e9f409e",
+   "fitness": 0.8381,
    "readability": 1.0,
-   "keyword_score": 0.2941,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2905,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-514.3",
-   "tone": "analytique",
-   "origin": "crossover",
-   "temperature": 0.9505136386674659,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "19385f79a15c4580",
-   "fitness": 0.8146,
-   "readability": 1.0,
-   "keyword_score": 0.2932,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-514.4",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8051474209936796,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "14e1e2eaaedd4cc2",
-   "fitness": 0.8146,
-   "readability": 1.0,
-   "keyword_score": 0.2932,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-514.5",
+   "name": "Critique-515.3",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.738822127985842,
-   "mutation_rate": 0.87
+   "temperature": 1.0638635747103895,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "026800ead92943f4",
+   "fitness": 0.8379,
+   "readability": 1.0,
+   "keyword_score": 0.2896,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-515.2",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.9919147576208489,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "615c426e5e0d44db",
+   "fitness": 0.8379,
+   "readability": 1.0,
+   "keyword_score": 0.2896,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-515.4",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.8778662536142158,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 455,
-   "population": 5,
-   "avg_fitness": 0.8008000000000001,
-   "best_fitness": 0.82,
-   "worst_fitness": 0.796
-  },
   {
    "generation": 456,
    "population": 5,
@@ -515,9 +508,25 @@
    "avg_fitness": 0.81472,
    "best_fitness": 0.8148,
    "worst_fitness": 0.8146
+  },
+  {
+   "generation": 515,
+   "population": 5,
+   "avg_fitness": 0.8381000000000001,
+   "best_fitness": 0.8383,
+   "worst_fitness": 0.8379
   }
  ],
  "runs": [
+  {
+   "id": 545,
+   "started_at": "2026-11-07T01:31:36+00:00",
+   "finished_at": "2026-11-07T01:31:43+00:00",
+   "generation": 515,
+   "status": "success",
+   "items_ingested": 7,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 11.9 h, minimum 12 h"
+  },
   {
    "id": 544,
    "started_at": "2026-11-06T20:12:24+00:00",
@@ -868,15 +877,6 @@
    "status": "success",
    "items_ingested": 6,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 10.8 h, minimum 12 h"
-  },
-  {
-   "id": 505,
-   "started_at": "2026-10-27T15:40:22+00:00",
-   "finished_at": "2026-10-27T15:40:26+00:00",
-   "generation": 476,
-   "status": "success",
-   "items_ingested": 6,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.1 h, minimum 12 h"
   }
  ],
  "publications": [
