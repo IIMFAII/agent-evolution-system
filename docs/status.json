@@ -1,27 +1,31 @@
 {
-  "run_id": 546,
-  "generation_evaluated": 516,
-  "next_generation": 517,
-  "items_ingested": 5,
+  "run_id": 547,
+  "generation_evaluated": 517,
+  "next_generation": 518,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 516,
-    "best_fitness": 0.8409,
+    "generation": 517,
+    "best_fitness": 0.8452,
     "best_agent": "Analytique-500.3",
-    "best_agent_id": "ea53fa6f289a4a52",
-    "avg_fitness": 0.8407,
+    "best_agent_id": "15c6257aa8f54835",
+    "avg_fitness": 0.845,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : linux, rent-pricing, components en 5 signaux à suivre",
-    "agent": "Analytique-500.3",
-    "fitness": 0.8409,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-07-veille-analytique-linux-rent-pricing-components-en-5-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+    "title": "Veille analytique : port, undocumented, underground en 6 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 517,
+      "population": 5,
+      "avg_fitness": 0.84504,
+      "best_fitness": 0.8452
+    },
     {
       "generation": 516,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8100799999999999,
       "best_fitness": 0.8102
-    },
-    {
-      "generation": 507,
-      "population": 5,
-      "avg_fitness": 0.819,
-      "best_fitness": 0.8258
     }
   ]
 }

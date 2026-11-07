@@ -1,36 +1,34 @@
 {
- "generated_at": "2026-11-07T08:10:39+00:00",
+ "generated_at": "2026-11-07T16:02:17+00:00",
  "cycle": {
-  "run_id": 546,
-  "generation_evaluated": 516,
-  "next_generation": 517,
-  "items_ingested": 5,
+  "run_id": 547,
+  "generation_evaluated": 517,
+  "next_generation": 518,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille analytique : linux, rent-pricing, components en 5 signaux à suivre",
-   "agent": "Analytique-500.3",
-   "fitness": 0.8409,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-07-veille-analytique-linux-rent-pricing-components-en-5-signaux.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 7.9 h, minimum 12 h",
+   "title": "Veille analytique : port, undocumented, underground en 6 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 516,
-  "best_fitness": 0.8409,
+  "generation": 517,
+  "best_fitness": 0.8452,
   "best_agent": "Analytique-500.3",
-  "best_agent_id": "ea53fa6f289a4a52",
-  "avg_fitness": 0.8407,
+  "best_agent_id": "15c6257aa8f54835",
+  "avg_fitness": 0.845,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "ea53fa6f289a4a52",
-   "fitness": 0.8409,
+   "agent_id": "15c6257aa8f54835",
+   "fitness": 0.8452,
    "readability": 1.0,
-   "keyword_score": 0.3043,
+   "keyword_score": 0.3258,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -41,70 +39,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "9ba93cc7055c417f",
-   "fitness": 0.8409,
+   "agent_id": "c417a6c5306649ea",
+   "fitness": 0.8452,
    "readability": 1.0,
-   "keyword_score": 0.3043,
+   "keyword_score": 0.3258,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-516.2",
+   "name": "Analytique-517.4",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.9045930647311711,
-   "mutation_rate": 0.87
+   "temperature": 0.8221772525511594,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "0c13a97d75354a71",
-   "fitness": 0.8407,
+   "agent_id": "695dc0846eac497a",
+   "fitness": 0.845,
    "readability": 1.0,
-   "keyword_score": 0.3034,
+   "keyword_score": 0.3248,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-516.3",
-   "tone": "pédagogique",
+   "name": "Critique-517.2",
+   "tone": "critique",
    "origin": "crossover",
-   "temperature": 1.005452496054265,
-   "mutation_rate": 0.87
+   "temperature": 1.0076356397542285,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "8bf6a94f59964296",
-   "fitness": 0.8407,
+   "agent_id": "473c7994b4c14f62",
+   "fitness": 0.845,
    "readability": 1.0,
-   "keyword_score": 0.3034,
+   "keyword_score": 0.3248,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-516.5",
-   "tone": "pédagogique",
+   "name": "Prospectif-517.5",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.9966056652606095,
-   "mutation_rate": 0.87
+   "temperature": 0.8581107187060131,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "4f9252fdbb834a3b",
-   "fitness": 0.8405,
+   "agent_id": "3c13555b32e8453d",
+   "fitness": 0.8448,
    "readability": 1.0,
-   "keyword_score": 0.3024,
+   "keyword_score": 0.3238,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-516.4",
+   "name": "Concis-517.3",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.9708649141623027,
-   "mutation_rate": 0.87
+   "temperature": 0.7912958264220717,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 457,
-   "population": 5,
-   "avg_fitness": 0.8215199999999999,
-   "best_fitness": 0.8216,
-   "worst_fitness": 0.8214
-  },
   {
    "generation": 458,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8407399999999999,
    "best_fitness": 0.8409,
    "worst_fitness": 0.8405
+  },
+  {
+   "generation": 517,
+   "population": 5,
+   "avg_fitness": 0.84504,
+   "best_fitness": 0.8452,
+   "worst_fitness": 0.8448
   }
  ],
  "runs": [
+  {
+   "id": 547,
+   "started_at": "2026-11-07T16:02:04+00:00",
+   "finished_at": "2026-11-07T16:02:17+00:00",
+   "generation": 517,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.9 h, minimum 12 h"
+  },
   {
    "id": 546,
    "started_at": "2026-11-07T08:10:30+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 4,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.9 h, minimum 12 h"
-  },
-  {
-   "id": 507,
-   "started_at": "2026-10-28T00:54:08+00:00",
-   "finished_at": "2026-10-28T00:54:12+00:00",
-   "generation": 478,
-   "status": "success",
-   "items_ingested": 7,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
