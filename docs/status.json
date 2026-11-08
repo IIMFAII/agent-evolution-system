@@ -1,25 +1,31 @@
 {
-  "run_id": 549,
-  "generation_evaluated": 519,
-  "next_generation": 520,
-  "items_ingested": 6,
+  "run_id": 550,
+  "generation_evaluated": 520,
+  "next_generation": 521,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 519,
-    "best_fitness": 0.8465,
-    "best_agent": "Critique-519.3",
-    "best_agent_id": "5d759f9a6dbb482f",
-    "avg_fitness": 0.8275,
+    "generation": 520,
+    "best_fitness": 0.8141,
+    "best_agent": "Analytique-520.2",
+    "best_agent_id": "6958fb65c5804b04",
+    "avg_fitness": 0.814,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 3.7 h, minimum 12 h",
-    "title": "Veille critique : commodore's, industrial, meccanicos en 6 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 11.1 h, minimum 12 h",
+    "title": "Veille analytique : isponsorblocktv, informatique, structurants en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 520,
+      "population": 5,
+      "avg_fitness": 0.8139799999999999,
+      "best_fitness": 0.8141
+    },
     {
       "generation": 519,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8474999999999999,
       "best_fitness": 0.8477
-    },
-    {
-      "generation": 510,
-      "population": 5,
-      "avg_fitness": 0.8234199999999999,
-      "best_fitness": 0.8237
     }
   ]
 }
