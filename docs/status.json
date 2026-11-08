@@ -1,25 +1,33 @@
 {
-  "run_id": 550,
-  "generation_evaluated": 520,
-  "next_generation": 521,
-  "items_ingested": 7,
+  "run_id": 551,
+  "generation_evaluated": 521,
+  "next_generation": 522,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 520,
-    "best_fitness": 0.8141,
+    "generation": 521,
+    "best_fitness": 0.8388,
     "best_agent": "Analytique-520.2",
-    "best_agent_id": "6958fb65c5804b04",
-    "avg_fitness": 0.814,
+    "best_agent_id": "2494496968f145d5",
+    "avg_fitness": 0.8387,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.1 h, minimum 12 h",
-    "title": "Veille analytique : isponsorblocktv, informatique, structurants en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : successful, joyscroll, ambitious en 5 signaux à suivre",
+    "agent": "Analytique-520.2",
+    "fitness": 0.8388,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-08-veille-analytique-successful-joyscroll-ambitious-en-5-signau.md"
   },
   "history": [
+    {
+      "generation": 521,
+      "population": 5,
+      "avg_fitness": 0.8386800000000001,
+      "best_fitness": 0.8388
+    },
     {
       "generation": 520,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8210200000000001,
       "best_fitness": 0.8215
-    },
-    {
-      "generation": 511,
-      "population": 5,
-      "avg_fitness": 0.8474999999999999,
-      "best_fitness": 0.8477
     }
   ]
 }
