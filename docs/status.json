@@ -1,25 +1,31 @@
 {
-  "run_id": 552,
-  "generation_evaluated": 522,
-  "next_generation": 523,
+  "run_id": 553,
+  "generation_evaluated": 523,
+  "next_generation": 524,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 522,
-    "best_fitness": 0.8346,
-    "best_agent": "Critique-522.4",
-    "best_agent_id": "cabbae8ac581418d",
-    "avg_fitness": 0.8202,
+    "generation": 523,
+    "best_fitness": 0.8148,
+    "best_agent": "Analytique-523.3",
+    "best_agent_id": "6408ee6a91524e6d",
+    "avg_fitness": 0.8146,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.1 h, minimum 12 h",
-    "title": "Veille critique : investigating, directors, rejecting en 5 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 8.9 h, minimum 12 h",
+    "title": "Veille analytique : open-source, alternative, language's en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 523,
+      "population": 5,
+      "avg_fitness": 0.81464,
+      "best_fitness": 0.8148
+    },
     {
       "generation": 522,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81472,
       "best_fitness": 0.8148
-    },
-    {
-      "generation": 513,
-      "population": 5,
-      "avg_fitness": 0.84662,
-      "best_fitness": 0.8467
     }
   ]
 }
