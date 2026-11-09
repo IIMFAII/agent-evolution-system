@@ -1,25 +1,30 @@
 {
-  "run_id": 553,
-  "generation_evaluated": 523,
-  "next_generation": 524,
+  "run_id": 554,
+  "generation_evaluated": 524,
+  "next_generation": 525,
   "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 523,
-    "best_fitness": 0.8148,
+    "generation": 524,
+    "best_fitness": 0.1,
     "best_agent": "Analytique-523.3",
-    "best_agent_id": "6408ee6a91524e6d",
-    "avg_fitness": 0.8146,
+    "best_agent_id": "59d8d0a9850a4033",
+    "avg_fitness": 0.1,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 8.9 h, minimum 12 h",
-    "title": "Veille analytique : open-source, alternative, language's en 5 signaux à suivre"
+    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
   },
   "history": [
+    {
+      "generation": 524,
+      "population": 5,
+      "avg_fitness": 0.1,
+      "best_fitness": 0.1
+    },
     {
       "generation": 523,
       "population": 5,
@@ -73,12 +78,6 @@
       "population": 5,
       "avg_fitness": 0.8381000000000001,
       "best_fitness": 0.8383
-    },
-    {
-      "generation": 514,
-      "population": 5,
-      "avg_fitness": 0.81472,
-      "best_fitness": 0.8148
     }
   ]
 }
