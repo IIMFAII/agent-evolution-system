@@ -1,27 +1,31 @@
 {
-  "run_id": 555,
-  "generation_evaluated": 525,
-  "next_generation": 526,
-  "items_ingested": 7,
+  "run_id": 556,
+  "generation_evaluated": 526,
+  "next_generation": 527,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 525,
-    "best_fitness": 0.8139,
+    "generation": 526,
+    "best_fitness": 0.8146,
     "best_agent": "Analytique-523.3",
-    "best_agent_id": "ba25ab545210410a",
-    "avg_fitness": 0.8137,
+    "best_agent_id": "a91870bcc1d04d48",
+    "avg_fitness": 0.8145,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : semi-conducteurs, investissements, cyber-attack en 7 signaux à suivre",
-    "agent": "Analytique-523.3",
-    "fitness": 0.8139,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-09-veille-analytique-semi-conducteurs-investissements-cyber-att.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.6 h, minimum 12 h",
+    "title": "Veille analytique : vulnerability, exploitation, one-shotted en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 526,
+      "population": 5,
+      "avg_fitness": 0.8145199999999999,
+      "best_fitness": 0.8146
+    },
     {
       "generation": 525,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.84504,
       "best_fitness": 0.8452
-    },
-    {
-      "generation": 516,
-      "population": 5,
-      "avg_fitness": 0.8407399999999999,
-      "best_fitness": 0.8409
     }
   ]
 }
