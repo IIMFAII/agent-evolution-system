@@ -1,27 +1,31 @@
 {
-  "run_id": 557,
-  "generation_evaluated": 527,
-  "next_generation": 528,
-  "items_ingested": 8,
+  "run_id": 558,
+  "generation_evaluated": 528,
+  "next_generation": 529,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 527,
-    "best_fitness": 0.8141,
+    "generation": 528,
+    "best_fitness": 0.818,
     "best_agent": "Analytique-523.3",
-    "best_agent_id": "d5c46314bf11497e",
-    "avg_fitness": 0.8139,
+    "best_agent_id": "d2b20bd57a80455d",
+    "avg_fitness": 0.8178,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : mythos, cybersécurité, surveillance en 8 signaux à suivre",
-    "agent": "Analytique-523.3",
-    "fitness": 0.8141,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-10-veille-analytique-mythos-cybersecurite-surveillance-en-8-sig.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
+    "title": "Veille analytique : fingerprintable, comprehensive, first-person en 7 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 528,
+      "population": 5,
+      "avg_fitness": 0.81784,
+      "best_fitness": 0.818
+    },
     {
       "generation": 527,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82746,
       "best_fitness": 0.8465
-    },
-    {
-      "generation": 518,
-      "population": 5,
-      "avg_fitness": 0.83452,
-      "best_fitness": 0.8346
     }
   ]
 }
