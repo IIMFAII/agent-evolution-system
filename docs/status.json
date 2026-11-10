@@ -1,25 +1,33 @@
 {
-  "run_id": 556,
-  "generation_evaluated": 526,
-  "next_generation": 527,
-  "items_ingested": 5,
+  "run_id": 557,
+  "generation_evaluated": 527,
+  "next_generation": 528,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 526,
-    "best_fitness": 0.8146,
+    "generation": 527,
+    "best_fitness": 0.8141,
     "best_agent": "Analytique-523.3",
-    "best_agent_id": "a91870bcc1d04d48",
-    "avg_fitness": 0.8145,
+    "best_agent_id": "d5c46314bf11497e",
+    "avg_fitness": 0.8139,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.6 h, minimum 12 h",
-    "title": "Veille analytique : vulnerability, exploitation, one-shotted en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : mythos, cybersécurité, surveillance en 8 signaux à suivre",
+    "agent": "Analytique-523.3",
+    "fitness": 0.8141,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-10-veille-analytique-mythos-cybersecurite-surveillance-en-8-sig.md"
   },
   "history": [
+    {
+      "generation": 527,
+      "population": 5,
+      "avg_fitness": 0.81394,
+      "best_fitness": 0.8141
+    },
     {
       "generation": 526,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.83452,
       "best_fitness": 0.8346
-    },
-    {
-      "generation": 517,
-      "population": 5,
-      "avg_fitness": 0.84504,
-      "best_fitness": 0.8452
     }
   ]
 }
