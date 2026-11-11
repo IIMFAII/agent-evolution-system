@@ -1,25 +1,33 @@
 {
-  "run_id": 558,
-  "generation_evaluated": 528,
-  "next_generation": 529,
-  "items_ingested": 7,
+  "run_id": 559,
+  "generation_evaluated": 529,
+  "next_generation": 530,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 528,
-    "best_fitness": 0.818,
+    "generation": 529,
+    "best_fitness": 0.8145,
     "best_agent": "Analytique-523.3",
-    "best_agent_id": "d2b20bd57a80455d",
-    "avg_fitness": 0.8178,
+    "best_agent_id": "679e796853dd40a4",
+    "avg_fitness": 0.8143,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 8.6 h, minimum 12 h",
-    "title": "Veille analytique : fingerprintable, comprehensive, first-person en 7 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : interface, underwhelming, confidential en 5 signaux à suivre",
+    "agent": "Analytique-523.3",
+    "fitness": 0.8145,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-11-veille-analytique-interface-underwhelming-confidential-en-5.md"
   },
   "history": [
+    {
+      "generation": 529,
+      "population": 5,
+      "avg_fitness": 0.81426,
+      "best_fitness": 0.8145
+    },
     {
       "generation": 528,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8139799999999999,
       "best_fitness": 0.8141
-    },
-    {
-      "generation": 519,
-      "population": 5,
-      "avg_fitness": 0.82746,
-      "best_fitness": 0.8465
     }
   ]
 }
