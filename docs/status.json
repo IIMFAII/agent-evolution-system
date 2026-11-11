@@ -1,27 +1,31 @@
 {
-  "run_id": 559,
-  "generation_evaluated": 529,
-  "next_generation": 530,
-  "items_ingested": 5,
+  "run_id": 560,
+  "generation_evaluated": 530,
+  "next_generation": 531,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 529,
-    "best_fitness": 0.8145,
-    "best_agent": "Analytique-523.3",
-    "best_agent_id": "679e796853dd40a4",
-    "avg_fitness": 0.8143,
+    "generation": 530,
+    "best_fitness": 0.8429,
+    "best_agent": "Concis-530.3",
+    "best_agent_id": "f78d09e153ca4938",
+    "avg_fitness": 0.8285,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : interface, underwhelming, confidential en 5 signaux à suivre",
-    "agent": "Analytique-523.3",
-    "fitness": 0.8145,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-11-veille-analytique-interface-underwhelming-confidential-en-5.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.1 h, minimum 12 h",
+    "title": "Veille concis : bioterrorism, protecting, kurtzer's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 530,
+      "population": 5,
+      "avg_fitness": 0.8285,
+      "best_fitness": 0.8429
+    },
     {
       "generation": 529,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8386800000000001,
       "best_fitness": 0.8388
-    },
-    {
-      "generation": 520,
-      "population": 5,
-      "avg_fitness": 0.8139799999999999,
-      "best_fitness": 0.8141
     }
   ]
 }
