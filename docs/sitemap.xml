@@ -3,6 +3,7 @@
   <url><loc>https://iimfaii.github.io/agent-evolution-system/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/dashboard.html</loc><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-11-12-veille-concis-vulnerability-development-grimoire-en-3-signau.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-11-12-veille-analytique-models-export-controlled-fingerprint-en-4.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-11-11-veille-concis-migration-s-datacenter-retrieval-en-4-signaux.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-11-11-veille-analytique-interface-underwhelming-confidential-en-5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://iimfaii.github.io/agent-evolution-system/posts/2026-11-10-veille-analytique-mythos-cybersecurite-surveillance-en-8-sig.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
