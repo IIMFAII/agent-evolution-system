@@ -1,24 +1,33 @@
 {
-  "run_id": 562,
-  "generation_evaluated": 532,
-  "next_generation": 533,
-  "items_ingested": 4,
+  "run_id": 563,
+  "generation_evaluated": 533,
+  "next_generation": 534,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 532,
-    "best_fitness": 0.1,
+    "generation": 533,
+    "best_fitness": 0.86,
     "best_agent": "Concis-530.3",
-    "best_agent_id": "7ddaccf5fd794481",
-    "avg_fitness": 0.1,
+    "best_agent_id": "85fbef7f44fd49a2",
+    "avg_fitness": 0.8456,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "aucun contenu au-dessus du seuil de qualité/conformité"
+    "published": true,
+    "title": "Veille concis : vulnerability, development, grimoire en 3 signaux à suivre",
+    "agent": "Concis-530.3",
+    "fitness": 0.86,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-12-veille-concis-vulnerability-development-grimoire-en-3-signau.md"
   },
   "history": [
+    {
+      "generation": 533,
+      "population": 5,
+      "avg_fitness": 0.8455999999999999,
+      "best_fitness": 0.86
+    },
     {
       "generation": 532,
       "population": 5,
@@ -72,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 523,
-      "population": 5,
-      "avg_fitness": 0.81464,
-      "best_fitness": 0.8148
     }
   ]
 }
