@@ -1,27 +1,31 @@
 {
-  "run_id": 565,
-  "generation_evaluated": 535,
-  "next_generation": 536,
-  "items_ingested": 4,
+  "run_id": 566,
+  "generation_evaluated": 536,
+  "next_generation": 537,
+  "items_ingested": 3,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 535,
-    "best_fitness": 0.8074,
-    "best_agent": "Analytique-534.2",
-    "best_agent_id": "5f4cc885b254497b",
-    "avg_fitness": 0.8074,
+    "generation": 536,
+    "best_fitness": 0.844,
+    "best_agent": "Critique-536.2",
+    "best_agent_id": "62d20b85cbf24b18",
+    "avg_fitness": 0.8248,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : models, export-controlled, fingerprint en 4 signaux à suivre",
-    "agent": "Analytique-534.2",
-    "fitness": 0.8074,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-12-veille-analytique-models-export-controlled-fingerprint-en-4.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
+    "title": "Veille critique : capabilities, edge0-145b, employees en 3 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 536,
+      "population": 5,
+      "avg_fitness": 0.8248,
+      "best_fitness": 0.844
+    },
     {
       "generation": 535,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81394,
       "best_fitness": 0.8141
-    },
-    {
-      "generation": 526,
-      "population": 5,
-      "avg_fitness": 0.8145199999999999,
-      "best_fitness": 0.8146
     }
   ]
 }
