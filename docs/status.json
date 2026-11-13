@@ -1,27 +1,31 @@
 {
-  "run_id": 567,
-  "generation_evaluated": 537,
-  "next_generation": 538,
+  "run_id": 568,
+  "generation_evaluated": 538,
+  "next_generation": 539,
   "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 537,
-    "best_fitness": 0.8377,
-    "best_agent": "Critique-536.2",
-    "best_agent_id": "7d476814f58144b8",
-    "avg_fitness": 0.8377,
+    "generation": 538,
+    "best_fitness": 0.8137,
+    "best_agent": "Analytique-538.3",
+    "best_agent_id": "f43f8cf9331b4426",
+    "avg_fitness": 0.8136,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : claude, microsoft, services en 8 signaux à suivre",
-    "agent": "Critique-536.2",
-    "fitness": 0.8377,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-13-veille-critique-claude-microsoft-services-en-8-signaux-a-sui.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.9 h, minimum 12 h",
+    "title": "Veille analytique : international, collaboratifs, impersonating en 8 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 538,
+      "population": 5,
+      "avg_fitness": 0.81358,
+      "best_fitness": 0.8137
+    },
     {
       "generation": 537,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81426,
       "best_fitness": 0.8145
-    },
-    {
-      "generation": 528,
-      "population": 5,
-      "avg_fitness": 0.81784,
-      "best_fitness": 0.818
     }
   ]
 }
