@@ -1,27 +1,31 @@
 {
-  "run_id": 571,
-  "generation_evaluated": 541,
-  "next_generation": 542,
+  "run_id": 572,
+  "generation_evaluated": 542,
+  "next_generation": 543,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 541,
-    "best_fitness": 0.832,
-    "best_agent": "Analytique-538.3",
-    "best_agent_id": "28ced13e5f3a414f",
-    "avg_fitness": 0.832,
+    "generation": 542,
+    "best_fitness": 0.828,
+    "best_agent": "Critique-542.2",
+    "best_agent_id": "e97b5afd3b7f4533",
+    "avg_fitness": 0.8088,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : show, systemverilog, out-of-order en 4 signaux à suivre",
-    "agent": "Analytique-538.3",
-    "fitness": 0.832,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-14-veille-analytique-show-systemverilog-out-of-order-en-4-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
+    "title": "Veille critique : investigation, dartmouth, starship en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 542,
+      "population": 5,
+      "avg_fitness": 0.8088000000000001,
+      "best_fitness": 0.828
+    },
     {
       "generation": 541,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8455999999999999,
       "best_fitness": 0.86
-    },
-    {
-      "generation": 532,
-      "population": 5,
-      "avg_fitness": 0.1,
-      "best_fitness": 0.1
     }
   ]
 }
