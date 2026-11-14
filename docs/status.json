@@ -1,27 +1,31 @@
 {
-  "run_id": 569,
-  "generation_evaluated": 539,
-  "next_generation": 540,
+  "run_id": 570,
+  "generation_evaluated": 540,
+  "next_generation": 541,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 539,
-    "best_fitness": 0.832,
+    "generation": 540,
+    "best_fitness": 0.8345,
     "best_agent": "Analytique-538.3",
-    "best_agent_id": "3d09f23d00624fc3",
-    "avg_fitness": 0.832,
+    "best_agent_id": "0a1c9089f03b42b0",
+    "avg_fitness": 0.8345,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : ground, light, stop en 4 signaux à suivre",
-    "agent": "Analytique-538.3",
-    "fitness": 0.832,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-14-veille-analytique-ground-light-stop-en-4-signaux-a-suivre.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
+    "title": "Veille analytique : side, surveillance, engineered en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 540,
+      "population": 5,
+      "avg_fitness": 0.8344799999999999,
+      "best_fitness": 0.8345
+    },
     {
       "generation": 539,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8183999999999999,
       "best_fitness": 0.828
-    },
-    {
-      "generation": 530,
-      "population": 5,
-      "avg_fitness": 0.8285,
-      "best_fitness": 0.8429
     }
   ]
 }
