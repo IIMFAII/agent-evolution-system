@@ -1,25 +1,33 @@
 {
-  "run_id": 570,
-  "generation_evaluated": 540,
-  "next_generation": 541,
+  "run_id": 571,
+  "generation_evaluated": 541,
+  "next_generation": 542,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 540,
-    "best_fitness": 0.8345,
+    "generation": 541,
+    "best_fitness": 0.832,
     "best_agent": "Analytique-538.3",
-    "best_agent_id": "0a1c9089f03b42b0",
-    "avg_fitness": 0.8345,
+    "best_agent_id": "28ced13e5f3a414f",
+    "avg_fitness": 0.832,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-    "title": "Veille analytique : side, surveillance, engineered en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : show, systemverilog, out-of-order en 4 signaux à suivre",
+    "agent": "Analytique-538.3",
+    "fitness": 0.832,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-14-veille-analytique-show-systemverilog-out-of-order-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 541,
+      "population": 5,
+      "avg_fitness": 0.8320000000000001,
+      "best_fitness": 0.832
+    },
     {
       "generation": 540,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.1,
       "best_fitness": 0.1
-    },
-    {
-      "generation": 531,
-      "population": 5,
-      "avg_fitness": 0.8183999999999999,
-      "best_fitness": 0.828
     }
   ]
 }
