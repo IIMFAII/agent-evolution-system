@@ -1,25 +1,31 @@
 {
-  "run_id": 572,
-  "generation_evaluated": 542,
-  "next_generation": 543,
+  "run_id": 573,
+  "generation_evaluated": 543,
+  "next_generation": 544,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 542,
-    "best_fitness": 0.828,
+    "generation": 543,
+    "best_fitness": 0.8297,
     "best_agent": "Critique-542.2",
-    "best_agent_id": "e97b5afd3b7f4533",
-    "avg_fitness": 0.8088,
+    "best_agent_id": "cf7f195ef7b34dff",
+    "avg_fitness": 0.8153,
     "diversity": 1.0
   },
   "publication": {
     "published": false,
-    "reason": "cadençage : dernière publication il y a 5.6 h, minimum 12 h",
-    "title": "Veille critique : investigation, dartmouth, starship en 4 signaux à suivre"
+    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
+    "title": "Veille critique : deliberately, statement, financing en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 543,
+      "population": 5,
+      "avg_fitness": 0.8153,
+      "best_fitness": 0.8297
+    },
     {
       "generation": 542,
       "population": 5,
@@ -73,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8417999999999999,
       "best_fitness": 0.842
-    },
-    {
-      "generation": 533,
-      "population": 5,
-      "avg_fitness": 0.8455999999999999,
-      "best_fitness": 0.86
     }
   ]
 }
