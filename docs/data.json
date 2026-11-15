@@ -1,34 +1,36 @@
 {
- "generated_at": "2026-11-15T16:45:03+00:00",
+ "generated_at": "2026-11-15T22:23:49+00:00",
  "cycle": {
-  "run_id": 575,
-  "generation_evaluated": 545,
-  "next_generation": 546,
+  "run_id": 576,
+  "generation_evaluated": 546,
+  "next_generation": 547,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
-   "title": "Veille critique : code, ai-generated, hypertext en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille critique : satellites, rocket, amazon en 4 signaux à suivre",
+   "agent": "Critique-542.2",
+   "fitness": 0.8424,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-15-veille-critique-satellites-rocket-amazon-en-4-signaux-a-suiv.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 545,
-  "best_fitness": 0.8354,
+  "generation": 546,
+  "best_fitness": 0.8424,
   "best_agent": "Critique-542.2",
-  "best_agent_id": "4571deeff5ff435b",
-  "avg_fitness": 0.8354,
+  "best_agent_id": "547e6163065842a8",
+  "avg_fitness": 0.8424,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "4571deeff5ff435b",
-   "fitness": 0.8354,
+   "agent_id": "547e6163065842a8",
+   "fitness": 0.8424,
    "readability": 1.0,
-   "keyword_score": 0.2769,
+   "keyword_score": 0.312,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
@@ -39,70 +41,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "0e05b29e03c34b09",
-   "fitness": 0.8354,
+   "agent_id": "36b5c480a8714a7e",
+   "fitness": 0.8424,
    "readability": 1.0,
-   "keyword_score": 0.2769,
+   "keyword_score": 0.312,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-545.2",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.8476042638990648,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "871462e3e72a48a0",
-   "fitness": 0.8354,
-   "readability": 1.0,
-   "keyword_score": 0.2769,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-545.3",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.7164045147978699,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "dd01e4e5b46748a8",
-   "fitness": 0.8354,
-   "readability": 1.0,
-   "keyword_score": 0.2769,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-545.4",
+   "name": "Concis-546.2",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.5979704173506285,
-   "mutation_rate": 0.87
+   "temperature": 0.827808417611586,
+   "mutation_rate": 0.89
   },
   {
-   "agent_id": "d6b239171b5645a1",
-   "fitness": 0.8354,
+   "agent_id": "bd9c3d5daf2c40de",
+   "fitness": 0.8424,
    "readability": 1.0,
-   "keyword_score": 0.2769,
+   "keyword_score": 0.312,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-545.5",
+   "name": "Critique-546.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.9902474211659759,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "c16307c42e1643e1",
+   "fitness": 0.8424,
+   "readability": 1.0,
+   "keyword_score": 0.312,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Pédagogique-546.4",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.9186711323531471,
-   "mutation_rate": 0.87
+   "temperature": 0.8401384380549313,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "2ce6adab03054737",
+   "fitness": 0.8424,
+   "readability": 1.0,
+   "keyword_score": 0.312,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-546.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.7461681810615887,
+   "mutation_rate": 0.89
   }
  ],
  "generations": [
-  {
-   "generation": 486,
-   "population": 5,
-   "avg_fitness": 0.8290200000000001,
-   "best_fitness": 0.8385,
-   "worst_fitness": 0.8148
-  },
   {
    "generation": 487,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8354000000000001,
    "best_fitness": 0.8354,
    "worst_fitness": 0.8354
+  },
+  {
+   "generation": 546,
+   "population": 5,
+   "avg_fitness": 0.8423999999999999,
+   "best_fitness": 0.8424,
+   "worst_fitness": 0.8424
   }
  ],
  "runs": [
+  {
+   "id": 576,
+   "started_at": "2026-11-15T22:23:42+00:00",
+   "finished_at": "2026-11-15T22:23:49+00:00",
+   "generation": 546,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 575,
    "started_at": "2026-11-15T16:44:52+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 7,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.0 h, minimum 12 h"
-  },
-  {
-   "id": 536,
-   "started_at": "2026-11-04T13:39:35+00:00",
-   "finished_at": "2026-11-04T13:39:44+00:00",
-   "generation": 506,
-   "status": "success",
-   "items_ingested": 6,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille critique : satellites, rocket, amazon en 4 signaux à suivre",
+   "slug": "2026-11-15-veille-critique-satellites-rocket-amazon-en-4-signaux-a-suiv",
+   "fitness": 0.8424,
+   "generation": 546,
+   "created_at": "2026-11-15T22:23:49+00:00",
+   "agent_name": "Critique-542.2",
+   "tone": "critique"
+  },
   {
    "title": "Veille critique : show, turbo-browser-mcp, encryption en 4 signaux à suivre",
    "slug": "2026-11-15-veille-critique-show-turbo-browser-mcp-encryption-en-4-signa",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-11-03T01:59:29+00:00",
    "agent_name": "Analytique-500.3",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille concis : financial, companies, economist en 3 signaux à suivre",
-   "slug": "2026-11-02-veille-concis-financial-companies-economist-en-3-signaux-a-s",
-   "fitness": 0.825,
-   "generation": 499,
-   "created_at": "2026-11-02T01:10:46+00:00",
-   "agent_name": "Concis-498.5",
-   "tone": "concis"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Licence du jeu de données, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 158,
+  "publications": 159,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
