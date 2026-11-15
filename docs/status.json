@@ -1,25 +1,33 @@
 {
-  "run_id": 573,
-  "generation_evaluated": 543,
-  "next_generation": 544,
+  "run_id": 574,
+  "generation_evaluated": 544,
+  "next_generation": 545,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 543,
-    "best_fitness": 0.8297,
+    "generation": 544,
+    "best_fitness": 0.8424,
     "best_agent": "Critique-542.2",
-    "best_agent_id": "cf7f195ef7b34dff",
-    "avg_fitness": 0.8153,
+    "best_agent_id": "122dd66e21dc48d4",
+    "avg_fitness": 0.828,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.2 h, minimum 12 h",
-    "title": "Veille critique : deliberately, statement, financing en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille critique : show, turbo-browser-mcp, encryption en 4 signaux à suivre",
+    "agent": "Critique-542.2",
+    "fitness": 0.8424,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-15-veille-critique-show-turbo-browser-mcp-encryption-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 544,
+      "population": 5,
+      "avg_fitness": 0.8280000000000001,
+      "best_fitness": 0.8424
+    },
     {
       "generation": 543,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8074,
       "best_fitness": 0.8074
-    },
-    {
-      "generation": 534,
-      "population": 5,
-      "avg_fitness": 0.8417999999999999,
-      "best_fitness": 0.842
     }
   ]
 }
