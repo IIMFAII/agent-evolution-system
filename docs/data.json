@@ -1,37 +1,35 @@
 {
- "generated_at": "2026-11-15T22:23:49+00:00",
+ "generated_at": "2026-11-16T04:23:09+00:00",
  "cycle": {
-  "run_id": 576,
-  "generation_evaluated": 546,
-  "next_generation": 547,
+  "run_id": 577,
+  "generation_evaluated": 547,
+  "next_generation": 548,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille critique : satellites, rocket, amazon en 4 signaux à suivre",
-   "agent": "Critique-542.2",
-   "fitness": 0.8424,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-15-veille-critique-satellites-rocket-amazon-en-4-signaux-a-suiv.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
+   "title": "Veille critique : website-driven, turingfonts, uncrawable en 4 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 546,
-  "best_fitness": 0.8424,
+  "generation": 547,
+  "best_fitness": 0.8227,
   "best_agent": "Critique-542.2",
-  "best_agent_id": "547e6163065842a8",
-  "avg_fitness": 0.8424,
+  "best_agent_id": "0a761a8ea46a4795",
+  "avg_fitness": 0.8227,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "547e6163065842a8",
-   "fitness": 0.8424,
+   "agent_id": "0a761a8ea46a4795",
+   "fitness": 0.8227,
    "readability": 1.0,
-   "keyword_score": 0.312,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3333,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-542.2",
@@ -41,70 +39,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "36b5c480a8714a7e",
-   "fitness": 0.8424,
+   "agent_id": "1db71ad291ca4e29",
+   "fitness": 0.8227,
    "readability": 1.0,
-   "keyword_score": 0.312,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3333,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-546.2",
-   "tone": "concis",
-   "origin": "crossover",
-   "temperature": 0.827808417611586,
-   "mutation_rate": 0.89
-  },
-  {
-   "agent_id": "bd9c3d5daf2c40de",
-   "fitness": 0.8424,
-   "readability": 1.0,
-   "keyword_score": 0.312,
-   "ctr_score": 0.9,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Critique-546.3",
+   "name": "Critique-547.2",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.9902474211659759,
+   "temperature": 0.9453769084865333,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "c16307c42e1643e1",
-   "fitness": 0.8424,
+   "agent_id": "9745fc8f6bd84d79",
+   "fitness": 0.8227,
    "readability": 1.0,
-   "keyword_score": 0.312,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3333,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-546.4",
-   "tone": "pédagogique",
+   "name": "Prospectif-547.3",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.8401384380549313,
+   "temperature": 0.8437404495596244,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "2ce6adab03054737",
-   "fitness": 0.8424,
+   "agent_id": "da7a6a5115f547d8",
+   "fitness": 0.8227,
    "readability": 1.0,
-   "keyword_score": 0.312,
-   "ctr_score": 0.9,
+   "keyword_score": 0.3333,
+   "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Concis-546.5",
-   "tone": "concis",
+   "name": "Analytique-547.4",
+   "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.7461681810615887,
-   "mutation_rate": 0.89
+   "temperature": 0.848678985669659,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "0eb8dd5695874807",
+   "fitness": 0.8227,
+   "readability": 1.0,
+   "keyword_score": 0.3333,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-547.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.8953312370114193,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 487,
-   "population": 5,
-   "avg_fitness": 0.8571,
-   "best_fitness": 0.8571,
-   "worst_fitness": 0.8571
-  },
   {
    "generation": 488,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.8423999999999999,
    "best_fitness": 0.8424,
    "worst_fitness": 0.8424
+  },
+  {
+   "generation": 547,
+   "population": 5,
+   "avg_fitness": 0.8227,
+   "best_fitness": 0.8227,
+   "worst_fitness": 0.8227
   }
  ],
  "runs": [
+  {
+   "id": 577,
+   "started_at": "2026-11-16T04:23:04+00:00",
+   "finished_at": "2026-11-16T04:23:09+00:00",
+   "generation": 547,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 6.0 h, minimum 12 h"
+  },
   {
    "id": 576,
    "started_at": "2026-11-15T22:23:42+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 8,
    "notes": "llm indisponible (mode dégradé)"
-  },
-  {
-   "id": 537,
-   "started_at": "2026-11-04T20:38:23+00:00",
-   "finished_at": "2026-11-04T20:38:26+00:00",
-   "generation": 507,
-   "status": "success",
-   "items_ingested": 7,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.0 h, minimum 12 h"
   }
  ],
  "publications": [

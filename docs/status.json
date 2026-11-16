@@ -1,27 +1,31 @@
 {
-  "run_id": 576,
-  "generation_evaluated": 546,
-  "next_generation": 547,
+  "run_id": 577,
+  "generation_evaluated": 547,
+  "next_generation": 548,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 546,
-    "best_fitness": 0.8424,
+    "generation": 547,
+    "best_fitness": 0.8227,
     "best_agent": "Critique-542.2",
-    "best_agent_id": "547e6163065842a8",
-    "avg_fitness": 0.8424,
+    "best_agent_id": "0a761a8ea46a4795",
+    "avg_fitness": 0.8227,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille critique : satellites, rocket, amazon en 4 signaux à suivre",
-    "agent": "Critique-542.2",
-    "fitness": 0.8424,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-15-veille-critique-satellites-rocket-amazon-en-4-signaux-a-suiv.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
+    "title": "Veille critique : website-driven, turingfonts, uncrawable en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 547,
+      "population": 5,
+      "avg_fitness": 0.8227,
+      "best_fitness": 0.8227
+    },
     {
       "generation": 546,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81358,
       "best_fitness": 0.8137
-    },
-    {
-      "generation": 537,
-      "population": 5,
-      "avg_fitness": 0.83766,
-      "best_fitness": 0.8377
     }
   ]
 }
