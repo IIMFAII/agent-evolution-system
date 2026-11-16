@@ -1,27 +1,31 @@
 {
-  "run_id": 578,
-  "generation_evaluated": 548,
-  "next_generation": 549,
-  "items_ingested": 8,
+  "run_id": 579,
+  "generation_evaluated": 549,
+  "next_generation": 550,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 548,
-    "best_fitness": 0.853,
+    "generation": 549,
+    "best_fitness": 0.8146,
     "best_agent": "Analytique-548.5",
-    "best_agent_id": "d51d7edeb65745b9",
-    "avg_fitness": 0.8528,
+    "best_agent_id": "82a4b6e60c6e4454",
+    "avg_fitness": 0.8145,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : lance, coffeehouses, actionnaires en 8 signaux à suivre",
-    "agent": "Analytique-548.5",
-    "fitness": 0.853,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-16-veille-analytique-lance-coffeehouses-actionnaires-en-8-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 9.4 h, minimum 12 h",
+    "title": "Veille analytique : shareholders, self-hosted, compromised en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 549,
+      "population": 5,
+      "avg_fitness": 0.81454,
+      "best_fitness": 0.8146
+    },
     {
       "generation": 548,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8344799999999999,
       "best_fitness": 0.8345
-    },
-    {
-      "generation": 539,
-      "population": 5,
-      "avg_fitness": 0.8320000000000001,
-      "best_fitness": 0.832
     }
   ]
 }
