@@ -1,25 +1,33 @@
 {
-  "run_id": 577,
-  "generation_evaluated": 547,
-  "next_generation": 548,
-  "items_ingested": 4,
+  "run_id": 578,
+  "generation_evaluated": 548,
+  "next_generation": 549,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 547,
-    "best_fitness": 0.8227,
-    "best_agent": "Critique-542.2",
-    "best_agent_id": "0a761a8ea46a4795",
-    "avg_fitness": 0.8227,
+    "generation": 548,
+    "best_fitness": 0.853,
+    "best_agent": "Analytique-548.5",
+    "best_agent_id": "d51d7edeb65745b9",
+    "avg_fitness": 0.8528,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille critique : website-driven, turingfonts, uncrawable en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : lance, coffeehouses, actionnaires en 8 signaux à suivre",
+    "agent": "Analytique-548.5",
+    "fitness": 0.853,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-16-veille-analytique-lance-coffeehouses-actionnaires-en-8-signa.md"
   },
   "history": [
+    {
+      "generation": 548,
+      "population": 5,
+      "avg_fitness": 0.8528,
+      "best_fitness": 0.853
+    },
     {
       "generation": 547,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8320000000000001,
       "best_fitness": 0.832
-    },
-    {
-      "generation": 538,
-      "population": 5,
-      "avg_fitness": 0.81358,
-      "best_fitness": 0.8137
     }
   ]
 }

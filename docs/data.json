@@ -1,35 +1,51 @@
 {
- "generated_at": "2026-11-16T04:23:09+00:00",
+ "generated_at": "2026-11-16T14:32:50+00:00",
  "cycle": {
-  "run_id": 577,
-  "generation_evaluated": 547,
-  "next_generation": 548,
-  "items_ingested": 4,
+  "run_id": 578,
+  "generation_evaluated": 548,
+  "next_generation": 549,
+  "items_ingested": 8,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-   "title": "Veille critique : website-driven, turingfonts, uncrawable en 4 signaux à suivre"
+   "published": true,
+   "title": "Veille analytique : lance, coffeehouses, actionnaires en 8 signaux à suivre",
+   "agent": "Analytique-548.5",
+   "fitness": 0.853,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-16-veille-analytique-lance-coffeehouses-actionnaires-en-8-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 547,
-  "best_fitness": 0.8227,
-  "best_agent": "Critique-542.2",
-  "best_agent_id": "0a761a8ea46a4795",
-  "avg_fitness": 0.8227,
+  "generation": 548,
+  "best_fitness": 0.853,
+  "best_agent": "Analytique-548.5",
+  "best_agent_id": "d51d7edeb65745b9",
+  "avg_fitness": 0.8528,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "0a761a8ea46a4795",
-   "fitness": 0.8227,
+   "agent_id": "d51d7edeb65745b9",
+   "fitness": 0.853,
    "readability": 1.0,
-   "keyword_score": 0.3333,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3652,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-548.5",
+   "tone": "analytique",
+   "origin": "crossover",
+   "temperature": 0.7857058299818311,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "7d6e838785014b46",
+   "fitness": 0.8528,
+   "readability": 1.0,
+   "keyword_score": 0.364,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-542.2",
@@ -39,70 +55,49 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "1db71ad291ca4e29",
-   "fitness": 0.8227,
+   "agent_id": "81c511c24e894352",
+   "fitness": 0.8528,
    "readability": 1.0,
-   "keyword_score": 0.3333,
-   "ctr_score": 0.78,
+   "keyword_score": 0.364,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-547.2",
-   "tone": "critique",
-   "origin": "crossover",
-   "temperature": 0.9453769084865333,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "9745fc8f6bd84d79",
-   "fitness": 0.8227,
-   "readability": 1.0,
-   "keyword_score": 0.3333,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-547.3",
+   "name": "Prospectif-548.3",
    "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.8437404495596244,
+   "temperature": 0.9625078306307716,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "da7a6a5115f547d8",
-   "fitness": 0.8227,
+   "agent_id": "691701602a2b47d2",
+   "fitness": 0.8528,
    "readability": 1.0,
-   "keyword_score": 0.3333,
-   "ctr_score": 0.78,
+   "keyword_score": 0.364,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-547.4",
-   "tone": "analytique",
+   "name": "Prospectif-548.4",
+   "tone": "prospectif",
    "origin": "crossover",
-   "temperature": 0.848678985669659,
+   "temperature": 0.8203499835990603,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "0eb8dd5695874807",
-   "fitness": 0.8227,
+   "agent_id": "ff21d3569bb24d9b",
+   "fitness": 0.8526,
    "readability": 1.0,
-   "keyword_score": 0.3333,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3628,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-547.5",
-   "tone": "analytique",
+   "name": "Concis-548.2",
+   "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.8953312370114193,
+   "temperature": 0.8688540101729156,
    "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 488,
-   "population": 5,
-   "avg_fitness": 0.83292,
-   "best_fitness": 0.8426,
-   "worst_fitness": 0.8186
-  },
   {
    "generation": 489,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8227,
    "best_fitness": 0.8227,
    "worst_fitness": 0.8227
+  },
+  {
+   "generation": 548,
+   "population": 5,
+   "avg_fitness": 0.8528,
+   "best_fitness": 0.853,
+   "worst_fitness": 0.8526
   }
  ],
  "runs": [
+  {
+   "id": 578,
+   "started_at": "2026-11-16T14:32:45+00:00",
+   "finished_at": "2026-11-16T14:32:50+00:00",
+   "generation": 548,
+   "status": "success",
+   "items_ingested": 8,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 577,
    "started_at": "2026-11-16T04:23:04+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 7.0 h, minimum 12 h"
-  },
-  {
-   "id": 538,
-   "started_at": "2026-11-05T01:57:05+00:00",
-   "finished_at": "2026-11-05T01:57:09+00:00",
-   "generation": 508,
-   "status": "success",
-   "items_ingested": 8,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
+  {
+   "title": "Veille analytique : lance, coffeehouses, actionnaires en 8 signaux à suivre",
+   "slug": "2026-11-16-veille-analytique-lance-coffeehouses-actionnaires-en-8-signa",
+   "fitness": 0.853,
+   "generation": 548,
+   "created_at": "2026-11-16T14:32:50+00:00",
+   "agent_name": "Analytique-548.5",
+   "tone": "analytique"
+  },
   {
    "title": "Veille critique : satellites, rocket, amazon en 4 signaux à suivre",
    "slug": "2026-11-15-veille-critique-satellites-rocket-amazon-en-4-signaux-a-suiv",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-11-03T17:28:20+00:00",
    "agent_name": "Analytique-500.3",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille analytique : discimagestudio, cleveland-area, anthropic's en 6 signaux à suivre",
-   "slug": "2026-11-03-veille-analytique-discimagestudio-cleveland-area-anthropic-s",
-   "fitness": 0.8187,
-   "generation": 501,
-   "created_at": "2026-11-03T01:59:29+00:00",
-   "agent_name": "Analytique-500.3",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Licence du jeu de données, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 159,
+  "publications": 160,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",
