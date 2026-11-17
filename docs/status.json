@@ -1,25 +1,33 @@
 {
-  "run_id": 579,
-  "generation_evaluated": 549,
-  "next_generation": 550,
-  "items_ingested": 5,
+  "run_id": 580,
+  "generation_evaluated": 550,
+  "next_generation": 551,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 549,
-    "best_fitness": 0.8146,
+    "generation": 550,
+    "best_fitness": 0.8134,
     "best_agent": "Analytique-548.5",
-    "best_agent_id": "82a4b6e60c6e4454",
-    "avg_fitness": 0.8145,
+    "best_agent_id": "58bb57ffe1a9445c",
+    "avg_fitness": 0.8134,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.4 h, minimum 12 h",
-    "title": "Veille analytique : shareholders, self-hosted, compromised en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : tokendoctor, credentials, protection en 4 signaux à suivre",
+    "agent": "Analytique-548.5",
+    "fitness": 0.8134,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-17-veille-analytique-tokendoctor-credentials-protection-en-4-si.md"
   },
   "history": [
+    {
+      "generation": 550,
+      "population": 5,
+      "avg_fitness": 0.8134,
+      "best_fitness": 0.8134
+    },
     {
       "generation": 549,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8320000000000001,
       "best_fitness": 0.832
-    },
-    {
-      "generation": 540,
-      "population": 5,
-      "avg_fitness": 0.8344799999999999,
-      "best_fitness": 0.8345
     }
   ]
 }
