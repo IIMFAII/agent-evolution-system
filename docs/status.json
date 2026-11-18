@@ -1,27 +1,31 @@
 {
-  "run_id": 582,
-  "generation_evaluated": 552,
-  "next_generation": 553,
-  "items_ingested": 5,
+  "run_id": 583,
+  "generation_evaluated": 553,
+  "next_generation": 554,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 552,
-    "best_fitness": 0.8146,
-    "best_agent": "Analytique-548.5",
-    "best_agent_id": "2accad489ff34ebf",
-    "avg_fitness": 0.8145,
+    "generation": 553,
+    "best_fitness": 0.8515,
+    "best_agent": "Concis-553.2",
+    "best_agent_id": "dc9196aac79d4403",
+    "avg_fitness": 0.8373,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : unsuspecting, microsoft's, disappeared en 5 signaux à suivre",
-    "agent": "Analytique-548.5",
-    "fitness": 0.8146,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-18-veille-analytique-unsuspecting-microsoft-s-disappeared-en-5.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 9.3 h, minimum 12 h",
+    "title": "Veille concis : australia's, topographic, fingertips en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 553,
+      "population": 5,
+      "avg_fitness": 0.8373200000000001,
+      "best_fitness": 0.8515
+    },
     {
       "generation": 552,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.8280000000000001,
       "best_fitness": 0.8424
-    },
-    {
-      "generation": 543,
-      "population": 5,
-      "avg_fitness": 0.8153,
-      "best_fitness": 0.8297
     }
   ]
 }
