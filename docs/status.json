@@ -1,25 +1,33 @@
 {
-  "run_id": 585,
-  "generation_evaluated": 555,
-  "next_generation": 556,
-  "items_ingested": 4,
+  "run_id": 586,
+  "generation_evaluated": 556,
+  "next_generation": 557,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 555,
-    "best_fitness": 0.8426,
-    "best_agent": "Concis-553.2",
-    "best_agent_id": "fbc300b9578e46de",
-    "avg_fitness": 0.8282,
+    "generation": 556,
+    "best_fitness": 0.8254,
+    "best_agent": "Prospectif-556.3",
+    "best_agent_id": "d0ddf999a04147ee",
+    "avg_fitness": 0.8209,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 7.0 h, minimum 12 h",
-    "title": "Veille concis : fable, vulnerabilities, competitor en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille prospectif : pre-authentication, high-performance, présidentielle en 5 signaux à suivre",
+    "agent": "Prospectif-556.3",
+    "fitness": 0.8254,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-19-veille-prospectif-pre-authentication-high-performance-presid.md"
   },
   "history": [
+    {
+      "generation": 556,
+      "population": 5,
+      "avg_fitness": 0.82088,
+      "best_fitness": 0.8254
+    },
     {
       "generation": 555,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8227,
       "best_fitness": 0.8227
-    },
-    {
-      "generation": 546,
-      "population": 5,
-      "avg_fitness": 0.8423999999999999,
-      "best_fitness": 0.8424
     }
   ]
 }
