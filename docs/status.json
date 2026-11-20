@@ -1,25 +1,33 @@
 {
-  "run_id": 587,
-  "generation_evaluated": 557,
-  "next_generation": 558,
-  "items_ingested": 6,
+  "run_id": 588,
+  "generation_evaluated": 558,
+  "next_generation": 559,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 557,
-    "best_fitness": 0.842,
-    "best_agent": "Critique-557.3",
-    "best_agent_id": "2730b7b60d484dd6",
-    "avg_fitness": 0.8228,
+    "generation": 558,
+    "best_fitness": 0.8403,
+    "best_agent": "Concis-558.2",
+    "best_agent_id": "85d62d5cc14346b4",
+    "avg_fitness": 0.8213,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 9.0 h, minimum 12 h",
-    "title": "Veille critique : cyberattack, commerciale, sightings en 6 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : engineering, temporarily, mastercard en 5 signaux à suivre",
+    "agent": "Concis-558.2",
+    "fitness": 0.8403,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-20-veille-concis-engineering-temporarily-mastercard-en-5-signau.md"
   },
   "history": [
+    {
+      "generation": 558,
+      "population": 5,
+      "avg_fitness": 0.82126,
+      "best_fitness": 0.8403
+    },
     {
       "generation": 557,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.81454,
       "best_fitness": 0.8146
-    },
-    {
-      "generation": 548,
-      "population": 5,
-      "avg_fitness": 0.8528,
-      "best_fitness": 0.853
     }
   ]
 }
