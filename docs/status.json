@@ -1,27 +1,31 @@
 {
-  "run_id": 592,
-  "generation_evaluated": 562,
-  "next_generation": 563,
+  "run_id": 593,
+  "generation_evaluated": 563,
+  "next_generation": 564,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 562,
+    "generation": 563,
     "best_fitness": 0.8455,
     "best_agent": "Concis-561.5",
-    "best_agent_id": "462953deaaa64e83",
-    "avg_fitness": 0.8311,
+    "best_agent_id": "6c82a7eb2b214746",
+    "avg_fitness": 0.8359,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : surprisingly, programming, collection en 4 signaux à suivre",
-    "agent": "Concis-561.5",
-    "fitness": 0.8455,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-21-veille-concis-surprisingly-programming-collection-en-4-signa.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 8.0 h, minimum 12 h",
+    "title": "Veille concis : verification, hypothesis, detonating en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 563,
+      "population": 5,
+      "avg_fitness": 0.8359,
+      "best_fitness": 0.8455
+    },
     {
       "generation": 562,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82736,
       "best_fitness": 0.8416
-    },
-    {
-      "generation": 553,
-      "population": 5,
-      "avg_fitness": 0.8373200000000001,
-      "best_fitness": 0.8515
     }
   ]
 }
