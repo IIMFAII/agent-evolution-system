@@ -1,27 +1,31 @@
 {
-  "run_id": 590,
-  "generation_evaluated": 560,
-  "next_generation": 561,
-  "items_ingested": 8,
+  "run_id": 591,
+  "generation_evaluated": 561,
+  "next_generation": 562,
+  "items_ingested": 5,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 560,
-    "best_fitness": 0.8218,
-    "best_agent": "Analytique-560.2",
-    "best_agent_id": "8ff1e5749d55488a",
-    "avg_fitness": 0.8216,
+    "generation": 561,
+    "best_fitness": 0.8338,
+    "best_agent": "Concis-561.5",
+    "best_agent_id": "44bc48eb2e4c4ede",
+    "avg_fitness": 0.8148,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : asie-pacifique, hyperscaler, entreprises en 8 signaux à suivre",
-    "agent": "Analytique-560.2",
-    "fitness": 0.8218,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-20-veille-analytique-asie-pacifique-hyperscaler-entreprises-en.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.8 h, minimum 12 h",
+    "title": "Veille concis : mathematics, researcher, dimension en 5 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 561,
+      "population": 5,
+      "avg_fitness": 0.8148,
+      "best_fitness": 0.8338
+    },
     {
       "generation": 560,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.81448,
       "best_fitness": 0.8146
-    },
-    {
-      "generation": 551,
-      "population": 5,
-      "avg_fitness": 0.83848,
-      "best_fitness": 0.8386
     }
   ]
 }
