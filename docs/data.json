@@ -1,108 +1,103 @@
 {
- "generated_at": "2026-11-21T01:01:54+00:00",
+ "generated_at": "2026-11-21T09:05:33+00:00",
  "cycle": {
-  "run_id": 591,
-  "generation_evaluated": 561,
-  "next_generation": 562,
-  "items_ingested": 5,
+  "run_id": 592,
+  "generation_evaluated": 562,
+  "next_generation": 563,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": false,
-   "reason": "cadençage : dernière publication il y a 6.8 h, minimum 12 h",
-   "title": "Veille concis : mathematics, researcher, dimension en 5 signaux à suivre"
+   "published": true,
+   "title": "Veille concis : surprisingly, programming, collection en 4 signaux à suivre",
+   "agent": "Concis-561.5",
+   "fitness": 0.8455,
+   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-21-veille-concis-surprisingly-programming-collection-en-4-signa.md"
   }
  },
  "population": {
   "population": 5,
-  "generation": 561,
-  "best_fitness": 0.8338,
+  "generation": 562,
+  "best_fitness": 0.8455,
   "best_agent": "Concis-561.5",
-  "best_agent_id": "44bc48eb2e4c4ede",
-  "avg_fitness": 0.8148,
+  "best_agent_id": "462953deaaa64e83",
+  "avg_fitness": 0.8311,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "44bc48eb2e4c4ede",
-   "fitness": 0.8338,
+   "agent_id": "462953deaaa64e83",
+   "fitness": 0.8455,
    "readability": 1.0,
-   "keyword_score": 0.2689,
+   "keyword_score": 0.3273,
    "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Concis-561.5",
    "tone": "concis",
-   "origin": "crossover",
+   "origin": "elite",
    "temperature": 0.6705854371465182,
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "7cf80f12789543c7",
-   "fitness": 0.8101,
+   "agent_id": "d889a4e627994fb2",
+   "fitness": 0.8455,
    "readability": 1.0,
-   "keyword_score": 0.2706,
-   "ctr_score": 0.78,
+   "keyword_score": 0.3273,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-560.2",
-   "tone": "analytique",
-   "origin": "elite",
-   "temperature": 0.7001633668137737,
-   "mutation_rate": 0.86
+   "name": "Concis-562.2",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.721678556857672,
+   "mutation_rate": 0.87
   },
   {
-   "agent_id": "042b5d923fdf4db1",
-   "fitness": 0.8101,
+   "agent_id": "6d3bc78125064226",
+   "fitness": 0.8215,
    "readability": 1.0,
-   "keyword_score": 0.2706,
+   "keyword_score": 0.3273,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Analytique-561.3",
+   "name": "Critique-562.3",
+   "tone": "critique",
+   "origin": "crossover",
+   "temperature": 0.659255576797941,
+   "mutation_rate": 0.85
+  },
+  {
+   "agent_id": "d6effccd37f5475b",
+   "fitness": 0.8215,
+   "readability": 1.0,
+   "keyword_score": 0.3273,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Analytique-562.4",
    "tone": "analytique",
    "origin": "crossover",
-   "temperature": 0.8239172627187016,
-   "mutation_rate": 0.9
+   "temperature": 0.8015690805049325,
+   "mutation_rate": 0.85
   },
   {
-   "agent_id": "b2547520c136429c",
-   "fitness": 0.81,
+   "agent_id": "20546d1ced914b6f",
+   "fitness": 0.8215,
    "readability": 1.0,
-   "keyword_score": 0.2698,
+   "keyword_score": 0.3273,
    "ctr_score": 0.78,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Prospectif-561.2",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.5573370417013249,
-   "mutation_rate": 0.9
-  },
-  {
-   "agent_id": "8aa8a09cd92149ac",
-   "fitness": 0.81,
-   "readability": 1.0,
-   "keyword_score": 0.2698,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Pédagogique-561.4",
+   "name": "Pédagogique-562.5",
    "tone": "pédagogique",
    "origin": "crossover",
-   "temperature": 0.5878934956033234,
-   "mutation_rate": 0.9
+   "temperature": 0.685374401980146,
+   "mutation_rate": 0.85
   }
  ],
  "generations": [
-  {
-   "generation": 502,
-   "population": 5,
-   "avg_fitness": 0.84138,
-   "best_fitness": 0.8461,
-   "worst_fitness": 0.8347
-  },
   {
    "generation": 503,
    "population": 5,
@@ -515,9 +510,25 @@
    "avg_fitness": 0.8148,
    "best_fitness": 0.8338,
    "worst_fitness": 0.81
+  },
+  {
+   "generation": 562,
+   "population": 5,
+   "avg_fitness": 0.8311,
+   "best_fitness": 0.8455,
+   "worst_fitness": 0.8215
   }
  ],
  "runs": [
+  {
+   "id": 592,
+   "started_at": "2026-11-21T09:05:26+00:00",
+   "finished_at": "2026-11-21T09:05:33+00:00",
+   "generation": 562,
+   "status": "success",
+   "items_ingested": 4,
+   "notes": "llm indisponible (mode dégradé)"
+  },
   {
    "id": 591,
    "started_at": "2026-11-21T01:01:44+00:00",
@@ -868,18 +879,18 @@
    "status": "success",
    "items_ingested": 5,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.9 h, minimum 12 h"
-  },
-  {
-   "id": 552,
-   "started_at": "2026-11-08T21:34:46+00:00",
-   "finished_at": "2026-11-08T21:34:51+00:00",
-   "generation": 522,
-   "status": "success",
-   "items_ingested": 5,
-   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.1 h, minimum 12 h"
   }
  ],
  "publications": [
+  {
+   "title": "Veille concis : surprisingly, programming, collection en 4 signaux à suivre",
+   "slug": "2026-11-21-veille-concis-surprisingly-programming-collection-en-4-signa",
+   "fitness": 0.8455,
+   "generation": 562,
+   "created_at": "2026-11-21T09:05:33+00:00",
+   "agent_name": "Concis-561.5",
+   "tone": "concis"
+  },
   {
    "title": "Veille analytique : asie-pacifique, hyperscaler, entreprises en 8 signaux à suivre",
    "slug": "2026-11-20-veille-analytique-asie-pacifique-hyperscaler-entreprises-en",
@@ -1050,15 +1061,6 @@
    "created_at": "2026-11-08T16:28:59+00:00",
    "agent_name": "Analytique-520.2",
    "tone": "analytique"
-  },
-  {
-   "title": "Veille analytique : microsoft, research's, competitor en 6 signaux à suivre",
-   "slug": "2026-11-07-veille-analytique-microsoft-research-s-competitor-en-6-signa",
-   "fitness": 0.8346,
-   "generation": 518,
-   "created_at": "2026-11-07T21:20:35+00:00",
-   "agent_name": "Analytique-500.3",
-   "tone": "analytique"
   }
  ],
  "sources": {
@@ -1070,7 +1072,7 @@
   "verdict": "Sans audience mesurée, tous les canaux qui en dépendent sont hors d'atteinte. Reste ce qui n'en dépend pas : Outil vendu sur une place de marché de développeurs, Licence du jeu de données, Compétitions et primes à la performance.",
   "audience": null,
   "fully_automated": true,
-  "publications": 166,
+  "publications": 167,
   "opportunities": [
    {
     "id": "outil_sur_place_de_marche",

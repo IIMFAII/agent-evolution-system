@@ -1,25 +1,33 @@
 {
-  "run_id": 591,
-  "generation_evaluated": 561,
-  "next_generation": 562,
-  "items_ingested": 5,
+  "run_id": 592,
+  "generation_evaluated": 562,
+  "next_generation": 563,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 561,
-    "best_fitness": 0.8338,
+    "generation": 562,
+    "best_fitness": 0.8455,
     "best_agent": "Concis-561.5",
-    "best_agent_id": "44bc48eb2e4c4ede",
-    "avg_fitness": 0.8148,
+    "best_agent_id": "462953deaaa64e83",
+    "avg_fitness": 0.8311,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.8 h, minimum 12 h",
-    "title": "Veille concis : mathematics, researcher, dimension en 5 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : surprisingly, programming, collection en 4 signaux à suivre",
+    "agent": "Concis-561.5",
+    "fitness": 0.8455,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-21-veille-concis-surprisingly-programming-collection-en-4-signa.md"
   },
   "history": [
+    {
+      "generation": 562,
+      "population": 5,
+      "avg_fitness": 0.8311,
+      "best_fitness": 0.8455
+    },
     {
       "generation": 561,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8373200000000001,
       "best_fitness": 0.8515
-    },
-    {
-      "generation": 552,
-      "population": 5,
-      "avg_fitness": 0.81448,
-      "best_fitness": 0.8146
     }
   ]
 }
