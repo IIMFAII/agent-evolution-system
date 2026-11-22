@@ -1,25 +1,33 @@
 {
-  "run_id": 595,
-  "generation_evaluated": 565,
-  "next_generation": 566,
+  "run_id": 596,
+  "generation_evaluated": 566,
+  "next_generation": 567,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 565,
-    "best_fitness": 0.84,
-    "best_agent": "Analytique-564.3",
-    "best_agent_id": "3986e7856ef14338",
-    "avg_fitness": 0.8352,
+    "generation": 566,
+    "best_fitness": 0.8354,
+    "best_agent": "Concis-566.3",
+    "best_agent_id": "3810ec5960e34a96",
+    "avg_fitness": 0.821,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
-    "title": "Veille analytique : standardize, hypothesis, together en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : ai-assisted, contraband, anthropic en 4 signaux à suivre",
+    "agent": "Concis-566.3",
+    "fitness": 0.8354,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-22-veille-concis-ai-assisted-contraband-anthropic-en-4-signaux.md"
   },
   "history": [
+    {
+      "generation": 566,
+      "population": 5,
+      "avg_fitness": 0.8210000000000001,
+      "best_fitness": 0.8354
+    },
     {
       "generation": 565,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.82284,
       "best_fitness": 0.842
-    },
-    {
-      "generation": 556,
-      "population": 5,
-      "avg_fitness": 0.82088,
-      "best_fitness": 0.8254
     }
   ]
 }
