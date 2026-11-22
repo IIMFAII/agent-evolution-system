@@ -1,27 +1,31 @@
 {
-  "run_id": 596,
-  "generation_evaluated": 566,
-  "next_generation": 567,
+  "run_id": 597,
+  "generation_evaluated": 567,
+  "next_generation": 568,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 566,
-    "best_fitness": 0.8354,
+    "generation": 567,
+    "best_fitness": 0.84,
     "best_agent": "Concis-566.3",
-    "best_agent_id": "3810ec5960e34a96",
-    "avg_fitness": 0.821,
+    "best_agent_id": "17f08244de334327",
+    "avg_fitness": 0.84,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille concis : ai-assisted, contraband, anthropic en 4 signaux à suivre",
-    "agent": "Concis-566.3",
-    "fitness": 0.8354,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-22-veille-concis-ai-assisted-contraband-anthropic-en-4-signaux.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
+    "title": "Veille concis : automated, recommits, leonida's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 567,
+      "population": 5,
+      "avg_fitness": 0.8400000000000001,
+      "best_fitness": 0.84
+    },
     {
       "generation": 566,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82126,
       "best_fitness": 0.8403
-    },
-    {
-      "generation": 557,
-      "population": 5,
-      "avg_fitness": 0.82284,
-      "best_fitness": 0.842
     }
   ]
 }
