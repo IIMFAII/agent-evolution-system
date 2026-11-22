@@ -1,27 +1,31 @@
 {
-  "run_id": 594,
-  "generation_evaluated": 564,
-  "next_generation": 565,
+  "run_id": 595,
+  "generation_evaluated": 565,
+  "next_generation": 566,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 564,
-    "best_fitness": 0.8266,
+    "generation": 565,
+    "best_fitness": 0.84,
     "best_agent": "Analytique-564.3",
-    "best_agent_id": "7a8f37ae5f314f08",
-    "avg_fitness": 0.8265,
+    "best_agent_id": "3986e7856ef14338",
+    "avg_fitness": 0.8352,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : cve-2026-125396, inkling-2-mini, upload2shell en 4 signaux à suivre",
-    "agent": "Analytique-564.3",
-    "fitness": 0.8266,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-21-veille-analytique-cve-2026-125396-inkling-2-mini-upload2shel.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 6.0 h, minimum 12 h",
+    "title": "Veille analytique : standardize, hypothesis, together en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 565,
+      "population": 5,
+      "avg_fitness": 0.8352,
+      "best_fitness": 0.84
+    },
     {
       "generation": 564,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.82088,
       "best_fitness": 0.8254
-    },
-    {
-      "generation": 555,
-      "population": 5,
-      "avg_fitness": 0.8282,
-      "best_fitness": 0.8426
     }
   ]
 }
