@@ -1,25 +1,33 @@
 {
-  "run_id": 597,
-  "generation_evaluated": 567,
-  "next_generation": 568,
+  "run_id": 598,
+  "generation_evaluated": 568,
+  "next_generation": 569,
   "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 567,
-    "best_fitness": 0.84,
+    "generation": 568,
+    "best_fitness": 0.835,
     "best_agent": "Concis-566.3",
-    "best_agent_id": "17f08244de334327",
-    "avg_fitness": 0.84,
+    "best_agent_id": "db807b0302c34fdc",
+    "avg_fitness": 0.835,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 6.6 h, minimum 12 h",
-    "title": "Veille concis : automated, recommits, leonida's en 4 signaux à suivre"
+    "published": true,
+    "title": "Veille concis : what, alternative, nespresso's en 4 signaux à suivre",
+    "agent": "Concis-566.3",
+    "fitness": 0.835,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-23-veille-concis-what-alternative-nespresso-s-en-4-signaux-a-su.md"
   },
   "history": [
+    {
+      "generation": 568,
+      "population": 5,
+      "avg_fitness": 0.835,
+      "best_fitness": 0.835
+    },
     {
       "generation": 567,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8751,
       "best_fitness": 0.8751
-    },
-    {
-      "generation": 558,
-      "population": 5,
-      "avg_fitness": 0.82126,
-      "best_fitness": 0.8403
     }
   ]
 }
