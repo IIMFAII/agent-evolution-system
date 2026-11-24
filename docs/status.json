@@ -1,25 +1,33 @@
 {
-  "run_id": 601,
-  "generation_evaluated": 571,
-  "next_generation": 572,
-  "items_ingested": 8,
+  "run_id": 602,
+  "generation_evaluated": 572,
+  "next_generation": 573,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 571,
-    "best_fitness": 0.8252,
+    "generation": 572,
+    "best_fitness": 0.7982,
     "best_agent": "Analytique-571.3",
-    "best_agent_id": "97fa5c8101974636",
-    "avg_fitness": 0.8206,
+    "best_agent_id": "010b126969594bad",
+    "avg_fitness": 0.798,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.4 h, minimum 12 h",
-    "title": "Veille analytique : cybersécurité, collaborateurs, investigation en 8 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : téléphoniques, traduction, exploited en 6 signaux à suivre",
+    "agent": "Analytique-571.3",
+    "fitness": 0.7982,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-24-veille-analytique-telephoniques-traduction-exploited-en-6-si.md"
   },
   "history": [
+    {
+      "generation": 572,
+      "population": 5,
+      "avg_fitness": 0.7980400000000001,
+      "best_fitness": 0.7982
+    },
     {
       "generation": 571,
       "population": 5,
@@ -72,12 +80,6 @@
       "generation": 563,
       "population": 5,
       "avg_fitness": 0.8359,
-      "best_fitness": 0.8455
-    },
-    {
-      "generation": 562,
-      "population": 5,
-      "avg_fitness": 0.8311,
       "best_fitness": 0.8455
     }
   ]
