@@ -1,25 +1,33 @@
 {
-  "run_id": 599,
-  "generation_evaluated": 569,
-  "next_generation": 570,
-  "items_ingested": 8,
+  "run_id": 600,
+  "generation_evaluated": 570,
+  "next_generation": 571,
+  "items_ingested": 7,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 569,
-    "best_fitness": 0.8379,
-    "best_agent": "Critique-569.3",
-    "best_agent_id": "e8aa76860fed4d46",
-    "avg_fitness": 0.8378,
+    "generation": 570,
+    "best_fitness": 0.842,
+    "best_agent": "Analytique-570.2",
+    "best_agent_id": "00c30fc1ab184619",
+    "avg_fitness": 0.8417,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 11.8 h, minimum 12 h",
-    "title": "Veille critique : blocklist, news, current-affairs en 8 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : graphql, israélienne, replacement en 7 signaux à suivre",
+    "agent": "Analytique-570.2",
+    "fitness": 0.842,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-24-veille-analytique-graphql-israelienne-replacement-en-7-signa.md"
   },
   "history": [
+    {
+      "generation": 570,
+      "population": 5,
+      "avg_fitness": 0.8417199999999999,
+      "best_fitness": 0.842
+    },
     {
       "generation": 569,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8148,
       "best_fitness": 0.8338
-    },
-    {
-      "generation": 560,
-      "population": 5,
-      "avg_fitness": 0.82164,
-      "best_fitness": 0.8218
     }
   ]
 }
