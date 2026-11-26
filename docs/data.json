@@ -1,37 +1,35 @@
 {
- "generated_at": "2026-11-25T16:40:10+00:00",
+ "generated_at": "2026-11-26T01:27:34+00:00",
  "cycle": {
-  "run_id": 604,
-  "generation_evaluated": 574,
-  "next_generation": 575,
-  "items_ingested": 8,
+  "run_id": 605,
+  "generation_evaluated": 575,
+  "next_generation": 576,
+  "items_ingested": 6,
   "llm_enabled": false,
   "llm_calls": 0,
   "status": "success",
   "publication": {
-   "published": true,
-   "title": "Veille critique : investigating, distributeurs, cybermenaces en 8 signaux à suivre",
-   "agent": "Critique-573.4",
-   "fitness": 0.8139,
-   "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-25-veille-critique-investigating-distributeurs-cybermenaces-en.md"
+   "published": false,
+   "reason": "cadençage : dernière publication il y a 8.8 h, minimum 12 h",
+   "title": "Veille critique : information, advertisers, backblaze en 6 signaux à suivre"
   }
  },
  "population": {
   "population": 5,
-  "generation": 574,
-  "best_fitness": 0.8139,
+  "generation": 575,
+  "best_fitness": 0.8385,
   "best_agent": "Critique-573.4",
-  "best_agent_id": "90b5184a2a1242af",
-  "avg_fitness": 0.8139,
+  "best_agent_id": "1c4d95ff9023484f",
+  "avg_fitness": 0.8336,
   "diversity": 1.0
  },
  "agents": [
   {
-   "agent_id": "90b5184a2a1242af",
-   "fitness": 0.8139,
+   "agent_id": "1c4d95ff9023484f",
+   "fitness": 0.8385,
    "readability": 1.0,
-   "keyword_score": 0.2896,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
    "name": "Critique-573.4",
@@ -41,70 +39,63 @@
    "mutation_rate": 0.9
   },
   {
-   "agent_id": "2400ace90d3e4b93",
-   "fitness": 0.8139,
+   "agent_id": "0d7a96bf17ec4732",
+   "fitness": 0.8385,
    "readability": 1.0,
-   "keyword_score": 0.2896,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Critique-574.2",
+   "name": "Critique-575.3",
    "tone": "critique",
    "origin": "crossover",
-   "temperature": 0.6604892540552263,
-   "mutation_rate": 0.87
+   "temperature": 0.5445230016751267,
+   "mutation_rate": 0.9
   },
   {
-   "agent_id": "76fe7347c901422d",
-   "fitness": 0.8139,
+   "agent_id": "b8230c0c6be6401c",
+   "fitness": 0.8383,
    "readability": 1.0,
-   "keyword_score": 0.2896,
-   "ctr_score": 0.78,
+   "keyword_score": 0.2914,
+   "ctr_score": 0.9,
    "compliance": 1.0,
    "originality": 1.0,
-   "name": "Pédagogique-574.3",
-   "tone": "pédagogique",
-   "origin": "crossover",
-   "temperature": 0.6329171079541274,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "19292429b24543a3",
-   "fitness": 0.8139,
-   "readability": 1.0,
-   "keyword_score": 0.2896,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Prospectif-574.5",
-   "tone": "prospectif",
-   "origin": "crossover",
-   "temperature": 0.5933943210363662,
-   "mutation_rate": 0.87
-  },
-  {
-   "agent_id": "ac391275817749c0",
-   "fitness": 0.8137,
-   "readability": 1.0,
-   "keyword_score": 0.2886,
-   "ctr_score": 0.78,
-   "compliance": 1.0,
-   "originality": 1.0,
-   "name": "Concis-574.4",
+   "name": "Concis-575.4",
    "tone": "concis",
    "origin": "crossover",
-   "temperature": 0.7619359895465936,
-   "mutation_rate": 0.87
+   "temperature": 0.6409373236119907,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "29c17554fa504bce",
+   "fitness": 0.8383,
+   "readability": 1.0,
+   "keyword_score": 0.2914,
+   "ctr_score": 0.9,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Concis-575.5",
+   "tone": "concis",
+   "origin": "crossover",
+   "temperature": 0.7686377128898585,
+   "mutation_rate": 0.9
+  },
+  {
+   "agent_id": "06c038399ad741f3",
+   "fitness": 0.8145,
+   "readability": 1.0,
+   "keyword_score": 0.2923,
+   "ctr_score": 0.78,
+   "compliance": 1.0,
+   "originality": 1.0,
+   "name": "Prospectif-575.2",
+   "tone": "prospectif",
+   "origin": "crossover",
+   "temperature": 0.6287466870903968,
+   "mutation_rate": 0.9
   }
  ],
  "generations": [
-  {
-   "generation": 515,
-   "population": 5,
-   "avg_fitness": 0.8381000000000001,
-   "best_fitness": 0.8383,
-   "worst_fitness": 0.8379
-  },
   {
    "generation": 516,
    "population": 5,
@@ -517,9 +508,25 @@
    "avg_fitness": 0.81386,
    "best_fitness": 0.8139,
    "worst_fitness": 0.8137
+  },
+  {
+   "generation": 575,
+   "population": 5,
+   "avg_fitness": 0.83362,
+   "best_fitness": 0.8385,
+   "worst_fitness": 0.8145
   }
  ],
  "runs": [
+  {
+   "id": 605,
+   "started_at": "2026-11-26T01:27:28+00:00",
+   "finished_at": "2026-11-26T01:27:34+00:00",
+   "generation": 575,
+   "status": "success",
+   "items_ingested": 6,
+   "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 8.8 h, minimum 12 h"
+  },
   {
    "id": 604,
    "started_at": "2026-11-25T16:39:59+00:00",
@@ -870,15 +877,6 @@
    "status": "success",
    "items_ingested": 3,
    "notes": "llm indisponible (mode dégradé); cadençage : dernière publication il y a 5.6 h, minimum 12 h"
-  },
-  {
-   "id": 565,
-   "started_at": "2026-11-12T23:05:52+00:00",
-   "finished_at": "2026-11-12T23:05:57+00:00",
-   "generation": 535,
-   "status": "success",
-   "items_ingested": 4,
-   "notes": "llm indisponible (mode dégradé)"
   }
  ],
  "publications": [
