@@ -1,25 +1,33 @@
 {
-  "run_id": 607,
-  "generation_evaluated": 577,
-  "next_generation": 578,
-  "items_ingested": 8,
+  "run_id": 608,
+  "generation_evaluated": 578,
+  "next_generation": 579,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 577,
-    "best_fitness": 0.8137,
+    "generation": 578,
+    "best_fitness": 0.8074,
     "best_agent": "Analytique-576.3",
-    "best_agent_id": "68db1a26d4df4d7e",
-    "avg_fitness": 0.8135,
+    "best_agent_id": "b1d4b144469c4b3f",
+    "avg_fitness": 0.8074,
     "diversity": 1.0
   },
   "publication": {
-    "published": false,
-    "reason": "cadençage : dernière publication il y a 10.5 h, minimum 12 h",
-    "title": "Veille analytique : déployer, civilizations-esque, mousquetaires en 8 signaux à suivre"
+    "published": true,
+    "title": "Veille analytique : developers', experiments, deepmind's en 4 signaux à suivre",
+    "agent": "Analytique-576.3",
+    "fitness": 0.8074,
+    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-27-veille-analytique-developers-experiments-deepmind-s-en-4-sig.md"
   },
   "history": [
+    {
+      "generation": 578,
+      "population": 5,
+      "avg_fitness": 0.8074,
+      "best_fitness": 0.8074
+    },
     {
       "generation": 577,
       "population": 5,
@@ -73,12 +81,6 @@
       "population": 5,
       "avg_fitness": 0.8377800000000001,
       "best_fitness": 0.8379
-    },
-    {
-      "generation": 568,
-      "population": 5,
-      "avg_fitness": 0.835,
-      "best_fitness": 0.835
     }
   ]
 }
