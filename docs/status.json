@@ -1,27 +1,31 @@
 {
-  "run_id": 610,
-  "generation_evaluated": 580,
-  "next_generation": 581,
-  "items_ingested": 7,
+  "run_id": 611,
+  "generation_evaluated": 581,
+  "next_generation": 582,
+  "items_ingested": 4,
   "llm_enabled": false,
   "llm_calls": 0,
   "population": {
     "population": 5,
-    "generation": 580,
-    "best_fitness": 0.8141,
+    "generation": 581,
+    "best_fitness": 0.8074,
     "best_agent": "Analytique-576.3",
-    "best_agent_id": "327f406f6ca6492a",
-    "avg_fitness": 0.8139,
+    "best_agent_id": "3e36c4151c4d465b",
+    "avg_fitness": 0.8074,
     "diversity": 1.0
   },
   "publication": {
-    "published": true,
-    "title": "Veille analytique : macintosh-inspired, cyberattaques, wynn-williams en 7 signaux à suivre",
-    "agent": "Analytique-576.3",
-    "fitness": 0.8141,
-    "path": "/home/runner/work/agent-evolution-system/agent-evolution-system/docs/posts/2026-11-27-veille-analytique-macintosh-inspired-cyberattaques-wynn-will.md"
+    "published": false,
+    "reason": "cadençage : dernière publication il y a 7.5 h, minimum 12 h",
+    "title": "Veille analytique : deepcrossattention, webassembly, landlord's en 4 signaux à suivre"
   },
   "history": [
+    {
+      "generation": 581,
+      "population": 5,
+      "avg_fitness": 0.8074,
+      "best_fitness": 0.8074
+    },
     {
       "generation": 580,
       "population": 5,
@@ -75,12 +79,6 @@
       "population": 5,
       "avg_fitness": 0.7980400000000001,
       "best_fitness": 0.7982
-    },
-    {
-      "generation": 571,
-      "population": 5,
-      "avg_fitness": 0.8205600000000001,
-      "best_fitness": 0.8252
     }
   ]
 }
